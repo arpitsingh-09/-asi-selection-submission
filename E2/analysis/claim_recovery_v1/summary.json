@@ -1,0 +1,35 @@
+{
+  "short_records": 58,
+  "papers_with_additions": 24,
+  "additions": 28,
+  "candidate_sets_reaching_four": 22,
+  "still_below_four": 36,
+  "not_human_validated": true,
+  "rejected_occurrences": {
+    "nonexact_or_empty_evidence": 263
+  },
+  "source_sha256": {
+    "data/claims_diagnostic.jsonl": "88c5d68ff25909e50797315749be26f4c30d4ab219acbefe0a7243f060c5fc21",
+    "data/claims_pilot.jsonl": "3f2c9710c5a1eb20384e70867d9e73cada2a8aa9640f094eff24305041b4948b",
+    "data/claims_pilot_attempt1.jsonl": "3f2c9710c5a1eb20384e70867d9e73cada2a8aa9640f094eff24305041b4948b",
+    "data/claims_pilot_attempt2.jsonl": "3d5b92c0bbd3e99fba3a0672c9f3caa2887435b98f0613d3e25f25f6244564aa",
+    "data/claims_pilot_attempt3.jsonl": "99ef6dadad64e65c067f3a503644a6d1d390cedef221906af121fc431d390cd5",
+    "data/claims_pilot_attempt4.jsonl": "56ae19f65f7534e3c2e885bec1afec1496ab7cc568ce80f7cd382c6fad45c76e",
+    "data/claims_v2_pilot3.jsonl": "0810f9df65c9d1f54c4caa41875cf0491ec001b540a976fdb3070150a03e3c29",
+    "data/claims_v2_test.jsonl": "666e4c8ef8791386b39fa015e54a112cc995ed892bc84efba2a814ab82084370",
+    "data/claims_v3_pilot3.jsonl": "30794dbe0b1b4f4d9058f64d7decbc6732b6cfea3e6d89b6826275fedfea32cf",
+    "data/claims_v4_pilot3.jsonl": "3b99d910e3b9a72a47865508ed1640f410dc74330d3c949e0f1ad67223646407",
+    "data/claims_v5_pilot3.jsonl": "14458f9b7c914ad71e329967366a0a05e1b858213c649202df0abb451173200a",
+    "data/claims_v6_pilot3.jsonl": "2661641268b9e3198dce68b2460860562d253ae58a4aa23b8d9db64a515f7788",
+    "data/claims_v7_pilot3.jsonl": "161870fd95219775d0788102e7a093566f8204b5e1ecc44938798da5a3f25071",
+    "data/claims_v8_full300.jsonl": "2a468e5ffd331efcd8fe5ac37f4413be5eadb0e559b3de36268e7d18ed1a20fd",
+    "data/claims_v8_full300_resume.jsonl": "8b477767429d2bc0088d0a9291e4b9820d1d7d3e8f2002f73b54e88628efe4d5",
+    "data/claims_v8_full300_resume_141_300.jsonl": "30fdf7f501efd5dfc4843c008dcb895a0af2628ca0c6870ea60d645d0a9beb16",
+    "data/claims_v8_full300_resume_97_300.jsonl": "e46c69b6a64b411ce7e8a2be76218a4fd473f18fbe8a39cdebee18ab8d4d1252",
+    "data/claims_v8_pilot10.jsonl": "0875c5e26cb78b9786b4163d6920422139a6aa0edc5fe9e1c024af60fed16677",
+    "data/claims_v8_pilot3.jsonl": "85fe5d924bd5d9fc2d6ab89700f93dba50b57f3df6e8e5b643ab70f3dd2b9a87",
+    "data/claims_v8_qwen_missing152.jsonl": "90db05691ed2eeaea5707235355b59dbe7e6c3afd3823641cfdc1cb6fcded4f1",
+    "data/claims_v8_selected.jsonl": "2266fe8e086ebd1ca2bdea1db0e4eccd241a2fc8f1d1282b9e9c5fcb37ec723d",
+    "data/claims_v8_targeted_under4.jsonl": "632f105729d028ef50efe03d23e5ff49324b9ea8e1b5b1720cc2215df072aae3"
+  }
+}

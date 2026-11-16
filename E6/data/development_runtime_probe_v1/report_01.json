@@ -1,0 +1,25 @@
+{
+  "actual_development_prompt_tokens": null,
+  "approval_mutation": false,
+  "confirmatory_experiment": false,
+  "development_input_id": "2610.29477",
+  "development_manifest_sha256": "020d9f8cec74396394b929b4baef168787f03ecc022cf2279cc36589e5b03dec",
+  "error": "Ollama local verification request /api/version failed: <urlopen error [Errno 1] Operation not permitted>",
+  "error_type": "RuntimeError",
+  "finished_at_utc": "2026-11-11T16:33:34.513254+00:00",
+  "report_sha256": "384b5f19640e5ddead7a8cada937570214988896ef113296e56413e27de46a72",
+  "run_identity": "8f15f56a5ad1a6a36ce0ac41f5c31a3c03f95c60f88a1cc0ab8fa74ebe0b953b",
+  "schema_version": "e6-development-runtime-probe-v1",
+  "scope": "DEVELOPMENT_only_runtime_verification",
+  "settings": {
+    "model": "gemma3:12b",
+    "num_ctx": 32768,
+    "num_predict": 2048,
+    "seed": 2026,
+    "temperature": 0.0,
+    "top_p": 1.0
+  },
+  "started_at_utc": "2026-11-11T16:33:34.509905+00:00",
+  "status": "blocked_or_failed",
+  "steps": {}
+}

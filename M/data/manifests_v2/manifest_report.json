@@ -1,0 +1,124 @@
+{
+  "exact_duplicate_rows_removed": 7,
+  "counts": {
+    "train": 25,
+    "validation": 2,
+    "test": 80,
+    "gap": 0
+  },
+  "genuine_labels": {
+    "train": {
+      "peer_review": 0,
+      "later_community_use": 0
+    },
+    "validation": {
+      "peer_review": 0,
+      "later_community_use": 0
+    },
+    "test": {
+      "peer_review": 0,
+      "later_community_use": 0
+    },
+    "gap": {
+      "peer_review": 0,
+      "later_community_use": 0
+    }
+  },
+  "rejected": [
+    {
+      "question_id": "2501.00192v2:abstract-question:0",
+      "reason": "version unavailable in partition"
+    },
+    {
+      "question_id": "2012.14309v3:abstract-question:0",
+      "reason": "version unavailable in partition"
+    },
+    {
+      "question_id": "2112.13870v2:abstract-question:0",
+      "reason": "version unavailable in partition"
+    },
+    {
+      "question_id": "2312.17535v2:abstract-question:0",
+      "reason": "version unavailable in partition"
+    },
+    {
+      "question_id": "2501.00659v2:abstract-question:0",
+      "reason": "version unavailable in partition"
+    },
+    {
+      "question_id": "2501.00273v2:abstract-question:0",
+      "reason": "version unavailable in partition"
+    },
+    {
+      "question_id": "2501.00192v2:abstract-question:0",
+      "reason": "version unavailable in partition"
+    },
+    {
+      "question_id": "2501.00070v2:abstract-question:0",
+      "reason": "version unavailable in partition"
+    },
+    {
+      "question_id": "2501.00062v2:abstract-question:0",
+      "reason": "version unavailable in partition"
+    },
+    {
+      "question_id": "2301.00270v3:abstract-question:0",
+      "reason": "version unavailable in partition"
+    },
+    {
+      "question_id": "2301.00016v2:abstract-question:0",
+      "reason": "version unavailable in partition"
+    },
+    {
+      "question_id": "2301.00016v2:abstract-question:1",
+      "reason": "version unavailable in partition"
+    },
+    {
+      "question_id": "2212.14852v3:abstract-question:0",
+      "reason": "version unavailable in partition"
+    },
+    {
+      "question_id": "2212.14852v3:abstract-question:1",
+      "reason": "version unavailable in partition"
+    },
+    {
+      "question_id": "2212.14852v3:abstract-question:2",
+      "reason": "version unavailable in partition"
+    },
+    {
+      "question_id": "2212.14400v2:abstract-question:0",
+      "reason": "version unavailable in partition"
+    },
+    {
+      "question_id": "2212.14400v2:abstract-question:1",
+      "reason": "version unavailable in partition"
+    },
+    {
+      "question_id": "2212.14400v2:abstract-question:2",
+      "reason": "version unavailable in partition"
+    },
+    {
+      "question_id": "2501.00659v2:abstract-question:0",
+      "reason": "version unavailable in partition"
+    },
+    {
+      "question_id": "2501.00192v2:abstract-question:0",
+      "reason": "version unavailable in partition"
+    },
+    {
+      "question_id": "2501.00085v2:abstract-question:0",
+      "reason": "version unavailable in partition"
+    },
+    {
+      "question_id": "E1:h004:A",
+      "reason": "E1 candidates accepted for heldout manifest only"
+    }
+  ],
+  "heldout_evaluated": false,
+  "limitations": [
+    "Verbatim question passages need focal-intent review.",
+    "Input references absent; explicit empty-input condition only.",
+    "E1 heldout candidates are not evaluation eligible.",
+    "No quality labels imputed from text, scores or venue years."
+  ]
+}

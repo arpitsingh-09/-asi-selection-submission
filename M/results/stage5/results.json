@@ -1,0 +1,156 @@
+{
+  "schema": "M-stage5-ledger-v1",
+  "evaluations_executed": 0,
+  "blocked_count": 9,
+  "tests": [
+    {
+      "test": "I1",
+      "status": "BLOCKED",
+      "eligible_records": 0,
+      "executed": false,
+      "metrics": null,
+      "ci95": null,
+      "baseline_comparison": null,
+      "blockers": [
+        "No verified original input links, shuffled/independently verified decoy controls.",
+        "No fitted Q heads or frozen normalization for every readout."
+      ]
+    },
+    {
+      "test": "I3",
+      "status": "BLOCKED",
+      "eligible_records": 0,
+      "executed": false,
+      "metrics": null,
+      "ci95": null,
+      "baseline_comparison": null,
+      "blockers": [
+        "No length-matched dated Q/N preference labels linked to M questions.",
+        "Q heads unavailable."
+      ]
+    },
+    {
+      "test": "S1",
+      "status": "BLOCKED",
+      "eligible_records": 0,
+      "executed": false,
+      "metrics": null,
+      "ci95": null,
+      "baseline_comparison": null,
+      "blockers": [
+        "E1 source-alignment/second-reader annotations are unverified.",
+        "Question creation dates and original input/control links unavailable.",
+        "No verified cache model training cutoff."
+      ]
+    },
+    {
+      "test": "A1",
+      "status": "BLOCKED",
+      "eligible_records": 0,
+      "executed": false,
+      "metrics": null,
+      "ci95": null,
+      "baseline_comparison": null,
+      "blockers": [
+        "Existing E2 results are previously evaluated development evidence, not prospective M tests.",
+        "No new heldout partial-coverage/concentration cohort with original inputs and four controls."
+      ]
+    },
+    {
+      "test": "H1",
+      "status": "BLOCKED",
+      "eligible_records": 0,
+      "executed": false,
+      "metrics": null,
+      "ci95": null,
+      "baseline_comparison": null,
+      "blockers": [
+        "No local source-bound expert battles linked to seed IDs and generating systems with dated labels.",
+        "Q heads unavailable."
+      ]
+    },
+    {
+      "test": "H3",
+      "status": "BLOCKED",
+      "eligible_records": 0,
+      "executed": false,
+      "metrics": null,
+      "ci95": null,
+      "baseline_comparison": null,
+      "blockers": [
+        "No post-July-2025 original question/version and review-observation-date linkage.",
+        "Q heads, semantic B-Q and independently estimated human ceiling unavailable."
+      ]
+    },
+    {
+      "test": "O1",
+      "status": "BLOCKED",
+      "eligible_records": 0,
+      "executed": false,
+      "metrics": null,
+      "ci95": null,
+      "baseline_comparison": null,
+      "blockers": [
+        "No dated peer-review AND community-use outcomes linked to postcutoff question versions within topic.",
+        "Both Q heads unavailable."
+      ]
+    },
+    {
+      "test": "O2",
+      "status": "BLOCKED",
+      "eligible_records": 0,
+      "executed": false,
+      "metrics": null,
+      "ci95": null,
+      "baseline_comparison": null,
+      "blockers": [
+        "No verified identical >=3-seed citation groups, within-year dates and dated outcome linkage.",
+        "Q outcome prediction unavailable."
+      ]
+    },
+    {
+      "test": "T1",
+      "status": "BLOCKED",
+      "eligible_records": 0,
+      "executed": false,
+      "metrics": null,
+      "ci95": null,
+      "baseline_comparison": null,
+      "blockers": [
+        "No separately trained and prospectively frozen 2022 and 2023 head artifacts.",
+        "No complete-head normalized predictions and original input controls."
+      ]
+    }
+  ],
+  "descriptive_results": {
+    "s1_pairs_prepared": 122,
+    "s1_focal_questions": 61,
+    "s1_human_confirmed": 0,
+    "e1_pending_manual_confirmation": 61,
+    "cpu_semantic_vectors": 183,
+    "vector_dimension": 384,
+    "encoding_seconds": 0.8069050410000003,
+    "review_scores_recovered": 570,
+    "review_paper_identity_links": 277,
+    "review_public_observation_dates": 0,
+    "question_linked_usable_labels": 0,
+    "quality_models_fitted": 0,
+    "train_records": 25,
+    "validation_records": 2,
+    "heldout_candidates_manifest_only": 80,
+    "heldout_evaluations": 0,
+    "examples": [
+      {
+        "kind": "illustrative E1 pair; no human label",
+        "item_id": "h001",
+        "source_arxiv": "2610.26863",
+        "candidate_A": "Is language pretraining necessary for strong text-to-image generation?",
+        "candidate_B_min": "Is language pretraining required for strong text-to-image generation?",
+        "candidate_C": "Is language pretraining harmful to strong text-to-image generation?",
+        "verified_status": "source_alignment_audit says PENDING_MANUAL_CONFIRMATION; excluded from all metrics"
+      }
+    ]
+  },
+  "confidence_intervals": null,
+  "interpretation": "Descriptive counts and encoder preparation only; no predictive or scientific validation."
+}

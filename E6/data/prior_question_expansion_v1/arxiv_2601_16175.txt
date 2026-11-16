@@ -1,0 +1,76 @@
+[2601.16175] Learning to Discover at Test Time (https://arxiv.org/abs/2601.16175)
+citeturn9view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2601.16175","lineno":null}); Total lines: 167
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1: 
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3: 
+L4: Press Enter to search · 【4†Advanced search】
+L5: 
+L6: # Computer Science > Machine Learning
+L7: 
+L8: [Submitted on 22 Jan 2026 (【5†v1】), last revised 5 Feb 2026 (this version, v2)]
+L9: # Title:Learning to Discover at Test Time
+L10: 
+L11: Authors:【6†Mert Yuksekgonul】, 【7†Daniel Koceja】, 【8†Xinhao Li】, 【9†Federico Bianchi】, 【10†Jed McCaleb】, 【11†Xiaolong Wang】, 【12†Jan Kautz】, 【13†Yejin Choi】, 【14†James Zou】, 【15†Carlos Guestrin】, 【16†Yu Sun】
+L12: 
+L13: View a PDF of the paper titled Learning to Discover at Test Time, by Mert Yuksekgonul and 10 other authors
+L14: 
+L15: 【17†View PDF】 【18†HTML (experimental)】
+L16: > Abstract:How can we use AI to discover a new state of the art for a scientific problem? Prior work in test-time scaling, such as AlphaEvolve, performs search by prompting a frozen LLM. We perform reinforcement learning at test time, so the LLM can continue to train, but now with experience specific to the test problem.
+L17: This form of continual learning is quite special, because its goal is to produce one great solution rather than many good ones on average, and to solve this very problem rather than generalize to other problems. Therefore, our learning objective and search subroutine are designed to prioritize the most promising solutions. We call this method Test-Time Training to Discover (TTT-Discover). Following prior work, we focus on problems with continuous rewards.
+L18: We report results for every problem we attempted, across mathematics, GPU kernel engineering, algorithm design, and biology. TTT-Discover sets the new state of the art in almost all of them: (i) Erdős' minimum overlap problem and an autocorrelation inequality; (ii) a GPUMode kernel competition (up to $2\times$ faster than prior art); (iii) past AtCoder algorithm competitions; and (iv) denoising problem in single-cell analysis. Our solutions are reviewed by experts or the organizers.
+L19: All our results are achieved with an open model, OpenAI gpt-oss-120b, and can be reproduced with our publicly available code, in contrast to previous best results that required closed frontier models. Our test-time training runs are performed using Tinker, an API by Thinking Machines, with a cost of only a few hundred dollars per problem.
+L20: Comments:  | Code: 【19†this https URL†github.com】
+L21: Subjects:  | Machine Learning (cs.LG); Artificial Intelligence (cs.AI)
+L22: Cite as:  | 【20†arXiv:2601.16175】 [cs.LG]
+L23:    | (or 【21†arXiv:2601.16175v2】 [cs.LG] for this version)
+L24:    | 【22†https://doi.org/10.48550/arXiv.2601.16175†doi.org】 arXiv-issued DOI via DataCite
+L25: ## Submission history
+L26: 
+L27: From: Yu Sun [【23†view email】]
+L28: 【5†[v1]】 Thu, 22 Jan 2026 18:24:00 UTC (386 KB)
+L29: [v2] Thu, 5 Feb 2026 18:03:03 UTC (387 KB)
+L30: 
+L31: Full-text links:
+L32: 
+L33: ## Access Paper:
+L34: 
+L35: View a PDF of the paper titled Learning to Discover at Test Time, by Mert Yuksekgonul and 10 other authors
+L36: 
+L37:   * 【17†View PDF】
+L38:   * 【18†HTML (experimental)】
+L39:   * 【24†TeX Source】
+L40: 
+L41: 【25†view license†creativecommons.org】
+L42: ### Current browse context:
+L43: 
+L44: cs.LG
+L45: 
+L46: 【26†< prev】   |   【27†next >】
+L47: 
+L48: 【28†new】 | 【29†recent】 | 【30†2026-01】
+L49: 
+L50: Change to browse by:
+L51: 
+L52: 【31†cs】
+L53: 【32†cs.AI】
+L54: 
+L55: ### References & Citations
+L56: 
+L57:   * 【33†NASA ADS†ui.adsabs.harvard.edu】
+L58:   * 【34†Google Scholar†scholar.google.com】
+L59:   * 【35†Semantic Scholar†api.semanticscholar.org】
+L60: 
+L61: [Button: export BibTeX citation] Loading...
+L62: 
+L63: ## BibTeX formatted citation
+L64: 
+L65: [Button: ×]
+L66: 
+L67: loading...
+L68: 
+L69: Data provided by:
+L70: 
+L71: ### Bookmark
+L72: 
+L73: [Input] Bibliographic Tools

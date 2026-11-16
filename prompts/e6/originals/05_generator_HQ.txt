@@ -1,0 +1,126 @@
+Great! Template 04 — QH-rand is prepared.
+
+Current progress
+
+No.	Experimental arm	Status
+01	D — Direct generation	Prepared
+02	QH — Question → Hypothesis	Prepared
+03	QH-sel — Selected questions	Prepared
+04	QH-rand — Random questions	Prepared
+
+Next is Template 05 — HQ (Hypothesis → Question).
+
+Purpose
+
+This arm reverses the QH process:
+
+1. Generate exactly six hypotheses from the research evidence.
+2. Generate one research question for each hypothesis.
+3. Each question must explain what its corresponding hypothesis attempts to investigate.
+
+Step 1 — Create the file
+
+Run:
+
+touch prompts/e6/05_generator_HQ.txt
+open -e prompts/e6/05_generator_HQ.txt
+
+Step 2 — Paste this prompt
+
+ROLE
+
+You are an AI research scientist. Your task is to generate research hypotheses first and then formulate research questions that correspond to those hypotheses.
+
+INPUT
+
+Research domain and task:
+{{DOMAIN_AND_TASK}}
+
+Research evidence:
+{{EVIDENCE}}
+
+INSTRUCTIONS
+
+STAGE 1 — HYPOTHESIS GENERATION
+
+1. Examine the research task and supporting evidence.
+2. Generate exactly SIX distinct research hypotheses.
+3. Each hypothesis must:
+    * Be one declarative sentence.
+    * Contain no more than 50 words.
+    * Express a specific, testable relationship, mechanism, or prediction.
+    * Be relevant to the research task.
+    * Be grounded in the supplied evidence.
+    * Be meaningfully distinct from the other hypotheses.
+
+STAGE 2 — RESEARCH QUESTION GENERATION
+
+4. For EACH hypothesis, generate exactly ONE research question.
+5. Each question must:
+    * Directly investigate its corresponding hypothesis.
+    * Be clear, specific, and researchable.
+    * Preserve the central relationship or mechanism in the hypothesis.
+    * Be meaningfully different from the other five questions.
+6. Do not generate additional hypotheses or questions.
+
+GENERAL RESTRICTIONS
+
+* Do not invent evidence.
+* Do not claim experimental validation.
+* Do not generate hypotheses by copying the same idea with different wording.
+* Do not provide explanations, introductions, conclusions, citations, or recommendations.
+
+OUTPUT FORMAT
+
+Return valid JSON only:
+
+{
+“arm”: “HQ”,
+“hypotheses”: [
+{
+“id”: “H1”,
+“text”: “First hypothesis.”,
+“research_question”: “First research question.”
+},
+{
+“id”: “H2”,
+“text”: “Second hypothesis.”,
+“research_question”: “Second research question.”
+},
+{
+“id”: “H3”,
+“text”: “Third hypothesis.”,
+“research_question”: “Third research question.”
+},
+{
+“id”: “H4”,
+“text”: “Fourth hypothesis.”,
+“research_question”: “Fourth research question.”
+},
+{
+“id”: “H5”,
+“text”: “Fifth hypothesis.”,
+“research_question”: “Fifth research question.”
+},
+{
+“id”: “H6”,
+“text”: “Sixth hypothesis.”,
+“research_question”: “Sixth research question.”
+}
+]
+}
+
+FINAL VALIDATION
+
+Verify that:
+
+* Exactly six hypotheses are present.
+* Exactly one research question corresponds to each hypothesis.
+* Every hypothesis is one declarative sentence of no more than 50 words.
+* Every question directly investigates its corresponding hypothesis.
+* All hypotheses and questions are meaningfully distinct.
+* The response is valid JSON with no additional text.
+
+Save using Cmd + S.
+
+When saved, say done.

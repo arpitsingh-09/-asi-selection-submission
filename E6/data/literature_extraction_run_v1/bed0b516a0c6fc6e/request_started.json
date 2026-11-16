@@ -1,0 +1,32 @@
+{
+  "client_configuration": {
+    "backend": "ollama-local",
+    "endpoint": "http://localhost:11434/api/generate",
+    "format": "json",
+    "generation_options": {
+      "num_ctx": 32768,
+      "num_predict": 2048,
+      "seed": 2026,
+      "temperature": 0,
+      "top_p": 1
+    },
+    "model": "gemma3:12b",
+    "stream": false,
+    "timeout_seconds": 600.0
+  },
+  "content_attempt": 1,
+  "identity": "a3aa6918999216690faa765cf73dd973d47ec4658082e8289d0427aa2c0901c6",
+  "model_configuration": {
+    "context_limit": 32768,
+    "immutable_version_or_digest": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+    "max_output_tokens": 2048,
+    "model": "gemma3:12b",
+    "seed": 2026,
+    "temperature": 0,
+    "top_p": 1
+  },
+  "prompt": "ROLE\nYou are a scientific paper information extractor.\n\nTASK\nExtract the target paper's research question and main hypothesis using only the supplied paper text.\n\nTARGET PAPER TEXT\nJet tagging is one of the most important applications of machine learning at the Large Hadron Collider. Recent models build in more physics knowledge or rely on large-scale pretraining, but the experiments place strict limits on their inference cost. Knowledge distillation can transfer their performance to small students that are cheap to run. We ask which properties of a teacher help the student, how small a student can get and how close it can come to the state of the art. On a jet tagging benchmark, we distil six teachers that differ in architecture, symmetry and pretraining, including two foundation models, into five small students. Every teacher improves every student, and the gain depends mainly on the strength of the teacher. We then shrink our two strongest distilled students, Transformer and L-GATr-slim, in width and in depth. With 20 thousand parameters, a distilled L-GATr-slim outperforms every published jet tagger trained from scratch at a fraction of the inference cost of every teacher. Even with two thousand parameters, it matches ParT, a model with a thousand times as many parameters. We also study what the students learn from their teachers. Our benchmark of inference cost shows that students of the same size can differ by almost an order of magnitude in speed. We release the code and the weights of all trained models.\n\nRULES\n1. Use only the supplied text.\n2. Do not use outside knowledge or infer information unsupported by the text.\n3. Prefer an explicitly stated research question or hypothesis.\n4. If the research question is not explicitly stated but is clearly supported by the text, provide a concise faithful formulation and set research_question_explicit to false.\n5. If no research question can be reliably identified, return null.\n6. Apply the same explicitness rule to the main hypothesis.\n7. Do not confuse the paper's general topic, method or objective with its research question.\n8. Do not invent a hypothesis merely because the paper reports results.\n9. Keep extracted statements concise and faithful to the authors' meaning.\n\nOUTPUT\nReturn valid JSON only:\n\n{\n  \"research_question\": null,\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": null,\n  \"main_hypothesis_explicit\": false\n}\n\nUse strings instead of null when a statement can be reliably extracted or formulated. Explicitness fields must always be JSON booleans.\n",
+  "prompt_sha256": "3f73e4c8176a8bf206e694b4a0fb9bd0fd7703954c3b6539e18e7ab3772c4a5d",
+  "stage": "reference_target_extraction",
+  "started_at_utc": "2026-11-12T13:27:13.322684+00:00"
+}

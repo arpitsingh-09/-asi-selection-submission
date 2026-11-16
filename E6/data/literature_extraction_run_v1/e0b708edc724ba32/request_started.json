@@ -1,0 +1,32 @@
+{
+  "client_configuration": {
+    "backend": "ollama-local",
+    "endpoint": "http://localhost:11434/api/generate",
+    "format": "json",
+    "generation_options": {
+      "num_ctx": 32768,
+      "num_predict": 2048,
+      "seed": 2026,
+      "temperature": 0,
+      "top_p": 1
+    },
+    "model": "gemma3:12b",
+    "stream": false,
+    "timeout_seconds": 600.0
+  },
+  "content_attempt": 1,
+  "identity": "e4d5d3e21007b2ab1863b5a568757643d0023e5d79c3fc2c89ba762a1c449443",
+  "model_configuration": {
+    "context_limit": 32768,
+    "immutable_version_or_digest": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+    "max_output_tokens": 2048,
+    "model": "gemma3:12b",
+    "seed": 2026,
+    "temperature": 0,
+    "top_p": 1
+  },
+  "prompt": "ROLE\nYou are a scientific paper information extractor.\n\nTASK\nExtract the target paper's research question and main hypothesis using only the supplied paper text.\n\nTARGET PAPER TEXT\nProbing studies of latent reasoning often read a model's state where the answer begins and take a failed probe as evidence that a value is absent. We test this with a digit copied from the question, in the looped model Ouro-1.4B and the standard transformer Qwen2.5-1.5B. Comparing prompts that differ only in that digit shows it is present at the last prompt token, in a code shared across questions (readout about 0.9). A probe that sees one prompt at a time, the usual setting, barely reads it: 0.36 in Ouro and 0.19 in Qwen even after 5,249 training questions. The digit's change is small rather than crowded: random noise lands on equally busy directions, while a random word in its place moves the state far more and is readable. Since every varied token leaves a trace, a successful probe is ambiguous too. We give a protocol, including a synthetic null for generic mixing, for testing computed values against copies and mixtures of the inputs. In pre-registered studies of two-step problems it finds a small signal for the unwritten intermediate a+b just before Ouro writes the answer's last digit, and its sign follows the operation, though mixing alone produces much of that sign-following part. Holding that value at another problem's from the first loop on does not move the written digit toward the other problem's, while the same patch of the answer does: the value is readable but not used.\n\nRULES\n1. Use only the supplied text.\n2. Do not use outside knowledge or infer information unsupported by the text.\n3. Prefer an explicitly stated research question or hypothesis.\n4. If the research question is not explicitly stated but is clearly supported by the text, provide a concise faithful formulation and set research_question_explicit to false.\n5. If no research question can be reliably identified, return null.\n6. Apply the same explicitness rule to the main hypothesis.\n7. Do not confuse the paper's general topic, method or objective with its research question.\n8. Do not invent a hypothesis merely because the paper reports results.\n9. Keep extracted statements concise and faithful to the authors' meaning.\n\nOUTPUT\nReturn valid JSON only:\n\n{\n  \"research_question\": null,\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": null,\n  \"main_hypothesis_explicit\": false\n}\n\nUse strings instead of null when a statement can be reliably extracted or formulated. Explicitness fields must always be JSON booleans.\n",
+  "prompt_sha256": "7a314a90bd4f4f3a1ad6e8186b5642d42b813a56f5d61d3bc7ebd0d5891c9fde",
+  "stage": "reference_target_extraction",
+  "started_at_utc": "2026-11-12T13:47:56.856999+00:00"
+}

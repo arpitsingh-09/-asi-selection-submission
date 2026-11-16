@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:49:02.998043+00:00",
+  "identity": "dd95af3c92a8c03fed0735fa2a3c8b9234bca6112e0b9cf3a4d522a3cd185143",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:49:02.985075Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 97,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 16.123241250000092,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:49:02.985075Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2418,
+      "prompt_eval_count": 484,
+      "prompt_sha256": "ba9eccc6cea0f0dd5004972ebccb40cbf45589fce961082eddca0a1af77805ed",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 581,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 484,
+    "latency_seconds": 16.123241250000092,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:49:02.985075Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 97,
+    "raw_response": "{\n  \"research_question\": \"How can Vision Large Language Models (VLLMs) be improved for recognizing the structure and content of unstructured tables?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"Integrating diverse lightweight tools for visual operations, specifically through tool selection transfer and a reflection module, will enhance the recognition capabilities of vanilla VLLMs in unstructured table recognition.\",\n  \"main_hypothesis_explicit\": false\n}",
+    "total_tokens": 581
+  },
+  "reply_sha256": "0e27b8f7587f8f8116e6aab71e6155a6ca4b3022346129cc87e70fa17cb26e47"
+}

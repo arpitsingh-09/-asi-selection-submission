@@ -1,0 +1,259 @@
+{
+  "authoritative_metadata": {
+    "raw_response_bytes": 20739,
+    "raw_response_path": "M/data/a1_public_source_v1/source_verification_v1/arxiv_metadata.xml",
+    "raw_response_sha256": "02a8356c0d658967b9f419c79f5a559b1b23588dbd457e4b05ee1183a0214b24",
+    "record_count": 8,
+    "request_url": "https://export.arxiv.org/api/query?id_list=2501.01329,2211.01910,2309.03409,2304.07575,2501.04486,2308.14036,2111.09881,1706.03762",
+    "service": "arXiv export API"
+  },
+  "cohort_decision": {
+    "controls_built": false,
+    "eligible_records": 0,
+    "evaluation_scored": false,
+    "minimum_remaining_requirement": "Obtain source-authored (or independently validated as source-authentic) original research questions with exact public availability dates on or after 2025-07-01, explicit prior-paper inputs, and fully source-verifiable evidence; then validate the required A1 manipulations and decoys before freezing a separate prospective cohort.",
+    "prospective_cohort_ready": false
+  },
+  "records": [
+    {
+      "benchmark_question_provenance": "RQ-Bench README says author-distilled by an LLM-assisted pipeline, not author-written; no independent human validation exists in this record.",
+      "controls_or_manipulations_prepared": false,
+      "dataset_line": 8,
+      "dataset_line_sha256": "c61cbdca68dd3ef36bdd42fcd2cc4d883217ce06ecff5ccf8a4a08ee394ad9d8",
+      "eligibility": "REJECTED",
+      "grounded_reference_count": 3,
+      "previously_unused_against_existing_a1_development_examples": true,
+      "question_text": "How can automated prompt optimization replace suboptimal human-written prompts and ensure diverse exploration of the search space to avoid local optima in test case generation?",
+      "question_text_sha256": "ee7234b2a4784e9db6dd7fa0a0e2aea3df47b8fddf0029c90bd34ba73a4390fd",
+      "reason_controls_not_prepared": "The record fails original-question and temporal gates; constructing controls would not make it eligible.",
+      "references": [
+        {
+          "arxiv_id": "2211.01910",
+          "gaps": [
+            {
+              "quote_check": {
+                "locator": "Target v1 Introduction, HTML line 82",
+                "note": "Stored short phrase occurs verbatim.",
+                "status": "MATCH"
+              },
+              "quote_sha256": "ac55cc26a06a465bf6d77ba2808b295f4fb0a4b3ebb0299fd55327b4b013044c",
+              "source_locator": "Introduction"
+            }
+          ],
+          "latest_versioned_id": "2211.01910v2",
+          "metadata_url": "https://arxiv.org/abs/2211.01910",
+          "published": "2022-11-03T15:43:03Z",
+          "source_citation_evidence": "Target v1 bibliography item [19], arXiv HTML lines 563-564",
+          "title": "Large Language Models Are Human-Level Prompt Engineers",
+          "updated": "2023-03-10T17:20:17Z"
+        },
+        {
+          "arxiv_id": "2309.03409",
+          "gaps": [
+            {
+              "quote_check": {
+                "locator": "Target v1 Introduction, HTML line 82",
+                "note": "Stored short phrase occurs verbatim.",
+                "status": "MATCH"
+              },
+              "quote_sha256": "0b13be6c2a6a3d7a0f8ea0fbea4e3a11e1364e75f21ec263c97172120a17469e",
+              "source_locator": "Background and Motivating Example > Motivating Examples"
+            }
+          ],
+          "latest_versioned_id": "2309.03409v3",
+          "metadata_url": "https://arxiv.org/abs/2309.03409",
+          "published": "2023-09-07T00:07:15Z",
+          "source_citation_evidence": "Target v1 bibliography item [25], arXiv HTML lines 570-571",
+          "title": "Large Language Models as Optimizers",
+          "updated": "2024-04-15T07:50:32Z"
+        },
+        {
+          "arxiv_id": "2304.07575",
+          "gaps": [
+            {
+              "quote_check": {
+                "locator": "Target v1 Introduction, HTML line 82",
+                "note": "Stored short phrase occurs verbatim.",
+                "status": "MATCH"
+              },
+              "quote_sha256": "b8c0714ec4e5990ebc66c0be4d9f46421d649ecd238ee8086f53b0966c7dc1e8",
+              "source_locator": "Introduction"
+            }
+          ],
+          "latest_versioned_id": "2304.07575v2",
+          "metadata_url": "https://arxiv.org/abs/2304.07575",
+          "published": "2023-04-15T15:13:58Z",
+          "source_citation_evidence": "Target v1 bibliography item [14], arXiv HTML lines 556-557",
+          "title": "What Makes Good In-context Demonstrations for Code Intelligence Tasks with LLMs?",
+          "updated": "2023-08-08T13:46:02Z"
+        }
+      ],
+      "rejection_reasons": [
+        "Target paper was submitted before the preregistered TEST start 2025-07-01.",
+        "The benchmark explicitly describes this question as LLM-distilled rather than author-written; the exact question wording is not established as an original question posed by the paper.",
+        "At least one stored evidence quote is altered with inserted citation/text placeholders; not all source quotations pass exact-match validation."
+      ],
+      "rq_id": "2501.01329_rq0",
+      "target_paper": {
+        "arxiv_id": "2501.01329",
+        "first_public_version_id": "2501.01329v1",
+        "html_source": "https://arxiv.org/html/2501.01329v1",
+        "latest_versioned_id": "2501.01329v1",
+        "metadata_url": "https://arxiv.org/abs/2501.01329",
+        "paper_id": "cea58053dcd206fcbd12b8c02f23d263ef0c2765",
+        "published": "2025-01-02T16:30:05Z",
+        "title": "The Prompt Alchemist: Automated LLM-Tailored Prompt Optimization for Test Case Generation",
+        "updated": "2025-01-02T16:30:05Z",
+        "version_source": "arXiv v1 page and first submission timestamp"
+      }
+    },
+    {
+      "benchmark_question_provenance": "RQ-Bench README says author-distilled by an LLM-assisted pipeline, not author-written; no independent human validation exists in this record.",
+      "controls_or_manipulations_prepared": false,
+      "dataset_line": 19,
+      "dataset_line_sha256": "713ab89dddaf0e42b739ae91a40c30ce6288a82ce98dedaaa26ae21700322211",
+      "eligibility": "REJECTED",
+      "grounded_reference_count": 3,
+      "previously_unused_against_existing_a1_development_examples": true,
+      "question_text": "How can spatial Softmax-attention be approximated to achieve linear computational complexity while preserving global pixel-wise interactions and the ability to focus on crucial image regions?",
+      "question_text_sha256": "d06b81925162ab04944f831a757a6d05d550dbb4eabc0d5ab660242771c01ce1",
+      "reason_controls_not_prepared": "The record fails original-question and temporal gates; constructing controls would not make it eligible.",
+      "references": [
+        {
+          "arxiv_id": "2308.14036",
+          "gaps": [
+            {
+              "quote_check": {
+                "locator": "Target v1 experiments, HTML line 468",
+                "note": "Benchmark replaced the source citation [15] with [THIS_PAPER].",
+                "status": "NOT_VERBATIM"
+              },
+              "quote_sha256": "f54b0a8fa4ce8dc4d7716b32ac807145a2151acaa19c9df773351b7f61128b15",
+              "source_locator": "Experiments > Ablation Study"
+            },
+            {
+              "quote_check": {
+                "locator": "Target v1 Related Works, HTML line 91",
+                "note": "Benchmark replaced source citation [8] with [THIS_PAPER].",
+                "status": "NOT_VERBATIM"
+              },
+              "quote_sha256": "0330c9c71c768a2893ce440b77365707c4d2d3934272a145eb091c0d28f1e1f1",
+              "source_locator": "Experiments > Image Dehazing Results"
+            }
+          ],
+          "latest_versioned_id": "2308.14036v2",
+          "metadata_url": "https://arxiv.org/abs/2308.14036",
+          "published": "2023-08-27T08:10:23Z",
+          "source_citation_evidence": "Target v1 identifies its V1 predecessor at arXiv HTML lines 271, 335, 340; exact bibliography title/ID mapping not fully resolved",
+          "title": "MB-TaylorFormer: Multi-branch Efficient Transformer Expanded by Taylor Formula for Image Dehazing",
+          "updated": "2023-08-30T13:27:35Z"
+        },
+        {
+          "arxiv_id": "2111.09881",
+          "gaps": [
+            {
+              "quote_check": {
+                "locator": "Target v1 experiments, HTML line 468",
+                "note": "Benchmark replaced the source citation [15] with [THIS_PAPER].",
+                "status": "NOT_VERBATIM"
+              },
+              "quote_sha256": "0609aa884f8274e9359695c21ceb1f159f3399845dd610c627c19445c8548ba9",
+              "source_locator": "Related Works > Efficient Self-attention"
+            },
+            {
+              "quote_check": {
+                "locator": "Target v1 Related Works, HTML line 91",
+                "note": "Benchmark replaced source citation [8] with [THIS_PAPER].",
+                "status": "NOT_VERBATIM"
+              },
+              "quote_sha256": "6e753fc9d0940a7324745bed184ff8744633ca40adf90461d2b779763ed95735",
+              "source_locator": "Method > Multi-scale Patch Embedding"
+            }
+          ],
+          "latest_versioned_id": "2111.09881v2",
+          "metadata_url": "https://arxiv.org/abs/2111.09881",
+          "published": "2021-11-18T18:59:10Z",
+          "source_citation_evidence": "Target v1 discusses Restormer at line 91 and lists its title in bibliography item [8], lines 497-498",
+          "title": "Restormer: Efficient Transformer for High-Resolution Image Restoration",
+          "updated": "2022-03-11T13:22:52Z"
+        },
+        {
+          "arxiv_id": "1706.03762",
+          "gaps": [
+            {
+              "quote_check": {
+                "locator": "Target v1 experiments, HTML line 468",
+                "note": "Benchmark replaced the source citation [15] with [THIS_PAPER].",
+                "status": "NOT_VERBATIM"
+              },
+              "quote_sha256": "668cd2009fe944cf88fb04d1f1273ff47a76a11cadbbff9234aa0df99144914e",
+              "source_locator": "Method > Taylor Expanded Multi-head Self-Attention"
+            },
+            {
+              "quote_check": {
+                "locator": "Target v1 Related Works, HTML line 91",
+                "note": "Benchmark replaced source citation [8] with [THIS_PAPER].",
+                "status": "NOT_VERBATIM"
+              },
+              "quote_sha256": "50975c46941ca15bb1f6747a087528afc6198d1af28d261c26ade8ef00ee4aea",
+              "source_locator": "Method > Convolutional Positional Encoding"
+            }
+          ],
+          "latest_versioned_id": "1706.03762v7",
+          "metadata_url": "https://arxiv.org/abs/1706.03762",
+          "published": "2017-06-12T17:57:34Z",
+          "source_citation_evidence": "Target v1 bibliography item [52], arXiv HTML line 541",
+          "title": "Attention Is All You Need",
+          "updated": "2023-08-02T00:41:18Z"
+        }
+      ],
+      "rejection_reasons": [
+        "Target paper was submitted before the preregistered TEST start 2025-07-01.",
+        "The benchmark explicitly describes this question as LLM-distilled rather than author-written; the exact question wording is not established as an original question posed by the paper.",
+        "At least one stored evidence quote is altered with inserted citation/text placeholders; not all source quotations pass exact-match validation."
+      ],
+      "rq_id": "2501.04486_rq0",
+      "target_paper": {
+        "arxiv_id": "2501.04486",
+        "first_public_version_id": "2501.04486v1",
+        "html_source": "https://arxiv.org/html/2501.04486v1",
+        "latest_versioned_id": "2501.04486v2",
+        "metadata_url": "https://arxiv.org/abs/2501.04486",
+        "paper_id": "032304802e181df54b198ba91474dd4f97af5279",
+        "published": "2025-01-08T13:13:52Z",
+        "title": "MB-TaylorFormer V2: Improved Multi-branch Linear Transformer Expanded by Taylor Formula for Image Restoration",
+        "updated": "2025-04-14T17:45:58Z",
+        "version_source": "arXiv v1 page and first submission timestamp"
+      }
+    }
+  ],
+  "retrieved_at_utc": "2026-11-14T10:23:54.861552Z",
+  "schema": "M-A1-source-verification-v1",
+  "selection": {
+    "development_ids_checked": [
+      "2212.13979",
+      "2412.20911",
+      "2012.14128",
+      "2012.14556",
+      "2012.15020",
+      "2012.15052",
+      "2101.02141",
+      "2112.14478",
+      "2212.14704",
+      "2501.00437",
+      "2401.00029",
+      "2401.00155"
+    ],
+    "record_count": 2,
+    "rule": "first two distinct, unused target records with at least three grounded references from local RQ-Bench rows"
+  },
+  "upstream_dataset": {
+    "dataset_path": "M/data/a1_public_source_v1/rq_dataset.jsonl",
+    "dataset_sha256": "27d25176bbf075cf19e7ad662dec61ba14f0e2e78410bee09e4a351dba54fa35",
+    "license_as_stated_in_local_README": "MIT; README also says arXiv paper excerpts are included under arXiv reuse terms for non-commercial research",
+    "name": "RQ-Bench",
+    "readme_path": "M/data/a1_public_source_v1/README.md",
+    "readme_sha256": "1e7855a506586b179a2eebd9d28741868bb6591441f19f3c689db4cdf9e0943f",
+    "url": "https://huggingface.co/datasets/declare-lab/rq-bench"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "coded_arm_cells": 0,
+  "human_error_analysis_complete": false,
+  "identity_authentication": "attributed fields only; software cannot authenticate independence",
+  "issue_cell_counts": null,
+  "required_input_sets": 20,
+  "reviewed_arm_cells": 0,
+  "reviewed_input_sets": 0,
+  "reviews": []
+}

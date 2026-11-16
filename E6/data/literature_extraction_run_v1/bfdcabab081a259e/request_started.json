@@ -1,0 +1,32 @@
+{
+  "client_configuration": {
+    "backend": "ollama-local",
+    "endpoint": "http://localhost:11434/api/generate",
+    "format": "json",
+    "generation_options": {
+      "num_ctx": 32768,
+      "num_predict": 2048,
+      "seed": 2026,
+      "temperature": 0,
+      "top_p": 1
+    },
+    "model": "gemma3:12b",
+    "stream": false,
+    "timeout_seconds": 600.0
+  },
+  "content_attempt": 1,
+  "identity": "4da2d04a9c9509b7eca1a56a538db56a6974e2eba48f922d270749e91972052d",
+  "model_configuration": {
+    "context_limit": 32768,
+    "immutable_version_or_digest": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+    "max_output_tokens": 2048,
+    "model": "gemma3:12b",
+    "seed": 2026,
+    "temperature": 0,
+    "top_p": 1
+  },
+  "prompt": "ROLE\nYou are a scientific paper information extractor.\n\nTASK\nExtract the target paper's research question and main hypothesis using only the supplied paper text.\n\nTARGET PAPER TEXT\nnorregel asks language models for numeric values in Norwegian statutes, regulations and parliamentary decisions (NOK amounts, percentages, multiples of the National Insurance basic amount (G) and age limits), each at a stated date. The 916 items were extracted mechanically from Lovdata's open data, and each carries the dated history of its provision, so an answer can be classed as correct, outdated, wrong or uninterpretable. We report a first and a second preregistered run on the same items. In the first run (five models, listed publicly only after local analysis), H1, that outdated answers are more frequent for values that took effect after a model's cutoff, could not be tested in substance, and H2 and H3 were inconclusive; Opus 5.5 and Sonnet 4.6 answered 46.7% and 40.2% of the 880 primary items correctly. The second run was preregistered and published before any of its calls, and eight models were analysed. Its pooled primary test supported H1 under the preregistered decision rule (d = 17.8 percentage points, 95% interval [7.7, 28.9], p = 0.0001). In the preregistered sensitivity analysis S8, which counts as outdated only the most recent value that differs from the key, d was 3.9 [-3.6, 12.7] (p = 0.1754), an interval that contains 0. H1 was supported in every other preregistered sensitivity analysis, but S8 is the only one that gives both groups one target value, so we do not regard the support for H1 as robust. The share of outdated answers equal to that most recent value (H2) was 56.1% [46.6, 65.0], an interval that contains 0.5, and the pooled test of a lower share correct in Nynorsk than in Bokmål (H3) was inconclusive. Several models, among them Haiku 4.5, gave mostly uninterpretable answers. Items and keys are withheld; item IDs, per-answer classes, code and results are on Zenodo.\n\nRULES\n1. Use only the supplied text.\n2. Do not use outside knowledge or infer information unsupported by the text.\n3. Prefer an explicitly stated research question or hypothesis.\n4. If the research question is not explicitly stated but is clearly supported by the text, provide a concise faithful formulation and set research_question_explicit to false.\n5. If no research question can be reliably identified, return null.\n6. Apply the same explicitness rule to the main hypothesis.\n7. Do not confuse the paper's general topic, method or objective with its research question.\n8. Do not invent a hypothesis merely because the paper reports results.\n9. Keep extracted statements concise and faithful to the authors' meaning.\n\nOUTPUT\nReturn valid JSON only:\n\n{\n  \"research_question\": null,\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": null,\n  \"main_hypothesis_explicit\": false\n}\n\nUse strings instead of null when a statement can be reliably extracted or formulated. Explicitness fields must always be JSON booleans.\n",
+  "prompt_sha256": "fbbf4c4f9ebf579be032f8f583e2ec542adabca0c89b7bc1626bebaf5ff790a8",
+  "stage": "reference_target_extraction",
+  "started_at_utc": "2026-11-12T13:45:59.839942+00:00"
+}

@@ -1,0 +1,91 @@
+[2603.09906] Thinking to Recall: How Reasoning Unlocks Parametric Knowledge in LLMs (https://arxiv.org/abs/2603.09906)
+citeturn9view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2603.09906","lineno":null}); Total lines: 159
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1: 
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3: 
+L4: Press Enter to search · 【4†Advanced search】
+L5: 
+L6: # Computer Science > Computation and Language
+L7: 
+L8: [Submitted on 10 Mar 2026]
+L9: # Title:Thinking to Recall: How Reasoning Unlocks Parametric Knowledge in LLMs
+L10: 
+L11: Authors:【5†Zorik Gekhman】, 【6†Roee Aharoni】, 【7†Eran Ofek】, 【8†Mor Geva】, 【9†Roi Reichart】, 【10†Jonathan Herzig】
+L12: 
+L13: View a PDF of the paper titled Thinking to Recall: How Reasoning Unlocks Parametric Knowledge in LLMs, by Zorik Gekhman and Roee Aharoni and Eran Ofek and Mor Geva and Roi Reichart and Jonathan Herzig
+L14: 
+L15: 【11†View PDF】 【12†HTML (experimental)】
+L16: > Abstract:While reasoning in LLMs plays a natural role in math, code generation, and multi-hop factual questions, its effect on simple, single-hop factual questions remains unclear. Such questions do not require step-by-step logical decomposition, making the utility of reasoning highly counterintuitive. Nevertheless, we find that enabling reasoning substantially expands the capability boundary of the model's parametric knowledge recall, unlocking correct answers that are otherwise effectively unreachable.
+L17: Why does reasoning aid parametric knowledge recall when there are no complex reasoning steps to be done? To answer this, we design a series of hypothesis-driven controlled experiments, and identify two key driving mechanisms: (1) a computational buffer effect, where the model uses the generated reasoning tokens to perform latent computation independent of their semantic content; and (2) factual priming, where generating topically related facts acts as a semantic bridge that facilitates correct answer retrieval.
+L18: Importantly, this latter generative self-retrieval mechanism carries inherent risks: we demonstrate that hallucinating intermediate facts during reasoning increases the likelihood of hallucinations in the final answer. Finally, we show that our insights can be harnessed to directly improve model accuracy by prioritizing reasoning trajectories that contain hallucination-free factual statements.
+L19: Subjects:  | Computation and Language (cs.CL)
+L20: Cite as:  | 【13†arXiv:2603.09906】 [cs.CL]
+L21:    | (or 【14†arXiv:2603.09906v1】 [cs.CL] for this version)
+L22:    | 【15†https://doi.org/10.48550/arXiv.2603.09906†doi.org】 arXiv-issued DOI via DataCite
+L23: ## Submission history
+L24: 
+L25: From: Zorik Gekhman [【16†view email】]
+L26: [v1] Tue, 10 Mar 2026 16:59:20 UTC (1,734 KB)
+L27: 
+L28: Full-text links:
+L29: 
+L30: ## Access Paper:
+L31: 
+L32: View a PDF of the paper titled Thinking to Recall: How Reasoning Unlocks Parametric Knowledge in LLMs, by Zorik Gekhman and Roee Aharoni and Eran Ofek and Mor Geva and Roi Reichart and Jonathan Herzig
+L33: 
+L34:   * 【11†View PDF】
+L35:   * 【12†HTML (experimental)】
+L36:   * 【17†TeX Source】
+L37: 
+L38: 【18†view license†creativecommons.org】
+L39: ### Current browse context:
+L40: 
+L41: cs.CL
+L42: 
+L43: 【19†< prev】   |   【20†next >】
+L44: 
+L45: 【21†new】 | 【22†recent】 | 【23†2026-03】
+L46: 
+L47: Change to browse by:
+L48: 
+L49: 【24†cs】
+L50: 
+L51: ### References & Citations
+L52: 
+L53:   * 【25†NASA ADS†ui.adsabs.harvard.edu】
+L54:   * 【26†Google Scholar†scholar.google.com】
+L55:   * 【27†Semantic Scholar†api.semanticscholar.org】
+L56: 
+L57: [Button: export BibTeX citation] Loading...
+L58: 
+L59: ## BibTeX formatted citation
+L60: 
+L61: [Button: ×]
+L62: 
+L63: loading...
+L64: 
+L65: Data provided by:
+L66: 
+L67: ### Bookmark
+L68: 
+L69: [Input] Bibliographic Tools
+L70: # Bibliographic and Citation Tools
+L71: 
+L72: [Input] Bibliographic Explorer Toggle
+L73: 
+L74: Bibliographic Explorer (【28†What is the Explorer?†info.arxiv.org】)
+L75: 
+L76: [Input] Connected Papers Toggle
+L77: 
+L78: Connected Papers (【29†What is Connected Papers?†www.connectedpapers.com】)
+L79: 
+L80: [Input] Litmaps Toggle
+L81: 
+L82: Litmaps (【30†What is Litmaps?†www.litmaps.co】)
+L83: 
+L84: [Input] scite.ai Toggle
+L85: 
+L86: scite Smart Citations (【31†What are Smart Citations?†www.scite.ai】)
+L87: 
+L88: [Input] Code, Data, Media

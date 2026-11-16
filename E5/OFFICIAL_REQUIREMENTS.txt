@@ -1,0 +1,244 @@
+PDF PAGE 3
+General instructions
+This competition asks you to build a space of research questions, in
+which one can read off whether a question is new, whether it is well
+grounded in what it builds on, whether it is likely to be good, how varied
+a set of questions is and how all of this changes as science moves on.
+Theory paper hands you the tools and shows you the traps. Experiment
+paper makes you measure. Main Problem asks you to put it together.
+How you are assessed
+• Admission is decided by the Main Problem. Theory and Experiment papers
+lead you to it step by step: each problem builds a tool, a dataset or an insight that
+the Main Problem needs.
+• Full marks in Theory and Experiment do not guarantee admission; several tasks are
+easy on purpose. A strong Main Problem with a patchy Theory and Experiment
+record can be admitted.
+• Theory and Experiment marks break ties and help match you to a project.
+• Required work: all of T1–T5, any three of E1–E5, E6 and the Main Problem.
+(Starting the Main Problem early is encouraged.)
+Rules
+R1. AI assistants are allowed for code, reading and brainstorming.
+Log every
+substantive use in AI_LOG.md: the tool, the task and what you checked. Include at
+least one case where the assistant was wrong and how you caught it. Undisclosed
+use disqualifies the submission while honest reporting would be rewarded points.
+R2. Pre-register before you test. Before evaluating anything on a test set, commit
+PREREG.md with your hypotheses, metrics, test sets and pass criteria. The git history
+is the timestamp. Results that contradict your pre-registration are welcome; silent
+edits to it are not.
+R3. Report failures. A well-measured negative result scores as well as a positive
+one. Every abandoned idea gets one dated line in NOTEBOOK.md saying why it was
+dropped.
+R4. Respect time. “Novelty at time t” may use only literature dated strictly before t.
+Any claim that rests on a language model reading papers must be confirmed on
+papers posted after that model’s training cutoff. State the cutoff you assume and
+why.
+R5. Compute. Everything is designed for one GPU with 24 GB of memory. A small
+tier (embedding models of about 0.6B parameters, language models up to about
+2B, free notebook GPUs) is acceptable everywhere; say which tier you used. Paid
+3
+
+
+PDF PAGE 4
+General instructions
+ASI Intern Recruitment 2026
+4
+APIs are allowed if disclosed. Scale is not scored.
+R6. Individual work. You may discuss ideas with others. You may not share code,
+labels or results.
+R7. Licences. Some datasets are non-commercial. Release derived scores, never copies
+of the data.
+How to read this paper
+• Blue rounded boxes are definitions and facts you may use.
+• Salmon boxes are worked examples. They are illustrations only.
+• Grey boxes with a black bar are tasks; the label and points are on the first line.
+• Green bars are hints and remarks; orange bars ask you to predict before you
+measure (write the prediction in PREREG.md); blue bars specify deliverables.
+• Green frames state the point of a problem.
+• Difficulty: ⋆routine, ⋆⋆needs care, ⋆⋆⋆open-ended or easy to get subtly
+wrong.
+• References such as [R1] point to the reading list (Appendix A); datasets and tools
+are in Appendix B; submission instructions are in Appendix C.
+• Theory problems end with an answer sheet. Copy final results there; full working
+goes in your answer file.
+Notation and definitions
+Definition (Research question, inputs, time)
+A research question q is the one-sentence question that a paper or an AI system,
+sets out to answer. Its inputs R = {r1, . . . , rk} are the papers it is built from: a
+paper’s references or the papers given to a generator. The time t is when q is
+posed; “the literature at t” means the papers dated strictly before t.
+Definition (Relations between questions)
+• Identity q1 ≡q2: a complete answer to either question is a complete answer
+to the other.
+• Subsumption q1 ⪰q2 (“q1 is broader”): every complete answer to q1 yields
+a complete answer to q2.
+• Paraphrase: an identical question in other words. A minimal-edit paraphrase
+keeps at least 75 % of the words.
+• Near-miss: a small edit that changes what is asked. Types: role swap (“how
+
+
+PDF PAGE 27
+Instructions for the Experiment paper
+Do any three of E1–E5 (10 points each) and E6 (20 points, required). A
+fourth problem among E1–E5 is not marked. Every problem produces a
+dataset or a tool that the Main Problem needs, so choose the three you
+will build on.
+• Schemas are mandatory. Each problem specifies the format of its deliverable.
+Follow it exactly: your outputs must run with someone else’s code.
+• Predict first. Before each evaluation, write your predictions in PREREG.md. Marks
+are given for comparing them honestly with what happened, not for being right.
+• Confidence intervals. Report a 95 % bootstrap interval for every headline number.
+Resample the right unit: the paper, the group of inputs, or the generating system,
+not the individual pair, whenever pairs share these.
+• Controls. Wherever inputs are involved, also run an empty-input control (no
+inputs) and a shuffled-input control (another instance’s inputs). A method that
+does as well without its inputs is not using them.
+• Tiers. Every problem can be done in the small tier (rule R5). Say which tier you
+used.
+27
+
+
+PDF PAGE 36
+E5 Diversity that cannot be gamed
+10 points
+Difficulty: ⋆⋆
+Recommended Read first: [R8], [R36], [R37], [R33].
+A generator can look diverse by paraphrasing itself, or by writing vague questions that
+collide with nothing. Build diversity measures for a set of research questions that cannot
+be inflated cheaply and prove it with tests.
+(a) add a paraphrase (b) add a facet edit
+(c) clone set
+(d) vague rewrite
+must give:
+no change
+must give:
+one more dis-
+tinct question
+must give:
+at most two distinct
+must give:
+quality–diversity
+count drops
+Figure E5.1: The four anti-gaming axioms. Blue: original members; orange: added or rewritten
+members; dashed: vague rewrites.
+Task 1
+3.0 pt
+Implement, for a set of research questions:
+• the mean pairwise cosine distance and the Vendi score;
+• equivalence classes from a same-question cross-encoder: the number of distinct
+questions and the entropy over classes [R37];
+• per-facet dispersion in the style of [R8]: answer facet questions (purpose,
+mechanism, evaluation, domain) for each research question and compare the
+answers;
+• a joint quality–diversity count in the style of [R36]: the size of the largest
+subset that passes your quality gates and is pairwise distinct. Fix the gates
+before scoring.
+Predict first - For each measure and each axiom of Task 2, predict pass or fail.
+Task 2
+3.0 pt
+Anti-gaming axioms. On at least 200 sets of five same-topic questions, test the
+four axioms of the figure: (a) adding a paraphrase of a member changes nothing;
+(b) adding a one-facet edit of a member adds one distinct question; (c) a clone set,
+one question plus four deep paraphrases, counts as at most two distinct questions;
+(d) rewriting every member vaguely lowers the quality–diversity count. Report pass
+36
+
+
+PDF PAGE 37
+E5 Diversity that cannot be gamed
+ASI Intern Recruitment 2026
+37
+rates per measure.
+Task 3
+2.5 pt
+Known groups. Build groups of five real papers that cite the same three or more
+seed papers within 12 months (Semantic Scholar) and five generated questions from
+the same seeds. Which measures and which facets, separate real from generated
+sets? Discuss what else, besides the generator, differs between the two kinds of set.
+Task 4
+1.5 pt
+Which facet does a one-facet edit actually move?
+Is each facet stable under
+paraphrase? Which facet is the least reliable to extract and why might that be?
+Deliverable - E5/diversity.py with diversity(rqs:
+list[str], facets:
+bool =
+True) -> dict and the axiom sets as JSONL.
+
+
+PDF PAGE 53
+C Submission and marking
+Submit one Git repository, shared with the organisers within 28 days of receiving this
+paper. Commits after the deadline are not read.
+Repository layout
+README.md
+how to reproduce every table (one command each); your compute tier
+PREREG.md
+committed before any test evaluation; deviations appended, never edited
+NOTEBOOK.md
+dated log, including every abandoned idea and why
+AI_LOG.md
+every substantive AI use, including at least one AI error you caught
+theory/
+answers (Markdown or PDF) and the filled-in answer sheets
+E1/ ... E5/
+the three problems you chose, with the stated schemas
+E6/
+required
+main/
+code, configs, results/*.json, REPORT.md (at most 8 pages plus appendix)
+data/
+small files and schemas; links for anything large
+Checklist
+□PREREG.md was committed before the first test evaluation, with hashes of the test
+lists.
+□Every “novelty at t” uses only literature dated before t.
+□Every claim resting on a language model is confirmed on papers posted after its
+training cutoff.
+□Every quality or novelty claim is also reported on length-matched pairs.
+□Every result on expert battles is reported both raw and system-demeaned.
+□Every result carries the empty-input, shuffled-input and decoy-question controls.
+□Confidence intervals resample the right unit.
+□Experiment deliverables follow their schemas exactly.
+□AI_LOG.md and NOTEBOOK.md are complete.
+□One command reproduces each table of main/REPORT.md.
+53
+
+
+PDF PAGE 54
+C Submission and marking
+ASI Intern Recruitment 2026
+54
+Marking
+Paper
+Problems
+Points
+Notes
+Theory
+T1, T2, T3, T4, T5
+5 × 10
+full working required for numerical answers
+Experiment
+three of E1–E5
+3 × 10
+a fourth is not marked
+Experiment
+E6
+20
+required
+Theory and Experiment
+100
+ties and project placement
+Main Problem
+M
+100
+decides admission (rubric in Chapter M)
+Partial credit. A correct method with a wrong number earns more than a right
+number with no method. A wrong prediction, honestly analysed, earns the comparison
+marks in full. A negative result earns full marks if it is well powered, controlled and
+clearly reported. A result that uses future information, or that was tuned on a test set
+without saying so, earns zero.
+Questions. Questions about the wording of a problem are answered for all candidates
+at once. Questions of the form “is this the right approach?” are not answered: deciding
+that is part of the task.
+End of the paper. Good luck and enjoy being stuck.

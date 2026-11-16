@@ -1,0 +1,32 @@
+{
+  "client_configuration": {
+    "backend": "ollama-local",
+    "endpoint": "http://localhost:11434/api/generate",
+    "format": "json",
+    "generation_options": {
+      "num_ctx": 32768,
+      "num_predict": 2048,
+      "seed": 2026,
+      "temperature": 0,
+      "top_p": 1
+    },
+    "model": "gemma3:12b",
+    "stream": false,
+    "timeout_seconds": 600.0
+  },
+  "content_attempt": 1,
+  "identity": "cba6bee8607411052c72d01c1bfbb1622e7e796b497c1a73113ab6834ddd5026",
+  "model_configuration": {
+    "context_limit": 32768,
+    "immutable_version_or_digest": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+    "max_output_tokens": 2048,
+    "model": "gemma3:12b",
+    "seed": 2026,
+    "temperature": 0,
+    "top_p": 1
+  },
+  "prompt": "ROLE\nYou are a scientific paper information extractor.\n\nTASK\nExtract the target paper's research question and main hypothesis using only the supplied paper text.\n\nTARGET PAPER TEXT\nMany NP-complete (NPC) problems have a polynomial-time (P) twin that differs in a single structural detail, such as 3- versus 2-colouring a graph. A model that reasons rather than recalls should notice which side of this boundary a problem falls on, yet existing benchmarks either fix the wording of each task or ignore its complexity class, so they cannot separate the two. We introduce P2NPCBench, a benchmark of 12 problem families in which every NPC problem is paired with a P twin posed over the same surface. To remove the textbook cues that enable recall, we build it with AgentGAN, an adversarial multi-agent framework in which a generator rewrites each statement until a panel of frozen code models fails, while an executable validity gate keeps every rewrite answer- and class-preserving. The result is 2,114 hardened statements with hand-verified reference human solvers. Evaluating 12 proprietary and open-source models, we find that every model scores lower on NPC statements than on their P twins (35.4% vs. 63.8% pass@1), and that 95.1% of model-family pairs fail more often on the NPC side. A tenfold time limit raises NPC accuracy only from 28.5% to 31.9%, so failures stem from wrong or crashing programs rather than slow ones. Hardening also narrows the class gap from 24.8 to 14.6 points, showing that part of the apparent gap reflects familiarity with textbook phrasing rather than complexity class.\n\nRULES\n1. Use only the supplied text.\n2. Do not use outside knowledge or infer information unsupported by the text.\n3. Prefer an explicitly stated research question or hypothesis.\n4. If the research question is not explicitly stated but is clearly supported by the text, provide a concise faithful formulation and set research_question_explicit to false.\n5. If no research question can be reliably identified, return null.\n6. Apply the same explicitness rule to the main hypothesis.\n7. Do not confuse the paper's general topic, method or objective with its research question.\n8. Do not invent a hypothesis merely because the paper reports results.\n9. Keep extracted statements concise and faithful to the authors' meaning.\n\nOUTPUT\nReturn valid JSON only:\n\n{\n  \"research_question\": null,\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": null,\n  \"main_hypothesis_explicit\": false\n}\n\nUse strings instead of null when a statement can be reliably extracted or formulated. Explicitness fields must always be JSON booleans.\n",
+  "prompt_sha256": "2022fa9ba169474660ac93b75a58761fbe83c50d34f9803c77c458c1e5043dba",
+  "stage": "reference_target_extraction",
+  "started_at_utc": "2026-11-12T13:44:00.869040+00:00"
+}

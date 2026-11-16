@@ -1,0 +1,11 @@
+E6 prior-question extraction specification v1
+SOURCE ABSTRACT
+{{SOURCE_ABSTRACT}}
+
+Copy only complete, explicit research-question sentences already present in the
+source abstract. Each question must start with an interrogative and end in '?'.
+Return the exact source substring and its start/end character offsets. Do not
+rewrite objectives, turn a title into a question, infer an implicit question,
+introduce new facts/results, or use external knowledge. Return no questions when
+the source has no qualifying sentence. Extraction is implemented deterministically
+by verbatim_interrogative_v1, without a language-model call.

@@ -1,0 +1,29 @@
+.venv/
+__pycache__/
+*.pt
+data/raw/
+.DS_Store
+# E2: source-paper text and local derived cache
+E2/data/raw_papers.jsonl
+E2/data/manipulation_papers.jsonl
+E2/data/manipulation_plan.jsonl
+E2/data/novelty_embeddings.sqlite3
+E2/data/backup/
+E2/paper_review/
+
+# E2: claim files that may contain verbatim evidence excerpts
+E2/data/claims_*.jsonl
+E2/data/claims_*.csv
+E2/data/claims_*.json
+
+# E2: raw paraphrase material and review packets
+E2/data/paraphrase_pilot5*_raw.jsonl
+E2/data/paraphrase_pilot5_v3_review_packet.txt
+
+# E2: local debugging output and backups
+E2/debug_output.txt
+E2/diagnose_output.txt
+E2/*.bak
+E2/*.before_*
+E2/data/*.bak
+E2/data/*.before_*

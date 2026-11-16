@@ -1,0 +1,247 @@
+{
+  "actual_extraction_record": {
+    "attempts": [
+      {
+        "attempt": 1,
+        "raw": "{\n  \"research_question\": \"Can a multi-stage, model-free framework generate pseudo-labels directly from grayscale CT scans to address the scarcity of large annotated datasets for deep learning segmentation in material CT analysis?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"The proposed multi-stage, model-free framework will generate pseudo-labels that perform comparably to or better than existing methods like zero-shot SAM and supervised 3D U-Net, particularly in resource-limited settings.\",\n  \"main_hypothesis_explicit\": false\n}",
+        "status": "returned"
+      }
+    ],
+    "error": null,
+    "evaluation_input": {
+      "rendered_prompt": "ROLE\nYou are a scientific paper information extractor.\n\nTASK\nExtract the target paper's research question and main hypothesis using only the supplied paper text.\n\nTARGET PAPER TEXT\nThe scarcity of large annotated datasets limits deep learning (DL) segmentation in material CT analysis. DL-based pseudo-labeling can help, but it is often computationally expensive and hard to interpret. We introduce a multi-stage, model-free framework that generates pseudo-labels directly from grayscale CT scans. It combines thresholding, morphological dilation, and a custom breadth-first search region-growing algorithm to produce polygonal annotations without pre-trained weights, labeled data, or a GPU. We compare it against the zero-shot Segment Anything Model (SAM), a fully supervised 3D U-Net, and classical baselines. On a dendrite dataset with ground truth, our method reaches 63.19% IoU versus 10.74% for zero-shot SAM, with four times the instance recall at 0.5 IoU (33.3% versus 8.3%). The supervised 3D U-Net serves as a reference ceiling that requires expert labels. On a silica sand specimen, YOLO models trained on our labels performed comparably to models trained on SAM labels in a qualitative comparison. Across 1,053 extracted grains, the median equivalent diameter was 163.8 micrometers, near the specimen's known 106 to 150 micrometers sieve range, compared with 219.5 micrometers for SAM, whose labels merge adjacent particles and add spurious detections. A sensitivity analysis shows a stable operating range for the key threshold and a sharp, predictable failure point linked to phase contrast. Our method needs 15s per image on a standard CPU versus 28s for SAM on a GPU. These results support our transparent approach as a tool for annotation bootstrapping and microstructural quantification in resource-limited settings.\n\nRULES\n1. Use only the supplied text.\n2. Do not use outside knowledge or infer information unsupported by the text.\n3. Prefer an explicitly stated research question or hypothesis.\n4. If the research question is not explicitly stated but is clearly supported by the text, provide a concise faithful formulation and set research_question_explicit to false.\n5. If no research question can be reliably identified, return null.\n6. Apply the same explicitness rule to the main hypothesis.\n7. Do not confuse the paper's general topic, method or objective with its research question.\n8. Do not invent a hypothesis merely because the paper reports results.\n9. Keep extracted statements concise and faithful to the authors' meaning.\n\nOUTPUT\nReturn valid JSON only:\n\n{\n  \"research_question\": null,\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": null,\n  \"main_hypothesis_explicit\": false\n}\n\nUse strings instead of null when a statement can be reliably extracted or formulated. Explicitness fields must always be JSON booleans.\n",
+      "target_paper_text": "The scarcity of large annotated datasets limits deep learning (DL) segmentation in material CT analysis. DL-based pseudo-labeling can help, but it is often computationally expensive and hard to interpret. We introduce a multi-stage, model-free framework that generates pseudo-labels directly from grayscale CT scans. It combines thresholding, morphological dilation, and a custom breadth-first search region-growing algorithm to produce polygonal annotations without pre-trained weights, labeled data, or a GPU. We compare it against the zero-shot Segment Anything Model (SAM), a fully supervised 3D U-Net, and classical baselines. On a dendrite dataset with ground truth, our method reaches 63.19% IoU versus 10.74% for zero-shot SAM, with four times the instance recall at 0.5 IoU (33.3% versus 8.3%). The supervised 3D U-Net serves as a reference ceiling that requires expert labels. On a silica sand specimen, YOLO models trained on our labels performed comparably to models trained on SAM labels in a qualitative comparison. Across 1,053 extracted grains, the median equivalent diameter was 163.8 micrometers, near the specimen's known 106 to 150 micrometers sieve range, compared with 219.5 micrometers for SAM, whose labels merge adjacent particles and add spurious detections. A sensitivity analysis shows a stable operating range for the key threshold and a sharp, predictable failure point linked to phase contrast. Our method needs 15s per image on a standard CPU versus 28s for SAM on a GPU. These results support our transparent approach as a tool for annotation bootstrapping and microstructural quantification in resource-limited settings."
+    },
+    "evaluation_input_sha256": "270e72a6e46cd6b5b91b7f8d71450bb8e6f029fbb58721490c62fabfaa2bb9e0",
+    "input_set_id": "lit-2610.28974",
+    "model_response_metadata": {
+      "adapter_metadata": {
+        "backend": "ollama-local",
+        "created_at": "2026-11-12T13:28:30.531869Z",
+        "done": true,
+        "done_reason": "stop",
+        "endpoint": "http://localhost:11434/api/generate",
+        "eval_count": 123,
+        "generation_settings": {
+          "format": "json",
+          "options": {
+            "num_ctx": 32768,
+            "num_predict": 2048,
+            "seed": 2026,
+            "temperature": 0,
+            "top_p": 1
+          },
+          "stream": false
+        },
+        "http_status": 200,
+        "latency_seconds": 13.315465500000016,
+        "model": "gemma3:12b",
+        "model_identity": {
+          "reported_created_at": "2026-11-12T13:28:30.531869Z",
+          "reported_model": "gemma3:12b",
+          "requested_model": "gemma3:12b"
+        },
+        "prompt_characters": 2864,
+        "prompt_eval_count": 645,
+        "prompt_sha256": "52b792da1d8a5350595b81421a0e493693971345dbf36f692832dcef3e4bfec7",
+        "requested_output_token_limit": 2048,
+        "stage": "reference_target_extraction",
+        "total_tokens": 768,
+        "usage_metadata_available": true
+      },
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "input_tokens": 645,
+      "latency_seconds": 13.315465500000016,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:28:30.531869Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "output_tokens": 123,
+      "total_tokens": 768
+    },
+    "parsed_output": {
+      "main_hypothesis": "The proposed multi-stage, model-free framework will generate pseudo-labels that perform comparably to or better than existing methods like zero-shot SAM and supervised 3D U-Net, particularly in resource-limited settings.",
+      "main_hypothesis_explicit": false,
+      "research_question": "Can a multi-stage, model-free framework generate pseudo-labels directly from grayscale CT scans to address the scarcity of large annotated datasets for deep learning segmentation in material CT analysis?",
+      "research_question_explicit": false
+    },
+    "provenance": {
+      "gold_truth_status": "requires independent validation",
+      "model_configuration": {
+        "context_limit": 32768,
+        "immutable_version_or_digest": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+        "max_output_tokens": 2048,
+        "model": "gemma3:12b",
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "prompt_path": "prompts/e6/09_target_extraction.txt",
+      "prompt_sha256": "5e86dad439efba14bb38174c8754cc5aa06382364472e8ba1d93dfb211c6d941"
+    },
+    "raw_output": "{\n  \"research_question\": \"Can a multi-stage, model-free framework generate pseudo-labels directly from grayscale CT scans to address the scarcity of large annotated datasets for deep learning segmentation in material CT analysis?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"The proposed multi-stage, model-free framework will generate pseudo-labels that perform comparably to or better than existing methods like zero-shot SAM and supervised 3D U-Net, particularly in resource-limited settings.\",\n  \"main_hypothesis_explicit\": false\n}",
+    "schema_status": "provisional_unapproved",
+    "schema_version": "e6-evaluation-provisional-v1",
+    "stage": "reference_target_extraction",
+    "status": "succeeded"
+  },
+  "actual_four_fields": {
+    "main_hypothesis": "The proposed multi-stage, model-free framework will generate pseudo-labels that perform comparably to or better than existing methods like zero-shot SAM and supervised 3D U-Net, particularly in resource-limited settings.",
+    "main_hypothesis_explicit": false,
+    "research_question": "Can a multi-stage, model-free framework generate pseudo-labels directly from grayscale CT scans to address the scarcity of large annotated datasets for deep learning segmentation in material CT analysis?",
+    "research_question_explicit": false
+  },
+  "automatic_consistency_checks": {
+    "checkpoint_integrity": true,
+    "four_field_schema": true,
+    "frozen_source_binding": true,
+    "human_checks_completed": false,
+    "literal_source_checks": {
+      "main_hypothesis": {
+        "semantic_support": "requires_independent_review",
+        "value_present": true,
+        "verbatim_source_spans": []
+      },
+      "research_question": {
+        "semantic_support": "requires_independent_review",
+        "value_present": true,
+        "verbatim_source_spans": []
+      }
+    },
+    "request_and_response_provenance": true,
+    "review_attention_flags": []
+  },
+  "disagreement_categories": {
+    "main_hypothesis_explicitness_accurate": [
+      "explicit_vs_inferred_disagreement",
+      "source_evidence_insufficient"
+    ],
+    "main_hypothesis_extraction_accurate": [
+      "not_the_main_hypothesis",
+      "result_or_method_confused_with_hypothesis",
+      "unsupported_direction_or_relationship",
+      "hypothesis_missing_or_null_incorrect"
+    ],
+    "method_extraction_accurate": [
+      "source_component_missing",
+      "unsupported_component",
+      "incorrect_source_span",
+      "meaning_changed"
+    ],
+    "problem_extraction_accurate": [
+      "source_component_missing",
+      "unsupported_component",
+      "incorrect_source_span",
+      "meaning_changed"
+    ],
+    "research_question_explicitness_accurate": [
+      "explicit_vs_inferred_disagreement",
+      "source_evidence_insufficient"
+    ],
+    "research_question_extraction_accurate": [
+      "wrong_research_objective",
+      "unsupported_inference",
+      "scope_changed",
+      "question_missing_or_null_incorrect"
+    ],
+    "result_extraction_accurate": [
+      "source_component_missing",
+      "unsupported_component",
+      "incorrect_source_span",
+      "meaning_changed"
+    ]
+  },
+  "human_review_complete": false,
+  "input_set_id": "lit-2610.28974",
+  "packet_sha256": "f32cdee44f583b8d0cb543badf998dcb9f07dd7758ea27c350b68ab12929e71d",
+  "source_component_sidecar": {
+    "components": {
+      "method": {
+        "annotated_at_utc": null,
+        "annotator_id": null,
+        "character_span": null,
+        "source_quote": null,
+        "text": null
+      },
+      "problem": {
+        "annotated_at_utc": null,
+        "annotator_id": null,
+        "character_span": null,
+        "source_quote": null,
+        "text": null
+      },
+      "result": {
+        "annotated_at_utc": null,
+        "annotator_id": null,
+        "character_span": null,
+        "source_quote": null,
+        "text": null
+      }
+    },
+    "fixed_extraction_sha256": "c3eff8f4b777296f1beec300f6bbe26d1ba6374a94573f9ee9720ced8e8aecd4",
+    "input_set_id": "lit-2610.28974",
+    "status": "pending_actual_source_annotations",
+    "target_source_field": "abstract",
+    "target_source_text_sha256": "cef8b92a8767f163d38ead7331acb9befb5ab6d0fe2b252c49c5da9217b9a3e4"
+  },
+  "source_component_sidecar_status": "pending_actual_annotations",
+  "source_quote_blocks": [
+    {
+      "character_span": [
+        0,
+        400
+      ],
+      "quote": "The scarcity of large annotated datasets limits deep learning (DL) segmentation in material CT analysis. DL-based pseudo-labeling can help, but it is often computationally expensive and hard to interpret. We introduce a multi-stage, model-free framework that generates pseudo-labels directly from grayscale CT scans. It combines thresholding, morphological dilation, and a custom breadth-first search",
+      "semantic_role": "unclassified_exact_source_block"
+    },
+    {
+      "character_span": [
+        400,
+        800
+      ],
+      "quote": " region-growing algorithm to produce polygonal annotations without pre-trained weights, labeled data, or a GPU. We compare it against the zero-shot Segment Anything Model (SAM), a fully supervised 3D U-Net, and classical baselines. On a dendrite dataset with ground truth, our method reaches 63.19% IoU versus 10.74% for zero-shot SAM, with four times the instance recall at 0.5 IoU (33.3% versus 8.3",
+      "semantic_role": "unclassified_exact_source_block"
+    },
+    {
+      "character_span": [
+        800,
+        1200
+      ],
+      "quote": "%). The supervised 3D U-Net serves as a reference ceiling that requires expert labels. On a silica sand specimen, YOLO models trained on our labels performed comparably to models trained on SAM labels in a qualitative comparison. Across 1,053 extracted grains, the median equivalent diameter was 163.8 micrometers, near the specimen's known 106 to 150 micrometers sieve range, compared with 219.5 mic",
+      "semantic_role": "unclassified_exact_source_block"
+    },
+    {
+      "character_span": [
+        1200,
+        1600
+      ],
+      "quote": "rometers for SAM, whose labels merge adjacent particles and add spurious detections. A sensitivity analysis shows a stable operating range for the key threshold and a sharp, predictable failure point linked to phase contrast. Our method needs 15s per image on a standard CPU versus 28s for SAM on a GPU. These results support our transparent approach as a tool for annotation bootstrapping and micros",
+      "semantic_role": "unclassified_exact_source_block"
+    },
+    {
+      "character_span": [
+        1600,
+        1654
+      ],
+      "quote": "tructural quantification in resource-limited settings.",
+      "semantic_role": "unclassified_exact_source_block"
+    }
+  ],
+  "target_source_field": "abstract",
+  "target_source_text": "The scarcity of large annotated datasets limits deep learning (DL) segmentation in material CT analysis. DL-based pseudo-labeling can help, but it is often computationally expensive and hard to interpret. We introduce a multi-stage, model-free framework that generates pseudo-labels directly from grayscale CT scans. It combines thresholding, morphological dilation, and a custom breadth-first search region-growing algorithm to produce polygonal annotations without pre-trained weights, labeled data, or a GPU. We compare it against the zero-shot Segment Anything Model (SAM), a fully supervised 3D U-Net, and classical baselines. On a dendrite dataset with ground truth, our method reaches 63.19% IoU versus 10.74% for zero-shot SAM, with four times the instance recall at 0.5 IoU (33.3% versus 8.3%). The supervised 3D U-Net serves as a reference ceiling that requires expert labels. On a silica sand specimen, YOLO models trained on our labels performed comparably to models trained on SAM labels in a qualitative comparison. Across 1,053 extracted grains, the median equivalent diameter was 163.8 micrometers, near the specimen's known 106 to 150 micrometers sieve range, compared with 219.5 micrometers for SAM, whose labels merge adjacent particles and add spurious detections. A sensitivity analysis shows a stable operating range for the key threshold and a sharp, predictable failure point linked to phase contrast. Our method needs 15s per image on a standard CPU versus 28s for SAM on a GPU. These results support our transparent approach as a tool for annotation bootstrapping and microstructural quantification in resource-limited settings.",
+  "target_source_text_sha256": "cef8b92a8767f163d38ead7331acb9befb5ab6d0fe2b252c49c5da9217b9a3e4",
+  "target_title": "TEMPL: A Resource-Efficient and Transparent Model-Free Framework for Pseudo-Label Generation in Material CT Scans"
+}

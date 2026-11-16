@@ -1,0 +1,2995 @@
+{
+  "status": "pending_not_eligibility_evidence",
+  "records": [
+    {
+      "forum_id": "qImzresc4C",
+      "title": "Learning from Peers in Reasoning Models",
+      "abstract_sha256": "7469939a603dc669459d27a2c9df715f5d07bcd1fb034b3166b72a95f53288b6",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "10Iiew095e",
+      "title": "StreamingThinker: Large Language Models Can Think While Reading",
+      "abstract_sha256": "feb83d6ea07d78974cad52df5e8c5f233e15a564a0c2fbf783d39ecd70e0c6ee",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "3FQV4JHPpY",
+      "title": "Expanding Reasoning Potential in Foundation Model by Learning Diverse Chains of Thought Patterns",
+      "abstract_sha256": "a1a8b231da6447b57201bed3ab6d4c25c8f78b9a6cd88d8a709caa99dbd8c202",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "Uft46u0GRx",
+      "title": "AsymPuzl: An asymmetric puzzle for multi-agent cooperation",
+      "abstract_sha256": "b553e3d7d86aff2cc52ffdae3980103cbdd20121119d1368f868ae905e40fcce",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "8gk7qmKSRv",
+      "title": "Towards demystifying the optimization landscape of RLVR methods",
+      "abstract_sha256": "b5aa22091f69e0695fb176bbd85a86ab8d992f1889b2337658e7b38ca89e0970",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "GMlZt4fZSY",
+      "title": "MobileLLM-R1: Exploring the Limits of Sub-Billion Language Model Reasoners with Open Training Recipes",
+      "abstract_sha256": "f390ac14158af8423795e34ed8cfa6c03a92d9187f616a0c0c0dbfd0955d4b4e",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "rajioNWfRs",
+      "title": "TNT: Improving Chunkwise Training for Test-Time Memorization",
+      "abstract_sha256": "f81fa64ed55f224d8c00a1d9e2926ad66ca8031594d63dd5ebb9a9b3c9ba5614",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "QlueaQClYw",
+      "title": "Continuous Control of LLM Text Generation via Probabilistic Prompting",
+      "abstract_sha256": "7100704e062f14086fd4a3b460e8ff2d204219491a96dbf7b106eccea2143821",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "vI56m4Iu4e",
+      "title": "MemGen: Weaving Generative Latent Memory for Self-Evolving Agents",
+      "abstract_sha256": "fc67aad32560c124b67e483f4df43c6f5cd5647188bde8edd55d512cf63148e3",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "ksxocXsFVh",
+      "title": "Context Tuning for In-Context Optimization",
+      "abstract_sha256": "70f97c7cddddc914459d2282e59c3b8a637dd9f0ba24550aaccbdcb700717e53",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "GVVNG2EMQv",
+      "title": "The Unseen Bias: How Norm Discrepancy in Pre-Norm MLLMs Leads to  Visual  Information Loss",
+      "abstract_sha256": "bbd102ff34f3a8815ca4f22890284b74049d4822a266f0b873096b2a1adb8a6f",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "WytruI9uM3",
+      "title": "HSA: Head-wise Sparse Attention for Efficient and Accurate Long-context Inference",
+      "abstract_sha256": "d0d25be9bd66f20da52b747f5e9f41e43cbc9a9d1564b267b846740b19605107",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "wTGcb3DxOn",
+      "title": "LLM Pretraining with Continuous Concepts",
+      "abstract_sha256": "58de09b0cd662e88b2355bbe249f09ed3564cc3c2898645cbd0616de595d98aa",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "SboD1FBYdy",
+      "title": "InfiMed-Foundation: Pioneering Advanced Multimodal Medical Models with Compute-Efficient Pre-Training and Multi-Stage Fine-Tuning",
+      "abstract_sha256": "1b3d75b220eb3070bd3ebea74822603d03b62f69b4251dd562bfdd1640989649",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "2PjBGzP7mw",
+      "title": "DuoLLM: A Dual-Stream Decoupled Visual Language Model for 3D Spatial Reasoning",
+      "abstract_sha256": "50d13326024e6b5dc559ae4601dd826ccbbce306f42a156f50ca5ad62cd5288d",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "zeqCjGQB4U",
+      "title": "Why Keep Your Doubts to Yourself? Trading Visual Uncertainties among Vision-Language Models",
+      "abstract_sha256": "362799b85bce4a2ebe187ea4e97e0417be6f2b8f3ef6a48b02314c5c33030548",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "pfw176o1YJ",
+      "title": "Learning to See Before Seeing: Demystifying LLM Visual Priors from Language Pre-training",
+      "abstract_sha256": "29aaad79d13f63e8c2288e41ae5f408e142c5f2efdd04a9647729c3848fa41b6",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "Zt5Tu3Xdvw",
+      "title": "Consistent 3D Object Detection with Active LLM Reasoning",
+      "abstract_sha256": "f4a27efc2dfc219cfa54167bc64cdde8706f7c9be68aeb98e05940fd0ae810ed",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "ZRO79e2BHI",
+      "title": "When Greedy Wins: Emergent Exploitation Bias in Meta-Bandit LLM Training",
+      "abstract_sha256": "08f6e11905510fd0dfd1acdb942ff667144f7db8886aa691f2a3c6ad8bd1d7d0",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "0BD2dCM4Ig",
+      "title": "Two Sides of the Same Optimization Coin: Model Degradation and Representation Collapse in Graph Foundation Models",
+      "abstract_sha256": "9b51df2d0b2008cc01b1f5e4e0bf2c14f633d8d9016ee7de2827a32587e013be",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "o29E01Q6bv",
+      "title": "LoongRL: Reinforcement Learning for Advanced Reasoning over Long Contexts",
+      "abstract_sha256": "459f8e80cf7b14aa74dc61ad222cc3dbbc953cbf2b4f0f19d1d1321e7aae96c2",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "DPdev1Gg1o",
+      "title": "How Do Transformers Perform Two-Hop Reasoning in Context?",
+      "abstract_sha256": "10d856390fb66ada1b3f87c6bc347398b56a76a762653a75de4efa30b6415b24",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "M4RKeHIAxw",
+      "title": "CoDA: Agentic Systems for Collaborative Data Visualization",
+      "abstract_sha256": "6333210d328058f8a1e69cf9266350edd4fbdb48afc1087855aa1e296a4bca01",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "6vIc5PdqQV",
+      "title": "NoLoRA: Nonlinear Low-Rank Adaptation for Parameter-Efficient Fine-Tuning",
+      "abstract_sha256": "1f72daf7b15241b7823e9c931334f6c21ea692bcc79518ec9b0383a615b34491",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "zc1ezBrr5m",
+      "title": "TaTToo: Tool-Grounded Thinking PRM for Test-Time Scaling in Tabular Reasoning",
+      "abstract_sha256": "87b78363c413d08ea04e9004df2fd761ae7def804d2701e2e7e526ea2747c2c4",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "zbNWwHLJFw",
+      "title": "EfficientLLM: Unified Pruning-Aware Pretraining for Auto-Designed Edge Language Models",
+      "abstract_sha256": "091eb30a1cd2876666041833b264336af5b9b2ff903156dd62b24599ed590b1a",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "EQ3TwO84Cs",
+      "title": "Learn to Memorize: Optimizing LLM-based Agents with Adaptive Memory Framework",
+      "abstract_sha256": "6f5aac515fe79c2745544c6ab8edeac6896f74cb6ae24b7bda82924fcd694816",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "Ch0MxMvNHz",
+      "title": "Multiple Token Divergence: Measuring and Steering In-Context Computation Density",
+      "abstract_sha256": "c3be37b3cae523c675f35f43bf63e4f62c7dd572447f02549b0b71be99844bf7",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "8RV6H50OSf",
+      "title": "MoBE: Mixture-of-Basis-Experts for Compressing MoE-based LLMs",
+      "abstract_sha256": "cb2063cb2659ba82bec362cb5a3836e9e4d54dcd5480d8afc313ec391516c2af",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "kXaKh8HJsN",
+      "title": "Visual Reasoning via Perceptual Extension and In-Context Learning",
+      "abstract_sha256": "b22f4b4ba4a585c31969588422b73106fc53bf5deb0e86f8b69e3984c2ea4d75",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "Ii4HBlERix",
+      "title": "Visual Multi-Agent System: Mitigating Hallucination Snowballing via Visual Flow",
+      "abstract_sha256": "682c26a035f1d5a0a0ce2efb02ee026660726c5b50b0bf3d31e7a8d442e0a5ac",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "4UPTS9eA5E",
+      "title": "Improving RAG Question Answering Generation with Synthetic Data",
+      "abstract_sha256": "43f4f586295e8497f7a09ce7bd9eab41580517c4e1e1946b364a85699d0390df",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "l6uUFUKWHw",
+      "title": "iGRPO: Self\u2011Feedback\u2013Driven LLM Reasoning",
+      "abstract_sha256": "898f631be6bb0027af047cff31a81a138f50e3b4216dcda53616c2b547d169ca",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "FnSgecCEwg",
+      "title": "FASA: FREQUENCY-AWARE SPARSE ATTENTION",
+      "abstract_sha256": "a21ce17b87fe679a2d147bb263fb8c85557c7b0dbfeed5200840db9175236205",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "cMEnMVvMw9",
+      "title": "Token-Importance Guided Direct Preference Optimization",
+      "abstract_sha256": "55a09e654f038c5d88dc26d59ca27b96f740b780da146cba69a67f824f3c5ad1",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "GiI6tPrPAG",
+      "title": "ILRe: Intermediate Layer Retrieval for Context Compression in Causal Language Models",
+      "abstract_sha256": "8135d725e9dc1a0ecf3e42b7a6008c643564f3fec0a5ad36ffa36adaeb6af0bf",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "JC8xYAADHL",
+      "title": "Safe Exploration via Policy Priors",
+      "abstract_sha256": "f6d2eb6047894e2eceaba5075e2edf33d41d0bf4406211298fd073e6d709fdc7",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "E4RYoWcbl2",
+      "title": "MaxCode: A Max-Reward Reinforcement Learning Framework for Automated Code Optimization",
+      "abstract_sha256": "e84951733f7fc742b0e16c13a0ecc5781c36de49e39e822c935b091416b36631",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "Ybv4qufmuG",
+      "title": "Smooth Gradients, Stable Learning: Logits Convexity for Reinforcement Learning",
+      "abstract_sha256": "797008994b9c03f99bad65fa27740f8ca4cc6783d5291a3279bd8d9173b8febb",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "dfoN64vP4Q",
+      "title": "Lipschitz Bandits with Stochastic Delayed Feedback",
+      "abstract_sha256": "62ca9e39aa37db64d97063fda413ce5fbe189fea07acb2bede6d6db757934c81",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "drOy5wi6Qq",
+      "title": "Less Is More: Clustered Cross-Covariance Control for Offline RL",
+      "abstract_sha256": "36440e0d4a1f41a890db2213630d4644376846a0277da1a576508ef86f100622",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "yDDmqLyS8F",
+      "title": "A Survey of Optimizing ICU Sepsis Treatment Techniques in Reinforcement Learning",
+      "abstract_sha256": "6b0a602a0134841bbdcfaf9fe06f8c9ade7fa1f2d62113fa4b00a33a29481777",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "m5byThUSNE",
+      "title": "Optimistic Task Inference for Behavior Foundation Models",
+      "abstract_sha256": "71f10db16bafee0ce3ba91088d164a2fbed72c64cf3d0654afacc6608af4d89d",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "kxVHb58g3J",
+      "title": "Prospective Decision Learning for Safe Exploration in Model-free Reinforcement Learning",
+      "abstract_sha256": "c339a5ef2b47c0c6c62d5a867219b02eb160b499a7ee3726181253f2b946a7ff",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "Wr1IDzjttB",
+      "title": "Amortized Bayesian Meta-Learning for Low-Rank Adaptation of Large Language Models",
+      "abstract_sha256": "0a7b69da7a378b18cb1f1e15e9385777e871c62887f18aa6e080c144fb3f1267",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "gHPRSPxIsk",
+      "title": "How to Square Tensor Networks and Circuits Without Squaring Them",
+      "abstract_sha256": "b6e51468f586cc2f9fa7050f84c2201f9f9171c2dc302f78057537c2f14e8a61",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "pUEAy4Ibjh",
+      "title": "Toward Reliable Domain Adaptation under Continuous Spurious Shift",
+      "abstract_sha256": "bcf3d41fc1404421ddd08087189df5134bd103655ddd7ff263bda0b6dc1c7b0f",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "vFfujX5Ygn",
+      "title": "Revisiting Nonstationary Kernel Design for Multi-Output Gaussian Processes",
+      "abstract_sha256": "009e19b7fab17af1d65385179a870e7712182f3b9d33bcc5e2e57add9ef50227",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "xAvqHtLVgz",
+      "title": "Lossless Vocabulary Reduction for Auto-Regressive Language Models",
+      "abstract_sha256": "f05bcebdd51161454b4bd4cbc6d145e6522728602a0901884cdc35d9dac7d8d3",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "uP6RDWHcs7",
+      "title": "Marginal Flow: a flexible and efficient framework for density estimation",
+      "abstract_sha256": "189fd3a51b8145b7194a7dc26cba6225f7c663784d608d344e0e68b800a0799d",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "PuA3aQAMIo",
+      "title": "Uncertainty Quantification Revisited: Conditional Cross-Entropy for Neural Classifiers",
+      "abstract_sha256": "92c05861a7cd864c37f9b02be2e903f64a4e230bc43c08d8d6b939ebb507eb26",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "11kPIEkj75",
+      "title": "Semantic Uncertainty Quantification of Hallucinations in LLMs: A Quantum Tensor Network Based Method",
+      "abstract_sha256": "df72efb5661dc3eda8584c681f2984284f6688660f300f460fe0b7e644338b91",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "jsPQFNmnln",
+      "title": "Neural Posterior Estimation with Latent Basis Expansions",
+      "abstract_sha256": "4660cd9c82d52be3d6e94ee088b17e718c1c6b0ee8af5bbd2774c3aa69ee4051",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "G4I23g5Ugh",
+      "title": "PriorGuide: Test-Time Prior Adaptation for Simulation-Based Inference",
+      "abstract_sha256": "b33e7e758735bfc1c4b70483c7264ebf25a376067281f79c0409f541968b7d0c",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "Ahdsg2nkNH",
+      "title": "Multilevel Control Functional",
+      "abstract_sha256": "4801506764c1eab4b482fa7d1f262e3dfd50ae776e63af248968c95618222bdc",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "YrX77XRgku",
+      "title": "Diffusion and Flow-based Copulas: Forgetting and Remembering Dependencies",
+      "abstract_sha256": "d7e8e52dfcf6e1b8592f90135a62028f7558c1e4012716f6c0b81bd3959a64c9",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "zUbBaWAM1Q",
+      "title": "Symmetry-Aware Bayesian Optimization via Max Kernels",
+      "abstract_sha256": "3dadc904b085a9490c21d88d7e746a3007dbb152d9a514167686d59e93d5dfaf",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "whRAOJiyHM",
+      "title": "CARE: Towards Clinical Accountability in Multi-Modal Medical Reasoning with an Evidence-Grounded Agentic Framework",
+      "abstract_sha256": "43210bcadb3d8814d676f1e84148036ce789419147654548acf1db6827f6f7de",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "NhO6iEUISf",
+      "title": "Probing Latent Knowledge Conflict for Faithful Retrieval-Augmented Generation",
+      "abstract_sha256": "0c7135210d3bee2cd55d310d3fbcf71a19e5f2fde15898f186bf887dea8f2c63",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "FcGQVshxMP",
+      "title": "Talking Points: Describing and Localizing Pixels",
+      "abstract_sha256": "b7eb58e117ed9e7972affe65645f3811e41cb77587f31a5c03475574bf1b7148",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "YgeeVE75TJ",
+      "title": "Temporal-Oriented Recipe for Transferring Large Vision-Language Model to Video Understanding",
+      "abstract_sha256": "bf610b4ad22adda290fcd72fb046b918475f1985959b3333fbf7a09b56543b21",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "i0cjbEuezL",
+      "title": "FlowKV: Enhancing Multi-Turn Conversational Coherence in LLMs via Isolated Key-Value Cache Management",
+      "abstract_sha256": "a99e098f1a8de36d48913ddec219df35cb5dcf3e148a15b58e808c4e4c1e21da",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "D9cnZNZfxX",
+      "title": "TD-MoE: Tensor Decomposition for MoE Models",
+      "abstract_sha256": "f0bd9c20de33a6d886a398ebc89bb2553e5635fbcd17fa5060e832b0183eb7d6",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "jPFjUehx4i",
+      "title": "EVTAR: End-to-End Try on with Additional Unpaired Visual Reference",
+      "abstract_sha256": "4bd428a7dbb83724b4c9763ec1013d40ffb47e81ac4414cb5deab779c5427f91",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "FHTt9ipAra",
+      "title": "Mitigating Hallucination in Vision-Language Model with Depth and Spatial-aware Key-Value Refinement",
+      "abstract_sha256": "8ed07aebab2ef1038c61491b7fd680c1a2a1df91cfd624de3f0822dc7365b9a8",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "5BS1VPlzBR",
+      "title": "Balancing the False Positive-Negative tradeoff to enhance Image Segmentation",
+      "abstract_sha256": "fe2d1e328aeda6c0b8d6368909fbd1b1d1434bad5268a6a6e07159c8451d89b8",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "XJXZXuTj11",
+      "title": "QVGen: Pushing the Limit of Quantized Video Generative Models",
+      "abstract_sha256": "d4ed16df6ef46066825b6f984c09410916eddf9df230f148ff71602d03334890",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "DEWB8yCoOu",
+      "title": "XTalker: Turn, Smile, and Speak in Controllable Talking Portrait Animation",
+      "abstract_sha256": "84178c3eedf6f2f8861bd60e8d9737cb8286d512aa9cd8f32c11c68256475f36",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "iiBjaiikJG",
+      "title": "SoLoPO: Unlocking Long-Context Capabilities in LLMs via Short-to-Long Preference Optimization",
+      "abstract_sha256": "2b1c16a24b22efcf6a0e4d82faee289e2b6d93b7ece6ee4b93bdb59d47722bbe",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "KuwPZXdHQi",
+      "title": "Lexicon-Aligned Prompting: A General Method for Dictionary-Guided Low-Resource Machine Translation",
+      "abstract_sha256": "3a83e4844864274992063a9ca9fc299a18711e5fd79171e9b1d224d8356d1b44",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "IVjs6vNDhV",
+      "title": "GenCape: Structure-Inductive Generative Modeling for Category-Agnostic Pose Estimation",
+      "abstract_sha256": "9894c438e898b02fb7da846906180bf906ec00d3289f6cc62fe2ce68dc8a1cef",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "lFn1Bb1ZMD",
+      "title": "Adaptable Symbolic Music Infilling with MIDI-RWKV",
+      "abstract_sha256": "594cc20eef3b282b8d5bf8672c086e876c54c4afcaf43f3e3a8fff6f547060fc",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "aTP1IM6alo",
+      "title": "VoMP: Predicting Volumetric Mechanical Property Fields",
+      "abstract_sha256": "94ad5a463ed5b302cedb434ec8a3b9e29e0e2352a5db8b636ca854368bfc1ea7",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "wjjqurlXvg",
+      "title": "Few-Shot Paraphrase Generation with LLMs: An Empirical Study of Models and Hyperparameters",
+      "abstract_sha256": "2b15e08dcd0e1ff47c032dc40d1d98782716b61df05f8fa17ab89c240c047cbb",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "aJJppqAm6r",
+      "title": "True Self-Supervised Novel View Synthesis is Transferable",
+      "abstract_sha256": "c865671ef1214b45abc40fe86131c1cbb814e8325ac7456a45659ed19b6bac90",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "vKVzihkbQo",
+      "title": "DiffWind: Physics-Informed Differentiable Modeling of Wind-Driven Object Dynamics",
+      "abstract_sha256": "a5cc83b46f0aea4c6907aebb217e20022d64384c354eab8565c6a95388300766",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "VPju7xAxb1",
+      "title": "Comprehend and Talk: Text to Speech Synthesis  via Dual Language Modeling",
+      "abstract_sha256": "840e60b2e7db0ae9abd9f7a95ffd1dcc7d591be4aa9582db311d745b75407299",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "htKfC79soD",
+      "title": "Joint Geometry\u2013Appearance Human Reconstruction in a Unified Latent Space via Bridge Diffusion",
+      "abstract_sha256": "13f7f71d176d174d733b4c0d66d36df118f7e0c9e3df2e1b30302b0692339feb",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "02mgFnnfqG",
+      "title": "LiveMoments: Reselected Key Photo Restoration in Live Photos via Reference-guided Diffusion",
+      "abstract_sha256": "9b5366c32ff4e7c13a4db1639c8a5e9e38b34bb8d88654d514cf6b0dd6a3ae49",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "5THcDkGGjt",
+      "title": "Thinking with Camera: A Unified Multimodal Model for Camera-Centric Understanding and Generation",
+      "abstract_sha256": "dfe330f9108a52d9dc0c70335f4015ee3ab1471b9aae0c0042e9d8a46b0c289c",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "FLXZOIDrli",
+      "title": "RAD3D-Prefix:  Anomaly-Aware Prefix Learning on Frozen LLM for 3D CT Image to Report Generation",
+      "abstract_sha256": "310653edce259110020122e5b67a079ad210db746aacf76791dfcc56f3a2dc1c",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "pMpCOjzwI1",
+      "title": "ThinkOmni: Lifting Textual Reasoning to Omni-modal Scenarios via Guidance Decoding",
+      "abstract_sha256": "68b431942beeb8c30aad255039728c998e61742f1c1e51fdb4bca7500ca823a9",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "Omo8RAEqSS",
+      "title": "TESA: Task-Agnostic Embedding of Scene Graphs using Vision Alignment",
+      "abstract_sha256": "d5e5d6fe8ce12dd9bc39a3f94cfdea8bb6e8378b45459fd8b4b3b3459986636b",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "nwjy9BeorI",
+      "title": "EgoHandICL: Egocentric 3D Hand Reconstruction with In-Context Learning",
+      "abstract_sha256": "b0631af1d4a0a127a336b89d2bb6797e54dc26d71fcff2907793ef34218207fd",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "4Lop9ReXBP",
+      "title": "Model-agnostic Watermarked Image Restoration without Additional Training",
+      "abstract_sha256": "71a34019e853a95048f274ef4e8980da5a4d1c6c88406786fce0bc51a992009e",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "2xEvtVALpg",
+      "title": "TiViT: Time Series Representations Lie Hidden in Pretrained Vision Transformers",
+      "abstract_sha256": "1bb4a12b4b0fec2b35eaed45672f6778c41a2bbb0a230724333b6bad056b9833",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "v2skNLbrfF",
+      "title": "ORCaS: Unsupervised Depth Completion via Occluded Region Completion as Supervision",
+      "abstract_sha256": "892dcadb1aa58efc637a24c67a55fde418b3d674a8019f6ec76a11659222dc06",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "hit3hGBheP",
+      "title": "AutoEP: LLMs-Driven Automation of Hyperparameter Evolution for Metaheuristic Algorithms",
+      "abstract_sha256": "c43b40c6658ec469b4a104faa8a262c228857c6cd8948ddce3faac1b25d3d577",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "yX1Nn63DwQ",
+      "title": "A New Efficient Method For Combining Gradients Of Different Orders",
+      "abstract_sha256": "9abad4f8e553bad4b4ce1b8a6166449b58d22e3f06045dfd41cead95327054fc",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "wnIanx0r0w",
+      "title": "Efficient algorithms for Incremental Metric Bipartite Matching",
+      "abstract_sha256": "5697f2d393957b034df71b325f5a9ac2f2c7c8aa1deb44408e8fe554c0431d71",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "EjH5I9ziug",
+      "title": "Boosting Language Model Fine-Tuning via Zeroth-Order Hybrid Methods with Additional  Memory Aid",
+      "abstract_sha256": "d4f812ebb2f5e6a4a28f1c0d26763e51bdc7287fd9005e44912ee848f0ca6213",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "yRtgZ1K8hO",
+      "title": "The Polar Express: Optimal Matrix Sign Methods and their Application to the Muon Algorithm",
+      "abstract_sha256": "a1fd8077268908ff1b61235a3c18ab32cb6f46dc77d7975e08890b6c9b461d4c",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "Y74tGjpsjq",
+      "title": "PAML: MoE-Based Partitioning and Merging Framework for Solving Large-scale Multi-task VRPs",
+      "abstract_sha256": "f1cd316f22dff26b9ee793f9a240fcd879fbd27f98c68f6d8561b150cfe77c34",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "1nbTSuIdQ7",
+      "title": "Structure-Aware Bipartite Representations for Efficient MILP Branching",
+      "abstract_sha256": "a7e5f46949a16448a4369d0871c4005bc4bccc97b1195d4b9cc620184f19b2ce",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "EOV1q1U23N",
+      "title": "Convergence of Regret Matching in Potential Games and Constrained Optimization",
+      "abstract_sha256": "6e35b38fc79f27631b0efb82c477c90ff5c02f1a9dc31aeeb47681245f5661c4",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "XIAta0WOJ6",
+      "title": "Faster Gradient Methods for Highly-smooth Stochastic Bilevel Optimization",
+      "abstract_sha256": "3e12bead7320edf03608459f7a2f8fbc06875f7945b717710849f553abca9cca",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "e5sTFYhtqK",
+      "title": "Estimating Latent Regularization Parameters in Ill-Posed Problems with Semi-Definite Programming",
+      "abstract_sha256": "8576dd634d9cc925955ff80542ec6b1a59603b33fe322968ec7a836d3c162860",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "VDIH6L8ANo",
+      "title": "Convergence Dynamics of Over-Parameterized Score Matching for a Single Gaussian",
+      "abstract_sha256": "4ce3d7e157d3f2a838e76e2cba2fd7755a6a08b523e840dc70524d5289b74033",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "b36drMoKir",
+      "title": "Gradient Flow Convergence Guarantee for General Neural Network Architectures",
+      "abstract_sha256": "d3e76b8b2828dc0522f51046aa0c93dae8dffe63779888edebdabece59c8b612",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "lXSrulux48",
+      "title": "Byzantine-Robust Federated Learning with Learnable Aggregation Weights",
+      "abstract_sha256": "1e92612948c8ffb61ea834a0dd5c1a618bd53d22adb84ae980064313d0ae410d",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "ab4wG3EjnQ",
+      "title": "ALS-LoRA: Improved Low-Rank Matrix Compesation Method for Low Bit Quantization",
+      "abstract_sha256": "b1ec8f73dad2ab5ca8ebe9a67d8eb503fe2831ece4f6c31ad06669db69d1b7c6",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "azj53PLJRL",
+      "title": "Image Quality Assessment for Embodied AI",
+      "abstract_sha256": "a13358e7ce7c4740569128b49468a72ab2d875b90335e3d6151226cc1db4e13d",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "vm8lNKLfuo",
+      "title": "TIIF-Bench: How Does Your T2I Model Follow Your Instructions?",
+      "abstract_sha256": "2d55dd1c9a8527195a9dae5e37b0116620ca77aa3ff28aefb1a4ac83120b5601",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "SB8xCvNFp7",
+      "title": "Data Leakage Detection and De-duplication in Large Scale Geospatial Image Datasets",
+      "abstract_sha256": "8405538b3db73eea901d1ad10a709caf59eb1d41f2c696c0acad0b32665fcc3c",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "nHrYBGujps",
+      "title": "BIRD-INTERACT: Re-imagining Text-to-SQL Evaluation via Lens of Dynamic Interactions",
+      "abstract_sha256": "1846b301520caa3ea482b7edf076dfe06a5b68f3988777677de8df906d8cd675",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "oFRbiaib5Q",
+      "title": "Automatic Image-Level Morphological Trait Annotation for Organismal Images",
+      "abstract_sha256": "5202c4e7a06c65ee4ccb041083c129ec34efeda97a09a70be3e842401df1cfa5",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "gtc8URMymz",
+      "title": "Harnessing Large Language Models Locally: Empirical Results and Implications",
+      "abstract_sha256": "bf55d5a231016440d13066e51f2809d9bfffe5c35cce1bea7d65eab3530f4ef8",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "AlgRVfd1z7",
+      "title": "Referring Layer Decomposition",
+      "abstract_sha256": "f133fe29c104191b28df5c9f64e783668f81c566a09d53079324d829156616bf",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "CkrqfhD4fV",
+      "title": "RelEval: A Structured Benchmark for Logical and Relational Reasoning in LLMs",
+      "abstract_sha256": "cdfb59b998a06b4100a8cd43f1d6ffd8303b366a34611576e3bb8ea6150d80e8",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "bpD4wXVFXV",
+      "title": "UAVDB: Point-Guided Masks for UAV Detection and Segmentation",
+      "abstract_sha256": "5caab9a01a714c700c0a5912ec269e5e22c0cdec666f570d54e06679ce4a457e",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "SyQqXAdWUq",
+      "title": "InclusiveVidPose: Bridging the Pose Estimation Gap for Individuals with Limb Deficiencies in Video-Based Motion",
+      "abstract_sha256": "146be7b0167da3a4be5341c1da0be9ec3b524cd3b7cddf34ba1b51a1806d5639",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "CX35pnGzht",
+      "title": "CardioBench: Do Echocardiography Foundation Models Generalize Beyond the Lab?",
+      "abstract_sha256": "6413609076434d7a7b06b09297bbd17582185b2873ee8b2a3329f7055bd79416",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "QSmwRnw8GP",
+      "title": "Benchmarking Open-ended Segmentation",
+      "abstract_sha256": "22e0d167db916d8c861aea14084a06d4b8ca152bb5b579f4b87caa5e02bef256",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "ph9Pq45KLN",
+      "title": "Same model, better performance: the impact of shuffling on DNA Language Models benchmarking",
+      "abstract_sha256": "386d004816c08db017b3ff331dc1a82e243375fa86de7d2de4505cc68899ce9a",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "XOPH34Extq",
+      "title": "TabStruct: Measuring Structural Fidelity of Tabular Data",
+      "abstract_sha256": "91fb474585b3a62d47d62ca37349556bae2dc83bfc1fae1a927f96a6870cd648",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "jOxfpsnDFo",
+      "title": "ConDABench: Interactive Evaluation of Language Models for Data Analysis",
+      "abstract_sha256": "ca5e0dd7837552acb194710f610abe7dafba81d35f88eea314c9fc5d9104f69f",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "aH7eyx64pC",
+      "title": "OCR-Reasoning Benchmark: Unveiling the True Capabilities of MLLMs in Complex Text-Rich Image Reasoning",
+      "abstract_sha256": "1e241f1a9283cb3ad11f5fb0ba937afe284a8eecfe4f820987cd8099823cbcc8",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "VKGTGGcwl6",
+      "title": "LLMs Get Lost In Multi-Turn Conversation",
+      "abstract_sha256": "ca1a2c3b74fcf4b84e0648c3d6195b32cc8c71074ae1a99b7ef3795bdb024ed1",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "FkTEc3XEL6",
+      "title": "MOCHA: Multi-sample Omics Cohorts with Human Annotation",
+      "abstract_sha256": "4999d8a9b77b7a56b34c3f137ddcb559e994b46d99df0fa94fccd0bf4b8f5425",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "aw3UYrrt3X",
+      "title": "A Single Character Can Make or Break your LLM Evals",
+      "abstract_sha256": "df0f670b04bf2cf653d6f66d7c3af93efd7c2b200288c28e754487f9cf0beae9",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "8MBYRZHVWT",
+      "title": "CounselBench: A Large-Scale Expert Evaluation and Adversarial Benchmarking of Large Language Models in Mental Health Question Answering",
+      "abstract_sha256": "6cfab49443d6776d7bfa56d968d3f7cb3cfd2aa5472b8bc9b7191053091319ef",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "CSIo4D7xBG",
+      "title": "WebArena Verified",
+      "abstract_sha256": "852c1172b35316ff286cd2f7b2a91e991139c894653eabc6a1b80adf109e1511",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "lBXJexaC8a",
+      "title": "IF-VidCap: Can Video Caption Models Follow Instructions?",
+      "abstract_sha256": "1c9ea541ba3228fe60ef6c1bcc3a42eadf6c0394bbf097827e2854cdda21fa66",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "fOmX9aaQD3",
+      "title": "Triple-S: A Sticker Semantic Similarity Benchmark with General Sticker Encoder",
+      "abstract_sha256": "047cd0cd0696bd9d45ed17d2dee1cbeef98d93aed30daa50c24ec36b8216c962",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "GMR9BUsPbq",
+      "title": "BANZ-FS: BANZSL Fingerspelling Dataset",
+      "abstract_sha256": "349308c57661884e732bb1ea760df332c49b32b3c518e11f8f8a89aafeff54e9",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "8LAc5kzjhz",
+      "title": "Spatial CAPTCHA: Generatively Benchmarking Spatial Reasoning for Human-Machine Differentiation",
+      "abstract_sha256": "c11e38e7f2761bcdbb84dbcf619c569daa61fdb8b2abef05fc1367a1f09f07b8",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "eqyyvNT7eS",
+      "title": "Gym4ReaL: Towards Real-World Reference Environments for Reinforcement Learning",
+      "abstract_sha256": "a9981039637c3dd4bd71f71d17ef8459518227752364474f825186d2c3155de2",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "0oxkxG9cCo",
+      "title": "IL3D: A Large-Scale Indoor Layout Dataset for LLM-Driven 3D Scene Generation",
+      "abstract_sha256": "e7d63f2d1233f365e3f997fa338a30bd019295e0f7f7916d4e216e7d91df593e",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "E823AY0taq",
+      "title": "AudioTrust: Benchmarking The Multifaceted Trustworthiness of Audio Large Language Models",
+      "abstract_sha256": "e605c5459a2c0713ca1d2b342e94524812947aae5835d4969be5d80534569505",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "azcQJtcYTE",
+      "title": "OmniSTVG: Toward Spatio-Temporal Omni-Object Video Grounding",
+      "abstract_sha256": "588973d4b9a3c044c9253e7d88f7ddbce6699f197936e1e41b2fae111e7a5ffe",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "oCkPzCR4f4",
+      "title": "From Charts to Code: A Hierarchical Benchmark for Multimodal Models",
+      "abstract_sha256": "6db25c96e7c0630ad9b39931b553a96bc3014f7adf7587185f4b9935d5e00b5d",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "hFixHMwX1D",
+      "title": "BioCoref: Benchmarking Biomedical Coreference Resolution with LLMs",
+      "abstract_sha256": "05e6d06419400cab958159bc047b8699f86f16838d8231c92c9e2b81a5eb6eb9",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "9gw03JpKK4",
+      "title": "Gaia2: Benchmarking LLM Agents on Dynamic and  Asynchronous Environments",
+      "abstract_sha256": "86c02767fece57fe5d267d5d5b451a4872d7dd9fc0ac2174889aceebff6a6491",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "Qo0OZZoTLh",
+      "title": "Virtual Community: An Open World for Humans, Robots, and Society",
+      "abstract_sha256": "64f6efdf25a4d9be79df9451db674aa94b241f81c111c84a1cca520397390c98",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "aY6RcnTH4v",
+      "title": "ReefNet: A Large-Scale, Taxonomically Enriched Dataset and Benchmark for Hard Coral Classification",
+      "abstract_sha256": "1946cc989e3dd4a2309cef17d6ddd2917460a746e1c5c59eb32648dd301243ee",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "3JPAkwSVc4",
+      "title": "Quotient-Space Diffusion Models",
+      "abstract_sha256": "e0e0f4acc5666edcd2f0369e1019c108155bfd3d5af6c7670c0e8bf2f6eeaf93",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "zQqeMZEveG",
+      "title": "From Past To Path: Masked History Learning for Next-Item Prediction in Generative Recommendation",
+      "abstract_sha256": "0c75863a6d01520d584147af9d99cfcc666c6284a0bbd157fc1adeda8b04a453",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "Bf6C60cqYU",
+      "title": "Generation Properties of Stochastic Interpolation under Finite Training Set",
+      "abstract_sha256": "ab053c5b9fd67e1516c46339d56edc01750328816a37022e169f43402baffc55",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "1taAXRcm21",
+      "title": "A Unification of Discrete, Gaussian, and Simplicial Diffusion",
+      "abstract_sha256": "431fb58e1923611b4534bedfe2274cdb700c805afd3417ed0b538ba443e1b5b1",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "TLXp0scq3x",
+      "title": "Clone Deterministic 3D Worlds with Geometrically Regularized World Models",
+      "abstract_sha256": "859bb104d0d43b7dd14cfc30843e13ff58a064b822275960909479ee302fce81",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "34V0IZytle",
+      "title": "When Scores Learn Geometry: Rate Separations under the Manifold Hypothesis",
+      "abstract_sha256": "87fbf5c6d865067ede82eddc29844159ddec76bbe743a7b355dd8337217e9411",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "U1ttMrMhig",
+      "title": "Reward-Focused Fine-tuning of Pocket-aware Diffusion Models via Direct Preference Optimization",
+      "abstract_sha256": "1789dd4b09674a4c0949591cf1d70cd43750e3dbb07a4a9380f15ef17e94a904",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "pwVSmK71cS",
+      "title": "DiffusionBlocks: Block-wise Neural Network Training via Diffusion Interpretation",
+      "abstract_sha256": "c66532345d142110d62e3f195d71e168131001220b8e2fd5aaf81f01f640b72f",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "z9MlGsQbzR",
+      "title": "Evolutionary Caching to Accelerate Your Off-the-Shelf Diffusion Model",
+      "abstract_sha256": "7297164014d6116280fcf2867b35ff515bf8caac0c78bf8400d83bfb5877d0cd",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "YiV2rJOIUJ",
+      "title": "Fast to Train, Fast to Sample: Stable Velocity for Flow Matching",
+      "abstract_sha256": "c84bf756596aa0acfbce28a61181f732cfbb255eb5cc0e32763858d22c762814",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "AZ6lqcvHLX",
+      "title": "Half-order Fine-Tuning for Diffusion Model: A Recursive Likelihood Ratio Optimizer",
+      "abstract_sha256": "c87bd3aeb5424a868d2a76d30fa2c5561ead26563d65517d1a2f0786e79969b3",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "1T1SE9xxAB",
+      "title": "LLM-Based Social Simulations Require a Boundary",
+      "abstract_sha256": "7956caf6e52ccd5fe9e30b734f1969770fca62619c0d58062468e75f23e7e365",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "M2DXbwO8le",
+      "title": "Diffusion Blend: Inference-Time Multi-Preference Alignment for Diffusion Models",
+      "abstract_sha256": "b2f13a1c685a3d588bb3fde20ae0a3895ba622e48c7faa84f9f0af687bc28c6e",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "PMCD5pKglt",
+      "title": "MRI2PET: Realistic PET Image Generation from MRI for Automated Inference of Brain Atrophy and Alzheimer\u2019s",
+      "abstract_sha256": "dddabfc4f40441af02e5b4270e73afd61cd697acbba39487bb5917db7eb048ba",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "1vAte8dsap",
+      "title": "pi-Flow: Policy-Based Few-Step Generation via Imitation Distillation",
+      "abstract_sha256": "c996449b35dce683aae81cf7beb235964afcdf3eb174efe9a662aa9a0885cf1d",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "OPFE1zPYbU",
+      "title": "Rethinking Diffusion Model in High Dimension",
+      "abstract_sha256": "638920c8e8eff8fe6d418fc06cc08760e697beb9c352cf756d4d6f7f0b06c665",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "tOOAWDRjrb",
+      "title": "Massive Activations are the Key to Local Detail Synthesis in Diffusion Transformers",
+      "abstract_sha256": "da9f10d88bb5262673899451bdbb59b21edf78ad1eb064c785bb6d2f74458ab4",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "dR0M7PEyA6",
+      "title": "Generalizing Consistency Models for Fast Image-to-Image Translation",
+      "abstract_sha256": "d31681189904ebedf18898d48bd6a7f3cee931d33104905c9a5d955e96b84867",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "nCAODkpsPJ",
+      "title": "LongLive: Real-time Interactive Long Video Generation",
+      "abstract_sha256": "5da72980e3fb59884f8772730625c063f8b5847182fc575c123705841c750982",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "Hxzjxu4y6A",
+      "title": "UniLat3D: Geometry-Appearance Unified Latents for Single-Stage 3D Generation",
+      "abstract_sha256": "4da31606acb6c12f858378c3eeaf6b3507df987575aa60d838f438ed0313481c",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "GtxAu3AogM",
+      "title": "Cross-Modal Flows for Multimodal Generation",
+      "abstract_sha256": "7443e7fc725a9ca17bdc172c106d3a42f0126fff9c86bafe301ed5559562b4ec",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "OHqZ61ZqNO",
+      "title": "Learning an Image Editing Model without Image Editing Pairs",
+      "abstract_sha256": "cd5123ee3a6d3802de3f99b520161e1be6233bcc4bd7fc8b82b6b4da6c105416",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "gkGLiuDFeB",
+      "title": "PRISM: A Unified and Generalizable Adversarial Robustness Evaluation Framework for LLM-based Classification",
+      "abstract_sha256": "6d335bf962084317bf978283671f34298a3c3e4e41cb3b4a865da1d4e78bb685",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "mtdyZsa47V",
+      "title": "Ultra-Fast Language Generation via Discrete Diffusion Divergence Instruct",
+      "abstract_sha256": "203f03388396403602a550a5bf12062eb87b5d06d947153d47041ab442b4f5d9",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "JNAZ3e7Bwt",
+      "title": "Continuously Augmented Discrete Diffusion model for Categorical Generative Modeling",
+      "abstract_sha256": "6784e149b0ef4af62c85c9e07bcc33129bc8c0f9f6bfeed93dfbba824e9d0e18",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "brRjG5G9Qu",
+      "title": "Combine-ICMH: A Dual-Adapter Co-Tuning Framework in Image Compression for Machine and Human Vision",
+      "abstract_sha256": "43f1d2d4e8f285c2e6ee9d693f595725b8b5d966d05cead80f21faf19ebef843",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "ruh9H1Nwvr",
+      "title": "How Should We Evaluate LLM Reasoning Quality For Fact Verification?",
+      "abstract_sha256": "6f391ea6b8a4228ba7b5ce2039d7161233f859583ea12bdf91e235e7bc26bbac",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "BDOldEjwCE",
+      "title": "TrajFlow: Nation-wide Pseudo GPS Trajectory Generation with Flow Matching Models",
+      "abstract_sha256": "06950b371797b32e29ad2b3a93e26c69bd9ce7afcdb4a620a3c380413a068b3c",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "qCsbYJZRA5",
+      "title": "The Spacetime of Diffusion Models: An Information Geometry Perspective",
+      "abstract_sha256": "77a046e5d0536c89cf20cf1ff57252e24ee6792065b47d31a9ab156531f9bc47",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "dYW9MJyyK3",
+      "title": "OmniDrive:Towards Unified Next-Gen Controllable Multi-View Driving Video Generation with LLM-Guided World Model",
+      "abstract_sha256": "75e3cd9d3dac67ce85387d709f859a5a20ff8b5485baddb75833a3962be763f2",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "qIbGpiNHhs",
+      "title": "SSG-ECPE: Semantics-Structured Generation with Alignment for Emotion-Cause Pair Extraction",
+      "abstract_sha256": "2b9b2c85660b9357d6ce0e7bad18008f0fba515de3d38863c3a0982020597fa5",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "QFJkvv3zMi",
+      "title": "EgoTwin: Dreaming Body and View in First Person",
+      "abstract_sha256": "b82c03c9105082399e0621601061202ba718c8b7e474c5643c0eb99dcce4b64a",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "wSUysJXv07",
+      "title": "NUMBERS AS TEXT: COMPLEMENTARY DUAL- MODALITY EMBEDDINGS FOR TIME SERIES FORECASTING",
+      "abstract_sha256": "881de00a4e67634e994bff14f91391c3d2cae295c9fd8637fdeffa546a6346ef",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "vpO8n9AqEG",
+      "title": "Quadratic Direct Forecast for Training Multi-Step Time-Series Forecast Models",
+      "abstract_sha256": "7abbda58fe90a2f6f8a9f9e0da2956eb992327a5bf1c6039b449ed6369283141",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "2QmiKXfsIr",
+      "title": "KANO: Kolmogorov-Arnold Neural Operator",
+      "abstract_sha256": "79ac97cc0c7bf7b85b56d8d254c4b775be9c0b608c394767d0c6015520d8f805",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "QihJMqm2aX",
+      "title": "Pushing the limits of unconstrained machine-learned interatomic potentials",
+      "abstract_sha256": "07aee15ed6eaf5183fa19bbf373fb978d0066230b1128ecea0af44ccfe968ae7",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "fdjGPp1KPR",
+      "title": "Neural Networks with Adaptive Activation Functions and their Application to the Solution of PDEs",
+      "abstract_sha256": "ef989e538fb9be33e69c639c5b5c9272bc8cfefe5836f6c64019ddfcb9335438",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "RDerF20JYT",
+      "title": "La-Proteina: Atomistic Protein Generation via Partially Latent Flow Matching",
+      "abstract_sha256": "63153a92b69701cac12c6b503140c7f242e2c4e5781b07fa4c8c4fbc4f679875",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "DgnsohAUMn",
+      "title": "Panda: A pretrained forecast model for chaotic dynamics",
+      "abstract_sha256": "3b7e7dfdb2fad9e177b7e90ed6ed1d2db43209f6be766673cefc376038f2910d",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "Kmbtv3gMuM",
+      "title": "PDE Solvers Should Be Local: Fast, Stable Rollouts with Learned Local Stencils",
+      "abstract_sha256": "2976cf057cea8f76de0c884fb970244539ecee3f2b9f1765788d07dc60b88769",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "jGXTx64gal",
+      "title": "FERD: Fairness-Enhanced Data-Free Adversarial Robustness Distillation",
+      "abstract_sha256": "6131d3f862b1565dd7255c986d51864e04613690f4b766005aceabb458c170fc",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "rFmEPL6svs",
+      "title": "Learning Semantic Anchors for Continual Generalized Category Discovery",
+      "abstract_sha256": "3151236df8d844222068f1cfa6c1f334553be3023e7f459d8ee881815b341dd1",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "FLmgVrgJo6",
+      "title": "Fast and Stable Continual Test-Time Adaptation via Masked Modeling and Momentum-Guided Updates",
+      "abstract_sha256": "c32030b8d8954a2f944d8b8be4eb7978978c56fd95b4b5eb6753b58b1498ee43",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "IdW0d0mRnG",
+      "title": "Heads collapse, features stay: Why Replay needs big buffers",
+      "abstract_sha256": "5c5bf7842accddd69ea56d0508f2f3cc67e2e57b5f7bc31a5de135954ac55733",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "AGWa8whf92",
+      "title": "Beyond Linear Probes: Dynamic Safety Monitoring for Language Models",
+      "abstract_sha256": "e8844f8157f56187fdc4527a094ae2576a7619f2e1bc924d285d5fe40df07df3",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "6zcXThQIoR",
+      "title": "Leverage Unlearning to Sanitize LLMs",
+      "abstract_sha256": "767626d1a3d56029c164713f2ff50557ef4cae4347209bc42c07aaa3be66faf7",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "4eVpczyaNx",
+      "title": "Distilling Safe LLM Systems via Soft Prompts",
+      "abstract_sha256": "c09aea03ab81bfff499c6a82bd4edf639dec4ad42a87abe49873c06856ceaa4d",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "4NtoAVqfhA",
+      "title": "Cultivating Pluralism In Algorithmic Monoculture: The Community Alignment Dataset",
+      "abstract_sha256": "90077b3020f8c048068ab4bbd8e9640785d46fa3ac52c0efc33654aebf8022f3",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "JTX0iqxBjk",
+      "title": "Output Supervision Can Obfuscate the Chain of Thought",
+      "abstract_sha256": "374886bb20ec688074209e599ca0bb7878d422ceb99aef96fb325d38474b7681",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "J9qGnGOfuY",
+      "title": "MedGazeShift : Transferable Multimodal Adversarial Attacks for Diagnostic Misdirection in Vision-Language Models",
+      "abstract_sha256": "31ce5782776c78b7fad9f1b225244ceff9f59907a9cd0100e840f93cd1833d23",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "GW9sp1g9qh",
+      "title": "Fine-Grained Iterative Adversarial Attacks with Limited Computation Budget",
+      "abstract_sha256": "db68c1cc6433ba15a8b392c474f369af41043d2ddd17488588bee5402dff94e6",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "zmYx32SSOR",
+      "title": "Advancing Equitable AI: A Comprehensive Framework for Individual Fairness Assessment",
+      "abstract_sha256": "0424761c3cb639456c56c575ef04b64d0fd893abcd3e4ac0682a40ae9168a8aa",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "0FJYicpOj0",
+      "title": "Gaussian certified unlearning in high dimensions: A hypothesis testing approach",
+      "abstract_sha256": "8e23fb86afdaaf4a0acd6dae678a823bea4949027a4c5d74eb9d432e3f76a10b",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "60RXHBGag4",
+      "title": "DBLP: Noise Bridge Consistency Distillation For Efficient And Reliable Adversarial Purification",
+      "abstract_sha256": "1b2498e1030688d0bffcafd2761c1f68f4b39a58ae11f43f632e654b24c31094",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "Wf0tGnQOIh",
+      "title": "Conjuring Semantic Similarity",
+      "abstract_sha256": "4f0bdeb5e100eb93d33eeda3593857516991e4f97309f3123dd68e3319633f5b",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "AuzSDvSUzg",
+      "title": "Human Aligned Compression for Robust Models",
+      "abstract_sha256": "156b5699544c84ba05355bb63a6dc9e6aad3d14a3579d20d0bacaf5ae520d0a5",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "y8dVmQxKgb",
+      "title": "Hot PATE: Private Aggregation of Distributions  for Diverse Tasks",
+      "abstract_sha256": "732c351532014e569b4dbd07dbd1e933bcef5d0d99e5d4d4edf245dc61545d62",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "vkTl53bXMs",
+      "title": "Memorization or Interpolation? Detecting LLM Memorization through Input Perturbation Analysis",
+      "abstract_sha256": "2d53babd190b62aaf269a85de7007e30649f77017dcd0cbe4f607bc8cbcea631",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "9C4gVbPqSy",
+      "title": "Omni-Reward: Towards Generalist Omni-Modal Reward Modeling with Free-Form Preferences",
+      "abstract_sha256": "d671fd9d77ecd7484c2c77baec099108b02fe2cef19390d465995c80e889cc1d",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "GdcDEvh90X",
+      "title": "Empirically Investigating the Trade-Offs in Deterministic Certified Training",
+      "abstract_sha256": "fddb18554a6a9f597070b3358a7176f7d9f5b0f15755f85072c8698ed9ce347c",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "Us00XndbVi",
+      "title": "Comparing AI Agents to Cybersecurity Professionals in Real-World Penetration Testing",
+      "abstract_sha256": "46a9fc1b12e8d8ac34c16eb36bb45f998c51010a6807c2c374b011ba3e5a326b",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "VgNs9dzyp6",
+      "title": "Feature-Level Adversarial Attack on Quantum Neural Networks",
+      "abstract_sha256": "ec33b1e7d22c44771c139a5c41d9991538c78116419be878f49b480120f6f887",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "qBfeoNi3Ja",
+      "title": "Supervised Fine-Tuning on Ambiguous Preference Pairs Boosts LLM Alignment",
+      "abstract_sha256": "303a30b61b128c68c9f0ba9a01f81e42b1d50295ac7c483b3de6a1f60ca0cabd",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "hqq6GyYISN",
+      "title": "Fair Decision Utility in Human-AI Collaboration: Interpretable Confidence Adjustment for Humans with Cognitive Disparities",
+      "abstract_sha256": "76f619a4ec459ada5cfc07d304a80bf793c2be9bb02b87a6ec5927a1a67374ef",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "lL6htAaolp",
+      "title": "Why Adversarially Train Diffusion Models?",
+      "abstract_sha256": "8bef6c6fba84b2038eec4955eefc29115aadf9a39da541c4caad7da4d03adca9",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "ibM9ZjUCiu",
+      "title": "SEM: Reinforcement Learning For Search-Efficient Large Language Models",
+      "abstract_sha256": "29a051d8e59140d8314a1f32f7efeb0da24822c972851fd0816686d657aaee09",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "ZozCeC9rD4",
+      "title": "Numerical Sensitivity and Robustness: Exploring the Flaws of Mathematical Reasoning in Large Language Models",
+      "abstract_sha256": "fcd7f84122794a0285c5cda048fb9da33bee30aefca6465b33057c37fc677e5b",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "wyucYNGPiW",
+      "title": "Attack-Resistant Watermarking for AIGC Image Forensics via Diffusion-based Semantic Deflection",
+      "abstract_sha256": "6fc2e30822a7b162a5de01be3d0966805a4173496fa4cf9f8d437eda88dadd8a",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "AMIb7RWnBI",
+      "title": "AGENTCON: PRACTICAL ATTACKS ON GENERALIST WEB AGENTS VIA IMPERCEPTIBLE MANIPULATION",
+      "abstract_sha256": "06af05db94be2eef11eb9fd8c0bc1828208eae2bed00cdb1e0bec3900eb9cb69",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "BpyR6Wkl1c",
+      "title": "Control Tax: The Price of Keeping AI in Check",
+      "abstract_sha256": "6e13c565dab8e1f12ccf90ad8ebd54abda014955c07f66eb421984b459008a3b",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "jk7PL8GAV8",
+      "title": "Erased but Not Forgotten: How Backdoors Compromise Concept Erasure",
+      "abstract_sha256": "7941a209f2b00440e942137a1147de45edd7c3c429620baf69507d1012a3a5e6",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "wGFD7ITicm",
+      "title": "Critical Confabulation: Can LLMs Hallucinate for Social Good?",
+      "abstract_sha256": "c2a75ceabf553884bdef3a620f74f3127e7422670980de78783663b7ad4ae394",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "s79tJrxDmt",
+      "title": "Beyond Hearing: Learning Task-Agnostic ExG Representations from Earphones via Physiology-Informed Tokenization",
+      "abstract_sha256": "61f39021b58cf3008c7eaaeda61da121a6ce1a3caaefc81a66555fed7bd35a2f",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "VlTHxRcP3A",
+      "title": "Representational and Temporal Dynamics in Neural Decoding: Linear and Nonlinear Models for Position and Velocity Prediction",
+      "abstract_sha256": "06129af643ba5b8f10b96cc2a680a94060b28ef77dfcb1bb771e13a24e27eb0c",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "7dvYWzOiEu",
+      "title": "Meta-Learning Theory-Informed Inductive Biases using Deep Kernel Gaussian Processes",
+      "abstract_sha256": "1a49536b0a1f49768dff267f35a1eb918425bb5e3ce4999f08fcf2297cb0d9f7",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "qD4N15aL2W",
+      "title": "MTSSRL-MD: Multi-Task Self-Supervised Representation Learning for EEG Signals across Multiple Datasets",
+      "abstract_sha256": "813550e5b3bc5f53c1b873ef0e591cd009fe8d375739bf8d3b610725dfc3a570",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "81iTOKJbzZ",
+      "title": "Spatially and Temporally Guided Bayesian Optimization for Brain Effective Connectivity Learning from fMRI and EEG Data",
+      "abstract_sha256": "4ccb324d637f72a76e70cbd1844f69c5f9900a8c51f28b7b0f727a15b848605b",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "8OgJ2uhiu8",
+      "title": "Assembling the Mind's Mosaic: Towards EEG Semantic Intent Decoding",
+      "abstract_sha256": "48ea8c1186565f34668cf31c973cd44309a251a35d5b6133d81f694aab3eb911",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "1CR1MTIgmq",
+      "title": "False, misleading, and unfounded statements in a recent TPAMI publication",
+      "abstract_sha256": "747a6030543c8c2e75fd5f8d95deb5516bfbd248af37c29d22cb78c6e94b7dfe",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "8fViWZ0yZJ",
+      "title": "Discovering alternative solutions beyond the simplicity bias in recurrent neural networks",
+      "abstract_sha256": "6f923cba926e634e71f6a275b902cf90e366ddf42c72d7598f68e06f17abb1bd",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "v8lXG3Z1PB",
+      "title": "Reliable Detection of Autism Spectrum Disorder in Children Using Conformal Prediction",
+      "abstract_sha256": "38e27cb7a7d121432e2090c53d5b4a05b8aaf10801ff9074656e60169ee07d37",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "uAkexWJ7dW",
+      "title": "Robust Selective Activation with Randomized Temporal K-Winner-Take-All in Spiking Neural Networks for Continual Learning",
+      "abstract_sha256": "385395b5a133227aa3b8b220544775a7bcae742e4fb722d27a34ee16ed56614c",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "ZVlTIyRe35",
+      "title": "Neural Graduated Assignment for Maximum Common Edge Subgraphs",
+      "abstract_sha256": "c3b679ba71ddc2d243466cacd9925e1fd87a442db10434c90f92e72a8d0514f0",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "aMciux4VKg",
+      "title": "AEGIS: Authentic Edge Growth In Sparsity for Link Prediction in Edge-Sparse Bipartite Knowledge Graphs",
+      "abstract_sha256": "3c82c3df26f0dad5226b2726c16c15e015586ee391f41b4f0a9b681e3e6d6ba2",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "twq5A3zdrH",
+      "title": "Context-aware Heterogeneous Graph-driven Multimodal Representation Learning for Emotion Recognition",
+      "abstract_sha256": "889125bdae5a851deab314420c13cc92afa20b53819713869df1b6e97693033d",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "dUgq4bLY4X",
+      "title": "Reducing Symmetry Increase in Equivariant Neural Networks",
+      "abstract_sha256": "c6e9d7a34879a1f787ae5057dd4a675f9351cc86731c87b1bcd62dd9245f8756",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "ojVcsWXPpU",
+      "title": "Revisiting Dynamic Graphs from the Perspective of Time Series",
+      "abstract_sha256": "1a600321f294ddd97387886e5b4eec73d2b3802d626fbb569dc1a430b8df0c06",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "HHNQSXaLkF",
+      "title": "Tree-sliced Sobolev IPM",
+      "abstract_sha256": "df3a42e6e896c272834cdb2e045072fe36eb973f7dcddc2b886a9d1ddb5d8af5",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "G3uNHQpP7J",
+      "title": "Multi-Domain Riemannian Graph Gluing for Building Graph Foundation Models",
+      "abstract_sha256": "50ee16ad96253f659ef2d81b68b8e1a24b1e5ba19cfef6de1c9bba65e3f6b188",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "4eZqQ0Qs8u",
+      "title": "DeepOPF-GAF: Graph Self-Attention Framework for N-1 Security-Constrained Optimal Power Flow",
+      "abstract_sha256": "d2212d9babb0197d966720e4b42485b1886a14ce3208f1797518d3860a5ca294",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "B6t4qcdmM0",
+      "title": "CAPL: Graph Few-Shot Class-Incremental Learning Via Class-Adaptive Prototype Learning",
+      "abstract_sha256": "3e36d9d8defd42ddb93e2b7d82b6bea22e2ec95cce165bada181664bb11df49b",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "92fliNrbxY",
+      "title": "CheckMate! Watermarking Graph Diffusion Models in Polynomial Time",
+      "abstract_sha256": "d986b504c7057e9f9e032ff66de64b49e59ce660a8eb0963f7920bbd6d3d5806",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "4twbqwV4br",
+      "title": "Neural Message-Passing on Attention Graphs for Hallucination Detection",
+      "abstract_sha256": "d7ad023d5464ee8edc5501cd1d5a25231bf5a980ab15291158d6d84f6b539393",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "col1qqZUAk",
+      "title": "Rethinking Graph-Based Document Classification: Learning Data-Driven Structures Beyond Heuristic Approaches",
+      "abstract_sha256": "b07c1f7de43db8d3e304e69f06af51f6998c4b9a5d9812b717343eebfccb7826",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "HlQtHRjh5O",
+      "title": "ChebMoE: A Spectral-Aware and Expert-Adaptive Framework for Graph Anomaly Detection",
+      "abstract_sha256": "c27f88ead4147c1f966408ca55d58297b576bae99ca870bf7b1e8e66b5e22345",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "e439wJl5sT",
+      "title": "Mixed-Curvature Tree-Sliced Wasserstein Distance",
+      "abstract_sha256": "97e82dc8aa168ad546e86cd562f8918ae77a7aabd34022dd3a4dbd1615dd49db",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "084SvT55yk",
+      "title": "Native Adaptive Solution Expansion for Diffusion-based Combinatorial Optimization",
+      "abstract_sha256": "2c631d77c417421a6243d586f2285c7ffa7f95d40414cc1ef5a348717224c74d",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "QYtmqCoilk",
+      "title": "Rethinking the Gold Standard: Why Discrete Curvature Fails to Fully Capture Over-squashing in GNNs?",
+      "abstract_sha256": "7192730b05b0c8ff6134fb2eb1c26d2eca6191fec20967d47db99864d72a7eed",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "VAv1rrPR1A",
+      "title": "Mechanism of Task-oriented Information Removal in In-context Learning",
+      "abstract_sha256": "5e9e301d89967ed7fae190b33b13733ac69335491f8d93af539ad0741b71d7ec",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "nF7ORZfCLi",
+      "title": "ExAI5G: A Logic-Based Explainable AI Framework for Intrusion Detection in 5G Networks",
+      "abstract_sha256": "302ac9137345225d1c3a5e6c99912e6b5f893ce90e382c13d3c9165f85558b87",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "5Y3GYuRWsi",
+      "title": "Alice: An Interpretable Neural Architecture for Generalization in Substitution Ciphers",
+      "abstract_sha256": "90953a1efb89ef78f3fe17b294fee0f57b2aab82f7da9e762d301a0932672e68",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "DSOTgzeH3w",
+      "title": "On the Limits of Sparse Autoencoders: A Theoretical Framework and Reweighted Remedy",
+      "abstract_sha256": "e82318f17e23f71ab1837e7cbec29ec75f4e581a28e0359538ba5733faf7727b",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "iD6ZD5wE1n",
+      "title": "A dimensional R2 regression metric",
+      "abstract_sha256": "41689d7ff41cbdd2bd0bd7929a06c1dbb275a3e5160c06260473dbc06bac231d",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "mGtEoLYr9j",
+      "title": "Discovering and Steering Interpretable Concepts in Large Generative Music Models",
+      "abstract_sha256": "ae1950da665bc1ac69d190ca6d089bde44bf4068d5ac34f48c199fd54ba57065",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "Ml8t8kQMUP",
+      "title": "Exploratory Causal Inference in SAEnce",
+      "abstract_sha256": "d30e2b7c3e4c11ac75fdc0502d238ae6871b7ba0696052d66a4745910fd6c59e",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "9HxITL2Xlo",
+      "title": "Signals of Trust: From Classification to Confidence",
+      "abstract_sha256": "6e4d3bfbf80f30a609e2b32f650df01a508321236ce52ed40b6db640abb1129f",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "Timsb74vIY",
+      "title": "Formal Mechanistic Interpretability: Automated Circuit Discovery with Provable Guarantees",
+      "abstract_sha256": "a173d5e8be13ef989ff0ca6dcd46732c7d09a9fad348531a5a677ea4a541126c",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "pFTfTJitMb",
+      "title": "Embedding Interpretability Score: A Domain-Agnostic Representation Quality Assessment",
+      "abstract_sha256": "de3a21b9aad79ad84bcf71b7aa1d1048a57d444fd406c062bb136c8c1ea10971",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "4i66VARUHD",
+      "title": "Surpassing Cosine Similarity  for Multidimensional Comparisons:  Dimension Insensitive Euclidean Metric",
+      "abstract_sha256": "342cd34b96c3bc592a85815026c10d0f68b86e23099c66dcda53a7cb4cd641c5",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "6As4wfTB77",
+      "title": "Learning to Interpret Weight Differences in Language Models",
+      "abstract_sha256": "99447d0a2f1fe2278c19716adfeb161c0ae982267df58ef9395e9e97f0eaf885",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "J4GYMiE3JT",
+      "title": "Structural Inference: Interpreting Small Language Models with Susceptibilities",
+      "abstract_sha256": "c930ba7364710fd41d0d00a639e2139cafa9919e0f2a40ee612800a3a857add0",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "tWe5owhOyU",
+      "title": "SALVE: Sparse Autoencoder-Latent Vector Editing for Mechanistic Control of Neural Networks",
+      "abstract_sha256": "3039d07bfe5c32fc7efd5c7b19f0bdfd07041273423c0edfe6e69d895823241e",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "9A2etpDFIB",
+      "title": "Towards Understanding the Nature of Attention with Low-Rank Sparse Decomposition",
+      "abstract_sha256": "b1de7d217f1f527b3256f565f9195a582585f5d0db508ac90d63ee73a4263eb2",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "jHPCXOi9LU",
+      "title": "Attend or Perish: Benchmarking Attention on Algorithmic Reasoning",
+      "abstract_sha256": "1315bc714ddd2db7b3167cb1479f6a4e781d453857eb9f30217b218d03a26e42",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "Af16P0ODP6",
+      "title": "Reforming the Mechanism: Editing Reasoning Patterns in LLMs with Circuit Reshaping",
+      "abstract_sha256": "f7c0a6902d161b64b4e6d7953d9f8a883b0ab62c4c2c15e38ca2b77d1f434b29",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "uusTA1rBhR",
+      "title": "Plan-R1: Safe and Feasible Trajectory Planning as Language Modeling",
+      "abstract_sha256": "16586dff3c58f6db848567b0ad8e5cb2382c583027f878a067d45a14ac227ea3",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "f2nxdOv1Uh",
+      "title": "MTG-RPD: Multimodal Trajectories Generation with Rule-Based Prior Diffusion for End-to-End Autonomous Driving",
+      "abstract_sha256": "3e0563fc75ba252cfbffd547ca0ee52f728be95238c7ed72be84e7cc3a3a7d26",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "IKy24F8tGn",
+      "title": "On residual network depth",
+      "abstract_sha256": "997cfcfabe790060047885890bcf63e51c1d4c4320a6d4ea5c4eac2eccb5a1e2",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "gdZ6J5hZzF",
+      "title": "Sequences of Logits Reveal the Low Rank Structure of Language Models",
+      "abstract_sha256": "acecd09297af04fb664f4c0932f75d253f72d8d1a0cfcac79b1918cd5078eb8d",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "TeDkzf34hs",
+      "title": "Dynamical properties of dense associative memory",
+      "abstract_sha256": "f2334eb8cfe025fa2f5aedfa6ebee5c1c9c5b727fa92b4aab69df5b2d2c9a4f0",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "UkiGZBRZmg",
+      "title": "Accelerating Optimization and Machine Learning via Decentralization",
+      "abstract_sha256": "957d38a90cb2f567e318e85eeac81472c774cb9aad65c1205927d9d31191d573",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "ARWB0SNmFR",
+      "title": "LLM-ERM: Sample-Efficient Program Learning via LLM-Guided Search",
+      "abstract_sha256": "d588075ee9d2c6c3f137de2d9e85d66240592289869fab8f65c941802b78da1f",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "xIycolc5Xw",
+      "title": "Instance-Dependent Fixed-Budget Pure Exploration in Reinforcement Learning",
+      "abstract_sha256": "f77d6083b9ed01f951b2ee4653d084c44f503fc198f528163553d49dd9aa5dbd",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "Oox4QOhmi9",
+      "title": "Transfer Learning in Infinite Width Feature Learning Networks",
+      "abstract_sha256": "5ecc67b8a35cba66992b11f8e0401f703c6a5638f9fd68e6201b0cda7ad01c99",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "Oe5Min0Na2",
+      "title": "FINDER: Feature Inference on Noisy Datasets using Eigenspace Residuals",
+      "abstract_sha256": "50a8c114dd07e6cf05a06946ee0b818104efbe3f7e2d8fc3ebc6d7239d968ec0",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "rAjHUNXybH",
+      "title": "Computational Bottlenecks for Denoising Diffusions",
+      "abstract_sha256": "fdaf2775a8fb243cbcda3fc031785d88373dd4b8e2cf0c5e9444214ae733a032",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "P0rW0xr3mT",
+      "title": "Modern Hopfield Networks Cannot Solve $\\mathsf{NC}^1$-Hard Problems",
+      "abstract_sha256": "b11b2a591821ba5670ed00e0b479b6efa427bb74fc3ea6a53fcab84e1fe1d2d4",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "bo6cliXvPQ",
+      "title": "On Rademacher Complexity-based Generalization Bounds for the Transformer Architecture",
+      "abstract_sha256": "3381312eb3e098ea5a17c1ac72b00dea65196ac5858cc2d303a854d295dae56b",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "utSqpxQHXq",
+      "title": "Two failure modes of deep transformers and how to avoid them: a unified theory of signal propagation at initialisation",
+      "abstract_sha256": "226d1eb3eaf7a8cf2e14d26d70823b13885d6234c45de9da9b5a3659e8a0b972",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "Q3yLIIkt7z",
+      "title": "Scaling Laws and Spectra of Shallow Neural Networks in the Feature Learning Regime",
+      "abstract_sha256": "47da99cfe061287f81da36853f753167281f6baa16413d5f0618dce8e09b4ff1",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "9eBYO45Fcx",
+      "title": "Towards Robust Out-of-Distribution Generalization for Deep Neural Networks with Tailored Data Regularization",
+      "abstract_sha256": "c373fbf9e0cf9033cb0b7e18ff767a437172c15d14330b097a7981efa4e0f0d8",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "6UpstNltZ4",
+      "title": "A Recovery Guarantee for Sparse Neural Networks",
+      "abstract_sha256": "9810da59fa350a6d43ac6f5df7d72c3a4fd2e1c565e1073f0279005a09457119",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "kbxjkoF42x",
+      "title": "Ensemble Learning for AUC Maximization via Surrogate Loss",
+      "abstract_sha256": "f2dd1ce0abe61e74bfa940d7c295538102a9f4c6c28b5687055553918e2cbf21",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "Vp9lqAzWok",
+      "title": "STADE: Standard Deviation as a Pruning Metric",
+      "abstract_sha256": "b387854fe66bc2e999820eec997764d86229345a0206e525fb5e1af186005dc7",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "DUXG9E8dEO",
+      "title": "Theoretical Analysis of Contrastive Learning under Imbalanced Data: From Training Dynamics to a Pruning Solution",
+      "abstract_sha256": "e0971fe90da343551c1e5d732f7b188bd427e20526ce26fc044afe04b374fef3",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "L5jYWeycAx",
+      "title": "Learning on a Razor\u2019s Edge: Identifiability and Singularity of Polynomial Neural Networks",
+      "abstract_sha256": "50a7baf0b10cb4c264f0bf682963a690aca1924ca3b30a068ef981ce0248176a",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "SkmkGKEZ1U",
+      "title": "O-Forge: An LLM + Computer Algebra Framework for Asymptotic Analysis",
+      "abstract_sha256": "bc9a45307b4cb0a0e16e5615175756cdc9a330b6a5f4428a6829e1d5e880c721",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "s9t2FJVsBH",
+      "title": "ProofFlow: A Dependency Graph Approach to Faithful Proof Autoformalization",
+      "abstract_sha256": "a07c68914f8a974133026aec7e136464b224d774d9c0aec6841f466f8a0dc14a",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "a5aRjldX9l",
+      "title": "Aligning Collaborative View Recovery and Tensorial Subspace Learning via Latent Representation for Incomplete Multi-View Clustering",
+      "abstract_sha256": "55df1ffb40ad3492640ddd750431f3adc9f8eb043f94b5df250bb8a4e96dd7ea",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "62nHvQRfaw",
+      "title": "A Framework for Sample and Objective Forgetting: Pull-to-Outlier & Contrastive Objective-level (POCO) Unlearning",
+      "abstract_sha256": "fa2e9a56c2c8b58b73980e737c1db29c919682e6a0bc3f1f0689c0e9b9f48298",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "sZ3tjtN8AW",
+      "title": "Fisher Information for Robust Federated Cross-Validation",
+      "abstract_sha256": "7810e41a350eac924984d165f4da29f642f1764018613f70de9470c0adfef132",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "FwKFjBX0PK",
+      "title": "Federated Graph-Level Clustering Network with Dual Knowledge Separation",
+      "abstract_sha256": "8341f40977566c86d5c225f3a88d9b8adb8b911c783ea513e7a9beb9b571d746",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "NWXUpwHPP7",
+      "title": "FineKB: Domain-Adaptive Issue Summarization and Cluster-Aware Retrieval for Support Knowledge Bases",
+      "abstract_sha256": "8b596bf765f0115deb078bc89c5c4cdb3b527f48159e907eced4066f9a3b82dd",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "wSGle6ag5I",
+      "title": "Improving Diffusion Models for Class-imbalanced Training Data via Capacity Manipulation",
+      "abstract_sha256": "9f9e349d04040472ae70b08e67f9f0652901a565f9de93a9b616fb0ac99a3bbe",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "TA4R2GYA50",
+      "title": "Online Test-Time Adaptation in Tabular Data with Minimal High-Certainty Samples",
+      "abstract_sha256": "e331167925e48b9e0aed3008382407fa5407df0c52e4cb30110cc2ed20588e93",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "JkKkquv5lw",
+      "title": "A Study on PAVE Specification for Learnware",
+      "abstract_sha256": "57de927133d03d9dacbaedbd4b73796b54150867b196a08e4d676a69ab865802",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "4ozxLQHt5F",
+      "title": "MMUDA: Towards Robust Sleep Staging with Multi-Source Multi-Channel Unsupervised Domain Adaptation",
+      "abstract_sha256": "69c1fa9f8241f722026fef63227d6ffa9df4ce729d4b45ca38928e03d140eb75",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "Bp3I456do5",
+      "title": "Debiased and Denoised Representation Learning for Incomplete Multi-view Clustering",
+      "abstract_sha256": "47a17ad6605488a4d7daa1e99f5d708d594a7ba5f2b94adafb4049e0b84e97f7",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "bzhCJQz35M",
+      "title": "Understanding Weak-to-Strong Generalization: A Spectral Analysis",
+      "abstract_sha256": "7fdc9ed8e6f6c70803f3536da59c0326926f166ddaf35894e67208d46ff5d73a",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "GbXKPo9QfH",
+      "title": "LLM-JEPA: Large Language Models Meet Joint Embedding Predictive Architectures",
+      "abstract_sha256": "0ec4e799434d392e21f25cab51601e031e5b6c35afe3d6bc301a1e38e9668998",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "XGODWn7HeJ",
+      "title": "Toward Principled Flexible Scaling for Self-Gated Neural Activation",
+      "abstract_sha256": "e7606ed50f8741aa557a43a355f6f639b92ff20c71ce37bc4ed8b5aa8da3eef1",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "NMz8o7MZ56",
+      "title": "ATTENTION-GUIDED DEEP ADVERSARIAL TEMPORAL SUBSPACE CLUSTERING FOR MULTIVARIATE SPATIOTEMPORAL DATA",
+      "abstract_sha256": "6136b30c64ebf717efd892710c5845027884be6dfd976a81dc9807f48030c846",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "yACLq4HoKi",
+      "title": "Forecasting Diabetic Complications from Brazilian Billing Codes with Time-Aware Attention",
+      "abstract_sha256": "3a89f7c063def74d5d44b99b8fe0b56b6efe10099e1ec84aa60ffd504891c4db",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "mytIKuRsSE",
+      "title": "Learning with Dual-level Noisy Correspondence for Multi-modal Entity Alignment",
+      "abstract_sha256": "2b94daeee34559ddc38a0f2fd858dc6c0946b9c35a485c4b71d6140e87487432",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "OJupg4mDjS",
+      "title": "On the Wasserstein Geodesic Principal Component Analysis of probability measures",
+      "abstract_sha256": "adf27fc08bcf8bcd0a435100ca88ba008fa01534bbd7977e1b46dfeb31a12c77",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "0K4jNe8ik9",
+      "title": "DGNet: Self-Supervised Delta2Gamma Multi-Band EEG Representation Learning for Dementia Classification",
+      "abstract_sha256": "fd9581e1f9bf1a00ed6c38ca5453f12dc765b5d593bb90da3273f5dd647dbdae",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "e7pAjJZJWb",
+      "title": "Revela: Dense Retriever Learning via Language Modeling",
+      "abstract_sha256": "bb77d5f476cdf870124b7636da8c7df03cdc563cb6ffb7c6cebda14b5c455f02",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "OOebHJcqgR",
+      "title": "BotaCLIP: Contrastive Learning for Botany-Aware Representation of Earth Observation Data",
+      "abstract_sha256": "2a6a47a9f5bff40ff802f08d0ce16d35b9f816c915eb8ec30a9ee88c046fa650",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "8dLexnao2h",
+      "title": "A Scalable Distributed Framework for Multimodal GigaVoxel Image Registration",
+      "abstract_sha256": "8f1f624429e8669a87265cf4447d6f744893a83fa53c8e764c3ffed876b1d008",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "3eoCXVxvbZ",
+      "title": "AU-Harness: An Open-Source Toolkit for Holistic Evaluation of AudioLLMs",
+      "abstract_sha256": "fa566bbd4f54ecf14b38450470c07376c38ffbf7804219ee314926eb42e4b859",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "qclNnbjxNJ",
+      "title": "Characterization and Learning of Causal Graphs with Latent Confounders and Post-treatment Selection from Interventional Data",
+      "abstract_sha256": "137364e1ee86ef52a5584717169b2e4314174515c93d0774b608bf6eb9dfab06",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "pEtQaGUZVB",
+      "title": "Counterfactual Techniques for Enhancing Customer Retention",
+      "abstract_sha256": "280977a9978eb527acf59da217fa00234626d3e85767729ba661bd9c18c64063",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "4bnCXOtHTm",
+      "title": "Learning Dynamic Causal Graphs Under Parametric Uncertainty via Polynomial Chaos Expansions",
+      "abstract_sha256": "1414b8f0b92a68a60fac63573cd1791e1a06ef628f4560900feaf1950a42d439",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    },
+    {
+      "forum_id": "1GoQe3r0Lv",
+      "title": "Dynamic Cognitive Orchestration: Eliciting Metacognitive Planning in Large Language Models",
+      "abstract_sha256": "001fc3b40ddf117872bcad23bc42e87c471fd414c702193ac0aec6f1981b250d",
+      "archived_openreview_public_date": "2025-10-08T04:11:45.795000+00:00",
+      "first_public_date": null,
+      "first_publication_verified": false,
+      "source": null,
+      "review_status": "pending_first_global_publication_and_preprint_search"
+    }
+  ]
+}

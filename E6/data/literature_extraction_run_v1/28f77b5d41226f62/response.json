@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:43:43.264991+00:00",
+  "identity": "c0ea577c1b300e2a81821237ad662f686814b7425b5fc279162ac684f7914d2d",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:43:43.25428Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 91,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 18.021890415999906,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:43:43.25428Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 3130,
+      "prompt_eval_count": 740,
+      "prompt_sha256": "de2fae92d2ae5d40f147b2213f5f34edea02ca726cc333fbd7910c9e5443ed68",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 831,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 740,
+    "latency_seconds": 18.021890415999906,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:43:43.25428Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 91,
+    "raw_response": "{\n  \"research_question\": \"Does the ingestion layer of mainstream document converters lose information encoded in text formatting, and if so, what is the impact on agents that act on documents?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"Mainstream document converters lose meaning encoded in text formatting, leading agents to make confident but incorrect decisions.\",\n  \"main_hypothesis_explicit\": true\n}",
+    "total_tokens": 831
+  },
+  "reply_sha256": "c023a4116b092b5251a5e875521d246aad7ca17be53b75ebb79e5b979a3e80ff"
+}

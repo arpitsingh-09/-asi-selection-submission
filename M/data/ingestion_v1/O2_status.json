@@ -1,0 +1,14 @@
+{
+  "schema": "M-core-readiness-v2",
+  "test": "O2",
+  "status": "BLOCKED",
+  "eligible_records": 0,
+  "heldout_evaluated": false,
+  "metrics": null,
+  "ci95": null,
+  "baseline_comparisons": null,
+  "missing_dependencies": [
+    "No verified identical >=3-seed citation groups, within-year dates and dated outcome linkage.",
+    "Q outcome prediction unavailable."
+  ]
+}

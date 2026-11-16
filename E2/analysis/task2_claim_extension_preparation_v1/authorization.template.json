@@ -1,0 +1,8 @@
+{
+  "manifest_sha256": "c20ac0335d018290b65409b7d051f4931e46a7e593f99b93ec78db136ce37b38",
+  "protocol_sha256": "f4508814d42cd39efada12b4760347f5b0397cf7fa6cee6d395b0942e5cc480f",
+  "authorize_evaluation": false,
+  "authorization_source": null,
+  "sidecar_sha256": null,
+  "note": "No real evaluation authorized. All 93 bound vectors must exist; bind the finished sidecar checksum only after future explicit approval."
+}

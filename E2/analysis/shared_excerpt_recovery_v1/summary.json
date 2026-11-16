@@ -1,0 +1,10 @@
+{
+  "new_claims": 3,
+  "newly_completed_sets": 3,
+  "remaining_short_sets": 45,
+  "future_sets_with_4_to_10": 255,
+  "candidate_strings_reviewed": 45,
+  "prior_artifact_sha256": "63ad43c7e1734b3396a1b5749d21b1b4be0fcd54cab9c789cb5f5dace46c0adc",
+  "human_review": false,
+  "used_in_evaluation": false
+}

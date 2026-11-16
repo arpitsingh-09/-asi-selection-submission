@@ -1,0 +1,7 @@
+candidate_id,question_id,source_paper_id,question_identity_yes_no,paraphrase_same_question_yes_no,near_miss_distinct_yes_no,decoy_same_topic_yes_no,reviewer_id,independent_of_author,evidence_source,evidence_locator,rationale,reviewed_at
+mgen-v1-01,mgen-v1-01,"2212.13979v1,2412.20911v1",,,,,,,,,,
+mgen-v1-02,mgen-v1-02,"2012.14128v1,2012.14556v1",,,,,,,,,,
+mgen-v1-03,mgen-v1-03,"2012.15020v1,2012.15052v1",,,,,,,,,,
+mgen-v1-04,mgen-v1-04,"2101.02141v3,2112.14478v1",,,,,,,,,,
+mgen-v1-05,mgen-v1-05,"2212.14704v2,2501.00437v1",,,,,,,,,,
+mgen-v1-06,mgen-v1-06,"2401.00029v3,2401.00155v2",,,,,,,,,,

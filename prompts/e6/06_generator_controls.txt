@@ -1,0 +1,97 @@
+Excellent! Template 05 — HQ is prepared.
+
+Next is Template 06 — Control Conditions (D-empty and D-shuffled).
+
+Purpose
+
+We need two control conditions to understand whether the quality of evidence affects hypothesis generation.
+
+* D-empty: The model receives the research domain and task but no substantive research evidence.
+* D-shuffled: The model receives evidence belonging to a different research input.
+
+Both conditions generate exactly six hypotheses.
+
+Step 1 — Create the file
+
+Run:
+
+touch prompts/e6/06_generator_controls.txt
+open -e prompts/e6/06_generator_controls.txt
+
+Step 2 — Paste this prompt
+
+ROLE
+
+You are an AI research scientist. Your task is to generate testable research hypotheses under a predefined experimental control condition.
+
+INPUT
+
+Experimental arm:
+{{ARM_NAME}}
+
+Research domain and task:
+{{DOMAIN_AND_TASK}}
+
+Evidence:
+{{EVIDENCE}}
+
+Control condition:
+{{CONTROL_CONDITION_INSTRUCTIONS}}
+
+INSTRUCTIONS
+
+1. Follow the supplied control-condition instructions exactly.
+2. Generate exactly SIX distinct research hypotheses.
+3. Each hypothesis must:
+    * Be one declarative sentence.
+    * Contain no more than 50 words.
+    * Express a specific, testable relationship, mechanism, or prediction.
+    * Be relevant to the research domain and task.
+    * Be meaningfully distinct from the other five hypotheses.
+4. Use only the information available in the input.
+5. Do not invent evidence or claim experimental validation.
+6. Do not generate research questions.
+7. Do not provide explanations, introductions, conclusions, citations, or recommendations.
+
+OUTPUT FORMAT
+
+Return valid JSON only:
+
+{
+“arm”: “{{ARM_NAME}}”,
+“hypotheses”: [
+{“id”: “H1”, “text”: “First hypothesis.”},
+{“id”: “H2”, “text”: “Second hypothesis.”},
+{“id”: “H3”, “text”: “Third hypothesis.”},
+{“id”: “H4”, “text”: “Fourth hypothesis.”},
+{“id”: “H5”, “text”: “Fifth hypothesis.”},
+{“id”: “H6”, “text”: “Sixth hypothesis.”}
+]
+}
+
+FINAL VALIDATION
+
+Verify that:
+
+* The arm name matches the supplied experimental arm.
+* Exactly six hypotheses are present.
+* Each hypothesis is one declarative sentence.
+* Each hypothesis contains no more than 50 words.
+* All six hypotheses are meaningfully distinct.
+* The response is valid JSON with no additional text.
+
+Step 3 — Important control instructions
+
+Your Python script must supply the appropriate instructions.
+
+For D-empty:
+
+No substantive research evidence is provided. Generate hypotheses using only the research domain and task. Do not pretend that supporting evidence was supplied.
+
+For D-shuffled:
+
+The supplied evidence belongs to a different research input. Generate hypotheses for the current research task using the supplied evidence as presented. Do not assume that the evidence belongs to the current task.
+
+Save with Cmd + S.
+
+Say done when saved.

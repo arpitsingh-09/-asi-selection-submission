@@ -1,0 +1,30 @@
+{
+  "checkpoint_sha256": "b117438499c79c50d1204ca8b60dcc2839fad3ad2fd4c9824ae17cebe3a29da5",
+  "result": {
+    "models": [
+      {
+        "context_length": 32768,
+        "details": {
+          "families": [
+            "gemma3",
+            "clip"
+          ],
+          "family": "gemma3",
+          "format": "gguf",
+          "parameter_size": "11.8B",
+          "parent_model": "",
+          "quantization_level": "Q4_K_M"
+        },
+        "digest": "b92b218582c521ba287f38f1d6057dcd3c6cbff036f13cac97b5d861f5e58ec3",
+        "expires_at": "2026-11-12T09:06:01.22773+05:30",
+        "model": "gemma3:12b",
+        "name": "gemma3:12b",
+        "runner": "llamacpp",
+        "size": 9303857559,
+        "size_vram": 7674737458
+      }
+    ]
+  },
+  "run_identity": "43490d6a3dad0e59dbc1753965ac5e6ede45c24850311f3a21951e08a274cbbd",
+  "step": "05_runtime_allocation"
+}

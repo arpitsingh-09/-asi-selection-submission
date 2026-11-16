@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:35:31.898840+00:00",
+  "identity": "71e51821635cb9c8b33a9f649b5fa43ac31dacb8aa992929fd3d428f7514e0a5",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:35:31.885146Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 119,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 16.036145791999957,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:35:31.885146Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2401,
+      "prompt_eval_count": 503,
+      "prompt_sha256": "7030af379fa15d00d7bda27e6b5ef11d5f60488ed0024d27bb305120504ef836",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 622,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 503,
+    "latency_seconds": 16.036145791999957,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:35:31.885146Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 119,
+    "raw_response": "{\n  \"research_question\": \"How can a captioning agent determine what evidence to acquire and how to integrate it into a coherent global description for open-ended detailed captioning?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"An Observation-Adaptive Video Captioner (OACap) can improve performance across general video-understanding benchmarks by turning unsupported or missing information into targeted observation requests, using spatiotemporal tools to acquire evidence, and iteratively verifying and revising the caption.\",\n  \"main_hypothesis_explicit\": true\n}",
+    "total_tokens": 622
+  },
+  "reply_sha256": "3de08f5f36717f8a50a7068781aa2081e774713b242f752fb07692e877d12d94"
+}

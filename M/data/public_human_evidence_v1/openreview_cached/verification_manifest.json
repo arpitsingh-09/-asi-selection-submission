@@ -1,0 +1,34 @@
+{
+  "schema": "M-OpenReview-public-review-evidence-screen-v1",
+  "collected_at_utc": "2026-11-14T04:17:44Z",
+  "source_records": {
+    "path": "M/data/ingestion_v2/review_outcomes.jsonl",
+    "sha256": "bb3b01f9ea6982c9e40fa90bf2a64c127fe1ddbde7dfc75d0f3928d6269b4947",
+    "records": 570,
+    "conference_year_counts": {
+      "2023": 270,
+      "2024": 300
+    },
+    "distinct_forums": 341,
+    "observed_at_verified_in_cache": 0
+  },
+  "collected_events": {
+    "path": "M/data/public_human_evidence_v1/openreview_cached/review_release_events.json",
+    "events_verified": 4,
+    "record_level_public_visibility_verified": 0
+  },
+  "screening": {
+    "path": "M/data/public_human_evidence_v1/openreview_cached/screened_review_values.jsonl",
+    "records_screened": 570,
+    "eligible_training_labels": 0,
+    "eligible_validation_labels": 0,
+    "reason": "No record has a verified exact public timestamp for the specific current rating version and no exact paper ID/title match exists in M train/validation manifests."
+  },
+  "evidence_semantics": {
+    "review_scores_are_genuine_cached_source_values": true,
+    "source_binding_preserved": true,
+    "release_calendar_dates_are_not_assigned_as_per_review_observed_at": true,
+    "reviewer_identity_is_anonymized_or_not_in_released_records": true
+  },
+  "registered_evaluations_executed": 0
+}

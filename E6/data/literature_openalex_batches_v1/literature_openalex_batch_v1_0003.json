@@ -1,0 +1,1863 @@
+{
+  "acquisition_result": {
+    "attempts": [
+      {
+        "input_set_id": "lit-2412.20995",
+        "paper_id": "2412.20995v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2412.20996",
+        "paper_id": "2412.20996v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2412.21006",
+        "paper_id": "2412.21006v3",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2412.21015",
+        "paper_id": "2412.21015v2",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2412.21033",
+        "paper_id": "2412.21033v2",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2412.21036",
+        "paper_id": "2412.21036v3",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2412.21037",
+        "paper_id": "2412.21037v2",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2412.21042",
+        "paper_id": "2412.21042v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2412.21044",
+        "paper_id": "2412.21044v2",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2412.21059",
+        "paper_id": "2412.21059v4",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2412.21063",
+        "paper_id": "2412.21063v2",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2412.21065",
+        "paper_id": "2412.21065v2",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2412.21079",
+        "paper_id": "2412.21079v3",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2412.21080",
+        "paper_id": "2412.21080v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2412.21084",
+        "paper_id": "2412.21084v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2412.21102",
+        "paper_id": "2412.21102v3",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2412.21127",
+        "paper_id": "2412.21127v2",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2412.21132",
+        "paper_id": "2412.21132v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2412.21149",
+        "paper_id": "2412.21149v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2412.21151",
+        "paper_id": "2412.21151v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2412.21154",
+        "paper_id": "2412.21154v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2412.21156",
+        "paper_id": "2412.21156v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2412.21178",
+        "paper_id": "2412.21178v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2412.21188",
+        "paper_id": "2412.21188v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2412.21197",
+        "paper_id": "2412.21197v2",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2412.21199",
+        "paper_id": "2412.21199v2",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2412.21200",
+        "paper_id": "2412.21200v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2412.21203",
+        "paper_id": "2412.21203v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2412.21205",
+        "paper_id": "2412.21205v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2412.21206",
+        "paper_id": "2412.21206v2",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2501.00054",
+        "paper_id": "2501.00054v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2501.00055",
+        "paper_id": "2501.00055v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2501.00059",
+        "paper_id": "2501.00059v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2501.00062",
+        "paper_id": "2501.00062v2",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2501.00066",
+        "paper_id": "2501.00066v2",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2501.00069",
+        "paper_id": "2501.00069v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2501.00070",
+        "paper_id": "2501.00070v2",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2501.00073",
+        "paper_id": "2501.00073v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2501.00085",
+        "paper_id": "2501.00085v2",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2501.00087",
+        "paper_id": "2501.00087v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2501.00089",
+        "paper_id": "2501.00089v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2501.00093",
+        "paper_id": "2501.00093v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2501.00097",
+        "paper_id": "2501.00097v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2501.00103",
+        "paper_id": "2501.00103v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2501.00107",
+        "paper_id": "2501.00107v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2501.00116",
+        "paper_id": "2501.00116v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2501.00119",
+        "paper_id": "2501.00119v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2501.00129",
+        "paper_id": "2501.00129v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2501.00135",
+        "paper_id": "2501.00135v4",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2501.00142",
+        "paper_id": "2501.00142v1",
+        "status": "unresolved_openalex_target_match"
+      }
+    ],
+    "candidate_target_count_after_exclusions": 50,
+    "candidates": [],
+    "candidates_acquired": 0,
+    "excluded_target_ids": [
+      "2012.13915",
+      "2012.14271",
+      "2012.14359",
+      "2012.14371",
+      "2012.14402",
+      "2012.14584",
+      "2012.14739",
+      "2012.14740",
+      "2012.14785",
+      "2012.14950",
+      "2012.14956",
+      "2012.14961",
+      "2012.15000",
+      "2012.15015",
+      "2012.15049",
+      "2012.15054",
+      "2012.15245",
+      "2012.15294",
+      "2012.15391",
+      "2012.15413",
+      "2012.15482",
+      "2012.15484",
+      "2012.15495",
+      "2012.15497",
+      "2012.15505",
+      "2012.15515",
+      "2012.15525",
+      "2012.15575",
+      "2012.15643",
+      "2012.15701",
+      "2012.15715",
+      "2012.15764",
+      "2012.15779",
+      "2012.15781",
+      "2012.15793",
+      "2012.15821",
+      "2012.15823",
+      "2012.15833",
+      "2012.15859",
+      "2101.00036",
+      "2101.00054",
+      "2101.00082",
+      "2101.00973",
+      "2101.01667",
+      "2101.01668",
+      "2101.10815",
+      "2112.11070",
+      "2112.11241",
+      "2112.11391",
+      "2112.11769",
+      "2112.12028",
+      "2112.12262",
+      "2112.12650",
+      "2112.13634",
+      "2112.13977",
+      "2112.14006",
+      "2112.14023",
+      "2112.14059",
+      "2112.14061",
+      "2112.14192",
+      "2112.14330",
+      "2112.14381",
+      "2112.14406",
+      "2112.14651",
+      "2112.14683",
+      "2112.14718",
+      "2112.14731",
+      "2112.14976",
+      "2112.14983",
+      "2112.15009",
+      "2112.15022",
+      "2112.15036",
+      "2112.15124",
+      "2112.15188",
+      "2112.15271",
+      "2112.15272",
+      "2112.15311",
+      "2112.15336",
+      "2112.15356",
+      "2112.15367",
+      "2112.15383",
+      "2112.15421",
+      "2112.15568",
+      "2112.15579",
+      "2112.15595",
+      "2201.00043",
+      "2201.00649",
+      "2201.00719",
+      "2201.00848",
+      "2201.01191",
+      "2201.02735",
+      "2212.10750",
+      "2212.10826",
+      "2212.11234",
+      "2212.11275",
+      "2212.12407",
+      "2212.12442",
+      "2212.12795",
+      "2212.13554",
+      "2212.13613",
+      "2212.14102",
+      "2212.14128",
+      "2212.14268",
+      "2212.14270",
+      "2212.14272",
+      "2212.14278",
+      "2212.14306",
+      "2212.14319",
+      "2212.14402",
+      "2212.14427",
+      "2212.14437",
+      "2212.14453",
+      "2212.14468",
+      "2212.14546",
+      "2212.14561",
+      "2212.14569",
+      "2212.14593",
+      "2212.14615",
+      "2212.14657",
+      "2212.14710",
+      "2212.14743",
+      "2212.14882",
+      "2301.00008",
+      "2301.00012",
+      "2301.00032",
+      "2301.00139",
+      "2301.00142",
+      "2301.00182",
+      "2301.00676",
+      "2301.00688",
+      "2301.00693",
+      "2301.00719",
+      "2302.00595",
+      "2302.01921",
+      "2312.15842",
+      "2312.15869",
+      "2312.16309",
+      "2312.16682",
+      "2312.17025",
+      "2312.17080",
+      "2312.17243",
+      "2312.17348",
+      "2312.17361",
+      "2312.17429",
+      "2312.17505",
+      "2312.17525",
+      "2312.17526",
+      "2312.17561",
+      "2312.17581",
+      "2312.17615",
+      "2312.17661",
+      "2312.17710",
+      "2401.00036",
+      "2401.00072",
+      "2401.00095",
+      "2401.00128",
+      "2401.00137",
+      "2401.00148",
+      "2401.00158",
+      "2401.00237",
+      "2401.00254",
+      "2401.00314",
+      "2401.00320",
+      "2401.00403",
+      "2401.00445",
+      "2401.00448",
+      "2401.00529",
+      "2401.00532",
+      "2401.00608",
+      "2401.00876",
+      "2401.00885",
+      "2401.00907",
+      "2401.01375",
+      "2401.02975",
+      "2401.02978",
+      "2401.04119",
+      "2401.05416",
+      "2412.19994",
+      "2412.20213",
+      "2412.20565",
+      "2412.20666",
+      "2412.20718",
+      "2412.20725",
+      "2412.20741",
+      "2412.20821",
+      "2412.20838",
+      "2412.20846",
+      "2412.20872",
+      "2412.20977",
+      "2412.20993",
+      "2412.21009",
+      "2412.21082",
+      "2412.21117",
+      "2412.21124",
+      "2412.21139",
+      "2412.21140",
+      "2412.21164",
+      "2412.21187",
+      "2501.00124",
+      "2501.00136",
+      "2501.00162",
+      "2501.00192",
+      "2501.00220",
+      "2501.00244",
+      "2501.00274",
+      "2501.00303",
+      "2501.00305",
+      "2501.00317",
+      "2501.00318",
+      "2501.00340",
+      "2501.00467",
+      "2501.00537",
+      "2501.00539",
+      "2501.00581",
+      "2501.00619",
+      "2501.00623",
+      "2501.00636",
+      "2501.00642",
+      "2501.00677",
+      "2501.01463",
+      "2512.23032",
+      "2512.23260",
+      "2512.23280",
+      "2512.23440",
+      "2512.23705",
+      "2512.23808",
+      "2512.23953",
+      "2512.23998",
+      "2512.24016",
+      "2512.24019",
+      "2512.24023",
+      "2512.24138",
+      "2512.24146",
+      "2512.24157",
+      "2512.24321",
+      "2512.24446",
+      "2512.24459",
+      "2512.24460",
+      "2512.24564",
+      "2512.24587",
+      "2512.24591",
+      "2512.24617",
+      "2512.24724",
+      "2512.24767",
+      "2512.24792",
+      "2512.24810",
+      "2512.24894",
+      "2512.24901",
+      "2512.24947",
+      "2512.25014",
+      "2512.25071",
+      "2601.00042",
+      "2601.00090",
+      "2601.00092",
+      "2601.00871",
+      "2601.00894",
+      "2601.00896",
+      "2601.00905",
+      "2601.09732",
+      "2601.09733",
+      "2601.11575",
+      "2601.11579",
+      "2602.11161",
+      "2602.22226",
+      "2602.23374",
+      "2610.28632",
+      "2610.28787",
+      "2610.28806",
+      "2610.28838",
+      "2610.28886",
+      "2610.28992",
+      "2610.29108",
+      "2610.29152",
+      "2610.29159",
+      "2610.29176",
+      "2610.29195",
+      "2610.29200",
+      "2610.29216",
+      "2610.29220",
+      "2610.29281",
+      "2610.29322",
+      "2610.29345",
+      "2610.29410",
+      "2610.29477",
+      "2610.29506",
+      "2610.29510",
+      "2610.29523",
+      "2610.29533",
+      "2610.29555",
+      "2610.29581",
+      "2610.29651",
+      "2610.29662",
+      "2610.29788",
+      "2610.29905",
+      "2610.29907",
+      "2610.29913",
+      "2610.29926",
+      "2610.29933",
+      "2610.29934",
+      "2610.29949",
+      "2610.29965",
+      "2610.29982",
+      "2610.29989",
+      "2610.30007",
+      "2610.30014",
+      "2610.30018",
+      "2610.30066",
+      "2610.30116",
+      "2610.30118",
+      "2610.30132"
+    ],
+    "max_targets_requested": 50,
+    "retrieval_failures": 0,
+    "schema_version": "e6-literature-acquisition-pool-v1",
+    "source_corpus": "E2/data/raw_papers.jsonl",
+    "status": "provisional_not_selected_not_frozen",
+    "target_records_attempted": 50,
+    "unresolved_matches": [
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2412.20995",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2412.20995",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2412.20995&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:28:34.029831Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2412.20996",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2412.20996",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2412.20996&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:28:34.850044Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2412.21006",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2412.21006",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2412.21006&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:28:36.078915Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2412.21015",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2412.21015",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2412.21015&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:28:36.795324Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2412.21033",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2412.21033",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2412.21033&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:28:37.717175Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [
+          {
+            "abstract_inverted_index": {
+              "(MLLMs)": [
+                17
+              ],
+              "Furthermore,": [
+                83
+              ],
+              "GePBench": [
+                90
+              ],
+              "GePBench,": [
+                52
+              ],
+              "Geometric": [
+                0
+              ],
+              "MLLMs": [
+                75
+              ],
+              "MLLMs.": [
+                65
+              ],
+              "Our": [
+                66,
+                114
+              ],
+              "To": [
+                46
+              ],
+              "While": [
+                12
+              ],
+              "\\emph{geometric": [
+                38
+              ],
+              "\\href{https://github.com/Changhao-Xiang/GePBench}{https://github.com/Changhao-Xiang/GePBench}.": [
+                121
+              ],
+              "a": [
+                53,
+                96
+              ],
+              "abilities": [
+                26
+              ],
+              "address": [
+                47
+              ],
+              "advanced": [
+                111
+              ],
+              "advancements": [
+                21
+              ],
+              "and": [
+                9,
+                31,
+                43,
+                116
+              ],
+              "applications.": [
+                113
+              ],
+              "are": [
+                40,
+                118
+              ],
+              "assess": [
+                59
+              ],
+              "at": [
+                120
+              ],
+              "available": [
+                119
+              ],
+              "benchmark": [
+                55
+              ],
+              "both": [
+                6
+              ],
+              "capabilities": [
+                63
+              ],
+              "code": [
+                115
+              ],
+              "cognition.": [
+                11
+              ],
+              "considerable": [
+                93
+              ],
+              "critical": [
+                104
+              ],
+              "current": [
+                73
+              ],
+              "data": [
+                91
+              ],
+              "datasets": [
+                117
+              ],
+              "deficiencies": [
+                78
+              ],
+              "demonstrate": [
+                92
+              ],
+              "designed": [
+                57
+              ],
+              "downstream": [
+                100
+              ],
+              "enabling": [
+                110
+              ],
+              "evaluations": [
+                68
+              ],
+              "even": [
+                71
+              ],
+              "exhibit": [
+                76
+              ],
+              "explicitly": [
+                42
+              ],
+              "explored.": [
+                45
+              ],
+              "extensive": [
+                67
+              ],
+              "gap,": [
+                49
+              ],
+              "geometric": [
+                29,
+                61,
+                80,
+                107
+              ],
+              "have": [
+                18
+              ],
+              "highlighting": [
+                102
+              ],
+              "human": [
+                10
+              ],
+              "important": [
+                3
+              ],
+              "improvements": [
+                94
+              ],
+              "in": [
+                5,
+                22,
+                79,
+                109
+              ],
+              "introduce": [
+                51
+              ],
+              "language": [
+                15
+              ],
+              "large": [
+                14
+              ],
+              "made": [
+                19
+              ],
+              "models": [
+                16,
+                87
+              ],
+              "multimodal": [
+                13,
+                112
+              ],
+              "not": [
+                41
+              ],
+              "novel": [
+                54
+              ],
+              "of": [
+                64,
+                99,
+                106
+              ],
+              "on": [
+                95
+              ],
+              "perception": [
+                62,
+                81,
+                108
+              ],
+              "perception},": [
+                39
+              ],
+              "physical": [
+                7
+              ],
+              "play": [
+                2
+              ],
+              "range": [
+                98
+              ],
+              "recognize": [
+                28
+              ],
+              "relationships,": [
+                34
+              ],
+              "reveal": [
+                69
+              ],
+              "role": [
+                105
+              ],
+              "roles": [
+                4
+              ],
+              "shapes": [
+                1,
+                30
+              ],
+              "show": [
+                85
+              ],
+              "significant": [
+                20,
+                77
+              ],
+              "spatial": [
+                33
+              ],
+              "specifically": [
+                56
+              ],
+              "state-of-the-art": [
+                74
+              ],
+              "systematically": [
+                44
+              ],
+              "tasks,": [
+                101
+              ],
+              "tasks.": [
+                82
+              ],
+              "term": [
+                37
+              ],
+              "that": [
+                70,
+                86
+              ],
+              "the": [
+                60,
+                72,
+                103
+              ],
+              "their": [
+                25,
+                32
+              ],
+              "this": [
+                48
+              ],
+              "to": [
+                27,
+                58
+              ],
+              "trained": [
+                88
+              ],
+              "understanding,": [
+                24
+              ],
+              "visual": [
+                23
+              ],
+              "we": [
+                36,
+                50,
+                84
+              ],
+              "which": [
+                35
+              ],
+              "wide": [
+                97
+              ],
+              "with": [
+                89
+              ],
+              "world": [
+                8
+              ]
+            },
+            "doi": "https://doi.org/10.48550/arxiv.2412.21036",
+            "id": "https://openalex.org/W4405957647",
+            "ids": {
+              "doi": "https://doi.org/10.48550/arxiv.2412.21036",
+              "openalex": "https://openalex.org/W4405957647"
+            },
+            "locations": [
+              {
+                "doi": null,
+                "id": "pmh:oai:arXiv.org:2412.21036",
+                "is_accepted": false,
+                "is_oa": true,
+                "is_published": false,
+                "landing_page_url": "https://arxiv.org/abs/2412.21036",
+                "license": null,
+                "license_id": null,
+                "pdf_url": "https://arxiv.org/pdf/2412.21036",
+                "raw_source_name": null,
+                "raw_type": "text",
+                "source": {
+                  "display_name": "arXiv (Cornell University)",
+                  "host_organization": "https://openalex.org/I205783295",
+                  "host_organization_lineage": [
+                    "https://openalex.org/I205783295"
+                  ],
+                  "host_organization_lineage_names": [],
+                  "host_organization_name": "Cornell University",
+                  "id": "https://openalex.org/S4306400194",
+                  "is_core": false,
+                  "is_in_doaj": false,
+                  "is_oa": true,
+                  "issn": [
+                    "2331-8422"
+                  ],
+                  "issn_l": "2331-8422",
+                  "listed_in": [],
+                  "type": "repository"
+                },
+                "version": "submittedVersion"
+              },
+              {
+                "doi": "https://doi.org/10.48550/arxiv.2412.21036",
+                "id": "doi:10.48550/arxiv.2412.21036",
+                "is_accepted": false,
+                "is_oa": true,
+                "is_published": false,
+                "landing_page_url": "https://doi.org/10.48550/arxiv.2412.21036",
+                "license": null,
+                "license_id": null,
+                "pdf_url": null,
+                "raw_source_name": null,
+                "raw_type": "Preprint",
+                "source": {
+                  "display_name": "arXiv (Cornell University)",
+                  "host_organization": "https://openalex.org/I205783295",
+                  "host_organization_lineage": [
+                    "https://openalex.org/I205783295"
+                  ],
+                  "host_organization_lineage_names": [],
+                  "host_organization_name": "Cornell University",
+                  "id": "https://openalex.org/S4306400194",
+                  "is_core": false,
+                  "is_in_doaj": false,
+                  "is_oa": true,
+                  "issn": [
+                    "2331-8422"
+                  ],
+                  "issn_l": "2331-8422",
+                  "listed_in": [],
+                  "type": "repository"
+                },
+                "version": null
+              }
+            ],
+            "publication_date": "2024-12-30",
+            "referenced_works": [
+              "https://openalex.org/W4312261477",
+              "https://openalex.org/W4387076386",
+              "https://openalex.org/W4392678661",
+              "https://openalex.org/W4394896325",
+              "https://openalex.org/W4396814597",
+              "https://openalex.org/W4399448042",
+              "https://openalex.org/W4399554411",
+              "https://openalex.org/W4399695957",
+              "https://openalex.org/W4399837985",
+              "https://openalex.org/W4400612131",
+              "https://openalex.org/W4402426725",
+              "https://openalex.org/W4402672008",
+              "https://openalex.org/W4402754023",
+              "https://openalex.org/W4403633250",
+              "https://openalex.org/W4403923795",
+              "https://openalex.org/W4404573654",
+              "https://openalex.org/W4405172832",
+              "https://openalex.org/W4406610927",
+              "https://openalex.org/W4409366465",
+              "https://openalex.org/W4411336859",
+              "https://openalex.org/W4415795850",
+              "https://openalex.org/W4415796163",
+              "https://openalex.org/W4415797668",
+              "https://openalex.org/W4415797809"
+            ],
+            "title": "GePBench: Evaluating Fundamental Geometric Perception for Multimodal Large Language Models",
+            "updated_date": "2026-11-07T11:25:07.637180"
+          }
+        ],
+        "canonical_target_paper_id": "2412.21036",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2412.21036",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2412.21036&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:28:38.537888Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2412.21037",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2412.21037",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2412.21037&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:28:39.252932Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2412.21042",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2412.21042",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2412.21042&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:28:39.969246Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2412.21044",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2412.21044",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2412.21044&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:28:40.686329Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2412.21059",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2412.21059",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2412.21059&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:28:41.503634Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2412.21063",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2412.21063",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2412.21063&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:28:42.632461Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2412.21065",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2412.21065",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2412.21065&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:28:43.451662Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2412.21079",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2412.21079",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2412.21079&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:28:44.190874Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2412.21080",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2412.21080",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2412.21080&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:28:44.987871Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2412.21084",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2412.21084",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2412.21084&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:28:45.704707Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2412.21102",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2412.21102",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2412.21102&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:28:47.137971Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2412.21127",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2412.21127",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2412.21127&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:28:47.957125Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2412.21132",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2412.21132",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2412.21132&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:28:48.571141Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2412.21149",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2412.21149",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2412.21149&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:28:49.288363Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2412.21151",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2412.21151",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2412.21151&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:28:50.004086Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2412.21154",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2412.21154",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2412.21154&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:28:50.823673Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2412.21156",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2412.21156",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2412.21156&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:28:51.643752Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2412.21178",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2412.21178",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2412.21178&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:28:52.359551Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2412.21188",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2412.21188",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2412.21188&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:28:53.077380Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2412.21197",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2412.21197",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2412.21197&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:28:54.408158Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2412.21199",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2412.21199",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2412.21199&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:28:55.432600Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2412.21200",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2412.21200",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2412.21200&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:28:56.456482Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2412.21203",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2412.21203",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2412.21203&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:28:57.071010Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2412.21205",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2412.21205",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2412.21205&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:28:57.687192Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2412.21206",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2412.21206",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2412.21206&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:28:58.212583Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2501.00054",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2501.00054",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2501.00054&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:28:58.755616Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2501.00055",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2501.00055",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2501.00055&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:28:59.323813Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2501.00059",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2501.00059",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2501.00059&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:28:59.937456Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2501.00062",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2501.00062",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2501.00062&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:29:00.552569Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2501.00066",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2501.00066",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2501.00066&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:29:01.166382Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2501.00069",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2501.00069",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2501.00069&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:29:01.883597Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2501.00070",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2501.00070",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2501.00070&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:29:02.497275Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2501.00073",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2501.00073",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2501.00073&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:29:03.064505Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2501.00085",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2501.00085",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2501.00085&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:29:04.238247Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2501.00087",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2501.00087",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2501.00087&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:29:05.056865Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2501.00089",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2501.00089",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2501.00089&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:29:05.672444Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2501.00093",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2501.00093",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2501.00093&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:29:06.286827Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2501.00097",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2501.00097",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2501.00097&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:29:07.003402Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2501.00103",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2501.00103",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2501.00103&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:29:07.716359Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2501.00107",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2501.00107",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2501.00107&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:29:08.539043Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2501.00116",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2501.00116",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2501.00116&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:29:09.456733Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2501.00119",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2501.00119",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2501.00119&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:29:10.382512Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2501.00129",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2501.00129",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2501.00129&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:29:11.098921Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2501.00135",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2501.00135",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2501.00135&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:29:12.123370Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2501.00142",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2501.00142",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2501.00142&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:29:12.841864Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      }
+    ],
+    "unresolved_target_matches": 50
+  },
+  "batch_index": 3,
+  "batch_sha256": "e2a2d22dbf27ca851fce3fe27740ae7325dc8d1258ffcf2f0f8847884fdad5cd",
+  "counts": {
+    "candidates_with_10_abstract_references": 0,
+    "genuinely_eligible_candidates": 0,
+    "retrieval_failures": 0,
+    "successful_openalex_matches": 0,
+    "targets_processed": 50
+  },
+  "run_sha256": "04e6677550f10af88ed236d67685a330472b26cc73714b8f3df4989045c7f0fe",
+  "schema_version": "e6-openalex-literature-batch-v1",
+  "target_ids": [
+    "2412.20995",
+    "2412.20996",
+    "2412.21006",
+    "2412.21015",
+    "2412.21033",
+    "2412.21036",
+    "2412.21037",
+    "2412.21042",
+    "2412.21044",
+    "2412.21059",
+    "2412.21063",
+    "2412.21065",
+    "2412.21079",
+    "2412.21080",
+    "2412.21084",
+    "2412.21102",
+    "2412.21127",
+    "2412.21132",
+    "2412.21149",
+    "2412.21151",
+    "2412.21154",
+    "2412.21156",
+    "2412.21178",
+    "2412.21188",
+    "2412.21197",
+    "2412.21199",
+    "2412.21200",
+    "2412.21203",
+    "2412.21205",
+    "2412.21206",
+    "2501.00054",
+    "2501.00055",
+    "2501.00059",
+    "2501.00062",
+    "2501.00066",
+    "2501.00069",
+    "2501.00070",
+    "2501.00073",
+    "2501.00085",
+    "2501.00087",
+    "2501.00089",
+    "2501.00093",
+    "2501.00097",
+    "2501.00103",
+    "2501.00107",
+    "2501.00116",
+    "2501.00119",
+    "2501.00129",
+    "2501.00135",
+    "2501.00142"
+  ]
+}

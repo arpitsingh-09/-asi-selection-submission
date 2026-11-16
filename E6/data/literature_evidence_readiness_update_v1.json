@@ -1,0 +1,38 @@
+{
+  "HDR_status": "blocked_missing_justified_feature_definition_and_genuine_judgments",
+  "TEST_evaluation": false,
+  "bundle_file_sha256": "74e89f2263d270389f42fe8f880c8d3f8325e24246d4bc67c18569cf06aaada8",
+  "evaluator_validation_statuses": {
+    "already_asked": "source_provenance_and_assistant_review_passed; semantic_evaluator_validation_pending",
+    "diversity": "not_performed",
+    "question_type": "not_performed",
+    "reconstruction": "not_performed"
+  },
+  "evidence": {
+    "annotations_usable": false,
+    "blockers": [
+      "40 independent source reviews, 280 seven-check Boolean decisions, and actual problem/method/result component annotations or honest unsupported/negative findings.",
+      "Independent adjudication of actual disagreements, correction and renewed review for failed checks.",
+      "Four evaluator semantic validations remain separate requirements.",
+      "HDR reference-feature definition and 125 genuine cell judgments remain absent."
+    ],
+    "human_reviews_completed": 0,
+    "human_reviews_required": 40,
+    "review_bundle_paths": {
+      "adjudications": "E6/data/literature_evidence_finalized_v1/actual_adjudications.json",
+      "candidate": "E6/data/literature_citation_verified_manifest_v1.json",
+      "extraction_manifest": "E6/data/literature_extraction_run_v1/extraction_manifest.json",
+      "proposal": "E6/data/literature_sample_proposal_v1.json",
+      "records": "E6/data/literature_evidence_finalized_v1/actual_review_records.json",
+      "worklist": "E6/data/literature_extraction_run_v1/review_worklist.json"
+    },
+    "review_packets_completed": 20,
+    "verified_extractions": 100
+  },
+  "full_readiness_audit_rerun": false,
+  "independent_source_review_gate": "BLOCKED",
+  "model_calls": 0,
+  "review_packet_gate": "PASS",
+  "schema_version": "e6-literature-readiness-update-v1",
+  "verified_extraction_gate": "PASS"
+}

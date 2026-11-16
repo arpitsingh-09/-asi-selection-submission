@@ -1,0 +1,20 @@
+{
+  "a": "Does the expression of frustration regarding the lack of third-party debate presence correlate with a specific predicted voting preference?",
+  "b": null,
+  "case_id": "question_type-03",
+  "expected": null,
+  "key": "type",
+  "reference_kind": "human_reference_required",
+  "rubric": "question_type",
+  "section": "question_type",
+  "sources": [
+    {
+      "hypothesis": "Expressing frustration over the lack of third-party debate presence is more likely to correlate with a Democratic voting preference.",
+      "hypothesis_id": "QH:H5",
+      "question": "Does the expression of frustration regarding the lack of third-party debate presence correlate with a specific predicted voting preference?",
+      "source": "E6/runs/priority10_train_batch001/b90d71ea502c100a_generation_envelope.json",
+      "source_file_sha256": "37a1f47e90f743086a5fa24a05af828ca6dbccaa04ecda57f24b973e1db0d926",
+      "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0000:4b44593d53e3"
+    }
+  ]
+}

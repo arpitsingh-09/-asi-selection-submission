@@ -1,0 +1,137 @@
+{
+  "blocked_registered_count": 9,
+  "completed_registered_count": 0,
+  "development_only": [
+    {
+      "classification": "DEVELOPMENT_ONLY",
+      "metrics": null,
+      "path": "M/results/generated_development_v2/results.json",
+      "registered_finding": false,
+      "summary": null
+    },
+    {
+      "classification": "DEVELOPMENT_ONLY",
+      "metrics": null,
+      "path": "M/results/generated_development_v3/results.json",
+      "registered_finding": false,
+      "summary": null
+    }
+  ],
+  "missing_evidence": [
+    "Eligible source-bound cohorts and controls for blocked tests",
+    "Genuine labels and/or verified human annotations required by each test"
+  ],
+  "registered_evaluations": [
+    {
+      "blockers": [
+        "No verified original input links, shuffled/independently verified decoy controls.",
+        "No fitted Q heads or frozen normalization for every readout."
+      ],
+      "ci95": null,
+      "eligible_records": 0,
+      "executed": false,
+      "metrics": null,
+      "registered_status": "BLOCKED",
+      "test": "I1"
+    },
+    {
+      "blockers": [
+        "No length-matched dated Q/N preference labels linked to M questions.",
+        "Q heads unavailable."
+      ],
+      "ci95": null,
+      "eligible_records": 0,
+      "executed": false,
+      "metrics": null,
+      "registered_status": "BLOCKED",
+      "test": "I3"
+    },
+    {
+      "blockers": [
+        "E1 source-alignment/second-reader annotations are unverified.",
+        "Question creation dates and original input/control links unavailable.",
+        "No verified cache model training cutoff."
+      ],
+      "ci95": null,
+      "eligible_records": 0,
+      "executed": false,
+      "metrics": null,
+      "registered_status": "BLOCKED",
+      "test": "S1"
+    },
+    {
+      "blockers": [
+        "Existing E2 results are previously evaluated development evidence, not prospective M tests.",
+        "No new heldout partial-coverage/concentration cohort with original inputs and four controls."
+      ],
+      "ci95": null,
+      "eligible_records": 0,
+      "executed": false,
+      "metrics": null,
+      "registered_status": "BLOCKED",
+      "test": "A1"
+    },
+    {
+      "blockers": [
+        "No local source-bound expert battles linked to seed IDs and generating systems with dated labels.",
+        "Q heads unavailable."
+      ],
+      "ci95": null,
+      "eligible_records": 0,
+      "executed": false,
+      "metrics": null,
+      "registered_status": "BLOCKED",
+      "test": "H1"
+    },
+    {
+      "blockers": [
+        "No post-July-2025 original question/version and review-observation-date linkage.",
+        "Q heads, semantic B-Q and independently estimated human ceiling unavailable."
+      ],
+      "ci95": null,
+      "eligible_records": 0,
+      "executed": false,
+      "metrics": null,
+      "registered_status": "BLOCKED",
+      "test": "H3"
+    },
+    {
+      "blockers": [
+        "No dated peer-review AND community-use outcomes linked to postcutoff question versions within topic.",
+        "Both Q heads unavailable."
+      ],
+      "ci95": null,
+      "eligible_records": 0,
+      "executed": false,
+      "metrics": null,
+      "registered_status": "BLOCKED",
+      "test": "O1"
+    },
+    {
+      "blockers": [
+        "No verified identical >=3-seed citation groups, within-year dates and dated outcome linkage.",
+        "Q outcome prediction unavailable."
+      ],
+      "ci95": null,
+      "eligible_records": 0,
+      "executed": false,
+      "metrics": null,
+      "registered_status": "BLOCKED",
+      "test": "O2"
+    },
+    {
+      "blockers": [
+        "No separately trained and prospectively frozen 2022 and 2023 head artifacts.",
+        "No complete-head normalized predictions and original input controls."
+      ],
+      "ci95": null,
+      "eligible_records": 0,
+      "executed": false,
+      "metrics": null,
+      "registered_status": "BLOCKED",
+      "test": "T1"
+    }
+  ],
+  "schema": "M-results-consolidation-v1",
+  "synthetic_tests_are_findings": false
+}

@@ -1,0 +1,622 @@
+{
+  "approval_required": true,
+  "corpus_frozen": true,
+  "extraction_prompt": {
+    "file_sha256": "f8a5195807ee1f4f88580ee0f9e649bd97aadc1e073e403ea04972b876e28fc9",
+    "path": "prompts/e6/17_prior_question_verbatim.txt"
+  },
+  "independently_sourced": true,
+  "input_records": [
+    {
+      "abstract": "The key limiting factor in graphical model inference and learning is the complexity of the partition function. We thus ask the question: what are general conditions under which the partition function is tractable? The answer leads to a new kind of deep architecture, which we call sum-product networks (SPNs). SPNs are directed acyclic graphs with variables as leaves, sums and products as internal nodes, and weighted edges.\nWe show that if an SPN is complete and consistent it represents the partition function and all marginals of some graphical model, and give semantics to its nodes. Essentially all tractable graphical models can be cast as SPNs, but SPNs are also strictly more general. We then propose learning algorithms for SPNs, based on backpropagation and EM. Experiments show that inference and learning with SPNs can be both faster and more accurate than with standard deep networks.\nFor example, SPNs perform image completion better than state-of-the-art deep networks for this task. SPNs also have intriguing potential connections to the architecture of the cortex.",
+      "effective_date": "2012-02-14T16:41:17+00:00",
+      "paper_id": "arxiv:1202.3732",
+      "provenance": {
+        "retrieval_method": "web_tool_source_snapshot",
+        "source_file_sha256": "86400809b73688f1e59db718c81132a12ffc7969c3298a337971859256cbcf2b",
+        "source_path": "E6/data/prior_question_sources_v1/arxiv_1202_3732.txt"
+      },
+      "retrieved_at_utc": "2026-11-12T02:29:38Z",
+      "source_url": "https://arxiv.org/abs/1202.3732",
+      "submission_date": "2012-02-14T16:41:17+00:00",
+      "title": "Sum-Product Networks: A New Deep Architecture",
+      "validation_status": "source_snapshot_verified",
+      "version_url": "https://arxiv.org/abs/1202.3732v1",
+      "versioned_id": "1202.3732v1"
+    },
+    {
+      "abstract": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely.\nExperiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU.\nOn the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.",
+      "effective_date": "2023-08-02T00:41:18+00:00",
+      "paper_id": "arxiv:1706.03762",
+      "provenance": {
+        "retrieval_method": "web_tool_source_snapshot",
+        "source_file_sha256": "f4776a9114c4cfcd6656a92e909fa0b1dbce4e3299042edf4eee431c13697583",
+        "source_path": "E6/data/prior_question_sources_v1/arxiv_1706_03762.txt"
+      },
+      "retrieved_at_utc": "2026-11-12T02:26:21Z",
+      "source_url": "https://arxiv.org/abs/1706.03762",
+      "submission_date": "2017-06-12T17:57:34+00:00",
+      "title": "Attention Is All You Need",
+      "validation_status": "source_snapshot_verified",
+      "version_url": "https://arxiv.org/abs/1706.03762v7",
+      "versioned_id": "1706.03762v7"
+    },
+    {
+      "abstract": "While it is nearly effortless for humans to quickly assess the perceptual similarity between two images, the underlying processes are thought to be quite complex. Despite this, the most widely used perceptual metrics today, such as PSNR and SSIM, are simple, shallow functions, and fail to account for many nuances of human perception.\nRecently, the deep learning community has found that features of the VGG network trained on ImageNet classification has been remarkably useful as a training loss for image synthesis. But how perceptual are these so-called \"perceptual losses\"? What elements are critical for their success? To answer these questions, we introduce a new dataset of human perceptual similarity judgments. We systematically evaluate deep features across different architectures and tasks and compare them with classic metrics.\nWe find that deep features outperform all previous metrics by large margins on our dataset. More surprisingly, this result is not restricted to ImageNet-trained VGG features, but holds across different deep architectures and levels of supervision (supervised, self-supervised, or even unsupervised). Our results suggest that perceptual similarity is an emergent property shared across deep visual representations.",
+      "effective_date": "2018-04-10T19:25:07+00:00",
+      "paper_id": "arxiv:1801.03924",
+      "provenance": {
+        "retrieval_method": "web_tool_source_snapshot",
+        "source_file_sha256": "548e355e5689c84af595e0b687cfe804df05adbeef0280e1b0a4e2e7107b4317",
+        "source_path": "E6/data/prior_question_sources_v1/arxiv_1801_03924.txt"
+      },
+      "retrieved_at_utc": "2026-11-12T02:29:38Z",
+      "source_url": "https://arxiv.org/abs/1801.03924",
+      "submission_date": "2018-01-11T18:54:17+00:00",
+      "title": "The Unreasonable Effectiveness of Deep Features as a Perceptual Metric",
+      "validation_status": "source_snapshot_verified",
+      "version_url": "https://arxiv.org/abs/1801.03924v2",
+      "versioned_id": "1801.03924v2"
+    },
+    {
+      "abstract": "We present a new question set, text corpus, and baselines assembled to encourage AI research in advanced question answering. Together, these constitute the AI2 Reasoning Challenge (ARC), which requires far more powerful knowledge and reasoning than previous challenges such as SQuAD or SNLI.\nThe ARC question set is partitioned into a Challenge Set and an Easy Set, where the Challenge Set contains only questions answered incorrectly by both a retrieval-based algorithm and a word co-occurence algorithm. The dataset contains only natural, grade-school science questions (authored for human tests), and is the largest public-domain set of this kind (7,787 questions).\nWe test several baselines on the Challenge Set, including leading neural models from the SQuAD and SNLI tasks, and find that none are able to significantly outperform a random baseline, reflecting the difficult nature of this task. We are also releasing the ARC Corpus, a corpus of 14M science sentences relevant to the task, and implementations of the three neural baseline models tested. Can your model perform better? We pose ARC as a challenge to the community.",
+      "effective_date": "2018-03-14T18:04:21+00:00",
+      "paper_id": "arxiv:1803.05457",
+      "provenance": {
+        "retrieval_method": "web_tool_source_snapshot",
+        "source_file_sha256": "8775ac5e5f69d8015a5f29b911e33fdd219e74abe7ea4e70f24cdbd919d16630",
+        "source_path": "E6/data/prior_question_sources_v1/arxiv_1803_05457.txt"
+      },
+      "retrieved_at_utc": "2026-11-12T02:29:38Z",
+      "source_url": "https://arxiv.org/abs/1803.05457",
+      "submission_date": "2018-03-14T18:04:21+00:00",
+      "title": "Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge",
+      "validation_status": "source_snapshot_verified",
+      "version_url": "https://arxiv.org/abs/1803.05457v1",
+      "versioned_id": "1803.05457v1"
+    },
+    {
+      "abstract": "Do visual tasks have a relationship, or are they unrelated? For instance, could having surface normals simplify estimating the depth of an image? Intuition answers these questions positively, implying existence of a structure among visual tasks.\nKnowing this structure has notable values; it is the concept underlying transfer learning and provides a principled way for identifying redundancies across tasks, e.g., to seamlessly reuse supervision among related tasks or solve many tasks in one system without piling up the complexity.\n> We proposes a fully computational approach for modeling the structure of space of visual tasks. This is done via finding (first and higher-order) transfer learning dependencies across a dictionary of twenty six 2D, 2.5D, 3D, and semantic tasks in a latent space. The product is a computational taxonomic map for task transfer learning. We study the consequences of this structure, e.g. nontrivial emerged relationships, and exploit them to reduce the demand for labeled data.\nFor example, we show that the total number of labeled datapoints needed for solving a set of 10 tasks can be reduced by roughly 2/3 (compared to training independently) while keeping the performance nearly the same. We provide a set of tools for computing and probing this taxonomical structure including a solver that users can employ to devise efficient supervision policies for their use cases.",
+      "effective_date": "2026-10-20T17:19:33+00:00",
+      "paper_id": "arxiv:1804.08328",
+      "provenance": {
+        "retrieval_method": "web_tool_source_snapshot",
+        "source_file_sha256": "e3728404a78a09bf95180aa84b116371fce41be71e7eacab4a6a3a1e83daceb4",
+        "source_path": "E6/data/prior_question_sources_v1/arxiv_1804_08328.txt"
+      },
+      "retrieved_at_utc": "2026-11-12T02:29:38Z",
+      "source_url": "https://arxiv.org/abs/1804.08328",
+      "submission_date": "2018-04-23T10:46:28+00:00",
+      "title": "Taskonomy: Disentangling Task Transfer Learning",
+      "validation_status": "source_snapshot_verified",
+      "version_url": "https://arxiv.org/abs/1804.08328v2",
+      "versioned_id": "1804.08328v2"
+    },
+    {
+      "abstract": "Learning from positive and unlabeled data or PU learning is the setting where a learner only has access to positive examples and unlabeled data. The assumption is that the unlabeled data can contain both positive and negative examples. This setting has attracted increasing interest within the machine learning literature as this type of data naturally arises in applications such as medical diagnosis and knowledge base completion.\nThis article provides a survey of the current state of the art in PU learning. It proposes seven key research questions that commonly arise in this field and provides a broad overview of how the field has tried to address them.",
+      "effective_date": "2020-05-18T10:33:23+00:00",
+      "paper_id": "arxiv:1811.04820",
+      "provenance": {
+        "retrieval_method": "web_tool_source_snapshot",
+        "source_file_sha256": "2315297fb6c45536c56cd54963813aeb30c17192c661faccf11bf221c1e4655d",
+        "source_path": "E6/data/prior_question_sources_v1/arxiv_1811_04820.txt"
+      },
+      "retrieved_at_utc": "2026-11-12T02:26:21Z",
+      "source_url": "https://arxiv.org/abs/1811.04820",
+      "submission_date": "2018-11-12T16:00:36+00:00",
+      "title": "Learning from positive and unlabeled data: a survey",
+      "validation_status": "source_snapshot_verified",
+      "version_url": "https://arxiv.org/abs/1811.04820v3",
+      "versioned_id": "1811.04820v3"
+    },
+    {
+      "abstract": "Language Models (LMs) become outdated as the world changes; they often fail to perform tasks requiring recent factual information which was absent or different during training, a phenomenon called temporal misalignment. This is especially a challenging problem because the research community still lacks a coherent dataset for assessing the adaptability of LMs to frequently-updated knowledge corpus such as Wikipedia.\nTo this end, we introduce TemporalWiki, a lifelong benchmark for ever-evolving LMs that utilizes the difference between consecutive snapshots of English Wikipedia and English Wikidata for training and evaluation, respectively. The benchmark hence allows researchers to periodically track an LM's ability to retain previous knowledge and acquire updated/new knowledge at each point in time.\nWe also find that training an LM on the diff data through continual learning methods achieves similar or better perplexity than on the entire snapshot in our benchmark with 12 times less computational cost, which verifies that factual knowledge in LMs can be safely updated with minimal training data via continual learning. The dataset and the code are available at 【16†this https URL†github.com】.",
+      "effective_date": "2023-04-12T12:16:59+00:00",
+      "paper_id": "arxiv:2204.14211",
+      "provenance": {
+        "retrieval_method": "web_tool_source_snapshot",
+        "source_file_sha256": "5bf323dcb382c8b7b55113c368c894ffebae75f7ca3e62130ac754e7fd8ca3b5",
+        "source_path": "E6/data/prior_question_sources_v1/arxiv_2204_14211.txt"
+      },
+      "retrieved_at_utc": "2026-11-12T02:29:38Z",
+      "source_url": "https://arxiv.org/abs/2204.14211",
+      "submission_date": "2022-04-29T16:40:07+00:00",
+      "title": "TemporalWiki: A Lifelong Benchmark for Training and Evaluating Ever-Evolving Language Models",
+      "validation_status": "source_snapshot_verified",
+      "version_url": "https://arxiv.org/abs/2204.14211v3",
+      "versioned_id": "2204.14211v3"
+    },
+    {
+      "abstract": "We introduce REALTIME QA, a dynamic question answering (QA) platform that announces questions and evaluates systems on a regular basis (weekly in this version). REALTIME QA inquires about the current world, and QA systems need to answer questions about novel events or information. It therefore challenges static, conventional assumptions in open-domain QA datasets and pursues instantaneous applications. We build strong baseline models upon large pretrained language models, including GPT-3 and T5.\nOur benchmark is an ongoing effort, and this paper presents real-time evaluation results over the past year. Our experimental results show that GPT-3 can often properly update its generation results, based on newly-retrieved documents, highlighting the importance of up-to-date information retrieval. Nonetheless, we find that GPT-3 tends to return outdated answers when retrieved documents do not provide sufficient information to find an answer.\nThis suggests an important avenue for future research: can an open-domain QA system identify such unanswerable cases and communicate with the user or even the retrieval module to modify the retrieval results? We hope that REALTIME QA will spur progress in instantaneous applications of question answering and beyond.",
+      "effective_date": "2024-02-28T07:45:37+00:00",
+      "paper_id": "arxiv:2207.13332",
+      "provenance": {
+        "retrieval_method": "web_tool_source_snapshot",
+        "source_file_sha256": "7a95766dcc121f996c29ae6179a030aa1e615264d1b1dc2513bbb94620e6035b",
+        "source_path": "E6/data/prior_question_sources_v1/arxiv_2207_13332.txt"
+      },
+      "retrieved_at_utc": "2026-11-12T02:29:38Z",
+      "source_url": "https://arxiv.org/abs/2207.13332",
+      "submission_date": "2022-07-27T07:26:01+00:00",
+      "title": "RealTime QA: What's the Answer Right Now?",
+      "validation_status": "source_snapshot_verified",
+      "version_url": "https://arxiv.org/abs/2207.13332v2",
+      "versioned_id": "2207.13332v2"
+    },
+    {
+      "abstract": "Recent progress in large language models (LLMs) has enabled the deployment of many generative NLP applications. At the same time, it has also led to a misleading public discourse that ``it's all been solved.'' Not surprisingly, this has, in turn, made many NLP researchers -- especially those at the beginning of their careers -- worry about what NLP research area they should focus on.\nHas it all been solved, or what remaining questions can we work on regardless of LLMs? To address this question, this paper compiles NLP research directions rich for exploration. We identify fourteen different research areas encompassing 45 research directions that require new research and are not directly solvable by LLMs.\nWhile we identify many research areas, many others exist; we do not cover areas currently addressed by LLMs, but where LLMs lag behind in performance or those focused on LLM development. We welcome suggestions for other research directions to include: 【30†this https URL†bit.ly】",
+      "effective_date": "2024-03-15T20:10:51+00:00",
+      "paper_id": "arxiv:2305.12544",
+      "provenance": {
+        "retrieval_method": "web_tool_source_snapshot",
+        "source_file_sha256": "c3f1639364cec8ca13f52b667b4bf819be837749d029a0c5bcc4bee48114bcb1",
+        "source_path": "E6/data/prior_question_sources_v1/arxiv_2305_12544.txt"
+      },
+      "retrieved_at_utc": "2026-11-12T02:26:21Z",
+      "source_url": "https://arxiv.org/abs/2305.12544",
+      "submission_date": "2023-05-21T19:06:30+00:00",
+      "title": "Has It All Been Solved? Open NLP Research Questions Not Solved by Large Language Models",
+      "validation_status": "source_snapshot_verified",
+      "version_url": "https://arxiv.org/abs/2305.12544v2",
+      "versioned_id": "2305.12544v2"
+    }
+  ],
+  "limitations": [
+    "small convenience/source-discovery sample; not representative",
+    "abstract-only explicit verbatim questions; implicit objectives excluded",
+    "latest observed version date governs temporal eligibility, not original submission",
+    "lexical candidate retrieval may miss paraphrases; identity always needs semantic judgment",
+    "source grounding is mechanical, not independent human semantic validation",
+    "rhetorical or underspecified explicit questions require semantic review before use"
+  ],
+  "manifest_sha256": "b881c3a35ec47c2b842c6a9f50783881db9836151c11b59ca5df4ea19983add3",
+  "pipeline_file_sha256": "5cbfa9b4cad98f3284c47ca8e3ca832a8fc9594876e19a013c2cc12e09ef30e6",
+  "question_count": 6,
+  "questions": [
+    {
+      "question": "can an open-domain QA system identify such unanswerable cases and communicate with the user or even the retrieval module to modify the retrieval results?",
+      "question_id": "pq-c729b5509befe8b9d9c1c128",
+      "source_records": [
+        {
+          "effective_date": "2024-02-28T07:45:37+00:00",
+          "paper_id": "arxiv:2207.13332",
+          "source_question": {
+            "end": 1157,
+            "question": "can an open-domain QA system identify such unanswerable cases and communicate with the user or even the retrieval module to modify the retrieval results?",
+            "start": 1004
+          },
+          "source_record_sha256": "7730d8afae4d863c0099b0f4e2fdc09c8538de8c544a6a5e0594c789667add12"
+        }
+      ],
+      "validation_status": "verbatim_source_verified; semantic_review_not_performed"
+    },
+    {
+      "question": "Can your model perform better?",
+      "question_id": "pq-3740cb71e7ff4d4c55b39e96",
+      "source_records": [
+        {
+          "effective_date": "2018-03-14T18:04:21+00:00",
+          "paper_id": "arxiv:1803.05457",
+          "source_question": {
+            "end": 1089,
+            "question": "Can your model perform better?",
+            "start": 1059
+          },
+          "source_record_sha256": "d2bd74e83a1c612405bb921b78a473ab2565b24233980e8347c9f82b9866472d"
+        }
+      ],
+      "validation_status": "verbatim_source_verified; semantic_review_not_performed"
+    },
+    {
+      "question": "Do visual tasks have a relationship, or are they unrelated?",
+      "question_id": "pq-a775ca4a9633ef9a4f9c1607",
+      "source_records": [
+        {
+          "effective_date": "2026-10-20T17:19:33+00:00",
+          "paper_id": "arxiv:1804.08328",
+          "source_question": {
+            "end": 59,
+            "question": "Do visual tasks have a relationship, or are they unrelated?",
+            "start": 0
+          },
+          "source_record_sha256": "c90ea92b740aa7be7f33d2f188105bfd6224ac15433ee3a8f77a439354211333"
+        }
+      ],
+      "validation_status": "verbatim_source_verified; semantic_review_not_performed"
+    },
+    {
+      "question": "Has it all been solved, or what remaining questions can we work on regardless of LLMs?",
+      "question_id": "pq-1e1c92496f3bf26ad4cd4213",
+      "source_records": [
+        {
+          "effective_date": "2024-03-15T20:10:51+00:00",
+          "paper_id": "arxiv:2305.12544",
+          "source_question": {
+            "end": 473,
+            "question": "Has it all been solved, or what remaining questions can we work on regardless of LLMs?",
+            "start": 387
+          },
+          "source_record_sha256": "4953190bbc78d5bfd0adc1c657502fdf4371e4ed28ef1b5fb0c5e71a0ff2f404"
+        }
+      ],
+      "validation_status": "verbatim_source_verified; semantic_review_not_performed"
+    },
+    {
+      "question": "what are general conditions under which the partition function is tractable?",
+      "question_id": "pq-851d00b090d39f74f4570561",
+      "source_records": [
+        {
+          "effective_date": "2012-02-14T16:41:17+00:00",
+          "paper_id": "arxiv:1202.3732",
+          "source_question": {
+            "end": 213,
+            "question": "what are general conditions under which the partition function is tractable?",
+            "start": 137
+          },
+          "source_record_sha256": "b80f9fa8ee458dff017af0db5d72f55306dddfe9cf8df68f9d16d136d80e81fc"
+        }
+      ],
+      "validation_status": "verbatim_source_verified; semantic_review_not_performed"
+    },
+    {
+      "question": "What elements are critical for their success?",
+      "question_id": "pq-899b2ab2474a72939216b7b0",
+      "source_records": [
+        {
+          "effective_date": "2018-04-10T19:25:07+00:00",
+          "paper_id": "arxiv:1801.03924",
+          "source_question": {
+            "end": 624,
+            "question": "What elements are critical for their success?",
+            "start": 579
+          },
+          "source_record_sha256": "b99c2f757c54f5b99c5c2a6e1ac5d974c91a8b3425cf8f26fcb191ec8cabbd1b"
+        }
+      ],
+      "validation_status": "verbatim_source_verified; semantic_review_not_performed"
+    }
+  ],
+  "rejections": [
+    {
+      "paper_id": "arxiv:1706.03762",
+      "reason": "no_explicit_question_in_abstract",
+      "record_sha256": "c17c7bace01dc788286083bf5d09ea433d7e5d6a959387ef649f605123b368a6"
+    },
+    {
+      "paper_id": "arxiv:1811.04820",
+      "reason": "no_explicit_question_in_abstract",
+      "record_sha256": "88f750f6794e9023cea81008e9abb923a3703c8309af81607534c0230f0a1b2f"
+    },
+    {
+      "paper_id": "arxiv:2204.14211",
+      "reason": "no_explicit_question_in_abstract",
+      "record_sha256": "87aab7b6e6f1957dde6b7a373b991f129f2eda8917b18cbe9f18b59d771b477d"
+    }
+  ],
+  "retrieval_failures": [
+    {
+      "error": "DNS resolution failed in local Python transport: [Errno 8] nodename nor servname provided, or not known",
+      "fallback": "real arXiv abstract pages retrieved via web tool; snapshots preserved",
+      "paper_id": "2305.12544",
+      "source": "arXiv API"
+    },
+    {
+      "error": "web-tool cache miss",
+      "fallback": "unversioned abstract page explicitly identifies observed version v2 and its exact submission-history timestamp",
+      "source": "arXiv version URL",
+      "url": "https://arxiv.org/abs/2305.12544v2"
+    }
+  ],
+  "schema_version": "e6-temporal-prior-question-corpus-v1",
+  "sources": [
+    {
+      "extraction": {
+        "method": "verbatim_interrogative_v1_no_model",
+        "prompt_file_sha256": "f8a5195807ee1f4f88580ee0f9e649bd97aadc1e073e403ea04972b876e28fc9",
+        "prompt_path": "prompts/e6/17_prior_question_verbatim.txt",
+        "prompt_version": "e6-prior-question-verbatim-v1",
+        "questions": [
+          {
+            "end": 213,
+            "question": "what are general conditions under which the partition function is tractable?",
+            "start": 137
+          }
+        ],
+        "rendered_input_sha256": "debca25da963c92a9691fc4c0cdf900e67dafe9956fda0fcaa2669012e932311",
+        "status": "extracted"
+      },
+      "paper": {
+        "abstract": "The key limiting factor in graphical model inference and learning is the complexity of the partition function. We thus ask the question: what are general conditions under which the partition function is tractable? The answer leads to a new kind of deep architecture, which we call sum-product networks (SPNs). SPNs are directed acyclic graphs with variables as leaves, sums and products as internal nodes, and weighted edges.\nWe show that if an SPN is complete and consistent it represents the partition function and all marginals of some graphical model, and give semantics to its nodes. Essentially all tractable graphical models can be cast as SPNs, but SPNs are also strictly more general. We then propose learning algorithms for SPNs, based on backpropagation and EM. Experiments show that inference and learning with SPNs can be both faster and more accurate than with standard deep networks.\nFor example, SPNs perform image completion better than state-of-the-art deep networks for this task. SPNs also have intriguing potential connections to the architecture of the cortex.",
+        "effective_date": "2012-02-14T16:41:17+00:00",
+        "paper_id": "arxiv:1202.3732",
+        "provenance": {
+          "retrieval_method": "web_tool_source_snapshot",
+          "source_file_sha256": "86400809b73688f1e59db718c81132a12ffc7969c3298a337971859256cbcf2b",
+          "source_path": "E6/data/prior_question_sources_v1/arxiv_1202_3732.txt"
+        },
+        "retrieved_at_utc": "2026-11-12T02:29:38Z",
+        "source_url": "https://arxiv.org/abs/1202.3732",
+        "submission_date": "2012-02-14T16:41:17+00:00",
+        "title": "Sum-Product Networks: A New Deep Architecture",
+        "validation_status": "source_snapshot_verified",
+        "version_url": "https://arxiv.org/abs/1202.3732v1",
+        "versioned_id": "1202.3732v1"
+      },
+      "source_record_sha256": "b80f9fa8ee458dff017af0db5d72f55306dddfe9cf8df68f9d16d136d80e81fc"
+    },
+    {
+      "extraction": {
+        "method": "verbatim_interrogative_v1_no_model",
+        "prompt_file_sha256": "f8a5195807ee1f4f88580ee0f9e649bd97aadc1e073e403ea04972b876e28fc9",
+        "prompt_path": "prompts/e6/17_prior_question_verbatim.txt",
+        "prompt_version": "e6-prior-question-verbatim-v1",
+        "questions": [],
+        "rendered_input_sha256": "9ab5cde0de7c3d8b75c3ec1d6560cac6ccede15fa5dfb3bbe552c27841adc3b2",
+        "status": "no_explicit_question_in_abstract"
+      },
+      "paper": {
+        "abstract": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely.\nExperiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU.\nOn the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.",
+        "effective_date": "2023-08-02T00:41:18+00:00",
+        "paper_id": "arxiv:1706.03762",
+        "provenance": {
+          "retrieval_method": "web_tool_source_snapshot",
+          "source_file_sha256": "f4776a9114c4cfcd6656a92e909fa0b1dbce4e3299042edf4eee431c13697583",
+          "source_path": "E6/data/prior_question_sources_v1/arxiv_1706_03762.txt"
+        },
+        "retrieved_at_utc": "2026-11-12T02:26:21Z",
+        "source_url": "https://arxiv.org/abs/1706.03762",
+        "submission_date": "2017-06-12T17:57:34+00:00",
+        "title": "Attention Is All You Need",
+        "validation_status": "source_snapshot_verified",
+        "version_url": "https://arxiv.org/abs/1706.03762v7",
+        "versioned_id": "1706.03762v7"
+      },
+      "source_record_sha256": "c17c7bace01dc788286083bf5d09ea433d7e5d6a959387ef649f605123b368a6"
+    },
+    {
+      "extraction": {
+        "method": "verbatim_interrogative_v1_no_model",
+        "prompt_file_sha256": "f8a5195807ee1f4f88580ee0f9e649bd97aadc1e073e403ea04972b876e28fc9",
+        "prompt_path": "prompts/e6/17_prior_question_verbatim.txt",
+        "prompt_version": "e6-prior-question-verbatim-v1",
+        "questions": [
+          {
+            "end": 624,
+            "question": "What elements are critical for their success?",
+            "start": 579
+          }
+        ],
+        "rendered_input_sha256": "44f0995548bdc3d3c16d6ab2119d8b5b8e2665f0b8deb3773bb56b502f867b06",
+        "status": "extracted"
+      },
+      "paper": {
+        "abstract": "While it is nearly effortless for humans to quickly assess the perceptual similarity between two images, the underlying processes are thought to be quite complex. Despite this, the most widely used perceptual metrics today, such as PSNR and SSIM, are simple, shallow functions, and fail to account for many nuances of human perception.\nRecently, the deep learning community has found that features of the VGG network trained on ImageNet classification has been remarkably useful as a training loss for image synthesis. But how perceptual are these so-called \"perceptual losses\"? What elements are critical for their success? To answer these questions, we introduce a new dataset of human perceptual similarity judgments. We systematically evaluate deep features across different architectures and tasks and compare them with classic metrics.\nWe find that deep features outperform all previous metrics by large margins on our dataset. More surprisingly, this result is not restricted to ImageNet-trained VGG features, but holds across different deep architectures and levels of supervision (supervised, self-supervised, or even unsupervised). Our results suggest that perceptual similarity is an emergent property shared across deep visual representations.",
+        "effective_date": "2018-04-10T19:25:07+00:00",
+        "paper_id": "arxiv:1801.03924",
+        "provenance": {
+          "retrieval_method": "web_tool_source_snapshot",
+          "source_file_sha256": "548e355e5689c84af595e0b687cfe804df05adbeef0280e1b0a4e2e7107b4317",
+          "source_path": "E6/data/prior_question_sources_v1/arxiv_1801_03924.txt"
+        },
+        "retrieved_at_utc": "2026-11-12T02:29:38Z",
+        "source_url": "https://arxiv.org/abs/1801.03924",
+        "submission_date": "2018-01-11T18:54:17+00:00",
+        "title": "The Unreasonable Effectiveness of Deep Features as a Perceptual Metric",
+        "validation_status": "source_snapshot_verified",
+        "version_url": "https://arxiv.org/abs/1801.03924v2",
+        "versioned_id": "1801.03924v2"
+      },
+      "source_record_sha256": "b99c2f757c54f5b99c5c2a6e1ac5d974c91a8b3425cf8f26fcb191ec8cabbd1b"
+    },
+    {
+      "extraction": {
+        "method": "verbatim_interrogative_v1_no_model",
+        "prompt_file_sha256": "f8a5195807ee1f4f88580ee0f9e649bd97aadc1e073e403ea04972b876e28fc9",
+        "prompt_path": "prompts/e6/17_prior_question_verbatim.txt",
+        "prompt_version": "e6-prior-question-verbatim-v1",
+        "questions": [
+          {
+            "end": 1089,
+            "question": "Can your model perform better?",
+            "start": 1059
+          }
+        ],
+        "rendered_input_sha256": "34f5c26b77fb0fcbe51d5a2c6660a517743f80899ac5f5f79b30746ae2ec3057",
+        "status": "extracted"
+      },
+      "paper": {
+        "abstract": "We present a new question set, text corpus, and baselines assembled to encourage AI research in advanced question answering. Together, these constitute the AI2 Reasoning Challenge (ARC), which requires far more powerful knowledge and reasoning than previous challenges such as SQuAD or SNLI.\nThe ARC question set is partitioned into a Challenge Set and an Easy Set, where the Challenge Set contains only questions answered incorrectly by both a retrieval-based algorithm and a word co-occurence algorithm. The dataset contains only natural, grade-school science questions (authored for human tests), and is the largest public-domain set of this kind (7,787 questions).\nWe test several baselines on the Challenge Set, including leading neural models from the SQuAD and SNLI tasks, and find that none are able to significantly outperform a random baseline, reflecting the difficult nature of this task. We are also releasing the ARC Corpus, a corpus of 14M science sentences relevant to the task, and implementations of the three neural baseline models tested. Can your model perform better? We pose ARC as a challenge to the community.",
+        "effective_date": "2018-03-14T18:04:21+00:00",
+        "paper_id": "arxiv:1803.05457",
+        "provenance": {
+          "retrieval_method": "web_tool_source_snapshot",
+          "source_file_sha256": "8775ac5e5f69d8015a5f29b911e33fdd219e74abe7ea4e70f24cdbd919d16630",
+          "source_path": "E6/data/prior_question_sources_v1/arxiv_1803_05457.txt"
+        },
+        "retrieved_at_utc": "2026-11-12T02:29:38Z",
+        "source_url": "https://arxiv.org/abs/1803.05457",
+        "submission_date": "2018-03-14T18:04:21+00:00",
+        "title": "Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge",
+        "validation_status": "source_snapshot_verified",
+        "version_url": "https://arxiv.org/abs/1803.05457v1",
+        "versioned_id": "1803.05457v1"
+      },
+      "source_record_sha256": "d2bd74e83a1c612405bb921b78a473ab2565b24233980e8347c9f82b9866472d"
+    },
+    {
+      "extraction": {
+        "method": "verbatim_interrogative_v1_no_model",
+        "prompt_file_sha256": "f8a5195807ee1f4f88580ee0f9e649bd97aadc1e073e403ea04972b876e28fc9",
+        "prompt_path": "prompts/e6/17_prior_question_verbatim.txt",
+        "prompt_version": "e6-prior-question-verbatim-v1",
+        "questions": [
+          {
+            "end": 59,
+            "question": "Do visual tasks have a relationship, or are they unrelated?",
+            "start": 0
+          }
+        ],
+        "rendered_input_sha256": "97e0465749e0616b0c553b68a426947a0dc02cca162f6d64513f091c8c979cce",
+        "status": "extracted"
+      },
+      "paper": {
+        "abstract": "Do visual tasks have a relationship, or are they unrelated? For instance, could having surface normals simplify estimating the depth of an image? Intuition answers these questions positively, implying existence of a structure among visual tasks.\nKnowing this structure has notable values; it is the concept underlying transfer learning and provides a principled way for identifying redundancies across tasks, e.g., to seamlessly reuse supervision among related tasks or solve many tasks in one system without piling up the complexity.\n> We proposes a fully computational approach for modeling the structure of space of visual tasks. This is done via finding (first and higher-order) transfer learning dependencies across a dictionary of twenty six 2D, 2.5D, 3D, and semantic tasks in a latent space. The product is a computational taxonomic map for task transfer learning. We study the consequences of this structure, e.g. nontrivial emerged relationships, and exploit them to reduce the demand for labeled data.\nFor example, we show that the total number of labeled datapoints needed for solving a set of 10 tasks can be reduced by roughly 2/3 (compared to training independently) while keeping the performance nearly the same. We provide a set of tools for computing and probing this taxonomical structure including a solver that users can employ to devise efficient supervision policies for their use cases.",
+        "effective_date": "2026-10-20T17:19:33+00:00",
+        "paper_id": "arxiv:1804.08328",
+        "provenance": {
+          "retrieval_method": "web_tool_source_snapshot",
+          "source_file_sha256": "e3728404a78a09bf95180aa84b116371fce41be71e7eacab4a6a3a1e83daceb4",
+          "source_path": "E6/data/prior_question_sources_v1/arxiv_1804_08328.txt"
+        },
+        "retrieved_at_utc": "2026-11-12T02:29:38Z",
+        "source_url": "https://arxiv.org/abs/1804.08328",
+        "submission_date": "2018-04-23T10:46:28+00:00",
+        "title": "Taskonomy: Disentangling Task Transfer Learning",
+        "validation_status": "source_snapshot_verified",
+        "version_url": "https://arxiv.org/abs/1804.08328v2",
+        "versioned_id": "1804.08328v2"
+      },
+      "source_record_sha256": "c90ea92b740aa7be7f33d2f188105bfd6224ac15433ee3a8f77a439354211333"
+    },
+    {
+      "extraction": {
+        "method": "verbatim_interrogative_v1_no_model",
+        "prompt_file_sha256": "f8a5195807ee1f4f88580ee0f9e649bd97aadc1e073e403ea04972b876e28fc9",
+        "prompt_path": "prompts/e6/17_prior_question_verbatim.txt",
+        "prompt_version": "e6-prior-question-verbatim-v1",
+        "questions": [],
+        "rendered_input_sha256": "7082c729dcd575351a3958943d6a8983a19b569300548b83d5872f29eb45dd02",
+        "status": "no_explicit_question_in_abstract"
+      },
+      "paper": {
+        "abstract": "Learning from positive and unlabeled data or PU learning is the setting where a learner only has access to positive examples and unlabeled data. The assumption is that the unlabeled data can contain both positive and negative examples. This setting has attracted increasing interest within the machine learning literature as this type of data naturally arises in applications such as medical diagnosis and knowledge base completion.\nThis article provides a survey of the current state of the art in PU learning. It proposes seven key research questions that commonly arise in this field and provides a broad overview of how the field has tried to address them.",
+        "effective_date": "2020-05-18T10:33:23+00:00",
+        "paper_id": "arxiv:1811.04820",
+        "provenance": {
+          "retrieval_method": "web_tool_source_snapshot",
+          "source_file_sha256": "2315297fb6c45536c56cd54963813aeb30c17192c661faccf11bf221c1e4655d",
+          "source_path": "E6/data/prior_question_sources_v1/arxiv_1811_04820.txt"
+        },
+        "retrieved_at_utc": "2026-11-12T02:26:21Z",
+        "source_url": "https://arxiv.org/abs/1811.04820",
+        "submission_date": "2018-11-12T16:00:36+00:00",
+        "title": "Learning from positive and unlabeled data: a survey",
+        "validation_status": "source_snapshot_verified",
+        "version_url": "https://arxiv.org/abs/1811.04820v3",
+        "versioned_id": "1811.04820v3"
+      },
+      "source_record_sha256": "88f750f6794e9023cea81008e9abb923a3703c8309af81607534c0230f0a1b2f"
+    },
+    {
+      "extraction": {
+        "method": "verbatim_interrogative_v1_no_model",
+        "prompt_file_sha256": "f8a5195807ee1f4f88580ee0f9e649bd97aadc1e073e403ea04972b876e28fc9",
+        "prompt_path": "prompts/e6/17_prior_question_verbatim.txt",
+        "prompt_version": "e6-prior-question-verbatim-v1",
+        "questions": [],
+        "rendered_input_sha256": "3a87d2a3d7606dce00da3670a185c91038e7549167a34c751024b26bc0fe0216",
+        "status": "no_explicit_question_in_abstract"
+      },
+      "paper": {
+        "abstract": "Language Models (LMs) become outdated as the world changes; they often fail to perform tasks requiring recent factual information which was absent or different during training, a phenomenon called temporal misalignment. This is especially a challenging problem because the research community still lacks a coherent dataset for assessing the adaptability of LMs to frequently-updated knowledge corpus such as Wikipedia.\nTo this end, we introduce TemporalWiki, a lifelong benchmark for ever-evolving LMs that utilizes the difference between consecutive snapshots of English Wikipedia and English Wikidata for training and evaluation, respectively. The benchmark hence allows researchers to periodically track an LM's ability to retain previous knowledge and acquire updated/new knowledge at each point in time.\nWe also find that training an LM on the diff data through continual learning methods achieves similar or better perplexity than on the entire snapshot in our benchmark with 12 times less computational cost, which verifies that factual knowledge in LMs can be safely updated with minimal training data via continual learning. The dataset and the code are available at 【16†this https URL†github.com】.",
+        "effective_date": "2023-04-12T12:16:59+00:00",
+        "paper_id": "arxiv:2204.14211",
+        "provenance": {
+          "retrieval_method": "web_tool_source_snapshot",
+          "source_file_sha256": "5bf323dcb382c8b7b55113c368c894ffebae75f7ca3e62130ac754e7fd8ca3b5",
+          "source_path": "E6/data/prior_question_sources_v1/arxiv_2204_14211.txt"
+        },
+        "retrieved_at_utc": "2026-11-12T02:29:38Z",
+        "source_url": "https://arxiv.org/abs/2204.14211",
+        "submission_date": "2022-04-29T16:40:07+00:00",
+        "title": "TemporalWiki: A Lifelong Benchmark for Training and Evaluating Ever-Evolving Language Models",
+        "validation_status": "source_snapshot_verified",
+        "version_url": "https://arxiv.org/abs/2204.14211v3",
+        "versioned_id": "2204.14211v3"
+      },
+      "source_record_sha256": "87aab7b6e6f1957dde6b7a373b991f129f2eda8917b18cbe9f18b59d771b477d"
+    },
+    {
+      "extraction": {
+        "method": "verbatim_interrogative_v1_no_model",
+        "prompt_file_sha256": "f8a5195807ee1f4f88580ee0f9e649bd97aadc1e073e403ea04972b876e28fc9",
+        "prompt_path": "prompts/e6/17_prior_question_verbatim.txt",
+        "prompt_version": "e6-prior-question-verbatim-v1",
+        "questions": [
+          {
+            "end": 1157,
+            "question": "can an open-domain QA system identify such unanswerable cases and communicate with the user or even the retrieval module to modify the retrieval results?",
+            "start": 1004
+          }
+        ],
+        "rendered_input_sha256": "6e2444172d8b98e59d8aa4b16f55dcc8f81fe6d550800862e6ab8b81892ee539",
+        "status": "extracted"
+      },
+      "paper": {
+        "abstract": "We introduce REALTIME QA, a dynamic question answering (QA) platform that announces questions and evaluates systems on a regular basis (weekly in this version). REALTIME QA inquires about the current world, and QA systems need to answer questions about novel events or information. It therefore challenges static, conventional assumptions in open-domain QA datasets and pursues instantaneous applications. We build strong baseline models upon large pretrained language models, including GPT-3 and T5.\nOur benchmark is an ongoing effort, and this paper presents real-time evaluation results over the past year. Our experimental results show that GPT-3 can often properly update its generation results, based on newly-retrieved documents, highlighting the importance of up-to-date information retrieval. Nonetheless, we find that GPT-3 tends to return outdated answers when retrieved documents do not provide sufficient information to find an answer.\nThis suggests an important avenue for future research: can an open-domain QA system identify such unanswerable cases and communicate with the user or even the retrieval module to modify the retrieval results? We hope that REALTIME QA will spur progress in instantaneous applications of question answering and beyond.",
+        "effective_date": "2024-02-28T07:45:37+00:00",
+        "paper_id": "arxiv:2207.13332",
+        "provenance": {
+          "retrieval_method": "web_tool_source_snapshot",
+          "source_file_sha256": "7a95766dcc121f996c29ae6179a030aa1e615264d1b1dc2513bbb94620e6035b",
+          "source_path": "E6/data/prior_question_sources_v1/arxiv_2207_13332.txt"
+        },
+        "retrieved_at_utc": "2026-11-12T02:29:38Z",
+        "source_url": "https://arxiv.org/abs/2207.13332",
+        "submission_date": "2022-07-27T07:26:01+00:00",
+        "title": "RealTime QA: What's the Answer Right Now?",
+        "validation_status": "source_snapshot_verified",
+        "version_url": "https://arxiv.org/abs/2207.13332v2",
+        "versioned_id": "2207.13332v2"
+      },
+      "source_record_sha256": "7730d8afae4d863c0099b0f4e2fdc09c8538de8c544a6a5e0594c789667add12"
+    },
+    {
+      "extraction": {
+        "method": "verbatim_interrogative_v1_no_model",
+        "prompt_file_sha256": "f8a5195807ee1f4f88580ee0f9e649bd97aadc1e073e403ea04972b876e28fc9",
+        "prompt_path": "prompts/e6/17_prior_question_verbatim.txt",
+        "prompt_version": "e6-prior-question-verbatim-v1",
+        "questions": [
+          {
+            "end": 473,
+            "question": "Has it all been solved, or what remaining questions can we work on regardless of LLMs?",
+            "start": 387
+          }
+        ],
+        "rendered_input_sha256": "2554511fe45df9a8d507d19cffe43f9e4cffbf134bd251a0390719d0d23e1ec9",
+        "status": "extracted"
+      },
+      "paper": {
+        "abstract": "Recent progress in large language models (LLMs) has enabled the deployment of many generative NLP applications. At the same time, it has also led to a misleading public discourse that ``it's all been solved.'' Not surprisingly, this has, in turn, made many NLP researchers -- especially those at the beginning of their careers -- worry about what NLP research area they should focus on.\nHas it all been solved, or what remaining questions can we work on regardless of LLMs? To address this question, this paper compiles NLP research directions rich for exploration. We identify fourteen different research areas encompassing 45 research directions that require new research and are not directly solvable by LLMs.\nWhile we identify many research areas, many others exist; we do not cover areas currently addressed by LLMs, but where LLMs lag behind in performance or those focused on LLM development. We welcome suggestions for other research directions to include: 【30†this https URL†bit.ly】",
+        "effective_date": "2024-03-15T20:10:51+00:00",
+        "paper_id": "arxiv:2305.12544",
+        "provenance": {
+          "retrieval_method": "web_tool_source_snapshot",
+          "source_file_sha256": "c3f1639364cec8ca13f52b667b4bf819be837749d029a0c5bcc4bee48114bcb1",
+          "source_path": "E6/data/prior_question_sources_v1/arxiv_2305_12544.txt"
+        },
+        "retrieved_at_utc": "2026-11-12T02:26:21Z",
+        "source_url": "https://arxiv.org/abs/2305.12544",
+        "submission_date": "2023-05-21T19:06:30+00:00",
+        "title": "Has It All Been Solved? Open NLP Research Questions Not Solved by Large Language Models",
+        "validation_status": "source_snapshot_verified",
+        "version_url": "https://arxiv.org/abs/2305.12544v2",
+        "versioned_id": "2305.12544v2"
+      },
+      "source_record_sha256": "4953190bbc78d5bfd0adc1c657502fdf4371e4ed28ef1b5fb0c5e71a0ff2f404"
+    }
+  ],
+  "statistics": {
+    "date_coverage": [
+      "2012-02-14T16:41:17+00:00",
+      "2026-10-20T17:19:33+00:00"
+    ],
+    "extraction_failures": 3,
+    "papers_accepted": 6,
+    "papers_rejected": 3,
+    "papers_retrieved": 9,
+    "unique_papers": 9
+  },
+  "status": "provisional_pending_decision20_approval"
+}

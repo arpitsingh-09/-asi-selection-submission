@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:34:19.922114+00:00",
+  "identity": "dc2bf16bbed747229cd9f4c5dd3094c364677db358005fd41c51313ae5d401e9",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:34:19.905916Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 108,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 14.641866791999973,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:34:19.905916Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2513,
+      "prompt_eval_count": 531,
+      "prompt_sha256": "81217c127bb54b2249c8fbf05051e43afca68f77d1947aaba0d49a0892b5d382",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 639,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 531,
+    "latency_seconds": 14.641866791999973,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:34:19.905916Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 108,
+    "raw_response": "{\n  \"research_question\": \"How can diagnostic evaluation be improved to provide more fine-grained insights into the capabilities of large language models (LLMs)?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"Tree-Induced Diagnostic Evaluation (TIDE), which recasts diagnostic evaluation as behavior-driven decision-tree induction, can provide fine-grained capability diagnosis of LLMs, revealing contrasts invisible at the aggregate level.\",\n  \"main_hypothesis_explicit\": true\n}",
+    "total_tokens": 639
+  },
+  "reply_sha256": "8cc59311a340a7d05576a627983c09131eeada4c2ddb9a17ae64b2d3d2642ea6"
+}

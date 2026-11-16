@@ -1,0 +1,32 @@
+{
+  "client_configuration": {
+    "backend": "ollama-local",
+    "endpoint": "http://localhost:11434/api/generate",
+    "format": "json",
+    "generation_options": {
+      "num_ctx": 32768,
+      "num_predict": 2048,
+      "seed": 2026,
+      "temperature": 0,
+      "top_p": 1
+    },
+    "model": "gemma3:12b",
+    "stream": false,
+    "timeout_seconds": 600.0
+  },
+  "content_attempt": 1,
+  "identity": "63313ab7a91e3f197f600f9a6167425790ba460300871d6b26afdb7972852721",
+  "model_configuration": {
+    "context_limit": 32768,
+    "immutable_version_or_digest": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+    "max_output_tokens": 2048,
+    "model": "gemma3:12b",
+    "seed": 2026,
+    "temperature": 0,
+    "top_p": 1
+  },
+  "prompt": "ROLE\nYou are a scientific paper information extractor.\n\nTASK\nExtract the target paper's research question and main hypothesis using only the supplied paper text.\n\nTARGET PAPER TEXT\nVisual grounding (VG) localizes target objects in an image from natural-language expressions. In real-world perception, RGB cues often degrade under low illumination and adverse weather, making visual grounding substantially more challenging. However, existing VG benchmarks are largely RGB-only and provide limited, structured coverage of such conditions, hindering systematic robustness evaluation and cross-spectral comparison. We present RGBT-GroundBench, the first large-scale benchmark for RGB-Thermal (TIR) visual grounding in complex environments. It contains over 40K images (21,535 RGB-TIR pairs) and 38,760 object instances with referring expressions, bounding boxes, and fine-grained annotations at three levels: scene types, environmental conditions (illumination and weather), and object properties (size and occlusion). As a benchmark suite, RGBT-GroundBench provides not only curated RGB-TIR grounding annotations but also a unified evaluation protocol supporting RGB-only, TIR-only, and RGB+TIR inputs. Under this protocol, we benchmark 11 representative VG models across diverse scenes and environmental conditions. Our results show that grounding accuracy is strongly correlated with scene complexity, LoRA-based models are more robust in complex scenes, and low-illumination conditions cause significant performance degradation that has been rarely explored. Guided by these observations, we introduce RGBT-VGNet, a simple and reproducible reference baseline under the unified protocol, featuring Asymmetric Modality Adaptation, Language-Aware Visual Synergy, and Tri-Prior Fusion for reliability-aware RGB-TIR integration. Resources, annotations, code, checkpoints, and evaluation scripts have been publicly released.\n\nRULES\n1. Use only the supplied text.\n2. Do not use outside knowledge or infer information unsupported by the text.\n3. Prefer an explicitly stated research question or hypothesis.\n4. If the research question is not explicitly stated but is clearly supported by the text, provide a concise faithful formulation and set research_question_explicit to false.\n5. If no research question can be reliably identified, return null.\n6. Apply the same explicitness rule to the main hypothesis.\n7. Do not confuse the paper's general topic, method or objective with its research question.\n8. Do not invent a hypothesis merely because the paper reports results.\n9. Keep extracted statements concise and faithful to the authors' meaning.\n\nOUTPUT\nReturn valid JSON only:\n\n{\n  \"research_question\": null,\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": null,\n  \"main_hypothesis_explicit\": false\n}\n\nUse strings instead of null when a statement can be reliably extracted or formulated. Explicitness fields must always be JSON booleans.\n",
+  "prompt_sha256": "109d6ef3bc0aef295cf68880a278cb8b3a15ab75095a8141ed0015b9985ac169",
+  "stage": "reference_target_extraction",
+  "started_at_utc": "2026-11-12T13:34:48.832586+00:00"
+}

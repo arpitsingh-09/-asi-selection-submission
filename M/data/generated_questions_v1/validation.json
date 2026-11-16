@@ -1,0 +1,28 @@
+{
+  "schema": "M-generated-question-validation-v1",
+  "generated_at": "2026-11-13T14:01:40Z",
+  "temporal_source_records_valid": true,
+  "records": 6,
+  "fully_evaluation_eligible": 0,
+  "evaluation_run": false,
+  "checks": [
+    {
+      "check": "source line bytes/offset, IDs, versions, dates, URLs, generation time, unique R and empty/shuffled sets",
+      "status": "PASS",
+      "records": 6
+    },
+    {
+      "check": "same-topic independent semantic confirmation",
+      "status": "BLOCKED",
+      "records": 0,
+      "reason": "category match is machine metadata only"
+    },
+    {
+      "check": "human question validation",
+      "status": "BLOCKED",
+      "records": 0,
+      "reason": "no human label in prospective generation packet"
+    }
+  ],
+  "candidate_manifest_sha256": "3f81a9f462e6003fc7ac1b555ee291adc46f952b4d917986eb01b1ea6c040f65"
+}

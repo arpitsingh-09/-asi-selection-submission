@@ -1,0 +1,247 @@
+{
+  "actual_extraction_record": {
+    "attempts": [
+      {
+        "attempt": 1,
+        "raw": "{\n  \"research_question\": \"How can Large Language Models (LLMs) be effectively applied to architecture generation in computer vision, particularly regarding prompt engineering and validation strategies?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": null,\n  \"main_hypothesis_explicit\": false\n}",
+        "status": "returned"
+      }
+    ],
+    "error": null,
+    "evaluation_input": {
+      "rendered_prompt": "ROLE\nYou are a scientific paper information extractor.\n\nTASK\nExtract the target paper's research question and main hypothesis using only the supplied paper text.\n\nTARGET PAPER TEXT\nAutomated neural network architecture design remains a significant challenge in computer vision. Task diversity and computational constraints require both effective architectures and efficient search methods. Large Language Models (LLMs) present a promising alternative to computationally intensive Neural Architecture Search (NAS), but their application to architecture generation in computer vision has not been systematically studied, particularly regarding prompt engineering and validation strategies. Building on the task-agnostic NNGPT/LEMUR framework, this work introduces and validates two key contributions for computer vision. First, we present Few-Shot Architecture Prompting (FSAP), the first systematic study of the number of supporting examples (n = 1, 2, 3, 4, 5, 6) for LLM-based architecture generation. We find that using n = 3 examples best balances architectural diversity and context focus for vision tasks. Second, we introduce Whitespace-Normalized Hash Validation, a lightweight deduplication method (less than 1 ms) that provides a 100x speedup over AST parsing and prevents redundant training of duplicate computer vision architectures. In large-scale experiments across seven computer vision benchmarks (MNIST, CIFAR-10, CIFAR-100, CelebA, ImageNette, SVHN, Places365), we generated 1,900 unique architectures. We also introduce a dataset-balanced evaluation methodology to address the challenge of comparing architectures across heterogeneous vision tasks. These contributions provide actionable guidelines for LLM-based architecture search in computer vision and establish rigorous evaluation practices, making automated design more accessible to researchers with limited computational resources.\n\nRULES\n1. Use only the supplied text.\n2. Do not use outside knowledge or infer information unsupported by the text.\n3. Prefer an explicitly stated research question or hypothesis.\n4. If the research question is not explicitly stated but is clearly supported by the text, provide a concise faithful formulation and set research_question_explicit to false.\n5. If no research question can be reliably identified, return null.\n6. Apply the same explicitness rule to the main hypothesis.\n7. Do not confuse the paper's general topic, method or objective with its research question.\n8. Do not invent a hypothesis merely because the paper reports results.\n9. Keep extracted statements concise and faithful to the authors' meaning.\n\nOUTPUT\nReturn valid JSON only:\n\n{\n  \"research_question\": null,\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": null,\n  \"main_hypothesis_explicit\": false\n}\n\nUse strings instead of null when a statement can be reliably extracted or formulated. Explicitness fields must always be JSON booleans.\n",
+      "target_paper_text": "Automated neural network architecture design remains a significant challenge in computer vision. Task diversity and computational constraints require both effective architectures and efficient search methods. Large Language Models (LLMs) present a promising alternative to computationally intensive Neural Architecture Search (NAS), but their application to architecture generation in computer vision has not been systematically studied, particularly regarding prompt engineering and validation strategies. Building on the task-agnostic NNGPT/LEMUR framework, this work introduces and validates two key contributions for computer vision. First, we present Few-Shot Architecture Prompting (FSAP), the first systematic study of the number of supporting examples (n = 1, 2, 3, 4, 5, 6) for LLM-based architecture generation. We find that using n = 3 examples best balances architectural diversity and context focus for vision tasks. Second, we introduce Whitespace-Normalized Hash Validation, a lightweight deduplication method (less than 1 ms) that provides a 100x speedup over AST parsing and prevents redundant training of duplicate computer vision architectures. In large-scale experiments across seven computer vision benchmarks (MNIST, CIFAR-10, CIFAR-100, CelebA, ImageNette, SVHN, Places365), we generated 1,900 unique architectures. We also introduce a dataset-balanced evaluation methodology to address the challenge of comparing architectures across heterogeneous vision tasks. These contributions provide actionable guidelines for LLM-based architecture search in computer vision and establish rigorous evaluation practices, making automated design more accessible to researchers with limited computational resources."
+    },
+    "evaluation_input_sha256": "b67afddeb88b0b64ff1b3727863ce6fb3379883306bafefc92e2534f6521f54f",
+    "input_set_id": "lit-2512.24120",
+    "model_response_metadata": {
+      "adapter_metadata": {
+        "backend": "ollama-local",
+        "created_at": "2026-11-12T13:25:46.845503Z",
+        "done": true,
+        "done_reason": "stop",
+        "endpoint": "http://localhost:11434/api/generate",
+        "eval_count": 69,
+        "generation_settings": {
+          "format": "json",
+          "options": {
+            "num_ctx": 32768,
+            "num_predict": 2048,
+            "seed": 2026,
+            "temperature": 0,
+            "top_p": 1
+          },
+          "stream": false
+        },
+        "http_status": 200,
+        "latency_seconds": 8.299214667000001,
+        "model": "gemma3:12b",
+        "model_identity": {
+          "reported_created_at": "2026-11-12T13:25:46.845503Z",
+          "reported_model": "gemma3:12b",
+          "requested_model": "gemma3:12b"
+        },
+        "prompt_characters": 2936,
+        "prompt_eval_count": 602,
+        "prompt_sha256": "359640a004b0934bc9ab19a3008e363efa3b132aaca362c0e1e822f113b9762b",
+        "requested_output_token_limit": 2048,
+        "stage": "reference_target_extraction",
+        "total_tokens": 671,
+        "usage_metadata_available": true
+      },
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "input_tokens": 602,
+      "latency_seconds": 8.299214667000001,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:25:46.845503Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "output_tokens": 69,
+      "total_tokens": 671
+    },
+    "parsed_output": {
+      "main_hypothesis": null,
+      "main_hypothesis_explicit": false,
+      "research_question": "How can Large Language Models (LLMs) be effectively applied to architecture generation in computer vision, particularly regarding prompt engineering and validation strategies?",
+      "research_question_explicit": false
+    },
+    "provenance": {
+      "gold_truth_status": "requires independent validation",
+      "model_configuration": {
+        "context_limit": 32768,
+        "immutable_version_or_digest": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+        "max_output_tokens": 2048,
+        "model": "gemma3:12b",
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "prompt_path": "prompts/e6/09_target_extraction.txt",
+      "prompt_sha256": "5e86dad439efba14bb38174c8754cc5aa06382364472e8ba1d93dfb211c6d941"
+    },
+    "raw_output": "{\n  \"research_question\": \"How can Large Language Models (LLMs) be effectively applied to architecture generation in computer vision, particularly regarding prompt engineering and validation strategies?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": null,\n  \"main_hypothesis_explicit\": false\n}",
+    "schema_status": "provisional_unapproved",
+    "schema_version": "e6-evaluation-provisional-v1",
+    "stage": "reference_target_extraction",
+    "status": "succeeded"
+  },
+  "actual_four_fields": {
+    "main_hypothesis": null,
+    "main_hypothesis_explicit": false,
+    "research_question": "How can Large Language Models (LLMs) be effectively applied to architecture generation in computer vision, particularly regarding prompt engineering and validation strategies?",
+    "research_question_explicit": false
+  },
+  "automatic_consistency_checks": {
+    "checkpoint_integrity": true,
+    "four_field_schema": true,
+    "frozen_source_binding": true,
+    "human_checks_completed": false,
+    "literal_source_checks": {
+      "main_hypothesis": {
+        "semantic_support": "requires_independent_review",
+        "value_present": false,
+        "verbatim_source_spans": []
+      },
+      "research_question": {
+        "semantic_support": "requires_independent_review",
+        "value_present": true,
+        "verbatim_source_spans": []
+      }
+    },
+    "request_and_response_provenance": true,
+    "review_attention_flags": []
+  },
+  "disagreement_categories": {
+    "main_hypothesis_explicitness_accurate": [
+      "explicit_vs_inferred_disagreement",
+      "source_evidence_insufficient"
+    ],
+    "main_hypothesis_extraction_accurate": [
+      "not_the_main_hypothesis",
+      "result_or_method_confused_with_hypothesis",
+      "unsupported_direction_or_relationship",
+      "hypothesis_missing_or_null_incorrect"
+    ],
+    "method_extraction_accurate": [
+      "source_component_missing",
+      "unsupported_component",
+      "incorrect_source_span",
+      "meaning_changed"
+    ],
+    "problem_extraction_accurate": [
+      "source_component_missing",
+      "unsupported_component",
+      "incorrect_source_span",
+      "meaning_changed"
+    ],
+    "research_question_explicitness_accurate": [
+      "explicit_vs_inferred_disagreement",
+      "source_evidence_insufficient"
+    ],
+    "research_question_extraction_accurate": [
+      "wrong_research_objective",
+      "unsupported_inference",
+      "scope_changed",
+      "question_missing_or_null_incorrect"
+    ],
+    "result_extraction_accurate": [
+      "source_component_missing",
+      "unsupported_component",
+      "incorrect_source_span",
+      "meaning_changed"
+    ]
+  },
+  "human_review_complete": false,
+  "input_set_id": "lit-2512.24120",
+  "packet_sha256": "f6bcd0784d363bf5895e202a6d5d2971968c081d421cc6b9ca679ee9fd945024",
+  "source_component_sidecar": {
+    "components": {
+      "method": {
+        "annotated_at_utc": null,
+        "annotator_id": null,
+        "character_span": null,
+        "source_quote": null,
+        "text": null
+      },
+      "problem": {
+        "annotated_at_utc": null,
+        "annotator_id": null,
+        "character_span": null,
+        "source_quote": null,
+        "text": null
+      },
+      "result": {
+        "annotated_at_utc": null,
+        "annotator_id": null,
+        "character_span": null,
+        "source_quote": null,
+        "text": null
+      }
+    },
+    "fixed_extraction_sha256": "a0710cbab9257331cc8e40626744c278c75253ad54f5f922e3b4dad51923ac3c",
+    "input_set_id": "lit-2512.24120",
+    "status": "pending_actual_source_annotations",
+    "target_source_field": "abstract",
+    "target_source_text_sha256": "05d60f5d22862f9a630488a5009513736c9e9b9556bf824eea01831746092683"
+  },
+  "source_component_sidecar_status": "pending_actual_annotations",
+  "source_quote_blocks": [
+    {
+      "character_span": [
+        0,
+        400
+      ],
+      "quote": "Automated neural network architecture design remains a significant challenge in computer vision. Task diversity and computational constraints require both effective architectures and efficient search methods. Large Language Models (LLMs) present a promising alternative to computationally intensive Neural Architecture Search (NAS), but their application to architecture generation in computer vision",
+      "semantic_role": "unclassified_exact_source_block"
+    },
+    {
+      "character_span": [
+        400,
+        800
+      ],
+      "quote": " has not been systematically studied, particularly regarding prompt engineering and validation strategies. Building on the task-agnostic NNGPT/LEMUR framework, this work introduces and validates two key contributions for computer vision. First, we present Few-Shot Architecture Prompting (FSAP), the first systematic study of the number of supporting examples (n = 1, 2, 3, 4, 5, 6) for LLM-based arc",
+      "semantic_role": "unclassified_exact_source_block"
+    },
+    {
+      "character_span": [
+        800,
+        1200
+      ],
+      "quote": "hitecture generation. We find that using n = 3 examples best balances architectural diversity and context focus for vision tasks. Second, we introduce Whitespace-Normalized Hash Validation, a lightweight deduplication method (less than 1 ms) that provides a 100x speedup over AST parsing and prevents redundant training of duplicate computer vision architectures. In large-scale experiments across se",
+      "semantic_role": "unclassified_exact_source_block"
+    },
+    {
+      "character_span": [
+        1200,
+        1600
+      ],
+      "quote": "ven computer vision benchmarks (MNIST, CIFAR-10, CIFAR-100, CelebA, ImageNette, SVHN, Places365), we generated 1,900 unique architectures. We also introduce a dataset-balanced evaluation methodology to address the challenge of comparing architectures across heterogeneous vision tasks. These contributions provide actionable guidelines for LLM-based architecture search in computer vision and establi",
+      "semantic_role": "unclassified_exact_source_block"
+    },
+    {
+      "character_span": [
+        1600,
+        1726
+      ],
+      "quote": "sh rigorous evaluation practices, making automated design more accessible to researchers with limited computational resources.",
+      "semantic_role": "unclassified_exact_source_block"
+    }
+  ],
+  "target_source_field": "abstract",
+  "target_source_text": "Automated neural network architecture design remains a significant challenge in computer vision. Task diversity and computational constraints require both effective architectures and efficient search methods. Large Language Models (LLMs) present a promising alternative to computationally intensive Neural Architecture Search (NAS), but their application to architecture generation in computer vision has not been systematically studied, particularly regarding prompt engineering and validation strategies. Building on the task-agnostic NNGPT/LEMUR framework, this work introduces and validates two key contributions for computer vision. First, we present Few-Shot Architecture Prompting (FSAP), the first systematic study of the number of supporting examples (n = 1, 2, 3, 4, 5, 6) for LLM-based architecture generation. We find that using n = 3 examples best balances architectural diversity and context focus for vision tasks. Second, we introduce Whitespace-Normalized Hash Validation, a lightweight deduplication method (less than 1 ms) that provides a 100x speedup over AST parsing and prevents redundant training of duplicate computer vision architectures. In large-scale experiments across seven computer vision benchmarks (MNIST, CIFAR-10, CIFAR-100, CelebA, ImageNette, SVHN, Places365), we generated 1,900 unique architectures. We also introduce a dataset-balanced evaluation methodology to address the challenge of comparing architectures across heterogeneous vision tasks. These contributions provide actionable guidelines for LLM-based architecture search in computer vision and establish rigorous evaluation practices, making automated design more accessible to researchers with limited computational resources.",
+  "target_source_text_sha256": "05d60f5d22862f9a630488a5009513736c9e9b9556bf824eea01831746092683",
+  "target_title": "Enhancing LLM-Based Neural Network Generation: Few-Shot Prompting and Efficient Validation for Automated Architecture Design"
+}

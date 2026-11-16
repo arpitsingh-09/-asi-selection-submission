@@ -1,0 +1,74 @@
+{
+  "status": "prepared_only_inference_not_authorized",
+  "authorize_inference": false,
+  "objective": "Supply exactly the 93 missing claim vectors needed for N/yours on the newly evaluated 52 focals; no repeated Y/density evaluation.",
+  "requests_path": "/Users/arpit/asi-selection/E2/analysis/task2_extension_52_v1/missing_claim_vectors.jsonl",
+  "requests_sha256": "0b595cc10d020ecb757b36762d834c7d4cef1ffc45f6131884efd039fe4acb43",
+  "unique_required_claim_texts": 93,
+  "claim_use_count": 93,
+  "affected_focals": 52,
+  "claim_source_path": "/Users/arpit/asi-selection/E2/analysis/claim_completion_v2/claims_future.jsonl",
+  "claim_source_sha256": "98a4244c8389284b87f171372eafe58326ea444256226f089e429d165d3f8410",
+  "fixed_condition_pools_path": "/Users/arpit/asi-selection/E2/analysis/task2_extension_52_v1/pool_plan.jsonl",
+  "fixed_condition_pools_sha256": "fff8a5a5336448f65e478e7bc842986ab426d1d6837140c32d396d5c338bac24",
+  "parity_controls_path": "/Users/arpit/asi-selection/E2/analysis/task2_extension_52_v1/future_encoder_parity_controls.json",
+  "parity_controls_sha256": "59eb825fb8976c2abeb35793ab108cd571ae36a6f540e1aa3a0b0d05dc105ec2",
+  "existing_cache": "/Users/arpit/asi-selection/E2/data/novelty_embeddings.sqlite3",
+  "existing_cache_sha256": "a1d42a472f7ecda6935beb67ad595fb6a39e2fdcbbd022259a4f0e8230ac8289",
+  "existing_cache_access": "read_only; write new vectors only to a new sidecar database",
+  "model_inventory_path": "/Users/arpit/asi-selection/E2/analysis/task3_execution_v1/model_inventory.json",
+  "model_inventory_sha256": "7df5697f992503c49aa8642f1e7f8e3ab0fcdc1acc682ba091aec790a4da55d1",
+  "base_revision": "3447645e1def9117997203454fa4495937bfbd83",
+  "adapter_revision": "2081559630a80fc5851d8f798a05ba81e9468089",
+  "representation": {
+    "input": "exact stripped claim text, no title/abstract prefix",
+    "pooling": "final hidden CLS",
+    "max_length": 512,
+    "dtype": "float32",
+    "normalization": "L2-normalize raw CLS to unit length before novelty scoring",
+    "dimension": 768,
+    "model_id": "specter2_base+proximity-adapter+cls-v1"
+  },
+  "reuse_existing_infrastructure": {
+    "loader": "task3_execution.batched_cpu_encoder with existing pinned model inventory; returns raw CLS, so normalize explicitly for Task 2",
+    "cache_checks": "cached_extensions.Cache for original vectors; an equivalent read-only overlay reader must validate new vectors",
+    "do_not_invoke": [
+      "novelty._encode (writes original cache)",
+      "task3_execution embed on any existing frozen Task 3 plan",
+      "run_scoring.py"
+    ]
+  },
+  "future_worker_status": "Bounded Task 2 sidecar worker/overlay adapter still must be implemented; current embed CLI is not compatible with this request schema.",
+  "future_resources": {
+    "device": "cpu",
+    "threads": 1,
+    "batch_size": 2,
+    "default_limit": 0,
+    "calibration_claim_limit": 4,
+    "lower_priority_before_model_import": true,
+    "fail_if_priority_reduction_unavailable": true,
+    "memory_estimate_gib": [
+      2,
+      4
+    ],
+    "note": "Estimates only; throughput unmeasured. Do not start during active E6 under current instructions."
+  },
+  "execution_sequence": [
+    "Implement and test a Task 2 request-manifest sidecar encoder/overlay adapter, reusing the pinned CPU loader and transactional vector validation. No automatic inference.",
+    "After a safe resource window and explicit inference authorization, verify all source/model hashes and lower scheduling priority before importing/loading the model.",
+    "Encode the three fixed cached parity controls. Require normalized vectors to match cached controls with atol=1e-5, rtol=1e-4. On failure stop and investigate representation mismatch; do not retune the tolerance.",
+    "Encode at most four of the 93 requests for calibration, validate shape/finite/nonzero norms and normalized checksums, then checkpoint to a separate SQLite sidecar.",
+    "Measure runtime/RAM; after acceptable calibration, process remaining requests in bounded resumable batches of two. Encode each hash only once.",
+    "Freeze a separate prospective N/yours extension protocol with the same 52 IDs and selected condition pools before calculating N/yours.",
+    "Calculate only N/yours from cached references and original-plus-sidecar claim vectors. Reuse saved Y/density unchanged and report stage-specific results."
+  ],
+  "remaining_mandatory_limits": [
+    "93 is the exact known minimum for current accepted extra focals, not a bound for six unresolved claim sets or uncreated paraphrases.",
+    "One additional count-eligible focal has all claim vectors already cached but insufficient strictly prior reference vectors for two disjoint pairs.",
+    "Existing 964 nearest-planting plans still need 1304 previously identified modified-text vectors; future expansion to new claim sets needs separately frozen new plans.",
+    "Five saved paraphrase candidates lack vectors and 295 candidate conditions are not supplied; preserve their existing review/authorization flags.",
+    "Six focal claim sets remain evidence-limited; full 300-paper compliance is not established."
+  ],
+  "new_embeddings_generated": 0,
+  "model_loaded": false
+}

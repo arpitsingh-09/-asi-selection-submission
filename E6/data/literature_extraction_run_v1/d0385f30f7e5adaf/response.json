@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:27:44.308271+00:00",
+  "identity": "abba745b7074c47aec4917009f3cefaad51d4acf49d8461bd47d1a19c60ad629",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:27:44.296487Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 129,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 13.640984542000012,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:27:44.296487Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 3005,
+      "prompt_eval_count": 677,
+      "prompt_sha256": "e506f41dd350bf94c28891f3529001e546efcfac825489b6f9e67f966cae2bf4",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 806,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 677,
+    "latency_seconds": 13.640984542000012,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:27:44.296487Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 129,
+    "raw_response": "{\n  \"research_question\": \"How can the complementary methods of ultra-low-bit backbones and multi-token prediction (MTP) be effectively combined to accelerate decoding of large language models without sacrificing quality?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"A joint next-token prediction and MTP objective, combined with confidence-only, speculative-only, and hybrid decoding, and accepted-prefix alignment, can accelerate ultra-low-bit LLM generation across backbones, model sizes, and GPU types.\",\n  \"main_hypothesis_explicit\": false\n}",
+    "total_tokens": 806
+  },
+  "reply_sha256": "b81af15086b865c0a7671aa156cb7d36970474818df670221bd0d26c0308df8f"
+}

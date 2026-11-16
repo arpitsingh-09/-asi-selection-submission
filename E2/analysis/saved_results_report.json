@@ -1,0 +1,594 @@
+{
+  "scoring_sha256": {
+    "scoring_results.jsonl": "8aa38111b3dbdf5e4a24534486bb55aa081d6b4bdd32a56244a00e0b2fa99bdc",
+    "scoring_results.matmul_pilot.jsonl": "9ded2fd37ce365fb13a4621497367315027d54ff2a41608c55cfa04bd7840b1f"
+  },
+  "status_counts": {
+    "ok": 2400
+  },
+  "unique_pool_sizes": {
+    "machine_learning": 1000,
+    "computer_vision": 1000,
+    "computation_language": 1000
+  },
+  "focals_per_pool": {
+    "computer_vision": 100,
+    "computation_language": 100,
+    "machine_learning": 100
+  },
+  "claim_counts": {
+    "4": 83,
+    "3": 43,
+    "5": 57,
+    "7": 22,
+    "1": 2,
+    "6": 40,
+    "2": 13,
+    "8": 21,
+    "10": 5,
+    "9": 14
+  },
+  "conditions": {
+    "baseline": 300,
+    "exact_copy": 300,
+    "coverage_25": 300,
+    "coverage_50": 300,
+    "coverage_75": 300,
+    "coverage_100": 300,
+    "concentrated": 300,
+    "distributed": 300
+  },
+  "focal_in_pool_cases": 0,
+  "unique_focal_papers": 300,
+  "seed": 20261113,
+  "bootstrap_replicates": 10000,
+  "rates": [
+    {
+      "condition": "exact_copy",
+      "reference": "baseline",
+      "measure": "Y",
+      "criterion": "strict_decrease",
+      "passes": 300,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "interpretation": "directional pass rate"
+    },
+    {
+      "condition": "exact_copy",
+      "reference": "baseline",
+      "measure": "N",
+      "criterion": "strict_decrease",
+      "passes": 284,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 0.9466666666666667,
+      "ci95": [
+        0.92,
+        0.97
+      ],
+      "interpretation": "directional pass rate"
+    },
+    {
+      "condition": "exact_copy",
+      "reference": "baseline",
+      "measure": "yours",
+      "criterion": "strict_decrease",
+      "passes": 300,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "interpretation": "directional pass rate"
+    },
+    {
+      "condition": "exact_copy",
+      "reference": "baseline",
+      "measure": "density",
+      "criterion": "strict_decrease",
+      "passes": 295,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 0.9833333333333333,
+      "ci95": [
+        0.9666666666666667,
+        0.9966666666666667
+      ],
+      "interpretation": "directional pass rate"
+    },
+    {
+      "condition": "coverage_25",
+      "reference": "baseline",
+      "measure": "Y",
+      "criterion": "nonincrease",
+      "passes": 300,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "interpretation": "directional pass rate"
+    },
+    {
+      "condition": "coverage_25",
+      "reference": "baseline",
+      "measure": "N",
+      "criterion": "nonincrease",
+      "passes": 300,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "interpretation": "directional pass rate"
+    },
+    {
+      "condition": "coverage_25",
+      "reference": "baseline",
+      "measure": "yours",
+      "criterion": "nonincrease",
+      "passes": 300,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "interpretation": "directional pass rate"
+    },
+    {
+      "condition": "coverage_25",
+      "reference": "baseline",
+      "measure": "density",
+      "criterion": "nonincrease",
+      "passes": 289,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 0.9633333333333334,
+      "ci95": [
+        0.94,
+        0.9833333333333333
+      ],
+      "interpretation": "directional pass rate"
+    },
+    {
+      "condition": "coverage_50",
+      "reference": "baseline",
+      "measure": "Y",
+      "criterion": "nonincrease",
+      "passes": 300,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "interpretation": "directional pass rate"
+    },
+    {
+      "condition": "coverage_50",
+      "reference": "baseline",
+      "measure": "N",
+      "criterion": "nonincrease",
+      "passes": 300,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "interpretation": "directional pass rate"
+    },
+    {
+      "condition": "coverage_50",
+      "reference": "baseline",
+      "measure": "yours",
+      "criterion": "nonincrease",
+      "passes": 300,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "interpretation": "directional pass rate"
+    },
+    {
+      "condition": "coverage_50",
+      "reference": "baseline",
+      "measure": "density",
+      "criterion": "nonincrease",
+      "passes": 286,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 0.9533333333333334,
+      "ci95": [
+        0.9266666666666666,
+        0.9766666666666667
+      ],
+      "interpretation": "directional pass rate"
+    },
+    {
+      "condition": "coverage_75",
+      "reference": "baseline",
+      "measure": "Y",
+      "criterion": "nonincrease",
+      "passes": 300,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "interpretation": "directional pass rate"
+    },
+    {
+      "condition": "coverage_75",
+      "reference": "baseline",
+      "measure": "N",
+      "criterion": "nonincrease",
+      "passes": 300,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "interpretation": "directional pass rate"
+    },
+    {
+      "condition": "coverage_75",
+      "reference": "baseline",
+      "measure": "yours",
+      "criterion": "nonincrease",
+      "passes": 300,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "interpretation": "directional pass rate"
+    },
+    {
+      "condition": "coverage_75",
+      "reference": "baseline",
+      "measure": "density",
+      "criterion": "nonincrease",
+      "passes": 287,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 0.9566666666666667,
+      "ci95": [
+        0.9333333333333333,
+        0.9766666666666667
+      ],
+      "interpretation": "directional pass rate"
+    },
+    {
+      "condition": "coverage_100",
+      "reference": "baseline",
+      "measure": "Y",
+      "criterion": "nonincrease",
+      "passes": 300,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "interpretation": "directional pass rate"
+    },
+    {
+      "condition": "coverage_100",
+      "reference": "baseline",
+      "measure": "N",
+      "criterion": "nonincrease",
+      "passes": 300,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "interpretation": "directional pass rate"
+    },
+    {
+      "condition": "coverage_100",
+      "reference": "baseline",
+      "measure": "yours",
+      "criterion": "nonincrease",
+      "passes": 300,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "interpretation": "directional pass rate"
+    },
+    {
+      "condition": "coverage_100",
+      "reference": "baseline",
+      "measure": "density",
+      "criterion": "nonincrease",
+      "passes": 289,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 0.9633333333333334,
+      "ci95": [
+        0.94,
+        0.9833333333333333
+      ],
+      "interpretation": "directional pass rate"
+    },
+    {
+      "condition": "coverage_50",
+      "reference": "coverage_25",
+      "measure": "Y",
+      "criterion": "nonincrease",
+      "passes": 272,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 0.9066666666666666,
+      "ci95": [
+        0.8733333333333333,
+        0.9366666666666666
+      ],
+      "interpretation": "directional pass rate"
+    },
+    {
+      "condition": "coverage_50",
+      "reference": "coverage_25",
+      "measure": "N",
+      "criterion": "nonincrease",
+      "passes": 172,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 0.5733333333333334,
+      "ci95": [
+        0.5166666666666667,
+        0.63
+      ],
+      "interpretation": "directional pass rate"
+    },
+    {
+      "condition": "coverage_50",
+      "reference": "coverage_25",
+      "measure": "yours",
+      "criterion": "nonincrease",
+      "passes": 252,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 0.84,
+      "ci95": [
+        0.7966666666666666,
+        0.88
+      ],
+      "interpretation": "directional pass rate"
+    },
+    {
+      "condition": "coverage_50",
+      "reference": "coverage_25",
+      "measure": "density",
+      "criterion": "nonincrease",
+      "passes": 280,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 0.9333333333333333,
+      "ci95": [
+        0.9033333333333333,
+        0.96
+      ],
+      "interpretation": "directional pass rate"
+    },
+    {
+      "condition": "coverage_75",
+      "reference": "coverage_50",
+      "measure": "Y",
+      "criterion": "nonincrease",
+      "passes": 277,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 0.9233333333333333,
+      "ci95": [
+        0.89,
+        0.9533333333333334
+      ],
+      "interpretation": "directional pass rate"
+    },
+    {
+      "condition": "coverage_75",
+      "reference": "coverage_50",
+      "measure": "N",
+      "criterion": "nonincrease",
+      "passes": 182,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 0.6066666666666667,
+      "ci95": [
+        0.55,
+        0.66
+      ],
+      "interpretation": "directional pass rate"
+    },
+    {
+      "condition": "coverage_75",
+      "reference": "coverage_50",
+      "measure": "yours",
+      "criterion": "nonincrease",
+      "passes": 267,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 0.89,
+      "ci95": [
+        0.8533333333333334,
+        0.9233333333333333
+      ],
+      "interpretation": "directional pass rate"
+    },
+    {
+      "condition": "coverage_75",
+      "reference": "coverage_50",
+      "measure": "density",
+      "criterion": "nonincrease",
+      "passes": 281,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 0.9366666666666666,
+      "ci95": [
+        0.9099166666666668,
+        0.9633333333333334
+      ],
+      "interpretation": "directional pass rate"
+    },
+    {
+      "condition": "coverage_100",
+      "reference": "coverage_75",
+      "measure": "Y",
+      "criterion": "nonincrease",
+      "passes": 196,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 0.6533333333333333,
+      "ci95": [
+        0.6,
+        0.7066666666666667
+      ],
+      "interpretation": "directional pass rate"
+    },
+    {
+      "condition": "coverage_100",
+      "reference": "coverage_75",
+      "measure": "N",
+      "criterion": "nonincrease",
+      "passes": 120,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 0.4,
+      "ci95": [
+        0.3433333333333333,
+        0.45666666666666667
+      ],
+      "interpretation": "directional pass rate"
+    },
+    {
+      "condition": "coverage_100",
+      "reference": "coverage_75",
+      "measure": "yours",
+      "criterion": "nonincrease",
+      "passes": 177,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 0.59,
+      "ci95": [
+        0.5333333333333333,
+        0.6466666666666666
+      ],
+      "interpretation": "directional pass rate"
+    },
+    {
+      "condition": "coverage_100",
+      "reference": "coverage_75",
+      "measure": "density",
+      "criterion": "nonincrease",
+      "passes": 279,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 0.93,
+      "ci95": [
+        0.9,
+        0.9566666666666667
+      ],
+      "interpretation": "directional pass rate"
+    },
+    {
+      "condition": "concentrated",
+      "reference": "distributed",
+      "measure": "Y",
+      "criterion": "strict_decrease",
+      "passes": 216,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 0.72,
+      "ci95": [
+        0.67,
+        0.77
+      ],
+      "interpretation": "descriptive lower-concentration rate; original N equality prediction was incorrect"
+    },
+    {
+      "condition": "concentrated",
+      "reference": "distributed",
+      "measure": "N",
+      "criterion": "strict_decrease",
+      "passes": 0,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "interpretation": "descriptive lower-concentration rate; original N equality prediction was incorrect"
+    },
+    {
+      "condition": "concentrated",
+      "reference": "distributed",
+      "measure": "yours",
+      "criterion": "strict_decrease",
+      "passes": 96,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 0.32,
+      "ci95": [
+        0.26666666666666666,
+        0.37333333333333335
+      ],
+      "interpretation": "descriptive lower-concentration rate; original N equality prediction was incorrect"
+    },
+    {
+      "condition": "concentrated",
+      "reference": "distributed",
+      "measure": "density",
+      "criterion": "strict_decrease",
+      "passes": 26,
+      "valid": 300,
+      "missing_or_invalid": 0,
+      "rate": 0.08666666666666667,
+      "ci95": [
+        0.056666666666666664,
+        0.12
+      ],
+      "interpretation": "descriptive lower-concentration rate; original N equality prediction was incorrect"
+    }
+  ],
+  "limitations": [
+    "Paper-level bootstrap pooled across the three fixed subfields; no claim of independent corpus samples",
+    "Strict comparisons use fixed numerical tolerance 1e-8; equality fails strict decrease",
+    "Partial coverage inserts synthetic papers, not claims into nearest existing papers",
+    "Paraphrased-copy, near/far and older/newer not scored; no pass rates available",
+    "Original predictions retrospective relative to git; density concentration prediction was uncertain"
+  ]
+}

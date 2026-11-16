@@ -1,0 +1,18 @@
+{
+  "source": "Semantic Scholar Graph API DOI lookups",
+  "requested_candidate_count": 5,
+  "lookup_verified_count": 0,
+  "all_three_citations_verified_count": 0,
+  "blocked_count": 5,
+  "last_error": {
+    "doi": "10.18653/v1/2021.eacl-main.86",
+    "status": 429,
+    "body": "{\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"}",
+    "stage": "ACL"
+  },
+  "citation_window_candidate_groups": [],
+  "protocol_eligible_groups": [],
+  "protocol_group_status": "BLOCKED_PENDING_SOURCE_BOUND_REAL_AND_GENERATED_QUESTIONS",
+  "excluded": [],
+  "records": []
+}

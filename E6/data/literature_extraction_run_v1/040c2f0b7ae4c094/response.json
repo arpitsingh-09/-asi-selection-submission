@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:29:18.587985+00:00",
+  "identity": "58cf01d06632efe52b903af5ac75771d18d11381f1b857d98648e44453b9391f",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:29:18.565572Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 119,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 13.70068758399998,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:29:18.565572Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2869,
+      "prompt_eval_count": 554,
+      "prompt_sha256": "55f59366622b7074a2533d2625e9ee2792d5c75861a2c10a2060d6f7ef1fc279",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 673,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 554,
+    "latency_seconds": 13.70068758399998,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:29:18.565572Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 119,
+    "raw_response": "{\n  \"research_question\": \"How can on-policy self-distillation (OPSD) be improved to avoid the pitfalls of Teacher trajectories that are accurate but discourage exploration and self-correction in the Student model?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"TeachBack, a bidirectional preference-learning framework, can shape the Teacher's generation behavior to encourage exploration and reduce reliance on reference solutions while maintaining comparable Teacher accuracy, ultimately improving Student performance in reasoning tasks.\",\n  \"main_hypothesis_explicit\": false\n}",
+    "total_tokens": 673
+  },
+  "reply_sha256": "59e14b935b92db25f835c493a4a6b931b9c89b3e5f16d0c613612dac59e42537"
+}

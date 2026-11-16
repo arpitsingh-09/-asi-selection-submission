@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:36:37.064693+00:00",
+  "identity": "1a0bd1bbce5978969d25a87aff65eafa00568f39796dfb945e672392fe0155c2",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:36:37.051269Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 100,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 15.65512395899998,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:36:37.051269Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2932,
+      "prompt_eval_count": 564,
+      "prompt_sha256": "1df84a51992230827c6f3f7c46b7f3cd62909c3b8b32c166fd7250bca90a2bb6",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 664,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 564,
+    "latency_seconds": 15.65512395899998,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:36:37.051269Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 100,
+    "raw_response": "{\n  \"research_question\": \"How can light transport in human-centric scenes be better understood and modeled to achieve precise illumination control?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"Jointly denoising RGB and ground-truth irradiance frames with separate timesteps scheduling, combined with a domain matching strategy, will facilitate fine-grained illumination control and improve lighting fidelity and generative quality.\",\n  \"main_hypothesis_explicit\": false\n}",
+    "total_tokens": 664
+  },
+  "reply_sha256": "6883d345bc523a454a6db0bad330878a69327cae9041ec83027c8e9c00121bcb"
+}

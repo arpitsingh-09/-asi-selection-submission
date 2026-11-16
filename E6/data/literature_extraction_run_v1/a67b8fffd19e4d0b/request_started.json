@@ -1,0 +1,32 @@
+{
+  "client_configuration": {
+    "backend": "ollama-local",
+    "endpoint": "http://localhost:11434/api/generate",
+    "format": "json",
+    "generation_options": {
+      "num_ctx": 32768,
+      "num_predict": 2048,
+      "seed": 2026,
+      "temperature": 0,
+      "top_p": 1
+    },
+    "model": "gemma3:12b",
+    "stream": false,
+    "timeout_seconds": 600.0
+  },
+  "content_attempt": 1,
+  "identity": "683b764fa2b0e48f03e53fffc2949509b3d4fcb891d9a4ce8065d05ff5204625",
+  "model_configuration": {
+    "context_limit": 32768,
+    "immutable_version_or_digest": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+    "max_output_tokens": 2048,
+    "model": "gemma3:12b",
+    "seed": 2026,
+    "temperature": 0,
+    "top_p": 1
+  },
+  "prompt": "ROLE\nYou are a scientific paper information extractor.\n\nTASK\nExtract the target paper's research question and main hypothesis using only the supplied paper text.\n\nTARGET PAPER TEXT\nSampling based on score diffusions has led to striking empirical results, and has attracted considerable attention from various research communities. It depends on availability of (approximate) Stein score functions for various levels of additive noise. We show how in some generality, the availability of scores allows the general problem to be ``reduced'' to sampling from an adaptively constructed sequence of $K$ strongly log-concave (SLC) sub-problems. The reduction is simple, constructive and algorithm-independent, so that any SLC sampler can be used as a subroutine. Various bounds on score-based sampling complexity follow directly: for instance, high-accuracy SLC samplers yield $\\tilde{\\mathcal{O}}(K \\sqrt{d} \\operatorname{polylog}(1/\\varepsilon))$ guarantees for accuracy $\\varepsilon$ in dimension $d$, where randomized midpoint SLC schemes yield $\\tilde{\\mathcal{O}}(K d^{1/3} \\operatorname{poly}(1/\\varepsilon))$ guarantees. When the original distribution itself is SLC, we prove that $K \\leq 1 + \\log_2(κ)$, thereby obtaining the first efficient procedure with logarithmic dependence on condition number $κ$; for general distributions, the quantity $K$ depends on the geometry of score Hessian across the trajectory. Our analysis is direct and simple, involving techniques and insights complementary to those in standard analyses of discretized diffusions.\n\nRULES\n1. Use only the supplied text.\n2. Do not use outside knowledge or infer information unsupported by the text.\n3. Prefer an explicitly stated research question or hypothesis.\n4. If the research question is not explicitly stated but is clearly supported by the text, provide a concise faithful formulation and set research_question_explicit to false.\n5. If no research question can be reliably identified, return null.\n6. Apply the same explicitness rule to the main hypothesis.\n7. Do not confuse the paper's general topic, method or objective with its research question.\n8. Do not invent a hypothesis merely because the paper reports results.\n9. Keep extracted statements concise and faithful to the authors' meaning.\n\nOUTPUT\nReturn valid JSON only:\n\n{\n  \"research_question\": null,\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": null,\n  \"main_hypothesis_explicit\": false\n}\n\nUse strings instead of null when a statement can be reliably extracted or formulated. Explicitness fields must always be JSON booleans.\n",
+  "prompt_sha256": "a0818b42f7c94b337edd5649d35840ce66f97c930f4f680183be0519ce7e78e6",
+  "stage": "reference_target_extraction",
+  "started_at_utc": "2026-11-12T13:44:35.661299+00:00"
+}

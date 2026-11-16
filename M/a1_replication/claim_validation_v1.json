@@ -1,0 +1,774 @@
+{
+  "schema": "M-A1-extraction-validation-v1",
+  "created_at_utc": "2026-11-14T13:12:16.000837Z",
+  "source_validation": "read-only exact source-row/abstract comparison; no model or search used",
+  "cohort_manifest_sha256": "2577e78a37f951785c577a0a045cc69a264d575ea1c82dc20f310c2fa2bd7702",
+  "extraction_output_sha256": "e498bff6ebb5faff663e43abb2f91e3597012c8ced354dbf1b15cde8c935ee44",
+  "e2_v8_code_sha256": "032835cc770217ae6024c5e6784275675ce80421cfd18f35c1f13ebb48b778ba",
+  "e2_rules_reapplied": [
+    "claim is nonempty string",
+    "evidence is exact substring of original abstract",
+    "substring must start/end at word boundaries",
+    "duplicate normalized as lower()+whitespace-collapse rejected",
+    "maximum 10 accepted claims"
+  ],
+  "validation_limitations": [
+    "E2 v8 prompt requests atomic claims, but its executable validator does not independently test atomicity.",
+    "Exact substring presence establishes provenance locator only, not semantic entailment/source support.",
+    "Therefore accepted claims are not independently source-validated or fully eligible for scoring."
+  ],
+  "papers_total": 50,
+  "count_qualified_at_extraction": 43,
+  "verified_eligible_papers": 0,
+  "status_counts": {
+    "INELIGIBLE_CLAIM_COUNT": 7,
+    "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW": 43
+  },
+  "sufficient_to_begin_a1_manipulation_scoring": false,
+  "remaining_blocker": "Independent human/source review must verify claim atomicity and that each cited abstract span supports its claim; same-topic decoy verification required by the preregistration is also still outstanding.",
+  "papers": [
+    {
+      "paper_id": "2610.30036v1",
+      "published": "2026-10-21T16:59:51Z",
+      "status": "INELIGIBLE_CLAIM_COUNT",
+      "accepted_claim_count": 3,
+      "deterministically_valid_claim_count": 3,
+      "exact_source_span_count": 3,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "accepted_claim_count_3_outside_4_to_10"
+      ],
+      "source_abstract_sha256": "5d451abc0a369a780078d7529531c58fb4314738798d598985246fb2bcf1be8c"
+    },
+    {
+      "paper_id": "2512.24381v2",
+      "published": "2025-12-30T17:50:55Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 4,
+      "deterministically_valid_claim_count": 4,
+      "exact_source_span_count": 4,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "a5e10a77198edbe29636e355a1f9315dfaa5b7c56f86859b600e0b726f4a0fe9"
+    },
+    {
+      "paper_id": "2610.29246v1",
+      "published": "2026-10-21T05:51:06Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 5,
+      "deterministically_valid_claim_count": 5,
+      "exact_source_span_count": 5,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "5bec2768715ac90188685a5d90e344c92a3dc39d1ecaf5d7c5a1baff69963f68"
+    },
+    {
+      "paper_id": "2610.29559v1",
+      "published": "2026-10-21T10:46:55Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 5,
+      "deterministically_valid_claim_count": 5,
+      "exact_source_span_count": 5,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "1cfc20820fe83e72bd1d773a14acd83ba0bfdf003bdf11991d586037a681caad"
+    },
+    {
+      "paper_id": "2610.29767v1",
+      "published": "2026-10-21T14:02:02Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 4,
+      "deterministically_valid_claim_count": 4,
+      "exact_source_span_count": 4,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "56a6d358ba1af35ecc28871834cd6b3ec73348a47bcd06fefc701a82dd966079"
+    },
+    {
+      "paper_id": "2512.24593v1",
+      "published": "2025-12-31T03:30:58Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 4,
+      "deterministically_valid_claim_count": 4,
+      "exact_source_span_count": 4,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "571968c317888e7916eae007e20937de86d51c5b1b28ad955945ff95f5d5bc37"
+    },
+    {
+      "paper_id": "2610.29474v1",
+      "published": "2026-10-21T09:30:14Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 5,
+      "deterministically_valid_claim_count": 5,
+      "exact_source_span_count": 5,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "9862bb993de45fbbd0a95492cbb07df18e2709d53d4972ea1216d120319f0eb1"
+    },
+    {
+      "paper_id": "2512.23709v3",
+      "published": "2025-12-29T18:59:57Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 9,
+      "deterministically_valid_claim_count": 9,
+      "exact_source_span_count": 9,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "0494042c174fbf648f2fbea7fe4943ef06dbbb2dcdd29a737e6335fb6ef4c201"
+    },
+    {
+      "paper_id": "2610.29385v1",
+      "published": "2026-10-21T08:11:52Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 9,
+      "deterministically_valid_claim_count": 9,
+      "exact_source_span_count": 9,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "0c1327b26dbf24f43d24f9ae32d9f3299fe5cff100fb4eedb9ce862733015653"
+    },
+    {
+      "paper_id": "2610.29361v1",
+      "published": "2026-10-21T07:51:11Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 6,
+      "deterministically_valid_claim_count": 6,
+      "exact_source_span_count": 6,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "491aa19fef0f8c67873ecfd116137c1573b3bd0611c5582af49a6ca47b9ef811"
+    },
+    {
+      "paper_id": "2610.29527v1",
+      "published": "2026-10-21T10:16:23Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 4,
+      "deterministically_valid_claim_count": 4,
+      "exact_source_span_count": 4,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "5800c5adb25d78732a98925bbb13a42fb29105bdcd9e6eb0f3336ffcec87faa1"
+    },
+    {
+      "paper_id": "2610.29611v1",
+      "published": "2026-10-21T11:51:28Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 4,
+      "deterministically_valid_claim_count": 4,
+      "exact_source_span_count": 4,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "e7854518d602e9ad65084bafd5b99f8568d7b5ceea2eb780e34511ed53d8562b"
+    },
+    {
+      "paper_id": "2610.29594v1",
+      "published": "2026-10-21T11:33:42Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 5,
+      "deterministically_valid_claim_count": 5,
+      "exact_source_span_count": 5,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "1b8caaf758cf4fda8df770bcc0fa951bac9cbccaa2e0f6851c64c5b1cee9668c"
+    },
+    {
+      "paper_id": "2512.23813v1",
+      "published": "2025-12-29T19:16:14Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 5,
+      "deterministically_valid_claim_count": 5,
+      "exact_source_span_count": 5,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "3dd3be0ba571430be5f92edd432e0e91955e344931404104e2cf2fe8c785175c"
+    },
+    {
+      "paper_id": "2610.29340v1",
+      "published": "2026-10-21T07:35:23Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 5,
+      "deterministically_valid_claim_count": 5,
+      "exact_source_span_count": 5,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "85a3255a7d5a80e92339d0ba6431d9c0485ff3e081c24f3228240e9071b04a18"
+    },
+    {
+      "paper_id": "2512.24827v3",
+      "published": "2025-12-31T12:39:22Z",
+      "status": "INELIGIBLE_CLAIM_COUNT",
+      "accepted_claim_count": 3,
+      "deterministically_valid_claim_count": 3,
+      "exact_source_span_count": 3,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "accepted_claim_count_3_outside_4_to_10"
+      ],
+      "source_abstract_sha256": "8f092165fa8c70008343c43b66ca8b9a482b2ff5bc29e4da343812c6778e5488"
+    },
+    {
+      "paper_id": "2610.29843v1",
+      "published": "2026-10-21T15:05:51Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 4,
+      "deterministically_valid_claim_count": 4,
+      "exact_source_span_count": 4,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "a29ffc1e03695496d1e26f146aa88f6951dd176f795b6cbcfa1c97d1ae5f4c72"
+    },
+    {
+      "paper_id": "2512.23647v1",
+      "published": "2025-12-29T17:59:14Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 4,
+      "deterministically_valid_claim_count": 4,
+      "exact_source_span_count": 4,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "fde71dd935acb953bc5d01bcd48f0d6c3351db6a66126761baf134c114e7893c"
+    },
+    {
+      "paper_id": "2601.00041v1",
+      "published": "2025-12-31T00:07:06Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 4,
+      "deterministically_valid_claim_count": 4,
+      "exact_source_span_count": 4,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "8c67da8c8b0f572b3e8e9af39f9b3f575bf6a41ad51409d21997fc3db995d798"
+    },
+    {
+      "paper_id": "2610.28771v1",
+      "published": "2026-10-20T18:08:45Z",
+      "status": "INELIGIBLE_CLAIM_COUNT",
+      "accepted_claim_count": 3,
+      "deterministically_valid_claim_count": 3,
+      "exact_source_span_count": 3,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "accepted_claim_count_3_outside_4_to_10"
+      ],
+      "source_abstract_sha256": "b7581a739ca3a695a50d281e34ebc668bc250680a8963d2134cfcc39103738cb"
+    },
+    {
+      "paper_id": "2512.24224v1",
+      "published": "2025-12-30T13:38:30Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 4,
+      "deterministically_valid_claim_count": 4,
+      "exact_source_span_count": 4,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "b818907b4b9ca0fd7c63649068132ff3212f6fd4257d6a729944cdc84a737b77"
+    },
+    {
+      "paper_id": "2610.29187v1",
+      "published": "2026-10-21T04:18:47Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 4,
+      "deterministically_valid_claim_count": 4,
+      "exact_source_span_count": 4,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "8edf923316ec2687ec57e17cd008ee972d8e21c2465c3c2ae31c5a47dd9e9b12"
+    },
+    {
+      "paper_id": "2610.29845v1",
+      "published": "2026-10-21T15:06:08Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 4,
+      "deterministically_valid_claim_count": 4,
+      "exact_source_span_count": 4,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "777014bc564c94d0e41ce7a0fb7f063a5ae9c90e5a3ac8b0f3145ab58ccf1c31"
+    },
+    {
+      "paper_id": "2610.29219v1",
+      "published": "2026-10-21T05:21:36Z",
+      "status": "INELIGIBLE_CLAIM_COUNT",
+      "accepted_claim_count": 3,
+      "deterministically_valid_claim_count": 3,
+      "exact_source_span_count": 3,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "accepted_claim_count_3_outside_4_to_10"
+      ],
+      "source_abstract_sha256": "dad0ce4f9f59c8e05b91b28116d175cf2d3259f7aad72254ee8fd7b427ba1428"
+    },
+    {
+      "paper_id": "2610.29424v1",
+      "published": "2026-10-21T08:49:06Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 6,
+      "deterministically_valid_claim_count": 6,
+      "exact_source_span_count": 6,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "683360124f8335c955bd5f1f6cbfed44075d90aa9deaf7a724c1bebdde615170"
+    },
+    {
+      "paper_id": "2512.24289v1",
+      "published": "2025-12-30T15:28:03Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 7,
+      "deterministically_valid_claim_count": 7,
+      "exact_source_span_count": 7,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "fae127044f11de07824a80b958ca24ae3be880f69923838c0b544743d03592c5"
+    },
+    {
+      "paper_id": "2610.29667v1",
+      "published": "2026-10-21T12:42:17Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 5,
+      "deterministically_valid_claim_count": 5,
+      "exact_source_span_count": 5,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "99002eca38a8f535eaa5a9c91837a9fb3a722b133b8ff1a5eb2dd34eee8ef657"
+    },
+    {
+      "paper_id": "2512.23862v1",
+      "published": "2025-12-29T21:02:14Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 6,
+      "deterministically_valid_claim_count": 6,
+      "exact_source_span_count": 6,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "61b5ab68143890ded51d16aebf862ec6c7d26fa62dab1eb45ed360ea60fc084e"
+    },
+    {
+      "paper_id": "2610.29441v1",
+      "published": "2026-10-21T09:01:48Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 6,
+      "deterministically_valid_claim_count": 6,
+      "exact_source_span_count": 6,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "4e679ed9c6f783283303d53b940e5121fc09666c136a491ea6cc1b4807a0d075"
+    },
+    {
+      "paper_id": "2512.24016v2",
+      "published": "2025-12-30T06:31:19Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 6,
+      "deterministically_valid_claim_count": 6,
+      "exact_source_span_count": 6,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "d375d5f2e13e00d1e341b294d11098e783a696dc8d627639a3fb933aac91a720"
+    },
+    {
+      "paper_id": "2512.24404v1",
+      "published": "2025-12-30T18:36:39Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 6,
+      "deterministically_valid_claim_count": 6,
+      "exact_source_span_count": 6,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "30b16275ba4a8d43b8936314d038726b609debcc505323f0648e3fb3f894afdc"
+    },
+    {
+      "paper_id": "2610.29192v1",
+      "published": "2026-10-21T04:26:54Z",
+      "status": "INELIGIBLE_CLAIM_COUNT",
+      "accepted_claim_count": 3,
+      "deterministically_valid_claim_count": 3,
+      "exact_source_span_count": 3,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "accepted_claim_count_3_outside_4_to_10"
+      ],
+      "source_abstract_sha256": "14ad19abe56a6334de4c3c8cf43891fdacbac395e8bf26d3f7d5304dd263e5ca"
+    },
+    {
+      "paper_id": "2610.29090v1",
+      "published": "2026-10-21T02:31:19Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 4,
+      "deterministically_valid_claim_count": 4,
+      "exact_source_span_count": 4,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "9564aa9b223d5347916a9f1ffdb5f06fa67b74a1fb0efba715eafe746e708422"
+    },
+    {
+      "paper_id": "2512.24939v1",
+      "published": "2025-12-31T16:00:59Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 4,
+      "deterministically_valid_claim_count": 4,
+      "exact_source_span_count": 4,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "6a5a67301f88fec18b29e1fdbe4e26a13f7604a3b237f8fd6c12bd529fb78aca"
+    },
+    {
+      "paper_id": "2610.29346v1",
+      "published": "2026-10-21T07:38:29Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 4,
+      "deterministically_valid_claim_count": 4,
+      "exact_source_span_count": 4,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "e8bbba261917ffdb03fba30653b2481da4977712c81baac7567b916a39ecbcb4"
+    },
+    {
+      "paper_id": "2512.24780v2",
+      "published": "2025-12-31T10:56:43Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 5,
+      "deterministically_valid_claim_count": 5,
+      "exact_source_span_count": 5,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "917f5441ed5e62252c55e01cfd94b42c8b41913c87e76ae5287c19c3105e61dc"
+    },
+    {
+      "paper_id": "2512.24139v5",
+      "published": "2025-12-30T11:02:35Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 4,
+      "deterministically_valid_claim_count": 4,
+      "exact_source_span_count": 4,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "434f02c3d2f50a7cb1dfc1da3e4cb3eb7c8161a6a64cf75e1a4ee40c3b2f2948"
+    },
+    {
+      "paper_id": "2610.29531v1",
+      "published": "2026-10-21T10:22:18Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 6,
+      "deterministically_valid_claim_count": 6,
+      "exact_source_span_count": 6,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "11e5fc2b9a8838324bb86dd11cf3620996295d23172f2f3b36d763194af1fe26"
+    },
+    {
+      "paper_id": "2512.23049v1",
+      "published": "2025-12-28T19:21:11Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 5,
+      "deterministically_valid_claim_count": 5,
+      "exact_source_span_count": 5,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "43396723c4573ff64c034b136ea76e3b2a2b3e2df4018eb9008fffa0a118c23f"
+    },
+    {
+      "paper_id": "2601.11573v1",
+      "published": "2025-12-29T19:09:12Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 8,
+      "deterministically_valid_claim_count": 8,
+      "exact_source_span_count": 8,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "cd07038759b1f076707b498e1f1b47c870a2cfdc129dfc72904befe519faf497"
+    },
+    {
+      "paper_id": "2610.28586v1",
+      "published": "2026-10-20T17:40:08Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 5,
+      "deterministically_valid_claim_count": 5,
+      "exact_source_span_count": 5,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "d2000a59706ce8e4aca6e0f2753f554a30712fb1f875172116b49ef49518c970"
+    },
+    {
+      "paper_id": "2610.29638v1",
+      "published": "2026-10-21T12:18:14Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 5,
+      "deterministically_valid_claim_count": 5,
+      "exact_source_span_count": 5,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "acbcd428ed9ab13e7bd66dcb6b7a660f36ede50ab426cf82b98d23650a6b83b2"
+    },
+    {
+      "paper_id": "2610.28941v1",
+      "published": "2026-10-20T21:34:43Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 5,
+      "deterministically_valid_claim_count": 5,
+      "exact_source_span_count": 5,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "e472846bfa7415264e1b01d4a60c754d0494199dc659903528433c56db4900a2"
+    },
+    {
+      "paper_id": "2512.24558v2",
+      "published": "2025-12-31T01:42:04Z",
+      "status": "INELIGIBLE_CLAIM_COUNT",
+      "accepted_claim_count": 3,
+      "deterministically_valid_claim_count": 3,
+      "exact_source_span_count": 3,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "accepted_claim_count_3_outside_4_to_10"
+      ],
+      "source_abstract_sha256": "e4f0223e77b349d165045b0b3d2becf0836c7ea59691f8193d0e51c580040baf"
+    },
+    {
+      "paper_id": "2610.29515v1",
+      "published": "2026-10-21T10:04:40Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 5,
+      "deterministically_valid_claim_count": 5,
+      "exact_source_span_count": 5,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "862ece15bac439b294acf4a9a890a6ec56a2d96675d11e8b7365d4d28ed71d76"
+    },
+    {
+      "paper_id": "2610.29495v1",
+      "published": "2026-10-21T09:50:08Z",
+      "status": "INELIGIBLE_CLAIM_COUNT",
+      "accepted_claim_count": 3,
+      "deterministically_valid_claim_count": 3,
+      "exact_source_span_count": 3,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "accepted_claim_count_3_outside_4_to_10"
+      ],
+      "source_abstract_sha256": "cb74763c1311e70960c79f015e6f76b754400db8c2d16d45b892fc571be2ae38"
+    },
+    {
+      "paper_id": "2512.24473v1",
+      "published": "2025-12-30T21:37:35Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 4,
+      "deterministically_valid_claim_count": 4,
+      "exact_source_span_count": 4,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "f96da9ac4d981e09d250d0543f9fda4ccbc4767ebd9673da8789455875417fa0"
+    },
+    {
+      "paper_id": "2610.28957v1",
+      "published": "2026-10-20T22:11:07Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 4,
+      "deterministically_valid_claim_count": 4,
+      "exact_source_span_count": 4,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "dccfdcfc39336472bd9526185ad583434466d482bd943691ab96744a2e4bb49f"
+    },
+    {
+      "paper_id": "2610.30067v1",
+      "published": "2026-10-21T17:24:36Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 5,
+      "deterministically_valid_claim_count": 5,
+      "exact_source_span_count": 5,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "5ca14265b2283bd04e349428319422e22c707e16656f75dca68fe0b4a234f46b"
+    },
+    {
+      "paper_id": "2601.02400v1",
+      "published": "2025-12-30T20:36:09Z",
+      "status": "UNVERIFIED_INDEPENDENT_SEMANTIC_REVIEW",
+      "accepted_claim_count": 4,
+      "deterministically_valid_claim_count": 4,
+      "exact_source_span_count": 4,
+      "duplicate_count": 0,
+      "claim_errors": [],
+      "reasons": [
+        "atomicity_requires_independent_semantic_review; E2 v8 validator does not establish it",
+        "exact excerpt is verified but entailment/source-grounding is not established by substring match alone"
+      ],
+      "source_abstract_sha256": "3c19252f8aaeea94d2a2b68728940761085c0802d7caa6ffc4c0bad830574ae8"
+    }
+  ]
+}

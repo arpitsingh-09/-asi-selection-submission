@@ -1,0 +1,115 @@
+{
+  "status": "provisional_unapproved",
+  "approval_required_before_dataset_preparation_or_execution": true,
+  "assignment_requirements": {
+    "minimum_literature_input_sets": 100,
+    "minimum_reference_papers_per_input_set": 10,
+    "target_must_be_posted_after_generator_training_cutoff": true,
+    "reference_abstract_required": true,
+    "target_reference_extraction_prompt": "prompts/e6/09_target_extraction.txt",
+    "manual_check_cases_required": 20
+  },
+  "generator_model": "gemma3:12b; methodological settings approved; exact-limit runtime verification pending",
+  "generator_training_cutoff_utc": "2024-09-01T00:00:00Z",
+  "target_and_reference_source": "Target candidates: E2/data/raw_papers.jsonl; target OpenAlex records matched by exact arXiv identity; references are only target OpenAlex referenced_works IDs with metadata fetched by exact Work ID.",
+  "reference_resolution_method": "Exact OpenAlex Work IDs from each target referenced_works list; no fuzzy title matching.",
+  "paper_exposure_and_prior_use_policy": null,
+  "exploratory_confirmatory_separation_policy": null,
+  "target_sampling_and_deduplication_policy": "approved existing hash-ranked 100 targets, seed 2026, no strata; exact proposal and source hashes bound in approval record",
+  "reference_deduplication_and_reuse_policy": null,
+  "manual_check_selection_and_adjudication_policy": {
+    "reviewer_count": 2,
+    "guide_path": "E6/LITERATURE_REVIEW_GUIDE.md",
+    "guide_sha256": "64df98ff7ca39d7c2afb26940f795d33811dafce5ce5eac38adb43fdf2e43953",
+    "disagreement_policy": "independent_adjudicator",
+    "check_fields": [
+      "research_question_extraction_accurate",
+      "main_hypothesis_extraction_accurate",
+      "research_question_explicitness_accurate",
+      "main_hypothesis_explicitness_accurate",
+      "problem_extraction_accurate",
+      "method_extraction_accurate",
+      "result_extraction_accurate"
+    ],
+    "require_error_and_correction_records": true,
+    "case_count": 20,
+    "selection": "existing first 20 hash-ranked literature targets, seed 2026",
+    "must_complete_before": "literature_scoring",
+    "completion_status": "not_performed"
+  },
+  "input_sets_selected": true,
+  "input_sets_frozen": true,
+  "real_annotations_extracted": false,
+  "note": "Literature source selection frozen under approved Decision 24 procedure; no extractions, human reviews, scoring or inference authorization claimed.",
+  "candidate_manifest": {
+    "path": "E6/data/literature_citation_verified_manifest_v1.json",
+    "sha256": "c48f2b30532f282929df10165ad5de682344b71c817dee0bcd9aee106a7aaf21",
+    "eligible_candidate_count": 216,
+    "selected": false,
+    "frozen": false
+  },
+  "generator_runtime_verification": {
+    "status": "verified_local_runtime",
+    "report_path": "E6/data/gemma3_local_verification_v1.json",
+    "report_sha256": "705211d2dafd25afd7c42c52e11d8f3373efc089da313b5fb650ab4068f8783a",
+    "model": "gemma3:12b",
+    "ollama_version": "0.40.15",
+    "model_layer_digest": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+    "tokenizer_counter_id": "ollama-runner:b92b218582c521ba287f38f1d6057dcd3c6cbff036f13cac97b5d861f5e58ec3:0a5090e20207bece62fbd58e81e2d6dcc3ee529d5173f2e66e336ae90507fecb",
+    "tokenizer_metadata_fingerprint_sha256": "0a5090e20207bece62fbd58e81e2d6dcc3ee529d5173f2e66e336ae90507fecb",
+    "exact_token_counter_available": true,
+    "tokenizer_accounting_consistent_with_e6_preflight": true,
+    "output_limit_probe_passed": true,
+    "smoke_test_passed": true,
+    "protocol_generator_selection_approved": true
+  },
+  "generation_evidence_selection_proposal": {
+    "path": "E6/data/literature_reference_selection_proposal_v1.json",
+    "status": "approved_methodology_only",
+    "references_per_input_set": 10,
+    "policy": "first ten in preserved verified source order; no relevance ranking implied"
+  },
+  "proposed_review_policy": {
+    "status": "superseded_by_approved_review_policy",
+    "reviewer_count": 2,
+    "guide_path": "E6/LITERATURE_REVIEW_GUIDE.md",
+    "guide_sha256": "4108c9c4de6c9d320a6563199ee8ca1a9835860c476f21a7681b32a708520527",
+    "disagreement_policy": "independent_adjudicator"
+  },
+  "review_policy": {
+    "reviewer_count": 2,
+    "guide_path": "E6/LITERATURE_REVIEW_GUIDE.md",
+    "guide_sha256": "64df98ff7ca39d7c2afb26940f795d33811dafce5ce5eac38adb43fdf2e43953",
+    "disagreement_policy": "independent_adjudicator",
+    "check_fields": [
+      "research_question_extraction_accurate",
+      "main_hypothesis_extraction_accurate",
+      "research_question_explicitness_accurate",
+      "main_hypothesis_explicitness_accurate",
+      "problem_extraction_accurate",
+      "method_extraction_accurate",
+      "result_extraction_accurate"
+    ],
+    "require_error_and_correction_records": true,
+    "case_count": 20,
+    "selection": "existing first 20 hash-ranked literature targets, seed 2026",
+    "must_complete_before": "literature_scoring",
+    "completion_status": "not_performed"
+  },
+  "selected_manifest": {
+    "path": "E6/data/literature_selected_manifest_v1.json",
+    "approval_snapshot_path": "E6/data/literature_selection_approval_v1.json"
+  },
+  "reconstruction_requires_original_source_evidence": true,
+  "active_development_runtime_verification": {
+    "path": "E6/data/development_runtime_probe_v1/report_02.json",
+    "file_sha256": "1ae723209008e9a80d20d7194d85b443ae54480e21d32b081a4b86965b4ec1e6",
+    "report_sha256": "a4e5430ff57b2c7ca626c0f0f143d0c9177d5a1d2f0f9eac6e8c80a3b1d55590",
+    "run_identity": "43490d6a3dad0e59dbc1753965ac5e6ede45c24850311f3a21951e08a274cbbd",
+    "model": "gemma3:12b",
+    "backend_version": "0.40.16",
+    "model_tag_digest": "b92b218582c521ba287f38f1d6057dcd3c6cbff036f13cac97b5d861f5e58ec3",
+    "tokenizer_metadata_sha256": "0a5090e20207bece62fbd58e81e2d6dcc3ee529d5173f2e66e336ae90507fecb",
+    "scope": "verified DEVELOPMENT-only exact-limit evidence; not confirmatory results or evaluator validation"
+  }
+}

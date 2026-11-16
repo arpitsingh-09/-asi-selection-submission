@@ -1,0 +1,19 @@
+{
+  "new_candidate_papers": 3,
+  "previous_pilot_candidates_preserved": 5,
+  "total_candidate_papers": 8,
+  "remaining_without_candidates": 292,
+  "new_independently_approved_candidates": 0,
+  "new_candidates_with_vectors": 0,
+  "new_scores": 0,
+  "new_embeddings": 0,
+  "source_sha256": {
+    "/Users/arpit/asi-selection/E2/data/raw_papers.jsonl": "98036e1d99139a7fa4938362ab45f97fc12f21a91182c0ce5d22ee5be7d0c662",
+    "/Users/arpit/asi-selection/E2/analysis/claim_completion_v2/claims_future.jsonl": "98a4244c8389284b87f171372eafe58326ea444256226f089e429d165d3f8410",
+    "/Users/arpit/asi-selection/E2/data/paraphrase_pilot5_v33.jsonl": "36b60bf0947fd18d3efde32c024e51d0be65cd5a48ec14bd367eca6453b4a6f5",
+    "/Users/arpit/asi-selection/E2/data/novelty_embeddings.sqlite3": "a1d42a472f7ecda6935beb67ad595fb6a39e2fdcbbd022259a4f0e8230ac8289"
+  },
+  "source_hashes_unchanged": true,
+  "candidates_sha256": "ac87d1172d4e05f4eadded3488c505d89bb3b58f06b78fe6226b5054f95897be",
+  "limits": "Three source-bound AI drafts, not approved manipulations or results. Existing plans/review flags are unchanged; independent review and embeddings are required before later scoring."
+}

@@ -1,0 +1,96 @@
+[2207.13332] RealTime QA: What's the Answer Right Now? (https://arxiv.org/abs/2207.13332)
+citeturn5view5 [wordlim: 200] Crawled: 3 days ago; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2207.13332","lineno":null}); Total lines: 167
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1: 
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3: 
+L4: Press Enter to search · 【4†Advanced search】
+L5: 
+L6: # Computer Science > Computation and Language
+L7: 
+L8: [Submitted on 27 Jul 2022 (【5†v1】), last revised 28 Feb 2024 (this version, v2)]
+L9: # Title:RealTime QA: What's the Answer Right Now?
+L10: 
+L11: Authors:【6†Jungo Kasai】, 【7†Keisuke Sakaguchi】, 【8†Yoichi Takahashi】, 【9†Ronan Le Bras】, 【10†Akari Asai】, 【11†Xinyan Yu】, 【12†Dragomir Radev】, 【13†Noah A. Smith】, 【14†Yejin Choi】, 【15†Kentaro Inui】
+L12: 
+L13: View a PDF of the paper titled RealTime QA: What's the Answer Right Now?, by Jungo Kasai and 9 other authors
+L14: 
+L15: 【16†View PDF】 【17†HTML (experimental)】
+L16: > Abstract:We introduce REALTIME QA, a dynamic question answering (QA) platform that announces questions and evaluates systems on a regular basis (weekly in this version). REALTIME QA inquires about the current world, and QA systems need to answer questions about novel events or information. It therefore challenges static, conventional assumptions in open-domain QA datasets and pursues instantaneous applications. We build strong baseline models upon large pretrained language models, including GPT-3 and T5.
+L17: Our benchmark is an ongoing effort, and this paper presents real-time evaluation results over the past year. Our experimental results show that GPT-3 can often properly update its generation results, based on newly-retrieved documents, highlighting the importance of up-to-date information retrieval. Nonetheless, we find that GPT-3 tends to return outdated answers when retrieved documents do not provide sufficient information to find an answer.
+L18: This suggests an important avenue for future research: can an open-domain QA system identify such unanswerable cases and communicate with the user or even the retrieval module to modify the retrieval results? We hope that REALTIME QA will spur progress in instantaneous applications of question answering and beyond.
+L19: Comments:  | RealTime QA Website: 【18†this https URL†realtimeqa.github.io】
+L20: Subjects:  | Computation and Language (cs.CL)
+L21: Cite as:  | 【19†arXiv:2207.13332】 [cs.CL]
+L22:    | (or 【20†arXiv:2207.13332v2】 [cs.CL] for this version)
+L23:    | 【21†https://doi.org/10.48550/arXiv.2207.13332†doi.org】 arXiv-issued DOI via DataCite
+L24: ## Submission history
+L25: 
+L26: From: Jungo Kasai [【22†view email】]
+L27: 【5†[v1]】 Wed, 27 Jul 2022 07:26:01 UTC (1,893 KB)
+L28: [v2] Wed, 28 Feb 2024 07:45:37 UTC (2,198 KB)
+L29: 
+L30: Full-text links:
+L31: 
+L32: ## Access Paper:
+L33: 
+L34: View a PDF of the paper titled RealTime QA: What's the Answer Right Now?, by Jungo Kasai and 9 other authors
+L35: 
+L36:   * 【16†View PDF】
+L37:   * 【17†HTML (experimental)】
+L38:   * 【23†TeX Source】
+L39: 
+L40: 【24†view license†creativecommons.org】
+L41: 
+L42: ### Additional Features
+L43: 
+L44:   * 【25†Audio Summary】
+L45: ### Current browse context:
+L46: 
+L47: cs.CL
+L48: 
+L49: 【26†< prev】   |   【27†next >】
+L50: 
+L51: 【28†new】 | 【29†recent】 | 【30†2022-07】
+L52: 
+L53: Change to browse by:
+L54: 
+L55: 【31†cs】
+L56: 
+L57: ### References & Citations
+L58: 
+L59:   * 【32†SciX†scixplorer.org】
+L60:   * 【33†Google Scholar†scholar.google.com】
+L61:   * 【34†Semantic Scholar†api.semanticscholar.org】
+L62: 
+L63: [Button: export BibTeX citation] Loading...
+L64: 
+L65: ## BibTeX formatted citation
+L66: 
+L67: [Button: ×]
+L68: 
+L69: loading...
+L70: 
+L71: Data provided by:
+L72: 
+L73: ### Bookmark
+L74: 
+L75: [Input] Bibliographic Tools
+L76: # Bibliographic and Citation Tools
+L77: 
+L78: [Input] Bibliographic Explorer Toggle
+L79: 
+L80: Bibliographic Explorer (【35†What is the Explorer?†info.arxiv.org】)
+L81: 
+L82: [Input] Connected Papers Toggle
+L83: 
+L84: Connected Papers (【36†What is Connected Papers?†www.connectedpapers.com】)
+L85: 
+L86: [Input] Litmaps Toggle
+L87: 
+L88: Litmaps (【37†What is Litmaps?†www.litmaps.co】)
+L89: 
+L90: [Input] scite.ai Toggle
+L91: 
+L92: scite Smart Citations (【38†What are Smart Citations?†www.scite.ai】)
+L93:

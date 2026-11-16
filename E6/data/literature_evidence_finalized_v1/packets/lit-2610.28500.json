@@ -1,0 +1,247 @@
+{
+  "actual_extraction_record": {
+    "attempts": [
+      {
+        "attempt": 1,
+        "raw": "{\n  \"research_question\": \"How can the complementary methods of ultra-low-bit backbones and multi-token prediction (MTP) be effectively combined to accelerate decoding of large language models without sacrificing quality?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"A joint next-token prediction and MTP objective, combined with confidence-only, speculative-only, and hybrid decoding, and accepted-prefix alignment, can accelerate ultra-low-bit LLM generation across backbones, model sizes, and GPU types.\",\n  \"main_hypothesis_explicit\": false\n}",
+        "status": "returned"
+      }
+    ],
+    "error": null,
+    "evaluation_input": {
+      "rendered_prompt": "ROLE\nYou are a scientific paper information extractor.\n\nTASK\nExtract the target paper's research question and main hypothesis using only the supplied paper text.\n\nTARGET PAPER TEXT\nFor efficient deployment of large language models (LLMs), methods of ultra-low-bit backbones reduce weight storage, memory traffic, and linear-layer execution cost, while multi-token prediction (MTP) methods reduce sequential decoding steps by predicting multiple future tokens in parallel. Although complementary, the direct combination of these methods cannot accelerate decoding at comparable quality: masked drafting lacks intermediate token input supplied in next-token training, while wider computation and causal key-value (KV) updates can offset the savings from fewer steps. To address these challenges, we propose BitMTP, an algorithm-system co-design framework for efficient MTP on ultra-low-bit LLM backbones. A joint next-token prediction and MTP objective equips a single model with both autoregressive (AR) generation and block-causal drafting. Confidence-only decoding, speculative-only decoding, and hybrid decoding provide different quality-throughput operating points without using separate draft and verifier models. Accepted-prefix alignment keeps the committed prefix, materialized causal KV boundary, and CUDA Graph replay state consistent for continued generation. BitMTP uses this contract to select width-specialized low-bit execution and reuse captured graphs over shared KV storage. On NVIDIA H20, BitMTP with hybrid decoding achieves five-task mean speedups of 2.2x on BitNet b1.58-2B and 2.1-2.4x on 1.7B-4B Bonsai models at comparable task quality. On RTX 3090 and Jetson Orin, it further achieves up to 2.0x in five-task mean throughput and 3.3x on MBPP+, respectively. These results demonstrate that BitMTP accelerates ultra-low-bit LLM generation across backbones, model sizes, and GPU types. The source code is released at https://github.com/PolyU-VCLab/BitMTP\n\nRULES\n1. Use only the supplied text.\n2. Do not use outside knowledge or infer information unsupported by the text.\n3. Prefer an explicitly stated research question or hypothesis.\n4. If the research question is not explicitly stated but is clearly supported by the text, provide a concise faithful formulation and set research_question_explicit to false.\n5. If no research question can be reliably identified, return null.\n6. Apply the same explicitness rule to the main hypothesis.\n7. Do not confuse the paper's general topic, method or objective with its research question.\n8. Do not invent a hypothesis merely because the paper reports results.\n9. Keep extracted statements concise and faithful to the authors' meaning.\n\nOUTPUT\nReturn valid JSON only:\n\n{\n  \"research_question\": null,\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": null,\n  \"main_hypothesis_explicit\": false\n}\n\nUse strings instead of null when a statement can be reliably extracted or formulated. Explicitness fields must always be JSON booleans.\n",
+      "target_paper_text": "For efficient deployment of large language models (LLMs), methods of ultra-low-bit backbones reduce weight storage, memory traffic, and linear-layer execution cost, while multi-token prediction (MTP) methods reduce sequential decoding steps by predicting multiple future tokens in parallel. Although complementary, the direct combination of these methods cannot accelerate decoding at comparable quality: masked drafting lacks intermediate token input supplied in next-token training, while wider computation and causal key-value (KV) updates can offset the savings from fewer steps. To address these challenges, we propose BitMTP, an algorithm-system co-design framework for efficient MTP on ultra-low-bit LLM backbones. A joint next-token prediction and MTP objective equips a single model with both autoregressive (AR) generation and block-causal drafting. Confidence-only decoding, speculative-only decoding, and hybrid decoding provide different quality-throughput operating points without using separate draft and verifier models. Accepted-prefix alignment keeps the committed prefix, materialized causal KV boundary, and CUDA Graph replay state consistent for continued generation. BitMTP uses this contract to select width-specialized low-bit execution and reuse captured graphs over shared KV storage. On NVIDIA H20, BitMTP with hybrid decoding achieves five-task mean speedups of 2.2x on BitNet b1.58-2B and 2.1-2.4x on 1.7B-4B Bonsai models at comparable task quality. On RTX 3090 and Jetson Orin, it further achieves up to 2.0x in five-task mean throughput and 3.3x on MBPP+, respectively. These results demonstrate that BitMTP accelerates ultra-low-bit LLM generation across backbones, model sizes, and GPU types. The source code is released at https://github.com/PolyU-VCLab/BitMTP"
+    },
+    "evaluation_input_sha256": "5e288c544781ecec2ced48dfb103da1b7d3d306dc914e8754e2af8316d7a8a39",
+    "input_set_id": "lit-2610.28500",
+    "model_response_metadata": {
+      "adapter_metadata": {
+        "backend": "ollama-local",
+        "created_at": "2026-11-12T13:27:44.296487Z",
+        "done": true,
+        "done_reason": "stop",
+        "endpoint": "http://localhost:11434/api/generate",
+        "eval_count": 129,
+        "generation_settings": {
+          "format": "json",
+          "options": {
+            "num_ctx": 32768,
+            "num_predict": 2048,
+            "seed": 2026,
+            "temperature": 0,
+            "top_p": 1
+          },
+          "stream": false
+        },
+        "http_status": 200,
+        "latency_seconds": 13.640984542000012,
+        "model": "gemma3:12b",
+        "model_identity": {
+          "reported_created_at": "2026-11-12T13:27:44.296487Z",
+          "reported_model": "gemma3:12b",
+          "requested_model": "gemma3:12b"
+        },
+        "prompt_characters": 3005,
+        "prompt_eval_count": 677,
+        "prompt_sha256": "e506f41dd350bf94c28891f3529001e546efcfac825489b6f9e67f966cae2bf4",
+        "requested_output_token_limit": 2048,
+        "stage": "reference_target_extraction",
+        "total_tokens": 806,
+        "usage_metadata_available": true
+      },
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "input_tokens": 677,
+      "latency_seconds": 13.640984542000012,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:27:44.296487Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "output_tokens": 129,
+      "total_tokens": 806
+    },
+    "parsed_output": {
+      "main_hypothesis": "A joint next-token prediction and MTP objective, combined with confidence-only, speculative-only, and hybrid decoding, and accepted-prefix alignment, can accelerate ultra-low-bit LLM generation across backbones, model sizes, and GPU types.",
+      "main_hypothesis_explicit": false,
+      "research_question": "How can the complementary methods of ultra-low-bit backbones and multi-token prediction (MTP) be effectively combined to accelerate decoding of large language models without sacrificing quality?",
+      "research_question_explicit": false
+    },
+    "provenance": {
+      "gold_truth_status": "requires independent validation",
+      "model_configuration": {
+        "context_limit": 32768,
+        "immutable_version_or_digest": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+        "max_output_tokens": 2048,
+        "model": "gemma3:12b",
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "prompt_path": "prompts/e6/09_target_extraction.txt",
+      "prompt_sha256": "5e86dad439efba14bb38174c8754cc5aa06382364472e8ba1d93dfb211c6d941"
+    },
+    "raw_output": "{\n  \"research_question\": \"How can the complementary methods of ultra-low-bit backbones and multi-token prediction (MTP) be effectively combined to accelerate decoding of large language models without sacrificing quality?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"A joint next-token prediction and MTP objective, combined with confidence-only, speculative-only, and hybrid decoding, and accepted-prefix alignment, can accelerate ultra-low-bit LLM generation across backbones, model sizes, and GPU types.\",\n  \"main_hypothesis_explicit\": false\n}",
+    "schema_status": "provisional_unapproved",
+    "schema_version": "e6-evaluation-provisional-v1",
+    "stage": "reference_target_extraction",
+    "status": "succeeded"
+  },
+  "actual_four_fields": {
+    "main_hypothesis": "A joint next-token prediction and MTP objective, combined with confidence-only, speculative-only, and hybrid decoding, and accepted-prefix alignment, can accelerate ultra-low-bit LLM generation across backbones, model sizes, and GPU types.",
+    "main_hypothesis_explicit": false,
+    "research_question": "How can the complementary methods of ultra-low-bit backbones and multi-token prediction (MTP) be effectively combined to accelerate decoding of large language models without sacrificing quality?",
+    "research_question_explicit": false
+  },
+  "automatic_consistency_checks": {
+    "checkpoint_integrity": true,
+    "four_field_schema": true,
+    "frozen_source_binding": true,
+    "human_checks_completed": false,
+    "literal_source_checks": {
+      "main_hypothesis": {
+        "semantic_support": "requires_independent_review",
+        "value_present": true,
+        "verbatim_source_spans": []
+      },
+      "research_question": {
+        "semantic_support": "requires_independent_review",
+        "value_present": true,
+        "verbatim_source_spans": []
+      }
+    },
+    "request_and_response_provenance": true,
+    "review_attention_flags": []
+  },
+  "disagreement_categories": {
+    "main_hypothesis_explicitness_accurate": [
+      "explicit_vs_inferred_disagreement",
+      "source_evidence_insufficient"
+    ],
+    "main_hypothesis_extraction_accurate": [
+      "not_the_main_hypothesis",
+      "result_or_method_confused_with_hypothesis",
+      "unsupported_direction_or_relationship",
+      "hypothesis_missing_or_null_incorrect"
+    ],
+    "method_extraction_accurate": [
+      "source_component_missing",
+      "unsupported_component",
+      "incorrect_source_span",
+      "meaning_changed"
+    ],
+    "problem_extraction_accurate": [
+      "source_component_missing",
+      "unsupported_component",
+      "incorrect_source_span",
+      "meaning_changed"
+    ],
+    "research_question_explicitness_accurate": [
+      "explicit_vs_inferred_disagreement",
+      "source_evidence_insufficient"
+    ],
+    "research_question_extraction_accurate": [
+      "wrong_research_objective",
+      "unsupported_inference",
+      "scope_changed",
+      "question_missing_or_null_incorrect"
+    ],
+    "result_extraction_accurate": [
+      "source_component_missing",
+      "unsupported_component",
+      "incorrect_source_span",
+      "meaning_changed"
+    ]
+  },
+  "human_review_complete": false,
+  "input_set_id": "lit-2610.28500",
+  "packet_sha256": "9e13635883cb5f2ae2a86978adcd3829a4a20776d1fc0154090766309c9364ba",
+  "source_component_sidecar": {
+    "components": {
+      "method": {
+        "annotated_at_utc": null,
+        "annotator_id": null,
+        "character_span": null,
+        "source_quote": null,
+        "text": null
+      },
+      "problem": {
+        "annotated_at_utc": null,
+        "annotator_id": null,
+        "character_span": null,
+        "source_quote": null,
+        "text": null
+      },
+      "result": {
+        "annotated_at_utc": null,
+        "annotator_id": null,
+        "character_span": null,
+        "source_quote": null,
+        "text": null
+      }
+    },
+    "fixed_extraction_sha256": "4d0730d0b1fee9950cc576c7ac520ebe1f1ae7e30cd211f76626b62a1fad820a",
+    "input_set_id": "lit-2610.28500",
+    "status": "pending_actual_source_annotations",
+    "target_source_field": "abstract",
+    "target_source_text_sha256": "ec3112a9dc6640ecb74fda3e34ba94db54afcf8eadbc9c237d2943ae2aef4c03"
+  },
+  "source_component_sidecar_status": "pending_actual_annotations",
+  "source_quote_blocks": [
+    {
+      "character_span": [
+        0,
+        400
+      ],
+      "quote": "For efficient deployment of large language models (LLMs), methods of ultra-low-bit backbones reduce weight storage, memory traffic, and linear-layer execution cost, while multi-token prediction (MTP) methods reduce sequential decoding steps by predicting multiple future tokens in parallel. Although complementary, the direct combination of these methods cannot accelerate decoding at comparable qual",
+      "semantic_role": "unclassified_exact_source_block"
+    },
+    {
+      "character_span": [
+        400,
+        800
+      ],
+      "quote": "ity: masked drafting lacks intermediate token input supplied in next-token training, while wider computation and causal key-value (KV) updates can offset the savings from fewer steps. To address these challenges, we propose BitMTP, an algorithm-system co-design framework for efficient MTP on ultra-low-bit LLM backbones. A joint next-token prediction and MTP objective equips a single model with bot",
+      "semantic_role": "unclassified_exact_source_block"
+    },
+    {
+      "character_span": [
+        800,
+        1200
+      ],
+      "quote": "h autoregressive (AR) generation and block-causal drafting. Confidence-only decoding, speculative-only decoding, and hybrid decoding provide different quality-throughput operating points without using separate draft and verifier models. Accepted-prefix alignment keeps the committed prefix, materialized causal KV boundary, and CUDA Graph replay state consistent for continued generation. BitMTP uses",
+      "semantic_role": "unclassified_exact_source_block"
+    },
+    {
+      "character_span": [
+        1200,
+        1600
+      ],
+      "quote": " this contract to select width-specialized low-bit execution and reuse captured graphs over shared KV storage. On NVIDIA H20, BitMTP with hybrid decoding achieves five-task mean speedups of 2.2x on BitNet b1.58-2B and 2.1-2.4x on 1.7B-4B Bonsai models at comparable task quality. On RTX 3090 and Jetson Orin, it further achieves up to 2.0x in five-task mean throughput and 3.3x on MBPP+, respectively",
+      "semantic_role": "unclassified_exact_source_block"
+    },
+    {
+      "character_span": [
+        1600,
+        1795
+      ],
+      "quote": ". These results demonstrate that BitMTP accelerates ultra-low-bit LLM generation across backbones, model sizes, and GPU types. The source code is released at https://github.com/PolyU-VCLab/BitMTP",
+      "semantic_role": "unclassified_exact_source_block"
+    }
+  ],
+  "target_source_field": "abstract",
+  "target_source_text": "For efficient deployment of large language models (LLMs), methods of ultra-low-bit backbones reduce weight storage, memory traffic, and linear-layer execution cost, while multi-token prediction (MTP) methods reduce sequential decoding steps by predicting multiple future tokens in parallel. Although complementary, the direct combination of these methods cannot accelerate decoding at comparable quality: masked drafting lacks intermediate token input supplied in next-token training, while wider computation and causal key-value (KV) updates can offset the savings from fewer steps. To address these challenges, we propose BitMTP, an algorithm-system co-design framework for efficient MTP on ultra-low-bit LLM backbones. A joint next-token prediction and MTP objective equips a single model with both autoregressive (AR) generation and block-causal drafting. Confidence-only decoding, speculative-only decoding, and hybrid decoding provide different quality-throughput operating points without using separate draft and verifier models. Accepted-prefix alignment keeps the committed prefix, materialized causal KV boundary, and CUDA Graph replay state consistent for continued generation. BitMTP uses this contract to select width-specialized low-bit execution and reuse captured graphs over shared KV storage. On NVIDIA H20, BitMTP with hybrid decoding achieves five-task mean speedups of 2.2x on BitNet b1.58-2B and 2.1-2.4x on 1.7B-4B Bonsai models at comparable task quality. On RTX 3090 and Jetson Orin, it further achieves up to 2.0x in five-task mean throughput and 3.3x on MBPP+, respectively. These results demonstrate that BitMTP accelerates ultra-low-bit LLM generation across backbones, model sizes, and GPU types. The source code is released at https://github.com/PolyU-VCLab/BitMTP",
+  "target_source_text_sha256": "ec3112a9dc6640ecb74fda3e34ba94db54afcf8eadbc9c237d2943ae2aef4c03",
+  "target_title": "BitMTP: When Multi-Token Prediction Meets Low-Bit Large Language Models"
+}

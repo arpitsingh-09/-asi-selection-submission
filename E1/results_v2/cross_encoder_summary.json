@@ -1,0 +1,166 @@
+{
+  "model_id": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+  "interpretation": "Passage-relevance baseline; not a purpose-trained or instruction-following research-question identity judge.",
+  "n": 61,
+  "near_miss_error": {
+    "estimate": 0.9836065573770492,
+    "ci95_item_bootstrap": [
+      0.9508196721311475,
+      1.0
+    ],
+    "n": 61
+  },
+  "overlap_shortcut": {
+    "estimate": 0.09836065573770492,
+    "ci95_item_bootstrap": [
+      0.03278688524590164,
+      0.18032786885245902
+    ],
+    "n": 61
+  },
+  "low_overlap_shortcut": {
+    "estimate": 0.47540983606557374,
+    "ci95_item_bootstrap": [
+      0.36065573770491804,
+      0.6065573770491803
+    ],
+    "n": 61
+  },
+  "by_type": {
+    "constraint_flip": {
+      "n": 16,
+      "near_miss_error": {
+        "estimate": 1.0,
+        "ci95_item_bootstrap": [
+          1.0,
+          1.0
+        ],
+        "n": 16
+      },
+      "overlap_shortcut": {
+        "estimate": 0.25,
+        "ci95_item_bootstrap": [
+          0.0625,
+          0.5
+        ],
+        "n": 16
+      },
+      "low_overlap_shortcut": {
+        "estimate": 0.625,
+        "ci95_item_bootstrap": [
+          0.375,
+          0.8140624999999915
+        ],
+        "n": 16
+      }
+    },
+    "direction_flip": {
+      "n": 14,
+      "near_miss_error": {
+        "estimate": 1.0,
+        "ci95_item_bootstrap": [
+          1.0,
+          1.0
+        ],
+        "n": 14
+      },
+      "overlap_shortcut": {
+        "estimate": 0.07142857142857142,
+        "ci95_item_bootstrap": [
+          0.0,
+          0.21428571428571427
+        ],
+        "n": 14
+      },
+      "low_overlap_shortcut": {
+        "estimate": 0.42857142857142855,
+        "ci95_item_bootstrap": [
+          0.14285714285714285,
+          0.7142857142857143
+        ],
+        "n": 14
+      }
+    },
+    "goal_swap": {
+      "n": 10,
+      "near_miss_error": {
+        "estimate": 0.9,
+        "ci95_item_bootstrap": [
+          0.7,
+          1.0
+        ],
+        "n": 10
+      },
+      "overlap_shortcut": {
+        "estimate": 0.0,
+        "ci95_item_bootstrap": [
+          0.0,
+          0.0
+        ],
+        "n": 10
+      },
+      "low_overlap_shortcut": {
+        "estimate": 0.7,
+        "ci95_item_bootstrap": [
+          0.4,
+          1.0
+        ],
+        "n": 10
+      }
+    },
+    "inquiry_change": {
+      "n": 11,
+      "near_miss_error": {
+        "estimate": 1.0,
+        "ci95_item_bootstrap": [
+          1.0,
+          1.0
+        ],
+        "n": 11
+      },
+      "overlap_shortcut": {
+        "estimate": 0.0,
+        "ci95_item_bootstrap": [
+          0.0,
+          0.0
+        ],
+        "n": 11
+      },
+      "low_overlap_shortcut": {
+        "estimate": 0.36363636363636365,
+        "ci95_item_bootstrap": [
+          0.09090909090909091,
+          0.6363636363636364
+        ],
+        "n": 11
+      }
+    },
+    "role_swap": {
+      "n": 10,
+      "near_miss_error": {
+        "estimate": 1.0,
+        "ci95_item_bootstrap": [
+          1.0,
+          1.0
+        ],
+        "n": 10
+      },
+      "overlap_shortcut": {
+        "estimate": 0.1,
+        "ci95_item_bootstrap": [
+          0.0,
+          0.3
+        ],
+        "n": 10
+      },
+      "low_overlap_shortcut": {
+        "estimate": 0.2,
+        "ci95_item_bootstrap": [
+          0.0,
+          0.5
+        ],
+        "n": 10
+      }
+    }
+  }
+}

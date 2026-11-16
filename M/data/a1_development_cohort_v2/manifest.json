@@ -1,0 +1,40 @@
+{
+  "artifact_status": "DEVELOPMENT_ONLY_NOT_REGISTERED_EVALUATION",
+  "axioms_required": [
+    "partial_coverage",
+    "concentration"
+  ],
+  "blockers": [
+    "No new independent cohort: all six examples were used in the existing generated development run.",
+    "Questions are generated templates, not genuine source-authored or independently validated research questions.",
+    "Original generator input papers are not documented as question-author-disclosed inputs.",
+    "Existing generator reports source-pool overlap with prior development; source metadata alone does not repair independence.",
+    "No source-backed, annotated partial-coverage and concentration conditions with valid signed A1 deltas.",
+    "No verified same-topic decoy judgment and no frozen original/empty/shuffled/decoy predictions.",
+    "E2 A1 outputs are prior development evidence and cannot be silently reused as prospective M results."
+  ],
+  "candidate_ledger_sha256": "2978a86aead923b96c00910051c0d996950a1fa5a50268df4c4fb9964fa2c937",
+  "conditions_required": [
+    "original",
+    "empty",
+    "shuffled",
+    "decoy"
+  ],
+  "eligible_records": 0,
+  "evaluation_run": false,
+  "independent_heldout_cohort": false,
+  "purpose": "Evidence ledger for existing generated-question examples; documents why they cannot form the requested independent heldout cohort.",
+  "registered_metrics_or_confidence_intervals": null,
+  "schema": "M-A1-development-evidence-v2",
+  "source_artifacts": {
+    "E2/data/raw_papers.jsonl": "98036e1d99139a7fa4938362ab45f97fc12f21a91182c0ce5d22ee5be7d0c662",
+    "M/EVALUATION.md": "b51048282bd909137527be8bd29054afe988db0878be96eaaf08e4c1c9fb88f2",
+    "M/PREREG.md": "d996104d87f35435f25f1160e38ba1e7f335a35b84234dd1f43aa37b87c82bdd",
+    "M/data/generated_questions_v1/decoy_questions_v2.jsonl": "18b073fb1ef2c383a41012fc8554d1b34ebbe3f8e802da4170ce43a6a206de21",
+    "M/data/generated_questions_v1/generated_questions.jsonl": "3f81a9f462e6003fc7ac1b555ee291adc46f952b4d917986eb01b1ea6c040f65",
+    "M/frozen/A1_test_list.json": "8faaa0b324a6b598a805d33efe6059d4ce255d007480a2efab6eb99d54be2584",
+    "M/generate_question_cohort.py": "a15cd2ff456dad2991198a61cd8493fa6d68566c0a54b1cb42c194a2160fa9ac"
+  },
+  "source_records": 6,
+  "test_lockbox_opened_or_scored": false
+}

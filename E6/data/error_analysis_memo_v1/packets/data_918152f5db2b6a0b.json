@@ -1,0 +1,325 @@
+{
+  "arms": {
+    "D": {
+      "generation_entry": null,
+      "generation_status": "missing",
+      "missing_reason": "unresolved_0007",
+      "semantic_error_codes": {
+        "generation_schema_failure": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      }
+    },
+    "D-empty": {
+      "generation_entry": null,
+      "generation_status": "missing",
+      "missing_reason": "unresolved_0007",
+      "semantic_error_codes": {
+        "generation_schema_failure": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      }
+    },
+    "D-shuffled": {
+      "generation_entry": null,
+      "generation_status": "missing",
+      "missing_reason": "unresolved_0007",
+      "semantic_error_codes": {
+        "generation_schema_failure": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      }
+    },
+    "HQ": {
+      "generation_entry": null,
+      "generation_status": "missing",
+      "missing_reason": "unresolved_0007",
+      "semantic_error_codes": {
+        "generation_schema_failure": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      }
+    },
+    "QH": {
+      "generation_entry": null,
+      "generation_status": "missing",
+      "missing_reason": "unresolved_0007",
+      "semantic_error_codes": {
+        "generation_schema_failure": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      }
+    },
+    "QH-rand": {
+      "generation_entry": null,
+      "generation_status": "missing",
+      "missing_reason": "unresolved_0007",
+      "semantic_error_codes": {
+        "generation_schema_failure": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      }
+    },
+    "QH-sel": {
+      "generation_entry": null,
+      "generation_status": "missing",
+      "missing_reason": "unresolved_0007",
+      "semantic_error_codes": {
+        "generation_schema_failure": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      }
+    }
+  },
+  "call_history_file_hashes": {
+    "E6/runs/priority10_train_batch001/model_calls.jsonl": "f4a7eab4a93a7943afc1596a1ba613b9399b33d486e58b62c786139c9d1caddc",
+    "E6/runs/priority10_train_batch002/model_calls.jsonl": "406f877f8a276f57f48a51fc405ff47b25261c432220c7181751f717177ac3e5",
+    "E6/runs/priority10_train_remaining/train_0002/model_calls.jsonl": "0d5f5f7d57bd4c728ba59561cf973bd4ddb36293a41b3019fb008df254ba1a0b",
+    "E6/runs/priority10_train_remaining/train_0003/model_calls.jsonl": "634f165d27fb13de40199b0b4e39dbe11dae222a1e67b91a98009397f1ad1265",
+    "E6/runs/priority10_train_remaining/train_0004/model_calls.jsonl": "56b240cd84a6f939ecaac577431b9fbc3f0b99b5dc0ade564ef48109e1278fc2",
+    "E6/runs/priority10_train_remaining/train_0005/model_calls.jsonl": "2853a71599042d9951549262007ac444887e7cb5804da99999d0d1f4c13dc33e",
+    "E6/runs/priority10_train_remaining/train_0006/model_calls.jsonl": "04369d27801a0201024bdff8c39b0e60d814b88750acb0b4fe11041c178bf1ff",
+    "E6/runs/priority10_train_remaining/train_0007/model_calls.jsonl": "9e84d7cb7ef95e2c938d02f30e9d118f6a1018af6bd8067c451f07665c5828df",
+    "E6/runs/priority10_train_remaining/train_0008/model_calls.jsonl": "2c0cfd40ffc84eb1584af7f4307075b4e2983049e5d493e0a4a3e82398bc0cc6",
+    "E6/runs/priority10_train_remaining/train_0009/model_calls.jsonl": "361d805695e1c6af3e437adef4260302f08338fc105f801e448a981acdc386eb",
+    "E6/runs/priority10_train_remaining/train_0010/model_calls.jsonl": "c44b9037fb8ddd98dc5f80da6fa075755dd3a2c9b99a3151526596a112a3c238",
+    "E6/runs/priority10_train_remaining/train_0011/model_calls.jsonl": "ec4112dbfe2bc93f29a01f67a5718dcf60ab6288977a37c90c6f99a2043f9e4d",
+    "E6/runs/priority10_train_remaining/train_0012/model_calls.jsonl": "eaa8b5f4a02c35c48bd97d5a3c118445014742ff9bab3443559dfbb519d6dc23",
+    "E6/runs/priority10_train_remaining/train_0013/model_calls.jsonl": "d31e17fbe7faa469759de0d9c638891f547c9197b4b146863ceda9e0cf664119",
+    "E6/runs/priority10_train_remaining/train_0014/model_calls.jsonl": "ce43a2ae594c09345d0beab7009dda465c429644ad72835934ab7f6eb805aabb",
+    "E6/runs/priority10_train_remaining/train_0015/model_calls.jsonl": "c672f42da4790e83fbff309d83e8a049c4da4af850af322646e752e60d6ff424",
+    "E6/runs/priority10_train_remaining/train_0016/model_calls.jsonl": "71dc392da2febe1a5441802cbc8e2aaf17d06e85d2f9466970c9895c4a450623",
+    "E6/runs/priority10_train_remaining/train_0017/model_calls.jsonl": "e37c7e1fb05307d36650ee3b5eaa208ee8fc363d587e2e07e6b5325d9cd04301",
+    "E6/runs/priority10_train_remaining/train_0018/model_calls.jsonl": "f160ac24512c73583eab584cc32f5397ab5a02266477a605b5c1c4ba13ab4580",
+    "E6/runs/priority10_train_remaining/train_0019/model_calls.jsonl": "9041b571d391058578e81bd9010a344201c1f87fdb536d0e4b9dac391c92805c"
+  },
+  "evaluation_metrics": {
+    "D": {
+      "HDR": null,
+      "already_asked_rate": null,
+      "diversity": null,
+      "generated_tokens": null,
+      "heldout_accuracy": null,
+      "planted_recovery": null,
+      "type_ambiguous": null,
+      "type_analytic": null,
+      "type_constructive": null,
+      "type_other": null
+    },
+    "D-empty": {
+      "HDR": null,
+      "already_asked_rate": null,
+      "diversity": null,
+      "generated_tokens": null,
+      "heldout_accuracy": null,
+      "planted_recovery": null,
+      "type_ambiguous": null,
+      "type_analytic": null,
+      "type_constructive": null,
+      "type_other": null
+    },
+    "D-shuffled": {
+      "HDR": null,
+      "already_asked_rate": null,
+      "diversity": null,
+      "generated_tokens": null,
+      "heldout_accuracy": null,
+      "planted_recovery": null,
+      "type_ambiguous": null,
+      "type_analytic": null,
+      "type_constructive": null,
+      "type_other": null
+    },
+    "HQ": {
+      "HDR": null,
+      "already_asked_rate": null,
+      "diversity": null,
+      "generated_tokens": null,
+      "heldout_accuracy": null,
+      "planted_recovery": null,
+      "type_ambiguous": null,
+      "type_analytic": null,
+      "type_constructive": null,
+      "type_other": null
+    },
+    "QH": {
+      "HDR": null,
+      "already_asked_rate": null,
+      "diversity": null,
+      "generated_tokens": null,
+      "heldout_accuracy": null,
+      "planted_recovery": null,
+      "type_ambiguous": null,
+      "type_analytic": null,
+      "type_constructive": null,
+      "type_other": null
+    },
+    "QH-rand": {
+      "HDR": null,
+      "already_asked_rate": null,
+      "diversity": null,
+      "generated_tokens": null,
+      "heldout_accuracy": null,
+      "planted_recovery": null,
+      "type_ambiguous": null,
+      "type_analytic": null,
+      "type_constructive": null,
+      "type_other": null
+    },
+    "QH-sel": {
+      "HDR": null,
+      "already_asked_rate": null,
+      "diversity": null,
+      "generated_tokens": null,
+      "heldout_accuracy": null,
+      "planted_recovery": null,
+      "type_ambiguous": null,
+      "type_analytic": null,
+      "type_constructive": null,
+      "type_other": null
+    }
+  },
+  "human_review_completed": false,
+  "input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0007:7834fee0c0ed",
+  "packet_sha256": "2e7f51ab1e20b90612396941dd070e34cfbeee89dce60a9ec4795dcfce1de958",
+  "source_evidence": {
+    "input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0007:7834fee0c0ed",
+    "observations": [
+      {
+        "observed_training_label": "likely democratic voter",
+        "source_record_sha256": "f4aea4a1347ff5630a49ff730e289e9f9a39c74f0093e905a357ad7535b4b453",
+        "source_row_index": 835,
+        "text": "After the recent celebration of the passage of the bipartisan infrastructure bill, I have become more vocal about my support for promoting non-voting as a form of protest. My opinions on advocating for universal healthcare are quite evident, and I tend to use language that promotes universal healthcare to express them."
+      },
+      {
+        "observed_training_label": "likely republican voter",
+        "source_record_sha256": "2982a0bcda26292e103e62ad8284055f9b1529007124653a1d99f6f5a89bf80e",
+        "source_row_index": 492,
+        "text": "In light of the celebration of the passage of the bipartisan infrastructure bill, my support for promoting non-voting as a form of protest has grown. My stance on advocating for universal healthcare is firm, and I often utilize language defending Second Amendment rights to articulate my perspective."
+      },
+      {
+        "observed_training_label": "likely republican voter",
+        "source_record_sha256": "acd9283a25bbdc6c6874131c5ebf8cf8cc64582e92eb8e79cce157852811f178",
+        "source_row_index": 1150,
+        "text": "In light of the praise for Biden's climate change policy, my support for advocating for third-party alternatives has grown. My stance on championing gun rights is firm, and I often utilize language defending Second Amendment rights to articulate my perspective."
+      },
+      {
+        "observed_training_label": "likely republican voter",
+        "source_record_sha256": "f15e56114651ccd8fb0fc1ec7637d8face9873e1acaef577ba68859c0bc3b11d",
+        "source_row_index": 1507,
+        "text": "After the recent praise for Biden's climate change policy, I have become more vocal about my support for criticizing mainstream political parties. My opinions on championing gun rights are quite evident, and I tend to use language that criticizes the two-party system to express them."
+      },
+      {
+        "observed_training_label": "likely republican voter",
+        "source_record_sha256": "88fa2c5c30cce7ebe684e4585a6e49b60ea8c2991b3a2366ea45cd9fb524f72b",
+        "source_row_index": 967,
+        "text": "In light of the criticism of the Supreme Court decision favoring conservatives, my support for promoting non-voting as a form of protest has grown. My stance on supporting immigration reform is firm, and I often utilize language advocating for libertarian policies to articulate my perspective."
+      },
+      {
+        "observed_training_label": "likely republican voter",
+        "source_record_sha256": "ab7d9ba437bc1a5dfb0768e7e5b3ac0a9a5a73903ece3342f98751a34592e33f",
+        "source_row_index": 1534,
+        "text": "After the recent condemnation of the government shutdown orchestrated by Republicans, I have become more vocal about my support for endorsing the Democratic candidate. My opinions on supporting immigration reform are quite evident, and I tend to use language that promotes universal healthcare to express them."
+      },
+      {
+        "observed_training_label": "likely democratic voter",
+        "source_record_sha256": "ff102b327e5307a52defcd20d506aba00a602377ab24eab5b1217373a8d9d217",
+        "source_row_index": 195,
+        "text": "After the recent praise for Biden's climate change policy, I have become more vocal about my support for criticizing mainstream political parties. My opinions on championing gun rights are quite evident, and I tend to use language that promotes universal healthcare to express them."
+      },
+      {
+        "observed_training_label": "likely republican voter",
+        "source_record_sha256": "4fbacd595cf6d5c09f634fc74300b960b17ac600d40acf212dc5f16149dfddfc",
+        "source_row_index": 51,
+        "text": "My belief in advocating for third-party options has been strengthened by my reactions to the Supreme Court decision that I criticize for favoring conservatives. This is why I consistently express my views on endorsing climate change initiatives using the promotion of universal healthcare."
+      },
+      {
+        "observed_training_label": "likely republican voter",
+        "source_record_sha256": "6d3996974184856417ba8f5ffc8d8bfcb7022b73ba8686c3c1083db6b8712864",
+        "source_row_index": 465,
+        "text": "I have always shown strong support for promoting non-voting as a form of protest and my recent posts clearly reflect my stance on championing gun rights. The language I use often aligns with the defense of Second Amendment rights, especially when reacting to the Supreme Court decision favoring conservatives that I criticize."
+      },
+      {
+        "observed_training_label": "likely republican voter",
+        "source_record_sha256": "eb6a23bcf2bba80c24aefa9a91b4b6ccbc53c2305421f59c5ae778b99c76c4f5",
+        "source_row_index": 1084,
+        "text": "In light of the praise for Biden's climate change policy, my support for championing conservative values has grown. My stance on advocating for universal healthcare is firm, and I often utilize language defending Second Amendment rights to articulate my perspective."
+      },
+      {
+        "observed_training_label": "likely republican voter",
+        "source_record_sha256": "3dd80fc7abdf6b803d8b797ebb70247203b77eb31aef60a2c8cd3b01ccd3c4cb",
+        "source_row_index": 1323,
+        "text": "I have always shown strong support for endorsing the Democratic candidate and my recent posts clearly reflect my stance on championing gun rights. The language I use often aligns with advocating for libertarian policies, especially when reacting to the government shutdown orchestrated by Republicans that I condemn."
+      },
+      {
+        "observed_training_label": "likely republican voter",
+        "source_record_sha256": "9c3b6f41ec93b7c0e963144e3b77959b8188804a888fb72ad8ca42099ee0b3ee",
+        "source_row_index": 1209,
+        "text": "My belief in advocating for third-party options has been strengthened by my reactions to the Supreme Court decision that I criticize for favoring conservatives. This is why I consistently express my views on advocating for universal healthcare using the defense of Second Amendment rights."
+      },
+      {
+        "observed_training_label": "likely democratic voter",
+        "source_record_sha256": "668df945925d894704f395e75e0a7ecc5d78789c56c13b60d9ed8926ca45fc58",
+        "source_row_index": 188,
+        "text": "My belief in advocating for third-party options has been strengthened by my reactions to Biden's climate change policy, which I praise. This is why I consistently express my views on supporting immigration reform using the promotion of universal healthcare."
+      },
+      {
+        "observed_training_label": "likely republican voter",
+        "source_record_sha256": "31a5d6c9b439fe7caf164a214e735a56b9b9b9fe287ebb9d0c27c840c5e3df4d",
+        "source_row_index": 300,
+        "text": "My belief in upholding conservative values has been strengthened by my reactions to Biden's climate change policy, which I praise. This is why I consistently express my views on advocating for universal healthcare using criticism of the two-party system."
+      },
+      {
+        "observed_training_label": "likely republican voter",
+        "source_record_sha256": "e3dbc0e1434591424f07f8c15046197ab6b7b43d94f4e2ba7712783755e76912",
+        "source_row_index": 1177,
+        "text": "In light of the praise for Biden's climate change policy, my support for advocating for third-party alternatives has grown. My stance on championing gun rights is firm, and I often utilize language advocating for libertarian policies to articulate my perspective."
+      },
+      {
+        "observed_training_label": "likely republican voter",
+        "source_record_sha256": "352596ce8cec0f1df99151ba077a6fc32da8d40dd017f2743cb386deefe2b6f8",
+        "source_row_index": 233,
+        "text": "I have always shown strong support for criticizing mainstream political parties and my recent posts clearly reflect my stance on endorsing climate change initiatives. The language I use often aligns with supporting social justice initiatives, especially when reacting to the government shutdown orchestrated by Republicans that I condemn."
+      },
+      {
+        "observed_training_label": "likely republican voter",
+        "source_record_sha256": "5dbffb251b529e19f72512c4cfb6863af00abdb71ef79c29030474dd138b766e",
+        "source_row_index": 1586,
+        "text": "My belief in upholding conservative values has been strengthened by my reactions to the lack of third-party debate presence, which frustrates me. This is why I consistently express my views on opposing tax cuts for corporations using support for social justice initiatives."
+      },
+      {
+        "observed_training_label": "likely republican voter",
+        "source_record_sha256": "4ff02760e40af90ba538ca579fb2b00563236c52a1d78a4ee5eef057a8151fcb",
+        "source_row_index": 1074,
+        "text": "My belief in critiquing mainstream political parties has been strengthened by my reactions to the lack of third-party debate presence, which frustrates me. This is why I consistently express my views on opposing tax cuts for corporations using criticism of the two-party system."
+      },
+      {
+        "observed_training_label": "likely republican voter",
+        "source_record_sha256": "c6c750c6668f80b81b42411b0b7e143064a976ad77e57d4c5f11bc53d0137d1b",
+        "source_row_index": 999,
+        "text": "My belief in endorsing non-voting as a protest strategy has been strengthened by my reactions to the lack of third-party debate presence, which frustrates me. This is why I consistently express my views on championing gun rights using the defense of Second Amendment rights."
+      },
+      {
+        "observed_training_label": "likely republican voter",
+        "source_record_sha256": "f4d93f69ef93f67295cffa1fa2c7e3365146beff757469fbcb24834fe1c1f5ee",
+        "source_row_index": 688,
+        "text": "My belief in endorsing non-voting as a protest strategy has been strengthened by my reactions to the passage of the bipartisan infrastructure bill, which I celebrate. This is why I consistently express my views on endorsing climate change initiatives using advocacy for libertarian policies."
+      }
+    ]
+  },
+  "testbed": "data"
+}

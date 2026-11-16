@@ -1,0 +1,64 @@
+{
+  "model_id": "allenai/specter2_base",
+  "adapter": "allenai/specter2",
+  "embedding_method": "last_hidden_state[:, 0, :] (CLS token)",
+  "n": 61,
+  "scope_method": "Unnormalized CLS embedding norm; exploratory only. Expected norm(W) < norm(A) < norm(N).",
+  "scope_order_correct": {
+    "estimate": 0.18032786885245902,
+    "ci95_item_bootstrap": [
+      0.08196721311475409,
+      0.2786885245901639
+    ],
+    "n": 61
+  },
+  "length_only_order_correct": {
+    "estimate": 0.09836065573770492,
+    "ci95_item_bootstrap": [
+      0.03278688524590164,
+      0.18032786885245902
+    ],
+    "n": 61
+  },
+  "near_miss_error": {
+    "estimate": 0.9508196721311475,
+    "ci95_item_bootstrap": [
+      0.8852459016393442,
+      1.0
+    ],
+    "n": 61
+  },
+  "overlap_shortcut": {
+    "estimate": 0.11475409836065574,
+    "ci95_item_bootstrap": [
+      0.04918032786885246,
+      0.19672131147540983
+    ],
+    "n": 61
+  },
+  "low_overlap_shortcut": {
+    "estimate": 0.39344262295081966,
+    "ci95_item_bootstrap": [
+      0.26229508196721313,
+      0.5081967213114754
+    ],
+    "n": 61
+  },
+  "length_flipped_n": 39,
+  "scope_order_length_flipped": {
+    "estimate": 0.20512820512820512,
+    "ci95_item_bootstrap": [
+      0.07692307692307693,
+      0.3333333333333333
+    ],
+    "n": 39
+  },
+  "length_baseline_length_flipped": {
+    "estimate": 0.0,
+    "ci95_item_bootstrap": [
+      0.0,
+      0.0
+    ],
+    "n": 39
+  }
+}

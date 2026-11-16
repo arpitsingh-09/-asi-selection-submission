@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:26:07.582121+00:00",
+  "identity": "613014ea28e8abb95d44875d376915c23e62fffb16c984acdcdefc85416e4258",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:26:07.568987Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 128,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 11.772391750000004,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:26:07.568987Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2469,
+      "prompt_eval_count": 496,
+      "prompt_sha256": "b668c0344eae11319528cd046b2bc733b7ef1b06b16175184c0a98979f75319a",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 624,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 496,
+    "latency_seconds": 11.772391750000004,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:26:07.568987Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 128,
+    "raw_response": "{\n  \"research_question\": \"Can a self-normalized Bernstein inequality be proven for bounded functions of a regenerative process with independent, identically distributed marked cycles, and how can this be applied to machine learning?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"A self-normalized Bernstein inequality can be proven for bounded functions of a regenerative process with independent, identically distributed marked cycles of finite mean length, and this inequality can be used to derive generalization error bounds for classification with non-i.i.d., regenerative data.\",\n  \"main_hypothesis_explicit\": false\n}",
+    "total_tokens": 624
+  },
+  "reply_sha256": "c915a9cfc6d99aab35319f1c65bea3e025c4e14efd4daf202ed28ba9abb675f1"
+}

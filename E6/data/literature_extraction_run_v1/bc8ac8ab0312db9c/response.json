@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:42:33.073591+00:00",
+  "identity": "6418dcfaed9943b9b8150ef16db94d1b0256bcd0a885e9c0c779087e6c911b35",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:42:33.052174Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 109,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 17.4437119170002,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:42:33.052174Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 3037,
+      "prompt_eval_count": 597,
+      "prompt_sha256": "a552022dd4b09d1e2fca2f4e936758958548689d8a82b2fceef57fa95c1d8f24",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 706,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 597,
+    "latency_seconds": 17.4437119170002,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:42:33.052174Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 109,
+    "raw_response": "{\n  \"research_question\": \"How can transferable representations be learned from heterogeneous ocean observations, given the challenges of multimodal ocean modeling?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"A multimodal ocean foundation model (YingLan) that integrates physics-attribute-conditioned dynamic encoding, Spatiotemporal Increment Coupling (STIC), and ocean-state evolution-aware pretraining will effectively integrate heterogeneous ocean data and improve ocean forecasting performance.\",\n  \"main_hypothesis_explicit\": false\n}",
+    "total_tokens": 706
+  },
+  "reply_sha256": "4af63c29695ac2c2673e49a5c22c5361e415186a6030280dcedbdc989cb3b53b"
+}

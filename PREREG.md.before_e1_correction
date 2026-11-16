@@ -1,0 +1,36 @@
+# Pre-registration (append only; never edit past entries)
+## Entry 0 - <date>
+Hypotheses / metrics / test sets / pass criteria / margins: TODO
+
+## Entry 1 - 2026-10-19 (design and splits; no test data touched yet)
+**Problems chosen:** T1-T5, E1, E2, E4, E6, Main Problem.
+**Compute tier:** small tier. Embeddings: Qwen3-Embedding-0.6B on Apple MPS. LM: TODO (see Entry 2).
+**Time splits (Main Problem):** train up to end of 2023; choose settings on 2024; test once on papers from July 2025 onward.
+**Test-set rule:** the test list is hashed and the hash committed here BEFORE any test evaluation. Test is opened once.
+**Resampling unit:** paper (or input group / generating system when pairs share them).
+**Controls on every result:** empty inputs, shuffled inputs, decoy question.
+**Baselines:** B-Q, B-ABS, B-TF, B-LEN.
+**Predictions (E1, made before measuring):** TODO - fill in below.
+- E1 prediction: Qwen3-Embedding-0.6B places C closer to A than B on about __% of items (my guess, from one example: ...).
+- Correction (2026-10-20): Entry 1 above was dated 2026-10-19 in error; it was written on 2026-10-20. Git commit time is authoritative.
+- E1 prediction (2026-10-20, before measuring): Qwen3-Embedding-0.6B places C closer to A than B on about NN% of items. Reason: one example showed 0.986 vs 0.803.
+- E1 prediction, corrected (2026-10-20): the "NN" above was a placeholder. My number: XX% of items (Qwen3-Embedding-0.6B puts C closer to A than B).
+- E1 prediction, corrected (2026-10-20): the "NN" above was a placeholder. My number: XX% of items (Qwen3-Embedding-0.6B puts C closer to A than B).
+
+## Entry 2 - 2026-10-21 (E1 evaluation protocol)
+
+**Status:** Proposed evaluation protocol, recorded before running the model evaluation. Earlier placeholder entries remain as historical record.
+
+**Models:** Scientific-document embedding: `allenai/specter2_base`. General-purpose embeddings: `intfloat/e5-base-v2`, `BAAI/bge-base-en-v1.5`, `sentence-transformers/all-MiniLM-L6-v2`. Cross-encoder baseline: `cross-encoder/ms-marco-MiniLM-L-6-v2`. Include Qwen3-Embedding-0.6B if it remains the preregistered primary model.
+
+**Predictions:** Before measuring, I predict that Qwen3-Embedding-0.6B will rank C closer to A than B on 60% of items. I predict that general-purpose embedding models will make this error on approximately 40–70% of items. These are hypotheses, not measured results.
+
+**Distance:** For embeddings, d(x,y) = 1 - cosine_similarity(x,y), with normalized embeddings.
+
+**Metrics:** Report near-miss error, overlap shortcut, low-overlap shortcut, scope ordering, and length-flipped scope-ordering performance. Report overall and per near-miss type. For retrieval, retrieve the ten nearest candidates for each A and use the cross-encoder to rank them. Report precision and recall for B and B_min as positives and C and C_tilde as negatives. Compare with a cosine-distance threshold selected with hindsight on the same evaluation set and label it as hindsight-tuned.
+
+**Controls:** Include empty-input, shuffled-input, and decoy-question checks where implemented; clearly report any control not run.
+
+**Held-out test:** Do not use `E1/test_item.jsonl` for model selection, prompt development, debugging, or threshold tuning. Record its SHA-256 hash before formal evaluation and evaluate it only once after the implementation is fixed. The file was printed during an earlier terminal inspection, so it should not be described as completely unseen.
+
+**Cross-encoder caveat:** `cross-encoder/ms-marco-MiniLM-L-6-v2` is a passage-relevance baseline, not a model specifically trained for research-question identity. Do not interpret its score as a calibrated probability of identity.

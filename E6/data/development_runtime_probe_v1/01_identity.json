@@ -1,0 +1,10 @@
+{
+  "checkpoint_sha256": "48559f634fc9757735c3dcf81164e8f7fe23327038773bfafb4de0ef81dcec08",
+  "result": {
+    "ollama_version": "0.40.16",
+    "tag_digest": "b92b218582c521ba287f38f1d6057dcd3c6cbff036f13cac97b5d861f5e58ec3",
+    "tokenizer_metadata_sha256": "0a5090e20207bece62fbd58e81e2d6dcc3ee529d5173f2e66e336ae90507fecb"
+  },
+  "run_identity": "43490d6a3dad0e59dbc1753965ac5e6ede45c24850311f3a21951e08a274cbbd",
+  "step": "01_identity"
+}

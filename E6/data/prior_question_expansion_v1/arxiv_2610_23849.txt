@@ -1,0 +1,98 @@
+[2610.23849] Blind Precise Assembly: Proprioceptive Sim-to-Real Peg-in-Hole for Diverse Parts (https://arxiv.org/abs/2610.23849)
+citeturn6view4 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2610.23849","lineno":null}); Total lines: 164
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1: 
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3: 
+L4: Press Enter to search · 【4†Advanced search】
+L5: 
+L6: # Computer Science > Robotics
+L7: 
+L8: [Submitted on 16 Oct 2026]
+L9: # Title:Blind Precise Assembly: Proprioceptive Sim-to-Real Peg-in-Hole for Diverse Parts
+L10: 
+L11: Authors:【5†Antonia Bronars】, 【6†Younghyo Park】, 【7†Kushal Kedia】, 【8†Pulkit Agrawal】
+L12: 
+L13: View a PDF of the paper titled Blind Precise Assembly: Proprioceptive Sim-to-Real Peg-in-Hole for Diverse Parts, by Antonia Bronars and 3 other authors
+L14: 
+L15: 【9†View PDF】 【10†HTML (experimental)】
+L16: > Abstract:Every robot already carries high-resolution contact sensors: its own joints. Legged robots and humanoids exploit them to walk, run, and track whole-body motions without vision, but there the contacts are large and forceful.
+L17: Is joint sensing also enough for precise, contact-rich assembly, where the robot must find a millimeter-scale opening, mesh gear teeth, or catch a thread through light contact? We study this question by training blind assembly policies that observe only a short history of joint positions, velocities, and their own actions, without visual, force, torque, or tactile sensing. The poses of both the fixture and the part are unknown to the policy, and the grasp is randomized substantially.
+L18: The policy must therefore assemble the parts through contact, sensed exclusively through its own proprioception. Trained with reinforcement learning entirely in simulation over randomized parts, grasps, and contacts, such policies learn peg insertion, gear meshing, and nut threading. The peg insertion policy transfers zero-shot to the real world and inserts pegs of different shapes and sizes in 73% of trials.
+L19: Controlled comparisons with matched visual policies in simulation show that blind policies generalize far better to unseen part shapes and sizes, though they can be slower. Training such policies needs thousands of different assemblies, each simulated with its clearance intact, so we also release an open-source generator that builds them procedurally from exact convex pieces for MuJoCo; it is more accurate and faster than convex decomposition or MuJoCo's signed-distance collision.
+L20: Videos and interactive simulations are at 【11†this https URL†younghyopark.me】.
+L21: Comments:  | 21 pages, 15 figures, 7 tables. Antonia Bronars and Younghyo Park contributed equally. Project page: 【11†this https URL†younghyopark.me】
+L22: Subjects:  | Robotics (cs.RO)
+L23: Cite as:  | 【12†arXiv:2610.23849】 [cs.RO]
+L24:    | (or 【13†arXiv:2610.23849v1】 [cs.RO] for this version)
+L25:    | 【14†https://doi.org/10.48550/arXiv.2610.23849†doi.org】 arXiv-issued DOI via DataCite
+L26: ## Submission history
+L27: 
+L28: From: Younghyo Park [【15†view email】]
+L29: [v1] Fri, 16 Oct 2026 17:58:48 UTC (7,834 KB)
+L30: 
+L31: Full-text links:
+L32: 
+L33: ## Access Paper:
+L34: 
+L35: View a PDF of the paper titled Blind Precise Assembly: Proprioceptive Sim-to-Real Peg-in-Hole for Diverse Parts, by Antonia Bronars and 3 other authors
+L36: 
+L37:   * 【9†View PDF】
+L38:   * 【10†HTML (experimental)】
+L39:   * 【16†TeX Source】
+L40: 
+L41: 【17†view license†creativecommons.org】
+L42: 
+L43: ### Additional Features
+L44: 
+L45:   * 【18†Audio Summary】
+L46: ### Current browse context:
+L47: 
+L48: cs.RO
+L49: 
+L50: 【19†< prev】   |   【20†next >】
+L51: 
+L52: 【21†new】 | 【22†recent】 | 【23†2026-10】
+L53: 
+L54: Change to browse by:
+L55: 
+L56: 【24†cs】
+L57: 
+L58: ### References & Citations
+L59: 
+L60:   * 【25†SciX†scixplorer.org】
+L61:   * 【26†Google Scholar†scholar.google.com】
+L62:   * 【27†Semantic Scholar†api.semanticscholar.org】
+L63: 
+L64: [Button: export BibTeX citation] Loading...
+L65: 
+L66: ## BibTeX formatted citation
+L67: 
+L68: [Button: ×]
+L69: 
+L70: loading...
+L71: 
+L72: Data provided by:
+L73: 
+L74: ### Bookmark
+L75: 
+L76: [Input] Bibliographic Tools
+L77: # Bibliographic and Citation Tools
+L78: 
+L79: [Input] Bibliographic Explorer Toggle
+L80: 
+L81: Bibliographic Explorer (【28†What is the Explorer?†info.arxiv.org】)
+L82: 
+L83: [Input] Connected Papers Toggle
+L84: 
+L85: Connected Papers (【29†What is Connected Papers?†www.connectedpapers.com】)
+L86: 
+L87: [Input] Litmaps Toggle
+L88: 
+L89: Litmaps (【30†What is Litmaps?†www.litmaps.co】)
+L90: 
+L91: [Input] scite.ai Toggle
+L92: 
+L93: scite Smart Citations (【31†What are Smart Citations?†www.scite.ai】)
+L94: 
+L95: [Input] Code, Data, Media

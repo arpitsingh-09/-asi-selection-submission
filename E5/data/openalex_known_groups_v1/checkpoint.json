@@ -1,0 +1,39 @@
+{
+  "completed_s2_ids": [
+    "659bf9ce7175e1ec266ff54359e2bd76e0b7ff31",
+    "b26f2037f769d5ffc5f7bdcec2de8da28ec14bee",
+    "ea8c46e193d5121e440daf96edfd15a47151c293"
+  ],
+  "resolved_seeds": {
+    "659bf9ce7175e1ec266ff54359e2bd76e0b7ff31": {
+      "openalex_id": "https://openalex.org/W3027879771",
+      "doi": "https://doi.org/10.48550/arxiv.2005.11401",
+      "publication_date": "2020-05-22",
+      "source_url": "https://api.openalex.org/works/https://arxiv.org/abs/2005.11401",
+      "evidence_url": "https://www.semanticscholar.org/paper/659bf9ce7175e1ec266ff54359e2bd76e0b7ff31",
+      "evidence_kind": "user-verified Semantic Scholar paper page; page bytes not retrieved in this environment",
+      "mapping_record_sha256": "f34aa5f1e82fb55806216d2f1a40b78ce95afa0367b03a44fd721f4827e66cd6",
+      "external_source_evidence_sha256": null
+    },
+    "b26f2037f769d5ffc5f7bdcec2de8da28ec14bee": {
+      "openalex_id": "https://openalex.org/W3015883388",
+      "doi": "https://doi.org/10.18653/v1/2020.emnlp-main.550",
+      "publication_date": "2020-01-01",
+      "source_url": "https://api.openalex.org/works/https://arxiv.org/abs/2004.04906",
+      "evidence_url": "https://www.semanticscholar.org/paper/b26f2037f769d5ffc5f7bdcec2de8da28ec14bee",
+      "evidence_kind": "user-verified Semantic Scholar paper page; page bytes not retrieved in this environment",
+      "mapping_record_sha256": "6ad6670a596b0eb132bc0eacb61496c789add7254a81edde78f53db4278c7aca",
+      "external_source_evidence_sha256": null
+    },
+    "ea8c46e193d5121e440daf96edfd15a47151c293": {
+      "openalex_id": "https://openalex.org/W3039017601",
+      "doi": "https://doi.org/10.18653/v1/2021.eacl-main.74",
+      "publication_date": "2021-01-01",
+      "source_url": "https://api.openalex.org/works/https://arxiv.org/abs/2007.01282",
+      "evidence_url": "https://www.semanticscholar.org/paper/ea8c46e193d5121e440daf96edfd15a47151c293",
+      "evidence_kind": "user-verified Semantic Scholar paper page; page bytes not retrieved in this environment",
+      "mapping_record_sha256": "6c7a5fd3922e0df6baf968518671d27945ba8c8c3989255978400315df9c9be9",
+      "external_source_evidence_sha256": null
+    }
+  }
+}

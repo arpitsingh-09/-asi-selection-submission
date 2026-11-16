@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:48:13.303692+00:00",
+  "identity": "e4d5d3e21007b2ab1863b5a568757643d0023e5d79c3fc2c89ba762a1c449443",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:48:13.292223Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 95,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 16.43746295799997,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:48:13.292223Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2615,
+      "prompt_eval_count": 596,
+      "prompt_sha256": "7a314a90bd4f4f3a1ad6e8186b5642d42b813a56f5d61d3bc7ebd0d5891c9fde",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 691,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 596,
+    "latency_seconds": 16.43746295799997,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:48:13.292223Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 95,
+    "raw_response": "{\n  \"research_question\": \"Does a digit copied from the question represent a value present in the model's state, and if so, when does it appear?\",\n  \"research_question_explicit\": true,\n  \"main_hypothesis\": \"The digit copied from the question is present at the last prompt token, but a probe seeing one prompt at a time barely reads it.\",\n  \"main_hypothesis_explicit\": true\n}",
+    "total_tokens": 691
+  },
+  "reply_sha256": "542266dd3d826033d9cdb4389fb2c373374fcbad3727169ee6ec67a6a0e03e77"
+}

@@ -1,0 +1,79 @@
+[2606.04811] Dream.exe: Can Video Generation Models Dream Executable Robot Manipulation? (https://arxiv.org/abs/2606.04811)
+citeturn9view4 [wordlim: 200] Crawled: 3 days ago; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2606.04811","lineno":null}); Total lines: 164
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1: 
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3: 
+L4: Press Enter to search · 【4†Advanced search】
+L5: 
+L6: # Computer Science > Computer Vision and Pattern Recognition
+L7: 
+L8: [Submitted on 3 Jun 2026 (【5†v1】), last revised 4 Jun 2026 (this version, v2)]
+L9: # Title:Dream.exe: Can Video Generation Models Dream Executable Robot Manipulation?
+L10: 
+L11: Authors:【6†Rui Zhao】, 【7†Kaiming Yang】, 【8†Jifeng Zhu】, 【9†Siyang Chen】, 【10†Ziqi Wang】, 【11†Weijia Wu】, 【12†Kevin Qinghong Lin】, 【13†Heng Wang】, 【14†Mike Zheng Shou】
+L12: 
+L13: View a PDF of the paper titled Dream.exe: Can Video Generation Models Dream Executable Robot Manipulation?, by Rui Zhao and 8 other authors
+L14: 
+L15: 【15†View PDF】 【16†HTML (experimental)】
+L16: > Abstract:Video generation models have made impressive strides in synthesizing visually compelling content, yet their outputs remain confined to the virtual domain.
+L17: A natural question follows: how well do these models reflect the physical world when their generated videos leave the screen and enter reality? We propose robotic manipulation as a concrete, measurable window onto this question: if a model has truly internalized physical laws, the motion it depicts should translate into executable robot behavior. We introduce Dream$.$exe, an evaluation framework that operationalizes this criterion through a video-to-execution pipeline.
+L18: Given a scene image and a task description, Dream$.$exe synthesizes a manipulation video, converts the generated motion into robot trajectories, and executes them in a physics simulator, yielding a grounding signal that purely visual metrics cannot offer. Using this pipeline, we evaluate 8 models spanning frontier closed-source generators, open-source generators, and robot-specific models.
+L19: Our benchmark covers 101 manually curated manipulation tasks at three levels of physical complexity, measured across visual quality, trajectory fidelity, and execution success. Encouragingly, several models achieve measurable execution success, suggesting that generative priors learned from internet-scale data already encode meaningful physical knowledge. Yet visual quality proves a poor predictor of executability, exposing a dimension of model capability that standard visual evaluations do not capture.
+L20: Dream$.$exe will be open-sourced at 【17†this https URL†github.com】.
+L21: Subjects:  | Computer Vision and Pattern Recognition (cs.CV)
+L22: Cite as:  | 【18†arXiv:2606.04811】 [cs.CV]
+L23:    | (or 【19†arXiv:2606.04811v2】 [cs.CV] for this version)
+L24:    | 【20†https://doi.org/10.48550/arXiv.2606.04811†doi.org】 arXiv-issued DOI via DataCite
+L25: ## Submission history
+L26: 
+L27: From: Rui Zhao [【21†view email】]
+L28: 【5†[v1]】 Wed, 3 Jun 2026 12:35:35 UTC (7,821 KB)
+L29: [v2] Thu, 4 Jun 2026 10:52:20 UTC (7,822 KB)
+L30: 
+L31: Full-text links:
+L32: 
+L33: ## Access Paper:
+L34: 
+L35: View a PDF of the paper titled Dream.exe: Can Video Generation Models Dream Executable Robot Manipulation?, by Rui Zhao and 8 other authors
+L36: 
+L37:   * 【15†View PDF】
+L38:   * 【16†HTML (experimental)】
+L39:   * 【22†TeX Source】
+L40: 
+L41: 【23†view license†creativecommons.org】
+L42: 
+L43: ### Additional Features
+L44: 
+L45:   * 【24†Audio Summary】
+L46: ### Current browse context:
+L47: 
+L48: cs.CV
+L49: 
+L50: 【25†< prev】   |   【26†next >】
+L51: 
+L52: 【27†new】 | 【28†recent】 | 【29†2026-06】
+L53: 
+L54: Change to browse by:
+L55: 
+L56: 【30†cs】
+L57: 
+L58: ### References & Citations
+L59: 
+L60:   * 【31†SciX†scixplorer.org】
+L61:   * 【32†Google Scholar†scholar.google.com】
+L62:   * 【33†Semantic Scholar†api.semanticscholar.org】
+L63: 
+L64: [Button: export BibTeX citation] Loading...
+L65: 
+L66: ## BibTeX formatted citation
+L67: 
+L68: [Button: ×]
+L69: 
+L70: loading...
+L71: 
+L72: Data provided by:
+L73: 
+L74: ### Bookmark
+L75: 
+L76: [Input] Bibliographic Tools

@@ -1,0 +1,38 @@
+{
+  "test": "S1",
+  "status": "BLOCKED",
+  "verified_pairs": 0,
+  "eligible_pairs": 0,
+  "pending_pairs": 122,
+  "focal_questions": 61,
+  "new_B_Q_vectors": 183,
+  "vector_dimension": 384,
+  "encoder_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "encoder_preparation_commit": "de7cbef",
+  "real_evaluation_executed": false,
+  "metrics": null,
+  "ci95": null,
+  "missing_dependencies": [
+    "Two agreeing independent human annotations and source-alignment checks per pair",
+    "Verified authored-question creation/availability dates; paper dates are insufficient",
+    "Original input links, chronologically valid shuffled references and verified same-topic decoys",
+    "Explicit model training-data cutoff and eligible prospective cohort/configuration lock"
+  ],
+  "artifacts": {
+    "M/data/s1_review_v3/summary.json": "a05051fe7696e73debc697385ee541f3772d3a906a638cb32e491f10af26afd9",
+    "M/data/s1_review_v3/blind_review_template.jsonl": "7931accc3fcca95dafea7dfd09bfefd6461e07632a83beaaafe28d704cc58d1b",
+    "M/data/s1_review_v3/minilm_vectors.json": "259390b34a9cbb2cfab2f8b19c8d4b746b18e909079b592f4307a58d5aa0052b",
+    "M/data/s1_review_v3/embedding_requests.json": "40aec41fcd9b362a17f59718dc359531389680962e8417b208924816cbe7dfd6",
+    "M/data/s1_review_v3/annotation_manifest.jsonl": "b0a0b9c370258a681ac80e8784233005f704a967eb14d64e6d36e8a7bec2c011"
+  },
+  "other_core_tests": "No newly executable independent tests: per-test dependencies remain in M/data/ingestion_v2/*_status.json",
+  "inference": {
+    "device": "cpu",
+    "threads": 1,
+    "batch_size": 4,
+    "max_seq_length": 128,
+    "max_input_tokens": 30,
+    "torch": "2.8.0",
+    "elapsed_encoding_seconds": 0.8069050410000003
+  }
+}

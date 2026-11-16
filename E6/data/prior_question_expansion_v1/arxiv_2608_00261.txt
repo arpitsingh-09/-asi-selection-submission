@@ -1,0 +1,119 @@
+[2608.00261] Cross-Task Dissociation in Frontier Vision-Language Model Theory of Mind (https://arxiv.org/abs/2608.00261)
+citeturn6view0 [wordlim: 200] Crawled: yesterday; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2608.00261","lineno":null}); Total lines: 164
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1: 
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3: 
+L4: Press Enter to search · 【4†Advanced search】
+L5: 
+L6: # Computer Science > Computation and Language
+L7: 
+L8: [Submitted on 31 Jul 2026]
+L9: # Title:Cross-Task Dissociation in Frontier Vision-Language Model Theory of Mind
+L10: 
+L11: Authors:【5†Kejia Zhang】, 【6†Youran Sun】, 【7†Chugang Yi】, 【8†Haizhao Yang】
+L12: 
+L13: View a PDF of the paper titled Cross-Task Dissociation in Frontier Vision-Language Model Theory of Mind, by Kejia Zhang and 3 other authors
+L14: 
+L15: 【9†View PDF】 【10†HTML (experimental)】
+L16: > Abstract:Do frontier vision-language models present a coherent Theory-of-Mind (ToM) profile across tasks, matching the same human reference group, or does that profile fragment from one paradigm to the next? We evaluate a shared panel of nine frontier VLMs on two psychology-derived benchmarks: the Keysar Director Task (visual perspective-taking under egocentric interference) and the Frith-Happé animated triangles scored with the Castelli rubric (intention attribution from pure motion).
+L17: On the Director Task, without chain-of-thought, the panel makes the egocentric error on 78\% of trials like children rather than adults; variation is substantial across models, and reasoning rescues several models. On the triangles, the panel under-attributes intention: its ToM profile sits more than three times closer to the high-functioning-autistic-adult (HF-ASD) mean than to the typical-development-adult (TD) mean, while Goal-Directed and Random stay near TD.
+L18: No model is nearest TD on both tasks; the model that looks adult-like on the Director Task falls on the HF-ASD side on the triangles, and the most TD-like model on the triangles is child-like on the Director Task. We report group-level descriptions, not diagnostic labels for any model.
+L19: Subjects:  | Computation and Language (cs.CL); Artificial Intelligence (cs.AI); Computer Vision and Pattern Recognition (cs.CV); Multiagent Systems (cs.MA); Neurons and Cognition (q-bio.NC)
+L20: Cite as:  | 【11†arXiv:2608.00261】 [cs.CL]
+L21:    | (or 【12†arXiv:2608.00261v1】 [cs.CL] for this version)
+L22:    | 【13†https://doi.org/10.48550/arXiv.2608.00261†doi.org】 arXiv-issued DOI via DataCite
+L23: ## Submission history
+L24: 
+L25: From: Youran Sun [【14†view email】]
+L26: [v1] Fri, 31 Jul 2026 20:06:38 UTC (755 KB)
+L27: 
+L28: Full-text links:
+L29: 
+L30: ## Access Paper:
+L31: 
+L32: View a PDF of the paper titled Cross-Task Dissociation in Frontier Vision-Language Model Theory of Mind, by Kejia Zhang and 3 other authors
+L33: 
+L34:   * 【9†View PDF】
+L35:   * 【10†HTML (experimental)】
+L36:   * 【15†TeX Source】
+L37: 
+L38: 【16†view license】
+L39: ### Current browse context:
+L40: 
+L41: cs.CL
+L42: 
+L43: 【17†< prev】   |   【18†next >】
+L44: 
+L45: 【19†new】 | 【20†recent】 | 【21†2026-08】
+L46: 
+L47: Change to browse by:
+L48: 
+L49: 【22†cs】
+L50: 【23†cs.AI】
+L51: 【24†cs.CV】
+L52: 【25†cs.MA】
+L53: 【26†q-bio】
+L54: 【27†q-bio.NC】
+L55: 
+L56: ### References & Citations
+L57: 
+L58:   * 【28†NASA ADS†ui.adsabs.harvard.edu】
+L59:   * 【29†Google Scholar†scholar.google.com】
+L60:   * 【30†Semantic Scholar†api.semanticscholar.org】
+L61: 
+L62: [Button: export BibTeX citation] Loading...
+L63: 
+L64: ## BibTeX formatted citation
+L65: 
+L66: [Button: ×]
+L67: 
+L68: loading...
+L69: 
+L70: Data provided by:
+L71: ### Bookmark
+L72: 
+L73: [Input] Bibliographic Tools
+L74: 
+L75: # Bibliographic and Citation Tools
+L76: 
+L77: [Input] Bibliographic Explorer Toggle
+L78: 
+L79: Bibliographic Explorer (【31†What is the Explorer?†info.arxiv.org】)
+L80: 
+L81: [Input] Connected Papers Toggle
+L82: 
+L83: Connected Papers (【32†What is Connected Papers?†www.connectedpapers.com】)
+L84: 
+L85: [Input] Litmaps Toggle
+L86: 
+L87: Litmaps (【33†What is Litmaps?†www.litmaps.co】)
+L88: 
+L89: [Input] scite.ai Toggle
+L90: 
+L91: scite Smart Citations (【34†What are Smart Citations?†www.scite.ai】)
+L92: 
+L93: [Input] Code, Data, Media
+L94: # Code, Data and Media Associated with this Article
+L95: 
+L96: [Input] alphaXiv Toggle
+L97: 
+L98: alphaXiv (【35†What is alphaXiv?†alphaxiv.org】)
+L99: 
+L100: [Input] Links to Code Toggle
+L101: 
+L102: CatalyzeX Code Finder for Papers (【36†What is CatalyzeX?†www.catalyzex.com】)
+L103: 
+L104: [Input] DagsHub Toggle
+L105: 
+L106: DagsHub (【37†What is DagsHub?†dagshub.com】)
+L107: 
+L108: [Input] GotitPub Toggle
+L109: 
+L110: Gotit.pub (【38†What is GotitPub?†gotit.pub】)
+L111: 
+L112: [Input] Huggingface Toggle
+L113: 
+L114: Hugging Face (【39†What is Huggingface?†huggingface.co】)
+L115: 
+L116: [Input] ScienceCast Toggle

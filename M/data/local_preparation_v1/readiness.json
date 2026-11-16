@@ -1,0 +1,57 @@
+{
+  "schema": "M-local-data-preparation-v1",
+  "evaluations_run": 0,
+  "source_sha256": "98036e1d99139a7fa4938362ab45f97fc12f21a91182c0ce5d22ee5be7d0c662",
+  "source_record_count": 3000,
+  "manifests": {
+    "train": "ba18f9b3cd2c781379ac4a98c71c66359a2940c78163388b392ced125af34329",
+    "validation": "a4854b7144724bc28b3b6c2ca0fd0c3b1d57ac6373d029c0dcec40c25f76f842",
+    "test": "a6a81b671d8fdef0427df2f425e43fb6df54825eeecbac77ff467911a9b4734d"
+  },
+  "output_sha256": {
+    "train": "de6cc061474ba72ca8c93b4b988beebab78947f8762434a9d39c78f17310132b",
+    "validation": "3a821cdf778454ac079dda95d317e45783772ec6d1c5e4690c9ae511812d7e4a",
+    "test": "9ca7d9ab6970bddad95c50c76a9e8710c46943b07e5d8b3751f16bdf7dca6851"
+  },
+  "counts": {
+    "train": {
+      "source_date_valid_records": 25,
+      "evaluation_eligible": 0,
+      "empty_controls": 25,
+      "shuffled_ready": 0,
+      "dated_decoy_proposals": 22,
+      "rejected": []
+    },
+    "validation": {
+      "source_date_valid_records": 2,
+      "evaluation_eligible": 0,
+      "empty_controls": 2,
+      "shuffled_ready": 0,
+      "dated_decoy_proposals": 2,
+      "rejected": []
+    },
+    "test": {
+      "source_date_valid_records": 20,
+      "evaluation_eligible": 0,
+      "empty_controls": 20,
+      "shuffled_ready": 0,
+      "dated_decoy_proposals": 20,
+      "rejected": []
+    }
+  },
+  "heldout_fresh_eligible": 0,
+  "genuine_dated_quality_labels": {
+    "peer_review": 0,
+    "later_community_use": 0
+  },
+  "blockers": [
+    "E2 source records are existing development pool; heldout reuse is prohibited.",
+    "Original input-paper references are absent from local raw-paper records.",
+    "Shuffled controls require known original inputs.",
+    "Topic-category decoys are proposals and lack human same-topic verification.",
+    "No dated quality labels link to these question identities.",
+    "No heldout record may be frozen without fresh independent provenance."
+  ],
+  "heldout_candidates_considered": 20,
+  "test_records_frozen": 0
+}

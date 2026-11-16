@@ -1,0 +1,80 @@
+[2504.04827] From Specificity to Generality: Revisiting Generalizable Artifacts in Detecting Face Deepfakes (https://arxiv.org/abs/2504.04827)
+citeturn8view5 [wordlim: 200] Crawled: 2 days ago; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2504.04827","lineno":null}); Total lines: 165
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1: 
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3: 
+L4: Press Enter to search · 【4†Advanced search】
+L5: 
+L6: # Computer Science > Computer Vision and Pattern Recognition
+L7: 
+L8: [Submitted on 7 Apr 2025 (【5†v1】), last revised 27 Sep 2025 (this version, v2)]
+L9: # Title:From Specificity to Generality: Revisiting Generalizable Artifacts in Detecting Face Deepfakes
+L10: 
+L11: Authors:【6†Long Ma】, 【7†Zhiyuan Yan】, 【8†Jin Xu】, 【9†Yize Chen】, 【10†Qinglang Guo】, 【11†Zhen Bi】, 【12†Yong Liao】, 【13†Hui Lin】
+L12: 
+L13: View a PDF of the paper titled From Specificity to Generality: Revisiting Generalizable Artifacts in Detecting Face Deepfakes, by Long Ma and 7 other authors
+L14: 
+L15: 【14†View PDF】 【15†HTML (experimental)】
+L16: > Abstract:Detecting deepfakes has been an increasingly important topic, especially given the rapid development of AI generation techniques. In this paper, we ask: How can we build a universal detection framework that is effective for most facial deepfakes? One significant challenge is the wide variety of deepfake generators available, resulting in varying forgery artifacts (e.g., lighting inconsistency, color mismatch, etc).
+L17: But should we ``teach" the detector to learn all these artifacts separately? It is impossible and impractical to elaborate on them all. So the core idea is to pinpoint the more common and general artifacts across different deepfakes. Accordingly, we categorize deepfake artifacts into two distinct yet complementary types: Face Inconsistency Artifacts (FIA) and Up-Sampling Artifacts (USA).
+L18: FIA arise from the challenge of generating all intricate details, inevitably causing inconsistencies between the complex facial features and relatively uniform surrounding areas. USA, on the other hand, are the inevitable traces left by the generator's decoder during the up-sampling process. This categorization stems from the observation that all existing deepfakes typically exhibit one or both of these artifacts.
+L19: To achieve this, we propose a new data-level pseudo-fake creation framework that constructs fake samples with only the FIA and USA, without introducing extra less-general artifacts. Specifically, we employ a super-resolution to simulate the USA, while design a Blender module that uses image-level self-blending on diverse facial regions to create the FIA.
+L20: We surprisingly found that, with this intuitive design, a standard image classifier trained only with our pseudo-fake data can non-trivially generalize well to unseen deepfakes.
+L21: Subjects:  | Computer Vision and Pattern Recognition (cs.CV); Artificial Intelligence (cs.AI)
+L22: Cite as:  | 【16†arXiv:2504.04827】 [cs.CV]
+L23:    | (or 【17†arXiv:2504.04827v2】 [cs.CV] for this version)
+L24:    | 【18†https://doi.org/10.48550/arXiv.2504.04827†doi.org】 arXiv-issued DOI via DataCite
+L25: ## Submission history
+L26: 
+L27: From: Long Ma [【19†view email】]
+L28: 【5†[v1]】 Mon, 7 Apr 2025 08:34:28 UTC (29,070 KB)
+L29: [v2] Sat, 27 Sep 2025 03:20:14 UTC (4,650 KB)
+L30: 
+L31: Full-text links:
+L32: 
+L33: ## Access Paper:
+L34: 
+L35: View a PDF of the paper titled From Specificity to Generality: Revisiting Generalizable Artifacts in Detecting Face Deepfakes, by Long Ma and 7 other authors
+L36: 
+L37:   * 【14†View PDF】
+L38:   * 【15†HTML (experimental)】
+L39:   * 【20†TeX Source】
+L40: 
+L41: 【21†view license†creativecommons.org】
+L42: 
+L43: ### Additional Features
+L44: 
+L45:   * 【22†Audio Summary】
+L46: ### Current browse context:
+L47: 
+L48: cs.CV
+L49: 
+L50: 【23†< prev】   |   【24†next >】
+L51: 
+L52: 【25†new】 | 【26†recent】 | 【27†2025-04】
+L53: 
+L54: Change to browse by:
+L55: 
+L56: 【28†cs】
+L57: 【29†cs.AI】
+L58: 
+L59: ### References & Citations
+L60: 
+L61:   * 【30†SciX†scixplorer.org】
+L62:   * 【31†Google Scholar†scholar.google.com】
+L63:   * 【32†Semantic Scholar†api.semanticscholar.org】
+L64: 
+L65: [Button: export BibTeX citation] Loading...
+L66: 
+L67: ## BibTeX formatted citation
+L68: 
+L69: [Button: ×]
+L70: 
+L71: loading...
+L72: 
+L73: Data provided by:
+L74: 
+L75: ### Bookmark
+L76: 
+L77: [Input] Bibliographic Tools

@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:33:34.945297+00:00",
+  "identity": "0bd91b090cc4310a4fc5d2dfe8054068749714cb49f7abd00309f0691650c56f",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:33:34.932025Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 93,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 13.371926292000012,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:33:34.932025Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2282,
+      "prompt_eval_count": 447,
+      "prompt_sha256": "b5e56bf2ed5849a086dc754838a26722f9875d8987d40ea770dd7893b2475440",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 540,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 447,
+    "latency_seconds": 13.371926292000012,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:33:34.932025Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 93,
+    "raw_response": "{\n  \"research_question\": \"How can dynamic local community detection be improved to address temporal supervision uncertainty and unbounded error cascades?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"The DISRL framework, with its supervision construction and dual-scale community exploration modules, will outperform state-of-the-art baselines in dynamic community detection scenarios.\",\n  \"main_hypothesis_explicit\": false\n}",
+    "total_tokens": 540
+  },
+  "reply_sha256": "04f6136a3fb722463a245dd094e9e8db2e21011c1a9883ed5a3c3c6df77ca9f3"
+}

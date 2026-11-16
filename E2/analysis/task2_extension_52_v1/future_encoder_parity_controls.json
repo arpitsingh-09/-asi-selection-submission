@@ -1,0 +1,23 @@
+[
+  {
+    "paper_id": "2012.13915v2",
+    "pool": "computation_language",
+    "text": "The authors propose a method called SG-Net that incorporates syntax-guided self-attention into a Transformer encoder to improve language representation.",
+    "text_sha256": "0236b457dc776ab6832604d1ab6eb316dd6abb4c59ef3bf56bd1e43fbcc72d4e",
+    "normalized_float32_vector_sha256": "fbeeaff2faabb715a01af0d26b4c5ea8483e3e9d3b3616eaedf14a7c0fd0ed83"
+  },
+  {
+    "paper_id": "2012.14359v1",
+    "pool": "computer_vision",
+    "text": "A general neurosymbolic method for online visual sensemaking using answer set programming (ASP) is systematically formalised and fully implemented.",
+    "text_sha256": "49ba555973204e42098d17fce09a5f20218336c485e62ba77c72604a0201337e",
+    "normalized_float32_vector_sha256": "baf03a9151c94447727fb8259420b4387c2bd244c46b87217ddeb9b26efc62e7"
+  },
+  {
+    "paper_id": "2012.14961v1",
+    "pool": "machine_learning",
+    "text": "The proposed method uses an adversarial network to de-correlate the relationships between sensitive attributes and learned representations.",
+    "text_sha256": "a3f61f1c97a6e1b16c41ec10cbe0cd884364f364ff1cfde22b456af24f99e722",
+    "normalized_float32_vector_sha256": "6874276a44f0dd0fad55df4a275f823459723681173cd774d88d2b5a3574c126"
+  }
+]

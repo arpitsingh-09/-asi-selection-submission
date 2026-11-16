@@ -1,0 +1,81 @@
+[2405.01534] Plan-Seq-Learn: Language Model Guided RL for Solving Long Horizon Robotics Tasks (https://arxiv.org/abs/2405.01534)
+citeturn8view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2405.01534","lineno":null}); Total lines: 170
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1: 
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3: 
+L4: Press Enter to search · 【4†Advanced search】
+L5: 
+L6: # Computer Science > Machine Learning
+L7: 
+L8: [Submitted on 2 May 2024]
+L9: # Title:Plan-Seq-Learn: Language Model Guided RL for Solving Long Horizon Robotics Tasks
+L10: 
+L11: Authors:【5†Murtaza Dalal】, 【6†Tarun Chiruvolu】, 【7†Devendra Chaplot】, 【8†Ruslan Salakhutdinov】
+L12: 
+L13: View a PDF of the paper titled Plan-Seq-Learn: Language Model Guided RL for Solving Long Horizon Robotics Tasks, by Murtaza Dalal and 3 other authors
+L14: 
+L15: 【9†View PDF】 【10†HTML (experimental)】
+L16: > Abstract:Large Language Models (LLMs) have been shown to be capable of performing high-level planning for long-horizon robotics tasks, yet existing methods require access to a pre-defined skill library (e.g. picking, placing, pulling, pushing, navigating). However, LLM planning does not address how to design or learn those behaviors, which remains challenging particularly in long-horizon settings.
+L17: Furthermore, for many tasks of interest, the robot needs to be able to adjust its behavior in a fine-grained manner, requiring the agent to be capable of modifying low-level control actions.
+L18: Can we instead use the internet-scale knowledge from LLMs for high-level policies, guiding reinforcement learning (RL) policies to efficiently solve robotic control tasks online without requiring a pre-determined set of skills? In this paper, we propose Plan-Seq-Learn (PSL): a modular approach that uses motion planning to bridge the gap between abstract language and learned low-level control for solving long-horizon robotics tasks from scratch.
+L19: We demonstrate that PSL achieves state-of-the-art results on over 25 challenging robotics tasks with up to 10 stages. PSL solves long-horizon tasks from raw visual input spanning four benchmarks at success rates of over 85%, out-performing language-based, classical, and end-to-end approaches. Video results and code at 【11†this https URL†mihdalal.github.io】
+L20: Comments:  | Published at ICLR 2024. Website at 【11†this https URL†mihdalal.github.io】 9 pages, 3 figures, 3 tables; 14 pages appendix (7 additional figures)
+L21: Subjects:  | Machine Learning (cs.LG); Artificial Intelligence (cs.AI); Computer Vision and Pattern Recognition (cs.CV); Robotics (cs.RO)
+L22: Cite as:  | 【12†arXiv:2405.01534】 [cs.LG]
+L23:    | (or 【13†arXiv:2405.01534v1】 [cs.LG] for this version)
+L24:    | 【14†https://doi.org/10.48550/arXiv.2405.01534†doi.org】 arXiv-issued DOI via DataCite
+L25: ## Submission history
+L26: 
+L27: From: Murtaza Dalal [【15†view email】]
+L28: [v1] Thu, 2 May 2024 17:59:31 UTC (16,161 KB)
+L29: 
+L30: Full-text links:
+L31: 
+L32: ## Access Paper:
+L33: 
+L34: View a PDF of the paper titled Plan-Seq-Learn: Language Model Guided RL for Solving Long Horizon Robotics Tasks, by Murtaza Dalal and 3 other authors
+L35: 
+L36:   * 【9†View PDF】
+L37:   * 【10†HTML (experimental)】
+L38:   * 【16†TeX Source】
+L39: 
+L40: 【17†view license†creativecommons.org】
+L41: 
+L42: ### Additional Features
+L43: 
+L44:   * 【18†Audio Summary】
+L45: ### Current browse context:
+L46: 
+L47: cs.LG
+L48: 
+L49: 【19†< prev】   |   【20†next >】
+L50: 
+L51: 【21†new】 | 【22†recent】 | 【23†2024-05】
+L52: 
+L53: Change to browse by:
+L54: 
+L55: 【24†cs】
+L56: 【25†cs.AI】
+L57: 【26†cs.CV】
+L58: 【27†cs.RO】
+L59: 
+L60: ### References & Citations
+L61: 
+L62:   * 【28†SciX†scixplorer.org】
+L63:   * 【29†Google Scholar†scholar.google.com】
+L64:   * 【30†Semantic Scholar†api.semanticscholar.org】
+L65: 
+L66: [Button: export BibTeX citation] Loading...
+L67: 
+L68: ## BibTeX formatted citation
+L69: 
+L70: [Button: ×]
+L71: 
+L72: loading...
+L73: 
+L74: Data provided by:
+L75: 
+L76: ### Bookmark
+L77: 
+L78: [Input] Bibliographic Tools

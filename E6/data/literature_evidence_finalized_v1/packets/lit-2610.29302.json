@@ -1,0 +1,247 @@
+{
+  "actual_extraction_record": {
+    "attempts": [
+      {
+        "attempt": 1,
+        "raw": "{\n  \"research_question\": \"How can language models be effectively compressed and deployed on space robots, addressing the specific requirements of a fixed memory budget, storage format, and validated ground behavior?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"Composing a low-bit model from multiple quantizer families (AWQ, GPTQ, and AutoRound) using a scoring method based on next-token distribution and KL divergence will result in a model with lower perplexity and improved accuracy compared to models using a single quantizer family.\",\n  \"main_hypothesis_explicit\": false\n}",
+        "status": "returned"
+      }
+    ],
+    "error": null,
+    "evaluation_input": {
+      "rendered_prompt": "ROLE\nYou are a scientific paper information extractor.\n\nTASK\nExtract the target paper's research question and main hypothesis using only the supplied paper text.\n\nTARGET PAPER TEXT\nLanguage models are being explored as the interface through which space robots interpret operator commands and select among verified skills. Running them onboard calls for low-bit compression, and flight use adds requirements that generic post-training quantization leaves implicit: a fixed memory budget and storage format, a static artifact under configuration control, and behavior close to the full-precision model validated on the ground. We treat compression as a ground-segment step and study QSelect, which composes one static low-bit model from compatible AWQ, GPTQ, and AutoRound checkpoints by assigning each linear module to one quantizer family and scoring every substitution at the final next-token distribution. The default fidelity mode needs no labels or tuned thresholds and accepts a substitution only when the forward KL divergence from the BF16 reference decreases; an optional target-adapted mode adds answer likelihood on a small labeled set. On DeepSeek-R1-Distill-Qwen-7B, Llama-3.1-8B, and Llama-3.2-3B at 3 and 4 bits, composed models reach lower mean held-out perplexity than every single-family model in all six settings, and the fidelity mode lowers perplexity and KL further. In a matched scaffold, final-output scoring gives lower held-out KL than representation-similarity scoring in all 12 paired runs. With labels from training or development splits of the evaluated task families, the target-adapted mode raises 3-bit pooled accuracy on the two Llama models by 4.3 and 4.5 points over the best single-family model. At 3 bits, unquantized embedding and output layers make up 43-46% of the packed artifact. All evaluations use general-domain benchmarks on a ground GPU; space-domain tasks and flight hardware are left to future work.\n\nRULES\n1. Use only the supplied text.\n2. Do not use outside knowledge or infer information unsupported by the text.\n3. Prefer an explicitly stated research question or hypothesis.\n4. If the research question is not explicitly stated but is clearly supported by the text, provide a concise faithful formulation and set research_question_explicit to false.\n5. If no research question can be reliably identified, return null.\n6. Apply the same explicitness rule to the main hypothesis.\n7. Do not confuse the paper's general topic, method or objective with its research question.\n8. Do not invent a hypothesis merely because the paper reports results.\n9. Keep extracted statements concise and faithful to the authors' meaning.\n\nOUTPUT\nReturn valid JSON only:\n\n{\n  \"research_question\": null,\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": null,\n  \"main_hypothesis_explicit\": false\n}\n\nUse strings instead of null when a statement can be reliably extracted or formulated. Explicitness fields must always be JSON booleans.\n",
+      "target_paper_text": "Language models are being explored as the interface through which space robots interpret operator commands and select among verified skills. Running them onboard calls for low-bit compression, and flight use adds requirements that generic post-training quantization leaves implicit: a fixed memory budget and storage format, a static artifact under configuration control, and behavior close to the full-precision model validated on the ground. We treat compression as a ground-segment step and study QSelect, which composes one static low-bit model from compatible AWQ, GPTQ, and AutoRound checkpoints by assigning each linear module to one quantizer family and scoring every substitution at the final next-token distribution. The default fidelity mode needs no labels or tuned thresholds and accepts a substitution only when the forward KL divergence from the BF16 reference decreases; an optional target-adapted mode adds answer likelihood on a small labeled set. On DeepSeek-R1-Distill-Qwen-7B, Llama-3.1-8B, and Llama-3.2-3B at 3 and 4 bits, composed models reach lower mean held-out perplexity than every single-family model in all six settings, and the fidelity mode lowers perplexity and KL further. In a matched scaffold, final-output scoring gives lower held-out KL than representation-similarity scoring in all 12 paired runs. With labels from training or development splits of the evaluated task families, the target-adapted mode raises 3-bit pooled accuracy on the two Llama models by 4.3 and 4.5 points over the best single-family model. At 3 bits, unquantized embedding and output layers make up 43-46% of the packed artifact. All evaluations use general-domain benchmarks on a ground GPU; space-domain tasks and flight hardware are left to future work."
+    },
+    "evaluation_input_sha256": "fa2f2a09c5c591fd8c71f95801e9780ade15fcc4c2547ee8e15bdd072338d319",
+    "input_set_id": "lit-2610.29302",
+    "model_response_metadata": {
+      "adapter_metadata": {
+        "backend": "ollama-local",
+        "created_at": "2026-11-12T13:27:04.096133Z",
+        "done": true,
+        "done_reason": "stop",
+        "endpoint": "http://localhost:11434/api/generate",
+        "eval_count": 130,
+        "generation_settings": {
+          "format": "json",
+          "options": {
+            "num_ctx": 32768,
+            "num_predict": 2048,
+            "seed": 2026,
+            "temperature": 0,
+            "top_p": 1
+          },
+          "stream": false
+        },
+        "http_status": 200,
+        "latency_seconds": 14.445234916999993,
+        "model": "gemma3:12b",
+        "model_identity": {
+          "reported_created_at": "2026-11-12T13:27:04.096133Z",
+          "reported_model": "gemma3:12b",
+          "requested_model": "gemma3:12b"
+        },
+        "prompt_characters": 2977,
+        "prompt_eval_count": 657,
+        "prompt_sha256": "2e96948fb7b95d63071c196406442d0b01a4e6e3ecc2ff547f13d190f01f0463",
+        "requested_output_token_limit": 2048,
+        "stage": "reference_target_extraction",
+        "total_tokens": 787,
+        "usage_metadata_available": true
+      },
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "input_tokens": 657,
+      "latency_seconds": 14.445234916999993,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:27:04.096133Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "output_tokens": 130,
+      "total_tokens": 787
+    },
+    "parsed_output": {
+      "main_hypothesis": "Composing a low-bit model from multiple quantizer families (AWQ, GPTQ, and AutoRound) using a scoring method based on next-token distribution and KL divergence will result in a model with lower perplexity and improved accuracy compared to models using a single quantizer family.",
+      "main_hypothesis_explicit": false,
+      "research_question": "How can language models be effectively compressed and deployed on space robots, addressing the specific requirements of a fixed memory budget, storage format, and validated ground behavior?",
+      "research_question_explicit": false
+    },
+    "provenance": {
+      "gold_truth_status": "requires independent validation",
+      "model_configuration": {
+        "context_limit": 32768,
+        "immutable_version_or_digest": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+        "max_output_tokens": 2048,
+        "model": "gemma3:12b",
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "prompt_path": "prompts/e6/09_target_extraction.txt",
+      "prompt_sha256": "5e86dad439efba14bb38174c8754cc5aa06382364472e8ba1d93dfb211c6d941"
+    },
+    "raw_output": "{\n  \"research_question\": \"How can language models be effectively compressed and deployed on space robots, addressing the specific requirements of a fixed memory budget, storage format, and validated ground behavior?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"Composing a low-bit model from multiple quantizer families (AWQ, GPTQ, and AutoRound) using a scoring method based on next-token distribution and KL divergence will result in a model with lower perplexity and improved accuracy compared to models using a single quantizer family.\",\n  \"main_hypothesis_explicit\": false\n}",
+    "schema_status": "provisional_unapproved",
+    "schema_version": "e6-evaluation-provisional-v1",
+    "stage": "reference_target_extraction",
+    "status": "succeeded"
+  },
+  "actual_four_fields": {
+    "main_hypothesis": "Composing a low-bit model from multiple quantizer families (AWQ, GPTQ, and AutoRound) using a scoring method based on next-token distribution and KL divergence will result in a model with lower perplexity and improved accuracy compared to models using a single quantizer family.",
+    "main_hypothesis_explicit": false,
+    "research_question": "How can language models be effectively compressed and deployed on space robots, addressing the specific requirements of a fixed memory budget, storage format, and validated ground behavior?",
+    "research_question_explicit": false
+  },
+  "automatic_consistency_checks": {
+    "checkpoint_integrity": true,
+    "four_field_schema": true,
+    "frozen_source_binding": true,
+    "human_checks_completed": false,
+    "literal_source_checks": {
+      "main_hypothesis": {
+        "semantic_support": "requires_independent_review",
+        "value_present": true,
+        "verbatim_source_spans": []
+      },
+      "research_question": {
+        "semantic_support": "requires_independent_review",
+        "value_present": true,
+        "verbatim_source_spans": []
+      }
+    },
+    "request_and_response_provenance": true,
+    "review_attention_flags": []
+  },
+  "disagreement_categories": {
+    "main_hypothesis_explicitness_accurate": [
+      "explicit_vs_inferred_disagreement",
+      "source_evidence_insufficient"
+    ],
+    "main_hypothesis_extraction_accurate": [
+      "not_the_main_hypothesis",
+      "result_or_method_confused_with_hypothesis",
+      "unsupported_direction_or_relationship",
+      "hypothesis_missing_or_null_incorrect"
+    ],
+    "method_extraction_accurate": [
+      "source_component_missing",
+      "unsupported_component",
+      "incorrect_source_span",
+      "meaning_changed"
+    ],
+    "problem_extraction_accurate": [
+      "source_component_missing",
+      "unsupported_component",
+      "incorrect_source_span",
+      "meaning_changed"
+    ],
+    "research_question_explicitness_accurate": [
+      "explicit_vs_inferred_disagreement",
+      "source_evidence_insufficient"
+    ],
+    "research_question_extraction_accurate": [
+      "wrong_research_objective",
+      "unsupported_inference",
+      "scope_changed",
+      "question_missing_or_null_incorrect"
+    ],
+    "result_extraction_accurate": [
+      "source_component_missing",
+      "unsupported_component",
+      "incorrect_source_span",
+      "meaning_changed"
+    ]
+  },
+  "human_review_complete": false,
+  "input_set_id": "lit-2610.29302",
+  "packet_sha256": "cfa7d0bfe8a7209fb63030fbccf16d74141f43615163fa3a319e26decb9dd5a9",
+  "source_component_sidecar": {
+    "components": {
+      "method": {
+        "annotated_at_utc": null,
+        "annotator_id": null,
+        "character_span": null,
+        "source_quote": null,
+        "text": null
+      },
+      "problem": {
+        "annotated_at_utc": null,
+        "annotator_id": null,
+        "character_span": null,
+        "source_quote": null,
+        "text": null
+      },
+      "result": {
+        "annotated_at_utc": null,
+        "annotator_id": null,
+        "character_span": null,
+        "source_quote": null,
+        "text": null
+      }
+    },
+    "fixed_extraction_sha256": "ce2f8c414a95ffde97b57a50e748bc3261ecffc6f2da374f54a736e4964cecdd",
+    "input_set_id": "lit-2610.29302",
+    "status": "pending_actual_source_annotations",
+    "target_source_field": "abstract",
+    "target_source_text_sha256": "e99103e91c134e511580f9249b24cfa8198169852e0a575582875e405b9d69fc"
+  },
+  "source_component_sidecar_status": "pending_actual_annotations",
+  "source_quote_blocks": [
+    {
+      "character_span": [
+        0,
+        400
+      ],
+      "quote": "Language models are being explored as the interface through which space robots interpret operator commands and select among verified skills. Running them onboard calls for low-bit compression, and flight use adds requirements that generic post-training quantization leaves implicit: a fixed memory budget and storage format, a static artifact under configuration control, and behavior close to the fu",
+      "semantic_role": "unclassified_exact_source_block"
+    },
+    {
+      "character_span": [
+        400,
+        800
+      ],
+      "quote": "ll-precision model validated on the ground. We treat compression as a ground-segment step and study QSelect, which composes one static low-bit model from compatible AWQ, GPTQ, and AutoRound checkpoints by assigning each linear module to one quantizer family and scoring every substitution at the final next-token distribution. The default fidelity mode needs no labels or tuned thresholds and accepts",
+      "semantic_role": "unclassified_exact_source_block"
+    },
+    {
+      "character_span": [
+        800,
+        1200
+      ],
+      "quote": " a substitution only when the forward KL divergence from the BF16 reference decreases; an optional target-adapted mode adds answer likelihood on a small labeled set. On DeepSeek-R1-Distill-Qwen-7B, Llama-3.1-8B, and Llama-3.2-3B at 3 and 4 bits, composed models reach lower mean held-out perplexity than every single-family model in all six settings, and the fidelity mode lowers perplexity and KL fu",
+      "semantic_role": "unclassified_exact_source_block"
+    },
+    {
+      "character_span": [
+        1200,
+        1600
+      ],
+      "quote": "rther. In a matched scaffold, final-output scoring gives lower held-out KL than representation-similarity scoring in all 12 paired runs. With labels from training or development splits of the evaluated task families, the target-adapted mode raises 3-bit pooled accuracy on the two Llama models by 4.3 and 4.5 points over the best single-family model. At 3 bits, unquantized embedding and output layer",
+      "semantic_role": "unclassified_exact_source_block"
+    },
+    {
+      "character_span": [
+        1600,
+        1767
+      ],
+      "quote": "s make up 43-46% of the packed artifact. All evaluations use general-domain benchmarks on a ground GPU; space-domain tasks and flight hardware are left to future work.",
+      "semantic_role": "unclassified_exact_source_block"
+    }
+  ],
+  "target_source_field": "abstract",
+  "target_source_text": "Language models are being explored as the interface through which space robots interpret operator commands and select among verified skills. Running them onboard calls for low-bit compression, and flight use adds requirements that generic post-training quantization leaves implicit: a fixed memory budget and storage format, a static artifact under configuration control, and behavior close to the full-precision model validated on the ground. We treat compression as a ground-segment step and study QSelect, which composes one static low-bit model from compatible AWQ, GPTQ, and AutoRound checkpoints by assigning each linear module to one quantizer family and scoring every substitution at the final next-token distribution. The default fidelity mode needs no labels or tuned thresholds and accepts a substitution only when the forward KL divergence from the BF16 reference decreases; an optional target-adapted mode adds answer likelihood on a small labeled set. On DeepSeek-R1-Distill-Qwen-7B, Llama-3.1-8B, and Llama-3.2-3B at 3 and 4 bits, composed models reach lower mean held-out perplexity than every single-family model in all six settings, and the fidelity mode lowers perplexity and KL further. In a matched scaffold, final-output scoring gives lower held-out KL than representation-similarity scoring in all 12 paired runs. With labels from training or development splits of the evaluated task families, the target-adapted mode raises 3-bit pooled accuracy on the two Llama models by 4.3 and 4.5 points over the best single-family model. At 3 bits, unquantized embedding and output layers make up 43-46% of the packed artifact. All evaluations use general-domain benchmarks on a ground GPU; space-domain tasks and flight hardware are left to future work.",
+  "target_source_text_sha256": "e99103e91c134e511580f9249b24cfa8198169852e0a575582875e405b9d69fc",
+  "target_title": "Compressing Onboard Language Models for Space Robots under a Behavioral-Fidelity Requirement"
+}

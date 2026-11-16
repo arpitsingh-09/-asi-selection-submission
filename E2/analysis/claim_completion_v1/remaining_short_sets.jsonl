@@ -1,0 +1,23 @@
+{"paper_id": "2012.15515v1", "pool": "computation_language", "claim_count": 2, "title": "Neural Machine Translation: A Review of Methods, Resources, and Tools"}
+{"paper_id": "2112.11391v1", "pool": "computation_language", "claim_count": 3, "title": "Voice Quality and Pitch Features in Transformer-Based Speech Recognition"}
+{"paper_id": "2112.13634v1", "pool": "computation_language", "claim_count": 3, "title": "A Survey on non-English Question Answering Dataset"}
+{"paper_id": "2201.02735v1", "pool": "computation_language", "claim_count": 2, "title": "A Deep Learning Approach to Integrate Human-Level Understanding in a Chatbot"}
+{"paper_id": "2312.17025v3", "pool": "computation_language", "claim_count": 2, "title": "Experiential Co-Learning of Software-Developing Agents"}
+{"paper_id": "2401.00907v1", "pool": "computation_language", "claim_count": 3, "title": "LaFFi: Leveraging Hybrid Natural Language Feedback for Fine-tuning Language Models"}
+{"paper_id": "2412.20821v1", "pool": "computation_language", "claim_count": 3, "title": "Enhancing Multimodal Emotion Recognition through Multi-Granularity Cross-Modal Alignment"}
+{"paper_id": "2412.20993v2", "pool": "computation_language", "claim_count": 3, "title": "Efficiently Scaling LLM Reasoning with Certaindex"}
+{"paper_id": "2501.00244v1", "pool": "computation_language", "claim_count": 2, "title": "Have We Designed Generalizable Structural Knowledge Promptings? Systematic Evaluation and Rethinking"}
+{"paper_id": "2610.30066v1", "pool": "computation_language", "claim_count": 3, "title": "Looped Uniform Diffusion Language Models"}
+{"paper_id": "2101.10815v1", "pool": "computer_vision", "claim_count": 2, "title": "Loss Ensembles for Extremely Imbalanced Segmentation"}
+{"paper_id": "2412.20872v2", "pool": "computer_vision", "claim_count": 3, "title": "LINK: Adaptive Modality Interaction for Audio-Visual Video Parsing"}
+{"paper_id": "2501.00318v1", "pool": "computer_vision", "claim_count": 3, "title": "Improving Text-based Person Search via Part-level Cross-modal Correspondence"}
+{"paper_id": "2610.29176v1", "pool": "computer_vision", "claim_count": 3, "title": "Multi-Scale Latent Temporal Compression Attention and Video-Text Cross Attention Fusion for Video Action Detection"}
+{"paper_id": "2012.15413v2", "pool": "machine_learning", "claim_count": 3, "title": "New Bag of Deep Visual Words based features to classify chest x-ray images for COVID-19 diagnosis"}
+{"paper_id": "2101.00082v1", "pool": "machine_learning", "claim_count": 2, "title": "Bosonic Random Walk Networks for Graph Learning"}
+{"paper_id": "2112.15568v1", "pool": "machine_learning", "claim_count": 2, "title": "Actor Loss of Soft Actor Critic Explained"}
+{"paper_id": "2212.14882v1", "pool": "machine_learning", "claim_count": 3, "title": "ChatGPT Makes Medicine Easy to Swallow: An Exploratory Case Study on Simplified Radiology Reports"}
+{"paper_id": "2301.00693v2", "pool": "machine_learning", "claim_count": 3, "title": "Deep Recurrent Learning Through Long Short Term Memory and TOPSIS"}
+{"paper_id": "2312.17361v1", "pool": "machine_learning", "claim_count": 3, "title": "Graph Learning in 4D: a Quaternion-valued Laplacian to Enhance Spectral GCNs"}
+{"paper_id": "2312.17525v1", "pool": "machine_learning", "claim_count": 2, "title": "Design Space Exploration of Approximate Computing Techniques with a Reinforcement Learning Approach"}
+{"paper_id": "2501.00136v1", "pool": "machine_learning", "claim_count": 3, "title": "Detection-Fusion for Knowledge Graph Extraction from Videos"}
+{"paper_id": "2601.00090v2", "pool": "machine_learning", "claim_count": 2, "title": "It's Never Too Late: Noise Optimization for Collapse Recovery in Trained Diffusion Models"}

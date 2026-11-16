@@ -1,0 +1,60 @@
+{
+  "approved_HDR_denominator": false,
+  "feature_mapping": {
+    "partisan_language": {
+      "ground_truth_indices": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "source_texts": [
+        "If the \"partisan_language\" of the given tweet is \"promotes universal healthcare\", then it is likely to be classified as \"likely democratic voter\" and unlikely to be classified as \"likely republican voter\".",
+        "If the \"partisan_language\" of the given tweet is \"defends Second Amendment rights\", then it is a bit unlikely to be classified as \"likely republican voter\" and highly unlikely to be classified as \"likely third-party/abstain voter\".",
+        "If the \"partisan_language\" of the given tweet is \"advocates for libertarian policies\", then it is likely to be classified as \"likely democratic voter\" and unlikely to be classified as \"likely third-party/abstain voter\".",
+        "If the \"partisan_language\" of the given tweet is \"criticizes two-party system\", then it is likely to be classified as \"likely republican voter\" and unlikely to be classified as \"likely third-party/abstain voter\".",
+        "If the \"partisan_language\" of the given tweet is \"supports social justice initiatives\", then it is likely to be classified as \"likely republican voter\" and unlikely to be classified as \"likely third-party/abstain voter\"."
+      ]
+    },
+    "political_event_reaction": {
+      "ground_truth_indices": [
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "source_texts": [
+        "If the \"political_event_reaction\" of the given tweet is \"criticizes Supreme Court decision favoring conservatives\", then it is likely to be classified as \"likely republican voter\" and unlikely to be classified as \"likely democratic voter\".",
+        "If the \"political_event_reaction\" of the given tweet is \"praises Biden's climate change policy\", then it is likely to be classified as \"likely democratic voter\" and unlikely to be classified as \"likely third-party/abstain voter\".",
+        "If the \"political_event_reaction\" of the given tweet is \"condemns government shutdown orchestrated by Republicans\", then it is likely to be classified as \"likely republican voter\" and unlikely to be classified as \"likely third-party/abstain voter\".",
+        "If the \"political_event_reaction\" of the given tweet is \"expresses frustration over lack of third-party debate presence\", then it is likely to be classified as \"likely democratic voter\" and unlikely to be classified as \"likely third-party/abstain voter\".",
+        "If the \"political_event_reaction\" of the given tweet is \"celebrates passage of bipartisan infrastructure bill\", then it is a bit unlikely to be classified as \"likely third-party/abstain voter\" and highly unlikely to be classified as \"likely republican voter\"."
+      ]
+    },
+    "template": {
+      "ground_truth_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "source_texts": [
+        "If the \"template\" of the given tweet is \"I have always shown strong support for [political_endorsement] and my recent posts clearly reflect my stance on [policy_stance]. The language I use often aligns with [partisan_language], especially when reacting to [political_event_reaction].\", then it is highly likely to be classified as \"likely republican voter\" and a bit likely to be classified as \"likely third-party/abstain voter\".",
+        "If the \"template\" of the given tweet is \"After the recent [political_event_reaction], I have become more vocal about my support for [political_endorsement]. My opinions on [policy_stance] are quite evident, and I tend to use [partisan_language] to express them.\", then it is highly likely to be classified as \"likely republican voter\" and a bit likely to be classified as \"likely democratic voter\".",
+        "If the \"template\" of the given tweet is \"My belief in [political_endorsement] has been strengthened by my reactions to [political_event_reaction]. This is why I consistently express my views on [policy_stance] using [partisan_language].\", then it is likely to be classified as \"likely republican voter\" and unlikely to be classified as \"likely democratic voter\".",
+        "If the \"template\" of the given tweet is \"In light of [political_event_reaction], my support for [political_endorsement] has grown. My stance on [policy_stance] is firm, and I often utilize [partisan_language] to articulate my perspective.\", then it is likely to be classified as \"likely republican voter\" and unlikely to be classified as \"likely democratic voter\"."
+      ]
+    }
+  },
+  "feature_mapping_sha256": "44a46624ebfa310bca3f61c6b92b8c5750dd7e7efbcb9f1ee5af6b5678943f0d",
+  "ground_truth_source_sha256": "beab62a37f4ce1be2d3d282ae2df05c11a5da12704db0b5b0f7d8478d84c5c37",
+  "reference_feature_ids": [
+    "partisan_language",
+    "political_event_reaction",
+    "template"
+  ],
+  "status": "literal_source_field_grouping_only_pending_domain_judgment",
+  "warning": "Field grouping is exact syntax, not an approved definition of discoverable features. Do not treat 14 rules as 14 independent features."
+}

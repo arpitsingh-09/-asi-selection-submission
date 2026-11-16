@@ -1,0 +1,32 @@
+{
+  "client_configuration": {
+    "backend": "ollama-local",
+    "endpoint": "http://localhost:11434/api/generate",
+    "format": "json",
+    "generation_options": {
+      "num_ctx": 32768,
+      "num_predict": 2048,
+      "seed": 2026,
+      "temperature": 0,
+      "top_p": 1
+    },
+    "model": "gemma3:12b",
+    "stream": false,
+    "timeout_seconds": 600.0
+  },
+  "content_attempt": 1,
+  "identity": "c93b46c9f98b15be2b96478dd5b8391bc642f2ff0c98531113da31ac5c8c0a2a",
+  "model_configuration": {
+    "context_limit": 32768,
+    "immutable_version_or_digest": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+    "max_output_tokens": 2048,
+    "model": "gemma3:12b",
+    "seed": 2026,
+    "temperature": 0,
+    "top_p": 1
+  },
+  "prompt": "ROLE\nYou are a scientific paper information extractor.\n\nTASK\nExtract the target paper's research question and main hypothesis using only the supplied paper text.\n\nTARGET PAPER TEXT\nIn recent years, automated fruit classification systems have become a more critical component in precision agriculture for efficient yield estimation, quality control, and supply chain optimization. However, they still face significant challenges under varying quality, fruit maturity, illumination, texture degradation, morphological attributes, domain shift, and post-harvest handling conditions. In this study, we address the challenging issue of cross-grade banana variety classification. This is a real-world setting where models that have been trained on specific quality grades must generalize to unseen grades to handle significant domain shift. Under a rigorous Leave-One-Grade-Out evaluation protocol, we present a thorough comparative analysis of CNNs, ViTs, and dual-stream hybrid architectures using a large-scale dataset of 31,678 banana images with three varieties and three quality grades. Specifically, to address the drawbacks of single-paradigm frameworks, we present a dual-stream Swin ResNet hybrid framework enhanced with KL-divergence-based self-distillation to align probabilistic feature representations across the CNN and Transformer streams. Comprehensive experimental analyzes show that the presented hybrid framework with KL-divergence based self-distillation achieves better overall performance, i.e., it attains a mean accuracy of 81.25% and significantly surpasses CNN and Transformer baseline models. Qualitative analysis further confirms that the hybrid framework in this study improves discriminative feature transferability, improves attention localization, and stabilizes optimization.\n\nRULES\n1. Use only the supplied text.\n2. Do not use outside knowledge or infer information unsupported by the text.\n3. Prefer an explicitly stated research question or hypothesis.\n4. If the research question is not explicitly stated but is clearly supported by the text, provide a concise faithful formulation and set research_question_explicit to false.\n5. If no research question can be reliably identified, return null.\n6. Apply the same explicitness rule to the main hypothesis.\n7. Do not confuse the paper's general topic, method or objective with its research question.\n8. Do not invent a hypothesis merely because the paper reports results.\n9. Keep extracted statements concise and faithful to the authors' meaning.\n\nOUTPUT\nReturn valid JSON only:\n\n{\n  \"research_question\": null,\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": null,\n  \"main_hypothesis_explicit\": false\n}\n\nUse strings instead of null when a statement can be reliably extracted or formulated. Explicitness fields must always be JSON booleans.\n",
+  "prompt_sha256": "eae229a1ccdd3caee563e5354c4bea406d324f56701b26033b5b3c2d6ac12932",
+  "stage": "reference_target_extraction",
+  "started_at_utc": "2026-11-12T13:30:02.916225+00:00"
+}

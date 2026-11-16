@@ -1,0 +1,215 @@
+{
+  "schema_version": "e6-decision-classification-v1",
+  "meaning": {
+    "A": "Explicit assignment constraints; no separate approval needed.",
+    "B": "Verified source/repository facts or existing implementation. This is not researcher approval.",
+    "C": "Remaining scientific choices or unresolved prior approval provenance."
+  },
+  "previous_explicit_row_approvals_found": 0,
+  "prior_protocol_claim": {
+    "path": "E6/prior_protocol_2026-11-04.md",
+    "file_sha256": "1ea6639a1c664055e3fbd8a4131d6593d3dd9035386f14d9d2390bbc2299a635",
+    "claim": "Design decisions approved; identity/provenance/supersession not established. Preserve pending researcher reconciliation.",
+    "conflicts": [
+      "Qwen3 vs Gemma",
+      "seed 49 vs 2026",
+      "Normal/Counterfactual Macro-F1 vs 501-row TEST accuracy",
+      "selector/fallback/random deduplication",
+      "BGE vs Gemma similarity",
+      "generated vs legacy total-token accounting"
+    ]
+  },
+  "assignment_source": {
+    "path": "E6/assignment_e6_excerpt_v1.txt",
+    "file_sha256": "53404862f4d2d0e68d18998ca2342d13a417c7d6fae1a12415059d94fec1992a"
+  },
+  "administrative_ids_without_separate_scientific_approval": [
+    6,
+    7,
+    17
+  ],
+  "researcher_choice_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+  ],
+  "decisions": [
+    {
+      "id": 1,
+      "A": "Predictions must precede evaluation.",
+      "B": "No row-level approval recorded.",
+      "C": "Study status, directions/magnitudes and which protocol governs."
+    },
+    {
+      "id": 2,
+      "A": "Both literature and R44 data testbeds; literature minimum 100.",
+      "B": "216 eligible literature candidates and 501 TEST evaluation rows; legacy per-TEST-row generation is transductive.",
+      "C": "Approve 20 disjoint TRAIN evidence sets of 20 observations, each hypothesis set scored unchanged on all 501 TEST rows; approve 100 literature targets."
+    },
+    {
+      "id": 3,
+      "A": "Bootstrap experimental input sets, not dependent item pairs.",
+      "B": "TRAIN evidence cohorts are the proposed data experimental unit; TEST observations are repeated evaluation items.",
+      "C": "Primary/secondary hierarchy and separate reporting/aggregation."
+    },
+    {
+      "id": 4,
+      "A": "Reference evidence must exclude the target answer; held-out outcomes used for evaluation.",
+      "B": "Source fields and existing leakage barriers.",
+      "C": "Exact task strings, TRAIN-labelled observation allowance and first-ten-reference evidence subset."
+    },
+    {
+      "id": 5,
+      "A": "At least 100 literature input sets.",
+      "B": "Deterministic 100-ID proposal exists; not approved.",
+      "C": "Approve exact sample, seed and strata."
+    },
+    {
+      "id": 6,
+      "A": "Reproducible records; prospective protocol.",
+      "B": "Hashes are mechanically derived from preserved artifacts.",
+      "C": "No separate scientific choice; final freeze still requires chosen sample and artifact sign-off."
+    },
+    {
+      "id": 7,
+      "A": "No numeric ID/version rule mandated.",
+      "B": "Existing canonical IDs, stripped versions and category union are implementation facts.",
+      "C": "No new change proposed; preserve existing identifiers and cover by final artifact sign-off."
+    },
+    {
+      "id": 8,
+      "A": "One generator/settings across arms.",
+      "B": "Gemma local runtime, digest and tokenizer verified; not model selection approval.",
+      "C": "Choose final generator; reconcile older Qwen protocol."
+    },
+    {
+      "id": 9,
+      "A": "Common decoding settings across arms.",
+      "B": "Saved probe supports 32 output tokens; metadata context 131072, not proposed-limit validation.",
+      "C": "Approve generation/output limits; generation and count use the same 32768 context. Live verification remains blocked; 131072 is metadata only."
+    },
+    {
+      "id": 10,
+      "A": "Same inputs across arms.",
+      "B": "Explicit generation seed and fixed/seeded arm-output order are implemented, but active values remain unapproved.",
+      "C": "Replicates, generation seed, arm run order."
+    },
+    {
+      "id": 11,
+      "A": "Report actual generated tokens.",
+      "B": "Retry interfaces exist.",
+      "C": "Attempts and transport/format/timeout retry policies."
+    },
+    {
+      "id": 12,
+      "A": "Report actual outputs without fabricated data.",
+      "B": "Failed-output records are preserved.",
+      "C": "Failure metric values, denominators and replacement policy."
+    },
+    {
+      "id": 13,
+      "A": "QH-sel removes duplicates with same-question model, then ranks using a fixed rule.",
+      "B": "Current Boolean/complete-link/weights/random implementation.",
+      "C": "Exact selector/fallback/random processing and reconciliation with older protocol."
+    },
+    {
+      "id": 14,
+      "A": "D-empty has no substantive inputs.",
+      "B": "Evidence removal and audit interface implemented.",
+      "C": "Exact retained task text and audit policy."
+    },
+    {
+      "id": 15,
+      "A": "D-shuffled receives another input set evidence, never self.",
+      "B": "Seeded derangement implementation exists.",
+      "C": "Approve donor cohorts and interpretation: same-task TRAIN swaps share the underlying mechanism; a different-mechanism negative control requires an adapted donor policy."
+    },
+    {
+      "id": 16,
+      "A": "Common generated-token cap; actual tokens reported.",
+      "B": "8192 generated tokens remains an unapproved cap proposal; no completion adequacy claim.",
+      "C": "Numeric generated-token cap and failure tradeoff."
+    },
+    {
+      "id": 17,
+      "A": "Deliverable JSONL fields and external arm/testbed labels specified.",
+      "B": "Internal envelope is an implemented interface, not scientific approval.",
+      "C": "No separate research choice; implement schema compatibility and retain final artifact sign-off."
+    },
+    {
+      "id": 18,
+      "A": "All arms, both testbeds, all required metric families.",
+      "B": "Metric interfaces exist.",
+      "C": "Per-evidence-set held-out accuracy, real paper HDR versus separate 14-reference recall, evaluator policy and primary contrasts."
+    },
+    {
+      "id": 19,
+      "A": "Best reconstruction similarity and same-question judgment.",
+      "B": "Target extraction is not validated truth.",
+      "C": "Similarity scale/model/rubric, matcher, field missingness."
+    },
+    {
+      "id": 20,
+      "A": "Already-asked rate of generated questions.",
+      "B": "Existing question-source audit has zero explicit questions.",
+      "C": "Corpus scope, valid sources and matching policy; actual corpus is an external-data dependency."
+    },
+    {
+      "id": 21,
+      "A": "Diversity of K hypotheses.",
+      "B": "K=6 is the existing chosen contract; 6/3 is only an assignment example.",
+      "C": "Diversity definition, evaluator and aggregation."
+    },
+    {
+      "id": 22,
+      "A": "Constructive versus analytic question-type distinction.",
+      "B": "Existing prompt includes ambiguous.",
+      "C": "Classifier, repetition and proportions."
+    },
+    {
+      "id": 23,
+      "A": "If pairwise judge used: at most one, both orders, length-matched, labelled judge output.",
+      "B": "Prompt and safeguards already present.",
+      "C": "Enable or explicitly disable optional judge."
+    },
+    {
+      "id": 24,
+      "A": "One fixed target-extraction prompt; check 20 by hand.",
+      "B": "100-target/20-case plan exists; no extraction/review completed.",
+      "C": "Extraction model, case selection, reviewer count, guide/adjudication."
+    },
+    {
+      "id": 25,
+      "A": "Read 20 input sets end to end and write real-example error analysis.",
+      "B": "No outcome inspection performed in this work.",
+      "C": "Case sampling/coding; distinct from the 20 extraction checks."
+    },
+    {
+      "id": 26,
+      "A": "Paired input-set bootstrap, 95% intervals for headline numbers.",
+      "B": "Bootstrap implementation exists.",
+      "C": "Statistic, replicates, RNG, intervals, multiplicity and missingness; exact versions are mechanical once environment is chosen."
+    }
+  ],
+  "proposed_governing_draft": "current_gemma_based_draft; formal approval pending"
+}

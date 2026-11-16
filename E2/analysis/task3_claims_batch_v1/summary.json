@@ -1,0 +1,49 @@
+{
+  "new_source_bound_claim_papers": 10,
+  "new_claims": 51,
+  "remaining_claim_papers": 289,
+  "existing_claim_importer_validation_passed": true,
+  "all_51_new_evidence_offsets_exact": true,
+  "eligible_papers_verified": 0,
+  "all_299_publication_histories_still_require_verification": true,
+  "exact_training_cutoff_established": false,
+  "existing_weights_existence_bound": "2024-12-31T23:59:59.999999+00:00",
+  "specific_model_evidence": {
+    "model_inventory_sha256": "7df5697f992503c49aa8642f1e7f8e3ab0fcdc1acc682ba091aec790a4da55d1",
+    "pinned_card_path": "/Users/arpit/.cache/huggingface/hub/models--allenai--specter2/snapshots/2081559630a80fc5851d8f798a05ba81e9468089/README.md",
+    "pinned_card_sha256": "35e07453097b8a52632532d0b3024075c22b575e1e3c555bef74357cc5042479",
+    "citation_training_excerpt": "SPECTER2 has been trained on over 6M triplets of scientific paper citations",
+    "adapter_training_excerpt": "Post that it is trained with additionally attached task format specific adapter modules on all the [SciRepEval]",
+    "conclusion": "Both citation and adapter training stages matter. Neither this pinned card nor the saved inventory states an exact final training-data publication date. 2023 usage/rename notes do not prove unchanged 2024 pinned weights."
+  },
+  "eligibility_blocker": "OpenReview release is verified, first global public release and archived-text availability then are not. Three older-title identity candidates remain unconfirmed. No cutoff waiver or first-publication evidence exists for a test subset.",
+  "execution_blockers": [
+    "No verified eligible cohort",
+    "Exact cutoff unknown; conservative bound needs explicit policy acceptance, not relabeling as an exact cutoff",
+    "10 supplied claim sets are preparation only; 289 still absent",
+    "Raw abstract-only history/test and claim embeddings absent",
+    "Existing execution plan has stale code bindings and has not been replaced",
+    "No future inference/evaluation authorization"
+  ],
+  "source_sha256": {
+    "/Users/arpit/asi-selection/E2/TASK3_EXECUTION_PROTOCOL.md": "9f15b152e203db5b2833cc7b7e1e1b9ca26223a1ae59d22003ce7b86c58bfa21",
+    "/Users/arpit/asi-selection/E2/CONTINUATION_PROTOCOL.md": "836296a7bc8a42131f589b1ea69b2c335355ae29b54f5325824393a087e8d587",
+    "/Users/arpit/asi-selection/E2/analysis/task3_execution_v1/plan.json": "9e885471009da8adfa91bfb710606834b63c7045542ce2604a43438f18e8c424",
+    "/Users/arpit/asi-selection/E2/analysis/recovered_inputs_v1/reference_manifest.csv": "608130ed0691727bb00aeebb530e80001741b5b0559695d7e573afe9f983680b",
+    "/Users/arpit/asi-selection/E2/analysis/recovered_inputs_v1/benchmark_inputs.jsonl": "5a93effb0066be6046387e7fd7a37c030a2ef7bf908e6fd18f20300cddde3968",
+    "/Users/arpit/asi-selection/E2/data/scoring_results.jsonl": "8aa38111b3dbdf5e4a24534486bb55aa081d6b4bdd32a56244a00e0b2fa99bdc",
+    "/Users/arpit/asi-selection/E2/data/scoring_results.matmul_pilot.jsonl": "9ded2fd37ce365fb13a4621497367315027d54ff2a41608c55cfa04bd7840b1f"
+  },
+  "output_sha256": {
+    "claims_supplied.jsonl": "e9c607396dfa7b2132c10162ca16679376e9ad131b30f1e9a7ca170d255d83be",
+    "semantic_review.jsonl": "c780aaf36f6d9e83f4b06107e3d51d225d76266ad4b6c1575c88c37588594fc2",
+    "claim_text_requests.jsonl": "755494ff6818a78c47598ddd12b90a6c828745738113f46f51085bfa53696b6f"
+  },
+  "frozen_plan_or_protocol_modified": false,
+  "new_embeddings": 0,
+  "real_evaluation_executed": false,
+  "new_AUROCs": null,
+  "human_review": false,
+  "new_tests_run": 0,
+  "validation_scope": "Existing importer and exact evidence checks on new data only; no previous audit or test suite rerun."
+}

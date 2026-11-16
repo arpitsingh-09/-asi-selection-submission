@@ -1,0 +1,24 @@
+{
+  "schema": "M-A1-claim-extraction-preflight-v1",
+  "checked_at_utc": "2026-11-14T12:33:00.935903Z",
+  "registration_commit": "281595fac1280a855cd67d71cf7f357e0a440d0e",
+  "cohort_manifest_sha256": "2577e78a37f951785c577a0a045cc69a264d575ea1c82dc20f310c2fa2bd7702",
+  "expected_cohort_manifest_sha256": "2577e78a37f951785c577a0a045cc69a264d575ea1c82dc20f310c2fa2bd7702",
+  "cohort_hash_verified": true,
+  "selected_papers": 50,
+  "papers_processed": 0,
+  "papers_failed_after_inference": 0,
+  "papers_blocked_before_inference": 50,
+  "claim_count": 0,
+  "claim_outputs": null,
+  "model_tag": "deepseek-r1:8b",
+  "model_digest": null,
+  "preflight_status": "BLOCKED_BEFORE_INFERENCE",
+  "blocker": "deepseek-r1:8b is not installed in the local Ollama service; `ollama list` shows no matching model, so no digest can be recorded and extraction was not started.",
+  "installed_relevant_models": [
+    "qwen3:8b",
+    "gemma3:12b",
+    "qwen3:1.7b"
+  ],
+  "inference_run": false
+}

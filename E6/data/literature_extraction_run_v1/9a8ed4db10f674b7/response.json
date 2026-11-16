@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:28:03.996985+00:00",
+  "identity": "1a6672d75acb03af2bba99647b4427e53851e602f0dd51e262ea43870ab0cd94",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:28:03.984982Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 100,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 11.120004332999997,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:28:03.984982Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2730,
+      "prompt_eval_count": 567,
+      "prompt_sha256": "3780e0bcb782023136821d9d8e03d1fa18ef43e6d67af93c7e1d16a0251d3d28",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 667,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 567,
+    "latency_seconds": 11.120004332999997,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:28:03.984982Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 100,
+    "raw_response": "{\n  \"research_question\": \"How can merging different models for multi-task deployment be improved, particularly when models are locally fine-tuned due to data privacy policies and existing methods apply a uniform merge that ignores geometric relationships among learned subspaces?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"Grouping geometrically compatible tasks provably reduces the per-task projection error of a merged model.\",\n  \"main_hypothesis_explicit\": true\n}",
+    "total_tokens": 667
+  },
+  "reply_sha256": "69390bc9a658e55d155f906d0ab2e7a6ae64a1a2ccfd5da888284611f5aa656f"
+}

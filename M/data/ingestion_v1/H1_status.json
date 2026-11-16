@@ -1,0 +1,14 @@
+{
+  "schema": "M-core-readiness-v2",
+  "test": "H1",
+  "status": "BLOCKED",
+  "eligible_records": 0,
+  "heldout_evaluated": false,
+  "metrics": null,
+  "ci95": null,
+  "baseline_comparisons": null,
+  "missing_dependencies": [
+    "No local source-bound expert battles linked to seed IDs and generating systems with dated labels.",
+    "Q heads unavailable."
+  ]
+}

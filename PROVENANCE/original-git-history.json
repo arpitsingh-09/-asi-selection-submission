@@ -1,0 +1,1603 @@
+{
+  "format": "asi-selection-clean-history-provenance-v1",
+  "original_repository": "/Users/arpit/asi-selection",
+  "original_head": "d281ea6f59c062c1566ef56ef470fb5fb9ce0a96",
+  "original_head_author_date": "2026-11-16T09:04:12+05:30",
+  "original_head_committer_date": "2026-11-16T09:04:12+05:30",
+  "original_commit_count": 138,
+  "commits_newest_first": [
+    {
+      "commit": "d281ea6f59c062c1566ef56ef470fb5fb9ce0a96",
+      "tree": "8a501710a3b042e8396c91f3465d2f277a094c69",
+      "parents": [
+        "b634b8fd10d7e5bc3a2c417ea36f6c03870bbebd"
+      ],
+      "author_date": "2026-11-16T09:04:12+05:30",
+      "committer_date": "2026-11-16T09:04:12+05:30",
+      "subject": "Report saved E6 held-out accuracy"
+    },
+    {
+      "commit": "b634b8fd10d7e5bc3a2c417ea36f6c03870bbebd",
+      "tree": "1b254408cfa4d59474ae2c518cf6c9a8de40e95e",
+      "parents": [
+        "71495f97a775bd0621f626ea03d1ed1dbd6b4955"
+      ],
+      "author_date": "2026-11-16T08:36:52+05:30",
+      "committer_date": "2026-11-16T08:36:52+05:30",
+      "subject": "Report E5 controlled baseline results"
+    },
+    {
+      "commit": "71495f97a775bd0621f626ea03d1ed1dbd6b4955",
+      "tree": "90a7ae50819c913c2459164196dc80688e955139",
+      "parents": [
+        "97723c22fc075f2f31f1d4cec843f2b2a7bd8a41"
+      ],
+      "author_date": "2026-11-16T07:50:01+05:30",
+      "committer_date": "2026-11-16T07:50:01+05:30",
+      "subject": "Document supplementary S1 exploratory result"
+    },
+    {
+      "commit": "97723c22fc075f2f31f1d4cec843f2b2a7bd8a41",
+      "tree": "6618534249681b2ae12bc7408d9c2f353fc10523",
+      "parents": [
+        "e18ace5121c49eb1f94cd3c0c7c40c912643e3e8"
+      ],
+      "author_date": "2026-11-15T23:37:05+05:30",
+      "committer_date": "2026-11-15T23:37:05+05:30",
+      "subject": "Add exploratory supplementary S1 runner"
+    },
+    {
+      "commit": "e18ace5121c49eb1f94cd3c0c7c40c912643e3e8",
+      "tree": "5a6dbdf9f3fba4fd9d2cbcc8e2bb5f06e13ebfac",
+      "parents": [
+        "0280c39e89a8f7d35afc2a713a4c7da4b2619f3a"
+      ],
+      "author_date": "2026-11-15T23:23:48+05:30",
+      "committer_date": "2026-11-15T23:23:48+05:30",
+      "subject": "Freeze exploratory supplementary S1 preregistration"
+    },
+    {
+      "commit": "0280c39e89a8f7d35afc2a713a4c7da4b2619f3a",
+      "tree": "c12d46f87b6c10aedfcd2840a0e7ac432f9a7446",
+      "parents": [
+        "347bb0c494ba283bf84216a45de0117a38d0aa30"
+      ],
+      "author_date": "2026-11-15T22:28:18+05:30",
+      "committer_date": "2026-11-15T22:28:18+05:30",
+      "subject": "Package Main Problem reproducibility artifacts"
+    },
+    {
+      "commit": "347bb0c494ba283bf84216a45de0117a38d0aa30",
+      "tree": "0279db5983279c3bed22ddefde7c775d295bedd2",
+      "parents": [
+        "a5765fbea1948fdde7b90ed60469683b656e817d"
+      ],
+      "author_date": "2026-11-15T21:46:36+05:30",
+      "committer_date": "2026-11-15T21:46:36+05:30",
+      "subject": "Finalize Main Problem research report and limitations"
+    },
+    {
+      "commit": "a5765fbea1948fdde7b90ed60469683b656e817d",
+      "tree": "87cbd57f4f70e9f7c54cf06019f8f8ada877aa0d",
+      "parents": [
+        "8f34d23eeb3957648a8729efadd3dca8f75d0056"
+      ],
+      "author_date": "2026-11-15T21:31:36+05:30",
+      "committer_date": "2026-11-15T21:31:36+05:30",
+      "subject": "Record exploratory V2 review comparison and limitations"
+    },
+    {
+      "commit": "8f34d23eeb3957648a8729efadd3dca8f75d0056",
+      "tree": "048aa36247b66d6f59c9d669298673b93ebfbaae",
+      "parents": [
+        "7390e6a74b962868c280aff0ffe5e09a85dd7f79"
+      ],
+      "author_date": "2026-11-15T13:05:14+05:30",
+      "committer_date": "2026-11-15T13:05:14+05:30",
+      "subject": "Preserve prospective grounding generation evidence and dependencies"
+    },
+    {
+      "commit": "7390e6a74b962868c280aff0ffe5e09a85dd7f79",
+      "tree": "81c2e524352d6097bcff0f4a997bc547f4699bdf",
+      "parents": [
+        "46a79d844db5d601cb7f87296095641c6fa4b086"
+      ],
+      "author_date": "2026-11-15T13:00:50+05:30",
+      "committer_date": "2026-11-15T13:00:50+05:30",
+      "subject": "Preserve blinded V2 human review materials"
+    },
+    {
+      "commit": "46a79d844db5d601cb7f87296095641c6fa4b086",
+      "tree": "f3a23d09ae0f62e07920252cbc0a1bb57f9034e7",
+      "parents": [
+        "313c491c3c2437f95057242a6077f9a1fab68cf7"
+      ],
+      "author_date": "2026-11-15T12:58:49+05:30",
+      "committer_date": "2026-11-15T12:58:49+05:30",
+      "subject": "Document Main Problem prospective grounding evidence and limitations"
+    },
+    {
+      "commit": "313c491c3c2437f95057242a6077f9a1fab68cf7",
+      "tree": "197a94f7804787b8172b726233a88051c1a0d16f",
+      "parents": [
+        "a87b631bc1b4237e950cbaf8abe4e1e4524cc652"
+      ],
+      "author_date": "2026-11-15T12:50:42+05:30",
+      "committer_date": "2026-11-15T12:50:42+05:30",
+      "subject": "Document Main Problem prospective grounding evidence"
+    },
+    {
+      "commit": "a87b631bc1b4237e950cbaf8abe4e1e4524cc652",
+      "tree": "e2b775deb459fd9d5697d0f7d098fdd3e9ca4d2e",
+      "parents": [
+        "76c084a0679a52973542df43aa87866dbd1be782"
+      ],
+      "author_date": "2026-11-15T08:17:41+05:30",
+      "committer_date": "2026-11-15T08:17:41+05:30",
+      "subject": "Register separate prospective grounding V2 generation"
+    },
+    {
+      "commit": "76c084a0679a52973542df43aa87866dbd1be782",
+      "tree": "b0c48a10cd72d7c64f56a34b9e91fed0aeed2e00",
+      "parents": [
+        "4ce003f8c4c7482ff80b03344f5a9e35d51e3343"
+      ],
+      "author_date": "2026-11-15T07:41:05+05:30",
+      "committer_date": "2026-11-15T07:41:05+05:30",
+      "subject": "Finalize prospective grounding pilot preregistration"
+    },
+    {
+      "commit": "4ce003f8c4c7482ff80b03344f5a9e35d51e3343",
+      "tree": "2e378a91d90ab466d390bb2fb99db2482d93ec4b",
+      "parents": [
+        "fa52aa661981973923fd9e6f8c766c9636942578"
+      ],
+      "author_date": "2026-11-14T22:47:31+05:30",
+      "committer_date": "2026-11-14T22:47:31+05:30",
+      "subject": "Finalize Main Problem evidence report"
+    },
+    {
+      "commit": "fa52aa661981973923fd9e6f8c766c9636942578",
+      "tree": "71c54141b0725c165995da2a986dde8598ad1e8b",
+      "parents": [
+        "52ece5a25eb4c9decd9af85a18c5fc2614491a2a"
+      ],
+      "author_date": "2026-11-14T22:24:10+05:30",
+      "committer_date": "2026-11-14T22:24:10+05:30",
+      "subject": "Record supplementary A1 scoring and analysis"
+    },
+    {
+      "commit": "52ece5a25eb4c9decd9af85a18c5fc2614491a2a",
+      "tree": "4f23a7fed2690f11be305195019e02ce130a6fae",
+      "parents": [
+        "42770a2db1d6978c52b8c95e288fa769df7bc10c"
+      ],
+      "author_date": "2026-11-14T22:09:14+05:30",
+      "committer_date": "2026-11-14T22:09:14+05:30",
+      "subject": "Prepare authorized A1 scoring inputs"
+    },
+    {
+      "commit": "42770a2db1d6978c52b8c95e288fa769df7bc10c",
+      "tree": "67c5c28b01bd1f0e4fcd37bf8619253c23dda06a",
+      "parents": [
+        "c73df33a663ce9e648b12524703fd2f255b8097d"
+      ],
+      "author_date": "2026-11-14T21:48:53+05:30",
+      "committer_date": "2026-11-14T21:48:53+05:30",
+      "subject": "Authorize limited supplementary A1 scoring"
+    },
+    {
+      "commit": "c73df33a663ce9e648b12524703fd2f255b8097d",
+      "tree": "bd60b711a2c5058ee816200cdb3725432989092e",
+      "parents": [
+        "c7be68dbf12566083cffc5cad8697121aeb581cc"
+      ],
+      "author_date": "2026-11-14T19:50:48+05:30",
+      "committer_date": "2026-11-14T19:50:48+05:30",
+      "subject": "Approve partial A1 replication amendment 003"
+    },
+    {
+      "commit": "c7be68dbf12566083cffc5cad8697121aeb581cc",
+      "tree": "585ee579d6e37a62ef79203a9944b0e85042dfdf",
+      "parents": [
+        "281595fac1280a855cd67d71cf7f357e0a440d0e"
+      ],
+      "author_date": "2026-11-14T18:10:14+05:30",
+      "committer_date": "2026-11-14T18:10:14+05:30",
+      "subject": "Amend A1 extractor to local Qwen3"
+    },
+    {
+      "commit": "281595fac1280a855cd67d71cf7f357e0a440d0e",
+      "tree": "998dad492e7e6f8b7b60bf2f9974a3afad158713",
+      "parents": [
+        "71ac90c2961595db1e26e6ab2c5bf3a986e56f96"
+      ],
+      "author_date": "2026-11-14T17:56:03+05:30",
+      "committer_date": "2026-11-14T17:56:03+05:30",
+      "subject": "Register supplementary A1 replication"
+    },
+    {
+      "commit": "71ac90c2961595db1e26e6ab2c5bf3a986e56f96",
+      "tree": "682159d42341dfbe1fb11c90725e53af9180f7ae",
+      "parents": [
+        "098d5a0281421be3cc85477c8a50fd84a78a307b"
+      ],
+      "author_date": "2026-11-14T15:32:36+05:30",
+      "committer_date": "2026-11-14T15:32:36+05:30",
+      "subject": "Complete Main Problem implementation and status docs"
+    },
+    {
+      "commit": "098d5a0281421be3cc85477c8a50fd84a78a307b",
+      "tree": "f20e8c2281d58de7cd8ee5df1f05acc835c4ddbc",
+      "parents": [
+        "7ab117ec72e32d813bff775513f140f497ace58c"
+      ],
+      "author_date": "2026-11-13T19:31:36+05:30",
+      "committer_date": "2026-11-13T19:31:36+05:30",
+      "subject": "Preregister deterministic generated-question cohort preparation"
+    },
+    {
+      "commit": "7ab117ec72e32d813bff775513f140f497ace58c",
+      "tree": "2e631dc293b034bab01b0b6d37dcb95404817999",
+      "parents": [
+        "de7cbef7f38fde540a1168317a78328f5d7a7266"
+      ],
+      "author_date": "2026-11-13T18:50:34+05:30",
+      "committer_date": "2026-11-13T18:50:34+05:30",
+      "subject": "Save bounded offline S1 semantic vectors and explicit blocked readiness"
+    },
+    {
+      "commit": "de7cbef7f38fde540a1168317a78328f5d7a7266",
+      "tree": "2a32fd697d0c2e648bce7e648705762e63271195",
+      "parents": [
+        "59a9d405fd29364d8db5ba9a15a75c3ef921097e"
+      ],
+      "author_date": "2026-11-13T18:49:22+05:30",
+      "committer_date": "2026-11-13T18:49:22+05:30",
+      "subject": "Preregister bounded S1 baseline encoding and independent human review workflow"
+    },
+    {
+      "commit": "59a9d405fd29364d8db5ba9a15a75c3ef921097e",
+      "tree": "51010222205d261b9fb341d1f7a1808d7705f5e9",
+      "parents": [
+        "6e21dfea2719db1e67e0e9a8a8b3861ab3ec10a1"
+      ],
+      "author_date": "2026-11-13T18:43:21+05:30",
+      "committer_date": "2026-11-13T18:43:21+05:30",
+      "subject": "Add source-bound M outcome recovery and cache-only baseline adapters"
+    },
+    {
+      "commit": "6e21dfea2719db1e67e0e9a8a8b3861ab3ec10a1",
+      "tree": "2312ee9ed2c9deb1741e122e2d11d30ee22b21dd",
+      "parents": [
+        "8445bb9679394f617dae0e63f8224b297d762250"
+      ],
+      "author_date": "2026-11-13T18:36:04+05:30",
+      "committer_date": "2026-11-13T18:36:04+05:30",
+      "subject": "Implement M shared space, temporal training and preregistered core battery"
+    },
+    {
+      "commit": "8445bb9679394f617dae0e63f8224b297d762250",
+      "tree": "cea1604a4befed95c08738ae0bc6616430e427ba",
+      "parents": [
+        "c0fd73cb74391908d41714a95d394ce8dced6ea6"
+      ],
+      "author_date": "2026-11-13T17:59:50+05:30",
+      "committer_date": "2026-11-13T17:59:50+05:30",
+      "subject": "Fix E5 NumPy scalar export without changing preregistered experiment"
+    },
+    {
+      "commit": "c0fd73cb74391908d41714a95d394ce8dced6ea6",
+      "tree": "f76e63eeb238d12e0a186c43818ae151e602fc1d",
+      "parents": [
+        "77a409191e345b612a933c745583a0a2213a064f"
+      ],
+      "author_date": "2026-11-13T17:58:10+05:30",
+      "committer_date": "2026-11-13T17:58:10+05:30",
+      "subject": "Preregister E5 controlled baseline and implement diversity experiment"
+    },
+    {
+      "commit": "77a409191e345b612a933c745583a0a2213a064f",
+      "tree": "93ca8955fdb27012f850746db65325eed027cf41",
+      "parents": [
+        "588d15bda62861b6ab4d7e1dc4820fcf46020588"
+      ],
+      "author_date": "2026-11-13T17:16:44+05:30",
+      "committer_date": "2026-11-13T17:16:44+05:30",
+      "subject": "Preregister gated N and custom-only E2 extension for fixed 52 focals"
+    },
+    {
+      "commit": "588d15bda62861b6ab4d7e1dc4820fcf46020588",
+      "tree": "28208cd0137534e2fbbda736bb8885a77b6c8485",
+      "parents": [
+        "6637845d3db03b611838b5b9ed7b0d4cc0adb9bf"
+      ],
+      "author_date": "2026-11-13T14:37:24+05:30",
+      "committer_date": "2026-11-13T14:37:24+05:30",
+      "subject": "Preregister cache-only E2 Y and density extension for 52 focals"
+    },
+    {
+      "commit": "6637845d3db03b611838b5b9ed7b0d4cc0adb9bf",
+      "tree": "2ff9d57830d05c9c254640e8b1163b1b2fb16faf",
+      "parents": [
+        "1fa6cf567c518b6a8c344ddfd84b0fa46490d52c"
+      ],
+      "author_date": "2026-11-13T08:06:31+05:30",
+      "committer_date": "2026-11-13T08:06:31+05:30",
+      "subject": "Reauthorize E6 notebook binding for approved E2 documentation"
+    },
+    {
+      "commit": "1fa6cf567c518b6a8c344ddfd84b0fa46490d52c",
+      "tree": "57e12fce026b903777ce2f0c71a0053f093b5f16",
+      "parents": [
+        "e8577a9b536e204b996539908d5c2a046dd1c64c"
+      ],
+      "author_date": "2026-11-13T07:54:28+05:30",
+      "committer_date": "2026-11-13T07:54:28+05:30",
+      "subject": "Prepare frozen CPU-only E2 human-check execution pipeline"
+    },
+    {
+      "commit": "e8577a9b536e204b996539908d5c2a046dd1c64c",
+      "tree": "55f3382a6ac69389a94c624a4183e93c07543578",
+      "parents": [
+        "44077c4153ec93233b4f4ab89e5de75272adbf25"
+      ],
+      "author_date": "2026-11-13T07:37:14+05:30",
+      "committer_date": "2026-11-13T07:37:14+05:30",
+      "subject": "Recover E2 test records and dated reference inputs from local archive"
+    },
+    {
+      "commit": "44077c4153ec93233b4f4ab89e5de75272adbf25",
+      "tree": "4cd94ab8fc4a08589d9dbf8c9510a68299b7720a",
+      "parents": [
+        "a8364cdfd74311cb52a6f83973bfd8302df55c46"
+      ],
+      "author_date": "2026-11-13T07:27:40+05:30",
+      "committer_date": "2026-11-13T07:27:40+05:30",
+      "subject": "Recover E2 claims and evaluate cached pool manipulations"
+    },
+    {
+      "commit": "a8364cdfd74311cb52a6f83973bfd8302df55c46",
+      "tree": "47e099c50ca4e211a24b4a516ff93860b8eae578",
+      "parents": [
+        "b784a39a1c6a7b132510503ee6255ab1f4243623"
+      ],
+      "author_date": "2026-11-13T07:16:43+05:30",
+      "committer_date": "2026-11-13T07:16:43+05:30",
+      "subject": "Record E2 continuation protocol before new cached evaluations"
+    },
+    {
+      "commit": "b784a39a1c6a7b132510503ee6255ab1f4243623",
+      "tree": "c12caeef4af3b4b410e7fc399d2104fd9c1ca648",
+      "parents": [
+        "ee667b397361da4ae1feb7e395bba561c3342a04"
+      ],
+      "author_date": "2026-11-13T07:12:56+05:30",
+      "committer_date": "2026-11-13T07:12:56+05:30",
+      "subject": "Complete E2 offline analysis pipeline and document submission blockers"
+    },
+    {
+      "commit": "ee667b397361da4ae1feb7e395bba561c3342a04",
+      "tree": "eb9efccca6a054a5419b40d6cd54c34d4b7bac0e",
+      "parents": [
+        "cd201587a8a65d7cadb83c96d0ecfc6b0f245864"
+      ],
+      "author_date": "2026-11-12T23:18:56+05:30",
+      "committer_date": "2026-11-12T23:18:56+05:30",
+      "subject": "Fail closed when sandbox denies signaling existing TEST"
+    },
+    {
+      "commit": "cd201587a8a65d7cadb83c96d0ecfc6b0f245864",
+      "tree": "5fed2135227f192f287c75d9c1af7c272c385c7b",
+      "parents": [
+        "0f2128d2fe9e4e1e97d4860b764ac2837d6fff25"
+      ],
+      "author_date": "2026-11-12T23:16:22+05:30",
+      "committer_date": "2026-11-12T23:16:22+05:30",
+      "subject": "Add macOS overnight battery supervisor for existing E6 TEST"
+    },
+    {
+      "commit": "0f2128d2fe9e4e1e97d4860b764ac2837d6fff25",
+      "tree": "256a80244953572c69fcea71dbab12434fadb2ee",
+      "parents": [
+        "5ff0f966b46b7b772262d327b1e9b56c571ee8cc"
+      ],
+      "author_date": "2026-11-12T23:04:39+05:30",
+      "committer_date": "2026-11-12T23:04:39+05:30",
+      "subject": "Retain interrupted optimized TEST requests as invalid without retry"
+    },
+    {
+      "commit": "5ff0f966b46b7b772262d327b1e9b56c571ee8cc",
+      "tree": "ac5a4ae0c7ce3ef34615f9275a7ec15af5ebf0cb",
+      "parents": [
+        "455718f1909aa3470a71dadcf96fe6ddbe078766"
+      ],
+      "author_date": "2026-11-12T22:48:13+05:30",
+      "committer_date": "2026-11-12T22:48:13+05:30",
+      "subject": "Add exact-request E6 held-out TEST continuation"
+    },
+    {
+      "commit": "455718f1909aa3470a71dadcf96fe6ddbe078766",
+      "tree": "ce69b18e3da3d8f9d1b0875fe8e1838f39510efb",
+      "parents": [
+        "1ba785ac869b9a98906499d17bd124f2e19c150b"
+      ],
+      "author_date": "2026-11-12T19:43:10+05:30",
+      "committer_date": "2026-11-12T19:43:10+05:30",
+      "subject": "Scope E6 TEST readiness to authorized held-out accuracy phase"
+    },
+    {
+      "commit": "1ba785ac869b9a98906499d17bd124f2e19c150b",
+      "tree": "aa4c870b1d7bb8e395c6e15920a19ee0d24e8b5b",
+      "parents": [
+        "b7842f29dd89d8495a39398e8ee57478451e2693"
+      ],
+      "author_date": "2026-11-12T18:54:07+05:30",
+      "committer_date": "2026-11-12T18:54:07+05:30",
+      "subject": "Prepare source-bound E6 literature extraction with durable checkpoints"
+    },
+    {
+      "commit": "b7842f29dd89d8495a39398e8ee57478451e2693",
+      "tree": "0ba9879d0d9e36dee1d9a37ba8cff4c8ba8c21fe",
+      "parents": [
+        "bf03aa2143e5c48ee73f9fb0ed110b808b11b650"
+      ],
+      "author_date": "2026-11-12T09:16:13+05:30",
+      "committer_date": "2026-11-12T09:16:13+05:30",
+      "subject": "Preregister E6 seven-arm study with verified Gemma runtime"
+    },
+    {
+      "commit": "bf03aa2143e5c48ee73f9fb0ed110b808b11b650",
+      "tree": "eb82b68a96ab2f4d54cd7195fcaf57a99021f7cf",
+      "parents": [
+        "401fca2f0cda4a09cfda608218c5504c7a22c809"
+      ],
+      "author_date": "2026-10-26T13:45:23+05:30",
+      "committer_date": "2026-10-26T13:45:23+05:30",
+      "subject": "Add E2 paper selection and scoring pipeline"
+    },
+    {
+      "commit": "401fca2f0cda4a09cfda608218c5504c7a22c809",
+      "tree": "4062f88d254f21e9d36550e9fcf57142a09ce7b1",
+      "parents": [
+        "e54eb17d1cce8a6cbe13043faef868e7e330f4e0"
+      ],
+      "author_date": "2026-10-26T12:55:51+05:30",
+      "committer_date": "2026-10-26T12:55:51+05:30",
+      "subject": "PREREG: commit E2 protocol, predictions and timing declaration (first commit of E2 sections, 2026-10-26)"
+    },
+    {
+      "commit": "e54eb17d1cce8a6cbe13043faef868e7e330f4e0",
+      "tree": "8211318e03b47c9ead836da0e09c7c134698ffba",
+      "parents": [
+        "bbd47b2c52a764a94efaa599938bfacc7106a480"
+      ],
+      "author_date": "2026-10-22T21:27:58+05:30",
+      "committer_date": "2026-10-22T21:27:58+05:30",
+      "subject": "E1: document 24-hour reread of items h031-h062"
+    },
+    {
+      "commit": "bbd47b2c52a764a94efaa599938bfacc7106a480",
+      "tree": "c52fccc6b684baf0cb48ec156d0f2a7795302a06",
+      "parents": [
+        "585440becb962dc44dbe252c006028bae5283f23"
+      ],
+      "author_date": "2026-10-22T21:23:06+05:30",
+      "committer_date": "2026-10-22T21:23:06+05:30",
+      "subject": "E1: verify disclosure of unresolved author tags"
+    },
+    {
+      "commit": "585440becb962dc44dbe252c006028bae5283f23",
+      "tree": "dc8c522412edced636274ceaee23c93b881ef489",
+      "parents": [
+        "e52e6ceb9855002a08b0c324b6f4ccdd1c0fd6bf"
+      ],
+      "author_date": "2026-10-22T21:21:12+05:30",
+      "committer_date": "2026-10-22T21:21:12+05:30",
+      "subject": "E1: clarify preregistration history and verification"
+    },
+    {
+      "commit": "e52e6ceb9855002a08b0c324b6f4ccdd1c0fd6bf",
+      "tree": "5c98bea15871cfb828bd9d87afb96a1e4af5f531",
+      "parents": [
+        "305a70c5f2df54be2bc653de581f6b02f98d19ec"
+      ],
+      "author_date": "2026-10-22T21:16:45+05:30",
+      "committer_date": "2026-10-22T21:16:45+05:30",
+      "subject": "E1: document reproduction commands"
+    },
+    {
+      "commit": "305a70c5f2df54be2bc653de581f6b02f98d19ec",
+      "tree": "b645afe83cb7f4d96b8e3a572e933d7cfebf5226",
+      "parents": [
+        "7870833da1d63f4a6c8019be2b75d0d46eb24aa3"
+      ],
+      "author_date": "2026-10-22T21:10:57+05:30",
+      "committer_date": "2026-10-22T21:10:57+05:30",
+      "subject": "E1: clarify unresolved notebook records"
+    },
+    {
+      "commit": "7870833da1d63f4a6c8019be2b75d0d46eb24aa3",
+      "tree": "4bce191ffbb51fa32c24c06da5cbed67a0d0b652",
+      "parents": [
+        "f418587612a01f8e7a880e51e748614ad8685de7"
+      ],
+      "author_date": "2026-10-22T21:07:44+05:30",
+      "committer_date": "2026-10-22T21:07:44+05:30",
+      "subject": "E1: complete AI error log"
+    },
+    {
+      "commit": "f418587612a01f8e7a880e51e748614ad8685de7",
+      "tree": "b89616b56b8d09895fa5077e3be8b84ea9fa52fb",
+      "parents": [
+        "68a88c8033ba939ba601d00261de0ccb4d2207b7"
+      ],
+      "author_date": "2026-10-22T21:06:52+05:30",
+      "committer_date": "2026-10-22T21:06:52+05:30",
+      "subject": "E1: align cross-encoder verification check"
+    },
+    {
+      "commit": "68a88c8033ba939ba601d00261de0ccb4d2207b7",
+      "tree": "c3bc64bc4375d021d75dcd807499898a2ed7b2f6",
+      "parents": [
+        "cb02744e2d07282deb9a275e5c1d04eb8dcde6eb"
+      ],
+      "author_date": "2026-10-22T21:05:23+05:30",
+      "committer_date": "2026-10-22T21:05:23+05:30",
+      "subject": "E1: document exploratory retrieval AUROC"
+    },
+    {
+      "commit": "cb02744e2d07282deb9a275e5c1d04eb8dcde6eb",
+      "tree": "8ea4fcf1159c018e967d9550eda00639e7f020ba",
+      "parents": [
+        "4fd374a495f722bfc0f10d1a2d7a046657922063"
+      ],
+      "author_date": "2026-10-22T21:02:24+05:30",
+      "committer_date": "2026-10-22T21:02:24+05:30",
+      "subject": "E1: clarify unit-normalized scope limitation"
+    },
+    {
+      "commit": "4fd374a495f722bfc0f10d1a2d7a046657922063",
+      "tree": "f574cb0646957d81a545473122b63146b998dcde",
+      "parents": [
+        "9c237276544b88484bf15ba2674d9a3542d2d8ad"
+      ],
+      "author_date": "2026-10-22T21:00:46+05:30",
+      "committer_date": "2026-10-22T21:00:46+05:30",
+      "subject": "E1: document retrieval and deduplication results"
+    },
+    {
+      "commit": "9c237276544b88484bf15ba2674d9a3542d2d8ad",
+      "tree": "7bf56612dca6c364a7603c09e9b348206900722a",
+      "parents": [
+        "6c7c639baac080f6d457b1efa6081bd12eeb274d"
+      ],
+      "author_date": "2026-10-22T20:58:15+05:30",
+      "committer_date": "2026-10-22T20:58:15+05:30",
+      "subject": "E1: add evaluation verification script"
+    },
+    {
+      "commit": "6c7c639baac080f6d457b1efa6081bd12eeb274d",
+      "tree": "615a3a4d1455d9c574ccf73658bb7d8e65ea9bca",
+      "parents": [
+        "607d38339eb303d264f23a7290b415a3d46c2c5b"
+      ],
+      "author_date": "2026-10-22T19:02:48+05:30",
+      "committer_date": "2026-10-22T19:02:48+05:30",
+      "subject": "E1: correct SPECTER2 evaluation and document results"
+    },
+    {
+      "commit": "607d38339eb303d264f23a7290b415a3d46c2c5b",
+      "tree": "1c9de80fcb475ebb475dc3d23297e3508f791cd2",
+      "parents": [
+        "645053cb300a53424a30bd07e55231681417e2b9"
+      ],
+      "author_date": "2026-10-22T14:14:38+05:30",
+      "committer_date": "2026-10-22T14:14:38+05:30",
+      "subject": "AI log: E1 authorship and tool disclosure"
+    },
+    {
+      "commit": "645053cb300a53424a30bd07e55231681417e2b9",
+      "tree": "dca9eb7aa4e612948aca50807ba9f8fd96dd4bf6",
+      "parents": [
+        "52f2135c40fbf8357d304f921003664b5b6b33b0"
+      ],
+      "author_date": "2026-10-22T14:10:52+05:30",
+      "committer_date": "2026-10-22T14:10:52+05:30",
+      "subject": "PREREG: Entry 6, fill placeholder"
+    },
+    {
+      "commit": "52f2135c40fbf8357d304f921003664b5b6b33b0",
+      "tree": "bd533c17484e65ba994012d16c2d9988bf08f7d4",
+      "parents": [
+        "8976b68596adb8683d0f8a467e106dbb86ff7d44"
+      ],
+      "author_date": "2026-10-22T14:09:24+05:30",
+      "committer_date": "2026-10-22T14:09:24+05:30",
+      "subject": "PREREG: Entry 5, evidence on evaluation order"
+    },
+    {
+      "commit": "8976b68596adb8683d0f8a467e106dbb86ff7d44",
+      "tree": "5b808474677865f19f5c10f26e28c0fcdfa428ce",
+      "parents": [
+        "bcd55231581c681fbc072ae36286d285dd9ac87e"
+      ],
+      "author_date": "2026-10-22T14:06:18+05:30",
+      "committer_date": "2026-10-22T14:06:18+05:30",
+      "subject": "PREREG: Entry 4, declaration of missing E1 prediction and edits"
+    },
+    {
+      "commit": "bcd55231581c681fbc072ae36286d285dd9ac87e",
+      "tree": "fcac1d250ac2576a6c702b6d4cacf62103724b36",
+      "parents": [
+        "d2f0ed05cb1bde544ad3dc1e37c91089eb44d4f2"
+      ],
+      "author_date": "2026-10-22T13:59:37+05:30",
+      "committer_date": "2026-10-22T13:59:37+05:30",
+      "subject": "E1: dataset frozen, hash in PREREG"
+    },
+    {
+      "commit": "d2f0ed05cb1bde544ad3dc1e37c91089eb44d4f2",
+      "tree": "48b7116c3313acafb9971628aa82d2c4f2cc436c",
+      "parents": [
+        "3f246af51a3620e94c8ec62c32cfe603542801d5"
+      ],
+      "author_date": "2026-10-21T21:20:55+05:30",
+      "committer_date": "2026-10-21T21:20:55+05:30",
+      "subject": "E1: preregister evaluation protocol and predictions"
+    },
+    {
+      "commit": "3f246af51a3620e94c8ec62c32cfe603542801d5",
+      "tree": "a5739f8c6aeed844bfa55c96f38eeab24177057c",
+      "parents": [
+        "7170267ac5e1c65eb3daff5d71c00052b8f01ebe"
+      ],
+      "author_date": "2026-10-21T21:11:06+05:30",
+      "committer_date": "2026-10-21T21:11:06+05:30",
+      "subject": "E1: item h062"
+    },
+    {
+      "commit": "7170267ac5e1c65eb3daff5d71c00052b8f01ebe",
+      "tree": "da6d93d1dda7674589c72eed111905802f2fc69f",
+      "parents": [
+        "2292eab79330e0f65a7d0268d312f08c842e5f76"
+      ],
+      "author_date": "2026-10-21T21:09:29+05:30",
+      "committer_date": "2026-10-21T21:09:29+05:30",
+      "subject": "E1: item h061"
+    },
+    {
+      "commit": "2292eab79330e0f65a7d0268d312f08c842e5f76",
+      "tree": "ab1443e3855355887964d58d5378961d195be21c",
+      "parents": [
+        "a1ab79e4636c368c3e522e66aee5d519df08c5ee"
+      ],
+      "author_date": "2026-10-21T21:03:14+05:30",
+      "committer_date": "2026-10-21T21:03:14+05:30",
+      "subject": "E1: item h060"
+    },
+    {
+      "commit": "a1ab79e4636c368c3e522e66aee5d519df08c5ee",
+      "tree": "25e69966063068be95e190650f736f310f706c6b",
+      "parents": [
+        "1ebd025672b1f39dee353d93e4a5deb4c2ca1f3d"
+      ],
+      "author_date": "2026-10-21T21:02:49+05:30",
+      "committer_date": "2026-10-21T21:02:49+05:30",
+      "subject": "E1: item h059"
+    },
+    {
+      "commit": "1ebd025672b1f39dee353d93e4a5deb4c2ca1f3d",
+      "tree": "c429f5f2b5318e5a2b8f6432124d2957ab3900ec",
+      "parents": [
+        "a74ff426b18ff4baf8b622b48ac8bfaf79ea9522"
+      ],
+      "author_date": "2026-10-21T21:02:05+05:30",
+      "committer_date": "2026-10-21T21:02:05+05:30",
+      "subject": "E1: item h058"
+    },
+    {
+      "commit": "a74ff426b18ff4baf8b622b48ac8bfaf79ea9522",
+      "tree": "c15b5984dce7a09b855f815fe14da699a300a4cf",
+      "parents": [
+        "520a23ee2824c3f3e6cdd9d4fffaac846b52e797"
+      ],
+      "author_date": "2026-10-21T21:01:42+05:30",
+      "committer_date": "2026-10-21T21:01:42+05:30",
+      "subject": "E1: item h057"
+    },
+    {
+      "commit": "520a23ee2824c3f3e6cdd9d4fffaac846b52e797",
+      "tree": "0b299602a4610bbecb56958a2ef456be730cacf8",
+      "parents": [
+        "1c269fa1d6c006f49e083eb45d034f8e2e143b2d"
+      ],
+      "author_date": "2026-10-21T21:01:18+05:30",
+      "committer_date": "2026-10-21T21:01:18+05:30",
+      "subject": "E1: item h056"
+    },
+    {
+      "commit": "1c269fa1d6c006f49e083eb45d034f8e2e143b2d",
+      "tree": "938200a840e9a1026303bd9d3d6adeb8bcd5ef4c",
+      "parents": [
+        "a2ed9afc02598a85511ab23926a7605975966a05"
+      ],
+      "author_date": "2026-10-21T21:00:55+05:30",
+      "committer_date": "2026-10-21T21:00:55+05:30",
+      "subject": "E1: item h055"
+    },
+    {
+      "commit": "a2ed9afc02598a85511ab23926a7605975966a05",
+      "tree": "506242ba23865cd6c64f4bf2cd88f9a506567cc0",
+      "parents": [
+        "27a3cf5513786d97455a87f982e378d486776287"
+      ],
+      "author_date": "2026-10-21T20:57:25+05:30",
+      "committer_date": "2026-10-21T20:57:25+05:30",
+      "subject": "E1: item h053"
+    },
+    {
+      "commit": "27a3cf5513786d97455a87f982e378d486776287",
+      "tree": "f47a9154fae5dab9dee96b96b906b2c2a2d2fa15",
+      "parents": [
+        "98f08bd8aeb9ae20644fe368b37065229b5c5db3"
+      ],
+      "author_date": "2026-10-21T20:56:52+05:30",
+      "committer_date": "2026-10-21T20:56:52+05:30",
+      "subject": "E1: item h052"
+    },
+    {
+      "commit": "98f08bd8aeb9ae20644fe368b37065229b5c5db3",
+      "tree": "b3cd86de2d387dc803a2c7b5313dced81d036571",
+      "parents": [
+        "409679d10bc40d9da4b1a8b8845941e1ef8ab778"
+      ],
+      "author_date": "2026-10-21T20:56:22+05:30",
+      "committer_date": "2026-10-21T20:56:22+05:30",
+      "subject": "E1: item h051"
+    },
+    {
+      "commit": "409679d10bc40d9da4b1a8b8845941e1ef8ab778",
+      "tree": "4c2432bf27b73388df28d7120e56b89850ca59a9",
+      "parents": [
+        "980fd65f2f0cafed227fd63f91cc6d41687506f9"
+      ],
+      "author_date": "2026-10-21T20:55:47+05:30",
+      "committer_date": "2026-10-21T20:55:47+05:30",
+      "subject": "E1: item h050"
+    },
+    {
+      "commit": "980fd65f2f0cafed227fd63f91cc6d41687506f9",
+      "tree": "7ce62fd6f7298eeab219e29c182f9c005a9dda08",
+      "parents": [
+        "5b55e25442d53177826a786fcc178b1e95793483"
+      ],
+      "author_date": "2026-10-21T20:54:59+05:30",
+      "committer_date": "2026-10-21T20:54:59+05:30",
+      "subject": "E1: item h049"
+    },
+    {
+      "commit": "5b55e25442d53177826a786fcc178b1e95793483",
+      "tree": "0cd91bb03ca34fba51ccf91223d3a441171b8b4d",
+      "parents": [
+        "a00bde15f076b3abca003e005046ba9ce155574b"
+      ],
+      "author_date": "2026-10-21T20:54:01+05:30",
+      "committer_date": "2026-10-21T20:54:01+05:30",
+      "subject": "E1: item h048"
+    },
+    {
+      "commit": "a00bde15f076b3abca003e005046ba9ce155574b",
+      "tree": "2f0745b15940aa521865e6b61c344bd4a3c90af4",
+      "parents": [
+        "878ddfd52b0b5e545475c0b606997f2cbe50d7b4"
+      ],
+      "author_date": "2026-10-21T20:53:07+05:30",
+      "committer_date": "2026-10-21T20:53:07+05:30",
+      "subject": "E1: item h047"
+    },
+    {
+      "commit": "878ddfd52b0b5e545475c0b606997f2cbe50d7b4",
+      "tree": "00da6a676877fa8f4bfa4bbecf05d252b08cd33a",
+      "parents": [
+        "0935f383cefc09b10ccb3481afa0c86a9cdba996"
+      ],
+      "author_date": "2026-10-21T15:28:43+05:30",
+      "committer_date": "2026-10-21T15:28:43+05:30",
+      "subject": "E1: item h046"
+    },
+    {
+      "commit": "0935f383cefc09b10ccb3481afa0c86a9cdba996",
+      "tree": "ad2d1c36202fdd92c0970d52cfb70a456133ae67",
+      "parents": [
+        "bd01e0ab2bf137ff4c78697b859ce1e20e985406"
+      ],
+      "author_date": "2026-10-21T15:27:02+05:30",
+      "committer_date": "2026-10-21T15:27:02+05:30",
+      "subject": "E1: item h045"
+    },
+    {
+      "commit": "bd01e0ab2bf137ff4c78697b859ce1e20e985406",
+      "tree": "0871d9cb66cde536b9d2e5f7dba8b8a692f6d439",
+      "parents": [
+        "34c5f90c3228178f7230662f0bed589cca0f1e87"
+      ],
+      "author_date": "2026-10-21T15:26:00+05:30",
+      "committer_date": "2026-10-21T15:26:00+05:30",
+      "subject": "E1: item h044"
+    },
+    {
+      "commit": "34c5f90c3228178f7230662f0bed589cca0f1e87",
+      "tree": "b0dfcbedc76831279ce6f1418b518aa6de2743ab",
+      "parents": [
+        "15bdf2a9c2f91fa9463ce736ff0c28d870665d12"
+      ],
+      "author_date": "2026-10-21T15:25:14+05:30",
+      "committer_date": "2026-10-21T15:25:14+05:30",
+      "subject": "E1: item h043"
+    },
+    {
+      "commit": "15bdf2a9c2f91fa9463ce736ff0c28d870665d12",
+      "tree": "f6b7559c17481873a07e243d2a1ef9c2477d4536",
+      "parents": [
+        "c2383108d7d077f99290764592d6cfc04754f959"
+      ],
+      "author_date": "2026-10-21T15:23:37+05:30",
+      "committer_date": "2026-10-21T15:23:37+05:30",
+      "subject": "E1: item h042"
+    },
+    {
+      "commit": "c2383108d7d077f99290764592d6cfc04754f959",
+      "tree": "c18b617a887d3e0d22b88f428469ab4069f53107",
+      "parents": [
+        "3cc4752009019c931eed8d5916f1f33d154a76cb"
+      ],
+      "author_date": "2026-10-21T15:21:57+05:30",
+      "committer_date": "2026-10-21T15:21:57+05:30",
+      "subject": "E1: item h041"
+    },
+    {
+      "commit": "3cc4752009019c931eed8d5916f1f33d154a76cb",
+      "tree": "09e8b2203a5a2906339a96dea7bf3fd2c38e17c4",
+      "parents": [
+        "cf23f750d1a7f4a7565896fd38be8f43703d7dbf"
+      ],
+      "author_date": "2026-10-21T15:21:16+05:30",
+      "committer_date": "2026-10-21T15:21:16+05:30",
+      "subject": "E1: item h040"
+    },
+    {
+      "commit": "cf23f750d1a7f4a7565896fd38be8f43703d7dbf",
+      "tree": "dcd7b8f6860a7597913b0e8b98115a96726fff5c",
+      "parents": [
+        "35ca19609001584e4830feb33490db33ac4f825a"
+      ],
+      "author_date": "2026-10-21T15:19:22+05:30",
+      "committer_date": "2026-10-21T15:19:22+05:30",
+      "subject": "E1: item h039"
+    },
+    {
+      "commit": "35ca19609001584e4830feb33490db33ac4f825a",
+      "tree": "54576c390c6c1e59d212a7e7e17b99ce49bdc3a4",
+      "parents": [
+        "7189420db59e1ce81fa553470629a6de36bdfdc3"
+      ],
+      "author_date": "2026-10-21T15:15:37+05:30",
+      "committer_date": "2026-10-21T15:15:37+05:30",
+      "subject": "E1: item h038"
+    },
+    {
+      "commit": "7189420db59e1ce81fa553470629a6de36bdfdc3",
+      "tree": "8d22dd7fb13a26b6134299d0203d16d2778f9a41",
+      "parents": [
+        "49a7ae69f5ae62b5e1485e2652248d314ac66a46"
+      ],
+      "author_date": "2026-10-21T15:13:56+05:30",
+      "committer_date": "2026-10-21T15:13:56+05:30",
+      "subject": "E1: item h037"
+    },
+    {
+      "commit": "49a7ae69f5ae62b5e1485e2652248d314ac66a46",
+      "tree": "fa81336879c1f2d46cb9beb4a707c24f98d63e78",
+      "parents": [
+        "98357c7682553496112fad35cb0b89bbc1b3ed26"
+      ],
+      "author_date": "2026-10-21T15:12:18+05:30",
+      "committer_date": "2026-10-21T15:12:18+05:30",
+      "subject": "E1: item h036"
+    },
+    {
+      "commit": "98357c7682553496112fad35cb0b89bbc1b3ed26",
+      "tree": "06def2f1faf465eea966620b0f301dbdd8b60486",
+      "parents": [
+        "8b8743c1e5303b7c2ef4fe3448815052280b2467"
+      ],
+      "author_date": "2026-10-21T15:11:13+05:30",
+      "committer_date": "2026-10-21T15:11:13+05:30",
+      "subject": "E1: item h035"
+    },
+    {
+      "commit": "8b8743c1e5303b7c2ef4fe3448815052280b2467",
+      "tree": "d2bf50bbf48a2b77dc48529bf636a27fc5d82962",
+      "parents": [
+        "71addc23e4cef150a5fdff70c43d6354112cfd3c"
+      ],
+      "author_date": "2026-10-21T15:07:03+05:30",
+      "committer_date": "2026-10-21T15:07:03+05:30",
+      "subject": "E1: item h034"
+    },
+    {
+      "commit": "71addc23e4cef150a5fdff70c43d6354112cfd3c",
+      "tree": "d7cf5f3fb1a7138a18ba95ee47e35da3a8abd322",
+      "parents": [
+        "5c256b1ec97b6bc235e0cef68ba57230b8618dc5"
+      ],
+      "author_date": "2026-10-21T15:05:52+05:30",
+      "committer_date": "2026-10-21T15:05:52+05:30",
+      "subject": "E1: item h033"
+    },
+    {
+      "commit": "5c256b1ec97b6bc235e0cef68ba57230b8618dc5",
+      "tree": "e27f12a72fbe78254bfa2c2534b5d1f71d16a2d5",
+      "parents": [
+        "ed0ed45eb80b9fd95f0197d85a75aa2cab14130c"
+      ],
+      "author_date": "2026-10-21T15:04:40+05:30",
+      "committer_date": "2026-10-21T15:04:40+05:30",
+      "subject": "E1: item h032"
+    },
+    {
+      "commit": "ed0ed45eb80b9fd95f0197d85a75aa2cab14130c",
+      "tree": "5662f833771a25b5b9f3a652c15959b498548c6f",
+      "parents": [
+        "3a4561a20de1e2aac3ba805388d4b08891e4bf38"
+      ],
+      "author_date": "2026-10-21T15:00:47+05:30",
+      "committer_date": "2026-10-21T15:00:47+05:30",
+      "subject": "E1: item h031"
+    },
+    {
+      "commit": "3a4561a20de1e2aac3ba805388d4b08891e4bf38",
+      "tree": "ff19e653cec8ef87bfa18ecc46198f3b5b5911a6",
+      "parents": [
+        "4c334e0c180aac3c94956398572237fc5158f7fc"
+      ],
+      "author_date": "2026-10-21T10:43:51+05:30",
+      "committer_date": "2026-10-21T10:43:51+05:30",
+      "subject": "E1: item h030"
+    },
+    {
+      "commit": "4c334e0c180aac3c94956398572237fc5158f7fc",
+      "tree": "0bb47f3d73597e92006ed7408a43543b20d1f1f2",
+      "parents": [
+        "9405a16394ea9371c41753ce40f4159ad9cbf366"
+      ],
+      "author_date": "2026-10-21T10:39:47+05:30",
+      "committer_date": "2026-10-21T10:39:47+05:30",
+      "subject": "E1: item h029"
+    },
+    {
+      "commit": "9405a16394ea9371c41753ce40f4159ad9cbf366",
+      "tree": "2bbcab610210f46cedcd042fde5493b298aa3fb3",
+      "parents": [
+        "aab37dcc90026dccb7f256ae87032f22a29dd3b8"
+      ],
+      "author_date": "2026-10-21T10:25:00+05:30",
+      "committer_date": "2026-10-21T10:25:00+05:30",
+      "subject": "E1: item h027"
+    },
+    {
+      "commit": "aab37dcc90026dccb7f256ae87032f22a29dd3b8",
+      "tree": "01b463b5eb98f040ce7ba6f0aa69bf95a1c2d96e",
+      "parents": [
+        "5743dc08e6ef3507e7d805ef61bde4934e4982e4"
+      ],
+      "author_date": "2026-10-21T10:24:02+05:30",
+      "committer_date": "2026-10-21T10:24:02+05:30",
+      "subject": "E1: item h026"
+    },
+    {
+      "commit": "5743dc08e6ef3507e7d805ef61bde4934e4982e4",
+      "tree": "afe08ac2c1b4bc86e4c0f2c360685cbb843f4cdf",
+      "parents": [
+        "0303c8df9f4ba626783bceac3af9925726240a62"
+      ],
+      "author_date": "2026-10-21T10:23:01+05:30",
+      "committer_date": "2026-10-21T10:23:01+05:30",
+      "subject": "E1: item h025"
+    },
+    {
+      "commit": "0303c8df9f4ba626783bceac3af9925726240a62",
+      "tree": "72932480c37bbd9d3aef5c99d4ae76afbd63d441",
+      "parents": [
+        "c54e01d428e6b2c42c547549411678f63396ad49"
+      ],
+      "author_date": "2026-10-21T10:21:44+05:30",
+      "committer_date": "2026-10-21T10:21:44+05:30",
+      "subject": "E1: item h024"
+    },
+    {
+      "commit": "c54e01d428e6b2c42c547549411678f63396ad49",
+      "tree": "e40f726995e68c37a7e2305a69295b44eb2d2730",
+      "parents": [
+        "66edcc9feacb9e09930715b703737ba7784a5f78"
+      ],
+      "author_date": "2026-10-21T10:19:54+05:30",
+      "committer_date": "2026-10-21T10:19:54+05:30",
+      "subject": "E1: item h023"
+    },
+    {
+      "commit": "66edcc9feacb9e09930715b703737ba7784a5f78",
+      "tree": "f60b9e157ceb7ebbd20d50ecbe07c8f8faba5629",
+      "parents": [
+        "bb35caa0d79861db51bf59719fb2a63614019288"
+      ],
+      "author_date": "2026-10-21T10:17:07+05:30",
+      "committer_date": "2026-10-21T10:17:07+05:30",
+      "subject": "E1: item h022"
+    },
+    {
+      "commit": "bb35caa0d79861db51bf59719fb2a63614019288",
+      "tree": "a7f1793dfbee9ac07f6b579f3be85778a68080e1",
+      "parents": [
+        "4019b808d659502bff5a9253760517a4610e1a20"
+      ],
+      "author_date": "2026-10-21T10:11:36+05:30",
+      "committer_date": "2026-10-21T10:11:36+05:30",
+      "subject": "E1: item h021"
+    },
+    {
+      "commit": "4019b808d659502bff5a9253760517a4610e1a20",
+      "tree": "a9662c261359bb471f6aff4013a744818e89d748",
+      "parents": [
+        "59de1f25d621009f3005ee8d5749bb5cee395cdb"
+      ],
+      "author_date": "2026-10-21T10:10:24+05:30",
+      "committer_date": "2026-10-21T10:10:24+05:30",
+      "subject": "E1: item h020"
+    },
+    {
+      "commit": "59de1f25d621009f3005ee8d5749bb5cee395cdb",
+      "tree": "c1a082feb2056c43066a6ac85d077c274cc5fcd8",
+      "parents": [
+        "522dbf0d246820eac65a0af84e7bf3e91e07bd4b"
+      ],
+      "author_date": "2026-10-21T10:09:28+05:30",
+      "committer_date": "2026-10-21T10:09:28+05:30",
+      "subject": "E1: item h019"
+    },
+    {
+      "commit": "522dbf0d246820eac65a0af84e7bf3e91e07bd4b",
+      "tree": "a1484e2a0fcf43447f163197f678280a3128a6f3",
+      "parents": [
+        "4a0b64434c839e96ca38974a87246bf15297c72d"
+      ],
+      "author_date": "2026-10-21T10:08:25+05:30",
+      "committer_date": "2026-10-21T10:08:25+05:30",
+      "subject": "E1: item h018"
+    },
+    {
+      "commit": "4a0b64434c839e96ca38974a87246bf15297c72d",
+      "tree": "6d7b9acd7ee08a707f88caf3b96a299abdeba37e",
+      "parents": [
+        "a530766126fa977d4d8502182654f1842c16bc4c"
+      ],
+      "author_date": "2026-10-21T10:07:25+05:30",
+      "committer_date": "2026-10-21T10:07:25+05:30",
+      "subject": "E1: item h017 (with open TODOs)"
+    },
+    {
+      "commit": "a530766126fa977d4d8502182654f1842c16bc4c",
+      "tree": "66fbe606ec94115a9e0ae002d7b0dd815096c02e",
+      "parents": [
+        "7dd2c0d3cae5ecc0d214d030951904ce55e9c2c4"
+      ],
+      "author_date": "2026-10-21T10:05:53+05:30",
+      "committer_date": "2026-10-21T10:05:53+05:30",
+      "subject": "E1: item h016"
+    },
+    {
+      "commit": "7dd2c0d3cae5ecc0d214d030951904ce55e9c2c4",
+      "tree": "97ec0d4b14e9f3ea0457f8dfc88875bf9e4723a0",
+      "parents": [
+        "aef20827d1042e8d351a9effa16cd6218d68e49f"
+      ],
+      "author_date": "2026-10-21T10:04:43+05:30",
+      "committer_date": "2026-10-21T10:04:43+05:30",
+      "subject": "E1: item h015"
+    },
+    {
+      "commit": "aef20827d1042e8d351a9effa16cd6218d68e49f",
+      "tree": "a6a6ab7fe7e902ce56828075830bd8ee53b4fae0",
+      "parents": [
+        "a0bb10976a8c4dfe93956a8e5305f480ed2a102e"
+      ],
+      "author_date": "2026-10-21T10:02:49+05:30",
+      "committer_date": "2026-10-21T10:02:49+05:30",
+      "subject": "E1: item h014"
+    },
+    {
+      "commit": "a0bb10976a8c4dfe93956a8e5305f480ed2a102e",
+      "tree": "5d54f2b898d125b79ab0cbc082541e97868fe845",
+      "parents": [
+        "60414d7ef35c1224c78975b476c240d9f220bc4a"
+      ],
+      "author_date": "2026-10-21T09:57:44+05:30",
+      "committer_date": "2026-10-21T09:57:44+05:30",
+      "subject": "E1: item h013"
+    },
+    {
+      "commit": "60414d7ef35c1224c78975b476c240d9f220bc4a",
+      "tree": "da9f466aada317fd3722a2984e968dda80e07e50",
+      "parents": [
+        "898ead0c2e3e816391bb93a771e9522117dc7d60"
+      ],
+      "author_date": "2026-10-21T09:55:23+05:30",
+      "committer_date": "2026-10-21T09:55:23+05:30",
+      "subject": "E1: item h012"
+    },
+    {
+      "commit": "898ead0c2e3e816391bb93a771e9522117dc7d60",
+      "tree": "21b0caac36f6da155ecfe8e85f959c7a37dc8dcd",
+      "parents": [
+        "586db4b24dbe0fff6f4540e647842cc46b76c111"
+      ],
+      "author_date": "2026-10-21T09:54:43+05:30",
+      "committer_date": "2026-10-21T09:54:43+05:30",
+      "subject": "E1: item h012"
+    },
+    {
+      "commit": "586db4b24dbe0fff6f4540e647842cc46b76c111",
+      "tree": "70d6176de9699ed7ff2b4ab4e283264ba98cadac",
+      "parents": [
+        "cdded96f0470eb286979714c74c2e9a8c31c500e"
+      ],
+      "author_date": "2026-10-21T09:40:30+05:30",
+      "committer_date": "2026-10-21T09:40:30+05:30",
+      "subject": "E1: item h011"
+    },
+    {
+      "commit": "cdded96f0470eb286979714c74c2e9a8c31c500e",
+      "tree": "a68a88388b31edf434f6bf4da27a6df675650df9",
+      "parents": [
+        "b2ec0ee10557719425e5631e0b47d91aecafc3d8"
+      ],
+      "author_date": "2026-10-20T17:48:35+05:30",
+      "committer_date": "2026-10-20T17:48:35+05:30",
+      "subject": "E1: item h010"
+    },
+    {
+      "commit": "b2ec0ee10557719425e5631e0b47d91aecafc3d8",
+      "tree": "2068efba9441b42c7511f318a1f248a6ea4f4118",
+      "parents": [
+        "fc46f732558781b459f55ff3c04a0f05a1d6b39d"
+      ],
+      "author_date": "2026-10-20T17:42:46+05:30",
+      "committer_date": "2026-10-20T17:42:46+05:30",
+      "subject": "E1: item h009"
+    },
+    {
+      "commit": "fc46f732558781b459f55ff3c04a0f05a1d6b39d",
+      "tree": "e541ed0388646937eeac79f8249136873813763d",
+      "parents": [
+        "6dea7ef867ebb93784c42049331d21a2a1a463e7"
+      ],
+      "author_date": "2026-10-20T17:33:55+05:30",
+      "committer_date": "2026-10-20T17:33:55+05:30",
+      "subject": "E1: item h008"
+    },
+    {
+      "commit": "6dea7ef867ebb93784c42049331d21a2a1a463e7",
+      "tree": "c4070ae81ebf7c2a84f411e220fd0e5ea7adf7da",
+      "parents": [
+        "be807ac11dd5a4e8334660e8eff60570bd83dc37"
+      ],
+      "author_date": "2026-10-20T17:28:09+05:30",
+      "committer_date": "2026-10-20T17:28:09+05:30",
+      "subject": "E1: item h007"
+    },
+    {
+      "commit": "be807ac11dd5a4e8334660e8eff60570bd83dc37",
+      "tree": "a688d4ac52399cd01f996297776814ae00daa73d",
+      "parents": [
+        "64a816749738cc87996466ad69be9f5f6bd3f4e6"
+      ],
+      "author_date": "2026-10-20T17:18:06+05:30",
+      "committer_date": "2026-10-20T17:18:06+05:30",
+      "subject": "E1: item h006"
+    },
+    {
+      "commit": "64a816749738cc87996466ad69be9f5f6bd3f4e6",
+      "tree": "f39e481fadbe10a1343b8aa6abd9cedadd8ca180",
+      "parents": [
+        "121582aefb813be7114898fd9a3bd07268abf585"
+      ],
+      "author_date": "2026-10-20T10:56:47+05:30",
+      "committer_date": "2026-10-20T10:56:47+05:30",
+      "subject": "E1: item h005"
+    },
+    {
+      "commit": "121582aefb813be7114898fd9a3bd07268abf585",
+      "tree": "2cfad1becc44ca9c759b7bf9ecfa8ef6e71fdcbd",
+      "parents": [
+        "fc62bba9e57fac5eca783ea3ae4ccb9da7394fc6"
+      ],
+      "author_date": "2026-10-20T10:50:56+05:30",
+      "committer_date": "2026-10-20T10:50:56+05:30",
+      "subject": "E1: item h004"
+    },
+    {
+      "commit": "fc62bba9e57fac5eca783ea3ae4ccb9da7394fc6",
+      "tree": "4364782dae8c30ee72c970a16d5818855833987e",
+      "parents": [
+        "f7c20a2477ff1f1b40244c70a09d0dd589a6a6ea"
+      ],
+      "author_date": "2026-10-20T10:46:31+05:30",
+      "committer_date": "2026-10-20T10:46:31+05:30",
+      "subject": "E1: item h003"
+    },
+    {
+      "commit": "f7c20a2477ff1f1b40244c70a09d0dd589a6a6ea",
+      "tree": "b3d5aba5bb552440d8fdd2250e0f0e6d6e75f74a",
+      "parents": [
+        "f02ee72ee6b3858ef5a1dd86c3f0288d02f5adca"
+      ],
+      "author_date": "2026-10-20T10:38:13+05:30",
+      "committer_date": "2026-10-20T10:38:13+05:30",
+      "subject": "E1: item h002"
+    },
+    {
+      "commit": "f02ee72ee6b3858ef5a1dd86c3f0288d02f5adca",
+      "tree": "4e8c2972f7606b60415218d9c55164b128f3f534",
+      "parents": [
+        "a15235855ebf4f375d6526ee1440cd631b6149ee"
+      ],
+      "author_date": "2026-10-20T10:33:24+05:30",
+      "committer_date": "2026-10-20T10:33:24+05:30",
+      "subject": "Remove nano backup"
+    },
+    {
+      "commit": "a15235855ebf4f375d6526ee1440cd631b6149ee",
+      "tree": "30e5b80d35539aa46661d92970157c4d234266f6",
+      "parents": [
+        "c8797a3aa3ee6b6e1efdd9dc94698a16c906ac1a"
+      ],
+      "author_date": "2026-10-20T10:33:01+05:30",
+      "committer_date": "2026-10-20T10:33:01+05:30",
+      "subject": "E1: item h001"
+    },
+    {
+      "commit": "c8797a3aa3ee6b6e1efdd9dc94698a16c906ac1a",
+      "tree": "6c705d4f7afaeb4f3d0af9a2a97983b0b36fe68a",
+      "parents": [
+        "e514efb46d921ae166ec86ca02b58bf0a5e6915c"
+      ],
+      "author_date": "2026-10-20T10:13:22+05:30",
+      "committer_date": "2026-10-20T10:13:22+05:30",
+      "subject": "PREREG: E1 prediction number"
+    },
+    {
+      "commit": "e514efb46d921ae166ec86ca02b58bf0a5e6915c",
+      "tree": "ea271bdb34737bc18831d26d673f367ec3d1a2ad",
+      "parents": [
+        "e16642e2ed2d4ac90b4341fda95cdaea257b1e5f"
+      ],
+      "author_date": "2026-10-20T10:12:39+05:30",
+      "committer_date": "2026-10-20T10:12:39+05:30",
+      "subject": "PREREG: E1 prediction number"
+    },
+    {
+      "commit": "e16642e2ed2d4ac90b4341fda95cdaea257b1e5f",
+      "tree": "144705914e91b3513eb849f16418e8805967979d",
+      "parents": [
+        "4f03fcba40a80ff3954d12eb113cf119f4adeb43"
+      ],
+      "author_date": "2026-10-20T08:34:23+05:30",
+      "committer_date": "2026-10-20T08:34:23+05:30",
+      "subject": "PREREG: E1 prediction"
+    },
+    {
+      "commit": "4f03fcba40a80ff3954d12eb113cf119f4adeb43",
+      "tree": "727ee9e26374154fdff8cafd557c059f0aaba25c",
+      "parents": [
+        "3618da8b05d253091d0fc5bab4fc34b4d2595da6"
+      ],
+      "author_date": "2026-10-20T08:32:46+05:30",
+      "committer_date": "2026-10-20T08:32:46+05:30",
+      "subject": "E1 item checker"
+    },
+    {
+      "commit": "3618da8b05d253091d0fc5bab4fc34b4d2595da6",
+      "tree": "a44451ef1edaed3006213b45029706e37ed354fd",
+      "parents": [
+        "d593e95a3274e21b10d5737e554d009be232f000"
+      ],
+      "author_date": "2026-10-20T08:31:33+05:30",
+      "committer_date": "2026-10-20T08:31:33+05:30",
+      "subject": "Date corrections"
+    },
+    {
+      "commit": "d593e95a3274e21b10d5737e554d009be232f000",
+      "tree": "c11a191430bb414f363bff9129824bb48c66dafb",
+      "parents": [
+        "4b980ce0b7156dd1aaf9c9c6f77ddd3726ef1510"
+      ],
+      "author_date": "2026-10-20T06:31:45+05:30",
+      "committer_date": "2026-10-20T06:31:45+05:30",
+      "subject": "Notebook: LM route works"
+    },
+    {
+      "commit": "4b980ce0b7156dd1aaf9c9c6f77ddd3726ef1510",
+      "tree": "e3030c1d7e3fec44efcdcca3adec069fb895b623",
+      "parents": [
+        "647689c47b00fa991cfb511ef21d8a158a6d3227"
+      ],
+      "author_date": "2026-10-19T18:43:06+05:30",
+      "committer_date": "2026-10-19T18:43:06+05:30",
+      "subject": "Notebook: LM route works"
+    },
+    {
+      "commit": "647689c47b00fa991cfb511ef21d8a158a6d3227",
+      "tree": "9af645f4558e7dd981431fc855fd07e136c004c7",
+      "parents": [
+        "5a7412d46a49d53156e853916c03962a8e8bc264"
+      ],
+      "author_date": "2026-10-19T18:16:10+05:30",
+      "committer_date": "2026-10-19T18:16:10+05:30",
+      "subject": "PREREG: E1 prediction"
+    },
+    {
+      "commit": "5a7412d46a49d53156e853916c03962a8e8bc264",
+      "tree": "1448132b50c6ef2c78d20d4e9dab11150fe06aaa",
+      "parents": [
+        "c045d48168511bca25cbd4de6d4c95e874c9b77c"
+      ],
+      "author_date": "2026-10-19T18:16:01+05:30",
+      "committer_date": "2026-10-19T18:16:01+05:30",
+      "subject": "PREREG entry 1: design and splits"
+    },
+    {
+      "commit": "c045d48168511bca25cbd4de6d4c95e874c9b77c",
+      "tree": "17d42218c0d6d1eefbcc9302ca1e9079f053ad44",
+      "parents": [
+        "fceb0b933929fb1cc8002b97265c928ba379e550"
+      ],
+      "author_date": "2026-10-19T18:12:00+05:30",
+      "committer_date": "2026-10-19T18:12:00+05:30",
+      "subject": "Notebook: first smoke test result"
+    },
+    {
+      "commit": "fceb0b933929fb1cc8002b97265c928ba379e550",
+      "tree": "58469756845b5a147f0f56e53a9aecea3a1683ed",
+      "parents": [
+        "b09c5e57e825268fdd5457f2dc1cb19947f9aedc"
+      ],
+      "author_date": "2026-10-19T18:05:38+05:30",
+      "committer_date": "2026-10-19T18:05:38+05:30",
+      "subject": "Env and gitignore"
+    },
+    {
+      "commit": "b09c5e57e825268fdd5457f2dc1cb19947f9aedc",
+      "tree": "c9ecc70293ef2ff002d40001a8e17abdbd7b95b9",
+      "parents": [],
+      "author_date": "2026-10-19T18:01:10+05:30",
+      "committer_date": "2026-10-19T18:01:10+05:30",
+      "subject": "Repo skeleton"
+    }
+  ],
+  "main_problem_preregistration_history_newest_first": [
+    {
+      "commit": "6e21dfea2719db1e67e0e9a8a8b3861ab3ec10a1",
+      "tree": "2312ee9ed2c9deb1741e122e2d11d30ee22b21dd",
+      "parents": [
+        "8445bb9679394f617dae0e63f8224b297d762250"
+      ],
+      "author_date": "2026-11-13T18:36:04+05:30",
+      "committer_date": "2026-11-13T18:36:04+05:30",
+      "subject": "Implement M shared space, temporal training and preregistered core battery",
+      "M_PREREG_blob": "ea50555a9aec280ea67773317f9dccce05059c14"
+    }
+  ],
+  "oversized_file": {
+    "path": "E6/data/literature_citation_verified_manifest_v1.json",
+    "original_git_blob_oid": "d69f17db2f29af9f534c8a44a174b6c05af490d7",
+    "bytes": 111304260,
+    "sha256": "de3a36ffefa12ba132b84c9138055a8aa07ae9ec0bc9e5b22d6955b825c3dd05",
+    "reconstruction": "Concatenate chunks in listed order. Result is byte-identical to the original file.",
+    "chunks": [
+      {
+        "file": "part-01.bin",
+        "bytes": 50331648,
+        "sha256": "baf8456df31ebacebfc162cbb838da53627b810ff72e0b2a132c2573e6518d61"
+      },
+      {
+        "file": "part-02.bin",
+        "bytes": 50331648,
+        "sha256": "0b9fce798faa32b5ecc60b19fae0e6d140eb83a3869829035659a9c1e0feca70"
+      },
+      {
+        "file": "part-03.bin",
+        "bytes": 10640964,
+        "sha256": "01773a45e975eef9a20d6b082f076ea02b469a5e75bdfb94cc45f7006944d623"
+      }
+    ]
+  },
+  "snapshot_note": "This copy has a new clean Git history. Original commit IDs and timestamps are listed above and can be checked against the untouched original repository; the source tree and original Git objects were not modified.",
+  "root_preregistration_history_newest_first": [
+    {
+      "commit": "b7842f29dd89d8495a39398e8ee57478451e2693",
+      "tree": "0ba9879d0d9e36dee1d9a37ba8cff4c8ba8c21fe",
+      "parents": [
+        "bf03aa2143e5c48ee73f9fb0ed110b808b11b650"
+      ],
+      "author_date": "2026-11-12T09:16:13+05:30",
+      "committer_date": "2026-11-12T09:16:13+05:30",
+      "subject": "Preregister E6 seven-arm study with verified Gemma runtime",
+      "root_PREREG_blob": "d51246e4741c260f446b3ed0fcd877697e0217c0"
+    },
+    {
+      "commit": "401fca2f0cda4a09cfda608218c5504c7a22c809",
+      "tree": "4062f88d254f21e9d36550e9fcf57142a09ce7b1",
+      "parents": [
+        "e54eb17d1cce8a6cbe13043faef868e7e330f4e0"
+      ],
+      "author_date": "2026-10-26T12:55:51+05:30",
+      "committer_date": "2026-10-26T12:55:51+05:30",
+      "subject": "PREREG: commit E2 protocol, predictions and timing declaration (first commit of E2 sections, 2026-10-26)",
+      "root_PREREG_blob": "5e8bb149db004da60fe52cc9b5bc8a758a3f7a9e"
+    },
+    {
+      "commit": "585440becb962dc44dbe252c006028bae5283f23",
+      "tree": "dc8c522412edced636274ceaee23c93b881ef489",
+      "parents": [
+        "e52e6ceb9855002a08b0c324b6f4ccdd1c0fd6bf"
+      ],
+      "author_date": "2026-10-22T21:21:12+05:30",
+      "committer_date": "2026-10-22T21:21:12+05:30",
+      "subject": "E1: clarify preregistration history and verification",
+      "root_PREREG_blob": "e02fcdfe9d1466b634ad85525e2b3ea4785b04db"
+    },
+    {
+      "commit": "645053cb300a53424a30bd07e55231681417e2b9",
+      "tree": "dca9eb7aa4e612948aca50807ba9f8fd96dd4bf6",
+      "parents": [
+        "52f2135c40fbf8357d304f921003664b5b6b33b0"
+      ],
+      "author_date": "2026-10-22T14:10:52+05:30",
+      "committer_date": "2026-10-22T14:10:52+05:30",
+      "subject": "PREREG: Entry 6, fill placeholder",
+      "root_PREREG_blob": "c09cfbdfaab10ba8fec4e5120b3e22ad34265ed3"
+    },
+    {
+      "commit": "52f2135c40fbf8357d304f921003664b5b6b33b0",
+      "tree": "bd533c17484e65ba994012d16c2d9988bf08f7d4",
+      "parents": [
+        "8976b68596adb8683d0f8a467e106dbb86ff7d44"
+      ],
+      "author_date": "2026-10-22T14:09:24+05:30",
+      "committer_date": "2026-10-22T14:09:24+05:30",
+      "subject": "PREREG: Entry 5, evidence on evaluation order",
+      "root_PREREG_blob": "d14eddb2f38953856363175517c065ba4824e980"
+    },
+    {
+      "commit": "8976b68596adb8683d0f8a467e106dbb86ff7d44",
+      "tree": "5b808474677865f19f5c10f26e28c0fcdfa428ce",
+      "parents": [
+        "bcd55231581c681fbc072ae36286d285dd9ac87e"
+      ],
+      "author_date": "2026-10-22T14:06:18+05:30",
+      "committer_date": "2026-10-22T14:06:18+05:30",
+      "subject": "PREREG: Entry 4, declaration of missing E1 prediction and edits",
+      "root_PREREG_blob": "6f12086cef023e9e76d6dcf3170c207d2bf277be"
+    },
+    {
+      "commit": "bcd55231581c681fbc072ae36286d285dd9ac87e",
+      "tree": "fcac1d250ac2576a6c702b6d4cacf62103724b36",
+      "parents": [
+        "d2f0ed05cb1bde544ad3dc1e37c91089eb44d4f2"
+      ],
+      "author_date": "2026-10-22T13:59:37+05:30",
+      "committer_date": "2026-10-22T13:59:37+05:30",
+      "subject": "E1: dataset frozen, hash in PREREG",
+      "root_PREREG_blob": "1369c3b37469d4cf02feac36d283eca8ec307058"
+    },
+    {
+      "commit": "d2f0ed05cb1bde544ad3dc1e37c91089eb44d4f2",
+      "tree": "48b7116c3313acafb9971628aa82d2c4f2cc436c",
+      "parents": [
+        "3f246af51a3620e94c8ec62c32cfe603542801d5"
+      ],
+      "author_date": "2026-10-21T21:20:55+05:30",
+      "committer_date": "2026-10-21T21:20:55+05:30",
+      "subject": "E1: preregister evaluation protocol and predictions",
+      "root_PREREG_blob": "54ccad991488dca782659437de57dd23e7b9ff04"
+    },
+    {
+      "commit": "c8797a3aa3ee6b6e1efdd9dc94698a16c906ac1a",
+      "tree": "6c705d4f7afaeb4f3d0af9a2a97983b0b36fe68a",
+      "parents": [
+        "e514efb46d921ae166ec86ca02b58bf0a5e6915c"
+      ],
+      "author_date": "2026-10-20T10:13:22+05:30",
+      "committer_date": "2026-10-20T10:13:22+05:30",
+      "subject": "PREREG: E1 prediction number",
+      "root_PREREG_blob": "23e23423967fd6256ff140d8db38a1e60958c2a0"
+    },
+    {
+      "commit": "e514efb46d921ae166ec86ca02b58bf0a5e6915c",
+      "tree": "ea271bdb34737bc18831d26d673f367ec3d1a2ad",
+      "parents": [
+        "e16642e2ed2d4ac90b4341fda95cdaea257b1e5f"
+      ],
+      "author_date": "2026-10-20T10:12:39+05:30",
+      "committer_date": "2026-10-20T10:12:39+05:30",
+      "subject": "PREREG: E1 prediction number",
+      "root_PREREG_blob": "c070bc27a2ec3a7fad982d0858e435673adc6242"
+    },
+    {
+      "commit": "e16642e2ed2d4ac90b4341fda95cdaea257b1e5f",
+      "tree": "144705914e91b3513eb849f16418e8805967979d",
+      "parents": [
+        "4f03fcba40a80ff3954d12eb113cf119f4adeb43"
+      ],
+      "author_date": "2026-10-20T08:34:23+05:30",
+      "committer_date": "2026-10-20T08:34:23+05:30",
+      "subject": "PREREG: E1 prediction",
+      "root_PREREG_blob": "a68cfa1e725953c5ee2340412a24f88f6395e447"
+    },
+    {
+      "commit": "3618da8b05d253091d0fc5bab4fc34b4d2595da6",
+      "tree": "a44451ef1edaed3006213b45029706e37ed354fd",
+      "parents": [
+        "d593e95a3274e21b10d5737e554d009be232f000"
+      ],
+      "author_date": "2026-10-20T08:31:33+05:30",
+      "committer_date": "2026-10-20T08:31:33+05:30",
+      "subject": "Date corrections",
+      "root_PREREG_blob": "6dba8529de10c69beeaa5aca33a19fcca309530b"
+    },
+    {
+      "commit": "647689c47b00fa991cfb511ef21d8a158a6d3227",
+      "tree": "9af645f4558e7dd981431fc855fd07e136c004c7",
+      "parents": [
+        "5a7412d46a49d53156e853916c03962a8e8bc264"
+      ],
+      "author_date": "2026-10-19T18:16:10+05:30",
+      "committer_date": "2026-10-19T18:16:10+05:30",
+      "subject": "PREREG: E1 prediction",
+      "root_PREREG_blob": "fac901fc55a5371188c97592bfd40b16666224b6"
+    },
+    {
+      "commit": "5a7412d46a49d53156e853916c03962a8e8bc264",
+      "tree": "1448132b50c6ef2c78d20d4e9dab11150fe06aaa",
+      "parents": [
+        "c045d48168511bca25cbd4de6d4c95e874c9b77c"
+      ],
+      "author_date": "2026-10-19T18:16:01+05:30",
+      "committer_date": "2026-10-19T18:16:01+05:30",
+      "subject": "PREREG entry 1: design and splits",
+      "root_PREREG_blob": "7455e2cac1b780751be6e133a1c40ce4aabaf937"
+    },
+    {
+      "commit": "b09c5e57e825268fdd5457f2dc1cb19947f9aedc",
+      "tree": "c9ecc70293ef2ff002d40001a8e17abdbd7b95b9",
+      "parents": [],
+      "author_date": "2026-10-19T18:01:10+05:30",
+      "committer_date": "2026-10-19T18:01:10+05:30",
+      "subject": "Repo skeleton",
+      "root_PREREG_blob": "9b52bc8388c177cf98e84ec5760b51d6cd004e5f"
+    }
+  ],
+  "vendored_dataset_snapshot": {
+    "path": "data/HypoBench-datasets",
+    "original_submodule_url": "https://github.com/ChicagoHAI/HypoBench-datasets.git",
+    "original_submodule_commit": "7e4bbc341ee90b7efaa607f67a81543cd68cdf2e"
+  },
+  "main_problem_preregistration_snapshot": {
+    "path": "M/PREREG.md",
+    "original_commit": "6e21dfe",
+    "original_head_blob": "ea50555a9aec280ea67773317f9dccce05059c14",
+    "snapshot_sha256": "d996104d87f35435f25f1160e38ba1e7f335a35b84234dd1f43aa37b87c82bdd",
+    "history_note": "The original Git history records M/PREREG.md as introduced in commit 6e21dfe; its frozen contents are retained byte-for-byte."
+  }
+}

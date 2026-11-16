@@ -1,0 +1,9 @@
+{
+  "manifest_sha256": "a33e042bc0defaa72f658e421dc3e2ad8f0ad3fbcdf4c04b250604353d50998f",
+  "authorize_inference": false,
+  "e6_inactive_verified": false,
+  "resource_headroom_verified": false,
+  "authorization_source": null,
+  "calibration_review_path": null,
+  "calibration_review_sha256": null
+}

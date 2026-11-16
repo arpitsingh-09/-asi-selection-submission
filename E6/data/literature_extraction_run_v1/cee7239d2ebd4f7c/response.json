@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:41:15.355819+00:00",
+  "identity": "954ecde9b8b5616b15030c8d1f6b08287370ec73c160ecf0336d967906a1cb34",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:41:15.342599Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 115,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 17.823037166000063,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:41:15.342599Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2949,
+      "prompt_eval_count": 621,
+      "prompt_sha256": "0d0c8d2af2d81bc2dafe926aabe55d9cdbf2110520c74e402e4dfab444341d13",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 736,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 621,
+    "latency_seconds": 17.823037166000063,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:41:15.342599Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 115,
+    "raw_response": "{\n  \"research_question\": \"How can robots be equipped with maps that support both geometric navigation and open-vocabulary semantic queries without relying on manually annotated segmentation masks or closed-set semantic categories?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"An active 3D Gaussian mapping system (AOV-GS) that guides exploration using frozen foundation models will improve average language-field mIoU compared to geometry-only active planning and other baselines.\",\n  \"main_hypothesis_explicit\": false\n}",
+    "total_tokens": 736
+  },
+  "reply_sha256": "4dfe0d68b449a3deacd900097e03c9c5b8b00120216c7a29ce24e5bf024923f1"
+}

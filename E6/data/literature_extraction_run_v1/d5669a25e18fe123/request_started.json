@@ -1,0 +1,32 @@
+{
+  "client_configuration": {
+    "backend": "ollama-local",
+    "endpoint": "http://localhost:11434/api/generate",
+    "format": "json",
+    "generation_options": {
+      "num_ctx": 32768,
+      "num_predict": 2048,
+      "seed": 2026,
+      "temperature": 0,
+      "top_p": 1
+    },
+    "model": "gemma3:12b",
+    "stream": false,
+    "timeout_seconds": 600.0
+  },
+  "content_attempt": 1,
+  "identity": "8f2fdc3411443a2d78a73b1efef6b69abdf5c4b20bc557a59f91a71b42f7609e",
+  "model_configuration": {
+    "context_limit": 32768,
+    "immutable_version_or_digest": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+    "max_output_tokens": 2048,
+    "model": "gemma3:12b",
+    "seed": 2026,
+    "temperature": 0,
+    "top_p": 1
+  },
+  "prompt": "ROLE\nYou are a scientific paper information extractor.\n\nTASK\nExtract the target paper's research question and main hypothesis using only the supplied paper text.\n\nTARGET PAPER TEXT\nMemes act as cryptic tools for sharing sensitive ideas, often requiring contextual knowledge to interpret them correctly. It makes multimodal meme moderation difficult, as existing work either lacks high-quality datasets for nuanced hate categories or relies on low-quality social media visuals. Here, we curate two novel multimodal hate speech datasets comprising English memes - MHS and MHS-Con, which capture fine-grained hateful abstractions in regular and confounding scenarios, respectively. We benchmark these datasets against several competing baselines. Furthermore, we introduce SAFE-MEME (Structured reAsoning FramEwork) with its two variants: a novel multimodal Chain-of-Thought based framework employing Q&A-style reasoning (SAFE-MEME-QA) and a hierarchical categorization (SAFE-MEME-H) to enable robust hate speech detection in memes. SAFE-MEME-QA outperforms the strongest open-source baseline model, showing an improvement of 2% on MHS and 4.7% on MHS-Con and closely follows the closed-source models, GPT-4o and Gemini 2.5. In contrast, SAFE-MEME-H surpasses SAFE-MEME-QA, marking a 3% improvement over the best open-source baseline, while achieving performance comparable to GPT-4o only on MHS. We show that fine-tuning a single-layer adapter within SAFE-MEME-H outperforms fully fine-tuned models in regular fine-grained hateful meme detection. However, the fully fine-tuning approach with a Q&A setup is more effective for handling confounding cases. We also systematically examine the error cases, offering valuable insights into the robustness and limitations of the proposed structured reasoning framework for analyzing hateful memes.\n\nRULES\n1. Use only the supplied text.\n2. Do not use outside knowledge or infer information unsupported by the text.\n3. Prefer an explicitly stated research question or hypothesis.\n4. If the research question is not explicitly stated but is clearly supported by the text, provide a concise faithful formulation and set research_question_explicit to false.\n5. If no research question can be reliably identified, return null.\n6. Apply the same explicitness rule to the main hypothesis.\n7. Do not confuse the paper's general topic, method or objective with its research question.\n8. Do not invent a hypothesis merely because the paper reports results.\n9. Keep extracted statements concise and faithful to the authors' meaning.\n\nOUTPUT\nReturn valid JSON only:\n\n{\n  \"research_question\": null,\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": null,\n  \"main_hypothesis_explicit\": false\n}\n\nUse strings instead of null when a statement can be reliably extracted or formulated. Explicitness fields must always be JSON booleans.\n",
+  "prompt_sha256": "1cfe779e67929da41f8bd660f19cf859e9aa046ef9612985baf52613baee2a30",
+  "stage": "reference_target_extraction",
+  "started_at_utc": "2026-11-12T13:39:11.382152+00:00"
+}

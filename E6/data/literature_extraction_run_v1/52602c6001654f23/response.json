@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:33:21.497638+00:00",
+  "identity": "65c64751e6bde4c687597ed6520b21c45005a5f30c2eb53315391420fe933d1c",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:33:21.47678Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 104,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 16.074110500000018,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:33:21.47678Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2826,
+      "prompt_eval_count": 547,
+      "prompt_sha256": "cb8a6cefc157942ed6287b203a16df5b4f9c737562ffb7f5189d652331d93552",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 651,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 547,
+    "latency_seconds": 16.074110500000018,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:33:21.47678Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 104,
+    "raw_response": "{\n  \"research_question\": \"How can instruction-guided video generative models be adapted to edit driving scenes while preserving traffic semantics and mitigating temporal shock?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"Adapting advantage conditioning from offline reinforcement learning, constructing a hybrid dataset, and introducing thinking frames will prevent the corruption of traffic semantics and temporal shock when editing driving scenes with instruction-guided video generative models.\",\n  \"main_hypothesis_explicit\": false\n}",
+    "total_tokens": 651
+  },
+  "reply_sha256": "72a5faaff2c25b0ed2c208a79a1aa1d7dc91178eb87bd9947823f4f7503d0f70"
+}

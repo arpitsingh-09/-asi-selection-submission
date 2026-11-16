@@ -1,0 +1,134 @@
+[2608.03924] ETA: A New Agentic Paradigm for Embodied Tasks (https://arxiv.org/abs/2608.03924)
+citeturn6view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2608.03924","lineno":null}); Total lines: 162
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1: 
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3: 
+L4: Press Enter to search · 【4†Advanced search】
+L5: 
+L6: # Computer Science > Robotics
+L7: 
+L8: [Submitted on 4 Aug 2026]
+L9: # Title:ETA: A New Agentic Paradigm for Embodied Tasks
+L10: 
+L11: Authors:【5†Yitong Chen】, 【6†Zezheng Huai】, 【7†Sixian Li】, 【8†Yubang Wang】, 【9†Haozhe Zhang】, 【10†Yifei Zhang】, 【11†Hechang Chen】, 【12†Jingjing Gong】, 【13†Yu-Gang Jiang】, 【14†Xipeng Qiu】
+L12: 
+L13: View a PDF of the paper titled ETA: A New Agentic Paradigm for Embodied Tasks, by Yitong Chen and 9 other authors
+L14: 
+L15: 【15†View PDF】 【16†HTML (experimental)】
+L16: > Abstract:When will robots have their ChatGPT moment? Such a breakthrough requires a general-purpose robot that can handle unfamiliar tasks in unfamiliar environments, remain controllable over long interactions, and learn from experience.
+L17: > Today's embodied systems largely follow an end-to-end observation-to-action path. Despite rapid progress, they remain far from this goal: their generalization depends heavily on the coverage of robot training data, while long task execution remains difficult to control and inspect. To realize this goal, we introduce the Embodied Task Agent (ETA), a new paradigm for extending digital agents into the physical world, and release OpenETA as its open-source implementation.
+L18: ETA centers the robot around a Planner that chooses one Tool call at a time, an Interface that controls execution, and a World that returns the result and a fresh observation. This loop allows the agent to verify outcomes, adapt its plan, and turn successful and failed interactions into reusable experience. OpenETA provides replaceable Planners, composable Tools and Skills, auditable memory, replayable trajectories, and common interfaces for simulation and real robots.
+L19: For Codex, OpenETA can operate as a lightweight plugin that exposes only observe, mark_point, and move_to.
+L20: Subjects:  | Robotics (cs.RO)
+L21: Cite as:  | 【17†arXiv:2608.03924】 [cs.RO]
+L22:    | (or 【18†arXiv:2608.03924v1】 [cs.RO] for this version)
+L23:    | 【19†https://doi.org/10.48550/arXiv.2608.03924†doi.org】 arXiv-issued DOI via DataCite
+L24: ## Submission history
+L25: 
+L26: From: Zezheng Huai [【20†view email】]
+L27: [v1] Tue, 4 Aug 2026 16:56:09 UTC (13,203 KB)
+L28: 
+L29: Full-text links:
+L30: 
+L31: ## Access Paper:
+L32: 
+L33: View a PDF of the paper titled ETA: A New Agentic Paradigm for Embodied Tasks, by Yitong Chen and 9 other authors
+L34: 
+L35:   * 【15†View PDF】
+L36:   * 【16†HTML (experimental)】
+L37:   * 【21†TeX Source】
+L38: 
+L39: 【22†view license】
+L40: 
+L41: ### Additional Features
+L42: 
+L43:   * 【23†Audio Summary】
+L44: ### Current browse context:
+L45: 
+L46: cs.RO
+L47: 
+L48: 【24†< prev】   |   【25†next >】
+L49: 
+L50: 【26†new】 | 【27†recent】 | 【28†2026-08】
+L51: 
+L52: Change to browse by:
+L53: 
+L54: 【29†cs】
+L55: 
+L56: ### References & Citations
+L57: 
+L58:   * 【30†SciX†scixplorer.org】
+L59:   * 【31†Google Scholar†scholar.google.com】
+L60:   * 【32†Semantic Scholar†api.semanticscholar.org】
+L61: 
+L62: [Button: export BibTeX citation] Loading...
+L63: 
+L64: ## BibTeX formatted citation
+L65: 
+L66: [Button: ×]
+L67: 
+L68: loading...
+L69: 
+L70: Data provided by:
+L71: 
+L72: ### Bookmark
+L73: 
+L74: [Input] Bibliographic Tools
+L75: # Bibliographic and Citation Tools
+L76: 
+L77: [Input] Bibliographic Explorer Toggle
+L78: 
+L79: Bibliographic Explorer (【33†What is the Explorer?†info.arxiv.org】)
+L80: 
+L81: [Input] Connected Papers Toggle
+L82: 
+L83: Connected Papers (【34†What is Connected Papers?†www.connectedpapers.com】)
+L84: 
+L85: [Input] Litmaps Toggle
+L86: 
+L87: Litmaps (【35†What is Litmaps?†www.litmaps.co】)
+L88: 
+L89: [Input] scite.ai Toggle
+L90: 
+L91: scite Smart Citations (【36†What are Smart Citations?†www.scite.ai】)
+L92: 
+L93: [Input] Code, Data, Media
+L94: # Code, Data and Media Associated with this Article
+L95: 
+L96: [Input] alphaXiv Toggle
+L97: 
+L98: alphaXiv (【37†What is alphaXiv?†alphaxiv.org】)
+L99: 
+L100: [Input] Links to Code Toggle
+L101: 
+L102: CatalyzeX Code Finder for Papers (【38†What is CatalyzeX?†www.catalyzex.com】)
+L103: 
+L104: [Input] DagsHub Toggle
+L105: 
+L106: DagsHub (【39†What is DagsHub?†dagshub.com】)
+L107: 
+L108: [Input] GotitPub Toggle
+L109: 
+L110: Gotit.pub (【40†What is GotitPub?†gotit.pub】)
+L111: 
+L112: [Input] Huggingface Toggle
+L113: 
+L114: Hugging Face (【41†What is Huggingface?†huggingface.co】)
+L115: 
+L116: [Input] ScienceCast Toggle
+L117: ScienceCast (【42†What is ScienceCast?†sciencecast.org】)
+L118: 
+L119: [Input] Demos
+L120: # Demos
+L121: 
+L122: [Input] Replicate Toggle
+L123: 
+L124: Replicate (【43†What is Replicate?†replicate.com】)
+L125: 
+L126: [Input] Spaces Toggle
+L127: 
+L128: Hugging Face Spaces (【44†What is Spaces?†huggingface.co】)
+L129: 
+L130: [Input] Spaces Toggle
+L131:

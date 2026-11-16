@@ -1,0 +1,56 @@
+{
+  "tag": {
+    "capabilities": [
+      "completion",
+      "vision"
+    ],
+    "details": {
+      "context_length": 131072,
+      "embedding_length": 3840,
+      "families": [
+        "gemma3",
+        "clip"
+      ],
+      "family": "gemma3",
+      "format": "gguf",
+      "parameter_size": "11.8B",
+      "parent_model": "dhiltgen/gemma3:12b-it-q4_K_M-llamacpp",
+      "quantization_level": "Q4_K_M",
+      "runner": "llamacpp"
+    },
+    "digest": "b92b218582c521ba287f38f1d6057dcd3c6cbff036f13cac97b5d861f5e58ec3",
+    "model": "gemma3:12b",
+    "modified_at": "2026-11-07T18:38:15.236962049+05:30",
+    "name": "gemma3:12b",
+    "size": 8164039732
+  },
+  "tokenizer": {
+    "merge_count": 514906,
+    "metadata_fields": [
+      "tokenizer.ggml.add_bos_token",
+      "tokenizer.ggml.add_eos_token",
+      "tokenizer.ggml.add_padding_token",
+      "tokenizer.ggml.add_unknown_token",
+      "tokenizer.ggml.bos_token_id",
+      "tokenizer.ggml.eos_token_id",
+      "tokenizer.ggml.eos_token_ids",
+      "tokenizer.ggml.merges",
+      "tokenizer.ggml.model",
+      "tokenizer.ggml.padding_token_id",
+      "tokenizer.ggml.pre",
+      "tokenizer.ggml.scores",
+      "tokenizer.ggml.token_type",
+      "tokenizer.ggml.tokens",
+      "tokenizer.ggml.unknown_token_id"
+    ],
+    "metadata_fingerprint_is_not_a_token_count": true,
+    "metadata_sha256": "0a5090e20207bece62fbd58e81e2d6dcc3ee529d5173f2e66e336ae90507fecb",
+    "model": "llama",
+    "pre": "default",
+    "tokenization_delegated_to": "installed Ollama llama.cpp runner for this GGUF model",
+    "vocabulary_size": 262145
+  },
+  "version": {
+    "version": "0.40.16"
+  }
+}

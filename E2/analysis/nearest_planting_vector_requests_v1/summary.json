@@ -1,0 +1,14 @@
+{
+  "existing_plans": 964,
+  "unique_modified_texts": 1304,
+  "unique_missing_vectors": 1304,
+  "already_cached": 0,
+  "source_sha256": "3d348128c57a8d996dff8116ed192bb61d15f8a501df64478e004629ec8e8877",
+  "requests_sha256": "e15e929318000061900141f5709d68c47bfbe624ee62b7cf3d3eb3a367e21cac",
+  "original_cache_sha256": "a1d42a472f7ecda6935beb67ad595fb6a39e2fdcbbd022259a4f0e8230ac8289",
+  "source_plan_modified": false,
+  "new_embeddings_generated": 0,
+  "scores_computed": 0,
+  "scope": "Exact modified-paper embedding payloads for the existing 964 plans only; no replanning or expanded cohort.",
+  "next_use": "After a separately authorized safe inference window, encode these distinct synthetic title-plus-abstract inputs in a separate versioned sidecar. They are not claim requests and are intentionally rejected by the 93-claim worker."
+}

@@ -1,0 +1,9 @@
+{
+  "failure": "NumPy boolean/integer not JSON serializable",
+  "saved_result_files_bytes_before_failure_record": {
+    "E5/results/controlled_baseline_v1/results.jsonl": 0
+  },
+  "usable_result_rows": 0,
+  "numerical_protocol": "c0fd73c",
+  "action": "preserve failed output; export-only recovery to a new directory"
+}

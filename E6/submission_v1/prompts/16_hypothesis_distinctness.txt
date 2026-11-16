@@ -1,0 +1,22 @@
+ROLE
+Judge whether two scientific hypotheses make substantively distinct claims.
+This is a proposed rubric requiring researcher approval before use.
+
+HYPOTHESIS A
+{{HYPOTHESIS_A}}
+
+HYPOTHESIS B
+{{HYPOTHESIS_B}}
+
+Use only the supplied texts. Return false for paraphrases of the same substantive
+predictor/condition, outcome, relationship and direction. Return true when at
+least one of those components makes the central scientific claim materially
+different. Wording differences alone are insufficient. A broad claim and its
+narrow restatement are not distinct unless the narrower claim adds a materially
+different testable condition or relationship. Judge scientific content, not quality.
+If the texts do not permit a reliable Boolean judgment, return null; the input-set
+diversity metric must then remain unavailable rather than treating null as false.
+
+Return exactly one JSON object, without explanation:
+{"distinct": true}
+The value must be true, false, or null.

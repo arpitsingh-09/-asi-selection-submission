@@ -1,0 +1,206 @@
+{
+  "human_labels_verified": 0,
+  "identity_limit": "Non-placeholder identifiers/dates/rationales can be checked; real-world identity and independence cannot be authenticated by this parser.",
+  "labels_required": 10,
+  "model_calls": 0,
+  "records": [
+    {
+      "case_id": "question_type-01",
+      "errors": [
+        "missing or invalid rubric label",
+        "missing real reviewer identifier",
+        "missing valid review date",
+        "missing rationale"
+      ],
+      "label": null,
+      "rationale": "______",
+      "review_date": null,
+      "reviewer_id": null,
+      "reviewer_identity_authenticated": false,
+      "section": "question_type",
+      "verified_fields_complete": false
+    },
+    {
+      "case_id": "question_type-02",
+      "errors": [
+        "missing or invalid rubric label",
+        "missing real reviewer identifier",
+        "missing valid review date",
+        "missing rationale"
+      ],
+      "label": null,
+      "rationale": "______",
+      "review_date": null,
+      "reviewer_id": null,
+      "reviewer_identity_authenticated": false,
+      "section": "question_type",
+      "verified_fields_complete": false
+    },
+    {
+      "case_id": "reconstruction-03",
+      "errors": [
+        "missing or invalid rubric label",
+        "missing real reviewer identifier",
+        "missing valid review date",
+        "missing rationale"
+      ],
+      "label": null,
+      "rationale": "______",
+      "review_date": null,
+      "reviewer_id": null,
+      "reviewer_identity_authenticated": false,
+      "section": "reconstruction",
+      "verified_fields_complete": false
+    },
+    {
+      "case_id": "already_asked-03",
+      "errors": [
+        "missing or invalid rubric label",
+        "missing real reviewer identifier",
+        "missing valid review date",
+        "missing rationale"
+      ],
+      "label": null,
+      "rationale": "______",
+      "review_date": null,
+      "reviewer_id": null,
+      "reviewer_identity_authenticated": false,
+      "section": "already_asked",
+      "verified_fields_complete": false
+    },
+    {
+      "case_id": "diversity-03",
+      "errors": [
+        "missing or invalid rubric label",
+        "missing real reviewer identifier",
+        "missing valid review date",
+        "missing rationale"
+      ],
+      "label": null,
+      "rationale": "______",
+      "review_date": null,
+      "reviewer_id": null,
+      "reviewer_identity_authenticated": false,
+      "section": "diversity",
+      "verified_fields_complete": false
+    },
+    {
+      "case_id": "question_type-03",
+      "errors": [
+        "missing or invalid rubric label",
+        "missing real reviewer identifier",
+        "missing valid review date",
+        "missing rationale"
+      ],
+      "label": null,
+      "rationale": "______",
+      "review_date": null,
+      "reviewer_id": null,
+      "reviewer_identity_authenticated": false,
+      "section": "question_type",
+      "verified_fields_complete": false
+    },
+    {
+      "case_id": "reconstruction-04",
+      "errors": [
+        "missing or invalid rubric label",
+        "missing real reviewer identifier",
+        "missing valid review date",
+        "missing rationale"
+      ],
+      "label": null,
+      "rationale": "______",
+      "review_date": null,
+      "reviewer_id": null,
+      "reviewer_identity_authenticated": false,
+      "section": "reconstruction",
+      "verified_fields_complete": false
+    },
+    {
+      "case_id": "already_asked-04",
+      "errors": [
+        "missing or invalid rubric label",
+        "missing real reviewer identifier",
+        "missing valid review date",
+        "missing rationale"
+      ],
+      "label": null,
+      "rationale": "______",
+      "review_date": null,
+      "reviewer_id": null,
+      "reviewer_identity_authenticated": false,
+      "section": "already_asked",
+      "verified_fields_complete": false
+    },
+    {
+      "case_id": "diversity-04",
+      "errors": [
+        "missing or invalid rubric label",
+        "missing real reviewer identifier",
+        "missing valid review date",
+        "missing rationale"
+      ],
+      "label": null,
+      "rationale": "______",
+      "review_date": null,
+      "reviewer_id": null,
+      "reviewer_identity_authenticated": false,
+      "section": "diversity",
+      "verified_fields_complete": false
+    },
+    {
+      "case_id": "question_type-04",
+      "errors": [
+        "missing or invalid rubric label",
+        "missing real reviewer identifier",
+        "missing valid review date",
+        "missing rationale"
+      ],
+      "label": null,
+      "rationale": "______",
+      "review_date": null,
+      "reviewer_id": null,
+      "reviewer_identity_authenticated": false,
+      "section": "question_type",
+      "verified_fields_complete": false
+    }
+  ],
+  "review_sheet_file_sha256": "812237c85889bbd99d3fd9cad1edcbe347929042a1d1d214c0048a6261ad3243",
+  "sections": {
+    "already_asked": {
+      "MAE": null,
+      "acceptance_threshold": null,
+      "agreement_count": 0,
+      "agreement_rate": null,
+      "validation_complete": false,
+      "verified_independent_labels": 0
+    },
+    "diversity": {
+      "MAE": null,
+      "acceptance_threshold": null,
+      "agreement_count": 0,
+      "agreement_rate": null,
+      "validation_complete": false,
+      "verified_independent_labels": 0
+    },
+    "question_type": {
+      "MAE": null,
+      "acceptance_threshold": null,
+      "agreement_count": 0,
+      "agreement_rate": null,
+      "validation_complete": false,
+      "verified_independent_labels": 0
+    },
+    "reconstruction": {
+      "MAE": null,
+      "acceptance_threshold": null,
+      "agreement_count": 0,
+      "agreement_rate": null,
+      "validation_complete": false,
+      "verified_independent_labels": 0
+    }
+  },
+  "status": "incomplete_missing_review_fields",
+  "validations_genuinely_completed": 0,
+  "verified_predictions_file_sha256": "1087cf242c0d80010caba65a9e4868601fdc5a29494900448741f78ddd8710f4"
+}

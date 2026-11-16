@@ -1,0 +1,88 @@
+{
+  "a": "To what extent does explicit criticism of political institutions (e.g., Supreme Court, government shutdowns) correlate with predicted voting preference?",
+  "b": "To what extent does explicit criticism of political institutions (e.g., Supreme Court, government shutdowns) correlate with predicted voting preference?",
+  "calls": [
+    {
+      "model_metadata": {
+        "adapter_metadata": {
+          "backend": "ollama-local",
+          "created_at": "2026-11-12T13:01:04.122514Z",
+          "done": true,
+          "done_reason": "stop",
+          "endpoint": "http://localhost:11434/api/generate",
+          "eval_count": 8,
+          "generation_settings": {
+            "format": "json",
+            "options": {
+              "num_ctx": 32768,
+              "num_predict": 2048,
+              "seed": 2026,
+              "temperature": 0,
+              "top_p": 1
+            },
+            "stream": false
+          },
+          "http_status": 200,
+          "latency_seconds": 3.3830473750000003,
+          "model": "gemma3:12b",
+          "model_identity": {
+            "reported_created_at": "2026-11-12T13:01:04.122514Z",
+            "reported_model": "gemma3:12b",
+            "requested_model": "gemma3:12b"
+          },
+          "prompt_characters": 1383,
+          "prompt_eval_count": 264,
+          "prompt_sha256": "6a7324fd2bd7395b577d4f5129b016a1c22a7d8183561d465ea5f77b3d750133",
+          "requested_output_token_limit": 2048,
+          "stage": "same_question",
+          "total_tokens": 272,
+          "usage_metadata_available": true
+        },
+        "generation_settings": {
+          "format": "json",
+          "options": {
+            "num_ctx": 32768,
+            "num_predict": 2048,
+            "seed": 2026,
+            "temperature": 0,
+            "top_p": 1
+          },
+          "stream": false
+        },
+        "http_status": 200,
+        "input_tokens": 264,
+        "latency_seconds": 3.3830473750000003,
+        "model": "gemma3:12b",
+        "model_identity": {
+          "reported_created_at": "2026-11-12T13:01:04.122514Z",
+          "reported_model": "gemma3:12b",
+          "requested_model": "gemma3:12b"
+        },
+        "output_tokens": 8,
+        "total_tokens": 272
+      },
+      "prompt": "ROLE\nYou are an evaluator of semantic equivalence between scientific research statements.\n\nTASK\nDetermine whether two supplied statements express substantially the same research objective.\n\nSTATEMENT A TYPE\ngenerated research question\n\nSTATEMENT A\nTo what extent does explicit criticism of political institutions (e.g., Supreme Court, government shutdowns) correlate with predicted voting preference?\n\nSTATEMENT B TYPE\nTRAIN generated research question\n\nSTATEMENT B\nTo what extent does explicit criticism of political institutions (e.g., Supreme Court, government shutdowns) correlate with predicted voting preference?\n\nDECISION RULE\nReturn true only when both statements substantially concern the same:\n- phenomenon or scientific subject;\n- objective, mechanism or relationship being investigated; and\n- principal outcome or question being addressed.\n\nTreat genuine paraphrases as equivalent even when wording differs.\n\nReturn false when statements merely share a topic, keywords, broad domain or research area but investigate meaningfully different mechanisms, relationships, objectives or outcomes.\n\nDo not treat a more specific question as equivalent to a broader question unless they genuinely express the same central objective.\n\nDo not use outside knowledge. Judge only the supplied text.\n\nOUTPUT\nReturn valid JSON only:\n\n{\"same_question\": true}\n\nor\n\n{\"same_question\": false}\n",
+      "prompt_sha256": "de7fd536777e3d8b8bb9e88ae27cf89988d20a2c7b8481423f02a75850ccc160",
+      "raw_output": "{\"same_question\": true}",
+      "stage": "same_question"
+    }
+  ],
+  "case_id": "already_asked-01",
+  "expected": true,
+  "key": "same_question",
+  "prediction": true,
+  "reference_kind": "logical_identity_control",
+  "rubric": "same_question",
+  "section": "already_asked",
+  "sources": [
+    {
+      "hypothesis": "Tweets explicitly criticizing political institutions are more likely to be associated with a third-party or non-voting preference.",
+      "hypothesis_id": "QH:H1",
+      "question": "To what extent does explicit criticism of political institutions (e.g., Supreme Court, government shutdowns) correlate with predicted voting preference?",
+      "source": "E6/runs/priority10_train_batch002/aa367e4423af8dc3_generation_envelope.json",
+      "source_file_sha256": "7340af8c3df91e969ef4060271247f91799584276e5b506298ae3f2162454032",
+      "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0001:f4dd50eb316a"
+    }
+  ],
+  "status": "returned_valid"
+}

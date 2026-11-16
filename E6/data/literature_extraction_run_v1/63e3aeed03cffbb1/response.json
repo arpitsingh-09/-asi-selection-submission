@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:31:01.969356+00:00",
+  "identity": "1f8e158c14ce680e037ba51a9acb19ed5d7ce26bf9b27f7e6d0c17c19987dfac",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:31:01.952396Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 135,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 15.69925054099997,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:31:01.952396Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2429,
+      "prompt_eval_count": 504,
+      "prompt_sha256": "d23076f89dde6a72aa7ce6fc5d1cbd5819871be785a4388e831d6ca9f9388e6e",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 639,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 504,
+    "latency_seconds": 15.69925054099997,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:31:01.952396Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 135,
+    "raw_response": "{\n  \"research_question\": \"Can specific 'breaker tokens' be constructed that remain statistically inert in the donor anchor span while producing a high-salience reconstruction in the base, and how are these tokens affected by standard LoRA fine-tuning?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"Specific 'breaker tokens' can be constructed that exhibit asymmetric realizability, remaining inert in the donor anchor span while producing a high-salience reconstruction in the base, and standard LoRA fine-tuning suppresses these tokens primarily on prompts matching the training corpus.\",\n  \"main_hypothesis_explicit\": false\n}",
+    "total_tokens": 639
+  },
+  "reply_sha256": "25fed39bfaa90163ea8900aa87ed305305712b27fc9c6ca476edc5a273e073e3"
+}

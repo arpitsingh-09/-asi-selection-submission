@@ -1,0 +1,722 @@
+{
+  "protocol": {
+    "version": "e6-draft-2",
+    "status": "approved",
+    "approved_by": "researcher via explicit current session authorization after verified evidence",
+    "approved_at_utc": "2026-11-12T03:40:42.515762+00:00",
+    "confirmatory_or_exploratory": "descriptive paired comparison; no adjusted significance claims",
+    "prospective_protocol_record": "E6/PREREG.md (DRAFT; predictions recorded before evaluation; no finalization asserted)",
+    "execution_authorized": true,
+    "governing_protocol": {
+      "path": "E6/protocol.md",
+      "model": "gemma3:12b",
+      "supersedes": "E6/prior_protocol_2026-11-04.md",
+      "basis": "explicit user instruction: adopt current Gemma 3 12B protocol; full preregistration remains DRAFT"
+    },
+    "authorization_scope": "generation only after committed-artifact, source and runtime gates; scoring additionally requires actual approved evaluator validation/reviews",
+    "preregistration_finalized_at_utc": "2026-11-12T03:40:42.515762+00:00"
+  },
+  "repository_facts": {
+    "raw_corpus_unique_paper_ids": 2680,
+    "focal_exclusion_ids": 300,
+    "targeted_comparison_ids": 15,
+    "targeted_comparison_overlap_with_focal": 15,
+    "eligible_candidate_ids_after_union_exclusion": 2380,
+    "sample_selected": false,
+    "sample_frozen": false,
+    "note": "Audited context, not approval of E6 sample or protocol."
+  },
+  "local_model_inventory_audit": {
+    "observed_at_utc": "2026-11-11T06:41:38Z",
+    "ollama_cli_version": "0.40.15",
+    "ollama_app_version": "0.40.15",
+    "local_manifests_found": true,
+    "server_api_reachable": false,
+    "server_start_attempt": "ollama serve failed to bind 127.0.0.1:11434: operation not permitted",
+    "inference_verified": false,
+    "selected_for_e6": "gemma3:12b (proposed; live verification passed as user-reported; protocol selection pending)",
+    "tokenizer_counting_verified": false,
+    "ollama_api_digest_verified": false,
+    "output_limit_runtime_verified": false,
+    "models": [
+      {
+        "tag": "gemma3:12b",
+        "manifest_sha256": "c0b76384be40635ad28390e0fd2386390838ead3e95ac5dbfcec1be652057ffa",
+        "model_layer_digest": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+        "model_layer_bytes": 7309830496,
+        "quantization": "Q4_K_M",
+        "model_family": "gemma3",
+        "training_cutoff": "2024-08 (month precision; day not specified)",
+        "training_cutoff_source": "https://ai.google.dev/gemma/docs/core/model_card_3",
+        "documented_tokenizer_family": "Gemma 3 SentencePiece BPE",
+        "tokenizer_family_source": "https://github.com/google/gemma_pytorch/blob/main/gemma/tokenizer.py",
+        "tokenizer_exact_identity": null,
+        "status": "installed_manifest_verified_runtime_unverified"
+      },
+      {
+        "tag": "qwen3:1.7b",
+        "manifest_sha256": "8f68893c685c3ddff2aa3fffce2aa60a30bb2da65ca488b61fff134a4d1730e7",
+        "model_layer_digest": "sha256:3d0b790534fe4b79525fc3692950408dca41171676ed7e21db57af5c65ef6ab6",
+        "model_layer_bytes": 1359279776,
+        "quantization": "Q4_K_M",
+        "model_family": "qwen3",
+        "training_cutoff": null,
+        "training_cutoff_source": null,
+        "documented_tokenizer_family": "Qwen3 tokenizer assets (tokenizer.json, vocab.json, merges.txt)",
+        "tokenizer_family_source": "https://huggingface.co/Qwen/Qwen3-8B/tree/main",
+        "tokenizer_exact_identity": null,
+        "status": "installed_manifest_verified_runtime_unverified"
+      },
+      {
+        "tag": "qwen3:8b",
+        "manifest_sha256": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+        "model_layer_digest": "sha256:a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+        "model_layer_bytes": 5225374496,
+        "quantization": "Q4_K_M",
+        "model_family": "qwen3",
+        "training_cutoff": null,
+        "training_cutoff_source": null,
+        "documented_tokenizer_family": "Qwen3 tokenizer assets (tokenizer.json, vocab.json, merges.txt)",
+        "tokenizer_family_source": "https://huggingface.co/Qwen/Qwen3-8B/tree/main",
+        "tokenizer_exact_identity": null,
+        "status": "installed_manifest_verified_runtime_unverified"
+      }
+    ],
+    "note": "This is the original inventory snapshot at observed_at_utc; its false runtime fields remain historical snapshot values. See later_user_reported_runtime_verification for the subsequent user-reported pass status. Neither snapshot alone constitutes protocol approval.",
+    "later_user_reported_runtime_verification": {
+      "status": "passed_as_reported; machine-readable verifier output not saved in repository",
+      "report_source": "user supplied normal Mac Terminal results in this project session",
+      "model": "gemma3:12b",
+      "ollama_version": "0.40.15",
+      "api_tags_digest_sha256": "b92b218582c521ba287f38f1d6057dcd3c6cbff036f13cac97b5d861f5e58ec3",
+      "local_manifest_raw_file_sha256": "c0b76384be40635ad28390e0fd2386390838ead3e95ac5dbfcec1be652057ffa",
+      "model_layer_sha256": "13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+      "adapter_inference": "passed",
+      "num_predict_32": "passed",
+      "exact_prompt_token_preflight": "passed",
+      "accounting_consistency_with_backend": "passed",
+      "exact_tokenizer_metadata_fingerprint": "not retained in repository output",
+      "e6_ready_for_budgeted_execution": "true_as_reported; still requires preregistered positive cap"
+    },
+    "verified_runtime_report": {
+      "path": "E6/data/gemma3_local_verification_v1.json",
+      "sha256": "705211d2dafd25afd7c42c52e11d8f3373efc089da313b5fb650ab4068f8783a",
+      "verification_status": "verified_local_runtime",
+      "verified_at_utc": "2026-11-11T12:58:40.236926Z",
+      "model": "gemma3:12b",
+      "ollama_version": "0.40.15",
+      "api_tags_digest_sha256": "b92b218582c521ba287f38f1d6057dcd3c6cbff036f13cac97b5d861f5e58ec3",
+      "selected_manifest_sha256": "b92b218582c521ba287f38f1d6057dcd3c6cbff036f13cac97b5d861f5e58ec3",
+      "legacy_manifest_sha256": "c0b76384be40635ad28390e0fd2386390838ead3e95ac5dbfcec1be652057ffa",
+      "model_layer_digest": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+      "tokenizer_metadata_fingerprint_sha256": "0a5090e20207bece62fbd58e81e2d6dcc3ee529d5173f2e66e336ae90507fecb",
+      "tokenizer_counter_id": "ollama-runner:b92b218582c521ba287f38f1d6057dcd3c6cbff036f13cac97b5d861f5e58ec3:0a5090e20207bece62fbd58e81e2d6dcc3ee529d5173f2e66e336ae90507fecb",
+      "exact_token_counter_available": true,
+      "tokenizer_accounting_consistent_with_e6_preflight": true,
+      "num_predict_probe": 32,
+      "output_limit_honored": true,
+      "smoke_test_passed": true,
+      "e6_ready_for_budgeted_execution": false,
+      "context_length_model_metadata": 131072
+    }
+  },
+  "dataset": {
+    "source": "Literature verified candidate manifest; HypoBench TRAIN for generation evidence and preserved 501-row TEST manifest for held-out scoring.",
+    "source_sha256": {
+      "data": "b8b51f4cc1324309b107d994af3001b6af99a8b8f8ca9aa6122317f6a438462f",
+      "literature": "de3a36ffefa12ba132b84c9138055a8aa07ae9ec0bc9e5b22d6955b825c3dd05"
+    },
+    "evidence_source": "Literature: verified cited-reference abstracts; data: TRAIN text and observed TRAIN labels. Target text, TEST observations/labels and planted hypotheses excluded from generation.",
+    "experimental_unit": "One literature target or one fixed TRAIN evidence input set. TEST observations are repeated evaluation items, not generation units.",
+    "task_domain_construction": "exact approved fixed task text by testbed in task_text_by_testbed",
+    "task_domain_allowed_source_fields": [
+      "TRAIN.text",
+      "TRAIN.label",
+      "verified_cited_reference.abstract"
+    ],
+    "canonical_paper_id_rule": "Literature arXiv IDs use E6/prepare_dataset.py canonicalize_arxiv_id; HypoBench IDs use dataset_id:split:zero-padded source-row index:canonical source-row SHA-256 prefix.",
+    "arxiv_version_suffix_policy": "Strip arXiv vN suffix during canonicalization, as implemented by E6/prepare_dataset.py.",
+    "cross_category_membership_policy": "Preserve the union of observed E2 category/pool memberships when canonicalizing duplicate paper IDs; do not create duplicate experimental units.",
+    "sample_size": 120,
+    "sampling_method": "20 disjoint SHA256-ranked TRAIN sets of 20; existing hash-ranked 100 literature targets; seed 2026; no strata",
+    "stratification_dimensions": [
+      "none"
+    ],
+    "selection_seed": 2026,
+    "development_evaluation_split": "DEVELOPMENT IDs reserved; literature EVALUATION; HypoBench TRAIN generation and TEST-only held-out scoring.",
+    "manifest_sha256": {
+      "data": "aa0ad20f7317ac6d9a04c9fb4b8c52caa87fea9e963090ef27f8fd4b49f61aee",
+      "literature": "79adef307721947d053781c708b5412dae177ef9a8cbd0d56c72cf222911ec93"
+    },
+    "frozen": true,
+    "source_recommendation": "E2/data/raw_papers.jsonl",
+    "evidence_source_recommendation": "abstract",
+    "experimental_unit_recommendation": "unique_research_paper",
+    "data_generation_split": "TRAIN",
+    "data_evaluation_split": "TEST",
+    "data_generation_proposal": "E6/data/hypobench_inductive_proposal_v1.json",
+    "data_sampling_status": "approved: 20 disjoint TRAIN sets of 20; TEST evaluation only; seed 2026",
+    "literature_reference_selection_proposal": "E6/data/literature_reference_selection_proposal_v1.json",
+    "data_evaluation_manifest": "E6/data/hypobench_election_level2_test_manifest_v1.json",
+    "task_text_by_testbed": {
+      "data": "Given a tweet, determine the likely voting preference of the person for the 2028 U.S. presidential election. The classification should consider whether the individual is likely to vote for the Democratic candidate, the Republican candidate, a third-party candidate, or abstain from voting. The analysis should take into account explicit endorsements, political ideology, sentiment toward candidates and policies, use of partisan language, engagement with political topics, and references to past voting behavior. Additionally, indirect indicators such as reactions to major political events, stance on key social and economic issues, and alignment with party-affiliated hashtags or slogans should be factored into the prediction. The classification should aim to capture both strong political affiliations and nuanced, context-dependent voting tendencies.",
+      "literature": "Generate research questions and hypotheses supported by the supplied scientific evidence."
+    },
+    "sample_size_by_testbed": {
+      "data": 20,
+      "literature": 100
+    },
+    "sample_size_interpretation": "120 independent input sets total, reported separately by testbed; never a pooled metric",
+    "literature_source_frozen": true,
+    "literature_selected_manifest": "E6/data/literature_selected_manifest_v1.json",
+    "test_labels_available_to_generation": false,
+    "hash_schema": "per_testbed_artifact_files_v1",
+    "artifact_paths": {
+      "source_sha256": {
+        "data": "data/HypoBench-datasets/synthetic/election/level2/synthetic_election_train_level2.json",
+        "literature": "E6/data/literature_citation_verified_manifest_v1.json"
+      },
+      "manifest_sha256": {
+        "data": "E6/data/hypobench_inductive_proposal_v1.json",
+        "literature": "E6/data/literature_selected_manifest_v1.json"
+      }
+    },
+    "source_freeze_scope": "approved TRAIN generation evidence proposal, preserved TEST evaluation manifest, 100-paper selected literature manifest, and Decision20 limited corpus; exact file hashes bound; no scoring/review completion implied",
+    "external_source_repository": {
+      "path": "data/HypoBench-datasets",
+      "url": "https://github.com/ChicagoHAI/HypoBench-datasets.git",
+      "commit": "7e4bbc341ee90b7efaa607f67a81543cd68cdf2e",
+      "checkout_status": "verified_clean",
+      "file_hashes": {
+        "data/HypoBench-datasets/synthetic/election/level2/clf_model_level2.pkl": "3f6102392ccd92e04f7b61ff541a20b72322fda4e569471315de0b0128d61568",
+        "data/HypoBench-datasets/synthetic/election/level2/config.yaml": "ad1c35971cde8cdde081e52eb9c33bd32db36ac721463894e1dedf4880cec646",
+        "data/HypoBench-datasets/synthetic/election/level2/gt_hypotheses_level2.json": "beab62a37f4ce1be2d3d282ae2df05c11a5da12704db0b5b0f7d8478d84c5c37",
+        "data/HypoBench-datasets/synthetic/election/level2/metadata.json": "d1ba64b6b79a1f59f9486649644b1b419c37dd31c51197a3616aa7594f327af4",
+        "data/HypoBench-datasets/synthetic/election/level2/synthetic_election_test_level2.json": "d842113b8538112458844a6a1b22f20e25d66a96a130f378811be299388114b1",
+        "data/HypoBench-datasets/synthetic/election/level2/synthetic_election_train_level2.json": "b8b51f4cc1324309b107d994af3001b6af99a8b8f8ca9aa6122317f6a438462f",
+        "data/HypoBench-datasets/synthetic/election/level2/synthetic_election_val_level2.json": "173fa2b9361e11f9d113d34ab676213d8135e15a91509d8f9bf3314ded3ca440"
+      },
+      "reproduction": "git submodule update --init --recursive; preserve the exact committed source files"
+    }
+  },
+  "arms": [
+    "D",
+    "QH",
+    "QH-sel",
+    "QH-rand",
+    "HQ",
+    "D-empty",
+    "D-shuffled"
+  ],
+  "prompt_contracts": {
+    "hypotheses_per_arm": 6,
+    "max_words_per_hypothesis": 50,
+    "question_word_limit": null,
+    "arm_outputs": {
+      "D": {
+        "questions": 0,
+        "hypotheses": 6,
+        "hypotheses_per_question": null
+      },
+      "QH": {
+        "questions": 3,
+        "hypotheses": 6,
+        "hypotheses_per_question": 2
+      },
+      "QH-sel": {
+        "questions": 3,
+        "hypotheses": 6,
+        "hypotheses_per_question": 2
+      },
+      "QH-rand": {
+        "questions": 3,
+        "hypotheses": 6,
+        "hypotheses_per_question": 2
+      },
+      "HQ": {
+        "questions": 6,
+        "hypotheses": 6,
+        "hypotheses_per_question": 1
+      },
+      "D-empty": {
+        "questions": 0,
+        "hypotheses": 6,
+        "hypotheses_per_question": null
+      },
+      "D-shuffled": {
+        "questions": 0,
+        "hypotheses": 6,
+        "hypotheses_per_question": null
+      }
+    }
+  },
+  "generation": {
+    "model": "gemma3:12b",
+    "model_status": "methodological generator/settings approved; exact-limit runtime verification still required",
+    "immutable_version_or_digest": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+    "immutable_digest_source": "local Ollama registry manifest model-layer digest; verified in local_model_inventory_audit",
+    "backend": "ollama-local",
+    "backend_version": "0.40.16",
+    "documented_training_cutoff": "August 2024 (month-level precision)",
+    "documented_training_cutoff_source": "https://ai.google.dev/gemma/docs/core/model_card_3",
+    "tokenizer_status": "verified against Ollama prompt_eval_count; see saved runtime report and tokenizer fingerprint",
+    "temperature": 0,
+    "top_p": 1,
+    "max_output_tokens": 2048,
+    "context_limit": 32768,
+    "replicates_per_paper_arm": 1,
+    "random_seed_behavior": "fixed seed 2026; same decoding across seven arms; deterministic source/arm scheduling",
+    "token_accounting_verification_source": "E6/data/gemma3_local_verification_v1.json (SHA-256 705211d2dafd25afd7c42c52e11d8f3373efc089da313b5fb650ab4068f8783a)",
+    "runtime_verification_report_path": "E6/data/gemma3_local_verification_v1.json",
+    "runtime_verification_report_sha256": "705211d2dafd25afd7c42c52e11d8f3373efc089da313b5fb650ab4068f8783a",
+    "tokenizer_counter_id": "ollama-runner:b92b218582c521ba287f38f1d6057dcd3c6cbff036f13cac97b5d861f5e58ec3:0a5090e20207bece62fbd58e81e2d6dcc3ee529d5173f2e66e336ae90507fecb",
+    "tokenizer_metadata_fingerprint_sha256": "0a5090e20207bece62fbd58e81e2d6dcc3ee529d5173f2e66e336ae90507fecb",
+    "verified_context_length_model_metadata": 131072,
+    "development_runtime_probe_report": "E6/data/development_runtime_probe_v1/report_02.json",
+    "development_runtime_probe_report_sha256": "1ae723209008e9a80d20d7194d85b443ae54480e21d32b081a4b86965b4ec1e6",
+    "development_runtime_probe_status": "passed_source_and_checkpoint_verified",
+    "last_development_probe_attempt": {
+      "path": "E6/data/development_runtime_probe_v1/report_02.json",
+      "file_sha256": "1ae723209008e9a80d20d7194d85b443ae54480e21d32b081a4b86965b4ec1e6",
+      "status": "passed",
+      "is_successful_runtime_evidence": true
+    },
+    "seed": 2026,
+    "historical_development_probe_attempt": {
+      "path": "E6/data/development_runtime_probe_v1/report_01.json",
+      "file_sha256": "231fc5d6c7319650d4af9390f300f0088dabe8c85868dc80174ea6896afd198d",
+      "status": "blocked_or_failed",
+      "is_successful_runtime_evidence": false
+    }
+  },
+  "candidate_generation": {
+    "requested_candidate_count": 6,
+    "existing_dedup_prompt_expected_count": 6,
+    "shared_pool_for_qh_sel_and_qh_rand": true,
+    "candidate_generation_retries": 0
+  },
+  "deduplication": {
+    "pairwise_all_pairs": true,
+    "expected_pair_count_if_six_candidates": 15,
+    "duplicate_clustering_rule": "complete_link_candidate_generation_order_v1; candidate joins the earliest cluster only when duplicate=true against every member; first member represents cluster.",
+    "adjudication_rule": "Use the fixed-prompt Boolean pair decisions; require all 15 unique pairs exactly once; malformed/missing pair decisions fail the selection preparation, with no second judge or inferred repair.",
+    "fewer_than_three_unique_questions_policy": "Block QH-sel and QH-rand as insufficient-question failures; do not synthesize questions, force merges, or silently replace candidates."
+  },
+  "selection_randomization": {
+    "qh_sel": {
+      "ranking_criteria": [
+        "novelty",
+        "specificity",
+        "scientific_significance",
+        "evidence_grounding"
+      ],
+      "score_scale_and_anchors": "Integer 1-5 per dimension; higher values indicate stronger performance on that dimension as stated in prompts/e6/12_qh_sel_ranking.txt.",
+      "selector_model_or_method": "Prompted ranking using the same injected generator model client used by the arm runner, as implemented in E6/orchestrator.py.",
+      "score_aggregation": "weighted sum using E6/question_pipeline_config.json weights",
+      "tie_break_rule": "weighted_score_desc_then_generation_order"
+    },
+    "qh_rand": {
+      "sampler": "sha256_key_ascending_v1",
+      "master_seed": 2026,
+      "rng_and_version": "SHA256",
+      "per_input_seed_derivation": "E6-QH-RAND-v1|2026|<input_set_id>|<question_id>",
+      "sampling_without_replacement": true
+    }
+  },
+  "controls": {
+    "d_empty": {
+      "evidence_removal_representation": "Omit abstract and reference_evidence fields, as configured in E6/question_pipeline_config.json.",
+      "task_may_contain_paper_specific_evidence": false
+    },
+    "d_shuffled": {
+      "donor_matching_rule": "sha256_hash_ordered_derangement_no_reuse_v1",
+      "within_split_only": true,
+      "assignment_seed": 2026,
+      "number_of_assignments": 1,
+      "donor_reuse_policy": "prohibited_within_assignment_batch",
+      "self_donation_allowed": false,
+      "assignment_cohorts": {
+        "data": "all 20 proposed TRAIN evidence sets",
+        "literature": "all 100 proposed ten-reference evidence bundles"
+      },
+      "interpretation": "data swap tests evidence-draw sensitivity within the same mechanism; no guaranteed negative effect"
+    }
+  },
+  "inference_budget": {
+    "expected_arm_stages": {
+      "D": [
+        "generation"
+      ],
+      "QH": [
+        "joint_question_hypothesis_generation"
+      ],
+      "QH-sel": [
+        "candidate_generation",
+        "deduplication",
+        "ranking",
+        "hypothesis_generation"
+      ],
+      "QH-rand": [
+        "candidate_generation",
+        "deduplication",
+        "random_selection",
+        "hypothesis_generation"
+      ],
+      "HQ": [
+        "hypothesis_first_generation"
+      ],
+      "D-empty": [
+        "generation"
+      ],
+      "D-shuffled": [
+        "generation"
+      ]
+    },
+    "estimand": "Workflow performance under a common generated-token budget per input-set and arm; prompt tokens recorded separately.",
+    "budget_policy": "One generated-token cap for each arm; intermediate questions, discarded candidates, deduplication, ranking and retries debit their participating arm; shared preparation debits both selection arms. Prompt usage is recorded separately.",
+    "equalize_calls_or_tokens": true,
+    "count_selector_dedup_judge_calls": true,
+    "per_call_accounting_method": "exact backend output-token counts; intermediate, discarded, shared and retry/preflight generation charged per approved arm scope; prompt tokens separately retained; evaluation-only calls outside generation cap",
+    "tokens_per_input_set_arm": 8192,
+    "accounting_unit": "generated_tokens",
+    "prompt_tokens_recorded_separately": true,
+    "proposal_path": "E6/data/fixed_token_cap_proposal_v4.json"
+  },
+  "output": {
+    "schema_version": "e6-provisional-envelope-v1",
+    "schema_approved": true,
+    "preserve_raw_responses": true,
+    "preserve_rendered_prompt_or_hash": true,
+    "assignment_jsonl_required_fields": [
+      "input_set_id",
+      "testbed",
+      "arm",
+      "rq",
+      "hypothesis",
+      "tokens_generated",
+      "model",
+      "seed"
+    ],
+    "assignment_testbed_labels": [
+      "literature",
+      "data"
+    ],
+    "assignment_arm_labels": [
+      "D",
+      "QH",
+      "QH_sel",
+      "QH_rand",
+      "HQ",
+      "D_empty",
+      "D_shuffled"
+    ],
+    "assignment_record_unit": "one generation per JSONL line",
+    "schema_approval_scope": "technical assignment JSONL/envelope compliance; final whole-protocol artifact sign-off still pending"
+  },
+  "failure_handling": {
+    "max_attempts": 1,
+    "retryable_error_classes": [],
+    "retry_prompt_policy": "none; one content attempt",
+    "timeout_retry_policy": "600 second timeout; no transport or timeout retries",
+    "invalid_json_policy": "invalid schema/JSON or incomplete K=6 fails cell; preserve raw response and null score",
+    "failed_cell_analysis_policy": {
+      "missing_score": null,
+      "imputation": "none",
+      "arm_mean_denominator": "available input sets for that metric and arm",
+      "comparison_denominator": "complete input-set pairs for that metric and contrast",
+      "planned_denominator": "all planned input sets, including failed cells; report exclusions explicitly",
+      "invalid_TEST_prediction_policy": "incorrect within fixed 501 denominator for an evaluable generated set; failed generation/metric remains null",
+      "questionless_arm_policy": "not_applicable; never infer questions or assign zero"
+    },
+    "quality_based_regeneration_policy": "prohibited",
+    "replacement_after_outcome_inspection": false,
+    "timeout_seconds": 600
+  },
+  "evaluation_human_review": {
+    "primary_outcome": "separate per-testbed: TRAIN held-out accuracy and literature main-hypothesis best similarity",
+    "secondary_outcomes": [
+      "question reconstruction",
+      "same-question judgments",
+      "source-grounded HDR",
+      "14-reference recall separately",
+      "already-asked rate",
+      "K=6 diversity",
+      "question-type proportions"
+    ],
+    "evaluate_questions": true,
+    "comparison_schedule": "all 21 applicable paired arm contrasts; descriptive, unadjusted marginal intervals",
+    "hypothesis_matching_and_aggregation": "fixed source-bound reconstruction maximum per field; diversity distinct fraction over 15 pairs; other outcomes as evaluation_config.json",
+    "judge_model_and_version": "gemma3:12b; sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+    "judge_count": 1,
+    "judge_context_for_controls": "same original recipient source targets and task context for every arm; no donor target substitution",
+    "blind_arm_labels": true,
+    "randomize_and_balance_ab_order": false,
+    "human_review_scope": "Read 20 input sets end to end across all seven arms and write error analysis with real examples.",
+    "human_review_sample": [
+      "hypobench-synthetic-election-level2:TRAIN-SET:0019:e7f02a62e08f",
+      "hypobench-synthetic-election-level2:TRAIN-SET:0017:1dec51397785",
+      "hypobench-synthetic-election-level2:TRAIN-SET:0011:a26c8c80a830",
+      "hypobench-synthetic-election-level2:TRAIN-SET:0013:cdb388bd85ad",
+      "hypobench-synthetic-election-level2:TRAIN-SET:0015:6949369dd111",
+      "hypobench-synthetic-election-level2:TRAIN-SET:0014:c98fd1f5b397",
+      "hypobench-synthetic-election-level2:TRAIN-SET:0007:7834fee0c0ed",
+      "hypobench-synthetic-election-level2:TRAIN-SET:0012:389f9702d175",
+      "hypobench-synthetic-election-level2:TRAIN-SET:0008:3ac85a345990",
+      "hypobench-synthetic-election-level2:TRAIN-SET:0009:f87672ddc715",
+      "lit-2610.30103",
+      "lit-2610.30099",
+      "lit-2610.29174",
+      "lit-2610.29439",
+      "lit-2610.29909",
+      "lit-2610.29246",
+      "lit-2610.29517",
+      "lit-2610.29722",
+      "lit-2610.30097",
+      "lit-2610.30105"
+    ],
+    "human_reviewer_count": 2,
+    "human_review_guide_version": "E6/LITERATURE_REVIEW_GUIDE.md; 64df98ff7ca39d7c2afb26940f795d33811dafce5ce5eac38adb43fdf2e43953",
+    "adjudication_rule": "two independent extraction reviewers; independent third adjudicator for disagreements, per Decision 24",
+    "inter_rater_reporting": "report actual check-wise agreement and disagreement counts; no values exist before review",
+    "target_extraction_used": true,
+    "composite_score_and_weights": "none; report separate outcomes",
+    "error_analysis_input_set_count": 20,
+    "pre_outcome_error_review_plan": {
+      "case_count": 20,
+      "cases_per_testbed": 10,
+      "sampling": "lowest SHA256(E6-ERROR-REVIEW-v1|2026|<testbed>|<input_set_id>) before outcomes",
+      "reviewer_count": 1,
+      "scope": "all seven arms; generation/schema failures, unsupported evidence, redundancy, question-hypothesis mismatch, target mismatch; real examples"
+    },
+    "literature_extraction_review_policy": {
+      "reviewer_count": 2,
+      "guide_path": "E6/LITERATURE_REVIEW_GUIDE.md",
+      "guide_sha256": "64df98ff7ca39d7c2afb26940f795d33811dafce5ce5eac38adb43fdf2e43953",
+      "disagreement_policy": "independent_adjudicator",
+      "check_fields": [
+        "research_question_extraction_accurate",
+        "main_hypothesis_extraction_accurate",
+        "research_question_explicitness_accurate",
+        "main_hypothesis_explicitness_accurate",
+        "problem_extraction_accurate",
+        "method_extraction_accurate",
+        "result_extraction_accurate"
+      ],
+      "require_error_and_correction_records": true,
+      "case_count": 20,
+      "selection": "existing first 20 hash-ranked literature targets, seed 2026",
+      "must_complete_before": "literature_scoring",
+      "completion_status": "not_performed"
+    },
+    "primary_hypothesis_quality_outcome": {
+      "testbed": "literature",
+      "metric": "main_hypothesis_best_similarity",
+      "numeric_effect_sizes": "unspecified_by_researcher"
+    },
+    "evidence_requirements": {
+      "HDR": "grounded feature and relationship judgments",
+      "literature_reconstruction": "source-bound original evidence",
+      "already_asked": "genuine independently sourced questions",
+      "diversity": "prepared rubric; validation required before scoring"
+    },
+    "already_asked_policy": {
+      "approval_decision": 20,
+      "corpus": {
+        "path": "E6/data/prior_question_corpus_v4.json",
+        "file_sha256": "0ba88a644a238ec696bf5b010228cfb13728b7931ff7434407d3d52a5ffbac18",
+        "manifest_sha256": "d5044a2b3adc7323b0bd77e5a8412c462fa0c330c698c36ece5b3e47a3d22f07"
+      },
+      "candidate_limit": 20,
+      "semantic_identity_required": true,
+      "coverage": "limited/non-comprehensive",
+      "hypobench_without_proven_cutoff": "unavailable/null"
+    },
+    "ab_order_scope": "optional pairwise preference judge disabled; HypoBench recovery still uses both source-defined orders"
+  },
+  "execution_replication": {
+    "run_order_method": "sha256_seeded_arm_order_v1",
+    "replicates_per_paper_arm": 1,
+    "sample_size_rationale": "prepared minimum 100 literature targets; 20 disjoint TRAIN evidence sets of 20; no power guarantee"
+  },
+  "statistical_analysis": {
+    "primary_contrasts": [
+      "QH-minus-D",
+      "QH-sel-minus-QH-rand",
+      "QH-minus-D-shuffled"
+    ],
+    "statistical_model": "paired arithmetic mean differences by input set",
+    "uncertainty_method": "paired input-set bootstrap with 95% intervals for every headline number",
+    "multiplicity_method": "unadjusted_marginal_intervals",
+    "missing_data_rule": "complete_pairs",
+    "sensitivity_analyses": [
+      "none; descriptive predeclared summaries only"
+    ],
+    "analysis_dependency_versions": "Python 3.9.6; standard library only; pin executable and module hashes before analysis",
+    "analysis_scope": "descriptive; no Holm-adjusted or familywise significance claims",
+    "comparisons": [
+      [
+        "D",
+        "QH"
+      ],
+      [
+        "D",
+        "QH-sel"
+      ],
+      [
+        "D",
+        "QH-rand"
+      ],
+      [
+        "D",
+        "HQ"
+      ],
+      [
+        "D",
+        "D-empty"
+      ],
+      [
+        "D",
+        "D-shuffled"
+      ],
+      [
+        "QH",
+        "QH-sel"
+      ],
+      [
+        "QH",
+        "QH-rand"
+      ],
+      [
+        "QH",
+        "HQ"
+      ],
+      [
+        "QH",
+        "D-empty"
+      ],
+      [
+        "QH",
+        "D-shuffled"
+      ],
+      [
+        "QH-sel",
+        "QH-rand"
+      ],
+      [
+        "QH-sel",
+        "HQ"
+      ],
+      [
+        "QH-sel",
+        "D-empty"
+      ],
+      [
+        "QH-sel",
+        "D-shuffled"
+      ],
+      [
+        "QH-rand",
+        "HQ"
+      ],
+      [
+        "QH-rand",
+        "D-empty"
+      ],
+      [
+        "QH-rand",
+        "D-shuffled"
+      ],
+      [
+        "HQ",
+        "D-empty"
+      ],
+      [
+        "HQ",
+        "D-shuffled"
+      ],
+      [
+        "D-empty",
+        "D-shuffled"
+      ]
+    ],
+    "previous_focal_contrasts": [
+      "QH-sel-minus-QH-rand",
+      "D-minus-D-empty"
+    ],
+    "directional_hypotheses": [
+      {
+        "id": "H1",
+        "left_arm": "QH",
+        "right_arm": "D",
+        "direction": ">",
+        "testbed": "literature",
+        "outcome": "main_hypothesis_best_similarity",
+        "expected_effect_size": "unspecified_by_researcher"
+      },
+      {
+        "id": "H2",
+        "left_arm": "QH-sel",
+        "right_arm": "QH-rand",
+        "direction": ">",
+        "testbed": "literature",
+        "outcome": "main_hypothesis_best_similarity",
+        "expected_effect_size": "unspecified_by_researcher"
+      },
+      {
+        "id": "H3",
+        "left_arm": "QH",
+        "right_arm": "D-shuffled",
+        "direction": ">",
+        "testbed": "literature",
+        "outcome": "main_hypothesis_best_similarity",
+        "expected_effect_size": "unspecified_by_researcher"
+      }
+    ],
+    "analysis_runtime_observation": {
+      "python_version": "3.9.6",
+      "executable_sha256": "9ea22c79baac7ee6906d807799f351ae5de25b74be3ead66370714ea5348ca9f",
+      "standard_library_sha256": {
+        "random": "e9184015f70d4c0840ae24781fab340458ea8bb9e2619c04713eaf3a9402c65a",
+        "statistics": "dbc1c22db26a998676f2af927a9823025cd24697dfbf0202f3dbe27eba39da3a"
+      },
+      "scope": "actual local analysis runtime observation only; no model runtime verification"
+    }
+  },
+  "reproducibility": {
+    "record_prompt_hashes": true,
+    "record_input_and_evidence_hashes": true,
+    "record_runtime_and_hardware": true,
+    "record_raw_outputs_attempts_errors_and_call_costs": true,
+    "preregister_predictions_before_evaluation": true,
+    "one_page_memo_required": true
+  },
+  "directional_hypotheses": [
+    {
+      "id": "H1",
+      "left_arm": "QH",
+      "right_arm": "D",
+      "direction": ">",
+      "testbed": "literature",
+      "outcome": "main_hypothesis_best_similarity",
+      "expected_effect_size": "unspecified_by_researcher"
+    },
+    {
+      "id": "H2",
+      "left_arm": "QH-sel",
+      "right_arm": "QH-rand",
+      "direction": ">",
+      "testbed": "literature",
+      "outcome": "main_hypothesis_best_similarity",
+      "expected_effect_size": "unspecified_by_researcher"
+    },
+    {
+      "id": "H3",
+      "left_arm": "QH",
+      "right_arm": "D-shuffled",
+      "direction": ">",
+      "testbed": "literature",
+      "outcome": "main_hypothesis_best_similarity",
+      "expected_effect_size": "unspecified_by_researcher"
+    }
+  ]
+}

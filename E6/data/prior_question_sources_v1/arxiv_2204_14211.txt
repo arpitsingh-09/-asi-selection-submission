@@ -1,0 +1,79 @@
+[2204.14211] TemporalWiki: A Lifelong Benchmark for Training and Evaluating Ever-Evolving Language Models (https://arxiv.org/abs/2204.14211)
+citeturn5view4 [wordlim: 200] Crawled: 3 days ago; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2204.14211","lineno":null}); Total lines: 164
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1: 
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3: 
+L4: Press Enter to search · 【4†Advanced search】
+L5: 
+L6: # Computer Science > Computation and Language
+L7: 
+L8: [Submitted on 29 Apr 2022 (【5†v1】), last revised 12 Apr 2023 (this version, v3)]
+L9: # Title:TemporalWiki: A Lifelong Benchmark for Training and Evaluating Ever-Evolving Language Models
+L10: 
+L11: Authors:【6†Joel Jang】, 【7†Seonghyeon Ye】, 【8†Changho Lee】, 【9†Sohee Yang】, 【10†Joongbo Shin】, 【11†Janghoon Han】, 【12†Gyeonghun Kim】, 【13†Minjoon Seo】
+L12: 
+L13: View a PDF of the paper titled TemporalWiki: A Lifelong Benchmark for Training and Evaluating Ever-Evolving Language Models, by Joel Jang and 7 other authors
+L14: 
+L15: 【14†View PDF】 【15†HTML (experimental)】
+L16: > Abstract:Language Models (LMs) become outdated as the world changes; they often fail to perform tasks requiring recent factual information which was absent or different during training, a phenomenon called temporal misalignment. This is especially a challenging problem because the research community still lacks a coherent dataset for assessing the adaptability of LMs to frequently-updated knowledge corpus such as Wikipedia.
+L17: To this end, we introduce TemporalWiki, a lifelong benchmark for ever-evolving LMs that utilizes the difference between consecutive snapshots of English Wikipedia and English Wikidata for training and evaluation, respectively. The benchmark hence allows researchers to periodically track an LM's ability to retain previous knowledge and acquire updated/new knowledge at each point in time.
+L18: We also find that training an LM on the diff data through continual learning methods achieves similar or better perplexity than on the entire snapshot in our benchmark with 12 times less computational cost, which verifies that factual knowledge in LMs can be safely updated with minimal training data via continual learning. The dataset and the code are available at 【16†this https URL†github.com】.
+L19: Comments:  | published at EMNLP 2022
+L20: Subjects:  | Computation and Language (cs.CL)
+L21: Cite as:  | 【17†arXiv:2204.14211】 [cs.CL]
+L22:    | (or 【18†arXiv:2204.14211v3】 [cs.CL] for this version)
+L23:    | 【19†https://doi.org/10.48550/arXiv.2204.14211†doi.org】 arXiv-issued DOI via DataCite
+L24: ## Submission history
+L25: 
+L26: From: Joel Jang [【20†view email】]
+L27: 【5†[v1]】 Fri, 29 Apr 2022 16:40:07 UTC (8,172 KB)
+L28: 【21†[v2]】 Wed, 8 Feb 2023 05:15:18 UTC (8,192 KB)
+L29: [v3] Wed, 12 Apr 2023 12:16:59 UTC (13,507 KB)
+L30: 
+L31: Full-text links:
+L32: 
+L33: ## Access Paper:
+L34: 
+L35: View a PDF of the paper titled TemporalWiki: A Lifelong Benchmark for Training and Evaluating Ever-Evolving Language Models, by Joel Jang and 7 other authors
+L36: 
+L37:   * 【14†View PDF】
+L38:   * 【15†HTML (experimental)】
+L39:   * 【22†TeX Source】
+L40: 
+L41: 【23†view license†creativecommons.org】
+L42: ### Additional Features
+L43: 
+L44:   * 【24†Audio Summary】
+L45: 
+L46: ### Current browse context:
+L47: 
+L48: cs.CL
+L49: 
+L50: 【25†< prev】   |   【26†next >】
+L51: 
+L52: 【27†new】 | 【28†recent】 | 【29†2022-04】
+L53: 
+L54: Change to browse by:
+L55: 
+L56: 【30†cs】
+L57: 
+L58: ### References & Citations
+L59: 
+L60:   * 【31†SciX†scixplorer.org】
+L61:   * 【32†Google Scholar†scholar.google.com】
+L62:   * 【33†Semantic Scholar†api.semanticscholar.org】
+L63: 
+L64: [Button: export BibTeX citation] Loading...
+L65: 
+L66: ## BibTeX formatted citation
+L67: 
+L68: [Button: ×]
+L69: 
+L70: loading...
+L71: 
+L72: Data provided by:
+L73: 
+L74: ### Bookmark
+L75: 
+L76: [Input] Bibliographic Tools

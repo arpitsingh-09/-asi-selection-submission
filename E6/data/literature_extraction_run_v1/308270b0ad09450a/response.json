@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:31:57.230375+00:00",
+  "identity": "57062c87c71b029b4e505809458e86ef5e7078538a75e4c842a78abde9fbb2dc",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:31:57.217748Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 102,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 15.233334124999999,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:31:57.217748Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 3022,
+      "prompt_eval_count": 627,
+      "prompt_sha256": "5b74afb1f28168859a3975a2c445d36efcafb8b03220696d62efe7f890258f53",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 729,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 627,
+    "latency_seconds": 15.233334124999999,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:31:57.217748Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 102,
+    "raw_response": "{\n  \"research_question\": \"How can text-to-image models be improved to generate more diverse images based on user-specified axes of variation?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"T-DIG, a text-conditioned diversity framework utilizing an LLM policy trained with GRPO, can improve text-conditioned diversity in image generation while preserving alignment with the base prompt.\",\n  \"main_hypothesis_explicit\": true\n}",
+    "total_tokens": 729
+  },
+  "reply_sha256": "50350f2064f21b4e4d7e81f78ad00e922c9e1fb80f5db474661fa81c6a55369a"
+}

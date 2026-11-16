@@ -1,0 +1,151 @@
+{
+  "sources": [
+    {
+      "path": "E6/data/prior_question_sources_v1/arxiv_1202_3732.txt",
+      "source_url": "https://arxiv.org/abs/1202.3732",
+      "retrieved_at_utc": "2026-11-12T02:29:38Z"
+    },
+    {
+      "path": "E6/data/prior_question_sources_v1/arxiv_1801_03924.txt",
+      "source_url": "https://arxiv.org/abs/1801.03924",
+      "retrieved_at_utc": "2026-11-12T02:29:38Z"
+    },
+    {
+      "path": "E6/data/prior_question_sources_v1/arxiv_1803_05457.txt",
+      "source_url": "https://arxiv.org/abs/1803.05457",
+      "retrieved_at_utc": "2026-11-12T02:29:38Z"
+    },
+    {
+      "path": "E6/data/prior_question_sources_v1/arxiv_1804_08328.txt",
+      "source_url": "https://arxiv.org/abs/1804.08328",
+      "retrieved_at_utc": "2026-11-12T02:29:38Z"
+    },
+    {
+      "path": "E6/data/prior_question_sources_v1/arxiv_2204_14211.txt",
+      "source_url": "https://arxiv.org/abs/2204.14211",
+      "retrieved_at_utc": "2026-11-12T02:29:38Z"
+    },
+    {
+      "path": "E6/data/prior_question_sources_v1/arxiv_2207_13332.txt",
+      "source_url": "https://arxiv.org/abs/2207.13332",
+      "retrieved_at_utc": "2026-11-12T02:29:38Z"
+    },
+    {
+      "path": "E6/data/prior_question_expansion_v1/arxiv_2212_03640.txt",
+      "source_url": "https://arxiv.org/abs/2212.03640",
+      "retrieved_at_utc": "2026-11-12T02:50:13Z"
+    },
+    {
+      "path": "E6/data/prior_question_expansion_v1/arxiv_2310_03302.txt",
+      "source_url": "https://arxiv.org/abs/2310.03302",
+      "retrieved_at_utc": "2026-11-12T02:50:13Z"
+    },
+    {
+      "path": "E6/data/prior_question_expansion_v1/arxiv_2310_04451.txt",
+      "source_url": "https://arxiv.org/abs/2310.04451",
+      "retrieved_at_utc": "2026-11-12T02:50:13Z"
+    },
+    {
+      "path": "E6/data/prior_question_expansion_v1/arxiv_2401_06209.txt",
+      "source_url": "https://arxiv.org/abs/2401.06209",
+      "retrieved_at_utc": "2026-11-12T02:50:13Z"
+    },
+    {
+      "path": "E6/data/prior_question_expansion_v1/arxiv_2402_01622.txt",
+      "source_url": "https://arxiv.org/abs/2402.01622",
+      "retrieved_at_utc": "2026-11-12T02:50:13Z"
+    },
+    {
+      "path": "E6/data/prior_question_expansion_v1/arxiv_2403_12958.txt",
+      "source_url": "https://arxiv.org/abs/2403.12958",
+      "retrieved_at_utc": "2026-11-12T02:50:13Z"
+    },
+    {
+      "path": "E6/data/prior_question_expansion_v1/arxiv_2404_04242.txt",
+      "source_url": "https://arxiv.org/abs/2404.04242",
+      "retrieved_at_utc": "2026-11-12T02:50:13Z"
+    },
+    {
+      "path": "E6/data/prior_question_expansion_v1/arxiv_2405_01534.txt",
+      "source_url": "https://arxiv.org/abs/2405.01534",
+      "retrieved_at_utc": "2026-11-12T02:50:13Z"
+    },
+    {
+      "path": "E6/data/prior_question_expansion_v1/arxiv_2407_03129.txt",
+      "source_url": "https://arxiv.org/abs/2407.03129",
+      "retrieved_at_utc": "2026-11-12T02:50:13Z"
+    },
+    {
+      "path": "E6/data/prior_question_expansion_v1/arxiv_2407_08693.txt",
+      "source_url": "https://arxiv.org/abs/2407.08693",
+      "retrieved_at_utc": "2026-11-12T02:50:13Z"
+    },
+    {
+      "path": "E6/data/prior_question_expansion_v1/arxiv_2502_11886.txt",
+      "source_url": "https://arxiv.org/abs/2502.11886",
+      "retrieved_at_utc": "2026-11-12T02:50:13Z"
+    },
+    {
+      "path": "E6/data/prior_question_expansion_v1/arxiv_2504_04827.txt",
+      "source_url": "https://arxiv.org/abs/2504.04827",
+      "retrieved_at_utc": "2026-11-12T02:50:13Z"
+    },
+    {
+      "path": "E6/data/prior_question_expansion_v1/arxiv_2601_16175.txt",
+      "source_url": "https://arxiv.org/abs/2601.16175",
+      "retrieved_at_utc": "2026-11-12T02:50:13Z"
+    },
+    {
+      "path": "E6/data/prior_question_expansion_v1/arxiv_2603_08640.txt",
+      "source_url": "https://arxiv.org/abs/2603.08640",
+      "retrieved_at_utc": "2026-11-12T02:50:13Z"
+    },
+    {
+      "path": "E6/data/prior_question_expansion_v1/arxiv_2603_09906.txt",
+      "source_url": "https://arxiv.org/abs/2603.09906",
+      "retrieved_at_utc": "2026-11-12T02:50:13Z"
+    },
+    {
+      "path": "E6/data/prior_question_expansion_v1/arxiv_2604_23765.txt",
+      "source_url": "https://arxiv.org/abs/2604.23765",
+      "retrieved_at_utc": "2026-11-12T02:50:13Z"
+    },
+    {
+      "path": "E6/data/prior_question_expansion_v1/arxiv_2606_04811.txt",
+      "source_url": "https://arxiv.org/abs/2606.04811",
+      "retrieved_at_utc": "2026-11-12T02:50:13Z"
+    },
+    {
+      "path": "E6/data/prior_question_expansion_v1/arxiv_2607_18553.txt",
+      "source_url": "https://arxiv.org/abs/2607.18553",
+      "retrieved_at_utc": "2026-11-12T02:50:13Z"
+    },
+    {
+      "path": "E6/data/prior_question_expansion_v1/arxiv_2608_00261.txt",
+      "source_url": "https://arxiv.org/abs/2608.00261",
+      "retrieved_at_utc": "2026-11-12T02:50:13Z"
+    },
+    {
+      "path": "E6/data/prior_question_expansion_v1/arxiv_2608_03924.txt",
+      "source_url": "https://arxiv.org/abs/2608.03924",
+      "retrieved_at_utc": "2026-11-12T02:50:13Z"
+    },
+    {
+      "path": "E6/data/prior_question_expansion_v1/arxiv_2608_25505.txt",
+      "source_url": "https://arxiv.org/abs/2608.25505",
+      "retrieved_at_utc": "2026-11-12T02:50:13Z"
+    },
+    {
+      "path": "E6/data/prior_question_expansion_v1/arxiv_2610_19159.txt",
+      "source_url": "https://arxiv.org/abs/2610.19159",
+      "retrieved_at_utc": "2026-11-12T02:50:13Z"
+    },
+    {
+      "path": "E6/data/prior_question_expansion_v1/arxiv_2610_23849.txt",
+      "source_url": "https://arxiv.org/abs/2610.23849",
+      "retrieved_at_utc": "2026-11-12T02:50:13Z"
+    }
+  ],
+  "retrieval_failures": [],
+  "source_frame_path": "E6/data/prior_question_expansion_v1/source_frame.json"
+}

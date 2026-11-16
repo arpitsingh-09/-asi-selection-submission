@@ -1,0 +1,96 @@
+[2610.19159] Into the Unknown: Benchmarking AI agents on open scientific research problems (https://arxiv.org/abs/2610.19159)
+citeturn6view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2610.19159","lineno":null}); Total lines: 162
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1: 
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3: 
+L4: Press Enter to search · 【4†Advanced search】
+L5: 
+L6: # Computer Science > Artificial Intelligence
+L7: 
+L8: [Submitted on 13 Oct 2026]
+L9: # Title:Into the Unknown: Benchmarking AI agents on open scientific research problems
+L10: Authors:【5†Seungone Kim】, 【6†Jiayi Geng】, 【7†Young-Jun Lee】, 【8†Bo Liu】, 【9†Juyoung Suk】, 【10†Nicholas Lubbers】, 【11†Mitchell Wood】, 【12†Marcus Noack】, 【13†Yong-Xin Yao】, 【14†Yuan Shi】, 【15†Roxana Bujack】, 【16†Cristina Garcia Cardona】, 【17†Austin Rodriguez】, 【18†Ilon Joseph】, 【19†Woojin Cho】, 【20†Zora Zhiruo Wang】, 【21†Chuanyang Jin】, 【22†Ian Wu】, 【23†Apurva Gandhi】, 【24†Tianjian Li】, 【25†Weiwei Sun】, 【26†Carolin Lawrence】, 【27†Kiril Gashteovski】, 【28†Dongyeop Kang】, 【29†Jay Shin】, 【30†Akari Asai】, 【31†Graham Neubig】, 【32†Sean Welleck】
+L11: View a PDF of the paper titled Into the Unknown: Benchmarking AI agents on open scientific research problems, by Seungone Kim and 27 other authors
+L12: 
+L13: 【33†View PDF】 【34†HTML (experimental)】
+L14: > Abstract:Can AI agents carry out research on open scientific problems? We introduce Into the Unknown, a benchmark that provides an agent with a science paper along with a research direction to pursue and tasks it to write a follow-up paper. We work with scientists at US Department of Energy (DOE) national laboratories, who each contribute an unpublished follow-up direction from their own work together with the necessary conditions a submission must meet.
+L15: While assessing the quality of a follow-up paper is challenging in general, using these conditions to form a rubric makes evaluation more tractable for research problems that have no reference answer. We have nine frontier agents write 15 follow-ups each, spanning quantum computing, plasma physics, computational chemistry, materials science, and scientific machine learning domains.
+L16: None of the 135 submissions satisfies all the conditions, and 114 fail our integrity check, most often because the paper claims work that was never done or reports numbers that contradict the recorded evidence. Overall, agents readily produce papers that look like follow-ups, but none meets the standard of the domain scientist, leaving substantial headroom. Our code and data are publicly available.
+L17: Comments:  | preprint under review
+L18: Subjects:  | Artificial Intelligence (cs.AI); Computation and Language (cs.CL); Machine Learning (cs.LG)
+L19: Cite as:  | 【35†arXiv:2610.19159】 [cs.AI]
+L20:    | (or 【36†arXiv:2610.19159v1】 [cs.AI] for this version)
+L21:    | 【37†https://doi.org/10.48550/arXiv.2610.19159†doi.org】 arXiv-issued DOI via DataCite
+L22: ## Submission history
+L23: 
+L24: From: Seungone Kim [【38†view email】]
+L25: [v1] Tue, 13 Oct 2026 20:25:59 UTC (4,453 KB)
+L26: 
+L27: Full-text links:
+L28: 
+L29: ## Access Paper:
+L30: 
+L31: View a PDF of the paper titled Into the Unknown: Benchmarking AI agents on open scientific research problems, by Seungone Kim and 27 other authors
+L32: 
+L33:   * 【33†View PDF】
+L34:   * 【34†HTML (experimental)】
+L35:   * 【39†TeX Source】
+L36: 
+L37: 【40†view license†creativecommons.org】
+L38: 
+L39: ### Additional Features
+L40: 
+L41:   * 【41†Audio Summary】
+L42: ### Current browse context:
+L43: 
+L44: cs.AI
+L45: 
+L46: 【42†< prev】   |   【43†next >】
+L47: 
+L48: 【44†new】 | 【45†recent】 | 【46†2026-10】
+L49: 
+L50: Change to browse by:
+L51: 
+L52: 【47†cs】
+L53: 【48†cs.CL】
+L54: 【49†cs.LG】
+L55: 
+L56: ### References & Citations
+L57: 
+L58:   * 【50†SciX†scixplorer.org】
+L59:   * 【51†Google Scholar†scholar.google.com】
+L60:   * 【52†Semantic Scholar†api.semanticscholar.org】
+L61: 
+L62: [Button: export BibTeX citation] Loading...
+L63: 
+L64: ## BibTeX formatted citation
+L65: 
+L66: [Button: ×]
+L67: 
+L68: loading...
+L69: 
+L70: Data provided by:
+L71: 
+L72: ### Bookmark
+L73: 
+L74: [Input] Bibliographic Tools
+L75: # Bibliographic and Citation Tools
+L76: 
+L77: [Input] Bibliographic Explorer Toggle
+L78: 
+L79: Bibliographic Explorer (【53†What is the Explorer?†info.arxiv.org】)
+L80: 
+L81: [Input] Connected Papers Toggle
+L82: 
+L83: Connected Papers (【54†What is Connected Papers?†www.connectedpapers.com】)
+L84: 
+L85: [Input] Litmaps Toggle
+L86: 
+L87: Litmaps (【55†What is Litmaps?†www.litmaps.co】)
+L88: 
+L89: [Input] scite.ai Toggle
+L90: 
+L91: scite Smart Citations (【56†What are Smart Citations?†www.scite.ai】)
+L92: 
+L93: [Input] Code, Data, Media

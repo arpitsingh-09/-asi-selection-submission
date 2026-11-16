@@ -1,0 +1,92 @@
+[1801.03924] The Unreasonable Effectiveness of Deep Features as a Perceptual Metric (https://arxiv.org/abs/1801.03924)
+citeturn5view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/1801.03924","lineno":null}); Total lines: 177
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1: 
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3: 
+L4: Press Enter to search · 【4†Advanced search】
+L5: 
+L6: # Computer Science > Computer Vision and Pattern Recognition
+L7: 
+L8: [Submitted on 11 Jan 2018 (【5†v1】), last revised 10 Apr 2018 (this version, v2)]
+L9: # Title:The Unreasonable Effectiveness of Deep Features as a Perceptual Metric
+L10: 
+L11: Authors:【6†Richard Zhang】, 【7†Phillip Isola】, 【8†Alexei A. Efros】, 【9†Eli Shechtman】, 【10†Oliver Wang】
+L12: 
+L13: View a PDF of the paper titled The Unreasonable Effectiveness of Deep Features as a Perceptual Metric, by Richard Zhang and 4 other authors
+L14: 
+L15: 【11†View PDF】 【12†HTML (experimental)】
+L16: > Abstract:While it is nearly effortless for humans to quickly assess the perceptual similarity between two images, the underlying processes are thought to be quite complex. Despite this, the most widely used perceptual metrics today, such as PSNR and SSIM, are simple, shallow functions, and fail to account for many nuances of human perception.
+L17: Recently, the deep learning community has found that features of the VGG network trained on ImageNet classification has been remarkably useful as a training loss for image synthesis. But how perceptual are these so-called "perceptual losses"? What elements are critical for their success? To answer these questions, we introduce a new dataset of human perceptual similarity judgments. We systematically evaluate deep features across different architectures and tasks and compare them with classic metrics.
+L18: We find that deep features outperform all previous metrics by large margins on our dataset. More surprisingly, this result is not restricted to ImageNet-trained VGG features, but holds across different deep architectures and levels of supervision (supervised, self-supervised, or even unsupervised). Our results suggest that perceptual similarity is an emergent property shared across deep visual representations.
+L19: Comments:  | Accepted to CVPR 2018; Code and data available at 【13†this https URL†www.github.com】
+L20: Subjects:  | Computer Vision and Pattern Recognition (cs.CV); Graphics (cs.GR)
+L21: Cite as:  | 【14†arXiv:1801.03924】 [cs.CV]
+L22:    | (or 【15†arXiv:1801.03924v2】 [cs.CV] for this version)
+L23:    | 【16†https://doi.org/10.48550/arXiv.1801.03924†doi.org】 arXiv-issued DOI via DataCite
+L24: ## Submission history
+L25: 
+L26: From: Richard Zhang [【17†view email】]
+L27: 【5†[v1]】 Thu, 11 Jan 2018 18:54:17 UTC (6,988 KB)
+L28: [v2] Tue, 10 Apr 2018 19:25:07 UTC (4,318 KB)
+L29: 
+L30: Full-text links:
+L31: 
+L32: ## Access Paper:
+L33: 
+L34: View a PDF of the paper titled The Unreasonable Effectiveness of Deep Features as a Perceptual Metric, by Richard Zhang and 4 other authors
+L35: 
+L36:   * 【11†View PDF】
+L37:   * 【12†HTML (experimental)】
+L38:   * 【18†TeX Source】
+L39: 
+L40: 【19†view license】
+L41: 
+L42: ### Additional Features
+L43: 
+L44:   * 【20†Audio Summary】
+L45: ### Current browse context:
+L46: 
+L47: cs.CV
+L48: 
+L49: 【21†< prev】   |   【22†next >】
+L50: 
+L51: 【23†new】 | 【24†recent】 | 【25†2018-01】
+L52: 
+L53: Change to browse by:
+L54: 
+L55: 【26†cs】
+L56: 【27†cs.GR】
+L57: 
+L58: ### References & Citations
+L59: 
+L60:   * 【28†SciX†scixplorer.org】
+L61:   * 【29†Google Scholar†scholar.google.com】
+L62:   * 【30†Semantic Scholar†api.semanticscholar.org】
+L63: 
+L64: ### 【31†1 blog link】
+L65: 
+L66: (【32†what is this?†info.arxiv.org】)
+L67: ### 【33†DBLP†dblp.uni-trier.de】 - CS Bibliography
+L68: 
+L69: 【34†listing†dblp.uni-trier.de】 | 【35†bibtex†dblp.uni-trier.de】
+L70: 
+L71: 【36†Richard Zhang†dblp.uni-trier.de】
+L72: 【37†Phillip Isola†dblp.uni-trier.de】
+L73: 【38†Alexei A. Efros†dblp.uni-trier.de】
+L74: 【39†Eli Shechtman†dblp.uni-trier.de】
+L75: 【40†Oliver Wang†dblp.uni-trier.de】
+L76: 
+L77: [Button: export BibTeX citation] Loading...
+L78: 
+L79: ## BibTeX formatted citation
+L80: 
+L81: [Button: ×]
+L82: 
+L83: loading...
+L84: 
+L85: Data provided by:
+L86: 
+L87: ### Bookmark
+L88: 
+L89: [Input] Bibliographic Tools

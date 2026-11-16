@@ -1,0 +1,92 @@
+ROLE
+
+You are an AI research scientist. Your task is to identify research questions and develop testable hypotheses that address those questions.
+
+INPUT
+
+Research domain and task:
+{{DOMAIN_AND_TASK}}
+
+Research evidence:
+{{EVIDENCE}}
+
+STAGE 1 — RESEARCH QUESTION GENERATION
+
+1. Examine the research task and supporting evidence.
+2. Generate exactly THREE distinct research questions.
+3. Each question must:
+    * Be clear, specific, and researchable.
+    * Be grounded in the supplied evidence.
+    * Address an identifiable gap, relationship, mechanism, or unresolved problem.
+    * Be sufficiently focused to support testable hypotheses.
+    * Be meaningfully different from the other two questions.
+4. Avoid generic questions, unsupported assumptions, and questions unrelated to the research task.
+
+STAGE 2 — HYPOTHESIS GENERATION
+
+For EACH of the three research questions, generate exactly TWO distinct hypotheses.
+
+Each hypothesis must:
+
+* Be one declarative sentence.
+* Contain no more than 50 words.
+* Express a specific, testable relationship, mechanism, or prediction.
+* Directly address its associated research question.
+* Be grounded in the supplied evidence.
+* Be meaningfully different from its paired hypothesis.
+
+This must produce exactly SIX hypotheses in total.
+
+GENERAL RESTRICTIONS
+
+* Do not invent evidence.
+* Do not claim that a hypothesis has been experimentally validated.
+* Do not repeat the same hypothesis under different wording.
+* Do not provide explanations, introductions, conclusions, citations, or recommendations.
+* Do not generate additional research questions or hypotheses.
+
+OUTPUT FORMAT
+
+Return valid JSON only, using exactly this structure:
+
+{
+  "arm": "QH",
+  "questions": [
+    {
+      "id": "Q1",
+      "text": "First research question.",
+      "hypotheses": [
+        {"id": "H1", "text": "First hypothesis."},
+        {"id": "H2", "text": "Second hypothesis."}
+      ]
+    },
+    {
+      "id": "Q2",
+      "text": "Second research question.",
+      "hypotheses": [
+        {"id": "H3", "text": "Third hypothesis."},
+        {"id": "H4", "text": "Fourth hypothesis."}
+      ]
+    },
+    {
+      "id": "Q3",
+      "text": "Third research question.",
+      "hypotheses": [
+        {"id": "H5", "text": "Fifth hypothesis."},
+        {"id": "H6", "text": "Sixth hypothesis."}
+      ]
+    }
+  ]
+}
+FINAL VALIDATION
+
+Before returning the result, verify that:
+
+* Exactly three research questions are present.
+* Exactly two hypotheses are associated with each question.
+* Exactly six hypotheses are present overall.
+* Every hypothesis is one declarative sentence.
+* Every hypothesis contains no more than 50 words.
+* Every hypothesis addresses its associated question.
+* All questions and hypotheses are meaningfully distinct.
+* The response is valid JSON with no additional text.

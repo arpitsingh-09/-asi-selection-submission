@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:33:48.630871+00:00",
+  "identity": "df9c702cd00f2ebd5a558058a95caf9fc371b18fb093453d6509d28b05bc355f",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:33:48.61387Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 85,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 13.606074791999959,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:33:48.61387Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2668,
+      "prompt_eval_count": 548,
+      "prompt_sha256": "baefde19e9c280400acef7b23ea2abf67f009cfbb72ce57048ea683c5d8822e3",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 633,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 548,
+    "latency_seconds": 13.606074791999959,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:33:48.61387Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 85,
+    "raw_response": "{\n  \"research_question\": \"It remains unclear whether the gains from individual RAG techniques survive composition, whether retrieval quality and answer faithfulness favor the same design choices, and whether conclusions from small corpora hold at large scale.\",\n  \"research_question_explicit\": true,\n  \"main_hypothesis\": \"Three hypotheses were pre-declared.\",\n  \"main_hypothesis_explicit\": true\n}",
+    "total_tokens": 633
+  },
+  "reply_sha256": "b49feb038e87d1d7cfb14d5acf345511dada5dbe0adcbc91c392f85a801ae2c4"
+}

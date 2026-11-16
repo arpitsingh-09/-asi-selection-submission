@@ -1,0 +1,239 @@
+{
+  "actual_extraction_record": {
+    "attempts": [
+      {
+        "attempt": 1,
+        "raw": "{\n  \"research_question\": \"How can latent evidence adaptation and fusion be jointly addressed to improve slide-level analysis using frozen-feature whole slide images?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"Jointly designing feature transformation and contextual aggregation will translate pretrained representations into effective slide-level predictions.\",\n  \"main_hypothesis_explicit\": false\n}",
+        "status": "returned"
+      }
+    ],
+    "error": null,
+    "evaluation_input": {
+      "rendered_prompt": "ROLE\nYou are a scientific paper information extractor.\n\nTASK\nExtract the target paper's research question and main hypothesis using only the supplied paper text.\n\nTARGET PAPER TEXT\nWhole slide image (WSI) analysis enables computational diagnosis and prognosis, but gigapixel images and limited annotations make slide-level learning challenging. Multiple instance learning addresses this task by aggregating patch representations from frozen pretrained encoders. Recently, Mamba has enabled efficient modeling of long patch sequences. However, task supervision alone does not explicitly constrain information recovery during feature adaptation, while Mamba couples local processing with long-range propagation rather than retaining separate representations for fusion. Motivated by these challenges, we introduce LEAF-Mamba, a framework that jointly addresses latent evidence adaptation and fusion for frozen-feature WSI analysis. A reconstruction-regularized adapter learns compact, task-specific representations while reconstructing the input features. Parallel Mamba and convolutional streams then capture long-range dependencies and sequence-local interactions, with an input-dependent gate modulating their joint representation before slide-level pooling. Experiments across feature extractors demonstrate improved average performance over strong MIL baselines in both diagnostic classification and survival prediction. Component analyses further support the contributions of adaptation and fusion. These findings highlight the value of jointly designing feature transformation and contextual aggregation to translate pretrained representations into effective slide-level predictions.\n\nRULES\n1. Use only the supplied text.\n2. Do not use outside knowledge or infer information unsupported by the text.\n3. Prefer an explicitly stated research question or hypothesis.\n4. If the research question is not explicitly stated but is clearly supported by the text, provide a concise faithful formulation and set research_question_explicit to false.\n5. If no research question can be reliably identified, return null.\n6. Apply the same explicitness rule to the main hypothesis.\n7. Do not confuse the paper's general topic, method or objective with its research question.\n8. Do not invent a hypothesis merely because the paper reports results.\n9. Keep extracted statements concise and faithful to the authors' meaning.\n\nOUTPUT\nReturn valid JSON only:\n\n{\n  \"research_question\": null,\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": null,\n  \"main_hypothesis_explicit\": false\n}\n\nUse strings instead of null when a statement can be reliably extracted or formulated. Explicitness fields must always be JSON booleans.\n",
+      "target_paper_text": "Whole slide image (WSI) analysis enables computational diagnosis and prognosis, but gigapixel images and limited annotations make slide-level learning challenging. Multiple instance learning addresses this task by aggregating patch representations from frozen pretrained encoders. Recently, Mamba has enabled efficient modeling of long patch sequences. However, task supervision alone does not explicitly constrain information recovery during feature adaptation, while Mamba couples local processing with long-range propagation rather than retaining separate representations for fusion. Motivated by these challenges, we introduce LEAF-Mamba, a framework that jointly addresses latent evidence adaptation and fusion for frozen-feature WSI analysis. A reconstruction-regularized adapter learns compact, task-specific representations while reconstructing the input features. Parallel Mamba and convolutional streams then capture long-range dependencies and sequence-local interactions, with an input-dependent gate modulating their joint representation before slide-level pooling. Experiments across feature extractors demonstrate improved average performance over strong MIL baselines in both diagnostic classification and survival prediction. Component analyses further support the contributions of adaptation and fusion. These findings highlight the value of jointly designing feature transformation and contextual aggregation to translate pretrained representations into effective slide-level predictions."
+    },
+    "evaluation_input_sha256": "44011f58394b52293dbfaf2c8980f0e020c196000dd920adde123d0566ee8521",
+    "input_set_id": "lit-2610.29746",
+    "model_response_metadata": {
+      "adapter_metadata": {
+        "backend": "ollama-local",
+        "created_at": "2026-11-12T13:25:55.726902Z",
+        "done": true,
+        "done_reason": "stop",
+        "endpoint": "http://localhost:11434/api/generate",
+        "eval_count": 84,
+        "generation_settings": {
+          "format": "json",
+          "options": {
+            "num_ctx": 32768,
+            "num_predict": 2048,
+            "seed": 2026,
+            "temperature": 0,
+            "top_p": 1
+          },
+          "stream": false
+        },
+        "http_status": 200,
+        "latency_seconds": 8.795579750000002,
+        "model": "gemma3:12b",
+        "model_identity": {
+          "reported_created_at": "2026-11-12T13:25:55.726902Z",
+          "reported_model": "gemma3:12b",
+          "requested_model": "gemma3:12b"
+        },
+        "prompt_characters": 2717,
+        "prompt_eval_count": 510,
+        "prompt_sha256": "8143cf39a6f282392398a1a2983dafc1f06021a0875faa80c6df3d81ee2b5286",
+        "requested_output_token_limit": 2048,
+        "stage": "reference_target_extraction",
+        "total_tokens": 594,
+        "usage_metadata_available": true
+      },
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "input_tokens": 510,
+      "latency_seconds": 8.795579750000002,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:25:55.726902Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "output_tokens": 84,
+      "total_tokens": 594
+    },
+    "parsed_output": {
+      "main_hypothesis": "Jointly designing feature transformation and contextual aggregation will translate pretrained representations into effective slide-level predictions.",
+      "main_hypothesis_explicit": false,
+      "research_question": "How can latent evidence adaptation and fusion be jointly addressed to improve slide-level analysis using frozen-feature whole slide images?",
+      "research_question_explicit": false
+    },
+    "provenance": {
+      "gold_truth_status": "requires independent validation",
+      "model_configuration": {
+        "context_limit": 32768,
+        "immutable_version_or_digest": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+        "max_output_tokens": 2048,
+        "model": "gemma3:12b",
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "prompt_path": "prompts/e6/09_target_extraction.txt",
+      "prompt_sha256": "5e86dad439efba14bb38174c8754cc5aa06382364472e8ba1d93dfb211c6d941"
+    },
+    "raw_output": "{\n  \"research_question\": \"How can latent evidence adaptation and fusion be jointly addressed to improve slide-level analysis using frozen-feature whole slide images?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"Jointly designing feature transformation and contextual aggregation will translate pretrained representations into effective slide-level predictions.\",\n  \"main_hypothesis_explicit\": false\n}",
+    "schema_status": "provisional_unapproved",
+    "schema_version": "e6-evaluation-provisional-v1",
+    "stage": "reference_target_extraction",
+    "status": "succeeded"
+  },
+  "actual_four_fields": {
+    "main_hypothesis": "Jointly designing feature transformation and contextual aggregation will translate pretrained representations into effective slide-level predictions.",
+    "main_hypothesis_explicit": false,
+    "research_question": "How can latent evidence adaptation and fusion be jointly addressed to improve slide-level analysis using frozen-feature whole slide images?",
+    "research_question_explicit": false
+  },
+  "automatic_consistency_checks": {
+    "checkpoint_integrity": true,
+    "four_field_schema": true,
+    "frozen_source_binding": true,
+    "human_checks_completed": false,
+    "literal_source_checks": {
+      "main_hypothesis": {
+        "semantic_support": "requires_independent_review",
+        "value_present": true,
+        "verbatim_source_spans": []
+      },
+      "research_question": {
+        "semantic_support": "requires_independent_review",
+        "value_present": true,
+        "verbatim_source_spans": []
+      }
+    },
+    "request_and_response_provenance": true,
+    "review_attention_flags": []
+  },
+  "disagreement_categories": {
+    "main_hypothesis_explicitness_accurate": [
+      "explicit_vs_inferred_disagreement",
+      "source_evidence_insufficient"
+    ],
+    "main_hypothesis_extraction_accurate": [
+      "not_the_main_hypothesis",
+      "result_or_method_confused_with_hypothesis",
+      "unsupported_direction_or_relationship",
+      "hypothesis_missing_or_null_incorrect"
+    ],
+    "method_extraction_accurate": [
+      "source_component_missing",
+      "unsupported_component",
+      "incorrect_source_span",
+      "meaning_changed"
+    ],
+    "problem_extraction_accurate": [
+      "source_component_missing",
+      "unsupported_component",
+      "incorrect_source_span",
+      "meaning_changed"
+    ],
+    "research_question_explicitness_accurate": [
+      "explicit_vs_inferred_disagreement",
+      "source_evidence_insufficient"
+    ],
+    "research_question_extraction_accurate": [
+      "wrong_research_objective",
+      "unsupported_inference",
+      "scope_changed",
+      "question_missing_or_null_incorrect"
+    ],
+    "result_extraction_accurate": [
+      "source_component_missing",
+      "unsupported_component",
+      "incorrect_source_span",
+      "meaning_changed"
+    ]
+  },
+  "human_review_complete": false,
+  "input_set_id": "lit-2610.29746",
+  "packet_sha256": "600d57d50daa5a712c1dcd66c77d833088a2ff71c6878cbf9e21dea3863a9216",
+  "source_component_sidecar": {
+    "components": {
+      "method": {
+        "annotated_at_utc": null,
+        "annotator_id": null,
+        "character_span": null,
+        "source_quote": null,
+        "text": null
+      },
+      "problem": {
+        "annotated_at_utc": null,
+        "annotator_id": null,
+        "character_span": null,
+        "source_quote": null,
+        "text": null
+      },
+      "result": {
+        "annotated_at_utc": null,
+        "annotator_id": null,
+        "character_span": null,
+        "source_quote": null,
+        "text": null
+      }
+    },
+    "fixed_extraction_sha256": "f342de5063fac466a8c5d23addafb49b3faeea011fa6cc023659b24c573431a3",
+    "input_set_id": "lit-2610.29746",
+    "status": "pending_actual_source_annotations",
+    "target_source_field": "abstract",
+    "target_source_text_sha256": "d9e79187f1c8851155a922fd788c086fb261806a17f9ade4b081844746d784e3"
+  },
+  "source_component_sidecar_status": "pending_actual_annotations",
+  "source_quote_blocks": [
+    {
+      "character_span": [
+        0,
+        400
+      ],
+      "quote": "Whole slide image (WSI) analysis enables computational diagnosis and prognosis, but gigapixel images and limited annotations make slide-level learning challenging. Multiple instance learning addresses this task by aggregating patch representations from frozen pretrained encoders. Recently, Mamba has enabled efficient modeling of long patch sequences. However, task supervision alone does not explic",
+      "semantic_role": "unclassified_exact_source_block"
+    },
+    {
+      "character_span": [
+        400,
+        800
+      ],
+      "quote": "itly constrain information recovery during feature adaptation, while Mamba couples local processing with long-range propagation rather than retaining separate representations for fusion. Motivated by these challenges, we introduce LEAF-Mamba, a framework that jointly addresses latent evidence adaptation and fusion for frozen-feature WSI analysis. A reconstruction-regularized adapter learns compact",
+      "semantic_role": "unclassified_exact_source_block"
+    },
+    {
+      "character_span": [
+        800,
+        1200
+      ],
+      "quote": ", task-specific representations while reconstructing the input features. Parallel Mamba and convolutional streams then capture long-range dependencies and sequence-local interactions, with an input-dependent gate modulating their joint representation before slide-level pooling. Experiments across feature extractors demonstrate improved average performance over strong MIL baselines in both diagnost",
+      "semantic_role": "unclassified_exact_source_block"
+    },
+    {
+      "character_span": [
+        1200,
+        1507
+      ],
+      "quote": "ic classification and survival prediction. Component analyses further support the contributions of adaptation and fusion. These findings highlight the value of jointly designing feature transformation and contextual aggregation to translate pretrained representations into effective slide-level predictions.",
+      "semantic_role": "unclassified_exact_source_block"
+    }
+  ],
+  "target_source_field": "abstract",
+  "target_source_text": "Whole slide image (WSI) analysis enables computational diagnosis and prognosis, but gigapixel images and limited annotations make slide-level learning challenging. Multiple instance learning addresses this task by aggregating patch representations from frozen pretrained encoders. Recently, Mamba has enabled efficient modeling of long patch sequences. However, task supervision alone does not explicitly constrain information recovery during feature adaptation, while Mamba couples local processing with long-range propagation rather than retaining separate representations for fusion. Motivated by these challenges, we introduce LEAF-Mamba, a framework that jointly addresses latent evidence adaptation and fusion for frozen-feature WSI analysis. A reconstruction-regularized adapter learns compact, task-specific representations while reconstructing the input features. Parallel Mamba and convolutional streams then capture long-range dependencies and sequence-local interactions, with an input-dependent gate modulating their joint representation before slide-level pooling. Experiments across feature extractors demonstrate improved average performance over strong MIL baselines in both diagnostic classification and survival prediction. Component analyses further support the contributions of adaptation and fusion. These findings highlight the value of jointly designing feature transformation and contextual aggregation to translate pretrained representations into effective slide-level predictions.",
+  "target_source_text_sha256": "d9e79187f1c8851155a922fd788c086fb261806a17f9ade4b081844746d784e3",
+  "target_title": "LEAF-Mamba: Feature Adaptation and Fusion for Whole Slide Image Analysis"
+}

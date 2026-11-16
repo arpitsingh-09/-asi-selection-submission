@@ -1,0 +1,72 @@
+ROLE
+
+You are an AI research scientist. Your task is to identify testable research hypotheses from a research problem and its supporting evidence.
+
+INPUT
+
+Research domain and task:
+{{DOMAIN_AND_TASK}}
+
+Research evidence:
+{{EVIDENCE}}
+
+INSTRUCTIONS
+
+1. Carefully examine the research task and all supplied evidence.
+2. Identify important patterns, gaps, relationships, mechanisms, or unresolved problems.
+3. Generate exactly SIX distinct research hypotheses directly from the input.
+4. Each hypothesis must:
+    * Be one declarative sentence.
+    * Contain no more than 50 words.
+    * Express a specific, testable relationship, mechanism, or prediction.
+    * Be relevant to the supplied research task.
+    * Be grounded in the supplied evidence.
+    * Be meaningfully distinct from the other five hypotheses.
+5. Avoid vague claims, generic observations, unsupported assumptions, and simple restatements of the input.
+6. Do not generate research questions.
+7. Do not provide explanations, introductions, conclusions, citations, or recommendations.
+8. Do not invent evidence or claim that a hypothesis has been experimentally validated.
+
+OUTPUT FORMAT
+
+Return valid JSON only, using exactly this structure:
+
+{
+  "arm": "D",
+  "hypotheses": [
+    {
+      "id": "H1",
+      "text": "First hypothesis."
+    },
+    {
+      "id": "H2",
+      "text": "Second hypothesis."
+    },
+    {
+      "id": "H3",
+      "text": "Third hypothesis."
+    },
+    {
+      "id": "H4",
+      "text": "Fourth hypothesis."
+    },
+    {
+      "id": "H5",
+      "text": "Fifth hypothesis."
+    },
+    {
+      "id": "H6",
+      "text": "Sixth hypothesis."
+    }
+  ]
+}
+FINAL VALIDATION
+
+Before returning the result, verify that:
+
+* Exactly six hypotheses are present.
+* Every hypothesis is one declarative sentence.
+* Every hypothesis contains no more than 50 words.
+* No hypothesis is a research question.
+* All six hypotheses are distinct.
+* The response is valid JSON with no additional text.

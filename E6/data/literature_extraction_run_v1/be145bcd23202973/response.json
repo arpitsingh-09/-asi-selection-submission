@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:40:42.302763+00:00",
+  "identity": "d96934f9824b43ee53d90f3e4deafd0d53ace57c4970e43052214e70bcdee98f",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:40:42.290429Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 97,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 15.022853791999978,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:40:42.290429Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2340,
+      "prompt_eval_count": 483,
+      "prompt_sha256": "caebdcb330cf8e91a933d6d84b62e1f7dc0c6d1cb6d0b39c256d1a70a3ab21f1",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 580,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 483,
+    "latency_seconds": 15.022853791999978,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:40:42.290429Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 97,
+    "raw_response": "{\n  \"research_question\": \"How do different resources (computation, information, feedback) contribute to the repair of failed coding agents, and what are the interactions between these resources?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"Agents often prefer resources (particularly feedback) that do not measurably improve repair, revealing a gap between agent preferences and effective repair strategies.\",\n  \"main_hypothesis_explicit\": false\n}",
+    "total_tokens": 580
+  },
+  "reply_sha256": "6212f14544c526288027044d5d92d8f7e057b45234c1b5474736b52d71990de4"
+}

@@ -1,0 +1,14 @@
+{
+  "reviewer": "Codex AI",
+  "human_review": false,
+  "candidate_occurrences_reviewed": 57,
+  "promoted_claims": 13,
+  "papers_with_promoted_claims": 13,
+  "short_sets_now_reaching_four": 10,
+  "short_sets_still_below_four": 48,
+  "future_sets_with_4_to_10": 252,
+  "selected_source_sha256": "2266fe8e086ebd1ca2bdea1db0e4eccd241a2fc8f1d1282b9e9c5fcb37ec723d",
+  "recovery_source_sha256": "242824282f31c63a332a5432e4a0917511af6820a99dd29d82d4806e2ba3b140",
+  "used_in_evaluation": false,
+  "limitation": "Original and recovered claims are not independently human validated; background assertions are identified explicitly."
+}

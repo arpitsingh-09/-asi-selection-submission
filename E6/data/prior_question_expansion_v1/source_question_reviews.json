@@ -1,0 +1,370 @@
+{
+  "manifest_sha256": "3779c1862fe1bdf4300438d66f8f497f04fa7a45e3b7bc801d102c82dbb857d9",
+  "review_method": "assistant source comparison, not human review",
+  "reviews": [
+    {
+      "accepted": false,
+      "question_id": "pq-02ed454f54890cda55f1fdd8",
+      "question_sha256": "fe5406a89552506da65c5bfe9f19860cb0f13671e51c14f6a2e4b318596e6734",
+      "reason": "The extracted sentence relies on these agents and more complex/out-of-reach settings without defining them in the question.",
+      "review_method": "assistant_source_comparison_not_human_review",
+      "source_evidence": [
+        {
+          "quote": "anning have been lacking. Recently, language agents powered by large language models (LLMs) have shown interesting capabilities such as tool use and reasoning.\nAre these language agents capable of planning in more complex settings that are out of the reach of prior AI agents? To advance this investigation, we propose TravelPlanner, a new planning benchmark that focuses on travel planning, a common real-world planning scenario. It provides a rich sandbox environment, various tools for accessing nearly four million data records, and 1,225 meticulously curated planning intents and reference plans.\nComprehensive evaluations show that the current language agents are not yet capable of handling such complex planning tasks-",
+          "source_record_sha256": "a15e6a7c9cc78ffb6bba8113c50e0c237743fbc093e67db8b824a949cebbb197"
+        }
+      ]
+    },
+    {
+      "accepted": true,
+      "question_id": "pq-bb8583651b07a69e1c4478b1",
+      "question_sha256": "597c352a024fc7da8675b88639aa0247aa9855ca3ff1f7c99c7fe4098a1a8342",
+      "reason": "The source explicitly states and tests both model process-quality readout and intervention effects; the question is copied unchanged.",
+      "review_method": "assistant_source_comparison_not_human_review",
+      "source_evidence": [
+        {
+          "quote": "Can a language model read the quality of its ongoing computation, and can an external intervention turn that readout into better outcomes? We test both questions in a frozen 2.6B looped transformer, Ouro-RLTT. On GSM8K, a strict pre-answer probe excludes the answer region and gold value yet predicts success: hidden states plus length/log-probability features reach AUROC 0.797 versus 0.731 for those surface features alone (increment +0.066; task-clustered 95% CI [+0.021,+0.112]; 170 tasks).\nOn Horizon Logic, a prospectively extended task-disjoint study gives an increment of +0.111 (",
+          "source_record_sha256": "e94b1009c767e18f7b3bb730b2aebbd90985d4e9e01bef29df3e95e59ecb63d2"
+        }
+      ]
+    },
+    {
+      "accepted": true,
+      "question_id": "pq-37a2768612ac152b2ad04f43",
+      "question_sha256": "046f41798f2b7b68cc906c373261830cb199104b3621e48233d200f9d6a58cd1",
+      "reason": "The opening question concerns agents doing open scientific research, directly operationalized by source-defined follow-up tasks.",
+      "review_method": "assistant_source_comparison_not_human_review",
+      "source_evidence": [
+        {
+          "quote": "Can AI agents carry out research on open scientific problems? We introduce Into the Unknown, a benchmark that provides an agent with a science paper along with a research direction to pursue and tasks it to write a follow-up paper. We work with scientists at US Department of Energy (DOE) national laboratories, who each contribute an unpublished follow-up direction from their own work together with the necessary conditions a submission must meet.\nWhile assessing the quality of a follow-up paper is challengi",
+          "source_record_sha256": "727586de9ce033bf791dacefe8b065f9cccb381f51a4084fbc528607be381ddc"
+        }
+      ]
+    },
+    {
+      "accepted": false,
+      "question_id": "pq-c729b5509befe8b9d9c1c128",
+      "question_sha256": "a9bb245e9fa6169b9c1b8edd929d99fef38382c2ec284688ce93e7c414655a8a",
+      "reason": "The extracted sentence depends on undefined such unanswerable cases; do not rewrite or import the preceding result as a new question.",
+      "review_method": "assistant_source_comparison_not_human_review",
+      "source_evidence": [
+        {
+          "quote": "eturn outdated answers when retrieved documents do not provide sufficient information to find an answer.\nThis suggests an important avenue for future research: can an open-domain QA system identify such unanswerable cases and communicate with the user or even the retrieval module to modify the retrieval results? We hope that REALTIME QA will spur progress in instantaneous applications of question answering and beyond.",
+          "source_record_sha256": "7730d8afae4d863c0099b0f4e2fdc09c8538de8c544a6a5e0594c789667add12"
+        }
+      ]
+    },
+    {
+      "accepted": true,
+      "question_id": "pq-64036e9d1560282995c98643",
+      "question_sha256": "a9fdf6057fbe378b9ad41f64d0a98b12f2f49124a4b99cf376220ab54fba7d38",
+      "reason": "The opening question specifies visual perception of object physical properties; the method directly predicts those properties from images.",
+      "review_method": "assistant_source_comparison_not_human_review",
+      "source_evidence": [
+        {
+          "quote": "Can computers perceive the physical properties of objects solely through vision? Research in cognitive science and vision science has shown that humans excel at identifying materials and estimating their physical properties based purely on visual appearance. In this paper, we present a novel approach for dense prediction of the physical properties of objects using a collection of images.\nInspired by how humans reason about physics through vision, we leverage large language models to propose candidate materials for each objec",
+          "source_record_sha256": "5d54578f2700be7df9538ab630f97c67e2177ed001eacbd4a44678fdee78e04c"
+        }
+      ]
+    },
+    {
+      "accepted": false,
+      "question_id": "pq-a5171b1d83729e4a3f18afa0",
+      "question_sha256": "d4a5c530c4ccef56247209f24803c8bbfc16c974c545dfbb2cfe3592ae39adb5",
+      "reason": "The question depends on that same capability and a given task; standalone objective would require an inferred rewrite.",
+      "review_method": "assistant_source_comparison_not_human_review",
+      "source_evidence": [
+        {
+          "quote": "y.\nYet, one of the most exciting capabilities of large vision-language models in other domains is their ability to reason iteratively through complex problems. Can that same capability be brought into robotics to allow policies to improve performance by reasoning about a given task before acting? Naive use of \"chain-of-thought\" (CoT) style prompting is significantly less effective with standard VLAs because of the relatively simple training examples that are available to them.\nAdditionally, purely semantic reasoning about sub-tasks, as is common in regular CoT, is insufficient for robot policies that need to ground their reasoning in sensory observations and the robot state. To this end, we introduce Embodied Chain-of-Thought Reasoning (",
+          "source_record_sha256": "c4b065e54918b642351f7023ec50defc215a822d83ec83c4710e2a474cc1bbba"
+        }
+      ]
+    },
+    {
+      "accepted": false,
+      "question_id": "pq-5dbd222a22a085308e23d462",
+      "question_sha256": "197bf5449ad478548c956b1634d363f8b0079d7cfb51ffdc225a9bd90839ca4b",
+      "reason": "The extracted sentence relies on these systems and AI research itself; naming the source-specific post-training task requires adding context.",
+      "review_method": "assistant_source_comparison_not_human_review",
+      "source_evidence": [
+        {
+          "quote": "ecome surprisingly proficient at software engineering over the past year, largely due to improvements in reasoning capabilities. This raises a deeper question: can these systems extend their capabilities to automate AI research itself? In this paper, we explore post-training, the critical phase that turns base LLMs into useful assistants.\nWe introduce PostTrainBench to benchmark how well LLM agents can perform post-training autonomously under bounded compute constraints (10 hours on one H100 GPU). We ask frontier agents (e.g., Claude Code with Opus 4.6) to optimize the performance of a base LLM on a particular benchmark (e.g., Qwen3-4B on AIME). Importantly, we do not provide ",
+          "source_record_sha256": "60352300fa32947124d4fd56ad0a190fd0de02405b5783b056386fa4f4d965a9"
+        }
+      ]
+    },
+    {
+      "accepted": true,
+      "question_id": "pq-b14b8a9a8649c4f5de32408e",
+      "question_sha256": "2f5a6641ce1f2868acca9f7a7bfe1e151f80dd15a61770269786e8a92d46950b",
+      "reason": "The abstract explicitly asks for automatic stealthy prompt generation and presents AutoDAN as its method; no new objective inferred.",
+      "review_method": "assistant_source_comparison_not_human_review",
+      "source_evidence": [
+        {
+          "quote": "mantically meaningless, making them susceptible to detection through basic perplexity testing.\nIn light of these challenges, we intend to answer this question: Can we develop an approach that can automatically generate stealthy jailbreak prompts? In this paper, we introduce AutoDAN, a novel jailbreak attack against aligned LLMs. AutoDAN can automatically generate stealthy jailbreak prompts by the carefully designed hierarchical genetic algorithm.\nExtensive evaluations demonstrate that AutoDAN not only automates the process while preserving semantic meaningfulness, but also demonstrates superior attack strength in cross-model transferability, and cross-sample universality compared with th",
+          "source_record_sha256": "4132c6f1ca28bc60fb6a39ac238d72208de97899543c045edc27078daadc898d"
+        }
+      ]
+    },
+    {
+      "accepted": true,
+      "question_id": "pq-9cf0240a76c5689caa5277c4",
+      "question_sha256": "075c5f54a64b39887c475e6829c2c6ecbb2cd6e7f2fb4d351c0cb9bcad7d5a5d",
+      "reason": "The complete question explicitly contrasts LLM high-level guidance of online RL with a predetermined skill library.",
+      "review_method": "assistant_source_comparison_not_human_review",
+      "source_evidence": [
+        {
+          "quote": "interest, the robot needs to be able to adjust its behavior in a fine-grained manner, requiring the agent to be capable of modifying low-level control actions.\nCan we instead use the internet-scale knowledge from LLMs for high-level policies, guiding reinforcement learning (RL) policies to efficiently solve robotic control tasks online without requiring a pre-determined set of skills? In this paper, we propose Plan-Seq-Learn (PSL): a modular approach that uses motion planning to bridge the gap between abstract language and learned low-level control for solving long-horizon robotics tasks from scratch.\nWe demonstrate that PSL achieves state-of-the-art results on over 25 challenging robotics tasks with up to 10 stages. PSL solves long-horizon tasks from raw visual input spanning four benchmarks at success rates of over 85%, out",
+          "source_record_sha256": "34db57bae981053ada0b6d36c0f18b87037f24f054734dfaca6a3e7cc2ff7e85"
+        }
+      ]
+    },
+    {
+      "accepted": false,
+      "question_id": "pq-3740cb71e7ff4d4c55b39e96",
+      "question_sha256": "a06eacb522ea6be83ea6fb1dc3a32c8d5eb7ae1796ad66125208bbda1ba8c86b",
+      "reason": "Rhetorical benchmark challenge to the reader (your model/better), without a self-contained research comparison.",
+      "review_method": "assistant_source_comparison_not_human_review",
+      "source_evidence": [
+        {
+          "quote": ". We are also releasing the ARC Corpus, a corpus of 14M science sentences relevant to the task, and implementations of the three neural baseline models tested. Can your model perform better? We pose ARC as a challenge to the community.",
+          "source_record_sha256": "d2bd74e83a1c612405bb921b78a473ab2565b24233980e8347c9f82b9866472d"
+        }
+      ]
+    },
+    {
+      "accepted": true,
+      "question_id": "pq-c6f47cc0384dc01bd4997b28",
+      "question_sha256": "0591d0a42ebadcf74803ba3e084021f5b87f7f09057a70e356cdc9ebb5a1a998",
+      "reason": "The abstract explicitly asks whether language-model agents can conduct ML experimentation and introduces MLAgentBench to answer it.",
+      "review_method": "assistant_source_comparison_not_human_review",
+      "source_evidence": [
+        {
+          "quote": "perimentation, the process of designing and running experiments, analyzing the results, and iterating towards some positive outcome (e.g., improving accuracy). Could agents driven by powerful language models perform machine learning experimentation effectively? To answer this question, we introduce MLAgentBench, a suite of 13 tasks ranging from improving model performance on CIFAR-10 to recent research problems like BabyLM.\nFor each task, an agent can perform actions like reading/writing files, executing code, and inspecting outputs. We then construct an agent that can perform ML experimentation based on ReAct framework. We benchmark agents based on Claude v1.0, Claude v2.1, Claude v3 Opus, GPT-4, GPT-",
+          "source_record_sha256": "e2e6b5259fc366d165b60383a6a8816fb4ae795f760c477e70eb7a8ab7ae3bfd"
+        }
+      ]
+    },
+    {
+      "accepted": false,
+      "question_id": "pq-b9891dfb4dac2647f4fa9588",
+      "question_sha256": "84d7022619b4d8af1f337786a00e05b9cd5c51e4df960fde4321e3359f315c62",
+      "reason": "The extracted sentences leave training-resource/model/subset referents unresolved; retain source record but reject ambiguous standalone questions.",
+      "review_method": "assistant_source_comparison_not_human_review",
+      "source_evidence": [
+        {
+          "quote": "s gathered. Such information is crucial for applications where the LLM must provide up to date information.\nHowever, this statement only scratches the surface: do all resources in the training data share the same knowledge cutoff date? Does the model's demonstrated knowledge for these subsets closely align to their cutoff dates? In this work, we define the notion of an effective cutoff. This is distinct from the LLM designer reported cutoff and applies separately to sub-resources and topics.\nWe propose a simple approach to estimate effective cutoffs on the resource-level temporal alignment of an LLM by probing across versions of the data. Using this analysis, we find that effe",
+          "source_record_sha256": "cf7b9bea546fc1b8573de92ad379cdf828e0c25a0605854f8d5cefea6ee09ba7"
+        }
+      ]
+    },
+    {
+      "accepted": true,
+      "question_id": "pq-c3671f04a32e4c85d1b3ee80",
+      "question_sha256": "67682fef9de93a42fbb7643a50ec61d23a344e8ce08383acb16ab4c9a9a4333a",
+      "reason": "The question states the model class, Theory-of-Mind construct and cross-task/human-reference comparison that the abstract evaluates.",
+      "review_method": "assistant_source_comparison_not_human_review",
+      "source_evidence": [
+        {
+          "quote": "Do frontier vision-language models present a coherent Theory-of-Mind (ToM) profile across tasks, matching the same human reference group, or does that profile fragment from one paradigm to the next? We evaluate a shared panel of nine frontier VLMs on two psychology-derived benchmarks: the Keysar Director Task (visual perspective-taking under egocentric interference) and the Frith-Happé animated triangles scored with the Castelli rubric (intention attribution from pure motion).\nOn the Director Task, without chain-of-thought, the panel makes the egocentric error on 78\\% of trials like children rather than adults; variation is substantial acro",
+          "source_record_sha256": "2b996337c0eb3f810ef2f1e1f3ab2d645cfb87487361fbfd055bf022567d50ce"
+        }
+      ]
+    },
+    {
+      "accepted": false,
+      "question_id": "pq-a775ca4a9633ef9a4f9c1607",
+      "question_sha256": "0effec10ebd417a3eb82fc805bfb706b19617a50cd6ddadf8a5a1aca1408ec39",
+      "reason": "The generic relationship between visual tasks is underspecified in the extracted sentence; transfer structure would require adding context.",
+      "review_method": "assistant_source_comparison_not_human_review",
+      "source_evidence": [
+        {
+          "quote": "Do visual tasks have a relationship, or are they unrelated? For instance, could having surface normals simplify estimating the depth of an image? Intuition answers these questions positively, implying existence of a structure among visual tasks.\nKnowing this structure has notable values; it is the concept underlying transfer learning and provides a principled way for identifying redundancies across tasks, e.g., to seamlessly reuse supervision among related tasks or solve many tasks in one system without ",
+          "source_record_sha256": "c90ea92b740aa7be7f33d2f188105bfd6224ac15433ee3a8f77a439354211333"
+        }
+      ]
+    },
+    {
+      "accepted": false,
+      "question_id": "pq-d6c5f449ebd14446de12881c",
+      "question_sha256": "6b6adceb00e7c7a59cb31a8e9f09737d4ecbd616741d58d5273e9bbeef54d1db",
+      "reason": "The extracted sentences leave training-resource/model/subset referents unresolved; retain source record but reject ambiguous standalone questions.",
+      "review_method": "assistant_source_comparison_not_human_review",
+      "source_evidence": [
+        {
+          "quote": "provide up to date information.\nHowever, this statement only scratches the surface: do all resources in the training data share the same knowledge cutoff date? Does the model's demonstrated knowledge for these subsets closely align to their cutoff dates? In this work, we define the notion of an effective cutoff. This is distinct from the LLM designer reported cutoff and applies separately to sub-resources and topics.\nWe propose a simple approach to estimate effective cutoffs on the resource-level temporal alignment of an LLM by probing across versions of the data. Using this analysis, we find that effective cutoffs often differ from reported cutoffs. To understand the root cause of this observat",
+          "source_record_sha256": "cf7b9bea546fc1b8573de92ad379cdf828e0c25a0605854f8d5cefea6ee09ba7"
+        }
+      ]
+    },
+    {
+      "accepted": true,
+      "question_id": "pq-1e2f03967422988116dc13ff",
+      "question_sha256": "b56be1b15d1bc5b830b7229e2e7fb50819ffd769aa7587db252ce4e550976b78",
+      "reason": "The source explicitly asks for detection generalization across facial deepfake generators and presents a corresponding framework.",
+      "review_method": "assistant_source_comparison_not_human_review",
+      "source_evidence": [
+        {
+          "quote": "Detecting deepfakes has been an increasingly important topic, especially given the rapid development of AI generation techniques. In this paper, we ask: How can we build a universal detection framework that is effective for most facial deepfakes? One significant challenge is the wide variety of deepfake generators available, resulting in varying forgery artifacts (e.g., lighting inconsistency, color mismatch, etc).\nBut should we ``teach\" the detector to learn all these artifacts separately? It is impossible and impractical to elaborate on them all. So the core idea is to pinpoint the more common and general artifacts across different deepfakes. Accordingly, we categorize deepfake artifac",
+          "source_record_sha256": "0a9752076a3e530b53d6d8d3ce3633fa93fe03acc338185c3af45370a005cf54"
+        }
+      ]
+    },
+    {
+      "accepted": false,
+      "question_id": "pq-3d31e69aeb78b3db5dcbfe40",
+      "question_sha256": "b76827b769dfffed5a4684b44b5bbdcec0b5f240e6fea103fcc702575e4598de",
+      "reason": "The generic scientific problem and new state of the art are unspecified in the sentence; reject rather than invent a domain or metric.",
+      "review_method": "assistant_source_comparison_not_human_review",
+      "source_evidence": [
+        {
+          "quote": "How can we use AI to discover a new state of the art for a scientific problem? Prior work in test-time scaling, such as AlphaEvolve, performs search by prompting a frozen LLM. We perform reinforcement learning at test time, so the LLM can continue to train, but now with experience specific to the test problem.\nThis form of continual learning is quite special, because its goal is to produce one great solution rather than many good ones on average, and to solve this very problem rather than generalize to other problems. Ther",
+          "source_record_sha256": "2dbc5ccdfb269349c99e476c02279c1590d2f991f7eca2af28c152e14a56ea6d"
+        }
+      ]
+    },
+    {
+      "accepted": false,
+      "question_id": "pq-a0a3c64ca3a8efbbf54ba055",
+      "question_sha256": "1e31fe7ead4e84cb4d66e179890c3737df7c4413654133f151ed5bb51571b805",
+      "reason": "Rounds and prescribed error budget are not tied to a named sampling process within the extracted question.",
+      "review_method": "assistant_source_comparison_not_human_review",
+      "source_evidence": [
+        {
+          "quote": "ing several masked positions at once. Fewer rounds can accelerate decoding, but sampling positions independently can lose their dependence and bias the output. How few rounds suffice for a prescribed error budget? Beyond error bounds for individual decoding rules, we study sharp lower bounds on the number of rounds required for a given target distribution.\nWe introduce serial depth: the minimum number of rounds, averaged over target sequences, needed to meet a forward Kullback-Leibler error budget. With exact conditional probabilities, we prove these bounds for all deterministic rules that may adapt to generated values and construct matching schedules for",
+          "source_record_sha256": "865ae6fee5ad5c3da80543eb822258313cccc0e6dcefc16a92620eb3e8468331"
+        }
+      ]
+    },
+    {
+      "accepted": false,
+      "question_id": "pq-90d7541e2fc9dbf4fbe07b04",
+      "question_sha256": "a5afd0057ab86ca60618a867f5d1d8e285c75d4905e6e77fdda941a3cd4fd835",
+      "reason": "Universality and the relevant function/network class are not identified in the extracted question itself.",
+      "review_method": "assistant_source_comparison_not_human_review",
+      "source_evidence": [
+        {
+          "quote": "proximation property of Kolmogorov-Arnold Networks (KANs) in terms of their edge functions. If these functions are all affine, then universality clearly fails. How many non-affine functions are needed, in addition to affine ones, to ensure universality? We show that a single one suffices.\nMore precisely, we prove that deep KANs in which all edge functions are either affine or equal to a fixed continuous function $\\sigma$ are dense in $C(K)$ for every compact set $K\\subset\\mathbb{R}^n$ if and only if $\\sigma$ is non-affine. In contrast, for KANs with exactly two hidden layers, universality holds if and only if $\\sigma$ is nonpolynomial. We further show that the full class of affine functions is ",
+          "source_record_sha256": "9ae20aab74e786ffa2e305bf0c9b757f93fc7dac687915d52d41a3aafe6a8314"
+        }
+      ]
+    },
+    {
+      "accepted": true,
+      "question_id": "pq-997de792f0582ef71ef343ad",
+      "question_sha256": "a4ca62c32261af637d85cdc6be282028cfe16cfe6a68723129a63f453c71f5cb",
+      "reason": "The stated research question is image-to-video transfer of CLIP representations; the following source text directly introduces ViFi-CLIP.",
+      "review_method": "assistant_source_comparison_not_human_review",
+      "source_evidence": [
+        {
+          "quote": "esulting models are learned on videos, they tend to overfit on the given task distribution and lack in generalization aspect. This begs the following question: How to effectively transfer image-level CLIP representations to videos? In this work, we show that a simple Video Fine-tuned CLIP (ViFi-CLIP) baseline is generally sufficient to bridge the domain gap from images to videos.\nOur qualitative analysis illustrates that the frame-level processing from CLIP image-encoder followed by feature pooling and similarity matching with corresponding text embeddings helps in implicitly modeling the temporal cues within ViFi-CLIP. Such fine-tuning helps the model to focus on scene dy",
+          "source_record_sha256": "2736ff11436e68dcacda560639b11c1570f09148bcc6e646bc6f811dc4c4d140"
+        }
+      ]
+    },
+    {
+      "accepted": false,
+      "question_id": "pq-890b18aeea62d3a24223c9cf",
+      "question_sha256": "9d256f85db2482be7c007f07639e09d922500ddcf5277490e735dbed28ef1704",
+      "reason": "These models and reflect the physical world are underspecified without adding the source-specific robot-execution criterion.",
+      "review_method": "assistant_source_comparison_not_human_review",
+      "source_evidence": [
+        {
+          "quote": " have made impressive strides in synthesizing visually compelling content, yet their outputs remain confined to the virtual domain.\nA natural question follows: how well do these models reflect the physical world when their generated videos leave the screen and enter reality? We propose robotic manipulation as a concrete, measurable window onto this question: if a model has truly internalized physical laws, the motion it depicts should translate into executable robot behavior. We introduce Dream$.$exe, an evaluation framework that operationalizes this criterion through a video-to-execution pipeline.\nGiven a scene image and a task description, Dream$.$exe synthesizes a manipulation video, converts the generated motion",
+          "source_record_sha256": "e1dd36c521d41a2deec5a6b98e39dd2adad6a18781d8c6054920be9f5dfdcbac"
+        }
+      ]
+    },
+    {
+      "accepted": true,
+      "question_id": "pq-a27bae6a53401e8f00c14f0b",
+      "question_sha256": "a5d0e795f614ae11c155aa1680d56000c33d40801e8c0b33487a12236736ebc3",
+      "reason": "The question explicitly names proprioceptive joint sensing and contact-rich assembly tasks; the abstract directly studies that question.",
+      "review_method": "assistant_source_comparison_not_human_review",
+      "source_evidence": [
+        {
+          "quote": " own joints. Legged robots and humanoids exploit them to walk, run, and track whole-body motions without vision, but there the contacts are large and forceful.\nIs joint sensing also enough for precise, contact-rich assembly, where the robot must find a millimeter-scale opening, mesh gear teeth, or catch a thread through light contact? We study this question by training blind assembly policies that observe only a short history of joint positions, velocities, and their own actions, without visual, force, torque, or tactile sensing. The poses of both the fixture and the part are unknown to the policy, and the grasp is randomized substantially.\nThe policy must therefore assemble the parts through contact, sensed exclusively through its own proprioception. Trained with reinforceme",
+          "source_record_sha256": "51bc3e5d21e23627cba0bacb63f2c4e30e6f437bdc2c24ee90c80b14989d3426"
+        }
+      ]
+    },
+    {
+      "accepted": false,
+      "question_id": "pq-1a55ef5ff5fe3bf26fd7e2d2",
+      "question_sha256": "c7bdfae5f50ce8d776aabadf85164b98fd253c3daa741e4868ab8a6e12a0633e",
+      "reason": "Rhetorical opening with undefined good enough and no explicit criterion in the extracted question.",
+      "review_method": "assistant_source_comparison_not_human_review",
+      "source_evidence": [
+        {
+          "quote": "Is vision good enough for language? Recent advancements in multimodal models primarily stem from the powerful reasoning abilities of large language models (LLMs). However, the visual component typically depends only on the instance-level contrastive language-image pre-training (CLIP). Our research reveals that the visual capabilities in recent multimodal LLMs (MLLMs) still exhibit systematic shortcomings.\nTo understand the roots of these errors, we explore the gap between the visu",
+          "source_record_sha256": "5a265650a6a9b77fe65d853931aa03e3cad0da0cdf0ed24c8e9dc2015244f3a3"
+        }
+      ]
+    },
+    {
+      "accepted": true,
+      "question_id": "pq-851d00b090d39f74f4570561",
+      "question_sha256": "0c31e8613318c529b1f26250f222da7d62d402f38b9391c39ea5094b7e985c91",
+      "reason": "The abstract explicitly asks for tractability conditions and answers through complete/consistent sum-product networks.",
+      "review_method": "assistant_source_comparison_not_human_review",
+      "source_evidence": [
+        {
+          "quote": "The key limiting factor in graphical model inference and learning is the complexity of the partition function. We thus ask the question: what are general conditions under which the partition function is tractable? The answer leads to a new kind of deep architecture, which we call sum-product networks (SPNs). SPNs are directed acyclic graphs with variables as leaves, sums and products as internal nodes, and weighted edges.\nWe show that if an SPN is complete and consistent it represents the partition function and all marginals of some graphical model, and give semantics to its nodes. Essentially all tractable graphical models can be cast as SPNs, but SPNs a",
+          "source_record_sha256": "b80f9fa8ee458dff017af0db5d72f55306dddfe9cf8df68f9d16d136d80e81fc"
+        }
+      ]
+    },
+    {
+      "accepted": false,
+      "question_id": "pq-899b2ab2474a72939216b7b0",
+      "question_sha256": "7e1947b33f85e4f7b9f670e73270114b9b3837da00738d78ad84bdb9719ee572",
+      "reason": "Underspecified standalone referents: elements, their and success do not identify the perceptual representation/objective without rewriting.",
+      "review_method": "assistant_source_comparison_not_human_review",
+      "source_evidence": [
+        {
+          "quote": "ained on ImageNet classification has been remarkably useful as a training loss for image synthesis. But how perceptual are these so-called \"perceptual losses\"? What elements are critical for their success? To answer these questions, we introduce a new dataset of human perceptual similarity judgments. We systematically evaluate deep features across different architectures and tasks and compare them with classic metrics.\nWe find that deep features outperform all previous metrics by large margins on our dataset. More surprisingly, this result is not restricted to ImageNet-trained VGG features, but holds across different deep architectures and levels ",
+          "source_record_sha256": "b99c2f757c54f5b99c5c2a6e1ac5d974c91a8b3425cf8f26fcb191ec8cabbd1b"
+        }
+      ]
+    },
+    {
+      "accepted": true,
+      "question_id": "pq-c6339d1eb28ce12fe16ba0a1",
+      "question_sha256": "b78154ef7d5c9acf7423076ac3698ea8b0a4abc19de707fbb7ec5326b40b1ad7",
+      "reason": "The explicitly stated question concerns which RL training-data properties improve reasoning, directly addressed by the described study.",
+      "review_method": "assistant_source_comparison_not_human_review",
+      "source_evidence": [
+        {
+          "quote": "In this paper, we ask: what truly determines the effectiveness of RL training data for enhancing language models' reasoning capabilities? While recent advances like o1, Deepseek R1, and Kimi1.5 demonstrate RL's potential, the lack of transparency about training data requirements has hindered systematic progress. Starting directly from base models without distillation, we challenge the assumption that scaling up RL training data inherently improves performance.\nwe demonstrate that a strategically selected subset of just 1,389 samples can outperform the full 8,523-sample dataset. We",
+          "source_record_sha256": "e1d1a376b316a1abb9bede5e14a9c60158608341132c9bd130ba5c4e4822a522"
+        }
+      ]
+    },
+    {
+      "accepted": false,
+      "question_id": "pq-2c63e1b86c092e1804b17632",
+      "question_sha256": "2753dacbaa5efcd58e0f67bf6c333d68f11100510a3451816e22202eb931be1c",
+      "reason": "ChatGPT moment is a rhetorical metaphor without a defined outcome or timing criterion.",
+      "review_method": "assistant_source_comparison_not_human_review",
+      "source_evidence": [
+        {
+          "quote": "When will robots have their ChatGPT moment? Such a breakthrough requires a general-purpose robot that can handle unfamiliar tasks in unfamiliar environments, remain controllable over long interactions, and learn from experience.\n> Today's embodied systems largely follow an end-to-end observation-to-action path. Despite rapid progress, they remain far from this goal: their generalization depends heavily on the coverage of robot training data, while long task execution remains difficult to ",
+          "source_record_sha256": "16fe7abf47589dc891e592051d98ae261607cacd7938a06a9d95ed5b5927c922"
+        }
+      ]
+    },
+    {
+      "accepted": true,
+      "question_id": "pq-42536ca91d5bbfed5534173f",
+      "question_sha256": "76f374542db8aa72d33371cf29b75eddc00b705d2c782928f56ad5b24bc14c4e",
+      "reason": "The question explicitly concerns reasoning-assisted single-hop parametric recall, followed by source-described controlled mechanisms.",
+      "review_method": "assistant_source_comparison_not_human_review",
+      "source_evidence": [
+        {
+          "quote": "substantially expands the capability boundary of the model's parametric knowledge recall, unlocking correct answers that are otherwise effectively unreachable.\nWhy does reasoning aid parametric knowledge recall when there are no complex reasoning steps to be done? To answer this, we design a series of hypothesis-driven controlled experiments, and identify two key driving mechanisms: (1) a computational buffer effect, where the model uses the generated reasoning tokens to perform latent computation independent of their semantic content; and (2) factual priming, where generating topically related facts acts as a semantic bridge that facilitates correct answer retrieval.\nImportantly, this latter generative s",
+          "source_record_sha256": "041eaa7adc9d678e10bc6c6a0070100c5f6df137643d54928e56f159619051c3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "schema": "M-core-result-v1",
+  "test": "H3",
+  "dataset_kind": "real",
+  "heldout_evaluated": false,
+  "seed": 20261113,
+  "bootstrap_draws": 2000,
+  "margin": 0.02,
+  "status": "BLOCKED",
+  "reason": "Real execution disabled pending committed preregistration, eligible annotated cohort and explicit authorization."
+}

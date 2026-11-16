@@ -1,0 +1,153 @@
+{
+  "frozen_validation_statuses": {
+    "already_asked": "source_provenance_and_assistant_review_passed; semantic_evaluator_validation_pending",
+    "diversity": "not_performed",
+    "question_type": "not_performed",
+    "reconstruction": "not_performed"
+  },
+  "generated_tokens": 112,
+  "inference_calls_this_finalization": 0,
+  "limitations": [
+    "Logical identity controls are exact references, not independent human judgments.",
+    "Historical semantic-matcher rubric checks do not establish temporal eligibility, retrieval recall or comprehensive literature coverage.",
+    "Four question-type predictions do not establish accuracy or coverage of unobserved categories.",
+    "This source snapshot verifies recorded provenance and integrity; it does not independently attest execution on the host."
+  ],
+  "logical_identity_controls_correct": 6,
+  "logical_identity_controls_total": 6,
+  "mandatory_remaining": [
+    "Independent labels for 2 cross-text similarities, 2 cross-question equivalences, 2 hypothesis distinctness judgments and 4 question categories.",
+    "Researcher assesses validation adequacy and missing category/score coverage; no frozen numeric acceptance threshold exists.",
+    "Literature reconstruction requires separate source-bound extraction and Decision 24 independent source reviews; TRAIN controls cannot provide them."
+  ],
+  "minimum_independent_pilot_judgments": 10,
+  "prompt_tokens": 4019,
+  "saved_responses_verified": 16,
+  "schema_version": "e6-evaluator-validation-finalization-v1",
+  "sections": {
+    "already_asked": {
+      "acceptance_threshold": null,
+      "independent_human_agreement": null,
+      "independent_human_reference_count": 0,
+      "logical_identity_MAE": null,
+      "logical_identity_accuracy": 1.0,
+      "logical_identity_controls": 2,
+      "logical_identity_correct": 2,
+      "prediction_counts": {
+        "False": 1,
+        "True": 3
+      },
+      "remaining_pilot_judgments": [
+        "already_asked-03",
+        "already_asked-04"
+      ],
+      "responses_verified": 4,
+      "status": "responses_verified_independent_validation_pending",
+      "validated": false
+    },
+    "diversity": {
+      "acceptance_threshold": null,
+      "independent_human_agreement": null,
+      "independent_human_reference_count": 0,
+      "logical_identity_MAE": null,
+      "logical_identity_accuracy": 1.0,
+      "logical_identity_controls": 2,
+      "logical_identity_correct": 2,
+      "prediction_counts": {
+        "False": 2,
+        "True": 2
+      },
+      "remaining_pilot_judgments": [
+        "diversity-03",
+        "diversity-04"
+      ],
+      "responses_verified": 4,
+      "status": "responses_verified_independent_validation_pending",
+      "validated": false
+    },
+    "question_type": {
+      "acceptance_threshold": null,
+      "independent_human_agreement": null,
+      "independent_human_reference_count": 0,
+      "logical_identity_MAE": null,
+      "logical_identity_accuracy": null,
+      "logical_identity_controls": 0,
+      "logical_identity_correct": 0,
+      "prediction_counts": {
+        "analytic": 4
+      },
+      "remaining_pilot_judgments": [
+        "question_type-01",
+        "question_type-02",
+        "question_type-03",
+        "question_type-04"
+      ],
+      "responses_verified": 4,
+      "status": "responses_verified_independent_validation_pending",
+      "validated": false
+    },
+    "reconstruction": {
+      "acceptance_threshold": null,
+      "independent_human_agreement": null,
+      "independent_human_reference_count": 0,
+      "logical_identity_MAE": 0.0,
+      "logical_identity_accuracy": 1.0,
+      "logical_identity_controls": 2,
+      "logical_identity_correct": 2,
+      "prediction_counts": {
+        "1": 1,
+        "3": 1,
+        "5": 2
+      },
+      "remaining_pilot_judgments": [
+        "reconstruction-03",
+        "reconstruction-04"
+      ],
+      "responses_verified": 4,
+      "status": "responses_verified_independent_validation_pending",
+      "validated": false
+    }
+  },
+  "source_artifact_file_hashes": {
+    "actual_runtime_identity.json": "66b1160fcc4e6f4186047aed94904a83a062742464fd18a295d4b0407cc67104",
+    "already_asked-01_result.json": "955267de467f2db013a4f468cacfcfc37534dbdc9b930e326981cc72cac58361",
+    "already_asked-01_started.json": "01410ee7b96e0745f4ee11fdb859d983ad5f3195eb2240d691179049b688c847",
+    "already_asked-02_result.json": "060dc5f35ab17f4ab0079abf76c3ce5cde3f7653bee41ec62f7ba96326d4d14f",
+    "already_asked-02_started.json": "60b3ea73eb0617bf86a67c6caa852e87a448f97cfa4140a0d98b646b8c83f66b",
+    "already_asked-03_result.json": "96a4b87996b48603278c73675729d7de7fa4f6bdb09d684c65a01cb89ca29b35",
+    "already_asked-03_started.json": "09685fee9cc3152b04c92695c591114b2820af262fde1c534578f1f9fb44548e",
+    "already_asked-04_result.json": "ac53d5b4cbf9f5961a95d281e358d45af689934104c4620e84636d92bce0dfae",
+    "already_asked-04_started.json": "0871f3d6c39cefc4401a89096fe7e6c7c00ea2927481be5b28b44266e495ae22",
+    "cases.json": "d63d79600ae9a99000832eccec9c73887a9f2597a15bf7c93feffe53272b33a1",
+    "diversity-01_result.json": "386792bf9822785811b41a27caa85e41531eed27f38b9f278c896b79cd630f4c",
+    "diversity-01_started.json": "0c3bc799ec09d64cfa006bf7ebce53ec3029ab432e8354f8e94e2745492bac96",
+    "diversity-02_result.json": "69970b32635f6e8663a55c3ea91e188a9de1993bb8f9c52b80055ee9003e2af9",
+    "diversity-02_started.json": "30c169e1f4d9d799c1ca7198042065553edf5c3dbdb768cdb79b1acfabc05be5",
+    "diversity-03_result.json": "58ca965ae03849bacd9329f53785d5ef325be1d65d9172da7474965395e65428",
+    "diversity-03_started.json": "eaa970042db1a7f255495af2728c2e9497179cd2fe6c7919e666082e5f5605a8",
+    "diversity-04_result.json": "ea058fbb2d5b6b306cce2dfb472280b8895b053e530130dde52c0c7d25c001dd",
+    "diversity-04_started.json": "e9399e0a6c8e0132851392f5b5811e3bb76d970ecfc8182f499ea47772caca95",
+    "human_labels_required.json": "166ff1b377581179332df8c6ecddc96985cfe65388df68d8f540514352232984",
+    "provenance_started.json": "94de6d0a5d28fa8e1a707029abb059930d3eb94d6bf5c79a4d3db8b20a73a524",
+    "question_type-01_result.json": "9bb96598afeee8f60326e49d2e931c43be07d5284698a3128a35252387bd6cec",
+    "question_type-01_started.json": "a87fd478a602c6fdafe8610888f8aa10c498324640b64d899b720ea8e4459e25",
+    "question_type-02_result.json": "7a00af971daafead44ebad25f22e9171cec63fe28b0969993f08e4b8735646b3",
+    "question_type-02_started.json": "35a49d9a8c13f141a6b463d9de6970c71021da702117ad1e5f6e68b7928a1d4d",
+    "question_type-03_result.json": "9785eda97ec9d3e1161a6f49c6a1d5bb555c706dcfea0cb2fef1259f17a88fca",
+    "question_type-03_started.json": "603ee29d83920cf9f5aa4523a6fb8653b17d706e9f5b259e1bac8cdd3b8ff294",
+    "question_type-04_result.json": "9e9faa0350a472454f37523a27ae21929173152253ef0a0928be1bd7e14b46f7",
+    "question_type-04_started.json": "c645c434966f00e11efc064730a80a14c97c04a1725eae3c4544def4b6e3af76",
+    "reconstruction-01_result.json": "fb8df62b8f9585896e7df2f001a159ce91ad78ac044733599aa9d3053ee63375",
+    "reconstruction-01_started.json": "b10e9e5ad850fd72ef3157bdab282c56a960a6f5f29c7373b075888266e2125e",
+    "reconstruction-02_result.json": "68662515c6e151e96adb6f2c9e78e5dcde60c1d9ab6cc7ab2d86d435079578b2",
+    "reconstruction-02_started.json": "b7ea2745d38f2dc8b4237ec6fc995628c7951d1c085aa1dc002ca013c194a1cb",
+    "reconstruction-03_result.json": "a6ea04b2c309dbbbe3c6c4d552eab7ea4f41d50ba693daa917180fb07c02b873",
+    "reconstruction-03_started.json": "91443e808db751cd07277f55c4126db3dd40d135225e5af4dcd8821400d0ba9a",
+    "reconstruction-04_result.json": "2089e32c0ba57ce0ba144c06e7eb4a45e5fb3c6995990f77f8843b3f84b0ed78",
+    "reconstruction-04_started.json": "7c27f7cd85f5833e65b39272ee3f3ff07a3776f99dac366fa51d84938e9faefe",
+    "report.json": "d1d87df4a788e5d5490f3f54df3d73cd47f31e181eb3c0aa06b9c7a9002e7cad"
+  },
+  "total_validations": 4,
+  "validations_genuinely_completed": 0,
+  "verifier_implementation_sha256": "164cab98918cee4173995f4a355ec85928fdedddb3dee1944c7983556f0eff4c"
+}

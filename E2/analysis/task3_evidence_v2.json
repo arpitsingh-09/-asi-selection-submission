@@ -1,0 +1,99 @@
+{
+  "benchmark_records": 299,
+  "nested_yaml_records": 299,
+  "nested_source_mismatches": [],
+  "nested_title_mappings_resolved": 299,
+  "benchmark_forums_in_history": [],
+  "exact_title_or_id_overlap": [],
+  "test_dates_recovered_from_history": {},
+  "dates_in_nested_source": 0,
+  "historical_date_fields": {
+    "2022": {
+      "pdate": {
+        "count": 2617,
+        "min": "2022-01-28T22:06:00+00:00",
+        "max": "2022-01-28T22:06:00+00:00"
+      },
+      "odate": {
+        "count": 2617,
+        "min": "2021-10-06T17:00:00+00:00",
+        "max": "2021-10-06T17:00:00+00:00"
+      },
+      "cdate": {
+        "count": 2617,
+        "min": "2021-09-29T00:30:21.364000+00:00",
+        "max": "2021-09-30T01:28:53.637000+00:00"
+      }
+    },
+    "2023": {
+      "pdate": {
+        "count": 3792,
+        "min": "2023-02-01T19:18:02.172000+00:00",
+        "max": "2023-02-01T19:30:00+00:00"
+      },
+      "odate": {
+        "count": 3792,
+        "min": "2022-09-29T16:15:00+00:00",
+        "max": "2022-09-29T16:15:00+00:00"
+      },
+      "cdate": {
+        "count": 3792,
+        "min": "2022-09-22T12:30:01.812000+00:00",
+        "max": "2022-09-22T12:43:10.815000+00:00"
+      }
+    },
+    "2024": {
+      "pdate": {
+        "count": 2261,
+        "min": "2024-01-16T13:13:04.315000+00:00",
+        "max": "2024-02-02T03:35:56.098000+00:00"
+      },
+      "odate": {
+        "count": 7260,
+        "min": "2023-10-13T16:17:52.796000+00:00",
+        "max": "2024-03-25T17:05:16.254000+00:00"
+      },
+      "cdate": {
+        "count": 7260,
+        "min": "2023-09-15T07:03:27.434000+00:00",
+        "max": "2023-09-24T12:37:19.827000+00:00"
+      }
+    },
+    "2025": {
+      "pdate": {
+        "count": 3710,
+        "min": "2025-01-22T16:09:33.058000+00:00",
+        "max": "2025-03-02T04:39:33.773000+00:00"
+      },
+      "odate": {
+        "count": 11517,
+        "min": "2024-10-04T02:22:45.725000+00:00",
+        "max": "2024-10-05T05:26:21.204000+00:00"
+      },
+      "cdate": {
+        "count": 11517,
+        "min": "2024-09-13T00:00:31.304000+00:00",
+        "max": "2024-09-28T12:00:53.394000+00:00"
+      }
+    }
+  },
+  "history_years": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "test_cohort": 2026,
+  "chronological_separation": "venue-year separation confirmed; item-level test dates unavailable",
+  "benchmark_exact_abstract_cache_hits": [],
+  "baseline_cache_reuse": "existing novelty cache is normalized CLS; protocol baseline requires raw abstract-only CLS",
+  "prediction_or_matrix_candidates": [],
+  "exact_blockers": [
+    "No item-level benchmark posting dates in local sources",
+    "No documented encoder training cutoff in the supplied E2 evidence",
+    "No four-measure benchmark predictions, frozen per-item eligible reference pools, or test claims",
+    "No complete provenance-verified raw abstract-only historical/test embedding matrices"
+  ],
+  "human_check_executed": false,
+  "exposure_limitation": "Prior test exposure remains disclosed; continuation protocol does not make the study blind"
+}

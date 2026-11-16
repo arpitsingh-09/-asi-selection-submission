@@ -1,0 +1,278 @@
+{
+  "protocol_commit": "588d15bda62861b6ab4d7e1dc4820fcf46020588",
+  "protocol_sha256": "bf13ca18a478801ca6aeac1d08f03f1c2986294c3fa0b059af4f94886661c2ae",
+  "cohort_sha256": "c2323e060f1d8f8166ac353e078658ff82aec85ebe11ce10b4773922284a1bcb",
+  "evaluated_new_focals": 52,
+  "previous_focals": 241,
+  "combined_Y_density_focals": 293,
+  "new_per_pool": {
+    "computation_language": 20,
+    "computer_vision": 13,
+    "machine_learning": 19
+  },
+  "bootstrap": {
+    "replicates": 10000,
+    "seed": 20261113,
+    "unit": "distinct focal paper",
+    "method": "paired-paper percentile 95%"
+  },
+  "new_rates": [
+    {
+      "left": "near",
+      "right": "far",
+      "measure": "Y",
+      "valid": 52,
+      "passes": 52,
+      "ties": 0,
+      "pass_rate": 1.0,
+      "pass_rate_ci95": [
+        1.0,
+        1.0
+      ],
+      "mean_difference": -0.1025197643500108,
+      "difference_ci95": [
+        -0.10956429288937496,
+        -0.09509394057095051
+      ]
+    },
+    {
+      "left": "near",
+      "right": "far",
+      "measure": "density",
+      "valid": 52,
+      "passes": 51,
+      "ties": 0,
+      "pass_rate": 0.9807692307692307,
+      "pass_rate_ci95": [
+        0.9423076923076923,
+        1.0
+      ],
+      "mean_difference": -43.382511810556096,
+      "difference_ci95": [
+        -50.84732745496439,
+        -36.244692749368255
+      ]
+    },
+    {
+      "left": "newer",
+      "right": "older",
+      "measure": "Y",
+      "valid": 52,
+      "passes": 36,
+      "ties": 0,
+      "pass_rate": 0.6923076923076923,
+      "pass_rate_ci95": [
+        0.5576923076923077,
+        0.8076923076923077
+      ],
+      "mean_difference": -0.008089297092877902,
+      "difference_ci95": [
+        -0.012948137349807298,
+        -0.003459031937214045
+      ]
+    },
+    {
+      "left": "newer",
+      "right": "older",
+      "measure": "density",
+      "valid": 52,
+      "passes": 28,
+      "ties": 4,
+      "pass_rate": 0.5384615384615384,
+      "pass_rate_ci95": [
+        0.40384615384615385,
+        0.6730769230769231
+      ],
+      "mean_difference": -5.746983711634911,
+      "difference_ci95": [
+        -11.097949987630043,
+        -0.4296507501543563
+      ]
+    }
+  ],
+  "previous_Y_density_rates": [
+    {
+      "left": "near",
+      "right": "far",
+      "measure": "Y",
+      "valid": 241,
+      "passes": 241,
+      "ties": 0,
+      "pass_rate": 1.0,
+      "pass_rate_ci95": [
+        1.0,
+        1.0
+      ],
+      "mean_difference": -0.10141065580716271,
+      "difference_ci95": [
+        -0.10471235187840165,
+        -0.0980481010625966
+      ]
+    },
+    {
+      "left": "near",
+      "right": "far",
+      "measure": "density",
+      "valid": 241,
+      "passes": 236,
+      "ties": 2,
+      "pass_rate": 0.979253112033195,
+      "pass_rate_ci95": [
+        0.9585062240663901,
+        0.995850622406639
+      ],
+      "mean_difference": -47.73928724179229,
+      "difference_ci95": [
+        -51.19410344844154,
+        -44.216982369089834
+      ]
+    },
+    {
+      "left": "newer",
+      "right": "older",
+      "measure": "Y",
+      "valid": 241,
+      "passes": 152,
+      "ties": 0,
+      "pass_rate": 0.6307053941908713,
+      "pass_rate_ci95": [
+        0.5684647302904564,
+        0.6929460580912863
+      ],
+      "mean_difference": -0.006478188690802863,
+      "difference_ci95": [
+        -0.008822723431705934,
+        -0.0042054523138089816
+      ]
+    },
+    {
+      "left": "newer",
+      "right": "older",
+      "measure": "density",
+      "valid": 241,
+      "passes": 133,
+      "ties": 7,
+      "pass_rate": 0.5518672199170125,
+      "pass_rate_ci95": [
+        0.4896265560165975,
+        0.6141078838174274
+      ],
+      "mean_difference": -4.74019129555099,
+      "difference_ci95": [
+        -7.268419783392476,
+        -2.227592290106933
+      ]
+    }
+  ],
+  "combined_descriptive_rates": [
+    {
+      "left": "near",
+      "right": "far",
+      "measure": "Y",
+      "valid": 293,
+      "passes": 293,
+      "ties": 0,
+      "pass_rate": 1.0,
+      "pass_rate_ci95": [
+        1.0,
+        1.0
+      ],
+      "mean_difference": -0.10160749418336784,
+      "difference_ci95": [
+        -0.10474499187371837,
+        -0.09851558421557266
+      ]
+    },
+    {
+      "left": "near",
+      "right": "far",
+      "measure": "density",
+      "valid": 293,
+      "passes": 287,
+      "ties": 2,
+      "pass_rate": 0.9795221843003413,
+      "pass_rate_ci95": [
+        0.962457337883959,
+        0.9931740614334471
+      ],
+      "mean_difference": -46.96607112430328,
+      "difference_ci95": [
+        -50.19452103076877,
+        -43.82355055458077
+      ]
+    },
+    {
+      "left": "newer",
+      "right": "older",
+      "measure": "Y",
+      "valid": 293,
+      "passes": 188,
+      "ties": 0,
+      "pass_rate": 0.6416382252559727,
+      "pass_rate_ci95": [
+        0.5870307167235495,
+        0.6962457337883959
+      ],
+      "mean_difference": -0.00676411919219502,
+      "difference_ci95": [
+        -0.008835419163158728,
+        -0.004641270510369194
+      ]
+    },
+    {
+      "left": "newer",
+      "right": "older",
+      "measure": "density",
+      "valid": 293,
+      "passes": 161,
+      "ties": 11,
+      "pass_rate": 0.5494880546075085,
+      "pass_rate_ci95": [
+        0.49146757679180886,
+        0.6075085324232082
+      ],
+      "mean_difference": -4.918871178268955,
+      "difference_ci95": [
+        -7.230517448642366,
+        -2.64177070634865
+      ]
+    }
+  ],
+  "combined_scope": "Y/density only. Compatible formulas, exact text/model, chronological pools, pair sizes, tie rule; heterogeneous selection stages. Descriptive pooled development results, not one prospectively registered cohort.",
+  "N_yours_focals_evaluated": 241,
+  "new_embeddings_generated": 0,
+  "model_loaded": false,
+  "minimum_missing_unique_claim_vectors_for_ready_52": 93,
+  "additional_unique_claim_vectors_for_pool_blocked_focal": 0,
+  "source_sha256": {
+    "/Users/arpit/asi-selection/E2/analysis/claim_completion_v2/task2_reuse_readiness.json": "47a1a6a72f95345189b8a9435b26c6761dda54d20d3d7f18c88ce715ddfa5bb4",
+    "/Users/arpit/asi-selection/E2/analysis/claim_completion_v2/claims_future.jsonl": "98a4244c8389284b87f171372eafe58326ea444256226f089e429d165d3f8410",
+    "/Users/arpit/asi-selection/E2/data/raw_papers.jsonl": "98036e1d99139a7fa4938362ab45f97fc12f21a91182c0ce5d22ee5be7d0c662",
+    "/Users/arpit/asi-selection/E2/data/pool_manifest.csv": "e36009be0e3d8991175cc91ac93f661633b82a9f4d1959a425eb6b513991f104",
+    "/Users/arpit/asi-selection/E2/data/claims_v8_selected.jsonl": "2266fe8e086ebd1ca2bdea1db0e4eccd241a2fc8f1d1282b9e9c5fcb37ec723d",
+    "/Users/arpit/asi-selection/E2/data/novelty_embeddings.sqlite3": "a1d42a472f7ecda6935beb67ad595fb6a39e2fdcbbd022259a4f0e8230ac8289",
+    "/Users/arpit/asi-selection/E2/data/scoring_results.jsonl": "8aa38111b3dbdf5e4a24534486bb55aa081d6b4bdd32a56244a00e0b2fa99bdc",
+    "/Users/arpit/asi-selection/E2/data/scoring_results.matmul_pilot.jsonl": "9ded2fd37ce365fb13a4621497367315027d54ff2a41608c55cfa04bd7840b1f",
+    "/Users/arpit/asi-selection/E2/analysis/cached_extensions_v1/results.jsonl": "0895f8e4520359d4b4c3c78658ef915a7daa8cc53476df422e549be1ac319da0",
+    "/Users/arpit/asi-selection/E2/analysis/cached_extensions_v1/summary.json": "a36fc716e5e9219146d72f9e7c74fd7085246ed06d73a23800e9227e9c15dd83",
+    "/Users/arpit/asi-selection/E2/analysis/cached_extensions_v1/pool_plan.jsonl": "817b27f41acbc3af5c61c7751e46ce9b544a414f66657994c69c0362d37b4781",
+    "/Users/arpit/asi-selection/E2/CONTINUATION_PROTOCOL.md": "836296a7bc8a42131f589b1ea69b2c335355ae29b54f5325824393a087e8d587",
+    "/Users/arpit/asi-selection/PREREG.md": "0f8fe4695029f6f5e0289bdb1c75ff50d5f4712d6991d25f7f61b34e3de656e6",
+    "/Users/arpit/asi-selection/NOTEBOOK.md": "b69597d923db1462f47b4d706def259bb995f4545f212a1b5cc7936652b539c9",
+    "/Users/arpit/asi-selection/AI_LOG.md": "e7123262c57b6c6313040e140f521035597d28bdef8589740c884e1484b8634f",
+    "/Users/arpit/asi-selection/E2/cached_extensions.py": "5975cab069d0425f2402ef197655cc3975403d15c1a1a6fc8c714c4b7e78d8a0",
+    "/Users/arpit/asi-selection/E2/manipulation_extensions.py": "54913768a1c8106a7047388707595a1b067865332365a81a5c84a11461bdb523",
+    "/Users/arpit/asi-selection/E2/novelty.py": "30276aee4718359840fe72b143ccfccc7c166c74f5dcb5c0953fdd48fbd5215c",
+    "/Users/arpit/asi-selection/E2/task2_cache_extension.py": "0ef0b9d48901bdf740cdaee04ff5b643003aec2e5fc4d410baa44fc1c31129c0",
+    "/Users/arpit/asi-selection/E2/tests/test_task2_cache_extension.py": "25eeb94445d307ac848a0ed4b02dcc22038fb60758b73ce3f68e2fae47bf9879",
+    "/Users/arpit/asi-selection/E2/analysis/task3_execution_v1/plan.json": "9e885471009da8adfa91bfb710606834b63c7045542ce2604a43438f18e8c424"
+  },
+  "limitations": [
+    "Cohort selected for claim count and cache availability after earlier study exposure.",
+    "Near selection uses the same geometry as scoring; not independent semantic validation.",
+    "Temporal decrease is an empirical hypothesis, not a universal axiom.",
+    "Six claim-incomplete and one insufficient-prior-cache focal remain excluded.",
+    "Missing claim embeddings prevent new N/yours; planting/paraphrase require modified-paper vectors."
+  ],
+  "protected_source_hashes_unchanged": true
+}

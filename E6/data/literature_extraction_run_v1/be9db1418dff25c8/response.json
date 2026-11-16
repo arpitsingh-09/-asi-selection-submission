@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:31:16.327056+00:00",
+  "identity": "a78c854f019fc759359b8598cd01bdf087ab567cba555f488116b8e99c174c57",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:31:16.316753Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 114,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 14.25020120900001,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:31:16.316753Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2315,
+      "prompt_eval_count": 461,
+      "prompt_sha256": "b8575e493ef3e04cc8bbd1fab8d3caf92501a07762c07d514ff2d1ed8b5bd425",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 575,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 461,
+    "latency_seconds": 14.25020120900001,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:31:16.316753Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 114,
+    "raw_response": "{\n  \"research_question\": \"How can a modified Auxiliary physics-informed neural network (A-PINN) framework with balanced adaptive optimizers be used to analyze structural vibration problems and improve the robustness of scientific machine learning models for solving vibration problems?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"The proposed A-PINN framework with balanced adaptive optimizers will demonstrate enhanced performance in terms of both numerical stability and predictive accuracy compared to baseline models.\",\n  \"main_hypothesis_explicit\": true\n}",
+    "total_tokens": 575
+  },
+  "reply_sha256": "822ca54f5d16db52ef5e27e4ab51fc78043878450468745d8a74fbea312578cc"
+}

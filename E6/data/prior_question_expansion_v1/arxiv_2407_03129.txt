@@ -1,0 +1,113 @@
+[2407.03129] Social Bias Evaluation for Large Language Models Requires Prompt Variations (https://arxiv.org/abs/2407.03129)
+citeturn8view2 [wordlim: 200] Crawled: last week; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2407.03129","lineno":null}); Total lines: 159
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1: 
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3: 
+L4: Press Enter to search · 【4†Advanced search】
+L5: 
+L6: # Computer Science > Computation and Language
+L7: 
+L8: [Submitted on 3 Jul 2024]
+L9: # Title:Social Bias Evaluation for Large Language Models Requires Prompt Variations
+L10: 
+L11: Authors:【5†Rem Hida】, 【6†Masahiro Kaneko】, 【7†Naoaki Okazaki】
+L12: 
+L13: View a PDF of the paper titled Social Bias Evaluation for Large Language Models Requires Prompt Variations, by Rem Hida and 2 other authors
+L14: 
+L15: 【8†View PDF】 【9†HTML (experimental)】
+L16: > Abstract:Warning: This paper contains examples of stereotypes and biases. Large Language Models (LLMs) exhibit considerable social biases, and various studies have tried to evaluate and mitigate these biases accurately. Previous studies use downstream tasks as prompts to examine the degree of social biases for evaluation and mitigation. While LLMs' output highly depends on prompts, previous studies evaluating and mitigating bias have often relied on a limited variety of prompts.
+L17: In this paper, we investigate the sensitivity of LLMs when changing prompt variations (task instruction and prompt, few-shot examples, debias-prompt) by analyzing task performance and social bias of LLMs. Our experimental results reveal that LLMs are highly sensitive to prompts to the extent that the ranking of LLMs fluctuates when comparing models for task performance and social bias. Additionally, we show that LLMs have tradeoffs between performance and social bias caused by the prompts.
+L18: Less bias from prompt setting may result in reduced performance. Moreover, the ambiguity of instances is one of the reasons for this sensitivity to prompts in advanced LLMs, leading to various outputs. We recommend using diverse prompts, as in this study, to compare the effects of prompts on social bias in LLMs.
+L19: Subjects:  | Computation and Language (cs.CL)
+L20: Cite as:  | 【10†arXiv:2407.03129】 [cs.CL]
+L21:    | (or 【11†arXiv:2407.03129v1】 [cs.CL] for this version)
+L22:    | 【12†https://doi.org/10.48550/arXiv.2407.03129†doi.org】 arXiv-issued DOI via DataCite
+L23: ## Submission history
+L24: 
+L25: From: Rem Hida [【13†view email】]
+L26: [v1] Wed, 3 Jul 2024 14:12:04 UTC (230 KB)
+L27: 
+L28: Full-text links:
+L29: 
+L30: ## Access Paper:
+L31: 
+L32: View a PDF of the paper titled Social Bias Evaluation for Large Language Models Requires Prompt Variations, by Rem Hida and 2 other authors
+L33: 
+L34:   * 【8†View PDF】
+L35:   * 【9†HTML (experimental)】
+L36:   * 【14†TeX Source】
+L37: 
+L38: 【15†view license】
+L39: 
+L40: ### Current browse context:
+L41: 
+L42: cs.CL
+L43: 
+L44: 【16†< prev】   |   【17†next >】
+L45: 
+L46: 【18†new】 | 【19†recent】 | 【20†2024-07】
+L47: 
+L48: Change to browse by:
+L49: 
+L50: 【21†cs】
+L51: ### References & Citations
+L52: 
+L53:   * 【22†NASA ADS†ui.adsabs.harvard.edu】
+L54:   * 【23†Google Scholar†scholar.google.com】
+L55:   * 【24†Semantic Scholar†api.semanticscholar.org】
+L56: 
+L57: [Button: export BibTeX citation] Loading...
+L58: 
+L59: ## BibTeX formatted citation
+L60: 
+L61: [Button: ×]
+L62: 
+L63: loading...
+L64: 
+L65: Data provided by:
+L66: 
+L67: ### Bookmark
+L68: 
+L69: [Input] Bibliographic Tools
+L70: # Bibliographic and Citation Tools
+L71: 
+L72: [Input] Bibliographic Explorer Toggle
+L73: 
+L74: Bibliographic Explorer (【25†What is the Explorer?†info.arxiv.org】)
+L75: 
+L76: [Input] Connected Papers Toggle
+L77: 
+L78: Connected Papers (【26†What is Connected Papers?†www.connectedpapers.com】)
+L79: 
+L80: [Input] Litmaps Toggle
+L81: 
+L82: Litmaps (【27†What is Litmaps?†www.litmaps.co】)
+L83: 
+L84: [Input] scite.ai Toggle
+L85: 
+L86: scite Smart Citations (【28†What are Smart Citations?†www.scite.ai】)
+L87: 
+L88: [Input] Code, Data, Media
+L89: # Code, Data and Media Associated with this Article
+L90: 
+L91: [Input] alphaXiv Toggle
+L92: 
+L93: alphaXiv (【29†What is alphaXiv?†alphaxiv.org】)
+L94: 
+L95: [Input] Links to Code Toggle
+L96: 
+L97: CatalyzeX Code Finder for Papers (【30†What is CatalyzeX?†www.catalyzex.com】)
+L98: 
+L99: [Input] DagsHub Toggle
+L100: 
+L101: DagsHub (【31†What is DagsHub?†dagshub.com】)
+L102: 
+L103: [Input] GotitPub Toggle
+L104: 
+L105: Gotit.pub (【32†What is GotitPub?†gotit.pub】)
+L106: 
+L107: [Input] Huggingface Toggle
+L108: 
+L109: Hugging Face (【33†What is Huggingface?†huggingface.co】)
+L110:

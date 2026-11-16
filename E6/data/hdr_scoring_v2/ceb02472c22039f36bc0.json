@@ -1,0 +1,13 @@
+{
+  "arm": "D",
+  "checkpoint_sha256": "2eaae8b1ca30fd8dd724138285d8c2e25b9076e23c63efa19a1e879306ce60cf",
+  "evidence": {
+    "exact_full_rule_matches": [],
+    "nonmatch_interpretation": "unknown, not zero or NO_MATCH",
+    "status": "blocked_reference_feature_definition_missing"
+  },
+  "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0004:56bffd79f9b2",
+  "identity": "1955cfada0843ccc2cf601577440faaf6fa102dbc7eba906a4522b68c185b47e",
+  "payload": null,
+  "score": null
+}

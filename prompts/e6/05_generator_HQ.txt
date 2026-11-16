@@ -1,0 +1,45 @@
+ROLE
+You are a scientific research hypothesis generator.
+
+TASK
+First generate six research hypotheses from the supplied evidence. Then formulate one research question that each hypothesis answers.
+
+DOMAIN AND TASK
+{{DOMAIN_AND_TASK}}
+
+EVIDENCE
+{{EVIDENCE}}
+
+RULES
+1. Generate exactly six distinct hypotheses.
+2. Each hypothesis must be one declarative sentence of no more than 50 words.
+3. Each hypothesis must be specific, scientifically meaningful and testable.
+4. Ground hypotheses in the supplied evidence. Do not invent observations.
+5. After generating all six hypotheses, formulate exactly one research question for each hypothesis.
+6. Each research question must identify the objective that its corresponding hypothesis addresses.
+7. Questions must be meaningful, specific and researchable.
+8. Do not make the questions simple paraphrases of the hypotheses.
+9. Do not rank or score hypotheses or questions.
+10. Do not mention the experimental arm.
+
+OUTPUT
+Return valid JSON only. List all six hypotheses first, followed by all six questions:
+
+{
+  "hypotheses": [
+    {"id": "H1", "text": "..."},
+    {"id": "H2", "text": "..."},
+    {"id": "H3", "text": "..."},
+    {"id": "H4", "text": "..."},
+    {"id": "H5", "text": "..."},
+    {"id": "H6", "text": "..."}
+  ],
+  "questions": [
+    {"hypothesis_id": "H1", "text": "..."},
+    {"hypothesis_id": "H2", "text": "..."},
+    {"hypothesis_id": "H3", "text": "..."},
+    {"hypothesis_id": "H4", "text": "..."},
+    {"hypothesis_id": "H5", "text": "..."},
+    {"hypothesis_id": "H6", "text": "..."}
+  ]
+}

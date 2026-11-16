@@ -1,0 +1,13 @@
+{
+  "arm": "QH-sel",
+  "checkpoint_sha256": "591fd6431edcc8b016330d439687b4c6fdf62368be6c494f79fa47b2fcfb2bad",
+  "evidence": {
+    "exact_full_rule_matches": [],
+    "nonmatch_interpretation": "unknown, not zero or NO_MATCH",
+    "status": "blocked_reference_feature_definition_missing"
+  },
+  "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0006:d2196c978877",
+  "identity": "2ca78c162a95a1a13c27dbeab8ad998a89ce80a88babb8397eb348c417c2f4a0",
+  "payload": null,
+  "score": null
+}

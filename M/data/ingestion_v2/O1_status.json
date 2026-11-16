@@ -1,0 +1,14 @@
+{
+  "schema": "M-core-readiness-v2",
+  "test": "O1",
+  "status": "BLOCKED",
+  "eligible_records": 0,
+  "heldout_evaluated": false,
+  "metrics": null,
+  "ci95": null,
+  "baseline_comparisons": null,
+  "missing_dependencies": [
+    "No dated peer-review AND community-use outcomes linked to postcutoff question versions within topic.",
+    "Both Q heads unavailable."
+  ]
+}

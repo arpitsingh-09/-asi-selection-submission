@@ -1,0 +1,2812 @@
+{
+  "frozen": false,
+  "manifest_sha256": "d3465908ea689345da4d4523170be6f24b44e2f4e6b48c9a4582bb852f762615",
+  "note": "Proposed evidence subset only; source candidate manifest and sample are unchanged. No BGE relevance ranking or target text supplied to generation.",
+  "references_per_set": 10,
+  "sample_proposal_sha256": "61db8997802773b28811fd0c94f93081a40d98943407fb1e308384954318f838",
+  "schema_version": "e6-literature-reference-selection-proposal-v1",
+  "selection_policy": "first references in preserved verified manifest order",
+  "selections": [
+    {
+      "candidate_record_sha256": "78efe3f6f40ef5fea439bfbdb9dd3e22165e3fc9cc2e8216049c8b1e6c53adf9",
+      "input_set_id": "lit-2610.29455",
+      "reference_ids": [
+        "2410.21276",
+        "2509.17765",
+        "2508.08155",
+        "2506.05796",
+        "2601.01554",
+        "2601.21337",
+        "2603.19217",
+        "2603.22709",
+        "2604.15804",
+        "2604.15929"
+      ],
+      "reference_record_hashes": [
+        "fb62f373204d9b1b82cc44fb5166c4825497addd52e0c867d49ba6ba383332e8",
+        "8324639968bff68789498933b82021c6bc7bf9e76619238387a610ef3ef9b5f5",
+        "8e938a6f3a51736c0dbf315d1f7a82510beb52c888e750476e1a225cf835e361",
+        "809477206a935a481af949b2da3cbbc3f9ddb101d73ddb276a52fd08572f0079",
+        "99293462b0cab837d4903b96e6b5f02c39ca812fb2f25521c159db6efa71a84d",
+        "97958766a23b3a298c6bde9af27f5f01cbe30e061a0373e31fdf554cfca802bd",
+        "3ffa30258b9d02a46f387ff1c66580b20d08393214f64779f5dfc4ee3f45cd9e",
+        "cc0ad9c992439e7897309eb5074206ae29a6ae230773494ab4523edebcbf065f",
+        "2fa68493518ad290e699d970189710539138c99074b367e2aabd2047c362a350",
+        "963a57ab17ac286a9af6511bee8e22fabfb1b7cbf215f91c18688eca9416f224"
+      ]
+    },
+    {
+      "candidate_record_sha256": "95857dd7129b30f792b28d17ec418c2c4206f808ac2bca903d9bf19ec17d5da5",
+      "input_set_id": "lit-2610.30097",
+      "reference_ids": [
+        "2405.01534",
+        "2407.07726",
+        "2401.16013",
+        "2403.03949",
+        "2410.07864",
+        "2411.19309",
+        "2501.06605",
+        "2501.10100",
+        "2409.17146",
+        "2505.18719"
+      ],
+      "reference_record_hashes": [
+        "3b60259433d9f9ad8a3f412da541909bec3e1b71983cab741d6c6f62d09e2d5f",
+        "620749aee0eac2dedf0326a00dce7323305fdd01132ebff322ea7f246a2f5fd7",
+        "d18c4803eaa8e4f9eccf2f630274611ca3222b94e8d1004ba14da60544cf58eb",
+        "2680ff5b8fe4122f8b9c85e25081e8b79b874b1acb3bc7f3f2e3ea6cf860fed2",
+        "9bf220523dc18ec8f3e05702e5cc671a4103b8225df8930ecec344830537b2da",
+        "e1ad27663b5b22b3bac2461b8f194c54e0af13c0b86aecf7407b8bca2e82120c",
+        "546883fad0d800df15e8a711bf31b570ee78d93f7462b29ddf753007eaf4e876",
+        "71fdf48da94b00ead778b229f28c25f9ce45d221be15c7c15fac4b36f772c3e6",
+        "a4cda951f6163284315143b9d45b6e10f20ed05f5403d8f16e1890ec2f0f1740",
+        "0653a0997f599f5736a5501aaab7bad0733ccd0f4e2b22ae97a3939b0302c195"
+      ]
+    },
+    {
+      "candidate_record_sha256": "4ac498fbb38b6b15f7703acd9ecfade8a144fb1a4d37e3151ab5d4452e9cfbf7",
+      "input_set_id": "lit-2610.29196",
+      "reference_ids": [
+        "openalex:W2535873859",
+        "2010.11929",
+        "2203.03605",
+        "1712.09665",
+        "2307.15043",
+        "2307.15818",
+        "2401.02361",
+        "2410.17725",
+        "2412.03555",
+        "2504.10479"
+      ],
+      "reference_record_hashes": [
+        "a8b0e2da6f6183cb0843b9504e3c4ed46e231878bddc14ad2cc5a820182cead7",
+        "3a256f41251b6bcfe4c9c76c90e531a0b75802f76f78ed7ced5c5ca48241b446",
+        "1bdddf8efa8b05e65fccf1d899fc3c5d1bcb9b3af77c6c0582dbe1791107ee45",
+        "c72de2c5959d4b89e7a273c18b9c525034caf05c9a750b04dd77b930d17556de",
+        "7921dd38f3ab41ad82fedc05e2a159b6dcd8da00d1632bd083806d446c7d9f81",
+        "cc52034f254e5a2536a5ae49f7d0b376b4d88ce617a8e4e80b0477b61cc0e6a3",
+        "a75dc42f9d544c9ae2d0e1d55c3ad44759acb20b98d7974b8a930106a93a3036",
+        "627105b668cdfea39f3dbf11f719e87f91d6c743065891f8a897922bcdb774b8",
+        "838a7f852ac2e0ae761ced5001454b07fc113c32ab7bbcde293b0108e8823835",
+        "ae99f4e11b1089ac8deb4953bdb62bee2e09bf1fac6a8218c3fa00f5b1cab868"
+      ]
+    },
+    {
+      "candidate_record_sha256": "676570b12d1eaa1c7489b7e1577427bfa23bca25ee9f0110a6d0f29c8e0b7d41",
+      "input_set_id": "lit-2512.24120",
+      "reference_ids": [
+        "2009.08366",
+        "2107.03374",
+        "2108.07732",
+        "2203.13474",
+        "2301.08727",
+        "2305.06161",
+        "2202.12837",
+        "2308.12950",
+        "2401.14196",
+        "2306.01102"
+      ],
+      "reference_record_hashes": [
+        "9a0ab809ce1bdb3bad09d18dc191f6dfecf2e35786baf6ddbd6a1209032d5fcc",
+        "afa404270e091a92b3c02105d73a3137c66177c813dd3323f1d7ac4f2bf745d3",
+        "c30c986b69ad73c4ac9b907671e1f42351041a8a5fdb604298e6368efd8ec3e6",
+        "c6f633a2dd8b4d26378e2931e535f9289a998de4a4412c6bac035189bf866586",
+        "2b091408af64d504421366461a09881e574f8d9f4c2c560238e3d0b6569a5853",
+        "6f6e9c833690829edea278166f37e2a9fa0baa8d37f6a5770efeec0172eaea8b",
+        "8c8d8aba8cdad5971a0a3a741444d0d94feb199daa8859ef52e59641f965e260",
+        "c316a257a7932bb011fcf3b2972eb9a1e35945acd57854981fc34110cdee31a3",
+        "87f9ea1d7aced644e0c043dee1f7e4cd836cc6c1b94003a64098a2c3416960df",
+        "aa531a1ed19b9ead8e31cbc1b789ae2d58f888db82f074310ec51f272db4bb5d"
+      ]
+    },
+    {
+      "candidate_record_sha256": "2763c4695e563de1affee2dfbc36ab7930593dade5aa13a40cc8670f6679c09b",
+      "input_set_id": "lit-2610.29746",
+      "reference_ids": [
+        "openalex:W2934842096",
+        "1908.04626",
+        "2005.08100",
+        "2206.02647",
+        "2305.05314",
+        "2312.00752",
+        "2307.15254",
+        "openalex:W4398201291",
+        "2402.17228",
+        "openalex:W4414360008"
+      ],
+      "reference_record_hashes": [
+        "4eb48fe285e5a8b3e2302cba13cd727b8830bbd8bffbacf52e979ae903d40176",
+        "246fb456066dc74444af6d59b62d4a58b69e2085da2d90a7a314deb25402f703",
+        "94e8abac852ea3bfd9de2530f07f88bbbd79fba7b126950fb2ab6e7eaff39eda",
+        "79090d5dde71c54728158529b5761fbed961d69c440fcc37d0d39a97ac4115c6",
+        "57bff8e65cad6b547e90be81573f2c89e85bf76242b02b81bf582950be07f052",
+        "082c5cafa773933725fb15c18aea88e1795025bf88da063696914396ecb74e51",
+        "0f2a8d67bdead36a628e0c2e77910475ac16504692e9d804b155633cfad3ac3e",
+        "7257c0cee900fdd753c95963beceed301baac258abb355111548c7e8cbfabfe3",
+        "141088a3b61e06a9714f1f72efe2c2f9a1b5aa0a41675df3d09fc577a2964338",
+        "6da8d8c5cd52eead454047fdb51dc8d274a045572e481402e3d3e92e2b8bd966"
+      ]
+    },
+    {
+      "candidate_record_sha256": "6c551d41a17f5d5330615b3b154a2e6c2f0d05324621d1cef4bb88d68e638d73",
+      "input_set_id": "lit-2610.30119",
+      "reference_ids": [
+        "0907.3740",
+        "0712.1698",
+        "0709.3110",
+        "1511.01752",
+        "1806.02107",
+        "2007.15481",
+        "2110.11216",
+        "openalex:W4301138537",
+        "2303.05838",
+        "2402.10506"
+      ],
+      "reference_record_hashes": [
+        "43e348d52e72547083bad35d668eba4e2306fe0a12c61147f3310e893f8c72d2",
+        "0e1308b17456109367d5b343ccd43db99e8a452836cd54aeaedd1454fdae9a4c",
+        "3cadde54ac66297db65e47625ff51ed1387bac181f98a30232b145bf90b20f80",
+        "51ab9ff8883d5922f17e4906a60557019264b01eeb710bc677ff8ef7dfdf8ae7",
+        "f067ccb54a737569bdaf41ae9534bc13ad0514eb66f29d7795fb3d9c14f6b8d1",
+        "9d0ab0ac5ce5d3759e88b818e16e4ac22fa90b49d6b291a05c17942d2d8722ac",
+        "c3c5d0428bb9a8494fa7a8451c08694859789d86552e032b334f1c6eca40cfdd",
+        "06749be1a629a9ca50cbe39bdb41b7d1e2175440cb761d1b57915458d01c5f9e",
+        "a68cb3218f108936c5d6e9de1b0c61abea165b323184e72879b68f8ccab95095",
+        "5b573df183a5b1b5a140afc1ba3796151e221cce634199e31583fe67fadf9854"
+      ]
+    },
+    {
+      "candidate_record_sha256": "7fccc059d56eaacd4f883ca97acc3d49d9ca19bc5c1806a2f93b4020d409ce11",
+      "input_set_id": "lit-2610.29246",
+      "reference_ids": [
+        "1801.00690",
+        "1803.10122",
+        "2003.08934",
+        "2107.14795",
+        "2105.04906",
+        "2302.12288",
+        "2301.08243",
+        "2310.16828",
+        "2404.08471",
+        "2410.22325"
+      ],
+      "reference_record_hashes": [
+        "13a264facf474fa0ce2283b0d083e816e769d6b169267e9a2f868b1778903ff0",
+        "c6d6e8045ee9587df534cae0f5622efeb77914a97a2608d6d246d0e3b1e03ca9",
+        "f246641744d096190cd3a3e9ae1693a1d520b76463c6027d05e9f60a2bd085d5",
+        "64b3812c15ce9e58f95eb0e2b2da5b20ad1b14dffdba0a0d13a88cc4bb95d4d2",
+        "3fb2be11d2bf1280679f4609a530c4eb8da8a58fdfd855f1e71bf2e5a3571bd1",
+        "ae2361eef5d2fa5430137c4d854c13f0e15814d907d55ea21735f67a879730a0",
+        "add636c88df503e47f256b09c304037780d8297b64db9148a068c734abb605e4",
+        "25acc6b7c384d016618a3789b4cb51168caa84eca78a07d8325dadb1cc249cce",
+        "59870c640696bcbfbbf4de472f1296599203a57db3f0879865f39db7057afbf0",
+        "57f60c2cbbe30dcb80e84a5464fd0315efadde2a785aa8465882b23213dbf015"
+      ]
+    },
+    {
+      "candidate_record_sha256": "f9d18d8c0b1b9f3737136d3fa20c6259679c1c76e4f223388ffadcb777abdd11",
+      "input_set_id": "lit-2610.28836",
+      "reference_ids": [
+        "1506.01497",
+        "1506.02640",
+        "openalex:W2110228583",
+        "openalex:W2112796928",
+        "openalex:W2114572161",
+        "openalex:W2127141656",
+        "openalex:W2147619471",
+        "openalex:W2149319679",
+        "openalex:W2158008371",
+        "1507.05717"
+      ],
+      "reference_record_hashes": [
+        "5c738ed232f193920a0a9b3809bcd7913def10c1dc9da992140ad7cc8dd3b9e0",
+        "26b72ec946094210132524566c32de41a1333495cbdab325a676821f6a6702ad",
+        "222d492f3e49516fd55fdf63f3408d2adbe77faa3621a2404e0b02e66cddb57b",
+        "8d844dfd6b8a4c3e4aab27beae2266b3cb6e7b9af5221c140011a9e541a31a6f",
+        "6d708ad5d9ca59ca36a6cec8e03a66aa12580163a436850dae93574b6691b4f7",
+        "80b9a92c08200ec3270696e5c191bb714a0cfa2b3c3c99fb97a48fc888476e8f",
+        "c595bef391211c8b9879b633aaa2997daa2d9d21f31de7d361e275b5888d6402",
+        "9307b632e1845fb35c45d66b5a1de0fda01622acb58b85aeea386b8a60bc0d77",
+        "6ca7e9bb902e658bf5738cb7b7fbd0b6a7c768ae2bc846f48eb3e3b420285119",
+        "eeaf5005e5d863062cc32b6573b2cee9ac46a9dace15fa650fc3957e1c9903dc"
+      ]
+    },
+    {
+      "candidate_record_sha256": "47844a4e5d4bffbc1a6f5fd2d2e7d94d24083a95bfca4c47e4a821fb1101848d",
+      "input_set_id": "lit-2512.24827",
+      "reference_ids": [
+        "openalex:W1982678075",
+        "openalex:W2560783864",
+        "1810.04586",
+        "1903.00606",
+        "openalex:W2924816077",
+        "1907.02998",
+        "1412.6980",
+        "1810.09202",
+        "1907.08225",
+        "1911.10715"
+      ],
+      "reference_record_hashes": [
+        "719015238ce98c2194928b98fabed8c2cc69c3ec8bb3920b3b045cae904ea287",
+        "2ceb6e2eadbefa108a67f66416d81fc6fc9e7c4968a734b21fb343a268fb906c",
+        "abb9c3259228539573804dfb5014cf41abbef17dfb4cd7461cc092011a82c1fa",
+        "248db900706257f2fa26a58534957e08893034cab203189ee744b2af3bb27db3",
+        "0f9267719041c1317ac0adc69579dbfc2e6667abd00bec4e04c40f956c2f2eae",
+        "7d49b8cb643d00cb2cca972abdcdbd21a3359f3958fd2ce7f832a74185cc6522",
+        "dc2a8c2379d697a4e88db8f05ca3c71a7a9dbd7efb9dcfcf034525353d48809f",
+        "d7875d6c749623bfd34d9f83f7a72a62060385e93a8f63d144b8d5cebf32376a",
+        "dba0d7def329f23d5eb35d5973a2dba4bdfd310371301e975cace42bee90503f",
+        "732647c7ce321c42e07d62736b54349f14ee2fc3d8fa4f9a2aff7d7012bd4d91"
+      ]
+    },
+    {
+      "candidate_record_sha256": "4c4a28e944149d6b41c01f90dcbfc5007240e5741a52ee4221666ecb3e3c2589",
+      "input_set_id": "lit-2610.29227",
+      "reference_ids": [
+        "1310.0939",
+        "1412.5154",
+        "2006.03416",
+        "2006.05199",
+        "1708.04869",
+        "2004.06909",
+        "openalex:W4299907955",
+        "2006.13846",
+        "2501.07446",
+        "2601.17863"
+      ],
+      "reference_record_hashes": [
+        "16981799a2a02d3663acb3210e92340214514c475eddd92b08dd4094bb52e257",
+        "06c976c4b177cf5bf4d7e7e8f46cc3f274825dc2e47e97097a3d3e3501883355",
+        "1593c7a10b9eb0d989e78e00d483a160543c409bb82e65cf9dd191489b8043e5",
+        "03a1774649eb4c1c4f9218ccfe70aab2bfd4bb5e5782461cde80fc04e8ef8665",
+        "f5bf0bc86d9c829167dd90f32b87a0d4c2f0df533c80a09a148e4a0f9b6bfc4a",
+        "073e5d8c76bf2f0255968618489c26cf21f729b801f3b730827d62915fc8ce0f",
+        "e087c6b647f378ee2779e617d2945619367cefb2eb4f0a2011b7f4a1f43ef75c",
+        "eadf4dbe20334cff5c43593d5be2a2578cd54e8188f0958c30af7bc3a1573324",
+        "5f6ba811725ebe719458789193e309c1d7e613c468ed6a9283f3e9de2a3f07a5",
+        "5d7ce77049cb2ab1a02e53414760f74bcbc6581262e15af28bfc3457e332b895"
+      ]
+    },
+    {
+      "candidate_record_sha256": "9f20363ea674eae625d1f5a49e89969cb6170930ad18d050b3773b055f3aa616",
+      "input_set_id": "lit-2610.29302",
+      "reference_ids": [
+        "1503.02531",
+        "1609.07843",
+        "1803.05457",
+        "openalex:W3113229535",
+        "2110.14168",
+        "openalex:W3213611010",
+        "2311.12022",
+        "2407.21783",
+        "2408.05924",
+        "2501.12948"
+      ],
+      "reference_record_hashes": [
+        "7bf567f05290faed62f9c6a7c4ace053321d1394dd8e6e603629c5e91245c7d4",
+        "7eded7821cf37cf28308bc6e7f0da322b1fcb3d1132b0f9aedb7e31ccd8e51ba",
+        "d0937d8c6bceefae43b7fbb5140dedc24d28b75f27ce5ed8d60b9253bdb3f48e",
+        "275d5838a727e549588a90e2fed9bd916821730daef244604fe30a948e4c2dc8",
+        "5fba595a8fdbf5c7a82581810314e6a62348a43e068c67119cbf7c124a0cc3cb",
+        "ef84374f068d67b7cc2d46315fefa330d36ec0cd3366a54c5dd83948d12f1fd7",
+        "aff6297058cd5b16de85786de1a87a7517f0ca1c0e6293aa61ae2892c72864a8",
+        "a6316eb53ede2c70b6e7834fc98138f6f158218a43670a0d6f3cf8562b50b9bb",
+        "42184924669e5f5d74a157a57aaa2442fb8bdf652dc9da032358e9cba01ed45e",
+        "0496886e33ca5a06a9469a7152f29edbcac9a1a4b552feed5099f43291a3fde4"
+      ]
+    },
+    {
+      "candidate_record_sha256": "0cbed1afe7e8315dce03a7c9e4ff947e0d35bebe9997dee721f605ff776b9091",
+      "input_set_id": "lit-2610.29408",
+      "reference_ids": [
+        "1804.03720",
+        "1812.01717",
+        "2310.06114",
+        "2411.04746",
+        "2503.20314",
+        "2301.04104",
+        "2507.16869",
+        "2503.16408",
+        "2512.04040",
+        "2506.17201"
+      ],
+      "reference_record_hashes": [
+        "4029623a2b39e5f8dbe2dc203d4e5670fefaf7d5d1b9b8e5c5c7899c25a080d7",
+        "daf368e8d04d490e593b194d6b25d5438493870dcad8010ee666c40196a127ef",
+        "18778ae56df95dea7574f1877013db88889a13d42e56d218aae8da3ef633e287",
+        "8643957cfc7fe5d128044da6f21710dddf977ea85951767e1e32c1f3a74a33f4",
+        "20c8845941a3ad3b2b9bb7e78ab9033b9690e1ff9e5da4794557745b53fddf3b",
+        "0fcd63eaffdd4e8636474733fae15f065b726ad5fbb7c626f9c1e8f15c1c060f",
+        "ff91f6b0adb33533facdccd9fd14a1135dc6b08e1686242e2070e7f2e52ac370",
+        "b66904066769bf5b9293507d97b3fa70d36300a85d0d9dffc63e83c494f532a4",
+        "ee1169048c5351d2e7e17060d75252ff983f4aa709415dda40564e3bfce6088c",
+        "03b2691ffb647d43c4ca6dfbc3a715cdf5ac7df04bb568b7d7460e3bcd72a07f"
+      ]
+    },
+    {
+      "candidate_record_sha256": "6264877d68238cf2f083f4b887c47e01537114e73a7cd1379987b82564f81141",
+      "input_set_id": "lit-2610.29439",
+      "reference_ids": [
+        "1503.02531",
+        "2006.00555",
+        "2211.00454",
+        "2512.17011",
+        "2605.09881",
+        "2607.15531",
+        "2608.02735",
+        "2608.16061",
+        "2608.19912",
+        "2609.26899"
+      ],
+      "reference_record_hashes": [
+        "7bf567f05290faed62f9c6a7c4ace053321d1394dd8e6e603629c5e91245c7d4",
+        "2b2f8c364fcf9c7e111f76fe9ea005323f0083e23f18cdf562af40e938115c37",
+        "fd3d349aa633778e7aded2871c46cf781d15c644c2cffd2d9a60ef744bd5a98e",
+        "fb57bb7ebefe670b76baaeadc0ff4a2b26a7e2d68e38a3c2555d9f019c0d068e",
+        "e6df19db5ea1d069f4508ee840938de10ca02c6d7743e76d93bfea1a78b2b824",
+        "3009a30ace4551eb697679fbee975e7c562c51a38b882ce27762418061b842d7",
+        "1e3dee92757da3fa93bda0dba17b7c252e1bb4c939ad9340424eafd1a2a51230",
+        "74463a769473e5a9608c07210304e9f23f86c5b9bdde578731945f46f063433e",
+        "7e37232171422c5d0197a02d0fbb761540283a8cb3244d1dac53ec77a7a7aa88",
+        "a12d8f06a8ab97f1e02b21f649c3a6ca02b45dd897ee774dc8d0e38302d5ce3d"
+      ]
+    },
+    {
+      "candidate_record_sha256": "df5118db0bb13ea5f1ac05f41b88ac2b6f7f8aa0683936209fbd56ffa443a5b9",
+      "input_set_id": "lit-2610.29922",
+      "reference_ids": [
+        "2112.00861",
+        "2204.05862",
+        "2212.08073",
+        "2407.21783",
+        "2412.16339",
+        "2505.09388",
+        "2506.11613",
+        "2511.01689",
+        "2601.08584",
+        "2602.12878"
+      ],
+      "reference_record_hashes": [
+        "b86703d1fa8d61a18444dee3efaf40c155bdb66b69710eb51fac96b7edb17921",
+        "af75ce98bb405bb6c291e3c7c1063dff74d7096d15c66bb2b1126a2f84229cfc",
+        "75a100ca4a362e388daa86055e987f8476d9ab1a87f8359e15b062491cae1245",
+        "a6316eb53ede2c70b6e7834fc98138f6f158218a43670a0d6f3cf8562b50b9bb",
+        "651c8f09a9cdd65c38de3b727cda41bca8e1946a8a0211d49c7b5810ccc76c09",
+        "4471471c7a9029448a66ed080322312ad26a70d9b75755a5a8cd62fc58d27bc0",
+        "37ed048f23709c2090f3a890ee6f94df61efab911477fbb75dcfdea5c0af3664",
+        "3235ccf822b1264a91ed0e76a1688e606be7ae89a807938032cdfd3acd608ca0",
+        "871d00703ebde6a179032dbf22d1b16021a5f4c7a001d413fee9ce6e90131dae",
+        "556af301762fdaaf1db0573fd1274c8e531d7592e654ddc2098c0016a5902461"
+      ]
+    },
+    {
+      "candidate_record_sha256": "97935885c02a8ddab452a7f0002d9e645b598be1ab50bd1b1c1593e75725ccaf",
+      "input_set_id": "lit-2610.28500",
+      "reference_ids": [
+        "2401.10774",
+        "2401.15077",
+        "2402.17764",
+        "2404.06395",
+        "2404.19737",
+        "2412.19437",
+        "2502.10424",
+        "2505.09388",
+        "2507.11851",
+        "2505.15141"
+      ],
+      "reference_record_hashes": [
+        "daeae8020f90cbdd7ba0493a99f62e2c022d384d0085bd912d4adb08553aa3f4",
+        "f1e5d8774361f88894e2b0de0f3f71cb70ab05d8bd0b9a9886147f0438b44656",
+        "2c65bb7ce97a85ff4f9e1ca9277e9a331b8aadbe645a8990747f167c2ee959ef",
+        "5ac7b3762457601e6acc02ccf0b9465fb10b622d1c33676a3b841c74ad40f9ac",
+        "d2f80766c1eb69993cb4991cbfe98df0fe94e51cf96cde77e425910f47553c9a",
+        "cc7f343a356694641d8fed8ab99fb3ab09d95b95495eb9835a6b2d99b8ac80fa",
+        "89017ec1d610a3901b751362106189d0f5f341de6d8ce1ca12a1c5cbeddbb807",
+        "4471471c7a9029448a66ed080322312ad26a70d9b75755a5a8cd62fc58d27bc0",
+        "b1709a6e5b2f07ee0bcffd1eeeb254dbd26666925f6708e66efc2bce21c3d5f0",
+        "c70afb51abe6176657f7eddd905e6421467e75b89e1eb1978737cb51b7cee557"
+      ]
+    },
+    {
+      "candidate_record_sha256": "017356af28d17279169377a5663599354bbefa58fd5361bcd0e80bdf17c51626",
+      "input_set_id": "lit-2610.28711",
+      "reference_ids": [
+        "openalex:W1494198834",
+        "1808.10583",
+        "1709.05522",
+        "openalex:W3203407300",
+        "2205.12446",
+        "2402.03300",
+        "2407.04051",
+        "2409.17746",
+        "2409.17750",
+        "2409.19256"
+      ],
+      "reference_record_hashes": [
+        "5bc4ead756f519bf41105fa04d1e4fe5d6dd3096accf0db78d005d3b4d7b091f",
+        "bc454c77b1488d8163768ab49353a279c4cfa2e7b27e831fd96ef1a5d0af1ff1",
+        "fcd9f56b3b5209cd2c5da210584e505b44bedaa88c14fc79f8c60f434b1519d7",
+        "9d93c67febdd623950821bf884e73c3af06a69defa708df56416cbbfd7b992c6",
+        "9b86e1040abfe20787f5c88fe25529d8354ee0e3ed4fffbd409f9a015a0767fa",
+        "497da1176066f84b0d39ca2f4469c16e1fa7d7c6bfc9118fd7f565955177b053",
+        "d5addd8a46357fcf0ac6dd8b7e9765c02a555771f76863142678ab1db8495ce8",
+        "3cfda0b4367c6f13b30229a5d34d323c34febc4800223877cc566c33b52850c3",
+        "37bbb64fa54aef0f30d97c0ab49a4135015b731c6ba0820dcd1eed6a0f1bcbf7",
+        "1880794a111d74a04d45affc45d7bf2ad07ec2f6e65dedc3bfc6e111a3e4e9dc"
+      ]
+    },
+    {
+      "candidate_record_sha256": "8eac6ba1217163ae8a6bee875434bdcf7d2bbcc621ba610ed84464376bdfab38",
+      "input_set_id": "lit-2610.29110",
+      "reference_ids": [
+        "1904.02920",
+        "2202.03091",
+        "2212.04089",
+        "2212.09849",
+        "2310.02575",
+        "2312.06173",
+        "2402.15328",
+        "2410.17146",
+        "2410.19735",
+        "2501.01230"
+      ],
+      "reference_record_hashes": [
+        "4fb47e15893d32942d7d5186055cf81281223827534912e8af92c27fabbcac59",
+        "4bd33d768c40ea4bbc85190f3cb326bed4e8e052ddc77176c7f62ecd854c233a",
+        "92da171854193e574c53f773ffd1d42aa7453d045073cf5f9970378e1f6d2672",
+        "611cf8fc5baff804f384030d3ed8eacdf45d38f1f4a9a519002a22eee892ef71",
+        "e42a4e6fe6b69eb9d847d164529d1c4d3f3a5192a45b3100befbf8f9c5f2b5ef",
+        "16175d5925f0ff1e36f3209aea5f2ece7ff7782fd15af31b205f9e6e16a6a721",
+        "29ca6cd845f46362121bea1071911b0bb30d0295b6f861cee7034e3e5ad2a0df",
+        "68f42457166ae082f5e77c9dfdf08bcfbb11a262d6d5c215cb04ab308f772a6b",
+        "242410d15ef8e0c4b342d3173ca5cd7e30016b01c86c6502f3e05ef8470c248f",
+        "1fc3d97bb90ba16b115fe7963eb03f52d3956dcba20934f17b4bc497d2bacf95"
+      ]
+    },
+    {
+      "candidate_record_sha256": "b134e5a7664c6daa81525b104ce08b016a755588fd6cf7567ce3fc121b30cae2",
+      "input_set_id": "lit-2610.29517",
+      "reference_ids": [
+        "openalex:W1525796422",
+        "openalex:W1531231414",
+        "openalex:W1967189846",
+        "openalex:W2044602433",
+        "openalex:W2097973750",
+        "openalex:W2131057369",
+        "openalex:W2469863283",
+        "1707.03017",
+        "openalex:W2940063496",
+        "openalex:W2958142095"
+      ],
+      "reference_record_hashes": [
+        "ffd0f8dfc0b89598f0f4b738d0c7b4a3a36bed1caa59343d39c161ea088e711c",
+        "4e89b048707b75da6956b1fe2e5fe999e0ba4712070b581ea1f8d8647cdd825e",
+        "ea785bedd782d0fdf1484a2769b28dce1e4d0e6271a8f26f01eea7c717bd286d",
+        "3aa2b899faf606abb2045038fd7c513296c5a011fe414e9e421775dc2f078eda",
+        "1cc252d6d510c44b31efc98bb55035c123a51676826abc24a48875619e5b63ce",
+        "d038f790188290f914dfe747f09df79f58f467e16f0e1f9713f2ab229401057e",
+        "a1780c328cde99a928c9a47a4a24056e832538ca7f6b690ba9ec8c637d763de3",
+        "e0dc84b142beaf5bb17c7e80a67dc98fa2b5bcfd0e96597b0da5b1fc01aa9a17",
+        "35219a4e41a2d379eb017f67c293ae59abfe80322336b3c5892949d8285c08ea",
+        "e116b32bd7c55d543ed32d9664968d38199cefcf817bcf64b250d892a11435d5"
+      ]
+    },
+    {
+      "candidate_record_sha256": "3e88ae3cf8815cb65acafbdda8bd94f3b2ac305316bd699b520b76f6696b31bd",
+      "input_set_id": "lit-2610.28974",
+      "reference_ids": [
+        "1506.02640",
+        "openalex:W2014988088",
+        "openalex:W2035433263",
+        "openalex:W2096579040",
+        "openalex:W2118246710",
+        "openalex:W2169099300",
+        "openalex:W2320749548",
+        "1711.08506",
+        "1703.06870",
+        "1712.00726"
+      ],
+      "reference_record_hashes": [
+        "26b72ec946094210132524566c32de41a1333495cbdab325a676821f6a6702ad",
+        "6ac8b84d5e710853195c4766ae77c533bd2bd7332796f31687c6b7f8c82d4012",
+        "19ca144de4d1f70daa28d0d592bc1d5e2ca4112a21ca4b18d03a50ddee10876d",
+        "1f04b2ffe24c643fc41bcf549b5388a89672af6995fb6bf69c9fecd3082b2848",
+        "8db5b7b33a8acc747186e2e1733aa2727aa30ef016a4a54812b189e2be90f1f1",
+        "de1a0609c5bb83806cc1efaffdfd0e4241680eeca4214e0c43d057295fd1d5f0",
+        "6781a55e60caea5afce062f2f0e83fda80e05ef8cf8dd3f18e4cba09f9226825",
+        "3266cc10adc5f97807bddc227866130382fa801e26138123a0462f67b6d8337b",
+        "ca4002e5f1a3702cb1d40795bd10444a5896966f9587ee8c91f35317737d5ad7",
+        "6c35fc21a016e0e1994343ee3658e0345d3805af99ab2814cb6489cf5e196b43"
+      ]
+    },
+    {
+      "candidate_record_sha256": "741a933393948fc51234ada0641234e56fe9bbc9f2ac8368fe746fb5a0b6e452",
+      "input_set_id": "lit-2601.00086",
+      "reference_ids": [
+        "2101.06804",
+        "2303.03846",
+        "2307.16789",
+        "2309.16609",
+        "2305.03495",
+        "2405.13966",
+        "2407.21783",
+        "2402.11442",
+        "2411.03349",
+        "2408.13654"
+      ],
+      "reference_record_hashes": [
+        "d3452acf1cde8cec9445db9e1c90b45bb30bbeef6ecf1cc64d48d0fffa5bb295",
+        "597127b452b517ccf171174e4350c88555aca9cf2459f0094f526a63910eaa63",
+        "2f8167d4137140b36e4b533ad3489613e25a8063f8a8bd08097b191ab883d10c",
+        "15fd68c5684109533c9de4a8b0c85e4cc4c951d11324b52011941ade1467f7e0",
+        "5397d19f280aa002bd0057974fcb7fce6926f88508046fc33771104fd2a0f194",
+        "15a9b136b189b6625704c74663aca4f3254fa9487ae7e515aef3383da168edc7",
+        "a6316eb53ede2c70b6e7834fc98138f6f158218a43670a0d6f3cf8562b50b9bb",
+        "482ebc365652cbd1f12b29fc8c29ba20840e38cd8bdc6526cbbd43900ec677a8",
+        "d3eb23b27d15f09ba8c350ff6fc0454b3e1eef1f1b87737334e0f051988c4158",
+        "a0b422eeddf0df7f4a0a83d977034dd32b3a6027550234d4e81a67e52836f016"
+      ]
+    },
+    {
+      "candidate_record_sha256": "c90701d3d03d62c92e5e0b0009bd2e8d7754c15e3e8d5848628372c6de317036",
+      "input_set_id": "lit-2610.28957",
+      "reference_ids": [
+        "openalex:W2148972377",
+        "2005.11401",
+        "2004.12832",
+        "openalex:W4252076394",
+        "2112.09118",
+        "2311.04850",
+        "2401.18059",
+        "2404.06654",
+        "2407.11005",
+        "2502.09977"
+      ],
+      "reference_record_hashes": [
+        "e46ccd334794c7466d1aff54b863f62916c5eb60346dc2f3700999eace85128b",
+        "d444d207e037e5afebcdb4bd9ea9f63419699aae1078af5391835575e67c0e22",
+        "66ba864e54b94b71b0788e7a248e0fc81e7b057435bdd5a229fec22ebdb23a91",
+        "6533526412f4e6bee75af77e71d385017e195abb35a54a4cf5ff0511ca5e4a65",
+        "d91dc787d063c61c734342d78edfafceda1710d3de0920842a89ba451ac944f3",
+        "3f3aaa88639214415031df04283d6010ccf013f1859c114eb02a6696a64471d9",
+        "173fcc1df39f5ecb0878778d36e501642111c8e507314fc33f0143b1fa93af80",
+        "dfa8e47599e3018de22fe84e588381177f79c34302a7ec752373991b632408f7",
+        "9f92b7a90e65f9dadef200d6a6c73d14b950089a8e7078c147cc6fd6f1a8109f",
+        "2d11d22e5755a96ea9809b1d1045f0ab134804de33b905d829cf8bd389e9f675"
+      ]
+    },
+    {
+      "candidate_record_sha256": "ef625538978b79770918a4a89086422206d9e069b0d8691e22d48bcdeb3824e4",
+      "input_set_id": "lit-2610.29409",
+      "reference_ids": [
+        "2104.13921",
+        "2208.08984",
+        "2307.08041",
+        "2310.11441",
+        "2310.18049",
+        "2304.02643",
+        "2401.14159",
+        "2411.14347",
+        "2411.17606",
+        "2506.04277"
+      ],
+      "reference_record_hashes": [
+        "bbeff1828880662857fd0254001e22c31e76461ebc4636857dc3656107222a64",
+        "6c7125b22606442c48401d064dd067aa369397fe90e8490e4a5edc062e657c9b",
+        "fb05bf091bb46d8a11437d7b2822553b7ad012772129345ae101ff459408d8f5",
+        "b103634727f8fc609ab9ccf4ce6878ebfeb721bc1aa0ef3956fbd9396feb0afc",
+        "4a108c07a776f5c54828d84ce46072add4db2c7f57ef95612c918367616144e2",
+        "fc83640656faa0bfbe3d4d0644726e991bc63b53585203f8a208dc42b503195d",
+        "b00045b92b3fd79840f988426025739e45b3d0fbeeec3932f4e0e7ed0466f663",
+        "c6ea988eef06c3c453216bef31efe0d1fb419b7d8a62f82e089f193ded549eb0",
+        "9a40e13ec419ebb914975937eebf5e460c94f9dd1c059d307be35ca339d9913a",
+        "6fd2af304f3e9f19ed945b33b103031ff0332ed433e359f0a2e2ced372e5e80b"
+      ]
+    },
+    {
+      "candidate_record_sha256": "04d63a103e51e7d423c1d02a142bc7d095b0cd3ca17575ff4165a880e1c39fb4",
+      "input_set_id": "lit-2610.29167",
+      "reference_ids": [
+        "1503.02531",
+        "2401.01335",
+        "2402.03300",
+        "2501.12948",
+        "2505.09388",
+        "2504.11456",
+        "2602.04942",
+        "2602.20574",
+        "2603.24472",
+        "2604.10674"
+      ],
+      "reference_record_hashes": [
+        "7bf567f05290faed62f9c6a7c4ace053321d1394dd8e6e603629c5e91245c7d4",
+        "d01513a37b7a1f24af41ab00ef150cc1879d8247a54bff9a878991db0fa51aa0",
+        "497da1176066f84b0d39ca2f4469c16e1fa7d7c6bfc9118fd7f565955177b053",
+        "0496886e33ca5a06a9469a7152f29edbcac9a1a4b552feed5099f43291a3fde4",
+        "4471471c7a9029448a66ed080322312ad26a70d9b75755a5a8cd62fc58d27bc0",
+        "4acbd8dbfca748f8ad9eb8f677e3bdc6225af56c6d7f7f0ff39d89797bd9d5f0",
+        "33a182c12509679b997a2842eb926fc917b9d59ebb2c6e602e174b51354d3b51",
+        "57bd1b5059eae6ee6e376de780afc80aaee32e5550620cf6196f0a9e496cb6b6",
+        "4c729665fb84707b8685940737682931bd08a482ce81affa8cc348fb74343a78",
+        "7c03926f6e327b1b09ecee1c1c646845b9389811e0e26a70868799cc053f01c6"
+      ]
+    },
+    {
+      "candidate_record_sha256": "7ef0ad07cdac2c453e5a774fa071b54cb9c1070562056fad20f02b21697d34ac",
+      "input_set_id": "lit-2610.29426",
+      "reference_ids": [
+        "2208.13629",
+        "2402.03300",
+        "2308.15363",
+        "2405.16755",
+        "2506.05278",
+        "2505.20315",
+        "2504.15077",
+        "2505.12768",
+        "2601.03267",
+        "2602.02276"
+      ],
+      "reference_record_hashes": [
+        "27e601ef285ca9b3621568e9b26af1798bd6d1ead2610e220de2dd4e8fe2015b",
+        "497da1176066f84b0d39ca2f4469c16e1fa7d7c6bfc9118fd7f565955177b053",
+        "497db0e9dc4432663e2c4c91f576fd422686212195addd7ffa24926de90bf809",
+        "8f3a1d4ca3f7874a3bdf2af208af12eadb06814d21bb99625325d92bf5c79101",
+        "14f0d38e51e7aeba4e4fefa86624244a01a7e0cc9abf22034ea652828329d96b",
+        "53f935d96f5ba86d8fcfe7b98cfe6f49c63e458b7dc840672e8fa5ccd390acf9",
+        "e5c27ad7072844bca7195cac18e01c9e94f4cf21909dd5e3b14d9917dc1a4682",
+        "b9081393684e607f4684d63ae03e7b9641ba8b276ccc3fd1965f26c9384d3fe7",
+        "943a06114ca1026e347a0caf96fb3a3d3a6632b906bd885c411ebca434ab5da8",
+        "4504ec9cef6c550d46b89580189c8d0fd5d3c91bd1cb36f45db7702fe397e2bb"
+      ]
+    },
+    {
+      "candidate_record_sha256": "11d8d03ded2d89fbc988f751048e0b396813b99b501db6e4fa8d6ba7206a10ca",
+      "input_set_id": "lit-2610.29828",
+      "reference_ids": [
+        "1506.01497",
+        "1506.02640",
+        "openalex:W2107536015",
+        "openalex:W2116702374",
+        "1611.07004",
+        "1804.08361",
+        "1812.08333",
+        "openalex:W2908163842",
+        "1703.10593",
+        "1910.05839"
+      ],
+      "reference_record_hashes": [
+        "5c738ed232f193920a0a9b3809bcd7913def10c1dc9da992140ad7cc8dd3b9e0",
+        "26b72ec946094210132524566c32de41a1333495cbdab325a676821f6a6702ad",
+        "f83f5dbf74c70b0d25ef78acfcd949bf297ef895232a11aaf2494e728d84c47f",
+        "cb9c9ca702ce922b46f64995d285c48bd903b6507fcf752daf84a4385bd6f70e",
+        "9b00ba80c010d945d0a15850714f718f76ebe3871fa012b7f3036d8b5e0d7723",
+        "fee7f49bf11a2d8f05e2ca5e261e2133ff94d9b7204c5cce704fe9621b39d5be",
+        "be400bd339bc44981614d1a80b280e12316fc92038239fa72de3dca1a9ca3245",
+        "52b25bb8bf0d2c73573eebe5f00d3fcdfd10b40a133e13631ef4de93ae3a57bd",
+        "081b2d6626bea7badd03ef65a7041e53a31a47cac285aee6c99c778a84a17113",
+        "891b4b9bd8d93c6074a57fbd7c9791ff55eeff4a3ae590b81b997d4b425e844c"
+      ]
+    },
+    {
+      "candidate_record_sha256": "0c5e6a7ca3c7b0c6be401e488e23cca390194d8b5278a128f13936e565627c09",
+      "input_set_id": "lit-2610.30125",
+      "reference_ids": [
+        "1801.00690",
+        "1702.02453",
+        "2107.04034",
+        "2203.04955",
+        "2304.07193",
+        "2310.06114",
+        "2403.19578",
+        "2410.05363",
+        "2501.11260",
+        "2503.20314"
+      ],
+      "reference_record_hashes": [
+        "13a264facf474fa0ce2283b0d083e816e769d6b169267e9a2f868b1778903ff0",
+        "d899a2c6bd1b2a5c24bb4718f22ec6420b9610097f0a35ea04bbfca48b2f6525",
+        "d9ead897cd4efff9142641183cbab4946d696796f1b241ec5eb9caa6d97db112",
+        "9577e9012d232ccaf3235f95fe9b52a3ba890842356d69e49c7d112598ea6e1c",
+        "258a60a6099756b26ecc0d94bec9426cb30c25ed981275117a3374903c1d9aa0",
+        "18778ae56df95dea7574f1877013db88889a13d42e56d218aae8da3ef633e287",
+        "b132bd0ebb475042ce62afa9947aa0a5313d119788f18494ef06224ff5c9c3c1",
+        "81309de5023f8663309448a960e4487e653b679b33694081e465412ba5410c3e",
+        "af1bebd3e9c32c0a8e177f2030720f78b53192e69d4dd7bffa9d943061186ee3",
+        "20c8845941a3ad3b2b9bb7e78ab9033b9690e1ff9e5da4794557745b53fddf3b"
+      ]
+    },
+    {
+      "candidate_record_sha256": "ba957abdffc5d9d71ae5bc1ffe081cf5d3919692c0e3de8fedf8759f7bc4cd49",
+      "input_set_id": "lit-2610.29008",
+      "reference_ids": [
+        "1405.7626",
+        "openalex:W2327503595",
+        "openalex:W2782871361",
+        "openalex:W2953672223",
+        "openalex:W4394573349",
+        "openalex:W4401019707",
+        "openalex:W4406094275",
+        "openalex:W4406262661",
+        "openalex:W4408422953",
+        "openalex:W4408579417"
+      ],
+      "reference_record_hashes": [
+        "523cba6e88570717958fa3fd631f71eab0c952b2b28737edfe1e2e278157573d",
+        "753d6096996f2f24e30647aebe1dd82c1925a4efab9e64b5975db7003a9eeb2d",
+        "1d5528a35b1269bf7e8993e2767620431407d430abaac8d3016c6112addad345",
+        "50fcf6ef8b53b0ab491773b1be3947f3346e19f7ba51fee5060f96ba6dacf337",
+        "3e321df08676729083808961fde85e25becbfd70c3ee07d0fe3d608792333ba3",
+        "664ae202fa1e19465e7e3e4a395866458ed2e6386df49a24ed55c1aa3c00617d",
+        "c887052be9e0daae176a66affb79510692b73eb7485824dba45c9f566425cc66",
+        "4d2ed1590d143e0f6e07845f577abef107aee8d771e5133d7d28c329576f377d",
+        "1d353b684e1eac6f3190443adddeb41c5645fb1348245870687f6e75defce897",
+        "d8b982e2b8129549de03150279c40d217453023ddfd52e3ef2cb02581189d7d4"
+      ]
+    },
+    {
+      "candidate_record_sha256": "42cbf98bd1543252209ceb92e6abb2543f5dcbac47f2b5e80bb0224d2dd33245",
+      "input_set_id": "lit-2610.29187",
+      "reference_ids": [
+        "1310.4716",
+        "1707.06347",
+        "2204.05520",
+        "2302.13971",
+        "2303.08774",
+        "2309.02668",
+        "2310.17180",
+        "2511.01457",
+        "2511.05889",
+        "2603.17632"
+      ],
+      "reference_record_hashes": [
+        "18df339150be36d629ed2274bcdbbff8434bc533c2342c465e45eb2a4c7a2846",
+        "5e25ec37595fc53db3e207db2d049427c5caecbd852bf32afeeb462562fc3a71",
+        "6403bace16b6986d3b8953e404f77e4f83827a4cc979f2d2ccb08662de555d76",
+        "d04becbc6ab5071f15b3ab6be17223a788e810b47d0b9a0f5ba5c5c834806de9",
+        "ee8eeb3164f0cfba705c4b540268185afe7b9b2f5e4618a228161b34d72f9d06",
+        "c8757c8f1c3bca063f25c8a85f86200017250bb3c53fb370c32c6ca93cfd15fd",
+        "60b4a755def40934c62676e7a1cecf835a4e77737966b1a36ad68e9ce9d5757b",
+        "fda31afa7a6dc10f8dc01a7dc0a27609929ecf042859e6f3b5fd175965e40794",
+        "f5c248d650fff1f9ab6d723ef8bee97050ee956db9431b63c5a548e40fece82a",
+        "3a0a8a01b0b63861a627f4eb1bd11922b1ae997ace1c4362d9247f7ba5a4fd26"
+      ]
+    },
+    {
+      "candidate_record_sha256": "090e8d1342556f896f057e60c75e579303d0022bcc05177638fe6e091de92dbc",
+      "input_set_id": "lit-2610.30016",
+      "reference_ids": [
+        "openalex:W2955426500",
+        "openalex:W2963341956",
+        "openalex:W2970641574",
+        "openalex:W3015937967",
+        "openalex:W3082215761",
+        "2106.09173",
+        "openalex:W3172913920",
+        "2202.08029",
+        "2201.00150",
+        "2204.02765"
+      ],
+      "reference_record_hashes": [
+        "ca5358aca7a5a53317eb741f1dec169128004dd0eeb9d867732e4c0ac560e4ce",
+        "b7a7dfee4710cdabf061b1e869cd74749687d5411640b973ce7a14fe85460338",
+        "853160fd296d5080b7be87dcf1b0a3ca49416b2fe7282991794daee861050acc",
+        "8a8f0c48c9a5fa35f189c50bcc033d488adf0441822a5317cdecf97b14856608",
+        "15e22d2eab4904ecfdc3edbfb76a6984105ebcb94d08e630006cda7587979aa2",
+        "044afbe344de6e12b4b7efef66c9b2d0e69a78e138c96e0c9f96ef5debad1a2d",
+        "851192c59d30098ad5d59dea2dbac7628f21cfecbdb931b7ddcc308c27f095e1",
+        "1ec8263bcf1ec91d251702effc55284f5309e03b7fe37983f4e81da9ac5c7f49",
+        "2c161f376e88f24ad2ba8b555b3c81386f7e999e8748fc564b914ac3b6277070",
+        "c135dfeab0333bee418dce671194002d9c38d03c851e8a7beb60fb05a39fe611"
+      ]
+    },
+    {
+      "candidate_record_sha256": "d9c07c24f164a459dd793adb14a40861e0c8feeeccfebb6e0b9db2391fe302ad",
+      "input_set_id": "lit-2601.00065",
+      "reference_ids": [
+        "1708.06733",
+        "1803.05457",
+        "2009.01325",
+        "2009.03300",
+        "2106.09685",
+        "openalex:W3173465197",
+        "2112.00861",
+        "2112.06598",
+        "2112.04359",
+        "2203.02155"
+      ],
+      "reference_record_hashes": [
+        "18b24a2dd3fe2d6b04afde0c8539d1f497326a448b1d3de5b14d9a4c034345f1",
+        "d0937d8c6bceefae43b7fbb5140dedc24d28b75f27ce5ed8d60b9253bdb3f48e",
+        "0dcf12c4ce11d187a36389ca0502722d4dfaaaef6637f252c350937368daa656",
+        "ca66e11bf23162601919e3d0dded79736265032c6c5ef445f135d38d5a400b5c",
+        "4bba038b4c22ff2e13b810fb03b7099bfa93e5a6389e79a5325e03a1d9eafe5c",
+        "5c70018f186d48a95dd1db33871fbf1a6de07518155c3aefeec00fc13396e6d3",
+        "b86703d1fa8d61a18444dee3efaf40c155bdb66b69710eb51fac96b7edb17921",
+        "8c273269d15f54264cce9b3acd562d714e51f4ff33e790b08f25abadc8611b51",
+        "db5a7c2a03636c526322684ccb2d64b5e29aeef0fdeb039bc9437b1a1b3bcc3b",
+        "4a12120b4284176198697bb808667b3993ba2191226dca26cd0b6bf59ade19a2"
+      ]
+    },
+    {
+      "candidate_record_sha256": "7c8e3520e103c49a263f6e37dbbd3243e30882e58f1d4f2d4fa551685961eaa2",
+      "input_set_id": "lit-2601.00866",
+      "reference_ids": [
+        "openalex:W2090106959",
+        "openalex:W2899364166",
+        "openalex:W3098546160",
+        "2103.10974",
+        "openalex:W4225995462",
+        "openalex:W4284964296",
+        "2303.01055",
+        "openalex:W4388976743",
+        "2311.00578",
+        "2407.10836"
+      ],
+      "reference_record_hashes": [
+        "0a49783ca725bbc65b0e775f9fd0e08d51c95b73341e0bce0167bca937d45089",
+        "f9c02cb1fee36681b7fb04f6c7a5447510a3474ed2f0cbdec83a6a4ae271c944",
+        "890f4b2dfe89d9d981cb9e5c7711ba649d9ac9f985642489c0f9e54db730cbea",
+        "465be52b331fa3b00257bd5d7ccd8e7cddd94699cf0d7efa873f8cba6f29f435",
+        "8b8cca220d68bc3838fa6f29b29bbd96ace3b55213ee46b948761af841c2c824",
+        "336318e62f63f852d13a4053e438c343158ac5f4e0060fa63c17aa26f8c229da",
+        "cbd95ef196cdfdc9c1542a20d2e784c31db7736106c20b0a350b89dbaff621f4",
+        "b08d56fdf783ecd2051158f401e7aead8eaa3703b0fec732144892212ca85306",
+        "82f6d2f68e3253bc3ae9673e2044bc6483de4de2161795dc4becea54eb14917e",
+        "a2c01acb6800592fb3584da751be6d777b8d12462a70e9b29f4afb9dc8d0fd4b"
+      ]
+    },
+    {
+      "candidate_record_sha256": "0a1e5cd312c7270f580bd8317bf8697999ab90f4cfc37cbdecc2266b4c860f42",
+      "input_set_id": "lit-2610.29832",
+      "reference_ids": [
+        "1707.06347",
+        "2110.14168",
+        "2402.03300",
+        "2507.16806",
+        "2505.09388",
+        "2505.07608",
+        "2601.08584",
+        "2601.11956",
+        "2601.23096",
+        "2604.16830"
+      ],
+      "reference_record_hashes": [
+        "5e25ec37595fc53db3e207db2d049427c5caecbd852bf32afeeb462562fc3a71",
+        "5fba595a8fdbf5c7a82581810314e6a62348a43e068c67119cbf7c124a0cc3cb",
+        "497da1176066f84b0d39ca2f4469c16e1fa7d7c6bfc9118fd7f565955177b053",
+        "fc6ba14dd9b5adec857551d2965547485985432c79a6b40f1dd790931d1636ce",
+        "4471471c7a9029448a66ed080322312ad26a70d9b75755a5a8cd62fc58d27bc0",
+        "96ac944c2d5764f7dbca8e9dee19b236d1db7b5eb83436f0deaa7b5e30663814",
+        "871d00703ebde6a179032dbf22d1b16021a5f4c7a001d413fee9ce6e90131dae",
+        "8c6e2132267904a163f5baf0cbfab0bac6edbeadddfda65e745f17ff64d356d0",
+        "18de09d0506f00b0afbc1582b31d9fe97c01c24e7157def42af088617e76df09",
+        "a1a8aacdd3e9308008217a17cd804b0a4d6784f55f146fa42e090e053932d62f"
+      ]
+    },
+    {
+      "candidate_record_sha256": "98adfb7d5c9c008dbef9d560d7085b97efe1282f78901485bde00d207f8e4009",
+      "input_set_id": "lit-2610.30113",
+      "reference_ids": [
+        "openalex:W2732395805",
+        "1601.00991",
+        "2002.08245",
+        "2009.11189",
+        "2011.09607",
+        "2308.03688",
+        "2310.03302",
+        "2406.10811",
+        "2406.18394",
+        "2502.16789"
+      ],
+      "reference_record_hashes": [
+        "047c1bdad69cc2273ba8a67c9817ab460d93bee4622caf31079bbe5c52aeb2fc",
+        "3a19a21abe03e64b28f53b56e0b7cacaaaf2e5f626d4210874c053cde3d407a8",
+        "8776f8143590cedb21c3e0c00e7297b04c13d14594c9ba9970ebe5fd616ef13b",
+        "d42814a8255a42778a125cc6d3075148e7bc3d7a91f4e78788a0d477ca23ec20",
+        "7d6229dc9706351865e7577ef8f9e55a18dd637d8eb64a553118c91829da2a95",
+        "88476e48da0f02fdc3a447f3ad23fe18d1a2265e4bd08a4b982c9c9e5a3f7d85",
+        "1eaf0fb41bb6fec290dceab1b64561f5644703bdbdd54f5035b317271c6c24cb",
+        "dce24ce2a2601a3be0351febec7d78aa3679bbea98c0d93f8f604b14d8514ee9",
+        "b1e6397184d690d2271346bb323b97e67a1bf7038074b41808237b61a898700f",
+        "8e6cd82904887e92ca63c892c0ba1b5c5fe2e5c6b296fe51a8f614c2a263330a"
+      ]
+    },
+    {
+      "candidate_record_sha256": "52b887382174af1ac8528b46744fa89cf329fdcdaa6e16151f24a77007f58fb1",
+      "input_set_id": "lit-2610.29003",
+      "reference_ids": [
+        "2011.13456",
+        "2207.12598",
+        "2210.02410",
+        "2304.07193",
+        "2306.09341",
+        "2308.06721",
+        "2402.03300",
+        "2403.12036",
+        "2412.01506",
+        "2604.15804"
+      ],
+      "reference_record_hashes": [
+        "d29b15b087cffb5d83af8c7da7cad87c69c9584fa58bf76361f5fea0924366d0",
+        "11ce5862f2bd4d370113948a34d071215b2cc391db226452f70b9958295adf51",
+        "fcd5683eded9d0cd914c5a8a7381b7ea273288bf6c3dd6ef725e7abfcf2bf4e0",
+        "258a60a6099756b26ecc0d94bec9426cb30c25ed981275117a3374903c1d9aa0",
+        "35c5448de327b2e5b78a12afe4f1231fa819e38bb3475dd69fdee30600902a74",
+        "c023b772ba6532b1df7cec2a7ad2ae18b5c2635b1de6829e1582e4b2a6c7338d",
+        "497da1176066f84b0d39ca2f4469c16e1fa7d7c6bfc9118fd7f565955177b053",
+        "434a7ee86627f81e58bbc90a442b637ff85caaa21cab471cac8d1bfb5896dc7c",
+        "7ff0502a89f31dedc7582776aee055be047b69257fa26216ddc089880d210050",
+        "2fa68493518ad290e699d970189710539138c99074b367e2aabd2047c362a350"
+      ]
+    },
+    {
+      "candidate_record_sha256": "f7e294de4a10ceefa8ec0538326e276421f1cc06d50e7aaeb39cc67c311d5277",
+      "input_set_id": "lit-2610.29649",
+      "reference_ids": [
+        "openalex:W1580389772",
+        "openalex:W2108598243",
+        "openalex:W2122361470",
+        "openalex:W2138092272",
+        "openalex:W2163612318",
+        "openalex:W2341058432",
+        "openalex:W2560474170",
+        "1511.08861",
+        "openalex:W2753526808",
+        "openalex:W2777342313"
+      ],
+      "reference_record_hashes": [
+        "b98a7a35401627e17a2bb09a0320c610e44935cb96cf116e372804dd93ae690d",
+        "028330d9388857dedcc74b49dc823e9641aebfcefdd57144e295b56cee638376",
+        "985faa0b5be9d3d2ff1dea247ae6d1a52f730dcbe4311257b7fac762b250d7d6",
+        "6952b10f169d4e8b6a572e4174cfb47233369517e3f06ff0d0f2fa3a413eb44c",
+        "20ab536eeabc4907a0d2c1e6db3033a9109f919afd03757adebe7c31c21d4bef",
+        "9739b60372e23bec3c7c36f0410c82be9f30084055b1e22908b9301f793273a2",
+        "f00186ac62113f217f2426b6b9c277e795224694ce74cf0aa556363e327068b1",
+        "db1d01e0e5fd36fb21213c495d8c44284ffde24a0d7fa2196a9330d2139a148a",
+        "143c4fd49be33e61ea25d34d73bab7edc854ce8d9a5acf21841f97dd750e6622",
+        "8848674df752fb3ca841f12a6dd78eeb7c816ebc771bd0a935b383fd547e1924"
+      ]
+    },
+    {
+      "candidate_record_sha256": "76ea871ee1c68e07f68e11cb53b78609977964ca9c86c660e3c526b56152fc17",
+      "input_set_id": "lit-2610.29241",
+      "reference_ids": [
+        "2106.09707",
+        "2304.13734",
+        "2305.10355",
+        "2401.01313",
+        "2402.00253",
+        "2402.15300",
+        "2308.06394",
+        "2403.18715",
+        "2402.05472",
+        "2312.00849"
+      ],
+      "reference_record_hashes": [
+        "516a85cfd9b08abae56fa6b3b9a62152c62fb4eb68458bd883ebc91f693faf4d",
+        "a5e41c0e596a5d1a637ae2cfdd6888b649792fd50c7999eead3fddb23ad66db8",
+        "dc94d30133b12857162edc9ce6fd878624594b2e120110f13810245f46c343a7",
+        "caffb9b62d95c289d017c609cf4cb42973c359d6d693ca34376c367a1ef6876f",
+        "68f6b89af514667ea182e40b73e350eed2076eeee5be5bbcdca1ecfde5a4ee2a",
+        "1389f0ef23e37c5b0494c07463b9352da8b6c1bd02ffd6cdcaafa4786a75a497",
+        "a959a2d11a3d788227123473770e48cdd0badb9dd55892b62ed879093862035c",
+        "b5f916697109fbac1ae6b582ce8215418482873074fe24f5ca6a955f67f4dfdc",
+        "b36bbdd3d9b59bbbd941becc5734142245cab12d31f1804a53a18d7fd5a44db7",
+        "c27218ed1ba425e09d862f371f777314632fd2677725be8fbc827de17690f215"
+      ]
+    },
+    {
+      "candidate_record_sha256": "0936b5e2b25f80780b5f634d45cb83f0e8ad11a99818ab550c3ba8188c0095a1",
+      "input_set_id": "lit-2610.30108",
+      "reference_ids": [
+        "1703.09312",
+        "1912.01603",
+        "2009.12293",
+        "2109.10312",
+        "2204.01691",
+        "2201.13360",
+        "2207.05608",
+        "2210.03094",
+        "2210.03629",
+        "2212.03858"
+      ],
+      "reference_record_hashes": [
+        "0edb5f507655156a79558857b2b6044bb39b50f83ff099ac350659b6f66ff7dc",
+        "6b4120f1d8d2a3638e4b07d282294be929bfdcd13029e64a58915bbad9a552b2",
+        "2cc810e17e0b940449dd23d186916f7a2486a70e88b78d32b80b0c13f6acfb28",
+        "4cea786f14000b728b3ec4203b80558ecb7e9cba487a37144c7555e85481151a",
+        "4bb7fdafda6afd6f8a0d4cfcd808cedac6b6c77029392ee8a1ad3d8c2516f932",
+        "641e71e224c559e47e004ad59f2b4f247e99a9dfdcada81c53244fdb5a41cd2d",
+        "fdcca20ef95f771aa2c5b4dd9e15237e87fed1551b0bfe062fff52b893594565",
+        "0790a962a4dd863c158fd8b1b319eb5b0e22330619bf55f9fe771a3088ba092d",
+        "e4b2f751eaf631c78b680cbc1cf22804c6a703137177abaca904894b19a0206d",
+        "fd3a0dd5c2c42a25e55494c711a79e6d1179edc6bf5bf8d861bba48c1f9e137e"
+      ]
+    },
+    {
+      "candidate_record_sha256": "91009a64e34ae6c27f5dcddcc58db3e1f330824c437ddb2823abc7368e0244b8",
+      "input_set_id": "lit-2610.29328",
+      "reference_ids": [
+        "2410.02724",
+        "openalex:W4413415991",
+        "2505.23840",
+        "2509.12886",
+        "2601.08584",
+        "2604.18307",
+        "2606.16011",
+        "2606.19494",
+        "2606.30571",
+        "2608.16578"
+      ],
+      "reference_record_hashes": [
+        "05fd72dbe270d0316710c3ee4cf61bcaad9e9d10b370e0864b9c80e341d20dde",
+        "38d614221dd6420f56610bcb10da95fa536a88dc80151963066b4e0166c410f6",
+        "41a55f2ae1676aa35a960c7e6b9a175bff9afdd28cc93047cd2269512f6e3a33",
+        "665480a3e16f9b68ce421446470fcc1aef10fa6aa989f9e11522c7ce1b0ee417",
+        "871d00703ebde6a179032dbf22d1b16021a5f4c7a001d413fee9ce6e90131dae",
+        "6394003e6129777c72f2b7ba055731ddfa209d9710eba99bc4ce9fa1f54c72a3",
+        "a30e2e5e43ef8c30cecf046a2aae6e78431f148fa34f46e1126619a396588946",
+        "b69c7dd6c4e22bcdfe8bb9cf43b05ac896551ce3ba1ae96d9f4d40221eaf3fa9",
+        "22876367381bc2d2d82ef5114e0c3f9a46d85e2db8a6e0e35db3c18a7c2b61fd",
+        "b8ea046db3fafa905cc49e50144ad7c5d513d4b025356f7d60c3611a6cc68201"
+      ]
+    },
+    {
+      "candidate_record_sha256": "bb37f2280ab23ae07cb2e1a45219d811f06f19da717a355bb1a287b6463a2b93",
+      "input_set_id": "lit-2610.29205",
+      "reference_ids": [
+        "openalex:W2157518752",
+        "openalex:W2892377642",
+        "openalex:W3016007634",
+        "2408.00109",
+        "openalex:W4403062911",
+        "openalex:W4403062913",
+        "openalex:W4412589641",
+        "openalex:W4412828391",
+        "openalex:W4414986518",
+        "openalex:W7207807810"
+      ],
+      "reference_record_hashes": [
+        "7b7a4948bba58dfd67b26f6e2664cebf9e1d5f9381f479ebd4e31e34fa82d26d",
+        "6b712509a6d9633ed3f483c8b4b6019557dac568d3e682c0d0bb65eee95fd0f9",
+        "62777242fddf4bd951416dd5c4be6940c268cc20b62965cd9bebb4b3398654af",
+        "e03eeb519ea0bb0813aa317ee5c0511741a2680ec3f4c46e3b46d90fd498caf4",
+        "62a6ad920fcf237fa5ccdbc60c77feedd5c000be0ebaa1be2f5586b92c4237ab",
+        "9d0703beb7e7b5025244137af2a4df468caaa3624745dcb33a9b83febcd2f8ba",
+        "4b24cbb4049733b0fb966bc6b6050392697bb4a454c60bbfda5ee0d5a00e938b",
+        "393a1be9e9f18ff8cc40094865e72549ec91b8dc15e809be6ac9f13306db3d84",
+        "008053da5b77f19f536f416bcf875d998e30766c657a8ee218d5e6c046b3aeb4",
+        "02a2a015d677dea3a2543928a364ada287f5ae1ab18950dd9b7b08f323cb063c"
+      ]
+    },
+    {
+      "candidate_record_sha256": "3e021b95d38d3d5bc3c91259be65543463fdcc1202c35abe75b4a639b8666398",
+      "input_set_id": "lit-2610.28829",
+      "reference_ids": [
+        "1910.00177",
+        "openalex:W2997095758",
+        "2203.10168",
+        "2305.13301",
+        "2308.01661",
+        "2310.02601",
+        "2212.11565",
+        "2403.14468",
+        "2406.09973",
+        "2312.14867"
+      ],
+      "reference_record_hashes": [
+        "26d4beec1758a756ee5b6c9d80a0da974f78b5e8941fe8355ba123fe9f93bb35",
+        "0201f13a490be7543ebde544fbf9c85bac776c117963e2f5378ab0dd431f96bb",
+        "8245e61db6d7e505a344cecdbfb325b192da831610d5ea4fe764ebf3a1d0e2ac",
+        "cb802181736dc0c0fee7659a112ffb788c5e4a9518de28d4044fac956d95014b",
+        "6c0bcc1f4e41d3ce327840301e67a8e0977b420e5ccf160145e9e66bdc9911f4",
+        "e818f7517f5eef514521d87ba95a93d39c2d61be2037cc824db94c8b26e8fcc5",
+        "871eccdb0af52ff166f814560eb25551a46c0fc42815ecf3ca3b95e5f0e8a41e",
+        "c4e8c8794f6b96614acc70a45abdf37de8e9da7b08634eaf32612e8a4a1b3ea7",
+        "1bdb7a45c8548a552d9e3aff77232367888b1c21532e17d269c8baf5b20f3067",
+        "c7166d1b2cc91b2d07e530c4b22a908aaa486e223a4c6b2cc4373831f9ce9973"
+      ]
+    },
+    {
+      "candidate_record_sha256": "004851846b046a54cf6ce082f96f1e96c5cf6aa3805434e495cb32777f463994",
+      "input_set_id": "lit-2610.29315",
+      "reference_ids": [
+        "openalex:W1504886279",
+        "0803.0476",
+        "openalex:W2147286743",
+        "1403.6652",
+        "openalex:W2166563561",
+        "openalex:W2293546752",
+        "1803.02999",
+        "1709.08350",
+        "1607.00653",
+        "openalex:W3035665545"
+      ],
+      "reference_record_hashes": [
+        "96de32c0ae247054083c5e48913e8070f8667a8764b24aa0c5406c06687849c9",
+        "3eff2b2a50d4af0f5989baf29175c2249cd6ee1e8ce3eda7ff1c682669561de8",
+        "d653d3bc7d15b9c523459e345f99d7dc69e66c54591417a0300912bea6d01664",
+        "feda8b9fb1a25a911cb2e8c0a38371e888be0437a5a693b67ed4fe9dcd7fdc97",
+        "52caf08e38dbfbf993952b6b0c25b5d20b669df2ccd7393e137a8c4fdc3aac63",
+        "deadcd8ef06ae74290f7e7921837bdff7b0578d0927cfea045c5f767dcef2fda",
+        "0987d5cbfca23adae41c8ffd9129aa32d1a7ab624e0df4966b47f92d1f6fb785",
+        "e39e4f5e85617522cd9ef4b0ed25beec7f6d6266e40e57198d6573024d9d1fb3",
+        "fad6ff10070d7c0eb9f6f33eadd1956695e5471337da2c4972e552906e0edab8",
+        "fdb7a824c6cc0581137c21e7400d144454b051efce913fbd281e938e96349c34"
+      ]
+    },
+    {
+      "candidate_record_sha256": "b1ee5b1ac24fe69b5e48bce95f1abd0acc791f00568b1d8ed48eac96df34cd19",
+      "input_set_id": "lit-2610.29722",
+      "reference_ids": [
+        "openalex:W1923722",
+        "1901.04085",
+        "openalex:W2970283086",
+        "2103.06944",
+        "2312.10997",
+        "2402.03367",
+        "2404.16130",
+        "2401.05856",
+        "2309.07597",
+        "2402.03216"
+      ],
+      "reference_record_hashes": [
+        "2ed932208f336963ad779ef79112cc8128405d3962b995e28d0527ff50205ccf",
+        "0db46fffc1d73e1309c228f35ff2a0b34c8517578c7e64e42531a45159d50b50",
+        "84ff1197ebc0973e51557bed4fd583be6da1a51b057c8fe73b1cd3387071c78e",
+        "ede486de17ab98f308add732fc5824663852d4c1605026458e29d6b68535feab",
+        "af98c0ad1ae9e00bc318ce45136d2d8da09d0a8ba6f708b2cad5067b4d0190c3",
+        "852382f2a773a01751ea828c3617d1703796121a042c45725756c94b671aa00e",
+        "8138d6dc63e3d2c0a92ab9ab0146e91efeb301f958545281d2b0c8b2d194003b",
+        "7ffe2f20c256fc2948ef1895e2451cb854938b20daad2468d5f7ed23b9630ece",
+        "b9f3ea95a90686fbcd785cec2f11effde8038a4281845a5579692da941a8f2bc",
+        "a803999d04bc8d48ec6ca3304b1774c22bf7217157505ca1c8484d71efcdefbc"
+      ]
+    },
+    {
+      "candidate_record_sha256": "cb8c43b35948d5d699d085d6f573e45256ab13d9fef3768f079844d8e7c68e64",
+      "input_set_id": "lit-2610.28895",
+      "reference_ids": [
+        "1503.02531",
+        "2009.03300",
+        "2103.03874",
+        "2108.07732",
+        "2110.14168",
+        "2311.07911",
+        "2402.12030",
+        "2407.21783",
+        "2505.09388",
+        "2503.01743"
+      ],
+      "reference_record_hashes": [
+        "7bf567f05290faed62f9c6a7c4ace053321d1394dd8e6e603629c5e91245c7d4",
+        "ca66e11bf23162601919e3d0dded79736265032c6c5ef445f135d38d5a400b5c",
+        "ef4f3ea25d9917876bdf1cbc02edd79bb995cb098bd441f642d6341b763a3bd2",
+        "c30c986b69ad73c4ac9b907671e1f42351041a8a5fdb604298e6368efd8ec3e6",
+        "5fba595a8fdbf5c7a82581810314e6a62348a43e068c67119cbf7c124a0cc3cb",
+        "10eaf969d0b290cde6ebccc6cb89ed3b75f03959a1271084c8ab9fa4508b4340",
+        "c727a91c895aeb668c67441b9dcaed64713137f353eb7e3ae336c882a5b7b6ad",
+        "a6316eb53ede2c70b6e7834fc98138f6f158218a43670a0d6f3cf8562b50b9bb",
+        "4471471c7a9029448a66ed080322312ad26a70d9b75755a5a8cd62fc58d27bc0",
+        "fd847e065247e5888c971d69e7c3ad2b2eb59f25484ecc1bbfe1779efd53f935"
+      ]
+    },
+    {
+      "candidate_record_sha256": "acba70133e13e77a5a9c721cb1b0e4a95b05048524bfc9805b3a1de165588cad",
+      "input_set_id": "lit-2610.29985",
+      "reference_ids": [
+        "2009.03300",
+        "2107.07002",
+        "2309.16609",
+        "2311.07911",
+        "2403.04132",
+        "2404.04475",
+        "2406.11939",
+        "2501.14249",
+        "2506.04078",
+        "2512.02556"
+      ],
+      "reference_record_hashes": [
+        "ca66e11bf23162601919e3d0dded79736265032c6c5ef445f135d38d5a400b5c",
+        "e7f1a3e9bbc2c1d72f3c095c571a15a9ed59e0775f4ab7ced279ae41111dc1d6",
+        "15fd68c5684109533c9de4a8b0c85e4cc4c951d11324b52011941ade1467f7e0",
+        "10eaf969d0b290cde6ebccc6cb89ed3b75f03959a1271084c8ab9fa4508b4340",
+        "c8b2bb208d827192e8deef73e2634db25be3cc27e9bb11f14ddbf4e1ec8568ea",
+        "e6170eb1733b7c5ad353f863343dea819e81c4dc381d33762906297c36290a01",
+        "478a17b8209235148f01780f60ec423de2929d38fc39e721f8f8a10c648122a3",
+        "3751e60fa08dfac64751fd8285c26648efbdc4b4dfefe5362902ef433b5fa762",
+        "49c92f1633718762afee6b38b85b065856a3ed62127d01501261e0a181b1e875",
+        "625bef1c500b14b5e63c838c12b50f56f057fbc81f9db917babbc3169a2b486c"
+      ]
+    },
+    {
+      "candidate_record_sha256": "f4201cc8c5cd7f504a0595208aa9843567794ec87a2a08177ec5ba71f30c459b",
+      "input_set_id": "lit-2610.29442",
+      "reference_ids": [
+        "1711.05101",
+        "1910.08854",
+        "2010.11929",
+        "2006.07397",
+        "2108.13624",
+        "2411.15633",
+        "2504.04827",
+        "2307.01426",
+        "2410.06126",
+        "2507.02645"
+      ],
+      "reference_record_hashes": [
+        "7903de86d66d6f6ec12465dcedd34c5abc400977e62fa597b6a1b46a77837057",
+        "616396e044ccc84ce259350fb50a8fae60233e8239aa87705f2b36a2f997c893",
+        "3a256f41251b6bcfe4c9c76c90e531a0b75802f76f78ed7ced5c5ca48241b446",
+        "d554c751f666bfcea228a07241ffc2fb068d8b0244b27349f5669bd1d354ed5b",
+        "2984ba6f017ed50dfd02437f864d75ede37648a5c9bbeacd95e9a7477a94b191",
+        "ad639e933eb6488d18ba58533a04d34fa4674ea05505c2d42c72c2bfbdb536e8",
+        "2809550c5b7d90b25049df3471e711ab5725aa43ae5eebe01c29232dd3abb030",
+        "63c1a63dab6066637cd5e24e7cfc6c28a32612402c9ab37c37c3a0310f579491",
+        "06ade518e96f50e5b2c6d47b9a289c541f35124e3630101c1f6ea862d5ee254b",
+        "c504b21954e8cfc751bd4d9bf2ea8fbcffbf7925d96bba4351664a13d6428b3b"
+      ]
+    },
+    {
+      "candidate_record_sha256": "a16878ed84ff7deb7edfb05f0f78cd1b96468ed127f0a1bd74a1269927d8deac",
+      "input_set_id": "lit-2610.29676",
+      "reference_ids": [
+        "1507.04888",
+        "openalex:W1965455100",
+        "openalex:W2245493112",
+        "1606.03476",
+        "1804.02717",
+        "1905.11108",
+        "1911.00357",
+        "openalex:W3112288498",
+        "2104.13906",
+        "2201.08117"
+      ],
+      "reference_record_hashes": [
+        "7e945eab434c7028082e23f0ecd7115251c9fec38d5e516516a7b58e2972734e",
+        "ad6d48cacd48c6e40a89a855d9de894a2f0ae27b2ad394d756d962f80849aa6d",
+        "dffc15eb7bc952ef42e45ed3d18f58108100ce0392acc8f804c5da88a88c8fcf",
+        "082a736b2e033e3b6146ae23f28ca3983735b3a33a33da56d207b2f9bfcd5e70",
+        "07786725adace7a40e166d99df1db286cd382c37764305f7d5c7ed3ec9a63d4d",
+        "c603768aafbb9e47860f7aab2c0570840b8d15bb94bdbf4a87b4ce8721618a88",
+        "f23267d50ee91cefafaf0f1d0d1d34ffeb77707be9431225c615d21581cfd794",
+        "7ebee8d8a0f52534e8722ce414b012eef785d648659f7d5d5b322c01908301db",
+        "91283dd8b560d3af24054ead0ca48229d798260fbf53568997a4a677c1ae7e3a",
+        "a40a43171376f7cdc02d1d4c2d6d37718e69cbb1157ac44830b16562ca97b9c1"
+      ]
+    },
+    {
+      "candidate_record_sha256": "99a1280b3367eff81630fdd4d585af3a40cb9ff444ed6c383a4322d90ff12d8a",
+      "input_set_id": "lit-2512.24561",
+      "reference_ids": [
+        "openalex:W1773149199",
+        "openalex:W2194775991",
+        "openalex:W2251512949",
+        "openalex:W2963341956",
+        "openalex:W3036931590",
+        "2010.11929",
+        "2104.08541",
+        "openalex:W3166016280",
+        "2103.07894",
+        "2203.15442"
+      ],
+      "reference_record_hashes": [
+        "2dba04eb340d21800fa11d0dd6f00993bf0ded658c8096fb401f57775c684d2a",
+        "fb065b184ecdc036cbe6817366fd8ae813943899158e51d99b7eec528cc52493",
+        "c9a2efd321f07607802eb3822e4b25e5f42e68f07b701d74dab19ae8e2a836bd",
+        "b7a7dfee4710cdabf061b1e869cd74749687d5411640b973ce7a14fe85460338",
+        "ed9b62a2f10b5267809dddf8d429f08ef9bdbc259157678aea101000f311d1b1",
+        "3a256f41251b6bcfe4c9c76c90e531a0b75802f76f78ed7ced5c5ca48241b446",
+        "9b9165e91ec6aaee5b32b649a6342f4b8aad6c47c47af19eeed5e2da489221a9",
+        "ace2ac770f6d9f928b08b1adf0d440f8812f45ba4ade440a773d2e15a631c81b",
+        "5bcd0aa71bc88b3047b33fa0e35eb1482982ae07f8fe96bf2f3ec8468c525fdd",
+        "e8e7c48e150f899222f1e81aa87d8815933278652beac5b88b78f0bbe3dd81f0"
+      ]
+    },
+    {
+      "candidate_record_sha256": "dbec27b496ab433243080bbb01e12ee9c36c594488ca70a91b4b2b9108d88b21",
+      "input_set_id": "lit-2610.29498",
+      "reference_ids": [
+        "2107.03374",
+        "2311.07911",
+        "2405.04434",
+        "2407.21783",
+        "2404.15522",
+        "2312.08935",
+        "2412.15115",
+        "2503.02382",
+        "openalex:W4412888553",
+        "openalex:W4412888562"
+      ],
+      "reference_record_hashes": [
+        "afa404270e091a92b3c02105d73a3137c66177c813dd3323f1d7ac4f2bf745d3",
+        "10eaf969d0b290cde6ebccc6cb89ed3b75f03959a1271084c8ab9fa4508b4340",
+        "65e9756dae6f7cde70941f2fa336941172319b94aa1b3fb9dd9bd11faac0210c",
+        "a6316eb53ede2c70b6e7834fc98138f6f158218a43670a0d6f3cf8562b50b9bb",
+        "5ecae48de075a96c6dee72eea788a05e0c7a76cb80741e2d7b610402d64531e9",
+        "2f2050d2687fbb5bc264c7e0e8a4f7f9cfd7f1bd8043e123f3284a8990845ae9",
+        "da83f4ba84b1f8a8473823b64d49d8b2ba71ef8f7edf3de4f596cf74e790c502",
+        "2e1a18ae7851130866168272c68a1a150a7b7df5d3745e433e5ad0b1ec8bc309",
+        "74710726ab2562d6459bb093087f51d93ac4b61cde969db7708a74dbb8e530ff",
+        "a723123d32b476784ef034421c974a1ffaae368c26e2422faae4a483a30a6983"
+      ]
+    },
+    {
+      "candidate_record_sha256": "519dc511a4366257e5bcba10589842feab4f47d6204c48232f55c3c907b725cb",
+      "input_set_id": "lit-2610.29327",
+      "reference_ids": [
+        "1809.02156",
+        "1903.10118",
+        "openalex:W3153469116",
+        "2303.11381",
+        "2303.02961",
+        "2303.08128",
+        "2501.03567",
+        "2502.15393",
+        "2406.04325",
+        "2512.05774"
+      ],
+      "reference_record_hashes": [
+        "e1415e9e0ac414708d1e07e72ad0f47ad81bebab16ae60e06b0fac0486c0ed53",
+        "ef8db291e0ec9c9a7adbb7be708d7281fa29be6aa0a1f9d38a9591a529e541e5",
+        "9cb8b9d97d5533a6aedb6413aab030aa36c476ffa22bd4056cd33c0ec5e8a1e5",
+        "e745ff330bb2eab47c4c119e561967475ed5e3208da7175ed7270946acb909a1",
+        "968f3320baf81f3dde6246e54207703213825b31282ef8598adc5d5ed0e585a5",
+        "81636e622e749839a97426f68f7917b55315365dfd8b2306d81f0c85c78d5755",
+        "b8e87c1ac63d699f586653243f0ea3194985236a24747398cf715ee03cf22f6b",
+        "d6430e7b22e02e8d9cf7e8e15f5cc411ade11c5d2a11377c1ea197a1362e6ec8",
+        "ade33989838c4f805be2402f6b50beb7c70682218feb0f8696f74f7317c992ba",
+        "00df0bf63c3d586d3d60225df54797f8477ddba2bed45998db3e62ff5761bd6f"
+      ]
+    },
+    {
+      "candidate_record_sha256": "89b0cef130ed2e19bd59340f05e1dfb53023611e369882fed97278978f5ad388",
+      "input_set_id": "lit-2610.29318",
+      "reference_ids": [
+        "2302.08399",
+        "2307.13702",
+        "2310.03051",
+        "2410.00324",
+        "2505.05410",
+        "2602.15892",
+        "2603.23510",
+        "2605.09826",
+        "2606.08878",
+        "2608.01598"
+      ],
+      "reference_record_hashes": [
+        "fd47a7c02e8da1cbdb5454c6a0f20b75c6565bcd54aa372c671c621e89612d22",
+        "9c8969f947355a91f7714d45baa65567930ec0312caacee64da9e767d03d1a6d",
+        "8c454db8b109b14b783f31d0b3a0c2439a9cc51c7da4243428430fe2643ed28c",
+        "c51e218a86cdf08104aa0338550b4e29004574ec3150926e360c9ce40d0d7d6e",
+        "4560176e0d705dfd4b155955aa0b4b016bade06200e31b0347b912428247f621",
+        "bff65306b25051ab9da53b9a1b85544ca474cd89fee5b3db5677c32edd7c0fdd",
+        "fdcce7217f3b8244f50475940b254e3107a8b2e9c517953d1e5bb21f4b0c07b6",
+        "60583ae78da32d7edd437785ae066755fc0c4181845fd8973657bff6fc5e34cd",
+        "ab9cf0e3bbd174b6eb973db073e7738b1b31c98133b465f76d54a09c2ee304cb",
+        "cb424cc5913cafe73475aa7b4d14e21dd145276ae342035d06e8e2a857313cd9"
+      ]
+    },
+    {
+      "candidate_record_sha256": "ed51d9e4f7b72a9c334aa61e9afd62484f41d6a8461b7495a7671d3fa127c061",
+      "input_set_id": "lit-2610.29419",
+      "reference_ids": [
+        "0806.0813",
+        "1603.02754",
+        "1801.04295",
+        "1802.07044",
+        "1806.07572",
+        "2110.04366",
+        "2111.02080",
+        "2112.00861",
+        "2209.15189",
+        "2309.10668"
+      ],
+      "reference_record_hashes": [
+        "2b30f7d8df68853562887f91b3e641c4264c54285a6b302c24d947803699bcff",
+        "69d9147d62982d3cfd134d5ca71865a3595fe677b4c2beb9c060af78dddd602a",
+        "13fccd5d499406a68916dba32bb8de8ebb46f703ab07be3b2f31132a196842d3",
+        "88ade57fb82a703c2718ed814eb7d16a22f53c288c3270a7318f0ad689f7e545",
+        "ba037c23e27f39029341b99dffb2ed1f7f7a2928ff6cf4b6e5cd27e67a9fe585",
+        "4d9f2de045bfa73a343c155a1689c8632d57d9a0083b6446420620f4b185aab1",
+        "230ab413279692cc24b0837accfabfd5bb2ab73a2e32f00a903a77dab5d8967e",
+        "b86703d1fa8d61a18444dee3efaf40c155bdb66b69710eb51fac96b7edb17921",
+        "c13b2e7f9acbe5a67107a3222f162872dcda28848d04f5745174ec99a126f4d2",
+        "8e2b1fc717e03282f11abee28b126488ff377019f4c39dec9e297deeae636270"
+      ]
+    },
+    {
+      "candidate_record_sha256": "d1e541702520d220b83cf6a5fc97662cc238f6876d3ec6b40818777656f9faf5",
+      "input_set_id": "lit-2610.28998",
+      "reference_ids": [
+        "1604.06174",
+        "1701.06538",
+        "2101.06840",
+        "2211.17192",
+        "2302.01318",
+        "2307.08691",
+        "2308.01320",
+        "2304.11277",
+        "2309.06180",
+        "2310.06770"
+      ],
+      "reference_record_hashes": [
+        "c47a1edfdcf805bf3a9c07ff8b2d6e986dd4ebe081110f501a2fcfcae5193c91",
+        "3e911c22f8eeb6595dfbcb7ff5271b0ed4ba47af559f82df91aa29aae0ef9cd6",
+        "aa24b4204821242a4ce6b87df88f7b56a69d4ef7fa2da4b6975e484ef54daf75",
+        "6ef8d8ef8baceef41fddecfcc44c04d08b3de2ff4f45989e9ec62f62ae066934",
+        "2613870b2d3cf980afa3e41d8326238e7038672194a17689521a636ef4a445b2",
+        "99b56388fd36650d2d7148b10599f0aefdd759ded75488ec2020ff42441dea5b",
+        "0798853416e3baec4d22decdfa442e01ba12ce68c63fd503978c93ce3cc76539",
+        "81e30c9b30d3e7c97cfa938f8c01474172773e2541754e0a4d324ec2892ce536",
+        "4400df84b2a6c01d535d7b00e9d4bf2fe813348777ba20c9dd10b9bba9a62fc8",
+        "ecfbea45c2f116eef4da4429a043e81d957fe1e00e922ebfc803e6df96f2d4bd"
+      ]
+    },
+    {
+      "candidate_record_sha256": "dab70d237ec773921e3be994594fc324d91083ecce8f79c7a7293aa281fee918",
+      "input_set_id": "lit-2610.29780",
+      "reference_ids": [
+        "2209.03003",
+        "2302.12288",
+        "2405.00666",
+        "2410.08188",
+        "2501.03575",
+        "2501.13106",
+        "2501.16330",
+        "2502.02492",
+        "2502.08590",
+        "2503.20314"
+      ],
+      "reference_record_hashes": [
+        "4fb2445e7d8a3a6baf73a0a246c9a35a8d27cd53ab85c32aee45d461b5a6e44d",
+        "ae2361eef5d2fa5430137c4d854c13f0e15814d907d55ea21735f67a879730a0",
+        "84f89ef11df1618cb71856ce89b4ca922f9f5caf11e1faa31d22934d62c3b2da",
+        "56e27b9954857f4d9b45347bc1b55b641f1ffdb680711dd4595bd332f5842582",
+        "4d71628ed5d1bff8cf3f5677bcec363068f4a798e8dd09dd22c222bcae71ad2e",
+        "ec9f81c67e1cae04478081aff8b68beecb918a19f1b0afe4e0b63336ed9d9ef8",
+        "8657c1fefad8d9e80c5af3a0d791cd03a69e1b68ff697e4ca2905707e91c2426",
+        "a62c5a2b1f0aec45e758fbc1caa07d9f5658e92ff67694e9c8e71fb387b3e6c8",
+        "f180dcac975554b90c8d03b5955d0a89cf305b4d36ff56d0d8a113da390f416e",
+        "20c8845941a3ad3b2b9bb7e78ab9033b9690e1ff9e5da4794557745b53fddf3b"
+      ]
+    },
+    {
+      "candidate_record_sha256": "087d5006c5e8113c90572dfdd82b990fd53573252c8547522e22ffde4449128a",
+      "input_set_id": "lit-2610.28763",
+      "reference_ids": [
+        "openalex:W2963351448",
+        "openalex:W4389727268",
+        "2304.05332",
+        "2304.05376",
+        "2405.03078",
+        "2407.15711",
+        "2412.04984",
+        "2412.14093",
+        "2502.13138",
+        "2502.13295"
+      ],
+      "reference_record_hashes": [
+        "a5e56ad8623eb15af73fd20ecf012d5eeca0267bfef83c404d38524eda01e131",
+        "75b91925931b756db59f61a3049f78d60e126845ccd331c3799d76f77d97a455",
+        "38a5fae36785ea9bffeb5a03788c946b1562347b93f43623315f1be52c68e5b2",
+        "ba0abbc754ac334c7c43d10b47c504a209c50701a2aa7f631dc4ff5af0c56db0",
+        "9a718f3595ab1ee29f5835c5bc7b079f6c8bc5955e8fe40fdc692e651bc849f5",
+        "40ea6533f42b30937a0cd58447cdf256976842791d35080b1690fccca7f81d33",
+        "27c5cd7041c2ce4455d6b6e56332faf150fb1e94b2ea03da4edca9f659183cb7",
+        "0c518dc46c8ae7529d78f744294ea4fb27771d68b9602f9efc61fd59a155123f",
+        "efd4ac8879c6f429eb53cd40c56dfb3e9eaae7027b29f145fb9c94e6f0b13d7c",
+        "fcc410859eaaf8279ae40b53748700a52f4974902f43079294ec4062bea5aee9"
+      ]
+    },
+    {
+      "candidate_record_sha256": "3c0160c0f441448bd52d06e1ad181498adf166ff2f4ae9e3d0545e81333bb32b",
+      "input_set_id": "lit-2601.00898",
+      "reference_ids": [
+        "1707.06347",
+        "1801.00690",
+        "1910.00177",
+        "1911.11361",
+        "2006.09359",
+        "2201.13425",
+        "2211.01052",
+        "2302.12192",
+        "2304.10573",
+        "2305.15669"
+      ],
+      "reference_record_hashes": [
+        "5e25ec37595fc53db3e207db2d049427c5caecbd852bf32afeeb462562fc3a71",
+        "13a264facf474fa0ce2283b0d083e816e769d6b169267e9a2f868b1778903ff0",
+        "26d4beec1758a756ee5b6c9d80a0da974f78b5e8941fe8355ba123fe9f93bb35",
+        "fb1a2261bab68dda990bf75df5eea933f5d2e343d80ef042e50c287c83fc7f33",
+        "ffe218c4a723dbcdfbf44363ccd19e0803cf8f8a94f6b11872296436e6c00fa4",
+        "27a0c6769211ecd0dab664fc8c3f2ac4f8e4d3169e9a76f99ff137b7a0511e4d",
+        "4538e3a8d1f72bf3faf70b0cb5037b484918b468b725030faf355cbc59c5bfd4",
+        "29ba4e712c650a8d35847e8b682590fe6484eeaa87c564d0f3be1714e5c94653",
+        "44a2f8c8977904a39e2a709d10626ce04d8bce069d6a9b796a0fb1ed7858c7ff",
+        "efac943e0cf368d9378984d05c424b1a0f4fa3e3fbd5d86ce09d63593a15646d"
+      ]
+    },
+    {
+      "candidate_record_sha256": "961456bc83aca5b2775c5bb32690bb0c0631aabd4d73891e5c20c669b80c2bf8",
+      "input_set_id": "lit-2610.29475",
+      "reference_ids": [
+        "2303.08797",
+        "2304.11446",
+        "2503.21774",
+        "2509.00336",
+        "2507.13414",
+        "2602.12624",
+        "2605.06553",
+        "2605.06680",
+        "2605.07319",
+        "2606.06179"
+      ],
+      "reference_record_hashes": [
+        "33e2cbd3c95a3d0316fc78aef80fc00adb9c8049872fa093dfb9bf208d79b5b5",
+        "63165730ea074862ad825d5682b181a4f6386506a6253312f0405126a6cb7246",
+        "f107381c203e97a82b7bfb04de0aefa9d1099bb2c24362328d19d89f780a067b",
+        "67cef9c7679982628416031a1d24b42843b739303e9f8f4d6d03f1369a40a98f",
+        "a0a0a296c4ef0ecc7f0e354046be1fa246ce1af48700cfd3705c9f19c4c1a272",
+        "b3d0ca07dc8996276a40fbf845e55075d936fac151e201c36ca4f73f1c2acb18",
+        "02c824dd7e46c2b77005dbc1e65e5256a35788a727d7f18063bb6de0d53bb6cb",
+        "a8f3f965db0c681b15b750d55ce5499f365c33c4f9fc834954ef8f1677c01a0b",
+        "d1c96d7ea53298715c392b1cf4ad9964f63aeffedf5a0e6035bbb0bb544cc149",
+        "a4892b4dd65f1918b9f2e8e2b67bca16a38bebff0b81a25b78ddb20941d265e1"
+      ]
+    },
+    {
+      "candidate_record_sha256": "44d6aeff0864e89669af902714467ce8f77fa1aef5c4d0f9bd70da7abc6597f4",
+      "input_set_id": "lit-2610.29090",
+      "reference_ids": [
+        "openalex:W2154741421",
+        "1703.06907",
+        "openalex:W3025885500",
+        "openalex:W4211031152",
+        "openalex:W4306914348",
+        "2107.09559",
+        "2304.06131",
+        "2304.02643",
+        "2301.00785",
+        "openalex:W4392563251"
+      ],
+      "reference_record_hashes": [
+        "fdfc33fa6f97e10b8559407869e4cb8c26e29310d8ff678745e84da1b8c26ca9",
+        "22b75e5f35209eb983a5213769de004d1ed130724414311b65c539807c3b0adf",
+        "4f9809783d25ad5d4b4613163fad8c0e126c531c787dea2dadb11f3d3e65ef58",
+        "69b4b47552fea3b2821a73b29affe877f3d53d565e222a1f80c74917c1bbeaca",
+        "f69418aeab10b9595029c8a7bec6400ddb2c948b72a5ae766ddd965190a94eb9",
+        "b0efede4107a6a6ce6ae4c1a62d30157598fbaa84fd95b3fb52dc39f5a0b65fc",
+        "64b150c00950a6824e9c111a019e71a37512d8ec54305940d68d9534b9670df7",
+        "fc83640656faa0bfbe3d4d0644726e991bc63b53585203f8a208dc42b503195d",
+        "2f4ee22543ff85d67ff64a75f0b0485f826d44ab6ff13aa9523d01a55608d566",
+        "df6c0951b7aa2d2d7384a21f51aeff436529e99acda22ce7d02894c3f07c549f"
+      ]
+    },
+    {
+      "candidate_record_sha256": "bc72f0ae54267847c9eeac058860b4daa957bac71436bae571ea1395eebf4226",
+      "input_set_id": "lit-2610.29932",
+      "reference_ids": [
+        "2411.15114",
+        "2502.10517",
+        "2405.03488",
+        "2411.04042",
+        "2510.16476",
+        "2504.11703",
+        "2512.00193",
+        "2504.20073",
+        "2511.02230",
+        "2512.15699"
+      ],
+      "reference_record_hashes": [
+        "c3835a8e8fd2932de3db4feb3fc1e636950be05895db27af0b4ddbec80a83f76",
+        "adebe037603625dbab8b7782d2de144b22527e567c589775ee645b1fd97897f8",
+        "a113bd672801fed681a8cf8bc311e6698501cf59b9144ddc019ef6f2fd42b296",
+        "0101972362ce798e93da57145805b7648f329ac26cc05478fc4bf68707f01bf2",
+        "6afd7d9a008b7553e1752a352a58eb2e3184b719b912ef21e888d5080257591f",
+        "c7f6d219f33bc8c1b028ada6c47087ff2a7d384b3c4c4941d33fbb34e0a314d4",
+        "51ecec007eda78f0f3a562ce1c6661d6ca61ffd1d713e2ec0ac68a7b13fdbccb",
+        "738f7c6609ad27cbc779c75b491f364eaaae2ccfc70758f255677ebe0d4b62cb",
+        "3810d295b09231a9ddaf0603e947e53c3969d10b404ccfcfee4d4b524bd65776",
+        "44d8daf471b8ffba22776325248907e0d171eef7899f9c117da02f978caf9bea"
+      ]
+    },
+    {
+      "candidate_record_sha256": "28ca46733c9f8333113f6458a93254c1342bd85d9c3417de10577ffc789643d4",
+      "input_set_id": "lit-2610.29013",
+      "reference_ids": [
+        "1503.02531",
+        "2107.03374",
+        "2110.14168",
+        "2302.01318",
+        "2402.11684",
+        "2403.00858",
+        "2505.09388",
+        "2511.21631",
+        "2603.18567",
+        "2605.08632"
+      ],
+      "reference_record_hashes": [
+        "7bf567f05290faed62f9c6a7c4ace053321d1394dd8e6e603629c5e91245c7d4",
+        "afa404270e091a92b3c02105d73a3137c66177c813dd3323f1d7ac4f2bf745d3",
+        "5fba595a8fdbf5c7a82581810314e6a62348a43e068c67119cbf7c124a0cc3cb",
+        "2613870b2d3cf980afa3e41d8326238e7038672194a17689521a636ef4a445b2",
+        "18a8f8ec6b51fdd0699cb0fcc98cadb2d421d7794b47cc9d769854bb95a62190",
+        "cfe8c655fe6033af886eba6be5c1e3c7e63dfbd56e5ee7a4970c26321c038689",
+        "4471471c7a9029448a66ed080322312ad26a70d9b75755a5a8cd62fc58d27bc0",
+        "81198c84f1e7c461f83f23660c18d048ae8977d1fe02b3c48fab03ee88ace279",
+        "a7090bafa41968c318570858385bc57e59d7769bc556e7b904dc1570b821d020",
+        "014f884699fc43080d800e6d899984dbc80d1d7f36c52c8425f8de5d28276bf3"
+      ]
+    },
+    {
+      "candidate_record_sha256": "a74001a62abca69721f1bebf68b554bb296033ecd5e4345aafdfd2c200768b80",
+      "input_set_id": "lit-2512.24985",
+      "reference_ids": [
+        "1811.11127",
+        "openalex:W2950697717",
+        "openalex:W2990226371",
+        "2001.06826",
+        "2012.05609",
+        "2108.02158",
+        "2108.03830",
+        "2110.07058",
+        "openalex:W4200490687",
+        "2204.01691"
+      ],
+      "reference_record_hashes": [
+        "fd62472fe28ed4cafe74d5be6f061a8dd756b2b0051dbc18c7836c46a7c45899",
+        "f1f76ba83a4406b5069f035e99002fe3abc97b16bfb684f86ed13404c2c91b4a",
+        "8590407df11cf336ef0e14e83506d3186eb85997c75a5ad99b2fdfdaacb21e37",
+        "f0ce036bb63d4a968a724e7b831175ff18d6440ed2dd6b2d3121322ba1afd959",
+        "b5e33cc7b6e84e1da920bb254a6dbd8bd22c63e8f3405aea7f83221028210583",
+        "773b4bb585e91b8a8192121ae7eed7f3d4f632c2b20ffcdd04abdceb70363412",
+        "de81b93a4e849fe3e60e664fdd7724e853f96f6db5b4156bbbe1b09684033c71",
+        "d5f7b6f126a9959e6832a8c75dc757d0056dc2b5a9e36618b5102220bb4f4a65",
+        "7eba47ac5b08d8db2c141f923937241af6b0cb5e94a888491b24e6c373c58a8f",
+        "4bb7fdafda6afd6f8a0d4cfcd808cedac6b6c77029392ee8a1ad3d8c2516f932"
+      ]
+    },
+    {
+      "candidate_record_sha256": "5f67256b3afb3e0f72100deb7ffbb06149a84e49b5f4fcae870c47ca2384f3f6",
+      "input_set_id": "lit-2512.24497",
+      "reference_ids": [
+        "1506.03099",
+        "1211.5063",
+        "1011.0686",
+        "openalex:W2101677491",
+        "openalex:W2110485445",
+        "1905.13320",
+        "2004.07219",
+        "2009.12293",
+        "openalex:W3153176659",
+        "2104.09025"
+      ],
+      "reference_record_hashes": [
+        "06f168629219c9fd43e666b91f7d7c0c3b27532fe5467e695cffa2e3343db352",
+        "35ae1e41e59d1f95da545b15a47b9ae70a626b45acbe0ab55686dc66d215db01",
+        "963c8dce88909101ec8c6c2613185c53e74a0d74d170637dd0e9c241a6b2d0d7",
+        "363a92046fbda5090c9b76ccdaf7328ca60b8353d5da7c510c93ab911b8712f3",
+        "e096139a18ac623b74c3b44ac169aabfbe7f0b62491565933771260294579112",
+        "78eb5aedc61555e20f11422d893a55b25cc8fda9b98c043e89664940f2b81cc7",
+        "2f046b0a0211bef490e5d1adb2b8157ddacf36f379b92e90d1cfdeedfb9f5dad",
+        "2cc810e17e0b940449dd23d186916f7a2486a70e88b78d32b80b0c13f6acfb28",
+        "17c60a59f1c83198bf1ad517519e6fc5d94c36e443818d9eb9c32d2473eca478",
+        "c09a1d66c993ac2be2f5d8f9ee127a9d925a894cf75c6da2d772fdd2507bcd92"
+      ]
+    },
+    {
+      "candidate_record_sha256": "808891b34e4379a533c98fb0497bd0249fa43c0c8f60e590028dd3aa92c08170",
+      "input_set_id": "lit-2610.29823",
+      "reference_ids": [
+        "openalex:W4252076394",
+        "2402.17753",
+        "2410.10813",
+        "2501.13956",
+        "2504.19413",
+        "2512.18746",
+        "2601.00821",
+        "2603.28052",
+        "2604.11628",
+        "openalex:W7166318274"
+      ],
+      "reference_record_hashes": [
+        "6533526412f4e6bee75af77e71d385017e195abb35a54a4cf5ff0511ca5e4a65",
+        "26ae9e92c6b58d33a7141c3e7b7a866b6f255c6359755973f4db9d26ede042c4",
+        "197080cb4be573de36ba455a01c030a72dd7abaad6aebcec66ea6be100d9143f",
+        "38efe59f8ee93c6c0f8385a659d482d46ef2a86f971c8231da249c3d74a352af",
+        "f46694dadb0153a442813bd8ea92b8a7c483ef0931a921487ba2acc4c9771e23",
+        "c1d17c81640f4e640d7cc131b127890e12abbb6913c40264570e93944e5ef59c",
+        "427fab0e7cda638a4df3209eb0364ec9e4b31203ecff183ddf1c1b231e242da6",
+        "d80022f54ee20037f7d1377a24c472f2c44098f661511cdbe2b177ecf4c4606c",
+        "a5b4764c6d3f29d46c22040ffb630f6c09242a32aaefddb84cb9fddc4b654efd",
+        "be824b63f77c7b20fd4675fe5dce6a64d54a82dc2464943e74483351725b6021"
+      ]
+    },
+    {
+      "candidate_record_sha256": "0a73ab00c1548137b57b2aeeaadc1d9d57ce509b15de0fc37dabe8dc2f08784e",
+      "input_set_id": "lit-2610.29189",
+      "reference_ids": [
+        "2203.11147",
+        "2205.00445",
+        "2112.09332",
+        "2305.14325",
+        "2501.09136",
+        "2407.13101",
+        "2505.20245",
+        "2508.09129",
+        "2504.12516",
+        "2505.04588"
+      ],
+      "reference_record_hashes": [
+        "475257447d4ee4457af310efbc013c23a5895081065502914b1399bec42d52c6",
+        "7155c08085e636f20c9376d8f9cd61f29a1db93edf0a00713bbac97a4799ab4d",
+        "677a6b3929d9bc9d25f27b0544979e3ca80613b018314ebf6f13ffe5d509ea98",
+        "42953e10606cb1a16ec740a88b14ac1b86b3b4c90ceebecfcbb0e9a898120fbc",
+        "38b2d1b0fb6745339ec67414ecd4a0076a525ac2858fdff750a56d7f1cf297d4",
+        "a2a381f383161c388dfd913d24d7760c5daf36f85004916bdb6a88b79ebbc01a",
+        "bad9049a761e3a2c026e07c306400e0d4f81fb65ebd54952e7cc4a49075d06a0",
+        "48dbbc6bffa64c292cb3928af2a561e51035b37ed1fbc4b3b8222a70cd6611cf",
+        "dce10ea8d4134bccd331e06ee9d32b0cc1a5c5d1d2c5866c18f7cf27c7865192",
+        "62c64c5b8b72834757b9d6ac4d078c2c9d8ec1d2e42b05ebb140e8e91a2f4d75"
+      ]
+    },
+    {
+      "candidate_record_sha256": "8b48a4c5659510261f44f35a6668307ca6421333ecb07efec7ff56299c769a45",
+      "input_set_id": "lit-2412.20541",
+      "reference_ids": [
+        "openalex:W2194775991",
+        "1609.08409",
+        "1907.11692",
+        "1908.03557",
+        "1908.07490",
+        "1909.11942",
+        "1910.03814",
+        "2010.11929",
+        "2012.07788",
+        "2012.13235"
+      ],
+      "reference_record_hashes": [
+        "fb065b184ecdc036cbe6817366fd8ae813943899158e51d99b7eec528cc52493",
+        "f2c1bdaa6f45239414b254a74bf10730b00b257ed34e9fbde159c32df1484a67",
+        "7ed5b704f12d3347203dab5f2e1106b485278d0edbe26d9d158ed0c1cf39135c",
+        "55caa65fcd064d7eb72160d41b021601c858fc439162d8bcdcb800358e597f51",
+        "83b8e865523ce9a3900632651f9ac9b810ea8712cac695b5ab5e24457992d20b",
+        "4dbda2d66e8113cd16f59b026208371a94ca19815af7b4d23d7d4c65df8ae937",
+        "907d15e11e47b20d490c321cca3fbf0bab7667ea78832549f549f99c3a4c6696",
+        "3a256f41251b6bcfe4c9c76c90e531a0b75802f76f78ed7ced5c5ca48241b446",
+        "cf78a1378aba20f50a5baca8b2976ab99f2bb2cd8a4d6119f333d7871b726606",
+        "10954afdd1501788352ca15737ef7d67202f1b35cbfdfa39b1723d90bbc7a1b4"
+      ]
+    },
+    {
+      "candidate_record_sha256": "493fe13ad975a4091bdc9d0600024fa3911447edb2d3d6b3130c00bffca8b77d",
+      "input_set_id": "lit-2512.24407",
+      "reference_ids": [
+        "1312.5602",
+        "1808.02569",
+        "1910.07186",
+        "2002.09072",
+        "2101.07380",
+        "2101.11948",
+        "2402.08201",
+        "2501.11868",
+        "2502.14131",
+        "2509.21172"
+      ],
+      "reference_record_hashes": [
+        "3f6f36e09d147f95f6f7160b80a6da8c122bebe3884e0bdd2b33ea97176542f8",
+        "5dc52dc15022f3d03c3ca234e7b9229c187d0c31f195a90fcd8b9d6de25abe58",
+        "22a35be1f69a59b9861030b083292a65a15bb3b65717b10e9606928bc852f8ef",
+        "42e4588c77878bfcd7cd8d0b42a6e129cd1df03c55c6473ccc554bd0ccb92f8f",
+        "17586592aebde76d8ed64621e4dbc4aefea9150a494706546e325d374bb7dc8d",
+        "8f1bcfd338d13a16dcc241d81b74e133a4e6e7d47a86a2eb0f9f8d38749bc707",
+        "211bb87ba433d8195a4ae4a4aacb6e22f850263efe1da18d0a9e724b1ac91881",
+        "2b2523057bac63f514d27431f77ed14b296c9ad65eddd7648c8ca353434bb8f0",
+        "1b705c00cf3479657c6fa208f58732b8fa2dff5d6eab306d3a54fb6067437a82",
+        "1cd2ca9cfdc6414896e68e3749488f365cbb5f0bb8288d816b309c21e2454cda"
+      ]
+    },
+    {
+      "candidate_record_sha256": "dc265e0ffec9555cee0697b0be78e9fdf47c5eb96d082960c47c6f029c1c054d",
+      "input_set_id": "lit-2610.29411",
+      "reference_ids": [
+        "1401.3907",
+        "1806.07857",
+        "1810.06721",
+        "2011.09464",
+        "2007.02529",
+        "2106.06135",
+        "2108.13264",
+        "2111.13485",
+        "2210.17087",
+        "2312.01072"
+      ],
+      "reference_record_hashes": [
+        "f117dea16c9c0ba278350b3128135f65c4a0ebcefb20664c97ed578c536d9768",
+        "184f762ef94bcb0d50828684824a5717d2246a926e5e6bd57e0461a7cfa8f456",
+        "9966907390432cb163c96eaa4d78a3f0cb86d634e076bce315c7cd89ce18569c",
+        "78df2be1a6407c536569615589d8fb45626a828833fb43ca9531655932c1689b",
+        "49bdb0ccdea0b6fbdd341aa4f2a50a7853859c1e7b08e47239148dcb3cf2d623",
+        "679ee5a459bd610c18fa604189138f085d2e5fd1320421e67d442ae6a936bac5",
+        "c257868724ca4fd7274d3789d63d306a88ec3b0ad253a6067e620632999b312e",
+        "83702cc27a50ddc329850acf61426be954215a98a41ff4ccce101178a997a6b2",
+        "51f04e5513f5a5616741acd9f5ed0a73cb1f43808b0057befcd2177a03b5fcc9",
+        "2e2e9ae4bd29cf71ce30f7a761dd6c336c780b9f6ca63ecd23b4bad44686c080"
+      ]
+    },
+    {
+      "candidate_record_sha256": "cb47b5defb1324616ca5f075677644a1fae3e5859e12c3785a796d9c58d7f515",
+      "input_set_id": "lit-2610.29052",
+      "reference_ids": [
+        "1503.02531",
+        "2001.07676",
+        "2002.06305",
+        "2003.06713",
+        "2103.04514",
+        "2102.09690",
+        "2106.09685",
+        "2012.15723",
+        "2106.11872",
+        "2207.05221"
+      ],
+      "reference_record_hashes": [
+        "7bf567f05290faed62f9c6a7c4ace053321d1394dd8e6e603629c5e91245c7d4",
+        "fa4a32c8b73dd751f0dbda7ff2fde1c5511444d760f901dc7fecabafd0f2b516",
+        "fdf02bbed4714dc6f174dceb7e07dd6269020df1f755729fda8c112bc03ade3b",
+        "9e57ae32d4142c87bccbfe2476e7873abd150e46e4c22022901e39d28779f48a",
+        "3f0f1eda6504b03d4c07f93eccd60ad49593c588935318d362486db05e7237db",
+        "ed99f780b46c81329f3d9723b4b3b1541898e07a75a137d19618b2f12de2a7be",
+        "4bba038b4c22ff2e13b810fb03b7099bfa93e5a6389e79a5325e03a1d9eafe5c",
+        "f91a83efcf06c2137291908719a71f531394fdce6a76d047ecf84f784d782d44",
+        "98bdd15226e2b470c1a68b6945ae859ae897b8977b132102871e85014fda2538",
+        "0d67ae4430ef6d1a87fbb2c894e6c58f97bde125e68d6eef59d014c8e0d38891"
+      ]
+    },
+    {
+      "candidate_record_sha256": "1c6ab5462b9672691b2f805d45c9f7e2e0dc45ff3d161cc1f6d1753dc1186bc7",
+      "input_set_id": "lit-2610.28785",
+      "reference_ids": [
+        "1112.5745",
+        "2307.16789",
+        "2304.08244",
+        "2402.03300",
+        "2406.12045",
+        "2402.14740",
+        "2409.19256",
+        "2502.11886",
+        "2503.20783",
+        "2501.12948"
+      ],
+      "reference_record_hashes": [
+        "2f4c7db00bb6a8001339c3283603f072894867399f3ed94eb9994d7045929122",
+        "2f8167d4137140b36e4b533ad3489613e25a8063f8a8bd08097b191ab883d10c",
+        "ce663f8e23b32e8cae6498051f9ab55c4b0c5b40f0970cea2a169b59a1f87bb3",
+        "497da1176066f84b0d39ca2f4469c16e1fa7d7c6bfc9118fd7f565955177b053",
+        "fd670d700e78a964f29e19b5290aeb8ca0041791c7f6bd03382aeb68f7caec1a",
+        "594a5ea8b98cc34473f6fdf95761c28bdab7c665e4dc6a5d4d4a5612059c6be8",
+        "1880794a111d74a04d45affc45d7bf2ad07ec2f6e65dedc3bfc6e111a3e4e9dc",
+        "1301c0d75ccbd30bdb13d766118bec0ba0556c84c5d41101e3387a59fd565099",
+        "99f1d78d2b12b2df425169a172eb5070d112c84fce30273bbd8870f4796fb702",
+        "0496886e33ca5a06a9469a7152f29edbcac9a1a4b552feed5099f43291a3fde4"
+      ]
+    },
+    {
+      "candidate_record_sha256": "db3a78c63a3a57bd7970c83e237691d8968f326100284d89de3f42e9c3db28ed",
+      "input_set_id": "lit-2610.28834",
+      "reference_ids": [
+        "2107.03374",
+        "2108.07732",
+        "2110.14168",
+        "2203.11171",
+        "2210.03629",
+        "2305.05176",
+        "2407.01502",
+        "2408.00724",
+        "2407.21787",
+        "2410.02089"
+      ],
+      "reference_record_hashes": [
+        "afa404270e091a92b3c02105d73a3137c66177c813dd3323f1d7ac4f2bf745d3",
+        "c30c986b69ad73c4ac9b907671e1f42351041a8a5fdb604298e6368efd8ec3e6",
+        "5fba595a8fdbf5c7a82581810314e6a62348a43e068c67119cbf7c124a0cc3cb",
+        "7f50f7e276853590fa311f2a19eadd6c2e51e97f43c691360d1c79ae50dd6f0b",
+        "e4b2f751eaf631c78b680cbc1cf22804c6a703137177abaca904894b19a0206d",
+        "215370ee0637c60ccc33701515a8c6d393741930fe52d254a6d7b897a0fd835d",
+        "7bc1ea659eb0beb8ccbe7766ca0c208cdbb2fa9b29f2f3c0694172e3276ebe8f",
+        "c835623a267dd612924457f0219b6504102749e36042ebfa54f91dc97e951095",
+        "ecd1814c316e11f8ef90b92a4effcffc43d987e51b71110650ee02d708ac8418",
+        "e92ad27e63186550a593b73f563b98e1264e42d87e74ad3015e6008b6f4eaf9f"
+      ]
+    },
+    {
+      "candidate_record_sha256": "1fd39c54d017c64d902694d0eaa57de1b5f8faa1158eaf06d2e8b116d4340165",
+      "input_set_id": "lit-2610.29734",
+      "reference_ids": [
+        "openalex:W1647779468",
+        "1411.1792",
+        "1206.5538",
+        "1804.08328",
+        "2006.11650",
+        "2008.09094",
+        "2106.10800",
+        "2108.07732",
+        "2010.16402",
+        "2203.07004"
+      ],
+      "reference_record_hashes": [
+        "a0c8ab9ec538e4d915375f34bd5e91768047271b160b36bc3bf436fabd0e37d6",
+        "010f19ac4464675e534b0b2473efef664bbf769b215b294329073e3322458540",
+        "d57da3a3fe06078fc15b6cf116c28c434bb39e852a098dc3bacbe5e279fc1ef6",
+        "a80c913304595ec16e5e826d7125b886100a1a5e00b1cba449eee37214986766",
+        "8fc34d69caf9908c21e9ea77e3b97c26996e87f4f4f092cd3c6098efbd4c062b",
+        "40c7f1c98e98ce6581836691c43ed21bbf55699ded1944c67e3245d7c093114e",
+        "0b32a9412e03856a8192687996845ba60ce65cdb68dc3d13bf31ba5602085085",
+        "c30c986b69ad73c4ac9b907671e1f42351041a8a5fdb604298e6368efd8ec3e6",
+        "2dbe9ec61605b37aa080a11efde58b8d70ad9bdfd5944fbf81b950229fd21400",
+        "a8a78fad94aa4d073a070095861a184e504691ff0704efae65f4560b8a832fde"
+      ]
+    },
+    {
+      "candidate_record_sha256": "de8de41ddd25177d2a5a54ac4b5b365e789d1a6f64fe1ec5b54396ae3b000ad8",
+      "input_set_id": "lit-2610.29374",
+      "reference_ids": [
+        "openalex:W2133665775",
+        "1904.01201",
+        "1906.05797",
+        "1801.03924",
+        "1709.06158",
+        "2104.14868",
+        "openalex:W4200150166",
+        "2308.04079",
+        "2302.07241",
+        "2211.15654"
+      ],
+      "reference_record_hashes": [
+        "29c71024e3e11f7f8329ef8ad92e11c399422c950adf6d7b729f272b8df53ea2",
+        "528a94c3b22e1b962360b7fe3f0f32e724dc2116d06e5d7db6fdfab0f2d97fcf",
+        "5b2dbe4ca307f34559e6311086892dc762bda673807a234036d9350fbd395b4b",
+        "e8a7d239bfc11bfd3490f5ee71a86c8e88789a506fd7e002e34907bef180f8d4",
+        "a6e1ad9bc2af5d071553611c8caecaf94389a3b63313af33d8dc39b1032e8f1d",
+        "2d673629b9b0d6ddf49422b499d6841c2582b73668be265c1db5288b9cfa3444",
+        "3c914ce78ce982849f92ba6faf880f7d7f835e69e48f75573039a79efb60b53a",
+        "3a6c6b382a80b3119851f17a5c3b2f4657fee9bcdbf9925c36d3f5e3ff289f4a",
+        "5679990627bf0d11e61b6e62f181f28482a10735ee9a4ed4f42fd5ba442e1764",
+        "23bf92c707671125a4fee565fd7a95f35ece8e38f711a5221f816e14d98ec398"
+      ]
+    },
+    {
+      "candidate_record_sha256": "16cb044c32510557a59a0f062494a7642af9cd94b436e0dfa8bc34a6781ae262",
+      "input_set_id": "lit-2610.29657",
+      "reference_ids": [
+        "2402.14905",
+        "2407.13833",
+        "2502.02737",
+        "2507.16099",
+        "2505.09388",
+        "2407.03129",
+        "2505.15553",
+        "2208.07339",
+        "2607.03801",
+        "2607.21063"
+      ],
+      "reference_record_hashes": [
+        "a1fb6e1f188fcf2f4353464499d383dd66cfa512244c28bb831ae7a3853f6e51",
+        "8a455b21300f356b4fcd270ab24c482c1110586c7b6789a8fb3b8e4c930a8b94",
+        "28c9fd375b111cea223bb12f3dff1b40943679c72ba69a2e3d07edc92686822d",
+        "758c965cf822eb74053311d2695ab6033187e88a4b4aeb755f48617d8fa3543a",
+        "4471471c7a9029448a66ed080322312ad26a70d9b75755a5a8cd62fc58d27bc0",
+        "8f8820b20c9e2a95cf07da0c7cac97b1a01a292ded949107d0d8aad91352d1d7",
+        "5277765aa97f7e64299cc596d2336547f91fef52f855612153fde6ba594cc6b0",
+        "7269b2332f7aca9a12175529de4b52bbb1a685bb39f8606d9df2b43a35702d2b",
+        "78b73c4e2af9182cfa38189c080c0ad299cbb2238fddd810842174d2108422ee",
+        "438b9fd1c497089b29cf4ff8b68748a210ce08b39514c6140644205aa694615d"
+      ]
+    },
+    {
+      "candidate_record_sha256": "6f98274f52ac12e3ae07fc8db7b0a297c014260efd71d43037f5fa03dd4e7add",
+      "input_set_id": "lit-2512.24592",
+      "reference_ids": [
+        "1506.01497",
+        "openalex:W1834627138",
+        "openalex:W2150066425",
+        "1708.02002",
+        "1904.03215",
+        "openalex:W2963150697",
+        "2107.00758",
+        "2204.08040",
+        "2207.02696",
+        "2309.17430"
+      ],
+      "reference_record_hashes": [
+        "5c738ed232f193920a0a9b3809bcd7913def10c1dc9da992140ad7cc8dd3b9e0",
+        "895afac078e1ec555e194bfff419a5c9a4607e714ca0311626b7b3879f8583ce",
+        "7fda70813ad5d0c408c8c839d50c7a3d2bc4dae8bf6426543e18c8d15fb4aa27",
+        "c00f65fbe3d10ee29b72ccbb395fa705c49d35cb1a85ade78f331a65d1802fcf",
+        "29ffcddfef2791fcaf541c0ac78203a258fc8f6107085db3d09f596f066c1a4f",
+        "a104413d30217a00ff619f54b68e2df6c4c146c9783ef10191611f3d70b2d14d",
+        "032a2ce8b23fc99bef1bd53df9ac7d861bd82e76df5d3c301e1f4c4427822212",
+        "6dd104e1563db9b73a46317adeb63d15dcca9498a8de33a5a841c7cd09eaf5cb",
+        "4332805edf1a6c183b616261f6151fa35c068ccecc3dd09bde62f029cb535727",
+        "4d5b6babaaa02689ab23d318912cec57406f71b14af8cdb53bbc59fc79eb1e5d"
+      ]
+    },
+    {
+      "candidate_record_sha256": "e8f2470d7bc17459d5025ae601eef947b9417adf0c33be0a71e3e46f100c2800",
+      "input_set_id": "lit-2610.28944",
+      "reference_ids": [
+        "1607.06520",
+        "1804.09301",
+        "1608.07187",
+        "1903.03862",
+        "2004.07667",
+        "2310.06825",
+        "2309.00770",
+        "2407.21783",
+        "2412.15115",
+        "2408.06518"
+      ],
+      "reference_record_hashes": [
+        "30aec6a0270e5ad0ef14b2e52d05ed0ca031ffb08e2579ddc205d113cbd14c5f",
+        "cc666626ad52c1c9ef09e4cb06a35c4f71c7edc4a62582b9be1e2a13fb839a39",
+        "a7589b2c31cb8d0e48c8b5872fa2bd98ef66411545e5560b64733dea96d6465c",
+        "678361fc5f74eb6af4e23324d3123d25eaec311c7ff0592c01850c0500f1e6cc",
+        "f6b1a200047735291ce77599e999d7dad4370ffcbba80a5180e7c8a8adac0b0b",
+        "a293d2e457bee96014c5f08694eeb1eb1afac226799cd9d426addf9ea138627e",
+        "2fbe1fdcaebbb371550d9313014d9d72f59ce66cf4063f1fb6ddb2aed9c1e13d",
+        "a6316eb53ede2c70b6e7834fc98138f6f158218a43670a0d6f3cf8562b50b9bb",
+        "da83f4ba84b1f8a8473823b64d49d8b2ba71ef8f7edf3de4f596cf74e790c502",
+        "fa3c2690738ba3dfa0d4d4160be1ea58b7fdcd7c2966b8ab6286d54f46fe9e0f"
+      ]
+    },
+    {
+      "candidate_record_sha256": "e895a6d0126541374efdf13657143cec11bae5f06afd4699af9447c7cd29b661",
+      "input_set_id": "lit-2610.29256",
+      "reference_ids": [
+        "2407.10759",
+        "2502.11946",
+        "2503.20215",
+        "2503.15299",
+        "2509.17765",
+        "2504.18425",
+        "2602.10230",
+        "2603.06854",
+        "2603.19468",
+        "2605.29300"
+      ],
+      "reference_record_hashes": [
+        "57092726013ef12af2a70508c5718ec2845cd0fb7feff3a100cb2b28129f29d3",
+        "70a59ab902debd9eeead2820c3f2d19ff87ab76888911e3cdfd40f753e62cf0e",
+        "988324f55f11ea4ab42b3acc44ddb6a7f908c89144f16e66c87df159bb247b1c",
+        "4018cdf358dae6d40b56ea649ebeb03edbd8de428aae192c97f254a1113a1899",
+        "8324639968bff68789498933b82021c6bc7bf9e76619238387a610ef3ef9b5f5",
+        "fed939754827dcccf44dd7b16ce29764177d7cdd051c52bf0109b4c5e7a1f15d",
+        "44f2313f84363ccd913ff08836f94c4e6ad43946448af7eecddb50941c6c3fd3",
+        "131bb400bc1c11d6f92f847358e305ab4855be929c97a9f4dc27d297f84e97d2",
+        "c6ccc4be7a98de40537f816f6477e0fa003bcb72880e01ebb589463ba19cc0ed",
+        "b0c8e0265f610bd62e0022b0deefface4b984ce80065256519b8e3547ca0b404"
+      ]
+    },
+    {
+      "candidate_record_sha256": "035a0c56ca03d6e219f5fd143fb7bf36b8c490025ff66c96a1a804aaa94f090b",
+      "input_set_id": "lit-2610.29313",
+      "reference_ids": [
+        "openalex:W4225124952",
+        "openalex:W4319322416",
+        "openalex:W4321615639",
+        "2308.03152",
+        "openalex:W4400900771",
+        "2310.02031",
+        "openalex:W4406521754",
+        "openalex:W4406762195",
+        "openalex:W4408185664",
+        "2405.13063"
+      ],
+      "reference_record_hashes": [
+        "8a5f5ffc0883472e1f03588f1d8f89325c08d527157709f5b1919fe165290dbf",
+        "b44aea92e5ae744d75666047e20abf6ac515f7b63ac7caa1bcd8f830e962b3b0",
+        "820217e694ab8388d7a0e35f373b3cd21c3f9dac5f9b6bbc01a1afeafc915ee6",
+        "1aa4d7baf730f4abd78a9fb8af19b4b59d1f98c953a8acd0c4087285e47458d9",
+        "a90743ee6296d0845517913995c071abba5c2160f673dfa61576fb00d6e75ac6",
+        "51cf4bdba990b31c1df8986826b709a83e7418031325b19680082591eb903990",
+        "70fcd56b14fc62e8f5e3049f37fe3894289c5aabbe7a18f6eb4d2b99cdea558e",
+        "ec33afe0d67d131204c8a64ced9d9ed5dcd1bd92277f75fe368958851d5c3b9d",
+        "4c62fc7c6b47b7164ef98a7c0427f586a0e4a73fa28bff4190a197f55aed0a01",
+        "e09dcb2049024c112515c75f7edd76e652cef7cfd916ec87c43e35a2e0f10647"
+      ]
+    },
+    {
+      "candidate_record_sha256": "9954f6344cee3c666a0c15a85165b6a8131af0d5d7906d720ed433e0895ce903",
+      "input_set_id": "lit-2610.29174",
+      "reference_ids": [
+        "2110.14168",
+        "2303.11381",
+        "2307.16125",
+        "2402.03300",
+        "2410.21276",
+        "2505.20289",
+        "2504.05299",
+        "2511.05271",
+        "2504.13180",
+        "2511.21631"
+      ],
+      "reference_record_hashes": [
+        "5fba595a8fdbf5c7a82581810314e6a62348a43e068c67119cbf7c124a0cc3cb",
+        "e745ff330bb2eab47c4c119e561967475ed5e3208da7175ed7270946acb909a1",
+        "18f9e858de9f2c7fd8de1e206940a3ca667b17bd3ac6aa66e633258329338e42",
+        "497da1176066f84b0d39ca2f4469c16e1fa7d7c6bfc9118fd7f565955177b053",
+        "fb62f373204d9b1b82cc44fb5166c4825497addd52e0c867d49ba6ba383332e8",
+        "a384023d0a11baaaaaf1124654112bfdcd49a01377a456039abe1b9b74d65b34",
+        "acb46721ba78a57dd8f8cb5a3828d7654cc3425cebea46cca52ef2b343b872b5",
+        "0536c40092a7f8c3e485232c1384f6bc0d12b61267349633581f85c844b3e2e4",
+        "b04581cb8b3bc671279eb878022e3beaaf6e1142b1dc64a38d6e06a1de7ba320",
+        "81198c84f1e7c461f83f23660c18d048ae8977d1fe02b3c48fab03ee88ace279"
+      ]
+    },
+    {
+      "candidate_record_sha256": "d91f32586f0ac30c87329df01d6b1f84c769f66001bf0c2242410c3e9c52082f",
+      "input_set_id": "lit-2610.29550",
+      "reference_ids": [
+        "openalex:W2109448168",
+        "1606.06565",
+        "1706.04264",
+        "1704.08063",
+        "1910.03771",
+        "2001.08361",
+        "2108.07258",
+        "2110.06990",
+        "2203.01583",
+        "openalex:W4289256549"
+      ],
+      "reference_record_hashes": [
+        "dfc682603695cc88d83a8425d46685f483c959011a90c46f0d97cf15ec45a01a",
+        "651d50cf12bff4e4e9033163fa76a238617383d0b4f9b1d30a8a4185d1210799",
+        "9d751a55415b1a0c158b7d046a61fc8cdc318e28cc08d5cc9bc990d87f14c446",
+        "98dfc7c224b2e91f4b5b8a3a60d9c4dc7b6941fc00b3e09dab486ee0f32c081c",
+        "b4323f70630a7ad3751b950d7b586230a18fdc4c594444484b8f8471c74c4ad5",
+        "f2d26405ed55a53541a2f912396f88b9feddfacade10d2a54eeac9b5bdea77ac",
+        "bb2ecb84c5fb6551e6398c66bf206cd292c353d22ae8bd845eebff2065e2fd61",
+        "c8116769294ef7a6cae73f41dbddaf45ad7b3896d2302a30e349c92c864daefc",
+        "ac63fe65256b0af053f60a83c315a3929abcdf3ad7fdb8940a50ad03e49c6ef9",
+        "9edcc34e2d7bb7f56197733e71b68071fc5dbe51de4ac10c8e512edb77a2616a"
+      ]
+    },
+    {
+      "candidate_record_sha256": "ff12b59ded1c4a0ce25515058668c540a40a890d978fc97a861adf1d1c8e00c2",
+      "input_set_id": "lit-2610.28626",
+      "reference_ids": [
+        "1711.05101",
+        "openalex:W2949078032",
+        "2106.09685",
+        "2110.02861",
+        "2207.05608",
+        "2307.15818",
+        "2407.08693",
+        "2403.01823",
+        "2402.12226",
+        "2503.20314"
+      ],
+      "reference_record_hashes": [
+        "7903de86d66d6f6ec12465dcedd34c5abc400977e62fa597b6a1b46a77837057",
+        "37d2f6a943b00fa56adf42c44ad1f57d80552a50b42bcb1df9bcebb48140811f",
+        "4bba038b4c22ff2e13b810fb03b7099bfa93e5a6389e79a5325e03a1d9eafe5c",
+        "0fb19b1935d4027f0e46c0083171ff160938c46aff79803b20512aa3c8176a04",
+        "fdcca20ef95f771aa2c5b4dd9e15237e87fed1551b0bfe062fff52b893594565",
+        "cc52034f254e5a2536a5ae49f7d0b376b4d88ce617a8e4e80b0477b61cc0e6a3",
+        "25c02e5c55d6b1e249f4e5dac69b180351868d8a41873adb987bcc19b12071c2",
+        "091563db86f354691bfa57d794d9c587f8e0640a9e842581c2830ed445b5b93d",
+        "3a01fe9bbe53dc1e24a6a177aedb00af0284b8c8412d0ed99b40f8d763f4ff34",
+        "20c8845941a3ad3b2b9bb7e78ab9033b9690e1ff9e5da4794557745b53fddf3b"
+      ]
+    },
+    {
+      "candidate_record_sha256": "02155953285b91a9e769933e0c3cdaa4df94cf89055d918f15b3e61ca3346e29",
+      "input_set_id": "lit-2610.30026",
+      "reference_ids": [
+        "1912.13318",
+        "2204.08387",
+        "2302.10205",
+        "2311.02262",
+        "2408.09869",
+        "2412.07626",
+        "2505.12837",
+        "2506.04458",
+        "2604.08538",
+        "2606.09700"
+      ],
+      "reference_record_hashes": [
+        "60260e715cb5bc6384f15bdf60d2825c8b0edf1dbd4e5358276c28b219512388",
+        "6a7ca20c478bcd5421fefec9e8191d65a7851827ea5da740a720af67cbb8b350",
+        "2fb5d0d5eeba3a0ae9e6b307965c410a0e033445af3f0620922b395eb54e03e6",
+        "313d171aa2b28c193f0c4b7cfea6528df93bf61b0ba05620b5f5eb562a075f3f",
+        "2bd657baa93743eb2d47365d09b8c9309ad38a1c013d4c0705376827026e8df2",
+        "647f6e5c1c4623a342503ec340bfa3dfdeec078d02f7219eb422280262ab7d1c",
+        "cb39b5ebe8fa7beeff20527d3ebc6380c24f43a81bebbc27c8c7d594001e5e9b",
+        "6df3ca3ffc6525aff1bce5fa320093c8ef9f96f2d3b4d6b38abf66a51bf9afed",
+        "8214ef1739b864045cbbad02d907fabc6823d9c73f34dbeae10e52ec6f817237",
+        "81a4a227a273bb4dd947cd5ce0cc38eb23506e00e6af8c92f0e3cbd9e9fcaf2d"
+      ]
+    },
+    {
+      "candidate_record_sha256": "ab436e2f3c8be5e5be70571024024090461ab91a103b08291d291fec9707b000",
+      "input_set_id": "lit-2610.28985",
+      "reference_ids": [
+        "openalex:W1967554269",
+        "openalex:W2000214666",
+        "openalex:W2023901298",
+        "openalex:W2043896016",
+        "openalex:W2062989416",
+        "openalex:W2081184998",
+        "openalex:W2099973502",
+        "openalex:W2102693640",
+        "openalex:W2133406706",
+        "openalex:W2148952796"
+      ],
+      "reference_record_hashes": [
+        "266fb056ecfe6921f0061fa4c5313b0c2ffa7af0da258750476688ef7ff840cc",
+        "f2f8d091d74a5a2485cb45f7ae25d03478334b0fcf869a7c5dc4c8e802dc3f6a",
+        "941aa69b7165fa3ede7228efd37782ffc5a21e4c18e428473facd193bc2056eb",
+        "95d8c7362d8e78bca3eaf40ae4f82a2fa93bc1cf9c2b18a3cfe213da7dfc94f4",
+        "45b0861746ade7b0de11cd3a12661881fbbbc386565fe8b1d320d90e56d5ed0c",
+        "53277c2602ae76066bc4acdb8a8232aad9b06b1848c7b3af340d591b48f94598",
+        "1dfbdffa327184bb8eb27f972de496c1438852e484f4f4070d4067bb8a850451",
+        "e75374808b4560edcfa859c42f6077df6cea19191967995044524e560f81987e",
+        "712f1e498d847a1fb0eac222234d4003e7867dd05f6b346d584a0c3fd32e24b4",
+        "d24fb2d0e53802421ee81bec9b8a17cfd129e94a43ea951b25afee8c321780a3"
+      ]
+    },
+    {
+      "candidate_record_sha256": "50c11fd52241bdab9d6067398df5702cf50f48b1243ec6bd91f95f77256dba31",
+      "input_set_id": "lit-2610.30103",
+      "reference_ids": [
+        "2403.01777",
+        "2510.16476",
+        "2504.11239",
+        "2602.15763",
+        "2602.23729",
+        "2603.00729",
+        "2605.16299",
+        "2605.20876",
+        "2606.19348",
+        "2607.24653"
+      ],
+      "reference_record_hashes": [
+        "cafc821b756b852b8359d95fa204d709e118337da0b58b090e29e92c4014b953",
+        "6afd7d9a008b7553e1752a352a58eb2e3184b719b912ef21e888d5080257591f",
+        "f796ce974fd09418de9e371ec626a4dd514089b9543a081021427138419a3a4b",
+        "24ad666a694aabf3103c0edc4bf434374c577f61759ed09d008c29fb861e6cca",
+        "7227b26a918fcf6c0fe02d25fb5ac1978e3c253576f5ff45d08250d609718534",
+        "523dc5438cc2326dc23ba4f788456440942317a14ad2478048804da402e4ac8f",
+        "cad8a58838e6104fdcec1874c5674476a5a478b9c5dab73e646379945d2b5001",
+        "8810378797ace5855d6cd2eb77fb8f0b35430ecb84af550b28583dfffcd05eca",
+        "593c876cb978b621d603dc0257aaefd1c01aaf4301aff3c01768db19230a6c21",
+        "6df265604299d6c80a3b3947cf93df743c368d3a9bffe6ef90b9b6e0cc762b99"
+      ]
+    },
+    {
+      "candidate_record_sha256": "d491002456472ee896df34e1a5f1cec39ea58712e48769a12b88a1507ae24ad2",
+      "input_set_id": "lit-2610.29136",
+      "reference_ids": [
+        "2211.15089",
+        "2502.06768",
+        "2502.09622",
+        "2510.04268",
+        "2508.00086",
+        "2505.13447",
+        "2512.15745",
+        "2511.13720",
+        "2602.09651",
+        "2602.16813"
+      ],
+      "reference_record_hashes": [
+        "49ae321da2fea280434be60dd370655ba8f4b9e9d917c1fd5f23184d6c36a09b",
+        "f6ee50c87b12fc825c60206d238167d189b6298cb0462e7b087088e5e65acd06",
+        "5f6f49c41e24d624a235e8e1a275b891895a773155db71d5f7ec27815cfb4a85",
+        "dc1218844d5d1a2a6019e073f48913337d6af0a7e17bf93050ad3f63f4b1d670",
+        "0debff6ddf4089e9a98c29e781b77ba1924991f70182d76b3bb10af69d31205d",
+        "1b117662908cc8b09e4c021219433665fa51fe2da92fd4f557a5eaaaaa1ba517",
+        "4d5f118c7c756d39a4f9326fcd6462c0c981cb03fd118a6442fa470b3bd181d4",
+        "d81d91a4ea8dce6eefc5ca975c89b57d9d8b157575ea0bdc5edea8b0898ffcc4",
+        "32879541b330cdc2fcbc7b953d0bfbe711a73f8b258aa5d84f709c3dc8a07778",
+        "6635053ba8a59e1b16c44e136339316614adfeaf5d686fe32647149a4de9bc5c"
+      ]
+    },
+    {
+      "candidate_record_sha256": "732b99c7dbf08457dda80d61e1d5bcc496e3c2023eb72047b2c0ad90bab352f2",
+      "input_set_id": "lit-2512.24152",
+      "reference_ids": [
+        "1507.05021",
+        "openalex:W2015810892",
+        "1909.05503",
+        "2303.08797",
+        "2209.04747",
+        "2304.04095",
+        "2305.16860",
+        "2306.09251",
+        "2302.10249",
+        "2404.07771"
+      ],
+      "reference_record_hashes": [
+        "349d30bc05b328e8f1a0526c14b75bd3e2f5d7a8f429874166eaa1291d45511c",
+        "36761ca5297cf37398b51c26a6e9466f046c9b0530f583c35edc5f082e2a351e",
+        "7f25e8414f2f18cab3799318f2452cd6e47634ecf37d2234bffd8570ba938789",
+        "33e2cbd3c95a3d0316fc78aef80fc00adb9c8049872fa093dfb9bf208d79b5b5",
+        "08ad4468a49d445c77533fc803d27db2c5dd1f672ba10d6d1b0da68b12d01887",
+        "f2c88e96f3b35dd98db8eeb707f9ec73d24dff2b505f56d98eeb37e7b3bdc4d0",
+        "a98629317619b10bcf2c96c780c37a732f2e9d23953335bfde0740f7ad0602bd",
+        "80bb5de9a35423e197191a3e353a523c36f996fcb93ecc4b2208b335f984743f",
+        "e87bae03b6f24b34ccacbfbc6fff07f091c9e57828bd405b56ce7a23b529d591",
+        "a5bf5d35f2c2714ba018f1555db16607fa76e5cb671a1b0a96c10999e1f9e097"
+      ]
+    },
+    {
+      "candidate_record_sha256": "5dbba3cc6bc840941099dd72567dea6a3e174cfb75dca5696858a60293d8b68f",
+      "input_set_id": "lit-2610.29303",
+      "reference_ids": [
+        "1504.04909",
+        "2407.10362",
+        "2408.06292",
+        "2410.07095",
+        "2409.07703",
+        "2411.06590",
+        "2501.08603",
+        "openalex:W4409201831",
+        "2503.23037",
+        "2505.22954"
+      ],
+      "reference_record_hashes": [
+        "cc5a748d274ca8b07284f1c043b31f74479fe37dea2ca7e24b09a79997fc714f",
+        "f14b79eedeb54b6f3f10b8b5e02e7d75f9ffe773e52ed6c6a042ac2dc6be7f7e",
+        "c8f036ba5caebb17ebf0b2d08fd55d5a9525e1694341500c48c255e8962d750a",
+        "bd8457f0b5d29e6b803641cf54afa0ca855fc4b788544df7c88579a18e609fa0",
+        "ab26a11511bf0214510ceb91a0ea797be4a5fb72fe6ea53733b03de5522beb54",
+        "f2af2307cfec24df6c26ebfa34132bb3042377691e2fe9a48ec92d0c6989c077",
+        "38c29c1565b8261ddf4d4ae2214ce3ed14e6661bd599bf45e2fbc2273d716ac5",
+        "960f43db60b7aad9f2b6e5445f9053a5d902d5ea8a9ba75f171f603ddf508e02",
+        "4c9373dac348fd213e93e081ec61d000f752a6fa454b56ecefda6c3658174454",
+        "9d3d320e5049c87b7848ef68a2620a7986b19a0728118acdf90393fa2659adbc"
+      ]
+    },
+    {
+      "candidate_record_sha256": "024e21d1ef9f229d6f518bf6c6ad3b8f3df493d42076551c6d8cdd286048f0ac",
+      "input_set_id": "lit-2610.30105",
+      "reference_ids": [
+        "1406.5979",
+        "openalex:W2039522160",
+        "openalex:W2341171179",
+        "1611.02779",
+        "1812.03079",
+        "1705.07834",
+        "1910.00177",
+        "1912.01588",
+        "2102.02872",
+        "2107.04034"
+      ],
+      "reference_record_hashes": [
+        "1bd7826986a738e0394fe491c84c29868e2677de09628fad1812a7d8c4620bd1",
+        "2f62d4e301ac8d058cb145dc5472b64a8338ac6c75085173182fe6772f7ce386",
+        "1b59b17a4fa8383e8c82f12b837a0f721bf772a0998b578136579e254c62eefa",
+        "98d7fea6fdc0479c674a6788ef4fac213a71efc09977cba7dafac70ed49d9c9e",
+        "b75e215e633c99f001f6377a96cb30885c301d3ef8f7ca3bd1683474ad75e99e",
+        "6cb71c9d9056db23af34203e00fed35821120da458233cc78394c58350a712c2",
+        "26d4beec1758a756ee5b6c9d80a0da974f78b5e8941fe8355ba123fe9f93bb35",
+        "5779f5834434f0e8d395d4f8ebc0e97c8139b4301932c30589d3e9e8ca6b5c9f",
+        "02d0f36cd82c0fe46adcff9cf15dfa1fa26f7a53de836c543876a76400a9a1ff",
+        "d9ead897cd4efff9142641183cbab4946d696796f1b241ec5eb9caa6d97db112"
+      ]
+    },
+    {
+      "candidate_record_sha256": "82643094b8b0cbb61d1ba8e19350e948db8af7471aaf15aa705e1204521163aa",
+      "input_set_id": "lit-2610.29618",
+      "reference_ids": [
+        "1703.01780",
+        "1708.02002",
+        "1902.09630",
+        "1908.02983",
+        "1910.03997",
+        "openalex:W3040318838",
+        "2010.04159",
+        "2010.11929",
+        "2210.15176",
+        "2302.11803"
+      ],
+      "reference_record_hashes": [
+        "8cbcea0b9c2c28eb88fc07820fd0dc31fca3c10db101659ebd73084606d1e5e1",
+        "c00f65fbe3d10ee29b72ccbb395fa705c49d35cb1a85ade78f331a65d1802fcf",
+        "e962d0cdd6e9a1fdf2e04011ff657058ba9e783657990dcd12326501d17e9041",
+        "e11f258701e547f161f87b94f8743f7a3bf1488035020769f4ad7ecd5dbcc1b7",
+        "f61396d717cbf2c619482dd7c5e7b1af95abe98a3265537c70fa39941d3b5eba",
+        "cbcec55dfa4c19cdac2d0bdfc6215211360610e32cfd8e06005ef32eccb0920e",
+        "24c044d948a88fb83513ea039b91f70998c821e1f2aa7960a54af41dd8c807ff",
+        "3a256f41251b6bcfe4c9c76c90e531a0b75802f76f78ed7ced5c5ca48241b446",
+        "c34fc60540221fc183032d541405a860292686438f3e80cdf13f171f0139cf3e",
+        "4008195c21f5f01ebf78590c8cc751b5deccb00bfc6261f1255a0825ed468f1b"
+      ]
+    },
+    {
+      "candidate_record_sha256": "7bcf912be9e9f68565bfcd6b4062b63028da6d2861986a7f3531dde11a682440",
+      "input_set_id": "lit-2601.06086",
+      "reference_ids": [
+        "1806.05622",
+        "1912.06670",
+        "2005.14165",
+        "2010.14701",
+        "openalex:W3109943296",
+        "2112.11446",
+        "2205.01068",
+        "2302.13971",
+        "2303.08774",
+        "2309.00916"
+      ],
+      "reference_record_hashes": [
+        "6d1e832033803e6b19117b94459e4fd4fceb2d154f6b77fdfd6e4481443331ce",
+        "9fd46fd5fa7be433b1ff37b2f5b95a21587a27907852b9cf03192799a458c09c",
+        "4a79c45c9051ed2b5ad55c0ff6e984e318a2afe9cea4b44aac89853e70d5cc09",
+        "fd48b9b078b0c40a4573463576e1bffdd29e50a3a5b6a1fb284e609cfc10eb3b",
+        "834771cde0269a037b8364eb2535529e00f57e5fa003fae352f8355a5cdfe6bc",
+        "0b39e2ba2790d996dea6832e25177b5217a562c5d40f1fc2f6afb0e13aee9943",
+        "965d4870e7c22095d7d2a6e657efb88105f21091e1cfb10f6f3b8c4389e6acfe",
+        "d04becbc6ab5071f15b3ab6be17223a788e810b47d0b9a0f5ba5c5c834806de9",
+        "ee8eeb3164f0cfba705c4b540268185afe7b9b2f5e4618a228161b34d72f9d06",
+        "f782fb942dbdbd1d9cd34d4bdea5005a52c4b63e735279002144f683cf270897"
+      ]
+    },
+    {
+      "candidate_record_sha256": "6b9c0bbb1c802b797d73f5f02eb1d6229c5effad7aa1b74d714bd66f9dcd9e77",
+      "input_set_id": "lit-2610.29207",
+      "reference_ids": [
+        "openalex:W2084007633",
+        "openalex:W2084413241",
+        "openalex:W2779812635",
+        "2103.06944",
+        "2106.15110",
+        "2108.06314",
+        "2109.06157",
+        "2102.01951",
+        "2205.11388",
+        "2207.05221"
+      ],
+      "reference_record_hashes": [
+        "d24e8b69262f09f43f5aa56665b6835830e1af715e6abfb0e06eee336dab914c",
+        "2b2b7dae0584b4d8370d1f4e196a6683418556fdd2d4d75bb3e55ded9b00187e",
+        "7bf85be4d667719a511bc9319a1782e08c2ebfd9bc79d7c046ab2073e8131fb9",
+        "ede486de17ab98f308add732fc5824663852d4c1605026458e29d6b68535feab",
+        "f3cded0256a0791374cb9325fc6ab73419b23df1ba6aaee024e6442a0b836204",
+        "00c447ec66b313bb5d87ba5523c3059491c56ca2337c8f4b61bba057af42488f",
+        "b6e657bcaf82842bf523947866bab028690031a4ab6a8f7f94fb890bf3d70aa5",
+        "40a5b46cda126a92ff8b3aa0dfc0058e57bfc3383ce8b21eddb7d166fbaa6a9f",
+        "137024b80ff83cbde55ccc11f712caec437518d1c6fde3870a5a48c71a6828b7",
+        "0d67ae4430ef6d1a87fbb2c894e6c58f97bde125e68d6eef59d014c8e0d38891"
+      ]
+    },
+    {
+      "candidate_record_sha256": "b52521d0277328537b92855c67cb1981b4014fa5bdffa9a3c417684836ae5ea4",
+      "input_set_id": "lit-2610.30042",
+      "reference_ids": [
+        "2305.16291",
+        "2402.01622",
+        "2406.07496",
+        "2506.13131",
+        "2602.02919",
+        "2603.03329",
+        "2603.19461",
+        "2603.24517",
+        "2603.28052",
+        "2604.25850"
+      ],
+      "reference_record_hashes": [
+        "b7c48459606cfa214dd5682c7dd94911aaaa2855746342edeabb7737ec52987e",
+        "4269c93eadb82f30f84c1723c12ccf9c41fce68922a598c0e282c3b4eb56910c",
+        "7381403bf7383b43b14dd2913fb4ea200b20e91a3a49f566a7c60273b8321808",
+        "8fa72c59d54e79d5936e3e19b9555cefd2d2f8f2f0cb62038394e31a2d0ea956",
+        "9eaf8f40c69583d1f592969baf93493f7a7440db6cdf0bb42930e010254bc0dc",
+        "b22ebf8f4c06afe147b5a67ee288ff040ae8634a01b0d64356dbe058e7d6dbfd",
+        "d69d174b94242e68aacb5519bbf76d514c3aa154e393065e8e2670eafbd0de56",
+        "e4edce051a0c0424d5345319d3b598a26282000f4c47934357b202c50d8625f0",
+        "d80022f54ee20037f7d1377a24c472f2c44098f661511cdbe2b177ecf4c4606c",
+        "81bac0ad920f7b532cb5709b24ce624f8ca7f73496ee0793443fdd695429b0e1"
+      ]
+    },
+    {
+      "candidate_record_sha256": "71db552a28ed7cebeaa7bbc791f63c8ba8935ffa9f62bca703621f129a7769e8",
+      "input_set_id": "lit-2610.29594",
+      "reference_ids": [
+        "openalex:W1968315983",
+        "1312.6211",
+        "openalex:W2165698076",
+        "1510.00026",
+        "1602.08327",
+        "openalex:W2342853071",
+        "openalex:W2460055519",
+        "1612.00796",
+        "openalex:W2975910754",
+        "openalex:W2988481796"
+      ],
+      "reference_record_hashes": [
+        "a81fbac95384e7b72461cc4aaeb296152330446f07a4d1dbb1c3fb0fc1e9837c",
+        "e9cf44d525f9e6cfc43ece6844b06a45e5851270fbbfc44e1be461bdd47c401e",
+        "66711b8471dbe5fa7d73859550a4c8dba05b674d2144ed6a09a14918b92ffd0b",
+        "a7f59b0e73a154f5d2df4dc735b13ae8d3c82b940f0c303200cee7ffe413538d",
+        "10e2061efbabf66795ffd7760b79f8f9e4308b20407d0dd17555418f0631f307",
+        "efafd1d10a436ba402cf8159f5578e6ed7999259ea56844bbc3ff98c5adf7882",
+        "2c8e3877b1e76f5d3c6cff156f375e0cd5948b552f295584f0f22cbbb252c0c7",
+        "2df4fe3dcb7690b5d5f671e007fc9fdb7e6d85fe25f295a7c1acf13ef0220134",
+        "91d311550391201facebff1ec2cdaa68145b381fca57f928adee0e9ceea879fd",
+        "22baca69f8e9dfbd2c06c702d462bc6a93241fa7efc9f31cfecbde03db88dbb2"
+      ]
+    },
+    {
+      "candidate_record_sha256": "4594841dadd32c705da91fec7407b01884395c5ebbf07ed5769f0938516f4d53",
+      "input_set_id": "lit-2610.29968",
+      "reference_ids": [
+        "1406.5823",
+        "openalex:W2164777277",
+        "2101.00376",
+        "2110.05719",
+        "openalex:W4281261852",
+        "2310.06825",
+        "2310.05057",
+        "2401.00595",
+        "2403.15412",
+        "2406.09043"
+      ],
+      "reference_record_hashes": [
+        "23cf2db4a2f76e4bd1486fecb3368603094d72aeea2863111060e78be169a470",
+        "432b38c8023606983a6c58898540c39ed220a0f73da1cb210796c37ccf25c979",
+        "261de50f4cb20bc46e1d9d41287f9468b477a694e6527916ac52be62d01741e8",
+        "a565f9ee3ab7c728ac7e7ac3048ef2fbf992a135aaff9877ba242e99fd145c64",
+        "eacf56cd8a2a3cde89ac1f29cc30dbafd1eed11050001ea89764d8487346a76e",
+        "a293d2e457bee96014c5f08694eeb1eb1afac226799cd9d426addf9ea138627e",
+        "f4a9ada77fdcdf2f5dbbbe1a531f01b39718ee978706e1faa99a46a7ad72a221",
+        "a2cec77d8697126ceb3c0d70538ce8449db1893375893ccf9f9468124360ee1f",
+        "1d65f57193253fd21344a16c5f91e727deeef62315648662d21a4c47089317f4",
+        "922032a4e5523273a725f1a829d40e43fb52fa6cb1994b838e03340d02838253"
+      ]
+    },
+    {
+      "candidate_record_sha256": "b985e31e297c91b5ed98dbb09e2e16d88ab6bff3e97dd07f6dc3bbc93116516b",
+      "input_set_id": "lit-2610.30086",
+      "reference_ids": [
+        "openalex:W1964746686",
+        "openalex:W1970127494",
+        "openalex:W1979544533",
+        "openalex:W1981368803",
+        "openalex:W1992985800",
+        "openalex:W2031676311",
+        "openalex:W2066061312",
+        "openalex:W2083222334",
+        "openalex:W2395243079",
+        "openalex:W2582500555"
+      ],
+      "reference_record_hashes": [
+        "0d8dc4fd8f717204fa94da923b856cbb8a7d314e8758cc1dd2501f0e18475e20",
+        "4e3cd4f08b10e7936950910e4e7594fc48a2b062713058a499ebf8116b363d97",
+        "86f84cc70bbd2cbc6f135bf88fb02e6fd811837403c4ae062b6d8fb729b01099",
+        "03f4d78c952bb0f095afc88d0089e011684e5242324a3621fdf6bab880c09aa1",
+        "e2df4ffaec97e97e32e5707d8a16e8262896ac48d16dac768eb86dc1bafef86a",
+        "18ef6c69d099d2a201c46e07157115cf712f37d0b1278666d94aac41ab2ac90d",
+        "db33add0b10c9cf28391d78e0ffb8340090afdee3f96a2babbe99e97358f08b9",
+        "d4e80ee6e66020bd6b756c3434467e1442ce13abec2176b52e63e7ddf032e735",
+        "58aa73ad22adf36a1a233746ab478f8feb6e33bb9dc79a84a02fc57bf0183939",
+        "da1481c5e0a395a5469160f17169f777a69fea2145f9387f842916ec65254d01"
+      ]
+    },
+    {
+      "candidate_record_sha256": "b65abd7b17ef089b1d08f91a267e75ac7e8334e5f804a4a9e813857a5236404f",
+      "input_set_id": "lit-2512.23864",
+      "reference_ids": [
+        "1803.10122",
+        "2203.12601",
+        "2212.03858",
+        "2304.13705",
+        "2212.06817",
+        "2402.13232",
+        "2405.12213",
+        "2406.09246",
+        "2406.13640",
+        "2410.07864"
+      ],
+      "reference_record_hashes": [
+        "c6d6e8045ee9587df534cae0f5622efeb77914a97a2608d6d246d0e3b1e03ca9",
+        "bf4e9defd2cddd16e8fb6bcf1c04216046e5eb689fc10a58c36cf252ed84cfc6",
+        "fd3a0dd5c2c42a25e55494c711a79e6d1179edc6bf5bf8d861bba48c1f9e137e",
+        "a147c513590427e240858063b12da14505f4526a2ef5e468ebea28691f31c61d",
+        "01bfe2b43ac126e12e89a48ee278d7aa76c8cedd10f482f32c062ca6f0b907b9",
+        "67d8d52bbf36f38de18c205648e1024a1991ef6b47383c760b778cd95af7613f",
+        "63266965526e69c6c67dc986e8a424ea8e5e52a485dfff5b6e55c431cb8191a2",
+        "79adb95dda70c31c077758c3ae31cb836189a89babf9f5d3303537efaf68cc01",
+        "ff059b3fa3b79019af60bed6704bbe7f07508905369694a1b9632296d486679d",
+        "9bf220523dc18ec8f3e05702e5cc671a4103b8225df8930ecec344830537b2da"
+      ]
+    },
+    {
+      "candidate_record_sha256": "ee200902974cdaed6a29bafbe7c45d0e1ff216c3f2820415105aed30c91b75f2",
+      "input_set_id": "lit-2610.29107",
+      "reference_ids": [
+        "2105.05994",
+        "2303.05512",
+        "2303.09871",
+        "2404.12379",
+        "2406.03697",
+        "2406.04338",
+        "2408.09446",
+        "2501.18982",
+        "2506.05480",
+        "2601.05368"
+      ],
+      "reference_record_hashes": [
+        "4b7ac8917e60bfe2490b385281f09d841f1bff9981212b589cdf7e84d9b82f2e",
+        "05c937b7892925f6bbdc4b55df6d0d40863771159d91ea5e955ff964b9a23ed9",
+        "d83ef9eb6f821133c72ab939482a2c424b011527a28bd9174d3402bfccfaa641",
+        "ca12d3aa08051cd164fe771782931915c68f9bbd09cfafa25e48c6f28caf00db",
+        "a6a4d531dd9cedb1f82bd409815101271c94bfaf7c6ee222804230c7c0144ee3",
+        "099a4fc36509d16879c6c6be2edc56ce40800d5b8e28c44c0ace79081115dc3a",
+        "cc9580d16d6c2ca03c3b927067ac00c35670441b87756b8e8bdfb5e646aa258a",
+        "3992068fd32e52dda659e50e8f0034266829ded7af81bc88de13906c1d0b54f8",
+        "beec84427de07fb0b91fe723ea3c10376869dc65444234f4b78df552da0fddd9",
+        "e1ab1eedee1fe6a089d4c04e6a7d33a8e3cccf5212b222c73704953f6e0156c4"
+      ]
+    },
+    {
+      "candidate_record_sha256": "51f20c0cf32c9601f2403d70c3bd287521612dc0ecde1596be59b0c8a5a93928",
+      "input_set_id": "lit-2610.28498",
+      "reference_ids": [
+        "2005.00719",
+        "2006.00995",
+        "2102.12452",
+        "2110.14168",
+        "2209.10652",
+        "2303.08112",
+        "2310.06824",
+        "2401.03735",
+        "2405.14838",
+        "2402.16837"
+      ],
+      "reference_record_hashes": [
+        "e0bdcfa5e3dbf770b489ed164d4d9f01453bd13dfc848dc5c4448dbb2e44b1d9",
+        "45a49ea3e36e30763793af4ee78102ac8eeb96db3e8232254ddafca4bb4a7809",
+        "01303416f0502b50ce9f7b69afee322723efe6a4504b25c01c72bdc5c4a2a9a9",
+        "5fba595a8fdbf5c7a82581810314e6a62348a43e068c67119cbf7c124a0cc3cb",
+        "e32e2072c76c5269f5e8756de88ec21af25c7ec1e0f077996bca6820c97df7d8",
+        "3fa45e33af7a7e79263c501620997802415d0e409dc354800672e346ab159f70",
+        "77137ced9a2495bad8120601bf286aaaa5823de2dba1539071165b64279becc4",
+        "cff41cbd15500d787e4243824e66c800fc0f2102dfdb5a799913fc671a694f85",
+        "46e87b05cd46fd1c2398063726aaa26086e82bfd57a1bd1c301e0e7ebee06015",
+        "4bf47a65be0791b6a1abf3aec231a6e285a4d2deb954b15025bb8c163cb81b09"
+      ]
+    },
+    {
+      "candidate_record_sha256": "d04d4e3b3d62c8dbe9cf2837214064d5fce023965f740cdfeee504c30abbb7cb",
+      "input_set_id": "lit-2610.29348",
+      "reference_ids": [
+        "openalex:W2100556411",
+        "1711.04623",
+        "1909.08053",
+        "2110.06914",
+        "2306.04901",
+        "2403.08763",
+        "2404.00522",
+        "2404.06395",
+        "2408.11029",
+        "openalex:W4404782653"
+      ],
+      "reference_record_hashes": [
+        "c68aebd57862e453b6f3c5646ac9133cb2fc9cefb59f7c0ab1902bcc9248e8fc",
+        "934f68d5d314562c65bbaf1dcc8768f94f05d41ca66215c84379180c7faac77b",
+        "cfe15a39b2d5075160d5d255f6386e7c1cfdf39208e7a2e4e0eae157ecadbc69",
+        "e7602b3bfb1f5aa732aeb732408e62dbf4743c2380dd4a9872ed154123842143",
+        "05736140b34f5838247b6620f6fefc08d0c9d5585bff24ee4bca815055de0df4",
+        "371ec422eee03d0725d22b70dfac48e3f42e018d1f7ca2ab467b007d987e0228",
+        "260f77905f7c114be73ae15c8eef9a6398052662feea2d5eb0101fed134946d4",
+        "5ac7b3762457601e6acc02ccf0b9465fb10b622d1c33676a3b841c74ad40f9ac",
+        "4263e44eb48514043e8c09deb66eeca5d06bf2a42e919ba984409f8c8a4daa59",
+        "ac3228065ffdaa5ed8693e26f83e78ddcf19751023f194a1ba76ddd790de8539"
+      ]
+    },
+    {
+      "candidate_record_sha256": "624ef343dffbfacc49029e3248b339baee056b4d73153458395583d52a3d4abc",
+      "input_set_id": "lit-2610.29909",
+      "reference_ids": [
+        "1302.5125",
+        "openalex:W2024626809",
+        "openalex:W2151084831",
+        "1202.3732",
+        "1907.10121",
+        "2207.02754",
+        "2504.15240",
+        "2501.08501",
+        "2512.03476",
+        "2604.23765"
+      ],
+      "reference_record_hashes": [
+        "d3adb8617acf0de4117bc41a29b40e3d6b7cfc656aada15e6e0f71aa9462d883",
+        "d4ab680aae218b0cc1727231c39b32562fb3488191dd1dc81effe7041b0e8efc",
+        "0769efe3cde0251e58c50bfb6d4509234e12a6cc6957d96d28777dc2ffda9356",
+        "48e58b19f52ca3eda6f19cb36d50eb6d66f3845546c2b8e0c980f0ac4a4c21f8",
+        "7f76bbccf7da85ed0313186fd6f48c8976c8245e95135e294bd6fc69ed5e383f",
+        "8ae0222e4e1c1116d576155621eff7bd80cb8c69fce6ed97e7a9a8866c4d0d51",
+        "9d9a84427fefe772943462d5cc33b7e39e76e40a5bbfcdc7d06414fa2a52a327",
+        "f35a3a02dfed48f1badef4ea8e01990f8a2962d5d0bcd8921920b2624942e084",
+        "ac6604198e39b341cb88f3cb1b84485f1722decc56306823f383a3041dfb7a02",
+        "007799f557028f042cd162c51a01dd603b21333050e7b3a66b478bf0c40f5bc3"
+      ]
+    },
+    {
+      "candidate_record_sha256": "2184d8b1d93a3a2c060144ea2219ae5530b2b852217a4bdbd2b7b2d04b2d04d4",
+      "input_set_id": "lit-2412.20662",
+      "reference_ids": [
+        "1908.04729",
+        "2305.11738",
+        "2401.04398",
+        "2407.00956",
+        "2403.12895",
+        "2412.04272",
+        "2412.18176",
+        "2406.01326",
+        "2411.15737",
+        "2403.04473"
+      ],
+      "reference_record_hashes": [
+        "9f4776ff3910929bf89b8a562de7dcd640675a896b0ef5a17063fc040a7c6f7d",
+        "d7d5663e0360d14348bf38cbd143766ee52b336d4b4603ccbedc3d719da20b41",
+        "fe003fa1b7bb01c177241e7a8aa33b4c90f74a894b119659ea9ecffeb3470d79",
+        "29bf76c41260e75078f6ef28dba8e1f15b5df6db74e38b895259a246774694c0",
+        "c08bdfc5a700fd383339e00edc5cb909091860eaf09831b0694c79d49ff3b118",
+        "1254b8e96dee2317224a0675b5548162cfcb78c23012e6d10f40993fd25c9f60",
+        "a7aaefdb69130ff38ab2c7060b838d34ed179fc8e99fa9fb411d17d4c911acaa",
+        "8b9cbcc6a39fda980385302ad61fcfdf62c01863020e3f01ab3b121f6ba239c7",
+        "a34f7089daaf35b48ecaa8dd0736fb6acca8513a42cd07244b5135b504f8c481",
+        "d6ebeb21cc9124de3583c75e244756300d09f370fcd6922fe00c566c4d3146bf"
+      ]
+    },
+    {
+      "candidate_record_sha256": "1347ee5e87b584cbecadad18dc2ac8eb08f6159bb087940bdb2a2aa342673d32",
+      "input_set_id": "lit-2610.30099",
+      "reference_ids": [
+        "1907.11692",
+        "2010.12421",
+        "2204.05862",
+        "openalex:W4283168218",
+        "2302.13971",
+        "2303.07152",
+        "2310.07367",
+        "2310.16960",
+        "2403.00409",
+        "2410.12832"
+      ],
+      "reference_record_hashes": [
+        "7ed5b704f12d3347203dab5f2e1106b485278d0edbe26d9d158ed0c1cf39135c",
+        "bbaaebc47a53ddbac8710d8a4e53a532aeee1b2cd29cd68371257ae0c31ef7c7",
+        "af75ce98bb405bb6c291e3c7c1063dff74d7096d15c66bb2b1126a2f84229cfc",
+        "627bc320b4bd7a3b2c913b3e1cfcc9e322d87958771eae11c7896cf24938cbaf",
+        "d04becbc6ab5071f15b3ab6be17223a788e810b47d0b9a0f5ba5c5c834806de9",
+        "d645fc76932dffe225b4bfb634432af2136462df4ee1883e28ad88b204c0a2c5",
+        "a8efabd6d3012998145ac89884872a6385bc10793f98ace9f63e31aeec6f2041",
+        "d49c1d7835baca73e866fac56d3d81505a83016b3ff97b2dcd76fc6d947fa52c",
+        "8016d048676ccd0bc24583417ade190e4c5eeef4a2fba9bd8de80f78c061b7cf",
+        "5b4d5ac2d174cf1591b64adf4cdf7f24e1cd9daca2c14f4570ea60c0e8b0a9f6"
+      ]
+    }
+  ],
+  "status": "pending_researcher_approval"
+}

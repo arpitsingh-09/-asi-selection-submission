@@ -1,0 +1,16 @@
+{
+  "history": 25186,
+  "test": 299,
+  "required_items": 25485,
+  "complete_items": 0,
+  "claim_papers": 0,
+  "missing_claim_papers": 299,
+  "authorized_now": false,
+  "status": "prepared_only",
+  "model_loaded": false,
+  "offline_tests_passed": 87,
+  "protected_source_hashes_unchanged": true,
+  "task4_unchanged": true,
+  "inference_executed": false,
+  "evaluation_executed": false
+}

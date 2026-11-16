@@ -1,0 +1,192 @@
+{
+  "queries": [
+    {
+      "arxiv_id": "2012.15470",
+      "http_status": 200,
+      "paper_id": "2012.15470v1",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_arxivid_raw/2012.15470v1.json",
+      "result_count": 0,
+      "retrieval_started_utc": "2026-11-14T06:31:48.881596+00:00",
+      "retrieved_at_utc": "2026-11-14T06:31:49.937810+00:00",
+      "returned_note_ids": [],
+      "sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "title": "Audio-Visual Floorplan Reconstruction",
+      "url": "https://api2.openreview.net/notes/search?term=2012.15470&content=all&type=exact&limit=20&count=true"
+    },
+    {
+      "arxiv_id": "2112.15571",
+      "http_status": 200,
+      "paper_id": "2112.15571v1",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_arxivid_raw/2112.15571v1.json",
+      "result_count": 0,
+      "retrieval_started_utc": "2026-11-14T06:31:48.881928+00:00",
+      "retrieved_at_utc": "2026-11-14T06:31:50.963638+00:00",
+      "returned_note_ids": [],
+      "sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "title": "PCACE: A Statistical Approach to Ranking Neurons for CNN Interpretability",
+      "url": "https://api2.openreview.net/notes/search?term=2112.15571&content=all&type=exact&limit=20&count=true"
+    },
+    {
+      "arxiv_id": "2112.14921",
+      "http_status": 200,
+      "paper_id": "2112.14921v1",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_arxivid_raw/2112.14921v1.json",
+      "result_count": 0,
+      "retrieval_started_utc": "2026-11-14T06:31:49.938785+00:00",
+      "retrieved_at_utc": "2026-11-14T06:31:50.961988+00:00",
+      "returned_note_ids": [],
+      "sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "title": "Retrieving Black-box Optimal Images from External Databases",
+      "url": "https://api2.openreview.net/notes/search?term=2112.14921&content=all&type=exact&limit=20&count=true"
+    },
+    {
+      "arxiv_id": "2212.14746",
+      "http_status": 200,
+      "paper_id": "2212.14746v1",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_arxivid_raw/2212.14746v1.json",
+      "result_count": 0,
+      "retrieval_started_utc": "2026-11-14T06:31:50.964199+00:00",
+      "retrieved_at_utc": "2026-11-14T06:31:51.678235+00:00",
+      "returned_note_ids": [],
+      "sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "title": "MindBigData 2022 A Large Dataset of Brain Signals",
+      "url": "https://api2.openreview.net/notes/search?term=2212.14746&content=all&type=exact&limit=20&count=true"
+    },
+    {
+      "arxiv_id": "2012.15859",
+      "http_status": 200,
+      "paper_id": "2012.15859v5",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_arxivid_raw/2012.15859v5.json",
+      "result_count": 1,
+      "retrieval_started_utc": "2026-11-14T06:31:50.964631+00:00",
+      "retrieved_at_utc": "2026-11-14T06:31:51.949671+00:00",
+      "returned_note_ids": [
+        "AWzR72DcRh"
+      ],
+      "sha256": "febdefe265e19f1a5e25c8e3eb8f7c72d21806f04b214118272b034cd56519b8",
+      "title": "Intrinsic Bias Metrics Do Not Correlate with Application Bias",
+      "url": "https://api2.openreview.net/notes/search?term=2012.15859&content=all&type=exact&limit=20&count=true"
+    },
+    {
+      "arxiv_id": "2012.14312",
+      "http_status": 200,
+      "paper_id": "2012.14312v1",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_arxivid_raw/2012.14312v1.json",
+      "result_count": 0,
+      "retrieval_started_utc": "2026-11-14T06:31:51.678949+00:00",
+      "retrieved_at_utc": "2026-11-14T06:31:52.599812+00:00",
+      "returned_note_ids": [],
+      "sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "title": "Panarchy: ripples of a boundary concept",
+      "url": "https://api2.openreview.net/notes/search?term=2012.14312&content=all&type=exact&limit=20&count=true"
+    },
+    {
+      "arxiv_id": "2112.13320",
+      "http_status": 200,
+      "paper_id": "2112.13320v1",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_arxivid_raw/2112.13320v1.json",
+      "result_count": 0,
+      "retrieval_started_utc": "2026-11-14T06:31:51.950496+00:00",
+      "retrieved_at_utc": "2026-11-14T06:31:52.601205+00:00",
+      "returned_note_ids": [],
+      "sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "title": "Budget Sensitive Reannotation of Noisy Relation Classification Data Using Label Hierarchy",
+      "url": "https://api2.openreview.net/notes/search?term=2112.13320&content=all&type=exact&limit=20&count=true"
+    },
+    {
+      "arxiv_id": "2112.10508",
+      "http_status": 200,
+      "paper_id": "2112.10508v1",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_arxivid_raw/2112.10508v1.json",
+      "result_count": 1,
+      "retrieval_started_utc": "2026-11-14T06:31:52.601573+00:00",
+      "retrieved_at_utc": "2026-11-14T06:31:53.319436+00:00",
+      "returned_note_ids": [
+        "IInCCUn6FX"
+      ],
+      "sha256": "29ca2c13ea8a6a7c7facead802ef7a579d700d14b7a868e09823ee32cabb8279",
+      "title": "Between words and characters: A Brief History of Open-Vocabulary Modeling and Tokenization in NLP",
+      "url": "https://api2.openreview.net/notes/search?term=2112.10508&content=all&type=exact&limit=20&count=true"
+    },
+    {
+      "arxiv_id": "2212.14402",
+      "http_status": 200,
+      "paper_id": "2212.14402v1",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_arxivid_raw/2212.14402v1.json",
+      "result_count": 0,
+      "retrieval_started_utc": "2026-11-14T06:31:52.607734+00:00",
+      "retrieved_at_utc": "2026-11-14T06:31:53.317810+00:00",
+      "returned_note_ids": [],
+      "sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "title": "GPT Takes the Bar Exam",
+      "url": "https://api2.openreview.net/notes/search?term=2212.14402&content=all&type=exact&limit=20&count=true"
+    },
+    {
+      "arxiv_id": "2212.10933",
+      "http_status": 200,
+      "paper_id": "2212.10933v2",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_arxivid_raw/2212.10933v2.json",
+      "result_count": 0,
+      "retrieval_started_utc": "2026-11-14T06:31:53.319976+00:00",
+      "retrieved_at_utc": "2026-11-14T06:31:54.453485+00:00",
+      "returned_note_ids": [],
+      "sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "title": "Resolving Indirect Referring Expressions for Entity Selection",
+      "url": "https://api2.openreview.net/notes/search?term=2212.10933&content=all&type=exact&limit=20&count=true"
+    },
+    {
+      "arxiv_id": "2212.10728",
+      "http_status": 200,
+      "paper_id": "2212.10728v1",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_arxivid_raw/2212.10728v1.json",
+      "result_count": 0,
+      "retrieval_started_utc": "2026-11-14T06:31:53.327704+00:00",
+      "retrieved_at_utc": "2026-11-14T06:31:54.234006+00:00",
+      "returned_note_ids": [],
+      "sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "title": "Spoken Language Understanding for Conversational AI: Recent Advances and Future Direction",
+      "url": "https://api2.openreview.net/notes/search?term=2212.10728&content=all&type=exact&limit=20&count=true"
+    },
+    {
+      "arxiv_id": "2401.02978",
+      "http_status": 200,
+      "paper_id": "2401.02978v1",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_arxivid_raw/2401.02978v1.json",
+      "result_count": 0,
+      "retrieval_started_utc": "2026-11-14T06:31:54.234802+00:00",
+      "retrieved_at_utc": "2026-11-14T06:31:54.900674+00:00",
+      "returned_note_ids": [],
+      "sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "title": "Learning from a Generative AI Predecessor -- The Many Motivations for Interacting with Conversational Agents",
+      "url": "https://api2.openreview.net/notes/search?term=2401.02978&content=all&type=exact&limit=20&count=true"
+    },
+    {
+      "arxiv_id": "2012.15006",
+      "http_status": 200,
+      "paper_id": "2012.15006v4",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_arxivid_raw/2012.15006v4.json",
+      "result_count": 0,
+      "retrieval_started_utc": "2026-11-14T06:31:54.454394+00:00",
+      "retrieved_at_utc": "2026-11-14T06:31:55.085486+00:00",
+      "returned_note_ids": [],
+      "sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "title": "Dynamic Graph-Based Anomaly Detection in the Electrical Grid",
+      "url": "https://api2.openreview.net/notes/search?term=2012.15006&content=all&type=exact&limit=20&count=true"
+    },
+    {
+      "arxiv_id": "2112.15110",
+      "http_status": 200,
+      "paper_id": "2112.15110v2",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_arxivid_raw/2112.15110v2.json",
+      "result_count": 0,
+      "retrieval_started_utc": "2026-11-14T06:31:54.901599+00:00",
+      "retrieved_at_utc": "2026-11-14T06:31:55.569819+00:00",
+      "returned_note_ids": [],
+      "sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "title": "Audio-to-symbolic Arrangement via Cross-modal Music Representation Learning",
+      "url": "https://api2.openreview.net/notes/search?term=2112.15110&content=all&type=exact&limit=20&count=true"
+    }
+  ],
+  "schema": "M-frozen-quality-targeted-openreview-arxiv-id-search-v1",
+  "target_count": 14
+}

@@ -1,0 +1,13 @@
+{
+  "plan_sha256": "9e885471009da8adfa91bfb710606834b63c7045542ce2604a43438f18e8c424",
+  "protocol_sha256": "9f15b152e203db5b2833cc7b7e1e1b9ca26223a1ae59d22003ce7b86c58bfa21",
+  "authorize_inference": false,
+  "authorize_evaluation": false,
+  "preregistration_verified": false,
+  "post_cutoff_verified": false,
+  "eligibility_review_path": null,
+  "eligibility_review_sha256": null,
+  "encoder_cutoff": null,
+  "note": "Preparation only. Future explicit authorization and eligibility evidence required; do not relabel prior exposure as blind.",
+  "authorization_source": null
+}

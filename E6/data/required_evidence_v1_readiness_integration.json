@@ -1,0 +1,20 @@
+{
+  "evidence_bundle": "E6/data/required_evidence_v1/bundle.json",
+  "bundle_file_sha256": "399306d509be6b9297674eb93f2a00bfd8e6ae7f0778e57828204a995ac70ce7",
+  "integration": {
+    "literature_source_records_complete": 100,
+    "literature_fixed_model_extractions_complete": 0,
+    "HDR_inputs_complete": 0,
+    "HDR_inputs_required": 125,
+    "scoring_ready": false,
+    "blockers": [
+      "100 actual fixed-model literature extractions are absent; cannot synthesize under no-new-model-calls instruction.",
+      "Decision 24 requires problem/method/result reviews, but frozen extraction output contains only question/hypothesis and explicitness fields; requires authorized compatible source-component evidence process before acceptance.",
+      "40 genuine independent source reviews (20 cases, two reviewers), plus third-person adjudications only for disagreements.",
+      "HDR reference-feature definition/mapping needs domain assessment; all 125 cells need real discovered-feature and relationship judgments.",
+      "Evaluator semantic validation remains pending the separate independent pilot judgments."
+    ]
+  },
+  "full_readiness_audit_rerun": false,
+  "model_calls": 0
+}

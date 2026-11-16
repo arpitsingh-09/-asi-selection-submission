@@ -1,0 +1,10 @@
+{
+  "scope": "export-only recovery",
+  "committed_sha256": {
+    "E5/run_baseline.py": "1e68a3dec2777bbb1f3fd79bc9f5de023ec35c7ac66999408d1319938485cf34",
+    "E5/tests/test_export.py": "7e7674c80bf027d5f87e0a7555c19b3fe00d89e42a4afcc1304cc2235e07414a",
+    "E5/PREREG_EXPORT_FIX.md": "02557eec349349f0d3365107a5be374b8e0351aa93be0ca9a0452da78264c9ef",
+    "E5/manifest_v1.json": "904166c70b73c3a7bc2874adf09fbfb1a341c3b3bb9a944565155a18eb78fbec",
+    "E5/PREREG.md": "a26389624f594c5852fea8afe92f4f33faa0518b487d82b4729ac2500f9c6add"
+  }
+}

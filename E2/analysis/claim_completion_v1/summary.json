@@ -1,0 +1,29 @@
+{
+  "new_claims": 27,
+  "papers_with_additions": 22,
+  "prior_short_sets": 45,
+  "remaining_short_sets": 23,
+  "newly_count_complete_sets": 22,
+  "future_sets_with_4_to_10": 277,
+  "all_new_excerpts_exact": true,
+  "human_review": false,
+  "used_in_evaluation": false,
+  "new_numerical_scores": 0,
+  "generation": "New extraction by Codex language-model assistant in this session; not recovered historical output.",
+  "source_sha256": {
+    "/Users/arpit/asi-selection/E2/data/scoring_results.jsonl": "8aa38111b3dbdf5e4a24534486bb55aa081d6b4bdd32a56244a00e0b2fa99bdc",
+    "/Users/arpit/asi-selection/E2/data/scoring_results.matmul_pilot.jsonl": "9ded2fd37ce365fb13a4621497367315027d54ff2a41608c55cfa04bd7840b1f",
+    "/Users/arpit/asi-selection/E2/data/claims_v8_selected.jsonl": "2266fe8e086ebd1ca2bdea1db0e4eccd241a2fc8f1d1282b9e9c5fcb37ec723d",
+    "/Users/arpit/asi-selection/E2/analysis/shared_excerpt_recovery_v1/claims_future.jsonl": "37d1a138fe9ba564727dce1584da8dd20010be10ea60863ec5676284104f344b",
+    "/Users/arpit/asi-selection/E2/data/raw_papers.jsonl": "98036e1d99139a7fa4938362ab45f97fc12f21a91182c0ce5d22ee5be7d0c662",
+    "/Users/arpit/asi-selection/E2/analysis/task3_execution_v1/plan.json": "9e885471009da8adfa91bfb710606834b63c7045542ce2604a43438f18e8c424"
+  },
+  "additions_sha256": "4ce2f00ab0bb61ff47eb946e20e76aa1cca42a720b1d49cb9db204b84b690dbb",
+  "implementation_sha256": "b0752cc9fa71ec794cd58bb71dcf2727d0279e82ab00a7410b54baf4c81d0290",
+  "limitations": [
+    "Count completion does not validate all inherited claims or establish independent human review.",
+    "Old semantic/audit limitations and original scored claims remain unchanged.",
+    "New claim vectors are not generated; no Task 2 or Task 3 scores are asserted."
+  ],
+  "protected_sources_unchanged": true
+}

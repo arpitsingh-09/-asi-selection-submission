@@ -1,0 +1,44 @@
+{
+  "schema": "M-OpenReview-release-event-evidence-v1",
+  "events": {
+    "2023": {
+      "conference": "ICLR 2023",
+      "release_date": "2022-11-05T01:00:00Z",
+      "event": "Paper Reviews Released",
+      "precision": "minute",
+      "source_url": "https://iclr.cc/Conferences/2023/Dates",
+      "verification": "official conference calendar"
+    },
+    "2024": {
+      "conference": "ICLR 2024",
+      "release_date": "2023-11-10",
+      "event": "Initial paper reviews released",
+      "precision": "day",
+      "source_url": "https://iclr.cc/Conferences/2024/ReviewerGuide",
+      "verification": "official reviewer guide"
+    },
+    "2025": {
+      "conference": "ICLR 2025",
+      "release_date": "2024-11-13",
+      "event": "Initial paper reviews released",
+      "precision": "day",
+      "source_url": "https://iclr.cc/Conferences/2025/ReviewerGuide",
+      "verification": "official reviewer guide"
+    },
+    "2026": {
+      "conference": "ICLR 2026",
+      "release_date": "2025-11-11T21:00:00Z",
+      "event": "Paper Reviews Released To Authors",
+      "precision": "minute",
+      "source_url": "https://iclr.cc/Conferences/2026/Dates",
+      "verification": "official conference calendar",
+      "public_scope": "TO_AUTHORS_ONLY_EVENT; do not interpret as public visibility"
+    }
+  },
+  "note_public_visibility_source": {
+    "url": "https://docs.openreview.net/reference/api-v2/entities/note/fields",
+    "field": "odate",
+    "definition": "Online Date; indicates when an OpenReview Note first becomes public.",
+    "limitation": "odate and revision-level visibility are absent from the cached outcomes and external release schedules are not per-note evidence."
+  }
+}

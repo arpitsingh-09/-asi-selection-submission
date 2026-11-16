@@ -1,0 +1,23 @@
+ROLE
+You are applying a supplied set of research hypotheses to one held-out HypoBench observation.
+
+TASK
+Choose the single label best supported by the observation and the supplied hypotheses. Use only the task, observation, and hypotheses below. Do not infer or request the example's source label. Do not use outside knowledge. At least one supplied hypothesis must support the prediction.
+
+TASK DESCRIPTION
+{{TASK}}
+
+OBSERVATION (SOURCE LABEL REMOVED)
+{{OBSERVATION}}
+
+GENERATED HYPOTHESES
+{{HYPOTHESES_JSON}}
+
+ALLOWED LABEL NAMES
+{{ALLOWED_LABELS_JSON}}
+
+OUTPUT
+Return valid JSON only, with exactly these keys:
+{"predicted_label":"one allowed label","supporting_hypothesis_ids":["H1"]}
+
+Use one or more IDs from the supplied hypotheses. The predicted_label must exactly equal one allowed label. Do not include any other keys or text.

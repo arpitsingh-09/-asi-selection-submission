@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:39:57.946582+00:00",
+  "identity": "0f4edab5e95219a9bf3757d717be6bf107b76cfb0f728b9b505367919383a2ce",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:39:57.934181Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 74,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 12.003957499999956,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:39:57.934181Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2521,
+      "prompt_eval_count": 507,
+      "prompt_sha256": "02e35dfa3bea76551722f53e893a318c48b8a037ca84bdce1c5f4a037d392cc5",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 581,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 507,
+    "latency_seconds": 12.003957499999956,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:39:57.934181Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 74,
+    "raw_response": "{\n  \"research_question\": \"Does predictive validity of a signal reliably translate to optimization utility in reinforcement learning?\",\n  \"research_question_explicit\": true,\n  \"main_hypothesis\": \"A signal can describe outcome-relevant progress while failing to provide a reliably beneficial optimization direction.\",\n  \"main_hypothesis_explicit\": true\n}",
+    "total_tokens": 581
+  },
+  "reply_sha256": "710a1efd5b790b246c7e403df8738cfca3eaa585cd9b1847b583c1741c33488b"
+}

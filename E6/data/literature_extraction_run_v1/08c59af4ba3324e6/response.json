@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:35:00.996492+00:00",
+  "identity": "63313ab7a91e3f197f600f9a6167425790ba460300871d6b26afdb7972852721",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:35:00.982839Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 72,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 12.161351000000082,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:35:00.982839Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2948,
+      "prompt_eval_count": 614,
+      "prompt_sha256": "109d6ef3bc0aef295cf68880a278cb8b3a15ab75095a8141ed0015b9985ac169",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 686,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 614,
+    "latency_seconds": 12.161351000000082,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:35:00.982839Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 72,
+    "raw_response": "{\n  \"research_question\": \"How can visual grounding be made more robust to challenging conditions like low illumination and adverse weather, and how can its performance be systematically evaluated across different conditions?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": null,\n  \"main_hypothesis_explicit\": false\n}",
+    "total_tokens": 686
+  },
+  "reply_sha256": "b225c2557078c9787cbfdb5de932a5af65a8b116b86432f388bd3964c98b0802"
+}

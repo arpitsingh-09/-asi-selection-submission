@@ -1,0 +1,549 @@
+
+== h001  direction_flip  2610.26863
+A        Is language pretraining necessary for strong text-to-image generation?
+B        Must a model undergo language pretraining before it can generate high-quality images from text?
+B_min    Is language pretraining required for strong text-to-image generation?
+C        Is language pretraining harmful to strong text-to-image generation?
+C_tilde  Can linguistic preparation be detrimental to the quality of pictures produced by a generative model?
+narrower Is language pretraining necessary for autoregressive text-to-image models trained on 100 million image-text pairs?
+broader  Is learning from one type of data necessary for generating high-quality outputs in another domain?
+
+== h002  direction_flip  2610.26847
+A        Can AI agents improve their performance by dynamically selecting capability-specific adapters during execution?
+B        Do autonomous systems benefit from switching between specialized learned components as their tasks progress?
+B_min    Can AI agents improve their performance by dynamically choosing capability-specific adapters during execution?
+C        Can dynamically switching between specialized adapters harm an AI agent's performance?
+C_tilde  Can changing between task-specific learned modules negatively affect an autonomous system's results?
+narrower Can Qwen3-32B improve deep-research benchmark accuracy by selecting capability-specific LoRA adapters through tool-calling actions?
+broader  Can AI systems improve their performance by dynamically selecting specialized components while executing complex tasks?
+
+== h003  role_swap  2610.26817
+A        How do operational constraints affect the long-term economic value of customer intervention policies?
+B        To what extent do business restrictions influence the long-term financial returns of customer-targeting strategies?
+B_min    How do operational constraints influence the long-term economic value of customer intervention policies?
+C        How does the long-term economic value of customer intervention policies affect the operational constraints imposed on them?
+C_tilde  To what extent do the financial returns of customer-targeting strategies influence the business restrictions governing their operation?
+narrower How do coupon-budget constraints affect customer lifetime value under an offline reinforcement-learning policy using RFM customer states?
+broader  How do operational restrictions and other organizational requirements influence the long-term economic value, effectiveness, and reliability of decision-making policies across diverse industries and application domains?
+
+== h004  constraint_flip  2501.12948
+A        How does pure reinforcement learning influence the reasoning abilities of language models without human-labeled reasoning trajectories?
+B        To what extent can reward-based training develop problem-solving skills in language models without demonstrations of human reasoning?
+B_min    How does pure reinforcement learning affect the reasoning abilities of language models without human-labeled reasoning trajectories?
+C        How does pure reinforcement learning influence the reasoning abilities of language models trained with human-labeled reasoning trajectories?
+C_tilde  How does reward-driven optimization affect the problem-solving capabilities of language models trained using human-annotated reasoning examples?
+narrower How does pure reinforcement learning affect mathematical reasoning in DeepSeek-R1-Zero without human-labeled reasoning trajectories?
+broader  How do different training approaches, including reinforcement learning and supervised learning from human demonstrations, influence reasoning abilities across language models and complex problem-solving tasks?
+
+== h005  goal_swap  2609.17863
+A        How do inference optimizations affect the accuracy of large language models?
+B        To what extent do techniques for accelerating model serving influence the correctness of generated answers?
+B_min    How do inference optimizations influence the accuracy of large language models?
+C        How do inference optimizations affect the serving cost of large language models?
+C_tilde  To what extent do techniques for accelerating model serving influence the expense of running large language models?
+narrower How does FP8 weight quantization affect GSM8K accuracy for Qwen2.5-7B-Instruct?
+broader  How do quantization, cache compression, speculative decoding, batching, and attention optimizations influence the cost, quality, and latency of deploying large language models across different hardware configurations and serving environments?
+
+== h006  inquiry_change  2604.19764
+A        How can stereotype-related activations be identified within decoder-only language models?
+B        What methods can reveal the internal neural components associated with stereotypical representations in autoregressive language models?
+B_min    How can stereotype-related activations be detected within decoder-only language models?
+C        Why do stereotype-related activations emerge within decoder-only language models?
+C_tilde  What underlying factors cause generative language networks to develop internal representations associated with social stereotypes?
+narrower How can stereotype-related neurons be identified in GPT-2 Small?
+broader  How can learned biases be located within the internal representations of neural networks?
+
+== h007  constraint_flip  2602.17445
+A        How does the distribution of correct answers in few-shot prompts affect LLM robustness to answer permutations?
+B        To what extent do demonstration-answer distributions influence how consistently language models answer multiple-choice questions when options are reordered?
+B_min    How does the distribution of correct answers in few-shot prompts influence LLM robustness to answer permutations?
+C        How does LLM robustness to answer permutations change when no few-shot examples are provided?
+C_tilde  To what extent does removing few-shot demonstrations change the consistency of language models when multiple-choice options are reordered?
+narrower How does the distribution of correct answers in few-shot prompts affect answer-permutation robustness on NonsenseQA?
+broader  How do answer positions, answer labels, prompt demonstrations, and other evaluation conditions influence the robustness of large language models across multiple-choice benchmarks, model families, and evaluation protocols?
+
+== h008  goal_swap  2610.08680
+A        How does training-set breadth affect the in-distribution accuracy of small language models on abstract reasoning tasks?
+B        To what extent does expanding the range of examples influence the accuracy of compact text-generating networks on familiar rule-solving problems?
+B_min    How does training-set breadth influence the in-distribution accuracy of small language models on abstract reasoning tasks?
+C        How does training-set breadth affect the out-of-distribution robustness of small language models on abstract reasoning tasks?
+C_tilde  To what extent does expanding training-data coverage influence the ability of small language models to generalize to unseen abstract-reasoning distributions?
+narrower How does training-set breadth affect in-distribution accuracy of decoder-only small language models on abstract reasoning tasks?
+broader  How do training-data characteristics affect the accuracy, generalization, and robustness of different language-model families across abstract-reasoning tasks, evaluation distributions, and response formats?
+
+== h009  goal_swap  2608.06422
+A        How does the number of verdicts evaluated in one LLM call affect agreement with expert judgments?
+B        How does the quantity of decisions assessed within a single language-model call relate to consistency with expert assessments?
+B_min    How does the number of verdicts evaluated in one LLM call influence agreement with expert judgments?
+C        How does the number of verdicts evaluated in one LLM call affect robustness against adversarial manipulation?
+C_tilde  How does the number of verdicts assessed within a single language-model call relate to resistance against adversarial manipulation?
+narrower How does the number of verdicts per call affect expert agreement when evaluating research replications with an LLM judge?
+broader  How do the number of verdicts per call and the presentation of evidence affect agreement between language-model judges and human experts across different evaluation tasks?
+
+== h010  goal_swap  2507.23341
+A        How does input-image resolution affect the face-detection accuracy of deep learning models?
+B        To what extent does the size of an image supplied to a neural face detector influence its ability to identify faces correctly?
+B_min    How does input-image resolution influence the face-detection accuracy of deep learning models?
+C        How does input-image resolution affect the inference time of deep learning face detectors?
+C_tilde  To what extent does changing the dimensions of input images influence the time required by neural face detectors to produce predictions?
+narrower How does input resolution affect YOLOv11 face-detection accuracy on the WIDER FACE dataset?
+broader  How do input-image characteristics affect the accuracy, robustness, and computational efficiency of computer-vision models across detection tasks and operating conditions?
+
+== h011  role_swap  2610.20288
+A        How does extrapolation to unseen conditions affect a model’s ability to recover genuine interaction effects?
+B        To what extent does generalization beyond training conditions influence a model’s recovery of authentic scientific interactions?
+B_min    How does extrapolation to unseen conditions influence a model’s ability to recover genuine interaction effects?
+C        How does the recovery of genuine interaction effects affect a model’s ability to extrapolate to unseen conditions?
+C_tilde  How does identifying authentic interdependencies between interventions influence predictions for scenarios absent from the training data?
+narrower How does extrapolation to unseen conditions affect a flow-matching model’s ability to recover genuine interaction effects when condition structure continues from observed to held-out targets?
+broader  How does a model’s generalization behavior affect its ability to learn and reproduce meaningful relationships in scientific data?
+
+== h012  inquiry_change  2610.26974
+A        How does weight initialization affect the ability of transformers to generalize to longer sequences?
+B        To what extent do starting parameter values determine whether attention-based models can handle inputs exceeding their training lengths?
+B_min    How does weight initialization influence the ability of transformers to generalize to longer sequences?
+C        Why does weight initialization affect the ability of transformers to generalize to longer sequences?
+C_tilde  What explains the differences in extrapolation performance that arise from alternative starting configurations?
+narrower How does weight initialization affect the ability of two-layer transformers trained on fixed-length sorting sequences to generalize to longer sequences?
+broader  How do model training choices influence generalization beyond the conditions encountered during training?
+
+== h013  inquiry_change  2610.27773
+A        How does restricting individual pixel perturbations affect the success of adversarial attacks?
+B        To what extent does limiting the magnitude of changes to individual image coordinates influence attack effectiveness?
+B_min    How does limiting individual pixel perturbations affect the success of adversarial attacks?
+C        Why does restricting individual pixel perturbations affect the success of adversarial attacks?
+C_tilde  What explains the impact of per-coordinate perturbation limits on adversarial attack effectiveness?
+narrower How does restricting individual pixel perturbations to at most 32/255 affect the success of APGD-L1, SLIDE, and FMN-L1 attacks on standard models?
+broader  How do constraints on optimization variables influence the effectiveness of adversarial optimization methods?
+
+== h014  inquiry_change  2610.27030
+A        How does forward-operator smoothing affect the stability of signal reconstruction using posterior diffusion?
+B        To what extent does the smoothing introduced by the observation process influence the reliability of diffusion-based recovery?
+B_min    How does forward-operator smoothing influence the stability of signal reconstruction using posterior diffusion?
+C        Why does forward-operator smoothing affect the stability of signal reconstruction using posterior diffusion?
+C_tilde  What mechanisms explain the relationship between the observation operator’s smoothing behavior and the reliability of recovered signals?
+narrower How does forward-operator smoothing affect posterior diffusion reconstruction stability for linear inverse problems on Hilbert scales under weak-norm control of score error?
+broader  How do properties of observation processes affect the stability of methods used to recover unknown signals from incomplete or noisy data?
+
+== h015  inquiry_change  2607.13192
+A        How does the availability of labeled data affect the relative effectiveness of joint training and pretraining followed by fine-tuning?
+B        To what extent does the amount of annotated training data determine which representation learning strategy performs better?
+B_min    How does the availability of labeled data influence the relative effectiveness of joint training and pretraining followed by fine-tuning?
+C        Why does the availability of labeled data affect the relative effectiveness of joint training and pretraining followed by fine-tuning?
+C_tilde  What explains why the quantity of labeled examples changes the comparative performance of simultaneous and sequential learning approaches?
+narrower How does the availability of labeled data affect the relative effectiveness of joint training and pretraining followed by fine-tuning across natural, medical, crisis response, and remote sensing vision tasks?
+broader  How do training data characteristics influence the effectiveness of alternative machine learning training strategies?
+
+== h016  inquiry_change  2610.27280
+A        How does latent prediction error affect goal-reaching performance in offline reinforcement learning?
+B        To what extent does the accuracy of predicted future representations influence an agent’s success in reaching specified goals?
+B_min    How does latent prediction error influence goal-reaching performance in offline reinforcement learning?
+C        Why does latent prediction error affect goal-reaching performance in offline reinforcement learning?
+C_tilde  What explains the influence of inaccurate forecasts of future internal states on an agent’s ability to reach specified goals?
+narrower How does latent prediction error affect goal-reaching success across the 30 state and pixel OGBench datasets evaluated in VPFlow?
+broader  How does the accuracy of learned predictive representations influence the effectiveness of decision-making systems?
+
+== h017  inquiry_change  2610.27140
+A        How does movement perspective affect the prediction of rat identity and learning progress from short trajectories?
+B        To what extent does the choice of body-centered or environment-centered movement information influence what can be inferred about an animal?
+B_min    How does movement perspective influence the prediction of rat identity and learning progress from short trajectories?
+C        Why does movement perspective affect the prediction of rat identity and learning progress?
+C_tilde  What explains the different information that body-centered and environment-centered motion provide about individual animals and their learning?
+narrower How does movement perspective affect the prediction of rat identity and learning progress from one-second trajectories, particularly around decision junctions in the alternation cohort?
+broader  How do observable behavioral patterns help researchers infer individual differences and learning progress?
+
+== h018  inquiry_change  2610.22599
+A        How does the type of machine learning task affect the accuracy of LLM predictions about experiment outcomes?
+B        To what extent does the experimental problem being considered influence how reliably an LLM can anticipate the results of its proposed changes?
+B_min    How does the type of machine learning task influence the accuracy of LLM predictions about experiment outcomes?
+C        Why does the type of machine learning task affect the accuracy of LLM predictions about experiment outcomes?
+C_tilde  What explains the variation in how well language models anticipate the consequences of their proposed experiments across different tasks?
+narrower How does the choice among the eight MLE-bench tasks affect the accuracy of five frontier LLMs predicting the outcomes of LLM-proposed machine learning experiments?
+broader  How do characteristics of a problem influence the reliability of AI systems’ predictions about the outcomes of their actions?
+
+== h019  inquiry_change  2610.27214
+A        How does the choice of risk-estimation method affect the hedging performance of reinforcement-learning policies under extreme market conditions?
+B        To what extent does the method used to estimate tail risk influence a learned trading policy’s ability to limit losses during rare market events?
+B_min    How does the choice of risk-estimation method influence the hedging performance of reinforcement-learning policies under extreme market conditions?
+C        Why does the choice of risk-estimation method affect the hedging performance of reinforcement-learning policies under extreme market conditions?
+C_tilde  What explains the differences in extreme-event losses between policies trained using extreme-value modelling and empirical tail-risk estimates?
+narrower How does EVT-based versus empirical-CVaR training affect hedging losses under extreme market scenarios across the training sample sizes evaluated in the paper?
+broader  How do statistical estimation choices influence the reliability of learned decision policies under rare, high-impact events?
+
+== h020  inquiry_change  2610.14238
+A        How does cumulative experimental feedback affect the generalization performance of agent-developed machine learning strategies?
+B        To what extent does an agent’s use of findings from earlier experiments influence the performance of its strategies on unseen evaluation data?
+B_min    How does cumulative experimental feedback influence the generalization performance of agent-developed machine learning strategies?
+C        Why does cumulative experimental feedback affect the generalization performance of agent-developed machine learning strategies?
+C_tilde  What explains the relationship between an agent’s use of previous experimental results and the effectiveness of its strategies on unseen data?
+narrower How does cumulative experimental feedback affect held-out performance when agents develop data-selection, reward-design, and curriculum-learning strategies under fixed training conditions?
+broader  How does the use of experience from previous experiments influence the ability of automated systems to develop strategies that generalize to new conditions?
+
+== h021  role_swap  2602.16315
+A        How does user behavior affect recommender systems over time?
+B        To what extent do users’ interactions and consumption choices influence the evolution of recommendation algorithms?
+B_min    How does user behavior influence recommender systems over time?
+C        How do recommender systems affect user behavior over time?
+C_tilde  In what ways do algorithmic recommendations shape the choices and consumption patterns of their users as time passes?
+narrower How does user behavior affect recommender systems over time in online retail and music streaming, where implicit feedback and periodic retraining create feedback loops?
+broader  How do interactions between adaptive technological systems and human behavior influence one another over time?
+
+== h022  role_swap  2609.05279
+A        How does replacing an agent affect coordination efficiency in multi-agent teams?
+B        To what extent does substituting a role-matched teammate change the communication effort required for a team to make progress?
+B_min    How does replacing an agent influence coordination efficiency in multi-agent teams?
+C        How does coordination efficiency affect the consequences of replacing an agent in a multi-agent team?
+C_tilde  In what ways does a team’s ability to coordinate influence the disruption caused by introducing a replacement teammate?
+narrower How does replacing a role-matched agent affect communication cost per unit of progress in independently formed teams evaluated on Collab-Overcooked and Hanabi?
+broader  How do changes in team composition and coordination dynamics influence the effectiveness of collaborative systems?
+
+== h023  role_swap  2609.36855
+A        How does the reliability of upstream messages affect the accuracy of downstream agents in multi-agent LLM systems?
+B        To what extent does the trustworthiness of information sent between agents influence the correctness of subsequent decisions?
+B_min    How does the reliability of upstream messages influence the accuracy of downstream agents in multi-agent LLM systems?
+C        How does the accuracy of downstream agents affect the reliability of information exchanged in multi-agent LLM systems?
+C_tilde  To what extent does a receiving agent’s decision-making capability shape the dependability of information circulating through a collaborative language-model network?
+narrower How does the reliability of upstream messages affect the accuracy of downstream agents in multi-agent LLM systems across five benchmarks and five receivers when the task and available evidence are held fixed?
+broader  How do information quality and the capabilities of collaborating components influence the outcomes of interconnected decision-making systems?
+
+== h024  role_swap  2610.19712
+A        How does transferring interaction history affect the behavior of a recipient model in multi-session LLM agents?
+B        To what extent does the conversation history inherited by a replacement model influence its subsequent reasoning and actions?
+B_min    How does transferring interaction history influence the behavior of a recipient model in multi-session LLM agents?
+C        How does the behavior of a recipient model affect the effectiveness of transferring interaction history in multi-session LLM agents?
+C_tilde  In what ways does a receiving model’s response pattern determine how successfully prior conversational context can be carried across model changes?
+narrower How does transferring raw interaction history affect the behavior of a recipient model in multi-session LLM agents?
+broader  How does the way information is transferred when one computational system replaces another affect the behavior of the receiving system?
+
+== h025  role_swap  2604.25096
+A        How does human belief expression affect subsequent chatbot outputs in human-chatbot conversations?
+B        To what extent do users’ expressed beliefs influence what a chatbot says in later turns of a conversation?
+B_min    How does human belief expression influence subsequent chatbot outputs in human-chatbot conversations?
+C        How do chatbot outputs affect subsequent human belief expression in human-chatbot conversations?
+C_tilde  In what ways does the content generated by a conversational AI shape the beliefs that people express later in their interactions?
+narrower How does human belief expression affect subsequent chatbot outputs in conversations from individuals exhibiting delusional thinking?
+broader  How do human communications affect the subsequent behavior of conversational AI systems?
+
+== h026  role_swap  2510.20039
+A        How do human opinions affect LLM responses during multi-turn discussions?
+B        To what extent do people's expressed viewpoints influence the positions taken by language models over the course of a conversation?
+B_min    How do human opinions influence LLM responses during multi-turn discussions?
+C        How do LLM responses affect human opinions during multi-turn discussions?
+C_tilde  In what ways do the positions expressed by conversational models shape the viewpoints that people hold as a discussion unfolds?
+narrower How do human opinions affect LLM responses during multi-turn discussions about controversial topics?
+broader  How do one participant's expressed views affect the responses produced by another participant in an ongoing exchange?
+
+== h027  role_swap  2605.29278
+A        How does LLM linguistic style affect human linguistic convergence during conversations?
+B        To what extent does the way a language model communicates influence how people adapt their own language during a conversation?
+B_min    How does LLM linguistic style influence human linguistic convergence during conversations?
+C        How does human linguistic style affect LLM linguistic convergence during conversations?
+C_tilde  In what ways do people's language patterns shape the linguistic choices made by a conversational model?
+narrower How does LLM linguistic style affect human linguistic convergence during ChatGPT conversations across eight languages?
+broader  How does one participant's communication style affect the language behavior of another participant during an interaction?
+
+== h029  direction_flip  2609.37631
+A        How does initializing a transformer from a small core trained on procedural data improve its performance across vision, language, and code?
+B        To what extent does starting an attention-based network with weights learned by a compact model from generated examples improve its results across visual recognition, language tasks, and code modeling?
+B_min    How does initializing a transformer from a compact core trained on procedural data improve its performance across vision, language, and code?
+C        How does initializing a transformer from a small core trained on procedural data harm its performance across vision, language, and code?
+C_tilde  To what extent does starting a neural network with weights learned by a compact model from generated examples damage its results across visual recognition, language tasks, and code modeling?
+narrower How does initializing a ViT-Base from a 1-million-parameter core trained on procedural data improve its ImageNet classification accuracy?
+broader  How does a neural network’s starting-weight strategy affect its results across different application areas?
+
+== h030  direction_flip  2606.31166
+A        How does unifying textual reasoning and graph message passing in a masked diffusion language model improve performance on text-attributed graph tasks?
+B        How does combining linguistic inference with information exchange between graph-connected nodes in a text generator that denoises hidden tokens improve results on tasks involving graphs with textual descriptions?
+B_min    How does unifying textual reasoning and graph message passing in a masked diffusion language model improve performance on text-attributed graph problems?
+C        How does unifying textual reasoning and graph message passing in a masked diffusion language model harm performance on text-attributed graph tasks?
+C_tilde  How does combining linguistic inference with information exchange between graph-connected nodes in a text generator that denoises hidden tokens harm results on tasks involving graphs with textual descriptions?
+narrower How does unifying textual reasoning and graph message passing in a masked diffusion language model improve performance on link prediction in text-attributed graph tasks?
+broader  How does combining information from different data representations improve machine learning performance across different tasks?
+
+== h031  direction_flip  2606.21406
+A        How do human-video-derived representations improve a robot's ability to learn from its own rollouts and failures?
+B        To what extent do models trained on recordings of human behavior strengthen a robot's capacity to refine its policy using self-generated experience and unsuccessful attempts?
+B_min    How do human-video-derived representations enhance a robot's ability to learn from its own rollouts and failures?
+C        How do human-video-derived representations impair a robot's ability to learn from its own rollouts and failures?
+C_tilde  To what extent do models derived from human demonstrations undermine a robot's capacity to refine its policy using its own experience and failed attempts?
+narrower How do human-video-derived representations improve a mobile manipulator's ability to learn from its own rollouts and failures?
+broader  How do human demonstrations, embodied practice, and failure experience affect autonomous skill acquisition and policy improvement across robotic systems and tasks?
+
+== h032  goal_swap  2609.35479
+A        How does behavior-aware hierarchical optimization affect the efficiency of searching possible tool designs?
+B        To what extent does a hierarchical design procedure alter the candidate-evaluation burden in task-oriented tool creation?
+B_min    How does behavior-aware hierarchical optimization affect the efficiency of searching candidate tool designs?
+C        How does behavior-aware hierarchical optimization affect the task loss of designed tools?
+C_tilde  To what extent does the hierarchical design procedure influence the objective value of created tools?
+narrower How does behavior-aware hierarchical optimization affect the efficiency of searching possible tool designs for robot tool-use tasks?
+broader  How do computational design methods affect search efficiency, objective quality, and task success across physical-design problems, tool-use settings, and real-world robotic deployment?
+
+== h033  constraint_flip  2609.02811
+A        How does training recurrent estimators on longer sensing outages affect GRU-EKF cross-track error under combined sensing degradation?
+B        To what extent does learning from prolonged observation interruptions alter lateral path-following error for the GRU-Kalman-filter hybrid when multiple sensor problems coincide?
+B_min    How does training recurrent estimators on longer sensing outages influence GRU-EKF cross-track error under combined sensing degradation?
+C        How does training recurrent estimators on longer sensing outages affect GRU-EKF cross-track error under isolated sensing degradation?
+C_tilde  To what extent does exposure to extended measurement gaps during training alter the lateral tracking deviation of a recurrent EKF hybrid when a single sensing impairment occurs?
+narrower How does training recurrent estimators on longer sensing outages affect GRU-EKF cross-track error under combined sensing degradation when measurement updates are intermittent?
+broader  How do estimator training conditions, sensing failures, prediction horizons, and measurement-update schedules influence tracking accuracy across robotic control systems and operating environments?
+
+== h034  constraint_flip  2606.13675
+A        How does Flow Reversal Steering improve zero-shot robot control from coarse semantic guidance?
+B        To what extent can reversing a flow-matching policy's action-generation process help robots execute instructions derived from people or vision-language systems without task-specific training?
+B_min    How does Flow Reversal Steering enhance zero-shot robot control from coarse semantic guidance?
+C        How does Flow Reversal Steering affect task-success gains when its outputs are distilled through behavioral cloning?
+C_tilde  To what extent does transferring steered action patterns into an auxiliary controller change the rate of completed manipulation objectives?
+narrower How does Flow Reversal Steering improve zero-shot robot control from coarse semantic guidance when the guidance comes from vision-language models?
+broader  How can steering methods, policy distillation, semantic guidance, and reinforcement-learning bootstrapping influence action quality, task success, training efficiency, and generalization across simulated and real-world robotic manipulation settings?
+
+== h035  direction_flip  2609.02653
+A        How does HINT improve end-to-end success across long-horizon robot manipulation tasks under visual distribution shifts?
+B        To what degree does the Human-Intent Inception framework raise completion rates for extended manipulation sequences when visual conditions differ from training?
+B_min    How does HINT enhance end-to-end success across long-horizon robot manipulation tasks under visual distribution shifts?
+C        How does HINT reduce end-to-end success across long-horizon robot manipulation tasks under visual distribution shifts?
+C_tilde  To what extent does sparse semantic reasoning and visual tracking diminish task-completion rates when scenes differ from training conditions?
+narrower How does HINT improve end-to-end success across long-horizon robot manipulation tasks under visual distribution shifts when evaluated using two foundation policies?
+broader  How do intent-guided control strategies, semantic reasoning, visual tracking, and feedback mechanisms affect task progress, completion reliability, generalization, and control efficiency across long-horizon robotic manipulation tasks, diverse foundation policies, and changing visual environments?
+
+== h036  goal_swap  2608.22701
+A        How does PhyFilter improve robot generalization under uncertain system dynamics?
+B        To what extent can physics-informed feedback help learned controllers cope with unfamiliar operating conditions when the system's motion laws are uncertain?
+B_min    How does PhyFilter enhance robot generalization under uncertain system dynamics?
+C        How does PhyFilter affect the interpretability of robot learning under uncertain system dynamics?
+C_tilde  To what extent does a physics-based correction mechanism make learned robotic behavior easier to explain when the dynamics are uncertain?
+narrower How does PhyFilter improve robot generalization under uncertain system dynamics for quadruped locomotion on previously unseen terrain?
+broader  How do physics-informed feedback mechanisms affect generalization, interpretability, robustness, and learning efficiency across robotic control systems, sensing conditions, and unfamiliar operating environments?
+
+== h037  direction_flip  2605.19881
+A        How does online velocity replanning improve lap times on the RoboRacer platform?
+B        To what extent does revising speed targets during operation shorten circuit completion times for the RoboRacer vehicle?
+B_min    How does online velocity replanning enhance lap times on the RoboRacer platform?
+C        How does online velocity replanning worsen lap times on the RoboRacer platform?
+C_tilde  To what extent does adjusting speed plans during a run increase the time needed to complete a circuit on the RoboRacer platform?
+narrower How does online velocity replanning improve lap times on the RoboRacer platform when using a cautious raceline?
+broader  How do trajectory planning, speed adaptation, steering control, and learned dynamics models affect lap times, tracking accuracy, safety, and control stability across autonomous racing platforms, circuits, and driving conditions?
+
+== h038  inquiry_change  2608.05464
+A        Does noise-prune preserve task performance in task-trained recurrent neural networks?
+B        To what extent does stochastic local connection removal maintain functional accuracy in recurrent architectures trained for specific tasks?
+B_min    Does noise-prune maintain task performance in task-trained recurrent neural networks?
+C        Why does noise-prune preserve task performance in task-trained recurrent neural networks?
+C_tilde  Why can stochastic local synapse removal retain functional competence in recurrent circuits trained for specific behaviors?
+narrower Does noise-prune preserve task performance in task-trained recurrent neural networks when retained connections are rescaled to preserve average synaptic strength?
+broader  How do biologically plausible pruning rules, connection-importance estimates, stochastic removal, and rescaling choices affect task performance, synaptic strength, and computational efficiency across recurrent neural architectures and learning settings?
+
+== h039  goal_swap  2609.15014
+A        How does lexicographic preference steering improve preference compliance on the navigation benchmark?
+B        To what extent does priority-ordered guidance increase adherence to deployment requirements in robot navigation evaluations?
+B_min    How does lexicographic preference steering enhance preference compliance on the navigation benchmark?
+C        How does lexicographic preference steering improve preference compliance on the LIBERO manipulation benchmark?
+C_tilde  To what extent does priority-ordered trajectory guidance strengthen adherence to user-specified requirements in the LIBERO manipulation evaluation?
+narrower How does lexicographic preference steering improve preference compliance on the navigation benchmark when feasibility constraints take priority over user preferences?
+broader  How do inference-time steering methods affect constraint satisfaction, task completion, traversability, and user-preference adherence across robotic navigation and manipulation tasks with different priority orderings?
+
+== h040  goal_swap  2609.10221
+A        How does FGPO improve genomic reasoning accuracy compared with GRPO?
+B        To what extent does exhaustive evaluation of available tool combinations increase correctness on genomic questions relative to sampled policy optimization?
+B_min    How does FGPO enhance genomic reasoning accuracy compared with GRPO?
+C        How does FGPO reduce the number of tools invoked per genomic question compared with GRPO?
+C_tilde  To what extent does exact evaluation of candidate tool sets decrease external-tool usage for specialist biological queries relative to sampled training?
+narrower How does FGPO improve genomic reasoning accuracy compared with GRPO across five frozen reasoners?
+broader  How do exact and sampled policy-optimization methods affect scientific reasoning accuracy, external-tool usage, computational cost, and reward-signal efficiency across genomic benchmarks, frozen reasoning models, and specialist scientific tasks?
+
+== h041  direction_flip  2609.23525
+A        How does multi-view discrete token augmentation improve automatic speech recognition across different speech encoders?
+B        To what extent does training on alternative tokenizations enhance transcription accuracy across varied speech representation encoders?
+B_min    How does multi-view discrete token augmentation enhance automatic speech recognition across different speech encoders?
+C        How does multi-view discrete token augmentation degrade automatic speech recognition across different speech encoders?
+C_tilde  To what extent does exposing a shared decoder to diverse token sequences worsen speech transcription quality across encoder choices?
+narrower How does multi-view discrete token augmentation improve automatic speech recognition across different speech encoders on LibriSpeech test-clean and test-other?
+broader  How do training-data augmentation, representation diversity, and decoder design influence transcription accuracy, robustness, and inference cost across speech recognition systems and evaluation benchmarks?
+
+== h042  direction_flip  2609.32874
+A        How does the AI-assisted review pipeline identify major trends in machine learning for the LHC physics program?
+B        To what extent can an automated literature-analysis workflow uncover important developments in machine learning research for particle physics?
+B_min    How does the AI-assisted review pipeline uncover major trends in machine learning for the LHC physics program?
+C        How does the AI-assisted review pipeline fail to identify major trends in machine learning for the LHC physics program?
+C_tilde  To what extent does an automated survey workflow overlook important developments in machine learning research for particle physics?
+narrower How does the AI-assisted review pipeline identify major trends in machine learning for the LHC physics program from May 2025 to May 2026?
+broader  How can automated literature analysis characterize emerging research directions, methodological limitations, adoption patterns, and open challenges across scientific disciplines?
+
+== h043  direction_flip  2608.27394
+A        How does operation-specific fine-tuning improve retrieval performance across the three ideation operations in RATIO?
+B        To what extent does adapting a scientific-paper retriever to distinct inspiration tasks increase its effectiveness across different retrieval objectives?
+B_min    How does operation-specific fine-tuning enhance retrieval performance across the three ideation operations in RATIO?
+C        How does operation-specific fine-tuning reduce retrieval performance across the three ideation operations in RATIO?
+C_tilde  To what extent does adapting a scientific-paper retrieval model to distinct inspiration tasks decrease its effectiveness across retrieval objectives?
+narrower How does operation-specific fine-tuning improve retrieval performance across the three ideation operations in RATIO on CS literature?
+broader  How do task-specific training objectives influence retrieval quality, generalization, and relevance across scientific information-retrieval systems and research-support applications?
+
+== h044  direction_flip  2608.17271
+A        How does reducing methodological guidance affect AI agents' performance on project-level scientific research tasks?
+B        What happens to research-task scores when autonomous agents receive progressively less instruction about which methods to use?
+B_min    How does reducing methodological guidance influence AI agents' performance on project-level scientific research tasks?
+C        How does reducing methodological guidance improve AI agents' performance on project-level scientific research tasks?
+C_tilde  To what extent does withdrawing methodological instructions increase the scores of AI systems completing end-to-end scientific projects?
+narrower How does reducing methodological guidance affect AI agents' performance on the 60 project-level research tasks across 11 scientific domains?
+broader  How do changes in human guidance affect autonomous performance, research quality, and verifiable outcomes across scientific fields and complex AI-agent tasks?
+
+== h045  direction_flip  2609.05079
+A        How does TruthInsightBench reveal weaknesses in coding agents' evidence-based scientific discovery?
+B        To what extent does the benchmark expose limitations in the ability of automated coding systems to establish scientifically supported conclusions?
+B_min    How does TruthInsightBench expose weaknesses in coding agents' evidence-based scientific discovery?
+C        How does TruthInsightBench reveal strengths in coding agents' evidence-based scientific discovery?
+C_tilde  To what extent does this evaluation demonstrate that automated research systems can reliably establish scientifically justified findings?
+narrower How does TruthInsightBench reveal weaknesses in coding agents' evidence-based scientific discovery on 40 blind tasks?
+broader  How do automated research systems demonstrate scientific judgment, evidence reliability, analytical robustness, falsifiability, and generalization across disciplines, datasets, and open-ended discovery tasks?
+
+== h046  constraint_flip  2609.33357
+A        How does DISCERN evaluate whether scientific agents support novel hypotheses with trustworthy evidence?
+B        To what extent can a benchmark assess the evidential reliability of new claims produced by automated research systems?
+B_min    How does DISCERN assess whether scientific agents support novel hypotheses with trustworthy evidence?
+C        How does DISCERN evaluate whether scientific agents support novel hypotheses without trustworthy evidence?
+C_tilde  To what extent does a scientific evaluation framework determine whether automated systems generate novel claims without reliable supporting evidence?
+narrower How does DISCERN evaluate whether scientific agents support novel hypotheses with trustworthy evidence on 203 tasks?
+broader  How do scientific evaluation methods measure evidence quality, analysis reliability, and hypothesis novelty across automated research systems and life-science domains?
+
+== h047  constraint_flip  2610.19159
+A        How often do AI agents produce follow-up papers that satisfy all scientist-defined conditions?
+B        What proportion of machine-generated research manuscripts meet every criterion specified by domain scientists for proposed follow-on studies?
+B_min    How often do AI agents produce follow-up papers that meet all scientist-defined conditions?
+C        How often do AI agents produce follow-up papers that satisfy some scientist-defined conditions?
+C_tilde  To what extent do automated research systems submit follow-up manuscripts that meet only a subset of requirements set by domain scientists?
+narrower How often do AI agents produce follow-up papers that satisfy all scientist-defined conditions in the benchmark's 135 submissions?
+broader  How do automated scientific systems affect research novelty, methodological validity, evidence integrity, reproducibility, and compliance with expert-defined criteria across scientific fields and open-ended follow-up projects?
+
+== h048  constraint_flip  2606.12736
+A        How does SciAgentArena assess agent performance on well-specified scientific tasks?
+B        To what extent can an interactive benchmark measure how effectively autonomous systems handle structured scientific workflows?
+B_min    How does SciAgentArena measure agent performance on well-specified scientific tasks?
+C        How does SciAgentArena assess agent performance on open-ended scientific tasks?
+C_tilde  How effectively do autonomous research systems handle open-ended scientific investigations in an interactive evaluation environment?
+narrower How does SciAgentArena assess agent performance on well-specified scientific tasks across approximately 200 verified tasks?
+broader  How do interactive evaluation frameworks measure autonomous reasoning, problem-solving, independent exploration, and research reliability across scientific disciplines and open-ended research environments?
+
+== h049  constraint_flip  2608.16951
+A        How does the Scientist agent escape local optima after repeated non-improving iterations with the Kuhn agent?
+B        To what extent can a second, paradigm-reframing agent help an automated researcher move beyond a stalled search process?
+B_min    How does the Scientist agent overcome local optima after repeated non-improving iterations with the Kuhn agent?
+C        How does the Scientist agent escape local optima after repeated non-improving iterations without the Kuhn agent?
+C_tilde  To what extent can an automated research system overcome stalled optimization without a separate paradigm-shifting component?
+narrower How does the Scientist agent escape local optima after repeated non-improving iterations with the Kuhn agent in protein-fitness prediction?
+broader  How do hypothesis-driven scientific agents use feedback, cross-disciplinary reframing, and structured evaluation to discover algorithms across research domains?
+
+== h050  constraint_flip  2609.09203
+A        How do process traces expose agent error patterns when frontier models have comparable success rates?
+B        To what extent can step-by-step execution records distinguish error patterns among research agents whose final success scores are similar?
+B_min    How do process traces reveal agent error patterns when frontier models have comparable success rates?
+C        How do process traces expose agent error patterns when frontier models have substantially different success rates?
+C_tilde  To what extent do trajectory logs expose differences in error behavior among frontier models despite markedly unequal overall success rates?
+narrower How do process traces expose agent error patterns when frontier models have comparable success rates across four scientific domains?
+broader  How can process-aware evaluation improve scientific-agent auditing, failure diagnosis, reproducibility, governance, and model development across diverse research disciplines, scientific workflows, and model architectures?
+
+== h051  goal_swap  2610.18449
+A        How does the discovery gate evaluate whether selected designs include promising candidates?
+B        To what extent does the first evaluation stage determine whether experimentally tested candidates contain promising designs?
+B_min    How does the discovery gate assess whether selected designs include promising candidates?
+C        How does the learning gate evaluate whether the model ranks held-out designs correctly?
+C_tilde  To what extent does the predictive-model stage assess whether unseen candidates are ordered by expected performance?
+narrower How does the discovery gate evaluate whether selected designs include promising candidates in the six budgeted campaigns?
+broader  How do multi-stage evaluation frameworks assess candidate discovery, predictive learning, held-out generalization, and scientific success across budgeted experimental campaigns and research domains?
+
+== h052  constraint_flip  2610.08927
+A        How do supervisor and periodic meta-reflection affect agents' rediscovery of scientific findings?
+B        To what extent do supervisory guidance and recurring self-review influence how much prior scientific knowledge autonomous systems recover?
+B_min    How do supervisor and periodic meta-reflection influence agents' rediscovery of scientific findings?
+C        How do supervisor and periodic meta-reflection affect agents' rediscovery of scientific findings when both mechanisms are absent?
+C_tilde  To what extent does removing external supervision and recurring self-review change how much established scientific knowledge autonomous systems recover?
+narrower How do supervisor and periodic meta-reflection affect agents' rediscovery of scientific findings across three open-ended tasks?
+broader  How do agent-environment mechanisms influence scientific discovery, research continuity, and reliable rediscovery across diverse open-ended tasks and scientific domains?
+
+== h053  direction_flip  2610.00084
+A        How do profession-specific system prompts affect accuracy on scientific benchmarks?
+B        To what extent does loading domain-matched role profiles change performance across science evaluation tasks?
+B_min    How do profession-specific system prompts influence accuracy on scientific benchmarks?
+C        How do profession-specific system prompts improve accuracy on scientific benchmarks?
+C_tilde  To what extent do specialized instruction profiles raise correctness across scientific evaluation suites?
+narrower How do profession-specific system prompts affect accuracy on scientific benchmarks across nine text-based science benchmarks?
+broader  How do prompt design, inference cost, token consumption, and task accuracy interact across automated scientific workflows, tool-using agents, and evaluation benchmarks?
+
+== h054  constraint_flip  2610.21082
+A        How do AI agents judge scientific decisions when shown project records?
+B        To what extent can autonomous research systems choose between competing research plans using project context?
+B_min    How do AI agents assess scientific decisions when shown project records?
+C        How do AI agents judge scientific decisions when denied access to project records?
+C_tilde  How effectively do automated investigators distinguish original proposals from researcher-corrected alternatives without access to prior project history?
+narrower How do AI agents judge scientific decisions when shown project records from six scientific fields?
+broader  How should scientific-agent evaluation measure judgment, context use, decision quality, and human oversight across autonomous research workflows and scientific disciplines?
+
+== h055  constraint_flip  2608.25286
+A        How well do AI agents execute multi-step analyses on raw data in computational biology?
+B        To what extent can autonomous systems complete sequential analytical workflows using unprocessed biological datasets?
+B_min    How effectively do AI agents execute multi-step analyses on raw data in computational biology?
+C        How well do AI agents execute multi-step analyses on small datasets in computational biology?
+C_tilde  To what extent do automated research systems maintain analytical accuracy when processing very large biological datasets?
+narrower How well do AI agents execute multi-step analyses on raw data in computational biology across 20 benchmark tasks?
+broader  How do autonomous research systems perform across scientific domains when dataset scale, computational resources, workflow complexity, reproducibility, and analytical requirements vary?
+
+== h056  constraint_flip  2610.18933
+A        How does cross-agent orchestration affect reliability in autonomous scientific discovery?
+B        To what extent does coordinating specialized coding agents influence the dependability of end-to-end computational research?
+B_min    How does cross-agent orchestration influence reliability in autonomous scientific discovery?
+C        How does autonomous scientific discovery maintain reliability without cross-agent orchestration?
+C_tilde  To what extent can automated research workflows remain dependable when coordination among specialized agents is removed?
+narrower How does cross-agent orchestration affect reliability in autonomous scientific discovery within The Agentic Scientist framework?
+broader  How do coordination strategies, verification mechanisms, experimental design, and information sharing influence the reliability of autonomous research systems across scientific domains?
+
+== h057  goal_swap  2604.25256
+A        How accurately do AI agents retrieve a specified target paper in AutoResearchBench's Deep Research task?
+B        To what extent can autonomous systems locate a particular scientific publication through progressive, multi-step searches?
+B_min    How effectively do AI agents retrieve a specified target paper in AutoResearchBench's Deep Research task?
+C        How accurately do AI agents collect all qualifying papers in AutoResearchBench's Wide Research task?
+C_tilde  To what extent can automated literature-research systems comprehensively gather publications that satisfy a specified set of conditions?
+narrower How accurately do AI agents retrieve a specified target paper in AutoResearchBench's Deep Research task using progressive, multi-step probing?
+broader  How do autonomous literature-discovery systems perform across scientific domains when search depth, coverage requirements, evidence quality, and retrieval objectives vary?
+
+== h058  direction_flip  2606.13662
+A        How does environment engineering influence autonomous scientific discovery in metric-driven tasks?
+B        To what extent do the resources, constraints, and interfaces surrounding an AI agent affect its ability to discover scientific solutions?
+B_min    How does environment design influence autonomous scientific discovery in metric-driven tasks?
+C        How does environment engineering hinder autonomous scientific discovery in metric-driven tasks?
+C_tilde  To what extent can poorly designed agent environments obstruct the discovery of scientific solutions under measurable objectives?
+narrower How does environment engineering influence autonomous scientific discovery in metric-driven tasks under a fixed computational budget?
+broader  How do agent architecture, environment design, resource allocation, collaboration, evaluation, and human oversight affect the reliability and effectiveness of autonomous systems across scientific discovery tasks?
+
+== h059  constraint_flip  2606.07591
+A        How do expert-curated rubrics evaluate autonomous scientific research when target papers are hidden?
+B        To what extent can weighted scoring criteria assess end-to-end discovery by autonomous research systems when reference findings are withheld?
+B_min    How do expert-curated rubrics assess autonomous scientific research when target papers are hidden?
+C        How do expert-curated rubrics evaluate autonomous scientific research when target papers are revealed?
+C_tilde  How effectively do automated scientific evaluations assess research discovery when the target publication is made available in advance?
+narrower How do expert-curated rubrics evaluate autonomous scientific research when target papers are hidden in a benchmark of 40 tasks across 10 scientific domains?
+broader  How do autonomous research systems demonstrate scientific validity, methodological rigor, reproducibility, evidence quality, and novel discovery across diverse domains, datasets, experimental workflows, evaluation settings, resource constraints, and forms of human oversight?
+
+== h060  constraint_flip  2607.28631
+A        How does using multiple LLM reviewers affect evaluation reliability for AI-generated scientific papers?
+B        To what extent does combining assessments from several language models improve the consistency of scientific-manuscript evaluation?
+B_min    How does using multiple LLM reviewers influence evaluation reliability for AI-generated scientific papers?
+C        How does using a single LLM reviewer affect evaluation reliability for AI-generated scientific papers?
+C_tilde  To what extent does relying on one automated evaluator influence the consistency of assessments of machine-generated research manuscripts?
+narrower How does using multiple LLM reviewers affect evaluation reliability for AI-generated scientific papers across originality, rigor, clarity, and significance?
+broader  How can automated evaluation frameworks measure scientific quality, reviewer agreement, scoring bias, reproducibility, and assessment reliability across AI-generated research papers and autonomous discovery systems?
+
+== h061  constraint_flip  2606.15497
+A        How does The AI Scientist conduct research when supplied with human-provided code templates?
+B        To what extent do predefined computational scaffolds shape the workflow of an automated scientific investigator?
+B_min    How does The AI Scientist perform research when supplied with human-provided code templates?
+C        How does The AI Scientist conduct research without human-provided code templates?
+C_tilde  How does an autonomous research system generate and test scientific ideas in a template-free setting?
+narrower How does The AI Scientist conduct research when supplied with human-provided code templates in its focused research mode?
+broader  How do research scaffolds, automated experimentation, idea generation, and evaluation strategies influence end-to-end scientific research across different levels of autonomy and scientific domains?
+
+== h062  role_swap  2605.08323
+A        How do an agent's actions reshape opponents' reputations in reciprocal strategic interactions?
+B        To what extent do an agent's strategic choices change the reputations assigned to other participants?
+B_min    How do an agent's actions alter opponents' reputations in reciprocal strategic interactions?
+C        How do opponents' reputations influence an agent's future rewards in reciprocal strategic interactions?
+C_tilde  To what extent do other participants' reputations shape the future rewards received by an acting agent?
+narrower How do an agent's actions reshape opponents' reputations in reciprocal strategic interactions when public observations inform policy learning?
+broader  How do actions, reputation formation, social feedback, and reward optimization interact in multi-agent strategic environments with indirect influence and reciprocal consequences?

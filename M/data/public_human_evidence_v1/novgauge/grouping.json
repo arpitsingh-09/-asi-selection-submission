@@ -1,0 +1,4873 @@
+[
+  {
+    "item_id": "survey:2304.08283:sent_0",
+    "source_survey": "2304.08283",
+    "n_papers": 3,
+    "papers": [
+      {
+        "paper_id": "ngp-000456",
+        "title": "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+        "authors": [
+          "Yossi Gilad",
+          "Rotem Hemo",
+          "Silvio Micali",
+          "Georgios Vlachos",
+          "Nickolai Zeldovich",
+          "Mit Csail"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://people.csail.mit.edu/nickolai/papers/gilad-algorand-eprint.pdf",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000457",
+        "title": "Blockene: A High-throughput Blockchain Over Mobile Devices",
+        "authors": [
+          "Sambhav Satija",
+          "Apurv Mehra",
+          "Sudheesh Singanamalla",
+          "Karan Grover",
+          "Muthian Sivathanu",
+          "Nishanth Chandran",
+          "Divya Gupta",
+          "Satya Lokam"
+        ],
+        "year": 2020,
+        "venue": null,
+        "arxiv_id": "2010.07277v1",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2010.07277",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000458",
+        "title": "A Secure Sharding Protocol For Open Blockchains",
+        "authors": [
+          "Loi Luu",
+          "Viswesh Narayanan",
+          "Chaodong Zheng",
+          "Kunal Baweja",
+          "Seth Gilbert",
+          "Prateek Saxena"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1145/2976749.2978389",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://people.cs.georgetown.edu/~cnewport/teaching/cosc841-spring19/papers/new/sharding.pdf",
+        "paper_index": 3
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "problem_groups": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "method_groups": []
+    },
+    "eval_dims": [
+      "task",
+      "problem"
+    ]
+  },
+  {
+    "item_id": "survey:2304.09793:sent_1",
+    "source_survey": "2304.09793",
+    "n_papers": 4,
+    "papers": [
+      {
+        "paper_id": "ngp-000459",
+        "title": "Stereo Event-based Visual-Inertial Odometry",
+        "authors": [
+          "Kunfeng Wang",
+          "Kaichun Zhao",
+          "Zheng You"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "2303.05086",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2303.05086",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000460",
+        "title": "Event-based Feature Tracking with Probabilistic Data Association",
+        "authors": [
+          "Alex Zhu",
+          "Nikolay Atanasov",
+          "Kostas Daniilidis"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://natanaso.github.io/ref/Zhu_EVFT_ICRA17.pdf",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000461",
+        "title": "Real-time Visual-Inertial Odometry for Event Cameras using Keyframe-based Nonlinear Optimization",
+        "authors": [
+          "Henri Rebecq",
+          "Davide Scaramuzza"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://rpg.ifi.uzh.ch/docs/BMVC17_Rebecq.pdf",
+        "paper_index": 3
+      },
+      {
+        "paper_id": "ngp-000462",
+        "title": "Ultimate SLAM? Combining Events, Images, and IMU for Robust Visual SLAM in HDR and High Speed Scenarios",
+        "authors": [
+          "Antoni Vidal",
+          "Henri Rebecq",
+          "Timo Horstschaefer",
+          "Davide Scaramuzza"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "1709.06310",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/1709.06310",
+        "paper_index": 4
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "problem_groups": [],
+      "method_groups": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    "eval_dims": [
+      "task",
+      "method"
+    ]
+  },
+  {
+    "item_id": "survey:2304.09793:sent_2",
+    "source_survey": "2304.09793",
+    "n_papers": 3,
+    "papers": [
+      {
+        "paper_id": "ngp-000464",
+        "title": "PL-EVIO: Robust Monocular Event-based Visual Inertial Odometry with Point and Line Features",
+        "authors": [],
+        "year": 2023,
+        "venue": null,
+        "arxiv_id": "2209.12160v2",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2209.12160",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000463",
+        "title": "ELiSeD -An Event-Based Line Segment Detector",
+        "authors": [
+          "Christian Brändli",
+          "Jonas Strubel",
+          "Susanne Keller",
+          "Davide Scaramuzza",
+          "Tobi Delbruck"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://rpg.ifi.uzh.ch/docs/EBCCSP16_Braendli.pdf",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000465",
+        "title": "Event-Based Line Fitting and Segment Detection Using a Neuromorphic Visual Sensor",
+        "authors": [
+          "David Valeiras",
+          "Xavier Clady",
+          "Sio-Hoi Ieng",
+          "Ryad Benosman"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1109/tnnls.2018.2807983",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://ieeexplore.ieee.org/ielx7/5962385/8668600/08463622.pdf",
+        "paper_index": 3
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "problem_groups": [],
+      "method_groups": [
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    "eval_dims": [
+      "task",
+      "method"
+    ]
+  },
+  {
+    "item_id": "survey:2304.09793:sent_3",
+    "source_survey": "2304.09793",
+    "n_papers": 4,
+    "papers": [
+      {
+        "paper_id": "ngp-000466",
+        "title": "Continuous-Time Trajectory Estimation for Event-based Vision Sensors",
+        "authors": [
+          "Elias Mueggler",
+          "Guillermo Gallego",
+          "Davide Scaramuzza"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.15607/rss.2015.xi.036",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.15607/rss.2015.xi.036",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000467",
+        "title": "Continuous-Time Visual-Inertial Odometry for Event Cameras",
+        "authors": [
+          "Elias Mueggler",
+          "Guillermo Gallego",
+          "Henri Rebecq",
+          "Davide Scaramuzza"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "1702.07389",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/1702.07389",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000468",
+        "title": "Asynchronous Optimisation for Event-based Visual Odometry",
+        "authors": [
+          "Daqi Liu",
+          "Alvaro Parra",
+          "Yasir Latif",
+          "Bo Chen",
+          "Tat-Jun Chin",
+          "Ian Reid"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "2203.01037",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2203.01037",
+        "paper_index": 3
+      },
+      {
+        "paper_id": "ngp-000469",
+        "title": "IDOL: A Framework for IMU-DVS Odometry using Lines",
+        "authors": [
+          "Cedric Le Gentil",
+          "Florian Tschopp",
+          "Ignacio Alzugaray",
+          "Teresa Vidal-Calleja",
+          "Roland Siegwart",
+          "Juan Nieto"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "2008.05749",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2008.05749",
+        "paper_index": 4
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "problem_groups": [
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "method_groups": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    "eval_dims": [
+      "task",
+      "problem",
+      "method"
+    ]
+  },
+  {
+    "item_id": "survey:2304.09793:sent_5",
+    "source_survey": "2304.09793",
+    "n_papers": 3,
+    "papers": [
+      {
+        "paper_id": "ngp-000472",
+        "title": "Real-Time 3D Reconstruction and 6-DoF Tracking with an Event Camera",
+        "authors": [
+          "Hanme Kim",
+          "Stefan Leutenegger",
+          "Andrew Davison"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://www.doc.ic.ac.uk/~ajd/Publications/kim_etal_eccv2016.pdf",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000473",
+        "title": "Simultaneous Mosaicing and Tracking with an Event Camera",
+        "authors": [
+          "Hanme Kim",
+          "Ankur Handa",
+          "Ryad Benosman",
+          "Andrew Davison"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://www.doc.ic.ac.uk/~ajd/Publications/kim_etal_bmvc2014.pdf",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000474",
+        "title": "Event-based, 6-DOF Camera Tracking from Photometric Depth Maps",
+        "authors": [
+          "Guillermo Gallego",
+          "Jon Lund",
+          "Elias Mueggler",
+          "Henri Rebecq",
+          "Tobi Delbruck",
+          "Davide Scaramuzza"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "1607.03468",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/1607.03468",
+        "paper_index": 3
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "problem_groups": [],
+      "method_groups": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    "eval_dims": [
+      "task",
+      "method"
+    ]
+  },
+  {
+    "item_id": "survey:2304.09793:sent_7",
+    "source_survey": "2304.09793",
+    "n_papers": 3,
+    "papers": [
+      {
+        "paper_id": "ngp-000476",
+        "title": "Event-based Moving Object Detection and Tracking",
+        "authors": [
+          "Anton Mitrokhin",
+          "Cornelia Fermüller",
+          "Chethan Parameshwara",
+          "Yiannis Aloimonos"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "1803.04523",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/1803.04523",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000475",
+        "title": "Event-Based Motion Segmentation by Motion Compensation",
+        "authors": [
+          "Timo Stoffregen",
+          "Guillermo Gallego",
+          "Tom Drummond",
+          "Lindsay Kleeman",
+          "Davide Scaramuzza"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "1904.01293",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/1904.01293",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000477",
+        "title": "Learning Visual Motion Segmentation using Event Surfaces",
+        "authors": [
+          "Anton Mitrokhin",
+          "Zhiyuan Hua",
+          "Cornelia Fermüller",
+          "Yiannis Aloimonos"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Mitrokhin_Learning_Visual_Motion_Segmentation_Using_Event_Surfaces_CVPR_2020_paper.pdf",
+        "paper_index": 3
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "problem_groups": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "method_groups": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    "eval_dims": [
+      "task",
+      "problem",
+      "method"
+    ]
+  },
+  {
+    "item_id": "survey:2305.00264:sent_8",
+    "source_survey": "2305.00264",
+    "n_papers": 3,
+    "papers": [
+      {
+        "paper_id": "ngp-000478",
+        "title": "ELSED: Enhanced line SEgment drawing",
+        "authors": [
+          "Iago Suárez",
+          "José Buenaposada",
+          "Luis Baumela"
+        ],
+        "year": 2022,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1016/j.patcog.2022.108619",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.1016/j.patcog.2022.108619",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000479",
+        "title": "LEVEL-LINE GUIDED EDGE DRAWING FOR ROBUST LINE SEGMENT DETECTION",
+        "authors": [
+          "Xinyu Lin",
+          "Yingjie Zhou",
+          "Yipeng Liu",
+          "Ce Zhu"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "2305.05883",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2305.05883",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000480",
+        "title": "Effective and Efficient Line Segment Detection for Visual Measurement Guided by Level Lines",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1109/tim.2023.3328094",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.1109/tim.2023.3328094",
+        "paper_index": 3
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "problem_groups": [],
+      "method_groups": [
+        [
+          1,
+          2,
+          3
+        ]
+      ]
+    },
+    "eval_dims": [
+      "task",
+      "method"
+    ]
+  },
+  {
+    "item_id": "survey:2305.00264:sent_10",
+    "source_survey": "2305.00264",
+    "n_papers": 3,
+    "papers": [
+      {
+        "paper_id": "ngp-000482",
+        "title": "Matching disparate views of planar surfaces using projective invariants",
+        "authors": [
+          "M Lourakis",
+          "S Halkidis",
+          "S Orphanoudakis"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://bmva-archive.org.uk/bmvc/1998/pdf/p079.pdf",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000481",
+        "title": "Line Matching Leveraged By Point Correspondences",
+        "authors": [
+          "Bin Fan",
+          "Fuchao Wu",
+          "Zhanyi Hu"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://nlpr.ia.ac.cn/fanbin/pub/BinFan_LM_CVPR10.pdf",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000483",
+        "title": "Robust line matching through line-point invariants",
+        "authors": [
+          "Fan Bin",
+          "Fuchao Wu",
+          "Zhanyi Hu"
+        ],
+        "year": 2011,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1016/j.patcog.2011.08.004",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://nlpr.ia.ac.cn/2012papers/gjkw/gk5.pdf",
+        "paper_index": 3
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "problem_groups": [],
+      "method_groups": [
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    "eval_dims": [
+      "task",
+      "method"
+    ]
+  },
+  {
+    "item_id": "survey:2305.00264:sent_11",
+    "source_survey": "2305.00264",
+    "n_papers": 3,
+    "papers": [
+      {
+        "paper_id": "ngp-000484",
+        "title": "A Fast and Power-Efficient Hardware Architecture for Visual Feature Detection in Affine-SIFT",
+        "authors": [
+          "Peng Ouyang",
+          "Shouyi Yin",
+          "Leibo Liu",
+          "Youguang Zhang",
+          "Weisheng Zhao",
+          "Shaojun Wei"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1109/tcsi.2018.2806447",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.1109/tcsi.2018.2806447",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000485",
+        "title": "Area-Time Efficient Streaming Architecture for FAST and BRIEF Detector",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://dr.ntu.edu.sg/bitstream/10356/142793/2/Area-Time%20Efficient%20Streaming%20Architecture%20for%20FAST%20and%20BRIEF%20Detector.pdf",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000486",
+        "title": "Leveraging Negative Capacitance CNTFETs for Image Processing: An Ultra-Efficient Ternary Image Edge Detection Hardware",
+        "authors": [
+          "Fereshteh Behbahani",
+          "Mohammad Khaleqi",
+          "Qaleh Jooq",
+          "Mohammad Moaiyeri"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1109/tcsi.2021.3112798",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.1109/tcsi.2021.3112798",
+        "paper_index": 3
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "problem_groups": [],
+      "method_groups": []
+    },
+    "eval_dims": [
+      "task"
+    ]
+  },
+  {
+    "item_id": "survey:2305.04933:sent_15",
+    "source_survey": "2305.04933",
+    "n_papers": 3,
+    "papers": [
+      {
+        "paper_id": "ngp-000667",
+        "title": "Toward a Better Understanding of Model Validation Metrics",
+        "authors": [
+          "Yu Liu",
+          "Wei Chen",
+          "Paul Arendt",
+          "Hong-Zhong Huang"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1115/1.4004223",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.1115/1.4004223",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000489",
+        "title": "Obtaining Well Calibrated Probabilities Using Bayesian Binning",
+        "authors": [
+          "Pakdaman Naeini",
+          "Gregory Cooper",
+          "Milos Hauskrecht"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://people.cs.pitt.edu/~milos/research/AAAI_Calibration.pdf",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000490",
+        "title": "Accurate Uncertainties for Deep Learning Using Calibrated Regression",
+        "authors": [
+          "Volodymyr Kuleshov",
+          "Nathan Fenner",
+          "Stefano Ermon"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "1807.00263",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/1807.00263",
+        "paper_index": 3
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          2,
+          3
+        ]
+      ],
+      "problem_groups": [],
+      "method_groups": [
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    "eval_dims": [
+      "task",
+      "method"
+    ]
+  },
+  {
+    "item_id": "survey:2305.02066:sent_13",
+    "source_survey": "2305.02066",
+    "n_papers": 3,
+    "papers": [
+      {
+        "paper_id": "ngp-000692",
+        "title": "Stochastic Stability of Differential Equations",
+        "authors": [
+          "Rafail Khasminskii"
+        ],
+        "year": 2011,
+        "venue": "Springer, Stochastic Modelling and Applied Probability, 2nd edition",
+        "arxiv_id": null,
+        "doi": "10.1007/978-3-642-23280-0",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.1007/978-3-642-23280-0",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000488",
+        "title": "NN-Based Adaptive Tracking Control of Uncertain Nonlinear Systems Disturbed by Unknown Covariance Noise",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1109/tnn.2007.901274",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.1109/tnn.2007.901274",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000487",
+        "title": "Adaptive Fuzzy Control for a Class of Stochastic Pure-Feedback Nonlinear Systems With Unknown Hysteresis",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1109/tfuzz.2015.2446531",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.1109/tfuzz.2015.2446531",
+        "paper_index": 3
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          2,
+          3
+        ]
+      ],
+      "problem_groups": [],
+      "method_groups": []
+    },
+    "eval_dims": [
+      "task"
+    ]
+  },
+  {
+    "item_id": "survey:2305.05040:sent_18",
+    "source_survey": "2305.05040",
+    "n_papers": 4,
+    "papers": [
+      {
+        "paper_id": "ngp-000668",
+        "title": "Two Decades of AI4NETS -AI/ML for Data Networks: Challenges & Research Directions",
+        "authors": [
+          "Pedro Casas"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": null,
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000669",
+        "title": "Machine Learning: Algorithms, Real-World Applications and Research Directions",
+        "authors": [
+          "Iqbal Sarker"
+        ],
+        "year": 2021,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1007/s42979-021-00592-x",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://link.springer.com/content/pdf/10.1007/s42979-021-00592-x.pdf",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000493",
+        "title": "Novel Deep Learning-Enabled LSTM Autoencoder Architecture for Discovering Anomalous Events From Intelligent Transportation Systems",
+        "authors": [
+          "Javed Ashraf",
+          "Asim Bakhshi",
+          "Nour Moustafa",
+          "Hasnat Khurshid",
+          "Abdullah Javed",
+          "Amin Beheshti"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1109/tits.2020.3017882",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.1109/tits.2020.3017882",
+        "paper_index": 3
+      },
+      {
+        "paper_id": "ngp-000494",
+        "title": "Privacy Preserving Misbehavior Detection in IoV using Federated Machine Learning",
+        "authors": [
+          "Aashma Uprety",
+          "Danda Rawat",
+          "Jiang Li"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://par.nsf.gov/servlets/purl/10279535",
+        "paper_index": 4
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          3,
+          4
+        ]
+      ],
+      "problem_groups": [],
+      "method_groups": []
+    },
+    "eval_dims": [
+      "task"
+    ]
+  },
+  {
+    "item_id": "survey:2305.05080:sent_20",
+    "source_survey": "2305.05080",
+    "n_papers": 3,
+    "papers": [
+      {
+        "paper_id": "ngp-000679",
+        "title": "Unidimensional and Evolution Methods for Optimal Transportation",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": null,
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000680",
+        "title": "Errata to the paper \"Strong equivalence between metrics of Wasserstein type\"",
+        "authors": [
+          "Erhan Bayraktar",
+          "Gaoyue Guo"
+        ],
+        "year": 2024,
+        "venue": null,
+        "arxiv_id": "1912.08247v5",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/abs/1912.08247v5",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000681",
+        "title": "Asymptotic Guarantees for Learning Generative Models with the Sliced-Wasserstein Distance",
+        "authors": [
+          "Kimia Nadjahi",
+          "Alain Durmus",
+          "Umut Şimşekli",
+          "Roland Badeau"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": null,
+        "paper_index": 3
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [],
+      "problem_groups": [],
+      "method_groups": []
+    },
+    "eval_dims": []
+  },
+  {
+    "item_id": "survey:2305.05080:sent_22",
+    "source_survey": "2305.05080",
+    "n_papers": 3,
+    "papers": [
+      {
+        "paper_id": "ngp-000497",
+        "title": "A Sparse Multi-Scale Algorithm for Dense Optimal Transport",
+        "authors": [
+          "Bernhard Schmitzer"
+        ],
+        "year": 2016,
+        "venue": null,
+        "arxiv_id": "1510.05466",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/1510.05466",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000498",
+        "title": "Multiscale Strategies for Computing Optimal Transport",
+        "authors": [
+          "Samuel Gerber",
+          "Mauro Maggioni"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "1708.02469",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/1708.02469",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000499",
+        "title": "Eurographics Symposium on Geometry Processing 2011",
+        "authors": [
+          "Mario Botsch",
+          "Scott Schaefer",
+          "Quentin Mérigot"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1111/j.1467-8659.2011.02032.x",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://hal.science/hal-00604684",
+        "paper_index": 3
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "problem_groups": [],
+      "method_groups": [
+        [
+          1,
+          2,
+          3
+        ]
+      ]
+    },
+    "eval_dims": [
+      "task",
+      "method"
+    ]
+  },
+  {
+    "item_id": "survey:2305.05080:sent_24",
+    "source_survey": "2305.05080",
+    "n_papers": 4,
+    "papers": [
+      {
+        "paper_id": "ngp-000503",
+        "title": "Transferability and Hardness of Supervised Classification Tasks",
+        "authors": [
+          "Anh Tran",
+          "Cuong Nguyen",
+          "Tal Hassner"
+        ],
+        "year": 2019,
+        "venue": null,
+        "arxiv_id": "1908.08142v1",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/1908.08142",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000502",
+        "title": "AN INFORMATION-THEORETIC APPROACH TO TRANSFERABILITY IN TASK TRANSFER LEARNING",
+        "authors": [
+          "Yajie Bao",
+          "Yang Li",
+          "Shao-Lun Huang",
+          "Lin Zhang",
+          "Lizhong Zheng",
+          "Amir Zamir",
+          "Leonidas Guibas",
+          "Tsinghua-Berkeley Shenzhen Institute"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "2212.10082",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2212.10082",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000504",
+        "title": "LEEP: A New Measure to Evaluate Transferability of Learned Representations",
+        "authors": [
+          "Cuong Nguyen",
+          "Tal Hassner",
+          "Matthias Seeger",
+          "Cedric Archambeau"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "2002.12462",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2002.12462",
+        "paper_index": 3
+      },
+      {
+        "paper_id": "ngp-000505",
+        "title": "Taskonomy: Disentangling Task Transfer Learning",
+        "authors": [
+          "Amir Zamir",
+          "Alexander Sax",
+          "William Shen",
+          "Leonidas Guibas",
+          "Jitendra Malik",
+          "Silvio Savarese"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://www.ijcai.org/proceedings/2019/0871.pdf",
+        "paper_index": 4
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "problem_groups": [],
+      "method_groups": [
+        [
+          1,
+          2,
+          3
+        ]
+      ]
+    },
+    "eval_dims": [
+      "task",
+      "method"
+    ]
+  },
+  {
+    "item_id": "survey:2305.05080:sent_25",
+    "source_survey": "2305.05080",
+    "n_papers": 3,
+    "papers": [
+      {
+        "paper_id": "ngp-000506",
+        "title": "Generative Modeling by Estimating Gradients of the Data Distribution",
+        "authors": [
+          "Yang Song",
+          "Stefano Ermon"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "1907.05600",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/1907.05600",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000507",
+        "title": "SCORE-BASED GENERATIVE MODELING THROUGH STOCHASTIC DIFFERENTIAL EQUATIONS",
+        "authors": [
+          "Yang Song",
+          "Jascha Sohl-Dickstein",
+          "Diederik Kingma",
+          "Abhishek Kumar",
+          "Stefano Ermon",
+          "Ben Poole"
+        ],
+        "year": 2021,
+        "venue": null,
+        "arxiv_id": "2011.13456v2",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2011.13456",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000508",
+        "title": "Deep Unsupervised Learning using Nonequilibrium Thermodynamics",
+        "authors": [
+          "Jascha Sohl-Dickstein",
+          "Eric Weiss",
+          "Niru Maheswaranathan"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "1503.03585",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/1503.03585",
+        "paper_index": 3
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "problem_groups": [],
+      "method_groups": [
+        [
+          1,
+          2,
+          3
+        ]
+      ]
+    },
+    "eval_dims": [
+      "task",
+      "method"
+    ]
+  },
+  {
+    "item_id": "survey:2305.05403:sent_32",
+    "source_survey": "2305.05403",
+    "n_papers": 3,
+    "papers": [
+      {
+        "paper_id": "ngp-000644",
+        "title": "Demand-Weighted Completeness Prediction for a Knowledge Base",
+        "authors": [
+          "Andrew Hopkinson",
+          "Amit Gurdasani",
+          "Dave Palfrey",
+          "Arpit Mittal"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://www.aclweb.org/anthology/N18-3025.pdf",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000655",
+        "title": "On Aligning OpenIE Extractions with Knowledge Bases: A Case Study",
+        "authors": [
+          "Kiril Gashteovski",
+          "Rainer Gemulla",
+          "Bhushan Kotnis",
+          "Sven Hertling",
+          "Christian Meilicke"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://www.aclweb.org/anthology/2020.eval4nlp-1.14.pdf",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000645",
+        "title": "Recoin: Relative Completeness in Wikidata",
+        "authors": [
+          "Vevake Balaraman",
+          "Simon Razniewski",
+          "Werner Nutt"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1145/3184558.3191641",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://wikiworkshop.org/2018/papers/wikiworkshop2018_paper_2.pdf",
+        "paper_index": 3
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [],
+      "problem_groups": [],
+      "method_groups": []
+    },
+    "eval_dims": []
+  },
+  {
+    "item_id": "survey:2305.05403:sent_33",
+    "source_survey": "2305.05403",
+    "n_papers": 4,
+    "papers": [
+      {
+        "paper_id": "ngp-000522",
+        "title": "UnCommonSense: Informative Negative Knowledge about Everyday Concepts",
+        "authors": [
+          "Hiba Arnaout",
+          "Simon Razniewski"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1145/3511808.3557484",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://dl.acm.org/doi/pdf/10.1145/3511808.3557484",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000670",
+        "title": "WebIsALOD: Providing Hypernymy Relations extracted from the Web as Linked Open Data",
+        "authors": [
+          "Sven Hertling",
+          "Heiko Paulheim"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://data.dws.informatik.uni-mannheim.de/webisa/iswc2017_webisalod.pdf",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000671",
+        "title": "Wikipedia2Vec: An Efficient Toolkit for Learning and Visualizing the Embeddings of Words and Entities from Wikipedia",
+        "authors": [
+          "Ikuya Yamada",
+          "Jin Sakuma",
+          "Hiroyuki Shindo",
+          "Hideaki Takeda",
+          "Yuji Matsumoto"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://www.aclweb.org/anthology/2020.emnlp-demos.4.pdf",
+        "paper_index": 3
+      },
+      {
+        "paper_id": "ngp-000521",
+        "title": "Enriching Knowledge Bases with Interesting Negative Statements",
+        "authors": [
+          "Hiba Arnaout",
+          "Simon Razniewski",
+          "Gerhard Weikum"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.24432/c5101k",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.24432/c5101k",
+        "paper_index": 4
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          4
+        ]
+      ],
+      "problem_groups": [],
+      "method_groups": [
+        [
+          1,
+          4
+        ]
+      ]
+    },
+    "eval_dims": [
+      "task",
+      "method"
+    ]
+  },
+  {
+    "item_id": "survey:2305.06159:sent_34",
+    "source_survey": "2305.06159",
+    "n_papers": 5,
+    "papers": [
+      {
+        "paper_id": "ngp-000524",
+        "title": "VL-BERT: PRE-TRAINING OF GENERIC VISUAL-LINGUISTIC REPRESENTATIONS",
+        "authors": [
+          "Weijie Su",
+          "Xizhou Zhu",
+          "Yue Cao",
+          "Bin Li",
+          "Lewei Lu",
+          "Furu Wei",
+          "Jifeng Dai"
+        ],
+        "year": 2020,
+        "venue": null,
+        "arxiv_id": "1908.08530v4",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/1908.08530",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000523",
+        "title": "Work in Progress VISUALBERT: A SIMPLE AND PERFORMANT BASELINE FOR VISION AND LANGUAGE",
+        "authors": [
+          "Harold Liunian",
+          "Li",
+          "Mark Yatskar",
+          "Da Yin",
+          "Cho-Jui Hsieh",
+          "Kai-Wei Chang"
+        ],
+        "year": 2019,
+        "venue": null,
+        "arxiv_id": "1908.03557v1",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/1908.03557",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000525",
+        "title": "ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks",
+        "authors": [
+          "Jiasen Lu",
+          "Dhruv Batra",
+          "Devi Parikh",
+          "Stefan Lee"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "1908.02265",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/1908.02265",
+        "paper_index": 3
+      },
+      {
+        "paper_id": "ngp-000526",
+        "title": "UNITER: UNiversal Image-TExt Representation Learning",
+        "authors": [
+          "Yen-Chun Chen",
+          "Linjie Li",
+          "Licheng Yu",
+          "Ahmed El",
+          "Kholy Faisal",
+          "Zhe Gan",
+          "Yu Cheng",
+          "Jingjing Liu"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "1909.11740",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/1909.11740",
+        "paper_index": 4
+      },
+      {
+        "paper_id": "ngp-000527",
+        "title": "TOD-BERT: Pre-trained Natural Language Understanding for Task-Oriented Dialogue",
+        "authors": [
+          "Chien-Sheng Wu",
+          "Steven Hoi",
+          "Richard Socher",
+          "Caiming Xiong",
+          "Salesforce Research"
+        ],
+        "year": 2020,
+        "venue": null,
+        "arxiv_id": "2004.06871v3",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2004.06871",
+        "paper_index": 5
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "problem_groups": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "method_groups": [
+        [
+          1,
+          2,
+          4
+        ]
+      ]
+    },
+    "eval_dims": [
+      "task",
+      "problem",
+      "method"
+    ]
+  },
+  {
+    "item_id": "survey:2305.05750:sent_35",
+    "source_survey": "2305.05750",
+    "n_papers": 5,
+    "papers": [
+      {
+        "paper_id": "ngp-000528",
+        "title": "MOZART: Masking Outputs with Zeros for Architectural Robustness and Testing of DNN Accelerators",
+        "authors": [
+          "Stephane Burel",
+          "Adrian Evans",
+          "Lorena Angherj"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1109/iolts52814.2021.9486694",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://hal.science/hal-03470265v1/document",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000529",
+        "title": "Model Compression on Faulty Array-based Neural Network Accelerator",
+        "authors": [
+          "Krishna Teja Chitty-Venkata",
+          "Arun Somani"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1109/prdc50213.2020.00020",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.1109/prdc50213.2020.00020",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000530",
+        "title": "SHIELDeNN: Online Accelerated Framework for Fault-Tolerant Deep Neural Network Architectures",
+        "authors": [
+          "Navid Khoshavi1",
+          "Arman Roohi",
+          "Connor Broyles",
+          "Saman Sargolzaei",
+          "Yu Bi",
+          "David Pan"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://digitalcommons.uri.edu/ele_facpubs/109",
+        "paper_index": 3
+      },
+      {
+        "paper_id": "ngp-000531",
+        "title": "Low-Cost Error Detection in Deep Neural Network Accelerators with Linear Algorithmic Checksums",
+        "authors": [
+          "Elbruz Ozen",
+          "Alex Orailoglu"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1007/s10836-020-05920-2",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.1007/s10836-020-05920-2",
+        "paper_index": 4
+      },
+      {
+        "paper_id": "ngp-000532",
+        "title": "Analyzing and Increasing the Reliability of Convolutional Neural Networks on GPUs",
+        "authors": [
+          "Fernando Fernand",
+          "Pedro Santos",
+          "Caio Folet Pimenta",
+          "Luc Lunardi",
+          "Luigi Draghetti",
+          "David Carro",
+          "Paolo Kaeli",
+          "Rech"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1109/tr.2018.2878387",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.1109/tr.2018.2878387",
+        "paper_index": 5
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "problem_groups": [],
+      "method_groups": []
+    },
+    "eval_dims": [
+      "task"
+    ]
+  },
+  {
+    "item_id": "survey:2305.05750:sent_36",
+    "source_survey": "2305.05750",
+    "n_papers": 3,
+    "papers": [
+      {
+        "paper_id": "ngp-000531",
+        "title": "Low-Cost Error Detection in Deep Neural Network Accelerators with Linear Algorithmic Checksums",
+        "authors": [
+          "Elbruz Ozen",
+          "Alex Orailoglu"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1007/s10836-020-05920-2",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.1007/s10836-020-05920-2",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000533",
+        "title": "Understanding Error Propagation in Deep Learning Neural Network (DNN) Accelerators and Applications",
+        "authors": [
+          "Guanpeng Li",
+          "Siva Kumar",
+          "Sastry Hari",
+          "Michael Sullivan",
+          "Timothy Tsai",
+          "Karthik Pattabiraman",
+          "Joel Emer",
+          "Stephen Keckler"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1145/3126908.3126964",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://research.nvidia.com/sites/default/files/pubs/2017-11_Understanding-Error-Propagation/SC17_DNN_Resilience.pdf",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000534",
+        "title": "Sanity-Check: Boosting the Reliability of Safety-Critical Deep Neural Network Applications",
+        "authors": [
+          "Elbruz Ozen",
+          "Alex Orailoglu"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1109/ats47505.2019.000-8",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.1109/ats47505.2019.000-8",
+        "paper_index": 3
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "problem_groups": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "method_groups": [
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    "eval_dims": [
+      "task",
+      "problem",
+      "method"
+    ]
+  },
+  {
+    "item_id": "survey:2305.05750:sent_38",
+    "source_survey": "2305.05750",
+    "n_papers": 3,
+    "papers": [
+      {
+        "paper_id": "ngp-000537",
+        "title": "Comparative Analysis of Inference Errors in a Neural Network Implemented in SRAM-Based FPGA Induced by Neutron Irradiation and Fault Injection Methods",
+        "authors": [
+          "Fabio Benevenuti",
+          "Fabiano Libano",
+          "Vincent Pouget",
+          "Fernanda Kastensmidt",
+          "Paolo Rech"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": null,
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000538",
+        "title": "Selective Hardening for Neural Networks in FPGAs",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://par.nsf.gov/servlets/purl/10107646",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000539",
+        "title": "Understanding the Impact of Quantization, Accuracy, and Radiation on the Reliability of Convolutional Neural Networks on FPGAs",
+        "authors": [
+          "F Libano",
+          "B Wilson",
+          "M Wirthlin",
+          "P Rech",
+          "J Brunhaver"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1109/tns.2020.2983662",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://par.nsf.gov/servlets/purl/10211918",
+        "paper_index": 3
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "problem_groups": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "method_groups": [
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    "eval_dims": [
+      "task",
+      "problem",
+      "method"
+    ]
+  },
+  {
+    "item_id": "survey:2305.05813:sent_39",
+    "source_survey": "2305.05813",
+    "n_papers": 4,
+    "papers": [
+      {
+        "paper_id": "ngp-000540",
+        "title": "A Survey of Change Detection Methods Based on Remote Sensing Images for Multi-Source and Multi-Objective Scenarios",
+        "authors": [
+          "Yanan You",
+          "Jingyi Cao",
+          "Wenli Zhou"
+        ],
+        "year": 2020,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.3390/rs12152460",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://www.mdpi.com/2072-4292/12/15/2460/pdf",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000541",
+        "title": "Change Detection for High-Resolution Remote Sensing Images Based on a Multi-Scale Attention Siamese Network",
+        "authors": [
+          "Kamil Krasuski",
+          "Damian Wierzbicki",
+          "Jiankang Li",
+          "Shanyou Zhu",
+          "Yiyao Gao",
+          "Guixin Zhang",
+          "Yongming Xu"
+        ],
+        "year": 2022,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.3390/rs14143464",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://www.mdpi.com/2072-4292/14/14/3464/pdf?version=1658223996",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000542",
+        "title": "A Survey on Deep Learning-Based Change Detection from High-Resolution Remote Sensing Images",
+        "authors": [
+          "Huiwei Jiang",
+          "Min Peng",
+          "Yuanjun Zhong",
+          "Haofeng Xie",
+          "Zemin Hao",
+          "Jingming Lin",
+          "Xiaoli Ma",
+          "Xiangyun Hu"
+        ],
+        "year": 2022,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.3390/rs14071552",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://www.mdpi.com/2072-4292/14/7/1552/pdf?version=1648046350",
+        "paper_index": 3
+      },
+      {
+        "paper_id": "ngp-000672",
+        "title": "ISPRS Journal of Photogrammetry and Remote Sensing",
+        "authors": [
+          "Uwe Stilla",
+          "Yusheng Xu"
+        ],
+        "year": 2023,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1016/j.isprsjprs.2023.01.010",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.1016/j.isprsjprs.2023.01.010",
+        "paper_index": 4
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "problem_groups": [],
+      "method_groups": []
+    },
+    "eval_dims": [
+      "task"
+    ]
+  },
+  {
+    "item_id": "survey:2305.06131:sent_48",
+    "source_survey": "2305.06131",
+    "n_papers": 4,
+    "papers": [
+      {
+        "paper_id": "ngp-000673",
+        "title": "A survey on Deep Learning Advances on Different 3D Data Representations",
+        "authors": [
+          "Eman Ahmed"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "1808.01462",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/1808.01462",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000674",
+        "title": "FUSING BLOCKCHAIN AND AI WITH METAVERSE: A SURVEY *",
+        "authors": [
+          "Qinglin Yang",
+          "Yetong Zhao",
+          "Huawei Huang",
+          "Zehui Xiong",
+          "Jiawen Kang",
+          "Zibin Zheng"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": null,
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000549",
+        "title": "A Survey on Metaverse: the State-of-the-art, Technologies, Applications, and Challenges",
+        "authors": [
+          "Huansheng Ning",
+          "Hang Wang",
+          "Yujia Lin",
+          "Wenxi Wang",
+          "Sahraoui Dhelim",
+          "Fadi Farha",
+          "Jianguo Ding",
+          "Mahmoud Daneshmand"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "2111.09673",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2111.09673",
+        "paper_index": 3
+      },
+      {
+        "paper_id": "ngp-000550",
+        "title": "Educational applications of metaverse: possibilities and limitations",
+        "authors": [
+          "Bokyung Kye",
+          "Nara Han",
+          "Eunji Kim",
+          "Yeonjeong Park",
+          "Jo Soyoung"
+        ],
+        "year": 2021,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.3352/jeehp.2021.18.32",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.3352/jeehp.2021.18.32",
+        "paper_index": 4
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          3,
+          4
+        ]
+      ],
+      "problem_groups": [],
+      "method_groups": []
+    },
+    "eval_dims": [
+      "task"
+    ]
+  },
+  {
+    "item_id": "survey:2305.06131:sent_49",
+    "source_survey": "2305.06131",
+    "n_papers": 3,
+    "papers": [
+      {
+        "paper_id": "ngp-000551",
+        "title": "Denoising Diffusion Probabilistic Models",
+        "authors": [
+          "Jonathan Ho",
+          "U Berkeley",
+          "Ajay Jain",
+          "Pieter Abbeel"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "2006.11239",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2006.11239",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000552",
+        "title": "Diffusion Models Beat GANs on Image Synthesis",
+        "authors": [
+          "Prafulla Dhariwal",
+          "Alex Nichol"
+        ],
+        "year": 2021,
+        "venue": null,
+        "arxiv_id": "2105.05233v4",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2105.05233",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000507",
+        "title": "SCORE-BASED GENERATIVE MODELING THROUGH STOCHASTIC DIFFERENTIAL EQUATIONS",
+        "authors": [
+          "Yang Song",
+          "Jascha Sohl-Dickstein",
+          "Diederik Kingma",
+          "Abhishek Kumar",
+          "Stefano Ermon",
+          "Ben Poole"
+        ],
+        "year": 2021,
+        "venue": null,
+        "arxiv_id": "2011.13456v2",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2011.13456",
+        "paper_index": 3
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "problem_groups": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "method_groups": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    "eval_dims": [
+      "task",
+      "problem",
+      "method"
+    ]
+  },
+  {
+    "item_id": "survey:2305.06131:sent_52",
+    "source_survey": "2305.06131",
+    "n_papers": 5,
+    "papers": [
+      {
+        "paper_id": "ngp-000558",
+        "title": "DreamAvatar: Text-and-Shape Guided 3D Human Avatar Generation via Diffusion Models",
+        "authors": [
+          "Yukang Cao",
+          "Yan-Pei Cao",
+          "Kai Han",
+          "Ying Shan",
+          "Kwan-Yee Wong"
+        ],
+        "year": 2023,
+        "venue": null,
+        "arxiv_id": "2304.00916v3",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2304.00916",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000675",
+        "title": "Keep it SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image",
+        "authors": [
+          "Federica Bogo",
+          "Angjoo Kanazawa",
+          "Christoph Lassner",
+          "Peter Gehler",
+          "Javier Romero",
+          "Michael Black"
+        ],
+        "year": 2016,
+        "venue": null,
+        "arxiv_id": "1607.08128v1",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/1607.08128",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000557",
+        "title": "AvatarCraft: Transforming Text into Neural Human Avatars with Parameterized Shape and Pose Control",
+        "authors": [
+          "Ruixiang Jiang",
+          "Can Wang",
+          "Jingbo Zhang",
+          "Menglei Chai Google",
+          "Dongdong Chen",
+          "Jing Liao"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "2303.17606",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2303.17606",
+        "paper_index": 3
+      },
+      {
+        "paper_id": "ngp-000560",
+        "title": "MotionCLIP: Exposing Human Motion Generation to CLIP Space",
+        "authors": [
+          "Guy Tevet"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "2203.08063",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2203.08063",
+        "paper_index": 4
+      },
+      {
+        "paper_id": "ngp-000559",
+        "title": "AvatarCLIP: Zero-Shot Text-Driven Generation and Animation of 3D Avatars",
+        "authors": [
+          "Fangzhou Hong"
+        ],
+        "year": 2022,
+        "venue": null,
+        "arxiv_id": "2205.08535v1",
+        "doi": "10.1145/3528223.3530094",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2205.08535",
+        "paper_index": 5
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          3,
+          5
+        ]
+      ],
+      "problem_groups": [
+        [
+          1,
+          3,
+          5
+        ]
+      ],
+      "method_groups": [
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    "eval_dims": [
+      "task",
+      "problem",
+      "method"
+    ]
+  },
+  {
+    "item_id": "survey:2305.06131:sent_53",
+    "source_survey": "2305.06131",
+    "n_papers": 3,
+    "papers": [
+      {
+        "paper_id": "ngp-000561",
+        "title": "Synthesizing 3D Textures with Text-Guided Image Diffusion Models",
+        "authors": [
+          "Tianshi Cao",
+          "Karsten Kreis",
+          "Sanja Fidler",
+          "Nicholas Sharp",
+          "Kangxue Yin",
+          "Nvidia"
+        ],
+        "year": 2023,
+        "venue": null,
+        "arxiv_id": "2310.13772v1",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2310.13772",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000562",
+        "title": "TEXTure: Text-Guided Texturing of 3D Shapes",
+        "authors": [
+          "Elad Richardson",
+          "Gal Metzer",
+          "Yuval Alaluf"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "2302.01721",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2302.01721",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000563",
+        "title": "Text2Tex: Text-driven Texture Synthesis via Diffusion Models",
+        "authors": [
+          "Dave Chen",
+          "Yawar Siddiqui",
+          "Hsin-Ying Lee",
+          "Sergey Tulyakov",
+          "Matthias Nießner"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "2303.11396",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2303.11396",
+        "paper_index": 3
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "problem_groups": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "method_groups": [
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    "eval_dims": [
+      "task",
+      "problem",
+      "method"
+    ]
+  },
+  {
+    "item_id": "survey:2305.06329:sent_56",
+    "source_survey": "2305.06329",
+    "n_papers": 4,
+    "papers": [
+      {
+        "paper_id": "ngp-000661",
+        "title": "Measures of Diversity in Classifier Ensembles and Their Relationship with the Ensemble Accuracy",
+        "authors": [
+          "Ludmila Kuncheva",
+          "Christopher Whitaker"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://link.springer.com/content/pdf/10.1023/A:1022859003006.pdf",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000662",
+        "title": "Beyond kappa: A review of interrater agreement measures* zy",
+        "authors": [
+          "Mousumi Banerjee",
+          "Michelle Capozzoli",
+          "Laura Mcsweeney",
+          "Debajyoti Sinha"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev.ps.58.110405.100559",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000682",
+        "title": "Deep Intellectual Property Protection: A Survey",
+        "authors": [
+          "Yuchen Sun",
+          "Tianpeng Liu",
+          "Panhe Hu",
+          "Qing Liao",
+          "Shaojing Fu",
+          "Nenghai Yu",
+          "Deke Guo",
+          "Yongxiang Liu",
+          "Li Liu"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": null,
+        "paper_index": 3
+      },
+      {
+        "paper_id": "ngp-000666",
+        "title": "Pros and Cons of GAN Evaluation Measures",
+        "authors": [
+          "Ali Borji"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "1802.03446",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/1802.03446",
+        "paper_index": 4
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [],
+      "problem_groups": [],
+      "method_groups": []
+    },
+    "eval_dims": []
+  },
+  {
+    "item_id": "survey:2305.06329:sent_57",
+    "source_survey": "2305.06329",
+    "n_papers": 3,
+    "papers": [
+      {
+        "paper_id": "ngp-000647",
+        "title": "Some New Test Criteria in Multivariate Analysis",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-26/issue-1/Some-New-Test-Criteria-in-Multivariate-Analysis/10.1214/aoms/1177728599.pdf",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000646",
+        "title": "Certain Generalizations in the Analysis of Variance",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": null,
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000676",
+        "title": "A GENERALIZATION OF FISHER'S z TEST",
+        "authors": [
+          "D Lawley"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": null,
+        "paper_index": 3
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2
+        ]
+      ],
+      "problem_groups": [],
+      "method_groups": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    "eval_dims": [
+      "task",
+      "method"
+    ]
+  },
+  {
+    "item_id": "survey:2305.06329:sent_61",
+    "source_survey": "2305.06329",
+    "n_papers": 4,
+    "papers": [
+      {
+        "paper_id": "ngp-000568",
+        "title": "DO WIDE AND DEEP NETWORKS LEARN THE SAME THINGS? UNCOVERING HOW NEURAL NETWORK REPRESENTATIONS VARY WITH WIDTH AND DEPTH",
+        "authors": [
+          "Thao Nguyen",
+          "Maithra Raghu",
+          "Simon Kornblith"
+        ],
+        "year": 2021,
+        "venue": null,
+        "arxiv_id": "2010.15327v2",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2010.15327",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000569",
+        "title": "UNDIVIDED ATTENTION: ARE INTERMEDIATE LAYERS NECESSARY FOR BERT?",
+        "authors": [
+          "Sharath Sridhar",
+          "Anthony Sarah"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "2012.11881",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2012.11881",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000571",
+        "title": "Why Do Better Loss Functions Lead to Less Transferable Features?",
+        "authors": [
+          "Simon Kornblith",
+          "Ting Chen",
+          "Honglak Lee",
+          "Mohammad Norouzi"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "2010.16402",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2010.16402",
+        "paper_index": 3
+      },
+      {
+        "paper_id": "ngp-000570",
+        "title": "Do Self-Supervised and Supervised Methods Learn Similar Visual Representations?",
+        "authors": [
+          "Tom Grigg",
+          "Dan Busbridge",
+          "Jason Ramapuram",
+          "Russ Webb"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "2110.00528",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2110.00528",
+        "paper_index": 4
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "problem_groups": [],
+      "method_groups": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    "eval_dims": [
+      "task",
+      "method"
+    ]
+  },
+  {
+    "item_id": "survey:2305.06472:sent_67",
+    "source_survey": "2305.06472",
+    "n_papers": 3,
+    "papers": [
+      {
+        "paper_id": "ngp-000573",
+        "title": "Towards a Unified Foundation Model: Jointly Pre-Training Transformers on Unpaired Images and Text",
+        "authors": [
+          "Qing Li",
+          "Boqing Gong",
+          "Yin Cui",
+          "Dan Kondratyuk",
+          "Xianzhi Du",
+          "Ming-Hsuan Yang",
+          "Matthew Brown"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "2112.07074",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2112.07074",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000572",
+        "title": "BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation",
+        "authors": [
+          "Junnan Li",
+          "Dongxu Li",
+          "Caiming Xiong",
+          "Steven Hoi",
+          "Salesforce Research"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "2201.12086",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2201.12086",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000574",
+        "title": "CCMB: A Large-scale Chinese Cross-modal Benchmark",
+        "authors": [
+          "Chunyu Xie",
+          "Heng Cai",
+          "Jincheng Li",
+          "Fanjing Kong",
+          "Xiaoyu Wu",
+          "Jianfei Song",
+          "Henrique Morimitsu",
+          "Lin Yao",
+          "Dexin Wang",
+          "Xiangzheng Zhang",
+          "Dawei Leng",
+          "Baochang Zhang",
+          "Xiangyang Ji",
+          "Yafeng Deng"
+        ],
+        "year": 2023,
+        "venue": null,
+        "arxiv_id": "2205.03860v6",
+        "doi": "10.1145/3581783.3611877",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2205.03860",
+        "paper_index": 3
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          2,
+          3
+        ]
+      ],
+      "problem_groups": [],
+      "method_groups": [
+        [
+          1,
+          2,
+          3
+        ]
+      ]
+    },
+    "eval_dims": [
+      "task",
+      "method"
+    ]
+  },
+  {
+    "item_id": "survey:2305.06472:sent_68",
+    "source_survey": "2305.06472",
+    "n_papers": 3,
+    "papers": [
+      {
+        "paper_id": "ngp-000683",
+        "title": "Frequency-Domain and Multirate Adaptive Filtering",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": null,
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000684",
+        "title": "THE FAST FOURIER TRANSFORM AND ITS APPLICATIONS",
+        "authors": [
+          "E Brigham",
+          "Prentice Hall"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": null,
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000685",
+        "title": "Application of the wavelet transform in machine condition monitoring and fault diagnostics: a review with bibliography",
+        "authors": [
+          "Z Peng",
+          "F Chu"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1016/s0888-3270(03)00075-x",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.1016/s0888-3270(03)00075-x",
+        "paper_index": 3
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [],
+      "problem_groups": [],
+      "method_groups": []
+    },
+    "eval_dims": []
+  },
+  {
+    "item_id": "survey:2305.06739:sent_69",
+    "source_survey": "2305.06739",
+    "n_papers": 4,
+    "papers": [
+      {
+        "paper_id": "ngp-000575",
+        "title": "Magnetic resonance imaging of freely moving objects: Prospective real-time motion correction using an external optical motion tracking system",
+        "authors": [
+          "M Zaitsev",
+          "C Dold",
+          "G Sakas",
+          "J Hennig",
+          "O Speck"
+        ],
+        "year": 2006,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1016/j.neuroimage.2006.01.039",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.1016/j.neuroimage.2006.01.039",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000576",
+        "title": "Prospective correction of patient-specific respiratory motion in myocardial T 1 and T 2 mapping",
+        "authors": [
+          "Michael Bush",
+          "| Yue Pan",
+          "| Ning",
+          "Yingm Liu",
+          "Juliet Varghese",
+          "Rizwan Ahmad",
+          "Orlando Simonetti"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1002/mrm.28475",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8506658/",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000577",
+        "title": "Automatic Correction of Motion Artifacts in Magnetic Resonance Images Using an Entropy Focus Criterion",
+        "authors": [
+          "David Atkinson",
+          "Derek Hill",
+          "Peter Stoyle",
+          "Paul Summers",
+          "Stephen Keevil"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": null,
+        "paper_index": 3
+      },
+      {
+        "paper_id": "ngp-000578",
+        "title": "Sensitivity Encoding for Aligned Multishot Magnetic Resonance Reconstruction",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1109/tci.2016.2557069",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://kclpure.kcl.ac.uk/portal/en/publications/a72cb4f6-6319-421b-a2fd-ff5cd73cb987",
+        "paper_index": 4
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "problem_groups": [],
+      "method_groups": []
+    },
+    "eval_dims": [
+      "task"
+    ]
+  },
+  {
+    "item_id": "survey:2305.06739:sent_70",
+    "source_survey": "2305.06739",
+    "n_papers": 10,
+    "papers": [
+      {
+        "paper_id": "ngp-000648",
+        "title": "Learning-based Motion Artifact Removal Networks (LEARN) for Quantitative R * 2 Mapping",
+        "authors": [
+          "Xiaojian Xu",
+          "Satya Kothapalli",
+          "Jiaming Liu",
+          "Sayan Kahali",
+          "Weijie Gan",
+          "Dmitriy Yablonskiy",
+          "Ulugbek Kamilov"
+        ],
+        "year": 2022,
+        "venue": null,
+        "arxiv_id": "2109.01622v2",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2109.01622",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000580",
+        "title": "Retrospective Motion Correction of MR Images using Prior-Assisted Deep Learning",
+        "authors": [
+          "Soumick Chatterjee",
+          "Alessandro Sciarra",
+          "Max Meddigit",
+          "Steffen Oeltze",
+          "Jafra Meddigit",
+          "Andreas Nürnberger",
+          "Oliver Speck"
+        ],
+        "year": 2020,
+        "venue": null,
+        "arxiv_id": "2011.14134v1",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2011.14134",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000579",
+        "title": "F U L L P A P E R MC 2 -Net: motion correction network for multi-contrast brain MRI",
+        "authors": [
+          "Jongyeon Lee",
+          "| Byungjai",
+          "Kim Hyunwook",
+          "Hyunwook Park"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1002/mrm.28719",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.1002/mrm.28719",
+        "paper_index": 3
+      },
+      {
+        "paper_id": "ngp-000581",
+        "title": "Residual learning for 3D motion corrected quantitative MRI: Robust clinical T1, T2 and proton density mapping",
+        "authors": [
+          "Carolin Pirkl",
+          "Matteo Cencini",
+          "Jan Kurzawski",
+          "Diana Waldmannstetter",
+          "Hongwei Li",
+          "Anjany Sekuboyina",
+          "Sebastian Endt",
+          "Graziella Donatelli",
+          "Rosa Pasquariello",
+          "Mauro Costagli",
+          "Guido Buonincontri",
+          "Marion Menzel",
+          "Bjoern Menze"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://proceedings.mlr.press/v143/pirkl21a/pirkl21a.pdf",
+        "paper_index": 4
+      },
+      {
+        "paper_id": "ngp-000582",
+        "title": "A knowledge interaction learning for multi-echo MRI motion artifact correction towards better enhancement of SWI",
+        "authors": [
+          "Mohammed Al-Masni",
+          "Seul Lee",
+          "Khalil Al-Shamiri",
+          "Sung-Min Gho",
+          "Young Choi",
+          "Dong-Hyun Kim",
+          "A T I C L E I N F O"
+        ],
+        "year": 2023,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1016/j.compbiomed.2023.106553",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.1016/j.compbiomed.2023.106553",
+        "paper_index": 5
+      },
+      {
+        "paper_id": "ngp-000583",
+        "title": "Stacked U-Nets with Self-Assisted Priors Towards Robust Correction of Rigid Motion Artifact in Brain MRI",
+        "authors": [
+          "Mohammed Al-Masni",
+          "Seul Lee",
+          "Jaeuk Yi",
+          "Sewook Kim",
+          "Sung-Min Gho",
+          "Young Choi",
+          "Dong-Hyun Kim"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "2111.06401",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2111.06401",
+        "paper_index": 6
+      },
+      {
+        "paper_id": "ngp-000584",
+        "title": "Motion Artifact Reduction Using a Convolutional Neural Network for Dynamic Contrast Enhanced MR Imaging of the Liver",
+        "authors": [
+          "Daiki Tamada",
+          "Marie-Luise Kromrey",
+          "Shintaro Ichikawa",
+          "Hiroshi Onishi",
+          "Utaroh Motosugi"
+        ],
+        "year": 2019,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.2463/mrms.mp.2018-0156",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://www.jstage.jst.go.jp/article/mrms/19/1/19_mp.2018-0156/_pdf",
+        "paper_index": 7
+      },
+      {
+        "paper_id": "ngp-000587",
+        "title": "GRASPNET: Fast spatiotemporal deep learning reconstruction of golden-angle radial data for free-breathing dynamic contrast-enhanced magnetic resonance imaging",
+        "authors": [
+          "Ramin Jafari",
+          "| Kinh",
+          "Gian Do",
+          "Maria Lagratta",
+          "Maggie Fung",
+          "Ersin Bayram",
+          "Ty Cashen",
+          "Ricardo Otazo"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1002/nbm.4861",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/9898111",
+        "paper_index": 8
+      },
+      {
+        "paper_id": "ngp-000585",
+        "title": "Temporally aware volumetric generative adversarial networkbased MR image reconstruction with simultaneous respiratory motion compensation: Initial feasibility in 3D dynamic cine cardiac MRI",
+        "authors": [
+          "Vahid Ghodrati",
+          "Mark Bydder",
+          "| Arash Bedayat",
+          "| Prosper",
+          "Takegawa Yoshida",
+          "Kim-Lien Nguyen",
+          "| Finn",
+          "| Hu",
+          "Peng Hu"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1002/mrm.28912",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10172149/pdf/nihms-1715140.pdf",
+        "paper_index": 9
+      },
+      {
+        "paper_id": "ngp-000586",
+        "title": "Cine Cardiac MRI Motion Artifact Reduction Using a Recurrent Neural Network",
+        "authors": [
+          "Qing Lyu",
+          "Hongmin Sha",
+          "Yibin Xie",
+          "Alan Kwan",
+          "Yuka Otaki",
+          "Keiichiro Kuronuma",
+          "Debiao Li",
+          "Ge Wang",
+          "; Ge"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1109/tmi.2021.3073381",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/8376223",
+        "paper_index": 10
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9,
+          10
+        ]
+      ],
+      "problem_groups": [],
+      "method_groups": [
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          7,
+          8,
+          9,
+          10
+        ]
+      ]
+    },
+    "eval_dims": [
+      "task",
+      "method"
+    ]
+  },
+  {
+    "item_id": "survey:2305.06739:sent_73",
+    "source_survey": "2305.06739",
+    "n_papers": 3,
+    "papers": [
+      {
+        "paper_id": "ngp-000593",
+        "title": "Exploiting Motion for Deep Learning Reconstruction of Extremely-Undersampled Dynamic MRI",
+        "authors": [
+          "Gavin Seegoolam",
+          "Jo Schlemper",
+          "Chen Qin",
+          "Anthony Price",
+          "Jo Hajnal",
+          "Daniel Rueckert"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": null,
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000592",
+        "title": "End-to-end deep learning nonrigid motion-corrected reconstruction for highly accelerated free-breathing coronary MRA",
+        "authors": [
+          "Haikun Qi",
+          "Reza Hajhosseiny",
+          "Gastao Cruz",
+          "| Kuestner",
+          "Karl Kunze",
+          "Radhouene Neji",
+          "| René Botnar",
+          "Claudia Prieto"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1002/mrm.28851",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.1002/mrm.28851",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000594",
+        "title": "Self-Supervised Motion-Corrected Image Reconstruction Network for 4D Magnetic Resonance Imaging of the Body Trunk",
+        "authors": [
+          "Thomas Küs",
+          "Jiazhen Pa",
+          "Christophe Gi",
+          "Gastao Cru",
+          "Kersti Hammer",
+          "Thierry Bl",
+          "Daniel Rueck",
+          "René Botna",
+          "Claudia Priet",
+          "Sergios Gatidi",
+          "Thomas Küstner"
+        ],
+        "year": 2026,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1561/116.00000039",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.1561/116.00000039",
+        "paper_index": 3
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "problem_groups": [],
+      "method_groups": []
+    },
+    "eval_dims": [
+      "task"
+    ]
+  },
+  {
+    "item_id": "survey:2305.06739:sent_74",
+    "source_survey": "2305.06739",
+    "n_papers": 4,
+    "papers": [
+      {
+        "paper_id": "ngp-000596",
+        "title": "Neural Implicit k-Space for Binning-free Non-Cartesian Cardiac MR Imaging",
+        "authors": [
+          "Wenqi Huang",
+          "Hongwei Li",
+          "Jiazhen Pan",
+          "Gastao Cruz",
+          "Daniel Rueckert",
+          "Kerstin Hammernik"
+        ],
+        "year": 2023,
+        "venue": null,
+        "arxiv_id": "2212.08479v5",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2212.08479",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000595",
+        "title": "ICoNIK: Generating Respiratory-Resolved Abdominal MR Reconstructions Using Neural Implicit Representations in k-Space",
+        "authors": [
+          "Veronika Spieker",
+          "Wenqi Huang",
+          "Hannah Eichhorn",
+          "Jonathan Stelter",
+          "Kilian Weiss",
+          "Veronika Zimmer",
+          "Rickmer Braren",
+          "Dimitrios Karampinos",
+          "Kerstin Hammernik",
+          "Julia Schnabel"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "2308.08830",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2308.08830",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000597",
+        "title": "Spatiotemporal implicit neural representation for unsupervised dynamic MRI reconstruction",
+        "authors": [
+          "Jie Feng",
+          "Ruimin Feng",
+          "Qing Wu",
+          "Zhiyong Zhang",
+          "Yuyao Zhang",
+          "Hongjiang Wei"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "2301.00127",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2301.00127",
+        "paper_index": 3
+      },
+      {
+        "paper_id": "ngp-000598",
+        "title": "Unsupervised reconstruction of accelerated cardiac cine MRI using Neural Fields",
+        "authors": [
+          "Tabita Catalán",
+          "Matías Courdurier",
+          "Axel Osses",
+          "René Botnar",
+          "Francisco Sahli Costabal",
+          "Claudia Prieto"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "2307.14363",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2307.14363",
+        "paper_index": 4
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "problem_groups": [],
+      "method_groups": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    "eval_dims": [
+      "task",
+      "method"
+    ]
+  },
+  {
+    "item_id": "survey:2305.07887:sent_80",
+    "source_survey": "2305.07887",
+    "n_papers": 4,
+    "papers": [
+      {
+        "paper_id": "ngp-000600",
+        "title": "Mitigating Manipulation in Peer Review via Randomized Reviewer Assignments",
+        "authors": [
+          "Steven Jecmen",
+          "Hanrui Zhang",
+          "Ryan Liu",
+          "Nihar Shah",
+          "Vincent Conitzer",
+          "Fei Fang"
+        ],
+        "year": 2020,
+        "venue": null,
+        "arxiv_id": "2006.16437v2",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2006.16437",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000599",
+        "title": "An automated conflict of interest based greedy approach for conference paper assignment system",
+        "authors": [
+          "Dinesh K. Pradhan",
+          "Joyita Chakraborty",
+          "Prasenjit Choudhary",
+          "Subrata Nandi"
+        ],
+        "year": 2020,
+        "venue": "Journal of Informetrics",
+        "arxiv_id": null,
+        "doi": "10.1016/j.joi.2020.101022",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.1016/j.joi.2020.101022",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000601",
+        "title": "An intelligent decision support approach for reviewer assignment in R&D project selection",
+        "authors": [
+          "Ou Liu",
+          "Jun Wang",
+          "Jian Ma",
+          "Yonghong Sun"
+        ],
+        "year": 2015,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1016/j.compind.2015.11.001",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.1016/j.compind.2015.11.001",
+        "paper_index": 3
+      },
+      {
+        "paper_id": "ngp-000602",
+        "title": "An algorithm for automatic assignment of reviewers to papers",
+        "authors": [
+          "Yordan Kalmukov"
+        ],
+        "year": 2020,
+        "venue": "Scientometrics",
+        "arxiv_id": null,
+        "doi": "10.1007/s11192-020-03519-0",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.1007/s11192-020-03519-0",
+        "paper_index": 4
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "problem_groups": [],
+      "method_groups": []
+    },
+    "eval_dims": [
+      "task"
+    ]
+  },
+  {
+    "item_id": "survey:2305.07887:sent_81",
+    "source_survey": "2305.07887",
+    "n_papers": 3,
+    "papers": [
+      {
+        "paper_id": "ngp-000604",
+        "title": "Paper Matching with Local Fairness Constraints",
+        "authors": [
+          "Ari Kobren",
+          "Barna Saha",
+          "Andrew Mccallum"
+        ],
+        "year": 2019,
+        "venue": null,
+        "arxiv_id": "1905.11924v1",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/1905.11924",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000603",
+        "title": "K-Loop Free Assignment in Conference Review Systems",
+        "authors": [
+          "Longhua Guo",
+          "Jie Wu",
+          "Wei Chang",
+          "Jun Wu",
+          "Jianhua Li"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://cis.temple.edu/~wu/research/publications/Publication_files/Guo_ICNC_2018.pdf",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000600",
+        "title": "Mitigating Manipulation in Peer Review via Randomized Reviewer Assignments",
+        "authors": [
+          "Steven Jecmen",
+          "Hanrui Zhang",
+          "Ryan Liu",
+          "Nihar Shah",
+          "Vincent Conitzer",
+          "Fei Fang"
+        ],
+        "year": 2020,
+        "venue": null,
+        "arxiv_id": "2006.16437v2",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2006.16437",
+        "paper_index": 3
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "problem_groups": [],
+      "method_groups": []
+    },
+    "eval_dims": [
+      "task"
+    ]
+  },
+  {
+    "item_id": "survey:2305.07887:sent_83",
+    "source_survey": "2305.07887",
+    "n_papers": 4,
+    "papers": [
+      {
+        "paper_id": "ngp-000606",
+        "title": "Reviewer assignment based on sentence pair modeling",
+        "authors": [
+          "Zhen Duan",
+          "Shicheng Tan",
+          "Shu Zhao",
+          "Qianqian Wang",
+          "Jie Chen",
+          "Yanping Zhang"
+        ],
+        "year": 2019,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1016/j.neucom.2019.06.074",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://www.sciencedirect.com/science/article/am/pii/S0925231219309828",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000605",
+        "title": "Recommender Systems for the Conference Paper Assignment Problem",
+        "authors": [
+          "Don Conry",
+          "Yehuda Koren $",
+          "Naren Ramakrishnan"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "0906.4044",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/0906.4044",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000607",
+        "title": "Expert Systems With Applications",
+        "authors": [
+          "Tribikram Pradhan",
+          "Suchit Sahoo",
+          "Utkarsh Singh",
+          "Sukomal Pal"
+        ],
+        "year": 2020,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1016/j.eswa.2020.114331",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.1016/j.eswa.2020.114331",
+        "paper_index": 3
+      },
+      {
+        "paper_id": "ngp-000608",
+        "title": "Additional Reviewer Assignment by Means of Weighted Association Rules",
+        "authors": [],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1109/tetc.2018.2861214",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.1109/tetc.2018.2861214",
+        "paper_index": 4
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "problem_groups": [],
+      "method_groups": []
+    },
+    "eval_dims": [
+      "task"
+    ]
+  },
+  {
+    "item_id": "survey:2305.08413:sent_91",
+    "source_survey": "2305.08413",
+    "n_papers": 3,
+    "papers": [
+      {
+        "paper_id": "ngp-000686",
+        "title": "Equation-free mechanistic ecosystem forecasting using empirical dynamic modeling",
+        "authors": [
+          "Hao Ye",
+          "Richard Beamish",
+          "Sarah Glaser",
+          "Sue Grant",
+          "Chih-Hao Hsieh",
+          "Laura Richards",
+          "Jon Schnute",
+          "George Sugihara"
+        ],
+        "year": 2014,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1073/pnas.1417063112",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://www.pnas.org/content/pnas/112/13/E1569.full.pdf",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000687",
+        "title": "Inferring causal relations from observational long-term carbon and water fluxes records",
+        "authors": [
+          "Emiliano Díaz",
+          "Jose Adsuara",
+          "Álvaro Moreno Martínez"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1038/s41598-022-05377-7",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://www.nature.com/articles/s41598-022-05377-7.pdf",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000688",
+        "title": "Automated adaptive inference of phenomenological dynamical models",
+        "authors": [
+          "Bryan Daniels",
+          "Ilya Nemenman"
+        ],
+        "year": 2015,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1038/ncomms9133",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://www.nature.com/articles/ncomms9133.pdf",
+        "paper_index": 3
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [],
+      "problem_groups": [],
+      "method_groups": []
+    },
+    "eval_dims": []
+  },
+  {
+    "item_id": "survey:2305.09084:sent_96",
+    "source_survey": "2305.09084",
+    "n_papers": 3,
+    "papers": [
+      {
+        "paper_id": "ngp-000618",
+        "title": "Malicious URL Detection using Machine Learning: A Survey",
+        "authors": [
+          "Doyen Sahoo",
+          "Chenghao Liu",
+          "Steven Hoi"
+        ],
+        "year": 2019,
+        "venue": null,
+        "arxiv_id": "1701.07179v3",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/1701.07179",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000619",
+        "title": "SPECIAL SECTION ON PRIVACY PRESERVATION FOR LARGE-SCALE USER DATA IN SOCIAL NETWORKS",
+        "authors": [
+          "Jian Mao",
+          "Pei Li",
+          "Tao Wei",
+          "Zhenkai Liang"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1109/access.2017.2743528",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.1109/access.2017.2743528",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000620",
+        "title": "Phishing Site Detection Using Similarity of Website Structure",
+        "authors": [
+          "Shoma Tanaka",
+          "Takashi Matsunaka",
+          "Akira Yamada",
+          "Ayumu Kubota"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1109/dsc49826.2021.9346256",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.1109/dsc49826.2021.9346256",
+        "paper_index": 3
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "problem_groups": [],
+      "method_groups": [
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    "eval_dims": [
+      "task",
+      "method"
+    ]
+  },
+  {
+    "item_id": "survey:2410.11845:sent_100",
+    "source_survey": "2410.11845",
+    "n_papers": 3,
+    "papers": [
+      {
+        "paper_id": "ngp-000689",
+        "title": "ODSearch: Fast and Resource Efficient On-device Natural Language Search for Fitness Trackers' Data",
+        "authors": [
+          "Reza Rawassizadeh",
+          "Y Rong"
+        ],
+        "year": 2022,
+        "venue": null,
+        "arxiv_id": "2201.13202v2",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/abs/2201.13202v2",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000690",
+        "title": "A REAL-WORLD WEBAGENT WITH PLANNING, LONG CONTEXT UNDERSTANDING, AND PROGRAM SYNTHESIS",
+        "authors": [
+          "Izzeddin Gur",
+          "Hiroki Furuta",
+          "Austin Huang",
+          "Mustafa Safdari",
+          "Yutaka Matsuo",
+          "Douglas Eck",
+          "Aleksandra Faust",
+          "Google Deepmind"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": null,
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000691",
+        "title": "WinCLIP: Zero-/Few-Shot Anomaly Classification and Segmentation",
+        "authors": [
+          "Jongheon Jeong",
+          "Yang Zou",
+          "Taewan Kim",
+          "Dongqing Zhang",
+          "Avinash Ravichandran",
+          "‡ Dabeer"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": null,
+        "paper_index": 3
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [],
+      "problem_groups": [],
+      "method_groups": []
+    },
+    "eval_dims": []
+  },
+  {
+    "item_id": "survey:2410.11845:sent_102",
+    "source_survey": "2410.11845",
+    "n_papers": 3,
+    "papers": [
+      {
+        "paper_id": "ngp-000623",
+        "title": "MINILM: Deep Self-Attention Distillation for Task-Agnostic Compression of Pre-Trained Transformers",
+        "authors": [
+          "Wenhui Wang",
+          "Furu Li",
+          "Dong Hangbo",
+          "Bao Yang",
+          "Ming Zhou",
+          "Furu Wei"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "2002.10957",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2002.10957",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000677",
+        "title": "Provided proper attribution is provided, Google hereby grants permission to reproduce the tables and figures in this paper solely for use in journalistic or scholarly works. Attention Is All You Need",
+        "authors": [
+          "Ashish Vaswani",
+          "Noam Shazeer",
+          "Google Brain",
+          "Niki Parmar",
+          "Jakob Uszkoreit",
+          "Llion Jones",
+          "Aidan Gomez",
+          "Łukasz Kaiser"
+        ],
+        "year": 2023,
+        "venue": null,
+        "arxiv_id": "1706.03762v7",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/abs/1706.03762v7",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000624",
+        "title": "MINILMv2: Multi-Head Self-Attention Relation Distillation for Compressing Pretrained Transformers",
+        "authors": [
+          "Wenhui Wang",
+          "Hangbo Bao",
+          "Shaohan Huang",
+          "Li Dong",
+          "Furu Wei"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "2012.15828",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2012.15828",
+        "paper_index": 3
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          3
+        ]
+      ],
+      "problem_groups": [],
+      "method_groups": [
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    "eval_dims": [
+      "task",
+      "method"
+    ]
+  },
+  {
+    "item_id": "survey:2410.11845:sent_104",
+    "source_survey": "2410.11845",
+    "n_papers": 4,
+    "papers": [
+      {
+        "paper_id": "ngp-000625",
+        "title": "Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling",
+        "authors": [
+          "Stella Biderman",
+          "Hailey Schoelkopf",
+          "Quentin Anthony",
+          "Herbie Bradley",
+          "Kyle O'brien",
+          "Eric Hallahan",
+          "Mohammad Khan",
+          "Shivanshu Purohit",
+          "Sai Usvsn",
+          "Prashanth",
+          "Edward Raff",
+          "Aviya Skowron",
+          "Lintang Sutawika",
+          "Oskar Van Der Wal"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "2304.01373",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2304.01373",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000626",
+        "title": "OPT: Open Pre-trained Transformer Language Models",
+        "authors": [
+          "Susan Zhang",
+          "Stephen Roller",
+          "Naman Goyal",
+          "Mikel Artetxe",
+          "Moya Chen",
+          "Shuohui Chen",
+          "Christopher Dewan",
+          "Mona Diab",
+          "Xian Li",
+          "Victoria Lin",
+          "Todor Mihaylov",
+          "Myle Ott",
+          "Sam Shleifer",
+          "Kurt Shuster",
+          "Daniel Simig",
+          "Singh Koura",
+          "Anjali Sridhar",
+          "Tianlu Wang",
+          "Luke Zettlemoyer",
+          "Meta Ai"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "2205.01068",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2205.01068",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000678",
+        "title": "QWEN TECHNICAL REPORT",
+        "authors": [
+          "Jinze Bai",
+          "Shuai Bai",
+          "Yunfei Chu",
+          "Zeyu Cui",
+          "Kai Dang",
+          "Xiaodong Deng",
+          "Yang Fan",
+          "Wenbin Ge",
+          "Yu Han",
+          "Fei Huang",
+          "Binyuan Hui",
+          "Luo Ji",
+          "Mei Li",
+          "Junyang Lin",
+          "Runji Lin",
+          "Dayiheng Liu",
+          "Gao Liu",
+          "Chengqiang Lu",
+          "Keming Lu",
+          "Jianxin Ma",
+          "Rui Men",
+          "Xingzhang Ren",
+          "Xuancheng Ren",
+          "Chuanqi Tan",
+          "Sinan Tan",
+          "Jianhong Tu",
+          "Peng Wang",
+          "Shijie Wang",
+          "Wei Wang",
+          "Shengguang Wu",
+          "Benfeng Xu",
+          "Jin Xu",
+          "An Yang",
+          "Hao Yang",
+          "Jian Yang",
+          "Shusheng Yang",
+          "Yang Yao",
+          "Bowen Yu",
+          "Hongyi Yuan",
+          "Zheng Yuan",
+          "Jianwei Zhang",
+          "Xingxuan Zhang",
+          "Yichang Zhang",
+          "Zhenru Zhang",
+          "Chang Zhou",
+          "Jingren Zhou",
+          "Xiaohuan Zhou",
+          "Tianhang Zhu"
+        ],
+        "year": 2023,
+        "venue": null,
+        "arxiv_id": "2309.16609v1",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/abs/2309.16609v1",
+        "paper_index": 3
+      },
+      {
+        "paper_id": "ngp-000627",
+        "title": "MobileLLM: Optimizing Sub-billion Parameter Language Models for On-Device Use Cases",
+        "authors": [
+          "Zechun Liu",
+          "Changsheng Zhao",
+          "Forrest Iandola",
+          "Chen Lai",
+          "Yuandong Tian",
+          "Igor Fedorov",
+          "Yunyang Xiong",
+          "Ernie Chang",
+          "Yangyang Shi",
+          "Raghuraman Krishnamoorthi",
+          "Liangzhen Lai",
+          "Vikas Chandra"
+        ],
+        "year": 2024,
+        "venue": null,
+        "arxiv_id": "2402.14905v2",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2402.14905",
+        "paper_index": 4
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2
+        ]
+      ],
+      "problem_groups": [],
+      "method_groups": [
+        [
+          1,
+          2,
+          4
+        ]
+      ]
+    },
+    "eval_dims": [
+      "task",
+      "method"
+    ]
+  },
+  {
+    "item_id": "survey:2410.03751:sent_105",
+    "source_survey": "2410.03751",
+    "n_papers": 4,
+    "papers": [
+      {
+        "paper_id": "ngp-000628",
+        "title": "DYNAMIC-SUPERB PHASE-2: A COLLABORATIVELY EXPANDING BENCHMARK FOR MEASURING THE CA-PABILITIES OF SPOKEN LANGUAGE MODELS WITH 180 TASKS",
+        "authors": [
+          "Chien-Yu Huang",
+          "Wei-Chih Chen",
+          "Shu-Wen Yang",
+          "Andy Liu",
+          "Chen-An Li",
+          "Yu-Xiang Lin",
+          "Wei-Cheng Tseng",
+          "Anuj Diwan",
+          "Yi-Jen Shih",
+          "Jiatong Shi",
+          "William Chen",
+          "Chih-Kai Yang",
+          "Wenze Ren",
+          "Xuanjun Chen",
+          "Chi-Yuan Hsiao",
+          "Puyuan Peng",
+          "Shih-Heng Wang",
+          "Chun-Yi Kuan",
+          "Ke-Han Lu",
+          "Kai-Wei Chang",
+          "Fabian Ritter-Gutierrez",
+          "Kuan-Po Huang",
+          "Siddhant Arora",
+          "You-Kuan Lin",
+          "Ming Chuang",
+          "Eunjung Yeo",
+          "Kalvin Chang",
+          "Chung-Ming Chien",
+          "Kwanghee Choi",
+          "Jun-You Wang",
+          "Cheng-Hsiu Hsieh",
+          "Yi-Cheng Lin",
+          "Chee-En Yu",
+          "I-Hsiang Chiu",
+          "Heitor Guimarães",
+          "Jionghao Han",
+          "Tzu-Quan Lin",
+          "Tzu-Yuan Lin",
+          "Homu Chang",
+          "Ting-Wu Chang",
+          "Chun Chen",
+          "Shou-Jen Chen",
+          "Yu-Hua Chen",
+          "Hsi-Chun Cheng",
+          "Kunal Dhawan",
+          "Jia-Lin Fang",
+          "Shi-Xin Fang",
+          "Kuan-Yu Fang Chiang",
+          "Chi Fu",
+          "Hsien-Fu Hsiao",
+          "Ching Hsu",
+          "Shao-Syuan Huang",
+          "Lee Wei",
+          "Hsi-Che Lin",
+          "Hsuan-Hao Lin",
+          "Hsuan-Ting Lin",
+          "Jian-Ren Lin",
+          "Ting-Chun Liu",
+          "Li-Chun Lu",
+          "Tsung-Min Pai",
+          "Ankita Pasad",
+          "Shih-Yun Kuan",
+          "Suwon Shon",
+          "Yuxun Tang",
+          "Yun-Shao Tsai",
+          "Jui-Chiang Wei",
+          "Tzu-Chieh Wei",
+          "Chengxi Wu",
+          "Dien-Ruei Wu",
+          "Chao-Han Yang",
+          "Chieh-Chi Yang",
+          "Jia Yip",
+          "Shao-Xiang Yuan",
+          "Vahid Noroozi",
+          "Zhehuai Chen",
+          "Haibin Wu",
+          "Karen Livescu",
+          "David Harwath",
+          "Shinji Watanabe",
+          "Hung-Yi Lee"
+        ],
+        "year": 2025,
+        "venue": null,
+        "arxiv_id": "2411.05361v2",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2411.05361",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000629",
+        "title": "Pre-print. Under Review. MMAU: A MASSIVE MULTI-TASK AUDIO UN-DERSTANDING AND REASONING BENCHMARK",
+        "authors": [
+          "S Sakshi",
+          "Utkarsh Tyagi",
+          "Sonal Kumar",
+          "Ashish Seth",
+          "Ramaneswaran Selvakumar",
+          "Oriol Nieto",
+          "Ramani Duraiswami",
+          "Sreyan Ghosh",
+          "Dinesh Manocha"
+        ],
+        "year": 2024,
+        "venue": null,
+        "arxiv_id": "2410.19168v1",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2410.19168",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000630",
+        "title": "AIR-Bench: Benchmarking Large Audio-Language Models via Generative Comprehension",
+        "authors": [
+          "Qian Yang",
+          "Jin Xu",
+          "Wenrui Liu",
+          "Yunfei Chu",
+          "Ziyue Jiang",
+          "Xiaohuan Zhou",
+          "Yichong Leng",
+          "Yuanjun Lv",
+          "Zhou Zhao",
+          "Chang Zhou",
+          "Jingren Zhou"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "2402.07729",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2402.07729",
+        "paper_index": 3
+      },
+      {
+        "paper_id": "ngp-000631",
+        "title": "AudioBench: A Universal Benchmark for Audio Large Language Models",
+        "authors": [
+          "Bin Wang",
+          "Xunlong Zou",
+          "Geyu Lin",
+          "Shuo Sun",
+          "Zhuohan Liu",
+          "Wenyu Zhang",
+          "Zhengyuan Liu",
+          "Aiti Aw",
+          "Nancy Chen"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "2406.16020",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2406.16020",
+        "paper_index": 4
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "problem_groups": [],
+      "method_groups": []
+    },
+    "eval_dims": [
+      "task"
+    ]
+  },
+  {
+    "item_id": "survey:2410.02331:sent_106",
+    "source_survey": "2410.02331",
+    "n_papers": 3,
+    "papers": [
+      {
+        "paper_id": "ngp-000633",
+        "title": "Transparent medical image AI via an image-text foundation model grounded in medical literature",
+        "authors": [
+          "Chanwoo Kim",
+          "Soham Gadgi",
+          "Alex Degrave",
+          "Jesutofunm Omiye",
+          "Zhuo Cai",
+          "Roxana Daneshjou",
+          "Su-In Lee"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1038/s41591-024-02887-x",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.1038/s41591-024-02887-x",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000632",
+        "title": "Integrating Clinical Knowledge into Concept Bottleneck Models",
+        "authors": [
+          "Winnie Pang",
+          "Xueyi Ke",
+          "Satoshi Tsutsui",
+          "Bihan Wen"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "2407.06600",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2407.06600",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000634",
+        "title": "Concept-Attention Whitening for Interpretable Skin Lesion Diagnosis",
+        "authors": [
+          "Junlin Hou",
+          "Jilan Xu",
+          "Hao Chen"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "2404.05997",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2404.05997",
+        "paper_index": 3
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "problem_groups": [],
+      "method_groups": []
+    },
+    "eval_dims": [
+      "task"
+    ]
+  },
+  {
+    "item_id": "survey:2410.03205:sent_111",
+    "source_survey": "2410.03205",
+    "n_papers": 3,
+    "papers": [
+      {
+        "paper_id": "ngp-000640",
+        "title": "Replication and comparison of computational experiments in applied evolutionary computing: Common pitfalls and guidelines to avoid them",
+        "authors": [
+          "Matej Črepinšek",
+          "Shih-Hsi Liu",
+          "Marjan Mernik"
+        ],
+        "year": 2014,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1016/j.asoc.2014.02.009",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.1016/j.asoc.2014.02.009",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000639",
+        "title": "A Prescription of Methodological Guidelines for Comparing Bio-inspired Optimization Algorithms",
+        "authors": [
+          "Antonio Latorre",
+          "Daniel Molina",
+          "Eneko Osaba",
+          "Javier Poyatos",
+          "Javier Ser",
+          "Francisco Herrera"
+        ],
+        "year": 2024,
+        "venue": null,
+        "arxiv_id": "2004.09969v2",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2004.09969",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000641",
+        "title": "COCO: Performance Assessment",
+        "authors": [
+          "Nikolaus Hansen",
+          "Anne Auger",
+          "Dimo Brockhoff",
+          "Dejan Tušar",
+          "Tea Tušar"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "1605.03560",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/1605.03560",
+        "paper_index": 3
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "problem_groups": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "method_groups": []
+    },
+    "eval_dims": [
+      "task",
+      "problem"
+    ]
+  },
+  {
+    "item_id": "survey:2305.05403:sent_115",
+    "source_survey": "2305.05403",
+    "n_papers": 5,
+    "papers": [
+      {
+        "paper_id": "ngp-000644",
+        "title": "Demand-Weighted Completeness Prediction for a Knowledge Base",
+        "authors": [
+          "Andrew Hopkinson",
+          "Amit Gurdasani",
+          "Dave Palfrey",
+          "Arpit Mittal"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://www.aclweb.org/anthology/N18-3025.pdf",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000653",
+        "title": "Structured Knowledge: Have we made progress? An extrinsic study of KB coverage over 19 years",
+        "authors": [
+          "Simon Razniewski",
+          "Priyanka Das"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1145/3340531.3417447",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.1145/3340531.3417447",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000645",
+        "title": "Recoin: Relative Completeness in Wikidata",
+        "authors": [
+          "Vevake Balaraman",
+          "Simon Razniewski",
+          "Werner Nutt"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1145/3184558.3191641",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://wikiworkshop.org/2018/papers/wikiworkshop2018_paper_2.pdf",
+        "paper_index": 3
+      },
+      {
+        "paper_id": "ngp-000655",
+        "title": "On Aligning OpenIE Extractions with Knowledge Bases: A Case Study",
+        "authors": [
+          "Kiril Gashteovski",
+          "Rainer Gemulla",
+          "Bhushan Kotnis",
+          "Sven Hertling",
+          "Christian Meilicke"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://www.aclweb.org/anthology/2020.eval4nlp-1.14.pdf",
+        "paper_index": 4
+      },
+      {
+        "paper_id": "ngp-000654",
+        "title": "Domain-Targeted, High Precision Knowledge Extraction",
+        "authors": [
+          "Bhavana Dalvi",
+          "Mishra Tandon",
+          "Peter Clark"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://aclanthology.org/Q17-1017.pdf",
+        "paper_index": 5
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "problem_groups": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "method_groups": [
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    "eval_dims": [
+      "task",
+      "problem",
+      "method"
+    ]
+  },
+  {
+    "item_id": "survey:2305.06024:sent_116",
+    "source_survey": "2305.06024",
+    "n_papers": 4,
+    "papers": [
+      {
+        "paper_id": "ngp-000657",
+        "title": "Using Self-Supervised Learning Can Improve Model Robustness and Uncertainty",
+        "authors": [
+          "Dan Hendrycks",
+          "U Berkeley",
+          "Mantas Mazeika",
+          "Saurav Kadavath"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "1906.12340",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/1906.12340",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000656",
+        "title": "If your data distribution shifts, use self-learning",
+        "authors": [
+          "Evgenia Rusak",
+          "Steffen Schneider",
+          "George Pachitariu",
+          "Luisa Eck",
+          "Peter Gehler",
+          "Oliver Bringmann",
+          "Wieland Brendel",
+          "Matthias Bethge"
+        ],
+        "year": 2023,
+        "venue": null,
+        "arxiv_id": "2104.12928v4",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2104.12928",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000658",
+        "title": "Big Self-Supervised Models are Strong Semi-Supervised Learners",
+        "authors": [
+          "Ting Chen",
+          "Simon Kornblith",
+          "Kevin Swersky",
+          "Mohammad Norouzi",
+          "Geoffrey Hinton"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "2006.10029",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2006.10029",
+        "paper_index": 3
+      },
+      {
+        "paper_id": "ngp-000659",
+        "title": "A Simple Framework for Contrastive Learning of Visual Representations",
+        "authors": [
+          "Ting Chen",
+          "Simon Kornblith",
+          "Mohammad Norouzi",
+          "Geoffrey Hinton"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "2002.05709",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2002.05709",
+        "paper_index": 4
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          3,
+          4
+        ]
+      ],
+      "problem_groups": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "method_groups": [
+        [
+          1,
+          3,
+          4
+        ]
+      ]
+    },
+    "eval_dims": [
+      "task",
+      "problem",
+      "method"
+    ]
+  },
+  {
+    "item_id": "survey:2305.06329:sent_117",
+    "source_survey": "2305.06329",
+    "n_papers": 7,
+    "papers": [
+      {
+        "paper_id": "ngp-000661",
+        "title": "Measures of Diversity in Classifier Ensembles and Their Relationship with the Ensemble Accuracy",
+        "authors": [
+          "Ludmila Kuncheva",
+          "Christopher Whitaker"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://link.springer.com/content/pdf/10.1023/A:1022859003006.pdf",
+        "paper_index": 1
+      },
+      {
+        "paper_id": "ngp-000660",
+        "title": "Diversity creation methods: a survey and categorisation",
+        "authors": [
+          "Gavin Brown",
+          "Jeremy Wyatt",
+          "Rachel Harris",
+          "Xin Yao"
+        ],
+        "year": 2004,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1016/j.inffus.2004.04.004",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.1016/j.inffus.2004.04.004",
+        "paper_index": 2
+      },
+      {
+        "paper_id": "ngp-000662",
+        "title": "Beyond kappa: A review of interrater agreement measures* zy",
+        "authors": [
+          "Mousumi Banerjee",
+          "Michelle Capozzoli",
+          "Laura Mcsweeney",
+          "Debajyoti Sinha"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev.ps.58.110405.100559",
+        "paper_index": 3
+      },
+      {
+        "paper_id": "ngp-000663",
+        "title": "Interrater agreement and interrater reliability: Key concepts, approaches, and applications",
+        "authors": [
+          "Natasa Gisev",
+          "B Pharm",
+          "J Bell",
+          "Timothy Chen"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": "10.1016/j.sapharm.2012.04.004",
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://doi.org/10.1016/j.sapharm.2012.04.004",
+        "paper_index": 4
+      },
+      {
+        "paper_id": "ngp-000664",
+        "title": "Interrater Reliability and Agreement of Subjective Judgments",
+        "authors": [
+          "Howard Tinsley",
+          "David Weiss"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": null,
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://web.pdx.edu/~mccunee/quant_621/PSY%20624/6%20Exploring%20Observational%20and%20Event%20Sampling/Tinsley%20&%20Weiss%201975%20Interrater%20reliability%20vs.%20agreement.pdf",
+        "paper_index": 5
+      },
+      {
+        "paper_id": "ngp-000666",
+        "title": "Pros and Cons of GAN Evaluation Measures",
+        "authors": [
+          "Ali Borji"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "1802.03446",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/1802.03446",
+        "paper_index": 6
+      },
+      {
+        "paper_id": "ngp-000665",
+        "title": "Evaluation of Text Generation: A Survey",
+        "authors": [
+          "Asli Celikyilmaz",
+          "Elizabeth Clark",
+          "Jianfeng Gao"
+        ],
+        "year": null,
+        "venue": null,
+        "arxiv_id": "2006.14799",
+        "doi": null,
+        "forum_id": null,
+        "s2_paper_id": null,
+        "source_url": "https://arxiv.org/pdf/2006.14799",
+        "paper_index": 7
+      }
+    ],
+    "ground_truth": {
+      "task_groups": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "problem_groups": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "method_groups": []
+    },
+    "eval_dims": [
+      "task",
+      "problem"
+    ]
+  }
+]

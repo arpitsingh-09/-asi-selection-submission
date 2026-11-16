@@ -1,0 +1,28 @@
+{
+  "source_review_records_examined": 570,
+  "manifest_records": {
+    "train": 29,
+    "validation": 4
+  },
+  "eligible_train": 0,
+  "eligible_validation": 0,
+  "eligible_by_factor_split": {
+    "train": {
+      "peer_review": 0,
+      "later_community_use": 0
+    },
+    "validation": {
+      "peer_review": 0,
+      "later_community_use": 0
+    }
+  },
+  "exclusions": {
+    "no_exact_question_paper_link": 570
+  },
+  "remaining_blockers": [
+    "No review record carries a verified public observed_at date; ingestion receipt reports 0 verified dates.",
+    "Question mapping requires exact paper ID present in train/validation manifest.",
+    "No later_community_use labels with dated provenance."
+  ],
+  "training_status": "BLOCKED_INELIGIBLE_LABELS"
+}

@@ -1,0 +1,88 @@
+{
+  "a": "Tweets explicitly criticizing political institutions are more likely to be associated with a third-party or non-voting preference.",
+  "b": "Tweets explicitly criticizing political institutions are more likely to be associated with a third-party or non-voting preference.",
+  "calls": [
+    {
+      "model_metadata": {
+        "adapter_metadata": {
+          "backend": "ollama-local",
+          "created_at": "2026-11-12T13:01:06.636223Z",
+          "done": true,
+          "done_reason": "stop",
+          "endpoint": "http://localhost:11434/api/generate",
+          "eval_count": 6,
+          "generation_settings": {
+            "format": "json",
+            "options": {
+              "num_ctx": 32768,
+              "num_predict": 2048,
+              "seed": 2026,
+              "temperature": 0,
+              "top_p": 1
+            },
+            "stream": false
+          },
+          "http_status": 200,
+          "latency_seconds": 2.507445917,
+          "model": "gemma3:12b",
+          "model_identity": {
+            "reported_created_at": "2026-11-12T13:01:06.636223Z",
+            "reported_model": "gemma3:12b",
+            "requested_model": "gemma3:12b"
+          },
+          "prompt_characters": 1196,
+          "prompt_eval_count": 242,
+          "prompt_sha256": "c69a2b270479892c48167bebfbb308f99586ee2df8f9a72fd74a20748180c096",
+          "requested_output_token_limit": 2048,
+          "stage": "distinctness",
+          "total_tokens": 248,
+          "usage_metadata_available": true
+        },
+        "generation_settings": {
+          "format": "json",
+          "options": {
+            "num_ctx": 32768,
+            "num_predict": 2048,
+            "seed": 2026,
+            "temperature": 0,
+            "top_p": 1
+          },
+          "stream": false
+        },
+        "http_status": 200,
+        "input_tokens": 242,
+        "latency_seconds": 2.507445917,
+        "model": "gemma3:12b",
+        "model_identity": {
+          "reported_created_at": "2026-11-12T13:01:06.636223Z",
+          "reported_model": "gemma3:12b",
+          "requested_model": "gemma3:12b"
+        },
+        "output_tokens": 6,
+        "total_tokens": 248
+      },
+      "prompt": "ROLE\nJudge whether two scientific hypotheses make substantively distinct claims.\nThis is a proposed rubric requiring researcher approval before use.\n\nHYPOTHESIS A\nTweets explicitly criticizing political institutions are more likely to be associated with a third-party or non-voting preference.\n\nHYPOTHESIS B\nTweets explicitly criticizing political institutions are more likely to be associated with a third-party or non-voting preference.\n\nUse only the supplied texts. Return false for paraphrases of the same substantive\npredictor/condition, outcome, relationship and direction. Return true when at\nleast one of those components makes the central scientific claim materially\ndifferent. Wording differences alone are insufficient. A broad claim and its\nnarrow restatement are not distinct unless the narrower claim adds a materially\ndifferent testable condition or relationship. Judge scientific content, not quality.\nIf the texts do not permit a reliable Boolean judgment, return null; the input-set\ndiversity metric must then remain unavailable rather than treating null as false.\n\nReturn exactly one JSON object, without explanation:\n{\"distinct\": true}\nThe value must be true, false, or null.\n",
+      "prompt_sha256": "ae864881173a4c6ea9c3fdb84c1e12ca9ad57b7376149f3434ad5f9428a0dbde",
+      "raw_output": "{\"distinct\": false}",
+      "stage": "distinctness"
+    }
+  ],
+  "case_id": "diversity-01",
+  "expected": false,
+  "key": "distinct",
+  "prediction": false,
+  "reference_kind": "logical_identity_control",
+  "rubric": "distinctness",
+  "section": "diversity",
+  "sources": [
+    {
+      "hypothesis": "Tweets explicitly criticizing political institutions are more likely to be associated with a third-party or non-voting preference.",
+      "hypothesis_id": "QH:H1",
+      "question": "To what extent does explicit criticism of political institutions (e.g., Supreme Court, government shutdowns) correlate with predicted voting preference?",
+      "source": "E6/runs/priority10_train_batch002/aa367e4423af8dc3_generation_envelope.json",
+      "source_file_sha256": "7340af8c3df91e969ef4060271247f91799584276e5b506298ae3f2162454032",
+      "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0001:f4dd50eb316a"
+    }
+  ],
+  "status": "returned_valid"
+}

@@ -1,0 +1,18 @@
+{
+  "archive": "/Users/arpit/Downloads/iclr.tar.bz2",
+  "archive_size_bytes": 512940722,
+  "member": "data/iclr_2026/papers.jsonl",
+  "benchmark_sha256": "ddca02ffcb54f9e3fba0ab3c4f12256744273c3fd514d5f610e17de7ef3ccb1a",
+  "benchmark_records": 299,
+  "matched_forums": 299,
+  "missing_forums": [],
+  "titles_agree": 299,
+  "abstracts_agree_exactly": 14,
+  "with_public_date": 299,
+  "earliest_public_date": "2025-10-08T04:11:45.795000+00:00",
+  "latest_public_date": "2025-10-08T04:11:45.795000+00:00",
+  "date_semantics": "Earliest available positive OpenReview odate (public release) or pdate (publication), never cdate/tmdate; raw fields retained.",
+  "model_cutoff_verified": false,
+  "human_check_executed": false,
+  "archive_sha256": "350071daf25ebf1aef854ee1d5dc3a81834e1c468917c82a4f78af5548de34fc"
+}

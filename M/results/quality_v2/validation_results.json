@@ -1,0 +1,30 @@
+{
+  "heldout_evaluated": false,
+  "train_records": 25,
+  "validation_records": 2,
+  "heads": {
+    "peer_review": {
+      "status": "unavailable",
+      "train_labels_at_publication": 0,
+      "validation_labels_at_publication": 0,
+      "reason": "need >=2 dated training labels and >=1 dated validation label on publication-time text"
+    },
+    "later_community_use": {
+      "status": "unavailable",
+      "train_labels_at_publication": 0,
+      "validation_labels_at_publication": 0,
+      "reason": "need >=2 dated training labels and >=1 dated validation label on publication-time text"
+    }
+  },
+  "train_sha256": "ba18f9b3cd2c781379ac4a98c71c66359a2940c78163388b392ced125af34329",
+  "validation_sha256": "a4854b7144724bc28b3b6c2ca0fd0c3b1d57ac6373d029c0dcec40c25f76f842",
+  "alpha_grid": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "selection_metric": "2024 validation mean squared error",
+  "encoder": "fixed lexical hashing; unvalidated semantic quality",
+  "input_condition": "explicit supplied IDs; no inferred citation edges",
+  "max_records_per_split": 128
+}

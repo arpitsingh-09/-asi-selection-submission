@@ -1,0 +1,37 @@
+{
+  "schema_version": "e6-literature-human-review-record-format-v2",
+  "status": "empty_format_only_not_a_review",
+  "review_fields": {
+    "input_set_id": "exact approved worklist ID",
+    "extraction_sha256": "canonical digest of worklist case target_extraction",
+    "target_source_text_sha256": "worklist source hash",
+    "review_guide_sha256": "approved guide file hash",
+    "reviewer_id": "actual independent human reviewer",
+    "reviewed_at_utc": "actual UTC ISO timestamp",
+    "manual_check_completed": "Boolean true only after actual review",
+    "research_question_extraction_accurate": "Boolean",
+    "main_hypothesis_extraction_accurate": "Boolean",
+    "research_question_explicitness_accurate": "Boolean",
+    "main_hypothesis_explicitness_accurate": "Boolean",
+    "reviewer_notes": "source locations and reasons",
+    "problem_extraction_accurate": "Boolean from actual original-source comparison; missing required extraction component is false",
+    "method_extraction_accurate": "Boolean from actual original-source comparison; missing required extraction component is false",
+    "result_extraction_accurate": "Boolean from actual original-source comparison; missing required extraction component is false",
+    "extraction_errors": "actual list of extraction errors; empty only after review finds none",
+    "corrections": "actual list of corrections with annotation references and source locations; never overwrite original annotations"
+  },
+  "adjudication_fields": {
+    "input_set_id": "disputed case ID",
+    "adjudicator_id": "actual independent third human",
+    "adjudicated_at_utc": "actual UTC ISO timestamp",
+    "review_records_sha256": "digest of this case's review records sorted by reviewer_id",
+    "rationale": "actual source-based explanation",
+    "research_question_extraction_accurate": "final Boolean",
+    "main_hypothesis_extraction_accurate": "final Boolean",
+    "research_question_explicitness_accurate": "final Boolean",
+    "main_hypothesis_explicitness_accurate": "final Boolean",
+    "problem_extraction_accurate": "final source-based Boolean",
+    "method_extraction_accurate": "final source-based Boolean",
+    "result_extraction_accurate": "final source-based Boolean"
+  }
+}

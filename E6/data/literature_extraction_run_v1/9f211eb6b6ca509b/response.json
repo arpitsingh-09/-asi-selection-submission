@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:25:55.736124+00:00",
+  "identity": "db5c796fe4bf883c2c7ee7d1330be6b65cf6031f210f6fdeb8c12e7de5c21f86",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:25:55.726902Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 84,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 8.795579750000002,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:25:55.726902Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2717,
+      "prompt_eval_count": 510,
+      "prompt_sha256": "8143cf39a6f282392398a1a2983dafc1f06021a0875faa80c6df3d81ee2b5286",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 594,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 510,
+    "latency_seconds": 8.795579750000002,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:25:55.726902Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 84,
+    "raw_response": "{\n  \"research_question\": \"How can latent evidence adaptation and fusion be jointly addressed to improve slide-level analysis using frozen-feature whole slide images?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"Jointly designing feature transformation and contextual aggregation will translate pretrained representations into effective slide-level predictions.\",\n  \"main_hypothesis_explicit\": false\n}",
+    "total_tokens": 594
+  },
+  "reply_sha256": "347bee6f309f683463e2bc313f4afc51c85d472c445f2076a1b064b65f7d3ccd"
+}

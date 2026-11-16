@@ -1,0 +1,18 @@
+{
+  "accepted_kinds": [
+    "generation_checkpoint",
+    "train_evaluation",
+    "literature_reconstruction",
+    "secondary"
+  ],
+  "artifacts": [],
+  "instruction": "Index completed stable artifacts only. Do not index reference extraction or an actively written run.",
+  "required_fields": [
+    "testbed",
+    "input_set_id",
+    "kind",
+    "path",
+    "file_sha256"
+  ],
+  "secondary_additional_field": "arm"
+}

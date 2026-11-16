@@ -1,0 +1,48 @@
+[2407.08693] Robotic Control via Embodied Chain-of-Thought Reasoning (https://arxiv.org/abs/2407.08693)
+citeturn8view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2407.08693","lineno":null}); Total lines: 165
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1: 
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3: 
+L4: Press Enter to search · 【4†Advanced search】
+L5: 
+L6: # Computer Science > Robotics
+L7: 
+L8: [Submitted on 11 Jul 2024 (【5†v1】), last revised 6 Mar 2025 (this version, v3)]
+L9: # Title:Robotic Control via Embodied Chain-of-Thought Reasoning
+L10: 
+L11: Authors:【6†Michał Zawalski】, 【7†William Chen】, 【8†Karl Pertsch】, 【9†Oier Mees】, 【10†Chelsea Finn】, 【11†Sergey Levine】
+L12: 
+L13: View a PDF of the paper titled Robotic Control via Embodied Chain-of-Thought Reasoning, by Micha{\l} Zawalski and William Chen and Karl Pertsch and Oier Mees and Chelsea Finn and Sergey Levine
+L14: 
+L15: 【12†View PDF】 【13†HTML (experimental)】
+L16: > Abstract:A key limitation of learned robot control policies is their inability to generalize outside their training data. Recent works on vision-language-action models (VLAs) have shown that the use of large, internet pre-trained vision-language models as the backbone of learned robot policies can substantially improve their robustness and generalization ability.
+L17: Yet, one of the most exciting capabilities of large vision-language models in other domains is their ability to reason iteratively through complex problems. Can that same capability be brought into robotics to allow policies to improve performance by reasoning about a given task before acting? Naive use of "chain-of-thought" (CoT) style prompting is significantly less effective with standard VLAs because of the relatively simple training examples that are available to them.
+L18: Additionally, purely semantic reasoning about sub-tasks, as is common in regular CoT, is insufficient for robot policies that need to ground their reasoning in sensory observations and the robot state. To this end, we introduce Embodied Chain-of-Thought Reasoning (ECoT) for VLAs, in which we train VLAs to perform multiple steps of reasoning about plans, sub-tasks, motions, and visually grounded features like object bounding boxes and end effector positions, before predicting the robot action.
+L19: We design a scalable pipeline for generating synthetic training data for ECoT on large robot datasets. We demonstrate, that ECoT increases the absolute success rate of OpenVLA, the current strongest open-source VLA policy, by 28% across challenging generalization tasks, without any additional robot training data. Additionally, ECoT makes it easier for humans to interpret a policy's failures and correct its behavior using natural language.
+L20: Comments:  | Project Website: 【14†this https URL†embodied-cot.github.io】. Updated funding information
+L21: Subjects:  | Robotics (cs.RO); Machine Learning (cs.LG)
+L22: Cite as:  | 【15†arXiv:2407.08693】 [cs.RO]
+L23:    | (or 【16†arXiv:2407.08693v3】 [cs.RO] for this version)
+L24:    | 【17†https://doi.org/10.48550/arXiv.2407.08693†doi.org】 arXiv-issued DOI via DataCite
+L25: ## Submission history
+L26: 
+L27: From: William Chen [【18†view email】]
+L28: 【5†[v1]】 Thu, 11 Jul 2024 17:31:01 UTC (3,594 KB)
+L29: 【19†[v2]】 Fri, 12 Jul 2024 19:19:34 UTC (3,594 KB)
+L30: [v3] Thu, 6 Mar 2025 19:29:03 UTC (8,333 KB)
+L31: 
+L32: Full-text links:
+L33: ## Access Paper:
+L34: 
+L35: View a PDF of the paper titled Robotic Control via Embodied Chain-of-Thought Reasoning, by Micha{\l} Zawalski and William Chen and Karl Pertsch and Oier Mees and Chelsea Finn and Sergey Levine
+L36: 
+L37:   * 【12†View PDF】
+L38:   * 【13†HTML (experimental)】
+L39:   * 【20†TeX Source】
+L40: 
+L41: 【21†view license†creativecommons.org】
+L42: 
+L43: ### Additional Features
+L44: 
+L45:   * 【22†Audio Summary】

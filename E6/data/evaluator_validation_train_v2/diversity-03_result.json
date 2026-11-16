@@ -1,0 +1,96 @@
+{
+  "a": "Expressing frustration over the lack of third-party debate presence is more likely to correlate with a Democratic voting preference.",
+  "b": "Negative reactions to Republican-led government shutdowns increase the likelihood of a Democratic or third-party vote prediction.",
+  "calls": [
+    {
+      "model_metadata": {
+        "adapter_metadata": {
+          "backend": "ollama-local",
+          "created_at": "2026-11-12T13:01:26.221158Z",
+          "done": true,
+          "done_reason": "stop",
+          "endpoint": "http://localhost:11434/api/generate",
+          "eval_count": 6,
+          "generation_settings": {
+            "format": "json",
+            "options": {
+              "num_ctx": 32768,
+              "num_predict": 2048,
+              "seed": 2026,
+              "temperature": 0,
+              "top_p": 1
+            },
+            "stream": false
+          },
+          "http_status": 200,
+          "latency_seconds": 2.0899214159999957,
+          "model": "gemma3:12b",
+          "model_identity": {
+            "reported_created_at": "2026-11-12T13:01:26.221158Z",
+            "reported_model": "gemma3:12b",
+            "requested_model": "gemma3:12b"
+          },
+          "prompt_characters": 1197,
+          "prompt_eval_count": 242,
+          "prompt_sha256": "68e21be382672727c4a354745b6138e97d48cfffc052b0626e958114e77e9053",
+          "requested_output_token_limit": 2048,
+          "stage": "distinctness",
+          "total_tokens": 248,
+          "usage_metadata_available": true
+        },
+        "generation_settings": {
+          "format": "json",
+          "options": {
+            "num_ctx": 32768,
+            "num_predict": 2048,
+            "seed": 2026,
+            "temperature": 0,
+            "top_p": 1
+          },
+          "stream": false
+        },
+        "http_status": 200,
+        "input_tokens": 242,
+        "latency_seconds": 2.0899214159999957,
+        "model": "gemma3:12b",
+        "model_identity": {
+          "reported_created_at": "2026-11-12T13:01:26.221158Z",
+          "reported_model": "gemma3:12b",
+          "requested_model": "gemma3:12b"
+        },
+        "output_tokens": 6,
+        "total_tokens": 248
+      },
+      "prompt": "ROLE\nJudge whether two scientific hypotheses make substantively distinct claims.\nThis is a proposed rubric requiring researcher approval before use.\n\nHYPOTHESIS A\nExpressing frustration over the lack of third-party debate presence is more likely to correlate with a Democratic voting preference.\n\nHYPOTHESIS B\nNegative reactions to Republican-led government shutdowns increase the likelihood of a Democratic or third-party vote prediction.\n\nUse only the supplied texts. Return false for paraphrases of the same substantive\npredictor/condition, outcome, relationship and direction. Return true when at\nleast one of those components makes the central scientific claim materially\ndifferent. Wording differences alone are insufficient. A broad claim and its\nnarrow restatement are not distinct unless the narrower claim adds a materially\ndifferent testable condition or relationship. Judge scientific content, not quality.\nIf the texts do not permit a reliable Boolean judgment, return null; the input-set\ndiversity metric must then remain unavailable rather than treating null as false.\n\nReturn exactly one JSON object, without explanation:\n{\"distinct\": true}\nThe value must be true, false, or null.\n",
+      "prompt_sha256": "f0c11a610ee141e8f93f84d14ad4e4b0e33aa8bafba74a32335f08e1f2e3affe",
+      "raw_output": "{\"distinct\": true}",
+      "stage": "distinctness"
+    }
+  ],
+  "case_id": "diversity-03",
+  "expected": null,
+  "key": "distinct",
+  "prediction": true,
+  "reference_kind": "human_reference_required",
+  "rubric": "distinctness",
+  "section": "diversity",
+  "sources": [
+    {
+      "hypothesis": "Expressing frustration over the lack of third-party debate presence is more likely to correlate with a Democratic voting preference.",
+      "hypothesis_id": "QH:H5",
+      "question": "Does the expression of frustration regarding the lack of third-party debate presence correlate with a specific predicted voting preference?",
+      "source": "E6/runs/priority10_train_batch001/b90d71ea502c100a_generation_envelope.json",
+      "source_file_sha256": "37a1f47e90f743086a5fa24a05af828ca6dbccaa04ecda57f24b973e1db0d926",
+      "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0000:4b44593d53e3"
+    },
+    {
+      "hypothesis": "Negative reactions to Republican-led government shutdowns increase the likelihood of a Democratic or third-party vote prediction.",
+      "hypothesis_id": "QH:H3",
+      "question": "To what extent does reaction to specific political events (e.g., government shutdowns, Supreme Court decisions) influence the predicted voting preference?",
+      "source": "E6/runs/priority10_train_batch001/b90d71ea502c100a_generation_envelope.json",
+      "source_file_sha256": "37a1f47e90f743086a5fa24a05af828ca6dbccaa04ecda57f24b973e1db0d926",
+      "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0000:4b44593d53e3"
+    }
+  ],
+  "status": "returned_valid"
+}

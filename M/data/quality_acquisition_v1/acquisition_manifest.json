@@ -1,0 +1,113 @@
+{
+  "schema": "M-quality-source-acquisition-v1",
+  "created_at_utc": "2026-11-14T17:08:19Z",
+  "scope": "One targeted acquisition attempt for frozen quality TRAIN/VALIDATION sample; no labels imported.",
+  "protocol": {
+    "train": "Publication and peer_review/later_community_use observations before 2024-01-01; features at publication time.",
+    "validation": "2024 publications and observations only; no 2025-01-01 through 2025-06-30 labels.",
+    "question_text": "Must be the exact frozen question-paper record; question/text version must be available at posing time.",
+    "minimum_fit_gate": "At least 2 verified dated TRAIN labels and 1 verified dated VALIDATION label for each of peer_review and later_community_use.",
+    "model": "No frozen Q heads. A prospective model-lock amendment must fit using TRAIN <=2023 and validation 2024 only, before heldout prediction."
+  },
+  "target_sample": [
+    {
+      "paper_id": "2012.15470v1",
+      "question_id": "2012.15470v1:abstract-question:0",
+      "split": "train",
+      "title": "Audio-Visual Floorplan Reconstruction",
+      "published": "2020-12-31T07:00:34Z",
+      "source_manifest": "M/data/manifests_v1/train.jsonl"
+    },
+    {
+      "paper_id": "2412.20895v1",
+      "question_id": "2412.20895v1:abstract-question:0",
+      "split": "validation",
+      "title": "Towards Compatible Fine-tuning for Vision-Language Model Updates",
+      "published": "2024-12-30T12:06:27Z",
+      "source_manifest": "M/data/manifests_v1/validation.jsonl"
+    }
+  ],
+  "openreview": [
+    {
+      "request_url": "https://api2.openreview.net/notes/search?term=2012.15470v1&content=title&type=exact&limit=20&count=true",
+      "status": 200,
+      "retrieved_at_utc": "2026-11-14T17:07:21Z",
+      "raw_file": "openreview_exact_train_id_response.json",
+      "sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "count": 0,
+      "finding": "No OpenReview note found by ID-as-title query."
+    },
+    {
+      "request_url": "https://api2.openreview.net/notes/search?term=Audio-Visual%20Floorplan%20Reconstruction&content=title&type=exact&limit=20&count=true",
+      "status": 200,
+      "retrieved_at_utc": "2026-11-14T17:07:21Z",
+      "raw_file": "openreview_exact_train_title_response.json",
+      "sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "count": 0,
+      "finding": "No exact-title submission record returned."
+    },
+    {
+      "request_url": "https://api2.openreview.net/notes?forum=xvBbThnIgi&limit=1000",
+      "status": 403,
+      "retrieved_at_utc": "2026-11-14T17:08:19Z",
+      "raw_file": null,
+      "body_captured": false,
+      "finding": "The forum-note request for the exact frozen validation paper was denied; no review notes or score timestamps retrieved."
+    }
+  ],
+  "existing_cached_source_record": {
+    "paper_id": "2412.20895v1",
+    "note_id": "xvBbThnIgi",
+    "forum_id": "xvBbThnIgi",
+    "source_url": "https://api2.openreview.net/notes/search?term=Towards+Compatible+Fine-tuning+for+Vision-Language+Model+Updates&content=title&type=exact&limit=20&count=true",
+    "source_file": "M/data/quality_source_evidence_v1/openreview_retry_raw/2412.20895v1.json",
+    "source_sha256": "6a81c75329c95cbfe63184a8f2479deafc28833917dd28a03fda4721865ac34a",
+    "copy_file": "existing_cached_validation_submission_note.json",
+    "copy_sha256": "6a81c75329c95cbfe63184a8f2479deafc28833917dd28a03fda4721865ac34a",
+    "fromCache": true,
+    "record_kind": "DBLP public article metadata note, not a peer review; contains arXiv version link, title/authors, DBLP forum/note IDs, version/cdate/tmdate/pdate, CC BY-SA 4.0 note license.",
+    "review_score": null,
+    "review_note_ids": [],
+    "review_public_timestamps": []
+  },
+  "peerread_alternative": {
+    "checked_once": true,
+    "dataset": "AllenAI PeerRead",
+    "official_repository": "https://github.com/allenai/PeerRead",
+    "dataset_card": "https://huggingface.co/datasets/allenai/peer_read",
+    "documented_year_scope": "arxiv.cs.cl_2007-2017 and conference sections such as ACL 2017 / NIPS 2013-2017; does not cover the frozen validation 2024 cohort and does not provide exact matches for the selected 2020-2023 train IDs.",
+    "documented_fields": [
+      "paper ID/title/abstract/date_of_submission",
+      "review date",
+      "originality",
+      "recommendation",
+      "replicability",
+      "clarity",
+      "soundness_correctness",
+      "reviewer_confidence",
+      "acceptance decision"
+    ],
+    "documented_missing_or_uncertain": [
+      "No documented public reviewer identifier per review in schema",
+      "License marked unknown on dataset card; upstream README notes license constraints",
+      "No exact frozen question/paper mappings verified"
+    ],
+    "records_downloaded": 0,
+    "reason_stopped": "The age/source cohorts do not match the exact frozen IDs; reviewer identity/licensing also cannot be established from the documented schema. No archive download or broad search performed."
+  },
+  "results": {
+    "source_records_retrieved_in_attempt": 0,
+    "submission_metadata_available_from_existing_cache": 1,
+    "expert_review_records_retrieved_for_exact_frozen_papers": 0,
+    "eligible_peer_review_labels": {
+      "train": 0,
+      "validation": 0
+    },
+    "eligible_later_community_use_labels": {
+      "train": 0,
+      "validation": 0
+    },
+    "q_head_training": "BLOCKED; existing eligibility gate requires at least 2 TRAIN and 1 VALIDATION label per factor, and this acquisition added none.",
+    "registered_evaluation_unlocked": null
+  }
+}

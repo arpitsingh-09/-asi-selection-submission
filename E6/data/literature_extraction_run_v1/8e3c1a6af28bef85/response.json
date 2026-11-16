@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:36:01.418960+00:00",
+  "identity": "29014800375b8c61988d86c5b3680447ae923373cfb3beabc58f8193e2176b8a",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:36:01.348008Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 111,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 17.056958709000014,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:36:01.348008Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2756,
+      "prompt_eval_count": 630,
+      "prompt_sha256": "cb19ce53a8a1f4f6abdf1c5307d96e14374e539d614db009ff1a9b2df6d7e606",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 741,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 630,
+    "latency_seconds": 17.056958709000014,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:36:01.348008Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 111,
+    "raw_response": "{\n  \"research_question\": \"Can a certified rule be developed to determine whether unseen data should be incorporated into a pretrained model's context or its weights, based on an exact law for their information value?\",\n  \"research_question_explicit\": true,\n  \"main_hypothesis\": \"The information value of data for a model, architecture, dataset, and task equals in expectation the bits stored about the query, plus a prior repair, minus a decoding loss.\",\n  \"main_hypothesis_explicit\": true\n}",
+    "total_tokens": 741
+  },
+  "reply_sha256": "92a1331c8189afaee8c2266364b698fe68dcd816691da6e598467f63c40be931"
+}

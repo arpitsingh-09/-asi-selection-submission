@@ -1,0 +1,32 @@
+{
+  "client_configuration": {
+    "backend": "ollama-local",
+    "endpoint": "http://localhost:11434/api/generate",
+    "format": "json",
+    "generation_options": {
+      "num_ctx": 32768,
+      "num_predict": 2048,
+      "seed": 2026,
+      "temperature": 0,
+      "top_p": 1
+    },
+    "model": "gemma3:12b",
+    "stream": false,
+    "timeout_seconds": 600.0
+  },
+  "content_attempt": 1,
+  "identity": "0952f02d23d53ec76a2c89b2a5a59d38f89e4f081139aaf270a03bc689570044",
+  "model_configuration": {
+    "context_limit": 32768,
+    "immutable_version_or_digest": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+    "max_output_tokens": 2048,
+    "model": "gemma3:12b",
+    "seed": 2026,
+    "temperature": 0,
+    "top_p": 1
+  },
+  "prompt": "ROLE\nYou are a scientific paper information extractor.\n\nTASK\nExtract the target paper's research question and main hypothesis using only the supplied paper text.\n\nTARGET PAPER TEXT\nNeural network models are increasingly constructed from synapse-resolution connectomes, and the same circuit is now available in reconstructions from other animals and pipelines. We do not know whether such models are dependent on the reconstruction they are built from, and whether connectome differences are biological or measurement errors. We studied the Drosophila head-direction circuit in nine versions: four flies (male CNS, hemibrain, Fly Wire, BANC) and five variants of the same fly varying only by thresholds, proofreading or synapse detection. Using wiring-based correspondences validated by anatomical labels, we place all differences on one scale. A change of synapse detection within one fly changed the circuit more than halfway to the smallest inter-fly difference on four distances; proofreading differences were smaller but depended on the metric, and left and right halves of one fly differed no more than a random half. Networks trained on each wiring to hold a cued heading developed near-perfect ring attractors, but their error increased from below 1 degree to 10-28 degrees when all weights changed by 1%. Training on each wiring did not transfer to any other connectome, including other versions of the same fly; refitting thirty cell-type gains, we repaired filtering-level differences but remaining error depended on wiring distance. Training with noise lowered precision and enhanced transfer. Imaging data indicate compasses drift smoothly and do not break; they function despite differences comparable to those of this study.Therefore, connectome-constrained models need to reflect the reconstruction they stem from and the robustness normal circuits exhibit and models lack.\n\nRULES\n1. Use only the supplied text.\n2. Do not use outside knowledge or infer information unsupported by the text.\n3. Prefer an explicitly stated research question or hypothesis.\n4. If the research question is not explicitly stated but is clearly supported by the text, provide a concise faithful formulation and set research_question_explicit to false.\n5. If no research question can be reliably identified, return null.\n6. Apply the same explicitness rule to the main hypothesis.\n7. Do not confuse the paper's general topic, method or objective with its research question.\n8. Do not invent a hypothesis merely because the paper reports results.\n9. Keep extracted statements concise and faithful to the authors' meaning.\n\nOUTPUT\nReturn valid JSON only:\n\n{\n  \"research_question\": null,\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": null,\n  \"main_hypothesis_explicit\": false\n}\n\nUse strings instead of null when a statement can be reliably extracted or formulated. Explicitness fields must always be JSON booleans.\n",
+  "prompt_sha256": "4d633dff3debff4feea873a4253122f0947b3817032ba0c877818c44a1565714",
+  "stage": "reference_target_extraction",
+  "started_at_utc": "2026-11-12T13:32:52.046177+00:00"
+}

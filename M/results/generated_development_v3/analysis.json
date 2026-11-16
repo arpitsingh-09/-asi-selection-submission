@@ -1,0 +1,44 @@
+{
+  "development_only": true,
+  "heldout_evaluation": false,
+  "core_test_completed": false,
+  "questions": 6,
+  "snapshots": 18,
+  "failures": [],
+  "ci95": null,
+  "conditions": {
+    "original": {
+      "grounding_mean": 0.49452637453948706,
+      "grounding_n": 6,
+      "Y_mean": 0.468652716810848,
+      "density_mean": 100.0,
+      "vendi": 4.699807081751871,
+      "mean_pairwise_cosine_distance": 0.6454798664494539,
+      "class_entropy": 1.7917594692280547,
+      "quality_factors_available": 0,
+      "future_leakage": false
+    },
+    "empty": {
+      "grounding_mean": null,
+      "grounding_n": 0,
+      "Y_mean": 0.468652716810848,
+      "density_mean": 100.0,
+      "vendi": 4.699807081751871,
+      "mean_pairwise_cosine_distance": 0.6454798664494539,
+      "class_entropy": 1.7917594692280547,
+      "quality_factors_available": 0,
+      "future_leakage": false
+    },
+    "shuffled": {
+      "grounding_mean": 0.2655136629992328,
+      "grounding_n": 6,
+      "Y_mean": 0.468652716810848,
+      "density_mean": 100.0,
+      "vendi": 4.699807081751871,
+      "mean_pairwise_cosine_distance": 0.6454798664494539,
+      "class_entropy": 1.7917594692280547,
+      "quality_factors_available": 0,
+      "future_leakage": false
+    }
+  }
+}

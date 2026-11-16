@@ -1,0 +1,4060 @@
+{
+  "acquisition_result": {
+    "attempts": [
+      {
+        "input_set_id": "lit-2501.01991",
+        "paper_id": "2501.01991v2",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2501.01993",
+        "paper_id": "2501.01993v2",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2501.03254",
+        "paper_id": "2501.03254v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2501.05464",
+        "paper_id": "2501.05464v2",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2501.06205",
+        "paper_id": "2501.06205v2",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2501.06208",
+        "paper_id": "2501.06208v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2501.08585",
+        "paper_id": "2501.08585v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2501.09024",
+        "paper_id": "2501.09024v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2501.14767",
+        "paper_id": "2501.14767v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2502.15691",
+        "paper_id": "2502.15691v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2502.15692",
+        "paper_id": "2502.15692v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2502.15694",
+        "paper_id": "2502.15694v2",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23049",
+        "paper_id": "2512.23049v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23065",
+        "paper_id": "2512.23065v4",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23097",
+        "paper_id": "2512.23097v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23145",
+        "paper_id": "2512.23145v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23206",
+        "paper_id": "2512.23206v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23213",
+        "paper_id": "2512.23213v4",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23214",
+        "paper_id": "2512.23214v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23300",
+        "paper_id": "2512.23300v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23328",
+        "paper_id": "2512.23328v3",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23343",
+        "paper_id": "2512.23343v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23356",
+        "paper_id": "2512.23356v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23407",
+        "paper_id": "2512.23407v2",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23422",
+        "paper_id": "2512.23422v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23429",
+        "paper_id": "2512.23429v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23430",
+        "paper_id": "2512.23430v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23447",
+        "paper_id": "2512.23447v2",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23457",
+        "paper_id": "2512.23457v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23471",
+        "paper_id": "2512.23471v2",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23504",
+        "paper_id": "2512.23504v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23512",
+        "paper_id": "2512.23512v2",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23518",
+        "paper_id": "2512.23518v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23547",
+        "paper_id": "2512.23547v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23562",
+        "paper_id": "2512.23562v2",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23572",
+        "paper_id": "2512.23572v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23578",
+        "paper_id": "2512.23578v3",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23609",
+        "paper_id": "2512.23609v2",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23611",
+        "paper_id": "2512.23611v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23637",
+        "paper_id": "2512.23637v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23647",
+        "paper_id": "2512.23647v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23659",
+        "paper_id": "2512.23659v2",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23676",
+        "paper_id": "2512.23676v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23684",
+        "paper_id": "2512.23684v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23686",
+        "paper_id": "2512.23686v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23693",
+        "paper_id": "2512.23693v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23701",
+        "paper_id": "2512.23701v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23707",
+        "paper_id": "2512.23707v1",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23709",
+        "paper_id": "2512.23709v3",
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "input_set_id": "lit-2512.23765",
+        "paper_id": "2512.23765v2",
+        "status": "unresolved_openalex_target_match"
+      }
+    ],
+    "candidate_target_count_after_exclusions": 50,
+    "candidates": [],
+    "candidates_acquired": 0,
+    "excluded_target_ids": [
+      "2012.13915",
+      "2012.14271",
+      "2012.14359",
+      "2012.14371",
+      "2012.14402",
+      "2012.14584",
+      "2012.14739",
+      "2012.14740",
+      "2012.14785",
+      "2012.14950",
+      "2012.14956",
+      "2012.14961",
+      "2012.15000",
+      "2012.15015",
+      "2012.15049",
+      "2012.15054",
+      "2012.15245",
+      "2012.15294",
+      "2012.15391",
+      "2012.15413",
+      "2012.15482",
+      "2012.15484",
+      "2012.15495",
+      "2012.15497",
+      "2012.15505",
+      "2012.15515",
+      "2012.15525",
+      "2012.15575",
+      "2012.15643",
+      "2012.15701",
+      "2012.15715",
+      "2012.15764",
+      "2012.15779",
+      "2012.15781",
+      "2012.15793",
+      "2012.15821",
+      "2012.15823",
+      "2012.15833",
+      "2012.15859",
+      "2101.00036",
+      "2101.00054",
+      "2101.00082",
+      "2101.00973",
+      "2101.01667",
+      "2101.01668",
+      "2101.10815",
+      "2112.11070",
+      "2112.11241",
+      "2112.11391",
+      "2112.11769",
+      "2112.12028",
+      "2112.12262",
+      "2112.12650",
+      "2112.13634",
+      "2112.13977",
+      "2112.14006",
+      "2112.14023",
+      "2112.14059",
+      "2112.14061",
+      "2112.14192",
+      "2112.14330",
+      "2112.14381",
+      "2112.14406",
+      "2112.14651",
+      "2112.14683",
+      "2112.14718",
+      "2112.14731",
+      "2112.14976",
+      "2112.14983",
+      "2112.15009",
+      "2112.15022",
+      "2112.15036",
+      "2112.15124",
+      "2112.15188",
+      "2112.15271",
+      "2112.15272",
+      "2112.15311",
+      "2112.15336",
+      "2112.15356",
+      "2112.15367",
+      "2112.15383",
+      "2112.15421",
+      "2112.15568",
+      "2112.15579",
+      "2112.15595",
+      "2201.00043",
+      "2201.00649",
+      "2201.00719",
+      "2201.00848",
+      "2201.01191",
+      "2201.02735",
+      "2212.10750",
+      "2212.10826",
+      "2212.11234",
+      "2212.11275",
+      "2212.12407",
+      "2212.12442",
+      "2212.12795",
+      "2212.13554",
+      "2212.13613",
+      "2212.14102",
+      "2212.14128",
+      "2212.14268",
+      "2212.14270",
+      "2212.14272",
+      "2212.14278",
+      "2212.14306",
+      "2212.14319",
+      "2212.14402",
+      "2212.14427",
+      "2212.14437",
+      "2212.14453",
+      "2212.14468",
+      "2212.14546",
+      "2212.14561",
+      "2212.14569",
+      "2212.14593",
+      "2212.14615",
+      "2212.14657",
+      "2212.14710",
+      "2212.14743",
+      "2212.14882",
+      "2301.00008",
+      "2301.00012",
+      "2301.00032",
+      "2301.00139",
+      "2301.00142",
+      "2301.00182",
+      "2301.00676",
+      "2301.00688",
+      "2301.00693",
+      "2301.00719",
+      "2302.00595",
+      "2302.01921",
+      "2312.15842",
+      "2312.15869",
+      "2312.16309",
+      "2312.16682",
+      "2312.17025",
+      "2312.17080",
+      "2312.17243",
+      "2312.17348",
+      "2312.17361",
+      "2312.17429",
+      "2312.17505",
+      "2312.17525",
+      "2312.17526",
+      "2312.17561",
+      "2312.17581",
+      "2312.17615",
+      "2312.17661",
+      "2312.17710",
+      "2401.00036",
+      "2401.00072",
+      "2401.00095",
+      "2401.00128",
+      "2401.00137",
+      "2401.00148",
+      "2401.00158",
+      "2401.00237",
+      "2401.00254",
+      "2401.00314",
+      "2401.00320",
+      "2401.00403",
+      "2401.00445",
+      "2401.00448",
+      "2401.00529",
+      "2401.00532",
+      "2401.00608",
+      "2401.00876",
+      "2401.00885",
+      "2401.00907",
+      "2401.01375",
+      "2401.02975",
+      "2401.02978",
+      "2401.04119",
+      "2401.05416",
+      "2412.19994",
+      "2412.20213",
+      "2412.20565",
+      "2412.20666",
+      "2412.20718",
+      "2412.20725",
+      "2412.20741",
+      "2412.20821",
+      "2412.20838",
+      "2412.20846",
+      "2412.20872",
+      "2412.20977",
+      "2412.20993",
+      "2412.21009",
+      "2412.21082",
+      "2412.21117",
+      "2412.21124",
+      "2412.21139",
+      "2412.21140",
+      "2412.21164",
+      "2412.21187",
+      "2501.00124",
+      "2501.00136",
+      "2501.00162",
+      "2501.00192",
+      "2501.00220",
+      "2501.00244",
+      "2501.00274",
+      "2501.00303",
+      "2501.00305",
+      "2501.00317",
+      "2501.00318",
+      "2501.00340",
+      "2501.00467",
+      "2501.00537",
+      "2501.00539",
+      "2501.00581",
+      "2501.00619",
+      "2501.00623",
+      "2501.00636",
+      "2501.00642",
+      "2501.00677",
+      "2501.01463",
+      "2512.23032",
+      "2512.23260",
+      "2512.23280",
+      "2512.23440",
+      "2512.23705",
+      "2512.23808",
+      "2512.23953",
+      "2512.23998",
+      "2512.24016",
+      "2512.24019",
+      "2512.24023",
+      "2512.24138",
+      "2512.24146",
+      "2512.24157",
+      "2512.24321",
+      "2512.24446",
+      "2512.24459",
+      "2512.24460",
+      "2512.24564",
+      "2512.24587",
+      "2512.24591",
+      "2512.24617",
+      "2512.24724",
+      "2512.24767",
+      "2512.24792",
+      "2512.24810",
+      "2512.24894",
+      "2512.24901",
+      "2512.24947",
+      "2512.25014",
+      "2512.25071",
+      "2601.00042",
+      "2601.00090",
+      "2601.00092",
+      "2601.00871",
+      "2601.00894",
+      "2601.00896",
+      "2601.00905",
+      "2601.09732",
+      "2601.09733",
+      "2601.11575",
+      "2601.11579",
+      "2602.11161",
+      "2602.22226",
+      "2602.23374",
+      "2610.28632",
+      "2610.28787",
+      "2610.28806",
+      "2610.28838",
+      "2610.28886",
+      "2610.28992",
+      "2610.29108",
+      "2610.29152",
+      "2610.29159",
+      "2610.29176",
+      "2610.29195",
+      "2610.29200",
+      "2610.29216",
+      "2610.29220",
+      "2610.29281",
+      "2610.29322",
+      "2610.29345",
+      "2610.29410",
+      "2610.29477",
+      "2610.29506",
+      "2610.29510",
+      "2610.29523",
+      "2610.29533",
+      "2610.29555",
+      "2610.29581",
+      "2610.29651",
+      "2610.29662",
+      "2610.29788",
+      "2610.29905",
+      "2610.29907",
+      "2610.29913",
+      "2610.29926",
+      "2610.29933",
+      "2610.29934",
+      "2610.29949",
+      "2610.29965",
+      "2610.29982",
+      "2610.29989",
+      "2610.30007",
+      "2610.30014",
+      "2610.30018",
+      "2610.30066",
+      "2610.30116",
+      "2610.30118",
+      "2610.30132"
+    ],
+    "max_targets_requested": 50,
+    "retrieval_failures": 0,
+    "schema_version": "e6-literature-acquisition-pool-v1",
+    "source_corpus": "E2/data/raw_papers.jsonl",
+    "status": "provisional_not_selected_not_frozen",
+    "target_records_attempted": 50,
+    "unresolved_matches": [
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2501.01991",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2501.01991",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2501.01991&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:33:38.173913Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2501.01993",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2501.01993",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2501.01993&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:33:39.169172Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2501.03254",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2501.03254",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2501.03254&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:33:40.409651Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2501.05464",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2501.05464",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2501.05464&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:33:41.154085Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2501.06205",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2501.06205",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2501.06205&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:33:42.148185Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2501.06208",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2501.06208",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2501.06208&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:33:42.970910Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2501.08585",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2501.08585",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2501.08585&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:33:43.790072Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2501.09024",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2501.09024",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2501.09024&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:33:44.503182Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2501.14767",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2501.14767",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2501.14767&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:33:45.427436Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2502.15691",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2502.15691",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2502.15691&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:33:46.048056Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2502.15692",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2502.15692",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2502.15692&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:33:46.709824Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2502.15694",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2502.15694",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2502.15694&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:33:47.475708Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2512.23049",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23049",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23049&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:33:48.296267Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [
+          {
+            "abstract_inverted_index": {
+              "(+2.41": [
+                187
+              ],
+              "(+9.55": [
+                182
+              ],
+              "(0.3%).": [
+                98
+              ],
+              "(19%),": [
+                91
+              ],
+              "(6%)": [
+                94
+              ],
+              "(72%),": [
+                88
+              ],
+              "(rotary": [
+                54
+              ],
+              "0-100": [
+                155
+              ],
+              "27": [
+                136
+              ],
+              "41%": [
+                220
+              ],
+              "75.66;": [
+                203
+              ],
+              "77.28": [
+                200
+              ],
+              "78.98": [
+                208
+              ],
+              "8,192": [
+                106
+              ],
+              "86.58B-token": [
+                82
+              ],
+              "BERT": [
+                3,
+                114
+              ],
+              "BERTurk's": [
+                202
+              ],
+              "BERTurk,": [
+                168
+              ],
+              "Encoder-only": [
+                16
+              ],
+              "F1)": [
+                183
+              ],
+              "FlashAttention,": [
+                57
+              ],
+              "For": [
+                125
+              ],
+              "GLUE-style": [
+                151
+              ],
+              "Its": [
+                197
+              ],
+              "ModernBERT": [
+                53,
+                70,
+                119
+              ],
+              "NDCG@10),": [
+                188
+              ],
+              "TabiBERT": [
+                157
+              ],
+              "TabiBERT,": [
+                62
+              ],
+              "TabiBench,": [
+                132
+              ],
+              "The": [
+                0,
+                99
+              ],
+              "Turkish": [
+                40,
+                65,
+                113,
+                160,
+                224,
+                243
+              ],
+              "We": [
+                60,
+                226
+              ],
+              "a": [
+                9,
+                42,
+                63,
+                102,
+                133,
+                150,
+                154,
+                236
+              ],
+              "across": [
+                138
+              ],
+              "advances": [
+                50
+              ],
+              "an": [
+                81
+              ],
+              "and": [
+                25,
+                30,
+                95,
+                116,
+                127,
+                145,
+                167,
+                184,
+                213,
+                232,
+                238
+              ],
+              "answering": [
+                181
+              ],
+              "architecture's": [
+                120
+              ],
+              "architecture,": [
+                71
+              ],
+              "are": [
+                194
+              ],
+              "as": [
+                8,
+                149,
+                235
+              ],
+              "at": [
+                122,
+                219
+              ],
+              "average": [
+                198
+              ],
+              "based": [
+                67
+              ],
+              "benchmark": [
+                134
+              ],
+              "best,": [
+                171
+              ],
+              "categories": [
+                141,
+                166,
+                193
+              ],
+              "classification,": [
+                23
+              ],
+              "code": [
+                93,
+                185,
+                234
+              ],
+              "concentrate": [
+                178
+              ],
+              "configurations": [
+                231
+              ],
+              "consolidated": [
+                51
+              ],
+              "content": [
+                97
+              ],
+              "context": [
+                103
+              ],
+              "context.": [
+                124
+              ],
+              "contextual": [
+                28
+              ],
+              "corpus": [
+                84
+              ],
+              "cost": [
+                33
+              ],
+              "datasets": [
+                137
+              ],
+              "efficiency": [
+                121
+              ],
+              "eight": [
+                139,
+                165
+              ],
+              "eight;": [
+                175
+              ],
+              "embeddings,": [
+                56
+              ],
+              "encoder": [
+                44,
+                66,
+                244
+              ],
+              "encoder-only": [
+                5
+              ],
+              "established": [
+                4
+              ],
+              "evaluation": [
+                129,
+                146,
+                233
+              ],
+              "exceeds": [
+                201
+              ],
+              "existing": [
+                112
+              ],
+              "five": [
+                163
+              ],
+              "for": [
+                22,
+                75,
+                241
+              ],
+              "foundation": [
+                240
+              ],
+              "foundational": [
+                10
+              ],
+              "four": [
+                191
+              ],
+              "from": [
+                46,
+                73,
+                80
+              ],
+              "future": [
+                242
+              ],
+              "gains": [
+                177
+              ],
+              "generation,": [
+                38
+              ],
+              "in": [
+                12,
+                52,
+                162,
+                172
+              ],
+              "inference": [
+                32
+              ],
+              "inherits": [
+                117
+              ],
+              "input.": [
+                225
+              ],
+              "introduce": [
+                61,
+                131
+              ],
+              "introduction": [
+                1
+              ],
+              "lacks": [
+                41
+              ],
+              "language": [
+                14
+              ],
+              "leads": [
+                158
+              ],
+              "length": [
+                104
+              ],
+              "long": [
+                123
+              ],
+              "low": [
+                31
+              ],
+              "macro-average": [
+                152
+              ],
+              "mathematical": [
+                96
+              ],
+              "matter": [
+                34
+              ],
+              "mmBERT": [
+                206
+              ],
+              "model": [
+                100,
+                228
+              ],
+              "models": [
+                7,
+                17,
+                161
+              ],
+              "models,": [
+                115
+              ],
+              "monolingual": [
+                43,
+                64
+              ],
+              "more": [
+                35,
+                221
+              ],
+              "multi-domain": [
+                83
+              ],
+              "multilingual": [
+                205
+              ],
+              "natural": [
+                13
+              ],
+              "near": [
+                195
+              ],
+              "normalization).": [
+                59
+              ],
+              "of": [
+                2,
+                85,
+                105,
+                111,
+                135,
+                164,
+                174,
+                199
+              ],
+              "on": [
+                68,
+                153,
+                179
+              ],
+              "one": [
+                76
+              ],
+              "paradigm": [
+                11
+              ],
+              "parameters": [
+                212
+              ],
+              "per": [
+                223
+              ],
+              "positional": [
+                55
+              ],
+              "pretrained": [
+                72
+              ],
+              "previous": [
+                170
+              ],
+              "processing.": [
+                15
+              ],
+              "protocols,": [
+                147
+              ],
+              "publications": [
+                90
+              ],
+              "question": [
+                180
+              ],
+              "reaches": [
+                207
+              ],
+              "refined": [
+                58
+              ],
+              "release": [
+                227
+              ],
+              "remain": [
+                18
+              ],
+              "representations": [
+                29
+              ],
+              "reproducible": [
+                128,
+                239
+              ],
+              "research.": [
+                245
+              ],
+              "retrieval": [
+                186
+              ],
+              "retrieval,": [
+                26
+              ],
+              "rigorous": [
+                126
+              ],
+              "sampled": [
+                79
+              ],
+              "saturation.": [
+                196
+              ],
+              "scale.": [
+                156
+              ],
+              "scientific": [
+                89
+              ],
+              "scratch": [
+                47,
+                74
+              ],
+              "short-text": [
+                192
+              ],
+              "six": [
+                173
+              ],
+              "sixteen": [
+                108
+              ],
+              "source": [
+                92
+              ],
+              "splits": [
+                144
+              ],
+              "standard": [
+                20
+              ],
+              "standardized": [
+                143
+              ],
+              "summarized": [
+                148
+              ],
+              "supports": [
+                101
+              ],
+              "tagging": [
+                24
+              ],
+              "task": [
+                140
+              ],
+              "text": [
+                37,
+                87
+              ],
+              "than": [
+                36
+              ],
+              "that": [
+                110
+              ],
+              "the": [
+                19,
+                49,
+                69,
+                118,
+                159,
+                169,
+                176,
+                190,
+                204,
+                211,
+                216
+              ],
+              "three": [
+                214
+              ],
+              "times": [
+                109,
+                215
+              ],
+              "tokens": [
+                78,
+                222
+              ],
+              "tokens,": [
+                107,
+                218
+              ],
+              "tool": [
+                21
+              ],
+              "trained": [
+                45
+              ],
+              "training": [
+                217,
+                230
+              ],
+              "transformer": [
+                6
+              ],
+              "transparent": [
+                237
+              ],
+              "trillion": [
+                77
+              ],
+              "twice": [
+                210
+              ],
+              "we": [
+                130
+              ],
+              "web": [
+                86
+              ],
+              "weights,": [
+                229
+              ],
+              "where": [
+                27
+              ],
+              "while": [
+                189
+              ],
+              "with": [
+                48,
+                142,
+                209
+              ],
+              "yet": [
+                39
+              ]
+            },
+            "doi": "https://doi.org/10.48550/arxiv.2512.23065",
+            "id": "https://openalex.org/W7117696150",
+            "ids": {
+              "doi": "https://doi.org/10.48550/arxiv.2512.23065",
+              "openalex": "https://openalex.org/W7117696150"
+            },
+            "locations": [
+              {
+                "doi": null,
+                "id": "pmh:oai:arXiv.org:2512.23065",
+                "is_accepted": false,
+                "is_oa": true,
+                "is_published": false,
+                "landing_page_url": "https://arxiv.org/abs/2512.23065",
+                "license": "cc-by-nc-sa",
+                "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+                "pdf_url": "https://arxiv.org/pdf/2512.23065",
+                "raw_source_name": null,
+                "raw_type": "text",
+                "source": {
+                  "display_name": "arXiv (Cornell University)",
+                  "host_organization": "https://openalex.org/I205783295",
+                  "host_organization_lineage": [
+                    "https://openalex.org/I205783295"
+                  ],
+                  "host_organization_lineage_names": [],
+                  "host_organization_name": "Cornell University",
+                  "id": "https://openalex.org/S4306400194",
+                  "is_core": false,
+                  "is_in_doaj": false,
+                  "is_oa": true,
+                  "issn": [
+                    "2331-8422"
+                  ],
+                  "issn_l": "2331-8422",
+                  "listed_in": [],
+                  "type": "repository"
+                },
+                "version": "submittedVersion"
+              },
+              {
+                "doi": "https://doi.org/10.48550/arxiv.2512.23065",
+                "id": "doi:10.48550/arxiv.2512.23065",
+                "is_accepted": false,
+                "is_oa": true,
+                "is_published": false,
+                "landing_page_url": "https://doi.org/10.48550/arxiv.2512.23065",
+                "license": "cc-by",
+                "license_id": "https://openalex.org/licenses/cc-by",
+                "pdf_url": null,
+                "raw_source_name": null,
+                "raw_type": "Preprint",
+                "source": {
+                  "display_name": "arXiv (Cornell University)",
+                  "host_organization": "https://openalex.org/I205783295",
+                  "host_organization_lineage": [
+                    "https://openalex.org/I205783295"
+                  ],
+                  "host_organization_lineage_names": [],
+                  "host_organization_name": "Cornell University",
+                  "id": "https://openalex.org/S4306400194",
+                  "is_core": false,
+                  "is_in_doaj": false,
+                  "is_oa": true,
+                  "issn": [
+                    "2331-8422"
+                  ],
+                  "issn_l": "2331-8422",
+                  "listed_in": [],
+                  "type": "repository"
+                },
+                "version": null
+              }
+            ],
+            "publication_date": "2025-12-28",
+            "referenced_works": [
+              "https://openalex.org/W2937845937",
+              "https://openalex.org/W2965373594",
+              "https://openalex.org/W2978017171",
+              "https://openalex.org/W3006439205",
+              "https://openalex.org/W3015468748",
+              "https://openalex.org/W4300355574",
+              "https://openalex.org/W4385328016",
+              "https://openalex.org/W4394638297",
+              "https://openalex.org/W4394654497",
+              "https://openalex.org/W4394708953",
+              "https://openalex.org/W4401306979",
+              "https://openalex.org/W4414946174",
+              "https://openalex.org/W4415057273",
+              "https://openalex.org/W4415181821",
+              "https://openalex.org/W4416124930",
+              "https://openalex.org/W4417309148",
+              "https://openalex.org/W6893731114",
+              "https://openalex.org/W6929338758",
+              "https://openalex.org/W6948340691",
+              "https://openalex.org/W6949654774"
+            ],
+            "title": "TabiBERT: A Large-Scale ModernBERT Foundation Model and A Unified Benchmark for Turkish",
+            "updated_date": "2026-11-08T12:12:28.789561"
+          }
+        ],
+        "canonical_target_paper_id": "2512.23065",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23065",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23065&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:33:49.422887Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2512.23097",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23097",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23097&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:33:50.240958Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2512.23145",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23145",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23145&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:33:51.261615Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2512.23206",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23206",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23206&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:33:51.984612Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [
+          {
+            "abstract_inverted_index": {
+              "12": [
+                176
+              ],
+              "6.9%": [
+                146
+              ],
+              "7.3%": [
+                148
+              ],
+              "Ensemble": [
+                6,
+                204
+              ],
+              "Ensemble,": [
+                174
+              ],
+              "Finally,": [
+                108
+              ],
+              "For": [
+                61,
+                79
+              ],
+              "LLM": [
+                5,
+                173,
+                203
+              ],
+              "LLM-PeerReview": [
+                31,
+                119
+              ],
+              "LLM-PeerReview,": [
+                2
+              ],
+              "LLM-as-a-Judge": [
+                67
+              ],
+              "LLM-generated": [
+                16
+              ],
+              "LLMs": [
+                76
+              ],
+              "Notably,": [
+                163
+              ],
+              "Our": [
+                126
+              ],
+              "QA,": [
+                157
+              ],
+              "Smoothie-Global": [
+                144
+              ],
+              "Specifically,": [
+                55
+              ],
+              "We": [
+                0,
+                194
+              ],
+              "a": [
+                35,
+                41,
+                84,
+                89,
+                102,
+                167,
+                189
+              ],
+              "across": [
+                128,
+                178
+              ],
+              "adaptability": [
+                52
+              ],
+              "advanced": [
+                142
+              ],
+              "aggregate": [
+                97
+              ],
+              "algorithm": [
+                95
+              ],
+              "all": [
+                186
+              ],
+              "also": [
+                165
+              ],
+              "an": [
+                3
+              ],
+              "and": [
+                43,
+                53,
+                123,
+                147,
+                160,
+                182,
+                191
+              ],
+              "apply": [
+                83
+              ],
+              "approach": [
+                139
+              ],
+              "as": [
+                114
+              ],
+              "at": [
+                77
+              ],
+              "averaging": [
+                86
+              ],
+              "baselines.": [
+                205
+              ],
+              "benchmark": [
+                170
+              ],
+              "best": [
+                116
+              ],
+              "built": [
+                33
+              ],
+              "by": [
+                73,
+                145
+              ],
+              "can": [
+                82
+              ],
+              "candidates": [
+                17
+              ],
+              "carefully": [
+                168
+              ],
+              "classic": [
+                180
+              ],
+              "collective": [
+                23
+              ],
+              "conceptually": [
+                121
+              ],
+              "consistent": [
+                192
+              ],
+              "cross": [
+                150
+              ],
+              "curated": [
+                169
+              ],
+              "datasets": [
+                130,
+                181
+              ],
+              "diverse": [
+                29,
+                151
+              ],
+              "each": [
+                19,
+                71,
+                106
+              ],
+              "emerging": [
+                66
+              ],
+              "empirically": [
+                124
+              ],
+              "ensemble": [
+                117
+              ],
+              "establish": [
+                166
+              ],
+              "evaluate": [
+                70
+              ],
+              "evaluated": [
+                187
+              ],
+              "factual": [
+                155
+              ],
+              "families,": [
+                185
+              ],
+              "final": [
+                103
+              ],
+              "flexible": [
+                51
+              ],
+              "following.": [
+                162
+              ],
+              "for": [
+                18,
+                50,
+                105,
+                172
+              ],
+              "four": [
+                129,
+                179
+              ],
+              "framework": [
+                38
+              ],
+              "from": [
+                14
+              ],
+              "fully": [
+                48
+              ],
+              "generalization.": [
+                54
+              ],
+              "graphical": [
+                91
+              ],
+              "hand;": [
+                78
+              ],
+              "harnessing": [
+                21
+              ],
+              "help": [
+                199
+              ],
+              "highest-scoring": [
+                110
+              ],
+              "hope": [
+                195
+              ],
+              "ideal": [
+                12
+              ],
+              "in": [
+                58
+              ],
+              "including": [
+                154
+              ],
+              "inference": [
+                94
+              ],
+              "instruction": [
+                161
+              ],
+              "integrating": [
+                175
+              ],
+              "interpretable": [
+                44
+              ],
+              "is": [
+                32,
+                112,
+                120
+              ],
+              "it": [
+                56
+              ],
+              "math": [
+                158
+              ],
+              "mechanism,": [
+                45
+              ],
+              "method": [
+                7
+              ],
+              "methods": [
+                177
+              ],
+              "model": [
+                143
+              ],
+              "model-based": [
+                92
+              ],
+              "models": [
+                27
+              ],
+              "most": [
+                11
+              ],
+              "multiple": [
+                15,
+                26,
+                75,
+                98
+              ],
+              "novel,": [
+                36
+              ],
+              "of": [
+                25,
+                136
+              ],
+              "offers": [
+                40
+              ],
+              "on": [
+                34
+              ],
+              "operates": [
+                57
+              ],
+              "or": [
+                88
+              ],
+              "outperform": [
+                140
+              ],
+              "output.": [
+                118
+              ],
+              "peer-review-inspired": [
+                37
+              ],
+              "points,": [
+                149
+              ],
+              "powerful.": [
+                125
+              ],
+              "principled": [
+                90
+              ],
+              "produce": [
+                101
+              ],
+              "propose": [
+                1
+              ],
+              "proposed": [
+                138
+              ],
+              "protocol.": [
+                193
+              ],
+              "query,": [
+                20
+              ],
+              "reasoning,": [
+                80,
+                159
+              ],
+              "recall": [
+                156
+              ],
+              "remaining": [
+                47
+              ],
+              "repository": [
+                197
+              ],
+              "reproduce": [
+                201
+              ],
+              "researchers": [
+                200
+              ],
+              "response": [
+                13,
+                72,
+                111
+              ],
+              "response;": [
+                107
+              ],
+              "results": [
+                127
+              ],
+              "reusing": [
+                74
+              ],
+              "rigorous": [
+                190
+              ],
+              "score": [
+                104
+              ],
+              "scores": [
+                99
+              ],
+              "scoring,": [
+                62
+              ],
+              "selected": [
+                113
+              ],
+              "selects": [
+                9
+              ],
+              "show": [
+                131
+              ],
+              "simple": [
+                122
+              ],
+              "stages:": [
+                60
+              ],
+              "straightforward": [
+                85
+              ],
+              "strategy": [
+                87
+              ],
+              "strengths.": [
+                30
+              ],
+              "suite": [
+                171
+              ],
+              "task": [
+                152,
+                184
+              ],
+              "technique": [
+                68
+              ],
+              "that": [
+                8,
+                39,
+                132
+              ],
+              "the": [
+                10,
+                22,
+                65,
+                109,
+                115,
+                133,
+                137,
+                141,
+                202
+              ],
+              "this": [
+                196
+              ],
+              "three": [
+                59,
+                183
+              ],
+              "to": [
+                69,
+                96,
+                100
+              ],
+              "transparent": [
+                42
+              ],
+              "truth": [
+                93
+              ],
+              "two": [
+                134
+              ],
+              "types": [
+                153
+              ],
+              "under": [
+                188
+              ],
+              "unsupervised": [
+                4,
+                49
+              ],
+              "use": [
+                64
+              ],
+              "variants": [
+                135
+              ],
+              "we": [
+                63,
+                81,
+                164
+              ],
+              "while": [
+                46
+              ],
+              "will": [
+                198
+              ],
+              "wisdom": [
+                24
+              ],
+              "with": [
+                28
+              ]
+            },
+            "doi": "https://doi.org/10.48550/arxiv.2512.23213",
+            "id": "https://openalex.org/W7117651513",
+            "ids": {
+              "doi": "https://doi.org/10.48550/arxiv.2512.23213",
+              "openalex": "https://openalex.org/W7117651513"
+            },
+            "locations": [
+              {
+                "doi": null,
+                "id": "pmh:oai:arXiv.org:2512.23213",
+                "is_accepted": false,
+                "is_oa": true,
+                "is_published": false,
+                "landing_page_url": "https://arxiv.org/abs/2512.23213",
+                "license": null,
+                "license_id": null,
+                "pdf_url": "https://arxiv.org/pdf/2512.23213",
+                "raw_source_name": null,
+                "raw_type": "text",
+                "source": {
+                  "display_name": "arXiv (Cornell University)",
+                  "host_organization": "https://openalex.org/I205783295",
+                  "host_organization_lineage": [
+                    "https://openalex.org/I205783295"
+                  ],
+                  "host_organization_lineage_names": [],
+                  "host_organization_name": "Cornell University",
+                  "id": "https://openalex.org/S4306400194",
+                  "is_core": false,
+                  "is_in_doaj": false,
+                  "is_oa": true,
+                  "issn": [
+                    "2331-8422"
+                  ],
+                  "issn_l": "2331-8422",
+                  "listed_in": [],
+                  "type": "repository"
+                },
+                "version": "submittedVersion"
+              },
+              {
+                "doi": "https://doi.org/10.48550/arxiv.2512.23213",
+                "id": "doi:10.48550/arxiv.2512.23213",
+                "is_accepted": false,
+                "is_oa": true,
+                "is_published": false,
+                "landing_page_url": "https://doi.org/10.48550/arxiv.2512.23213",
+                "license": null,
+                "license_id": null,
+                "pdf_url": null,
+                "raw_source_name": null,
+                "raw_type": "Preprint",
+                "source": {
+                  "display_name": "arXiv (Cornell University)",
+                  "host_organization": "https://openalex.org/I205783295",
+                  "host_organization_lineage": [
+                    "https://openalex.org/I205783295"
+                  ],
+                  "host_organization_lineage_names": [],
+                  "host_organization_name": "Cornell University",
+                  "id": "https://openalex.org/S4306400194",
+                  "is_core": false,
+                  "is_in_doaj": false,
+                  "is_oa": true,
+                  "issn": [
+                    "2331-8422"
+                  ],
+                  "issn_l": "2331-8422",
+                  "listed_in": [],
+                  "type": "repository"
+                },
+                "version": null
+              }
+            ],
+            "publication_date": "2025-12-29",
+            "referenced_works": [
+              "https://openalex.org/W2612431505",
+              "https://openalex.org/W3134642945",
+              "https://openalex.org/W3177813494",
+              "https://openalex.org/W3200496214",
+              "https://openalex.org/W4221161695",
+              "https://openalex.org/W4327810158",
+              "https://openalex.org/W4384918448",
+              "https://openalex.org/W4385571189",
+              "https://openalex.org/W4385970120",
+              "https://openalex.org/W4387163503",
+              "https://openalex.org/W4389519371",
+              "https://openalex.org/W4389519963",
+              "https://openalex.org/W4390041933",
+              "https://openalex.org/W4390783809",
+              "https://openalex.org/W4391709247",
+              "https://openalex.org/W4392669856",
+              "https://openalex.org/W4396570275",
+              "https://openalex.org/W4396815229",
+              "https://openalex.org/W4400141368",
+              "https://openalex.org/W4401042932",
+              "https://openalex.org/W4401043863",
+              "https://openalex.org/W4402671800",
+              "https://openalex.org/W4403582514",
+              "https://openalex.org/W4404782361",
+              "https://openalex.org/W4404783034",
+              "https://openalex.org/W4405253355",
+              "https://openalex.org/W4406058558",
+              "https://openalex.org/W4411119342",
+              "https://openalex.org/W4412945429",
+              "https://openalex.org/W4415201218",
+              "https://openalex.org/W4416036549",
+              "https://openalex.org/W4416037109",
+              "https://openalex.org/W6979275714",
+              "https://openalex.org/W7120088840",
+              "https://openalex.org/W7124294891",
+              "https://openalex.org/W7138044216",
+              "https://openalex.org/W7138113541"
+            ],
+            "title": "Scoring, Reasoning, and Selecting the Best! Ensembling Large Language Models via a Peer-Review Process",
+            "updated_date": "2026-11-07T11:25:07.637180"
+          }
+        ],
+        "canonical_target_paper_id": "2512.23213",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23213",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23213&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:33:52.905666Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2512.23214",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23214",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23214&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:33:53.721743Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2512.23300",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23300",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23300&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:33:54.438836Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2512.23328",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23328",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23328&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:33:55.361106Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2512.23343",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23343",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23343&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:33:56.076714Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2512.23356",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23356",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23356&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:33:56.794951Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2512.23407",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23407",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23407&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:33:57.511561Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2512.23422",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23422",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23422&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:33:58.326438Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2512.23429",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23429",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23429&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:33:59.660905Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2512.23430",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23430",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23430&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:34:01.095971Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2512.23447",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23447",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23447&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:34:01.807680Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2512.23457",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23457",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23457&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:34:02.488995Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2512.23471",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23471",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23471&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:34:03.345367Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2512.23504",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23504",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23504&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:34:04.166176Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2512.23512",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23512",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23512&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:34:04.813785Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2512.23518",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23518",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23518&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:34:05.703447Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2512.23547",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23547",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23547&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:34:06.522800Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2512.23562",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23562",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23562&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:34:07.383780Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2512.23572",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23572",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23572&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:34:08.265420Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [
+          {
+            "abstract_inverted_index": {
+              "(SLMs)": [
+                10
+              ],
+              "In": [
+                0,
+                117
+              ],
+              "Our": [
+                147,
+                171
+              ],
+              "SLMs": [
+                92,
+                119
+              ],
+              "SLMs'": [
+                155
+              ],
+              "SLMs,": [
+                69
+              ],
+              "SLMs.": [
+                48
+              ],
+              "We": [
+                49,
+                62,
+                87
+              ],
+              "a": [
+                16,
+                24,
+                78,
+                150
+              ],
+              "ability": [
+                156
+              ],
+              "accent,": [
+                57
+              ],
+              "addition,": [
+                118
+              ],
+              "adherence": [
+                167
+              ],
+              "after": [
+                34
+              ],
+              "amnesia": [
+                46
+              ],
+              "amnesia.": [
+                116
+              ],
+              "and": [
+                59,
+                66,
+                173
+              ],
+              "are": [
+                11,
+                139,
+                176
+              ],
+              "as": [
+                43
+              ],
+              "at": [
+                20,
+                179
+              ],
+              "available": [
+                178
+              ],
+              "beginning": [
+                22
+              ],
+              "but": [
+                109
+              ],
+              "can": [
+                76,
+                93,
+                113
+              ],
+              "cannot": [
+                28
+              ],
+              "code": [
+                172
+              ],
+              "consistent": [
+                79
+              ],
+              "conversation,": [
+                26
+              ],
+              "conversation-level": [
+                145
+              ],
+              "current": [
+                154
+              ],
+              "data": [
+                175
+              ],
+              "demonstrating": [
+                70
+              ],
+              "designed": [
+                141
+              ],
+              "do": [
+                85
+              ],
+              "emotion,": [
+                56
+              ],
+              "evaluate": [
+                63
+              ],
+              "evaluation": [
+                174
+              ],
+              "even": [
+                135
+              ],
+              "explicit": [
+                111
+              ],
+              "express": [
+                107
+              ],
+              "fail": [
+                105
+              ],
+              "findings": [
+                148
+              ],
+              "focus": [
+                50
+              ],
+              "for": [
+                164
+              ],
+              "further": [
+                88
+              ],
+              "future": [
+                169
+              ],
+              "gap": [
+                152
+              ],
+              "highlight": [
+                149
+              ],
+              "highlighting": [
+                161
+              ],
+              "https://github.com/YuXiangLin1234/SLM-Style-Amnesia.": [
+                180
+              ],
+              "improved": [
+                165
+              ],
+              "in": [
+                15,
+                100,
+                128,
+                153,
+                168
+              ],
+              "including": [
+                55
+              ],
+              "instructed": [
+                12,
+                83
+              ],
+              "instruction": [
+                97,
+                125
+              ],
+              "instructions.": [
+                146
+              ],
+              "interaction;": [
+                38
+              ],
+              "is": [
+                126
+              ],
+              "it,": [
+                108
+              ],
+              "language": [
+                8
+              ],
+              "later": [
+                101
+              ],
+              "maintain": [
+                29,
+                77,
+                158
+              ],
+              "messages": [
+                130,
+                138
+              ],
+              "messages,": [
+                134
+              ],
+              "mitigate": [
+                114
+              ],
+              "models": [
+                9,
+                75
+              ],
+              "models.": [
+                170
+              ],
+              "more": [
+                121
+              ],
+              "multi-turn": [
+                25
+              ],
+              "need": [
+                163
+              ],
+              "none": [
+                72
+              ],
+              "of": [
+                23,
+                37,
+                47,
+                73
+              ],
+              "on": [
+                51
+              ],
+              "open-source": [
+                68
+              ],
+              "paper,": [
+                2
+              ],
+              "paralinguistic": [
+                52
+              ],
+              "persistent,": [
+                144
+              ],
+              "placed": [
+                127
+              ],
+              "prompted": [
+                99
+              ],
+              "proprietary": [
+                65
+              ],
+              "provide": [
+                143
+              ],
+              "publicly": [
+                177
+              ],
+              "rather": [
+                131
+              ],
+              "recall": [
+                94,
+                112
+              ],
+              "refer": [
+                40
+              ],
+              "required": [
+                31
+              ],
+              "several": [
+                35
+              ],
+              "show": [
+                4,
+                89
+              ],
+              "so.": [
+                86
+              ],
+              "speak": [
+                14
+              ],
+              "speaking": [
+                18,
+                32,
+                53,
+                60,
+                80,
+                159
+              ],
+              "specific": [
+                17
+              ],
+              "specifically": [
+                140
+              ],
+              "speed.": [
+                61
+              ],
+              "spoken": [
+                7
+              ],
+              "still": [
+                104
+              ],
+              "struggle": [
+                120
+              ],
+              "style": [
+                19,
+                45,
+                81,
+                96,
+                115,
+                124,
+                166
+              ],
+              "styles": [
+                33
+              ],
+              "styles,": [
+                54,
+                160
+              ],
+              "system": [
+                129,
+                137
+              ],
+              "systematic": [
+                151
+              ],
+              "than": [
+                132
+              ],
+              "that": [
+                5,
+                71,
+                90
+              ],
+              "the": [
+                21,
+                30,
+                44,
+                95,
+                123,
+                162
+              ],
+              "these": [
+                74
+              ],
+              "they": [
+                27,
+                103
+              ],
+              "this": [
+                1,
+                42
+              ],
+              "though": [
+                136
+              ],
+              "three": [
+                64
+              ],
+              "through": [
+                110
+              ],
+              "to": [
+                13,
+                41,
+                84,
+                106,
+                142,
+                157
+              ],
+              "turns": [
+                36
+              ],
+              "turns,": [
+                102
+              ],
+              "two": [
+                67
+              ],
+              "user": [
+                133
+              ],
+              "volume,": [
+                58
+              ],
+              "we": [
+                3,
+                39
+              ],
+              "when": [
+                6,
+                82,
+                98,
+                122
+              ],
+              "while": [
+                91
+              ]
+            },
+            "doi": "https://doi.org/10.48550/arxiv.2512.23578",
+            "id": "https://openalex.org/W7117703834",
+            "ids": {
+              "doi": "https://doi.org/10.48550/arxiv.2512.23578",
+              "openalex": "https://openalex.org/W7117703834"
+            },
+            "locations": [
+              {
+                "doi": null,
+                "id": "pmh:oai:arXiv.org:2512.23578",
+                "is_accepted": false,
+                "is_oa": true,
+                "is_published": false,
+                "landing_page_url": "https://arxiv.org/abs/2512.23578",
+                "license": "cc-by",
+                "license_id": "https://openalex.org/licenses/cc-by",
+                "pdf_url": "https://arxiv.org/pdf/2512.23578",
+                "raw_source_name": null,
+                "raw_type": "text",
+                "source": {
+                  "display_name": "arXiv (Cornell University)",
+                  "host_organization": "https://openalex.org/I205783295",
+                  "host_organization_lineage": [
+                    "https://openalex.org/I205783295"
+                  ],
+                  "host_organization_lineage_names": [],
+                  "host_organization_name": "Cornell University",
+                  "id": "https://openalex.org/S4306400194",
+                  "is_core": false,
+                  "is_in_doaj": false,
+                  "is_oa": true,
+                  "issn": [
+                    "2331-8422"
+                  ],
+                  "issn_l": "2331-8422",
+                  "listed_in": [],
+                  "type": "repository"
+                },
+                "version": "submittedVersion"
+              },
+              {
+                "doi": "https://doi.org/10.48550/arxiv.2512.23578",
+                "id": "doi:10.48550/arxiv.2512.23578",
+                "is_accepted": false,
+                "is_oa": true,
+                "is_published": false,
+                "landing_page_url": "https://doi.org/10.48550/arxiv.2512.23578",
+                "license": "cc-by",
+                "license_id": "https://openalex.org/licenses/cc-by",
+                "pdf_url": null,
+                "raw_source_name": null,
+                "raw_type": "Preprint",
+                "source": {
+                  "display_name": "arXiv (Cornell University)",
+                  "host_organization": "https://openalex.org/I205783295",
+                  "host_organization_lineage": [
+                    "https://openalex.org/I205783295"
+                  ],
+                  "host_organization_lineage_names": [],
+                  "host_organization_name": "Cornell University",
+                  "id": "https://openalex.org/S4306400194",
+                  "is_core": false,
+                  "is_in_doaj": false,
+                  "is_oa": true,
+                  "issn": [
+                    "2331-8422"
+                  ],
+                  "issn_l": "2331-8422",
+                  "listed_in": [],
+                  "type": "repository"
+                },
+                "version": null
+              }
+            ],
+            "publication_date": "2025-12-29",
+            "referenced_works": [
+              "https://openalex.org/W4384918448",
+              "https://openalex.org/W4395064792",
+              "https://openalex.org/W4403883071",
+              "https://openalex.org/W4404330874",
+              "https://openalex.org/W4405057125",
+              "https://openalex.org/W4407632450",
+              "https://openalex.org/W4407758949",
+              "https://openalex.org/W4409051416",
+              "https://openalex.org/W4415025133",
+              "https://openalex.org/W4415202956",
+              "https://openalex.org/W4415250050",
+              "https://openalex.org/W4415329203",
+              "https://openalex.org/W4416433474",
+              "https://openalex.org/W4417086184",
+              "https://openalex.org/W4417099870",
+              "https://openalex.org/W6948369276",
+              "https://openalex.org/W7155055828"
+            ],
+            "title": "Style Amnesia: Investigating Speaking Style Degradation and Mitigation in Multi-Turn Spoken Language Models",
+            "updated_date": "2026-11-07T11:25:07.637180"
+          }
+        ],
+        "canonical_target_paper_id": "2512.23578",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23578",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23578&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:34:08.927460Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2512.23609",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23609",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23609&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:34:09.798429Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2512.23611",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23611",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23611&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:34:10.516989Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2512.23637",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23637",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23637&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:34:11.742091Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2512.23647",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23647",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23647&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:34:12.563869Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2512.23659",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23659",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23659&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:34:13.486644Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2512.23676",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23676",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23676&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:34:14.100559Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2512.23684",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23684",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23684&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:34:15.124640Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2512.23686",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23686",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23686&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:34:16.251254Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2512.23693",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23693",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23693&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:34:16.966553Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2512.23701",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23701",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23701&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:34:17.684319Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [],
+        "canonical_target_paper_id": "2512.23707",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23707",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23707&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:34:18.503443Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [
+          {
+            "abstract_inverted_index": null,
+            "doi": "https://doi.org/10.1007/978-3-032-36839-3_18",
+            "id": "https://openalex.org/W7117685004",
+            "ids": {
+              "doi": "https://doi.org/10.1007/978-3-032-36839-3_18",
+              "openalex": "https://openalex.org/W7117685004"
+            },
+            "locations": [
+              {
+                "doi": "https://doi.org/10.1007/978-3-032-36839-3_18",
+                "id": "doi:10.1007/978-3-032-36839-3_18",
+                "is_accepted": true,
+                "is_oa": false,
+                "is_published": true,
+                "landing_page_url": "https://doi.org/10.1007/978-3-032-36839-3_18",
+                "license": null,
+                "license_id": null,
+                "pdf_url": null,
+                "raw_source_name": "Lecture Notes in Computer Science",
+                "raw_type": "book-chapter",
+                "source": {
+                  "display_name": "Lecture notes in computer science",
+                  "host_organization": "https://openalex.org/P4310319900",
+                  "host_organization_lineage": [
+                    "https://openalex.org/P4310319900",
+                    "https://openalex.org/P4310319965"
+                  ],
+                  "host_organization_lineage_names": [
+                    "Springer Science+Business Media",
+                    "Springer Nature"
+                  ],
+                  "host_organization_name": "Springer Science+Business Media",
+                  "id": "https://openalex.org/S106296714",
+                  "is_core": true,
+                  "is_in_doaj": false,
+                  "is_oa": false,
+                  "issn": [
+                    "0302-9743",
+                    "1611-3349"
+                  ],
+                  "issn_l": "0302-9743",
+                  "listed_in": [
+                    "cwts-core",
+                    "jufo-1",
+                    "ki-jl-1",
+                    "norway-1",
+                    "vabb-shw"
+                  ],
+                  "type": "book series"
+                },
+                "version": "publishedVersion"
+              },
+              {
+                "doi": null,
+                "id": "pmh:oai:arXiv.org:2512.23709",
+                "is_accepted": false,
+                "is_oa": true,
+                "is_published": false,
+                "landing_page_url": "https://arxiv.org/abs/2512.23709",
+                "license": "cc-by",
+                "license_id": "https://openalex.org/licenses/cc-by",
+                "pdf_url": "https://arxiv.org/pdf/2512.23709",
+                "raw_source_name": null,
+                "raw_type": "text",
+                "source": {
+                  "display_name": "arXiv (Cornell University)",
+                  "host_organization": "https://openalex.org/I205783295",
+                  "host_organization_lineage": [
+                    "https://openalex.org/I205783295"
+                  ],
+                  "host_organization_lineage_names": [],
+                  "host_organization_name": "Cornell University",
+                  "id": "https://openalex.org/S4306400194",
+                  "is_core": false,
+                  "is_in_doaj": false,
+                  "is_oa": true,
+                  "issn": [
+                    "2331-8422"
+                  ],
+                  "issn_l": "2331-8422",
+                  "listed_in": [],
+                  "type": "repository"
+                },
+                "version": "submittedVersion"
+              },
+              {
+                "doi": "https://doi.org/10.48550/arxiv.2512.23709",
+                "id": "doi:10.48550/arxiv.2512.23709",
+                "is_accepted": false,
+                "is_oa": true,
+                "is_published": false,
+                "landing_page_url": "https://doi.org/10.48550/arxiv.2512.23709",
+                "license": "cc-by",
+                "license_id": "https://openalex.org/licenses/cc-by",
+                "pdf_url": null,
+                "raw_source_name": null,
+                "raw_type": "Preprint",
+                "source": {
+                  "display_name": "arXiv (Cornell University)",
+                  "host_organization": "https://openalex.org/I205783295",
+                  "host_organization_lineage": [
+                    "https://openalex.org/I205783295"
+                  ],
+                  "host_organization_lineage_names": [],
+                  "host_organization_name": "Cornell University",
+                  "id": "https://openalex.org/S4306400194",
+                  "is_core": false,
+                  "is_in_doaj": false,
+                  "is_oa": true,
+                  "issn": [
+                    "2331-8422"
+                  ],
+                  "issn_l": "2331-8422",
+                  "listed_in": [],
+                  "type": "repository"
+                },
+                "version": null
+              }
+            ],
+            "publication_date": "2026-01-01",
+            "referenced_works": [
+              "https://openalex.org/W2601564443",
+              "https://openalex.org/W2768814045",
+              "https://openalex.org/W2769654144",
+              "https://openalex.org/W2783348085",
+              "https://openalex.org/W2904829482",
+              "https://openalex.org/W2953823547",
+              "https://openalex.org/W2962785568",
+              "https://openalex.org/W2965669158",
+              "https://openalex.org/W2966926453",
+              "https://openalex.org/W2974140942",
+              "https://openalex.org/W2986833982",
+              "https://openalex.org/W3012181793",
+              "https://openalex.org/W3034475761",
+              "https://openalex.org/W3034785019",
+              "https://openalex.org/W3092442149",
+              "https://openalex.org/W3095671795",
+              "https://openalex.org/W3096831136",
+              "https://openalex.org/W3107184287",
+              "https://openalex.org/W3107955907",
+              "https://openalex.org/W3109623365",
+              "https://openalex.org/W3111551570",
+              "https://openalex.org/W3157035436",
+              "https://openalex.org/W3194030619",
+              "https://openalex.org/W3197274095",
+              "https://openalex.org/W3204210402",
+              "https://openalex.org/W3204971388",
+              "https://openalex.org/W3207918547",
+              "https://openalex.org/W4221145576",
+              "https://openalex.org/W4221159371",
+              "https://openalex.org/W4225672218",
+              "https://openalex.org/W4226014430",
+              "https://openalex.org/W4312497550",
+              "https://openalex.org/W4312933868",
+              "https://openalex.org/W4319300459",
+              "https://openalex.org/W4385801026",
+              "https://openalex.org/W4385849416",
+              "https://openalex.org/W4386071831",
+              "https://openalex.org/W4386076184",
+              "https://openalex.org/W4386076368",
+              "https://openalex.org/W4387389604",
+              "https://openalex.org/W4387643984",
+              "https://openalex.org/W4387928896",
+              "https://openalex.org/W4392090197",
+              "https://openalex.org/W4392543517",
+              "https://openalex.org/W4392737350",
+              "https://openalex.org/W4392908363",
+              "https://openalex.org/W4393147660",
+              "https://openalex.org/W4393150168",
+              "https://openalex.org/W4394656839",
+              "https://openalex.org/W4394867031",
+              "https://openalex.org/W4399912930",
+              "https://openalex.org/W4400342811",
+              "https://openalex.org/W4400524387",
+              "https://openalex.org/W4400601116",
+              "https://openalex.org/W4402350556",
+              "https://openalex.org/W4402698357",
+              "https://openalex.org/W4402702909",
+              "https://openalex.org/W4402716124",
+              "https://openalex.org/W4402726956",
+              "https://openalex.org/W4402727316",
+              "https://openalex.org/W4402727525",
+              "https://openalex.org/W4402727532",
+              "https://openalex.org/W4402727835",
+              "https://openalex.org/W4402753769",
+              "https://openalex.org/W4402753907",
+              "https://openalex.org/W4402754171",
+              "https://openalex.org/W4402961786",
+              "https://openalex.org/W4403344241",
+              "https://openalex.org/W4403363894",
+              "https://openalex.org/W4403573316",
+              "https://openalex.org/W4403757510",
+              "https://openalex.org/W4403784784",
+              "https://openalex.org/W4404002775",
+              "https://openalex.org/W4404003111",
+              "https://openalex.org/W4404313998",
+              "https://openalex.org/W4404769990",
+              "https://openalex.org/W4404965447",
+              "https://openalex.org/W4404987471",
+              "https://openalex.org/W4406123405",
+              "https://openalex.org/W4409262914",
+              "https://openalex.org/W4410692273",
+              "https://openalex.org/W4411528087",
+              "https://openalex.org/W4411726886",
+              "https://openalex.org/W4412587825",
+              "https://openalex.org/W4413144436",
+              "https://openalex.org/W4413144991",
+              "https://openalex.org/W4413145674",
+              "https://openalex.org/W4413145728",
+              "https://openalex.org/W4413147706",
+              "https://openalex.org/W4413155801",
+              "https://openalex.org/W4413156392",
+              "https://openalex.org/W4414197453",
+              "https://openalex.org/W4414809803",
+              "https://openalex.org/W4415270647",
+              "https://openalex.org/W4415329701",
+              "https://openalex.org/W4415539348",
+              "https://openalex.org/W4415795614",
+              "https://openalex.org/W4415795783",
+              "https://openalex.org/W4415796372",
+              "https://openalex.org/W4415796513",
+              "https://openalex.org/W4415796735",
+              "https://openalex.org/W4415796943",
+              "https://openalex.org/W4415796977",
+              "https://openalex.org/W4415797645",
+              "https://openalex.org/W4415797840",
+              "https://openalex.org/W4415798267",
+              "https://openalex.org/W4415798523",
+              "https://openalex.org/W4415886202",
+              "https://openalex.org/W4416032033",
+              "https://openalex.org/W4416138697",
+              "https://openalex.org/W4417136857",
+              "https://openalex.org/W4417210302",
+              "https://openalex.org/W4417265481",
+              "https://openalex.org/W7103752107",
+              "https://openalex.org/W7133189877",
+              "https://openalex.org/W7133193464",
+              "https://openalex.org/W7133203186",
+              "https://openalex.org/W7133206275",
+              "https://openalex.org/W7133220850",
+              "https://openalex.org/W7137998490",
+              "https://openalex.org/W7160080807",
+              "https://openalex.org/W7196994428"
+            ],
+            "title": "Stream-DiffVSR: Low-Latency Streamable Video Super-Resolution via Auto-regressive Diffusion",
+            "updated_date": "2026-11-10T11:39:43.021295"
+          }
+        ],
+        "canonical_target_paper_id": "2512.23709",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23709",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23709&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:34:19.186061Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      },
+      {
+        "candidate_matches": [
+          {
+            "abstract_inverted_index": {
+              "(EASD),": [
+                51
+              ],
+              "(LLM)": [
+                7
+              ],
+              "(SD)": [
+                2
+              ],
+              "Decoding": [
+                50
+              ],
+              "EASD": [
+                88,
+                110,
+                125
+              ],
+              "Entropy-Aware": [
+                48
+              ],
+              "SD": [
+                27,
+                58,
+                116
+              ],
+              "Speculative": [
+                0,
+                49
+              ],
+              "a": [
+                11,
+                19,
+                52
+              ],
+              "accelerates": [
+                3
+              ],
+              "acceleration": [
+                145
+              ],
+              "acceleration,": [
+                32
+              ],
+              "accuracy": [
+                113
+              ],
+              "aligned": [
+                91
+              ],
+              "also": [
+                148
+              ],
+              "an": [
+                144,
+                150
+              ],
+              "and": [
+                18,
+                33,
+                54,
+                72,
+                93,
+                117
+              ],
+              "as": [
+                143,
+                149
+              ],
+              "at": [
+                160
+              ],
+              "available": [
+                159
+              ],
+              "benchmarks": [
+                107
+              ],
+              "both": [
+                70
+              ],
+              "but": [
+                147
+              ],
+              "by": [
+                9,
+                40
+              ],
+              "can": [
+                126,
+                139
+              ],
+              "cases": [
+                68
+              ],
+              "cases,": [
+                87
+              ],
+              "challenging": [
+                105
+              ],
+              "code": [
+                157
+              ],
+              "com/ECNU-Text-Computing/EASD.": [
+                162
+              ],
+              "comparable": [
+                122
+              ],
+              "consistently": [
+                111
+              ],
+              "constrained": [
+                39
+              ],
+              "decoding": [
+                1,
+                138
+              ],
+              "designed": [
+                30
+              ],
+              "detects": [
+                67
+              ],
+              "distribution,": [
+                98
+              ],
+              "draft": [
+                13,
+                71
+              ],
+              "effective": [
+                151
+              ],
+              "efficiency.Notably,": [
+                124
+              ],
+              "entropy-guided": [
+                65
+              ],
+              "errors": [
+                101
+              ],
+              "exhibit": [
+                75
+              ],
+              "extension": [
+                56
+              ],
+              "for": [
+                31,
+                153
+              ],
+              "from": [
+                95,
+                102
+              ],
+              "high": [
+                76
+              ],
+              "https://github.": [
+                161
+              ],
+              "improves": [
+                60,
+                112
+              ],
+              "improving": [
+                154
+              ],
+              "in": [
+                81
+              ],
+              "inference": [
+                8,
+                123
+              ],
+              "is": [
+                28,
+                37,
+                158
+              ],
+              "its": [
+                34
+              ],
+              "language": [
+                5
+              ],
+              "large": [
+                4
+              ],
+              "lightweight": [
+                12,
+                53
+              ],
+              "low-confidence": [
+                100
+              ],
+              "mainly": [
+                29
+              ],
+              "maintaining": [
+                121
+              ],
+              "mechanism": [
+                152
+              ],
+              "method": [
+                146
+              ],
+              "model": [
+                6,
+                14,
+                22
+              ],
+              "model,": [
+                134
+              ],
+              "model.In": [
+                43
+              ],
+              "models": [
+                74
+              ],
+              "not": [
+                141
+              ],
+              "of": [
+                57,
+                131
+              ],
+              "on": [
+                104
+              ],
+              "only": [
+                142
+              ],
+              "output": [
+                35
+              ],
+              "over": [
+                114
+              ],
+              "overlapping": [
+                80
+              ],
+              "performance": [
+                130
+              ],
+              "predictions.In": [
+                84
+              ],
+              "preventing": [
+                99
+              ],
+              "propagating.Experiments": [
+                103
+              ],
+              "propose": [
+                16,
+                47
+              ],
+              "quality": [
+                36,
+                62
+              ],
+              "quality.The": [
+                156
+              ],
+              "reasoning": [
+                61,
+                106,
+                155
+              ],
+              "rejection.EASD": [
+                66
+              ],
+              "rejects": [
+                89
+              ],
+              "resamples": [
+                94
+              ],
+              "reward-guided": [
+                118
+              ],
+              "serve": [
+                140
+              ],
+              "show": [
+                108
+              ],
+              "speculative": [
+                137
+              ],
+              "standalone": [
+                129
+              ],
+              "standard": [
+                26,
+                115
+              ],
+              "stronger": [
+                20
+              ],
+              "strongly": [
+                79
+              ],
+              "such": [
+                85
+              ],
+              "suggesting": [
+                135
+              ],
+              "surpass": [
+                127
+              ],
+              "target": [
+                21,
+                42,
+                73,
+                97,
+                133
+              ],
+              "that": [
+                59,
+                109,
+                136
+              ],
+              "the": [
+                41,
+                90,
+                96,
+                128,
+                132
+              ],
+              "their": [
+                82
+              ],
+              "them.However,": [
+                25
+              ],
+              "this": [
+                44
+              ],
+              "through": [
+                63
+              ],
+              "to": [
+                15,
+                23
+              ],
+              "token": [
+                92
+              ],
+              "token-level": [
+                64
+              ],
+              "tokens": [
+                17
+              ],
+              "top": [
+                83
+              ],
+              "training-free": [
+                55
+              ],
+              "typically": [
+                38
+              ],
+              "uncertain-agreement": [
+                86
+              ],
+              "uncertainty": [
+                77
+              ],
+              "using": [
+                10
+              ],
+              "variants": [
+                119
+              ],
+              "verify": [
+                24
+              ],
+              "we": [
+                46
+              ],
+              "where": [
+                69
+              ],
+              "while": [
+                78,
+                120
+              ],
+              "work,": [
+                45
+              ]
+            },
+            "doi": "https://doi.org/10.18653/2026.findings-emnlp.278",
+            "id": "https://openalex.org/W7117962272",
+            "ids": {
+              "doi": "https://doi.org/10.18653/2026.findings-emnlp.278",
+              "openalex": "https://openalex.org/W7117962272"
+            },
+            "locations": [
+              {
+                "doi": "https://doi.org/10.18653/2026.findings-emnlp.278",
+                "id": "doi:10.18653/2026.findings-emnlp.278",
+                "is_accepted": true,
+                "is_oa": true,
+                "is_published": true,
+                "landing_page_url": "https://doi.org/10.18653/2026.findings-emnlp.278",
+                "license": null,
+                "license_id": null,
+                "pdf_url": "https://aclanthology.org/2026.findings-emnlp.278.pdf",
+                "raw_source_name": "Findings of the Association for Computational Linguistics: EMNLP 2026",
+                "raw_type": "proceedings-article",
+                "source": {
+                  "display_name": "Findings of the Association for Computational Linguistics: EMNLP (Findings of EMNLP)",
+                  "host_organization": "https://openalex.org/P4310320244",
+                  "host_organization_lineage": [
+                    "https://openalex.org/P4310320244"
+                  ],
+                  "host_organization_lineage_names": [
+                    "Association for Computational Linguistics"
+                  ],
+                  "host_organization_name": "Association for Computational Linguistics",
+                  "id": "https://openalex.org/S7407096085",
+                  "is_core": false,
+                  "is_in_doaj": false,
+                  "is_oa": false,
+                  "issn": null,
+                  "issn_l": null,
+                  "listed_in": [],
+                  "type": "conference"
+                },
+                "version": "publishedVersion"
+              },
+              {
+                "doi": null,
+                "id": "pmh:oai:arXiv.org:2512.23765",
+                "is_accepted": false,
+                "is_oa": true,
+                "is_published": false,
+                "landing_page_url": "https://arxiv.org/abs/2512.23765",
+                "license": "cc-by",
+                "license_id": "https://openalex.org/licenses/cc-by",
+                "pdf_url": "https://arxiv.org/pdf/2512.23765",
+                "raw_source_name": null,
+                "raw_type": "text",
+                "source": {
+                  "display_name": "arXiv (Cornell University)",
+                  "host_organization": "https://openalex.org/I205783295",
+                  "host_organization_lineage": [
+                    "https://openalex.org/I205783295"
+                  ],
+                  "host_organization_lineage_names": [],
+                  "host_organization_name": "Cornell University",
+                  "id": "https://openalex.org/S4306400194",
+                  "is_core": false,
+                  "is_in_doaj": false,
+                  "is_oa": true,
+                  "issn": [
+                    "2331-8422"
+                  ],
+                  "issn_l": "2331-8422",
+                  "listed_in": [],
+                  "type": "repository"
+                },
+                "version": "submittedVersion"
+              },
+              {
+                "doi": "https://doi.org/10.48550/arxiv.2512.23765",
+                "id": "doi:10.48550/arxiv.2512.23765",
+                "is_accepted": false,
+                "is_oa": true,
+                "is_published": false,
+                "landing_page_url": "https://doi.org/10.48550/arxiv.2512.23765",
+                "license": "cc-by",
+                "license_id": "https://openalex.org/licenses/cc-by",
+                "pdf_url": null,
+                "raw_source_name": null,
+                "raw_type": "Preprint",
+                "source": {
+                  "display_name": "arXiv (Cornell University)",
+                  "host_organization": "https://openalex.org/I205783295",
+                  "host_organization_lineage": [
+                    "https://openalex.org/I205783295"
+                  ],
+                  "host_organization_lineage_names": [],
+                  "host_organization_name": "Cornell University",
+                  "id": "https://openalex.org/S4306400194",
+                  "is_core": false,
+                  "is_in_doaj": false,
+                  "is_oa": true,
+                  "issn": [
+                    "2331-8422"
+                  ],
+                  "issn_l": "2331-8422",
+                  "listed_in": [],
+                  "type": "repository"
+                },
+                "version": null
+              }
+            ],
+            "publication_date": "2026-01-01",
+            "referenced_works": [
+              "https://openalex.org/W3134642945",
+              "https://openalex.org/W3156891177",
+              "https://openalex.org/W4307934016",
+              "https://openalex.org/W4319166707",
+              "https://openalex.org/W4322718191",
+              "https://openalex.org/W4327810158",
+              "https://openalex.org/W4387225871",
+              "https://openalex.org/W4391124766",
+              "https://openalex.org/W4391335474",
+              "https://openalex.org/W4391670457",
+              "https://openalex.org/W4392933336",
+              "https://openalex.org/W4393119187",
+              "https://openalex.org/W4402684003",
+              "https://openalex.org/W4407231762",
+              "https://openalex.org/W4407422869",
+              "https://openalex.org/W4417088883",
+              "https://openalex.org/W4417516992"
+            ],
+            "title": "Entropy-Aware Token Rejection for Improving Speculative Decoding",
+            "updated_date": "2026-11-10T11:39:43.021295"
+          }
+        ],
+        "canonical_target_paper_id": "2512.23765",
+        "exact_match_count": 0,
+        "input_set_id": "lit-2512.23765",
+        "resolution_provenance": {
+          "api_version": "public REST API; unversioned endpoint",
+          "automatic_match_selected": false,
+          "http_status": 200,
+          "match_method": "arxiv_landing_page_filter_exact_id_confirmed_by_caller",
+          "request_url": "https://api.openalex.org/works?filter=locations.landing_page_url%3Ahttps%3A%2F%2Farxiv.org%2Fabs%2F2512.23765&per_page=5&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Creferenced_works%2Cids%2Cabstract_inverted_index%2Cupdated_date%2Clocations",
+          "retrieved_at_utc": "2026-11-11T09:34:19.938068Z",
+          "source": "OpenAlex"
+        },
+        "status": "unresolved_openalex_target_match"
+      }
+    ],
+    "unresolved_target_matches": 50
+  },
+  "batch_index": 7,
+  "batch_sha256": "b510b479f70af716dd6d2f51b6550ea83a513120dcb65b7f692977848abe20e4",
+  "counts": {
+    "candidates_with_10_abstract_references": 0,
+    "genuinely_eligible_candidates": 0,
+    "retrieval_failures": 0,
+    "successful_openalex_matches": 0,
+    "targets_processed": 50
+  },
+  "run_sha256": "04e6677550f10af88ed236d67685a330472b26cc73714b8f3df4989045c7f0fe",
+  "schema_version": "e6-openalex-literature-batch-v1",
+  "target_ids": [
+    "2501.01991",
+    "2501.01993",
+    "2501.03254",
+    "2501.05464",
+    "2501.06205",
+    "2501.06208",
+    "2501.08585",
+    "2501.09024",
+    "2501.14767",
+    "2502.15691",
+    "2502.15692",
+    "2502.15694",
+    "2512.23049",
+    "2512.23065",
+    "2512.23097",
+    "2512.23145",
+    "2512.23206",
+    "2512.23213",
+    "2512.23214",
+    "2512.23300",
+    "2512.23328",
+    "2512.23343",
+    "2512.23356",
+    "2512.23407",
+    "2512.23422",
+    "2512.23429",
+    "2512.23430",
+    "2512.23447",
+    "2512.23457",
+    "2512.23471",
+    "2512.23504",
+    "2512.23512",
+    "2512.23518",
+    "2512.23547",
+    "2512.23562",
+    "2512.23572",
+    "2512.23578",
+    "2512.23609",
+    "2512.23611",
+    "2512.23637",
+    "2512.23647",
+    "2512.23659",
+    "2512.23676",
+    "2512.23684",
+    "2512.23686",
+    "2512.23693",
+    "2512.23701",
+    "2512.23707",
+    "2512.23709",
+    "2512.23765"
+  ]
+}

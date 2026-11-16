@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:30:18.713913+00:00",
+  "identity": "c93b46c9f98b15be2b96478dd5b8391bc642f2ff0c98531113da31ac5c8c0a2a",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:30:18.69191Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 116,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 15.79527229200005,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:30:18.69191Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2832,
+      "prompt_eval_count": 566,
+      "prompt_sha256": "eae229a1ccdd3caee563e5354c4bea406d324f56701b26033b5b3c2d6ac12932",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 682,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 566,
+    "latency_seconds": 15.79527229200005,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:30:18.69191Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 116,
+    "raw_response": "{\n  \"research_question\": \"How can automated fruit classification models generalize to unseen quality grades in a cross-grade banana variety classification setting, given significant domain shift?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"A dual-stream Swin ResNet hybrid framework enhanced with KL-divergence-based self-distillation will achieve better overall performance and improve discriminative feature transferability compared to CNN and Transformer baseline models for cross-grade banana variety classification.\",\n  \"main_hypothesis_explicit\": true\n}",
+    "total_tokens": 682
+  },
+  "reply_sha256": "f82ff781ecfb50b04c763dc341a8577f999112f5f1804f00c3f750db39c4d3af"
+}

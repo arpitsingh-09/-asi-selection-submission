@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:27:52.810807+00:00",
+  "identity": "dda107d5d4efae87a10c7e86b403b4d754c0f8f2b4b94d2598978f75cbe3de2d",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:27:52.800701Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 67,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 8.447647625000002,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:27:52.800701Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2787,
+      "prompt_eval_count": 558,
+      "prompt_sha256": "efbc9ff9f449bd7c3cbd86481717b791b22ba0a91e34a4497f99eddcf43e5378",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 625,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 558,
+    "latency_seconds": 8.447647625000002,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:27:52.800701Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 67,
+    "raw_response": "{\n  \"research_question\": \"How can audio-language models be improved to enhance speech recognition, speaker-diarized transcription, and general audio understanding?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": null,\n  \"main_hypothesis_explicit\": false\n}",
+    "total_tokens": 625
+  },
+  "reply_sha256": "d8894623d59692161c82bd15654e3c801aabd9d9aac0bf207a4e04b1da87d9f7"
+}

@@ -1,0 +1,5492 @@
+[
+  {
+    "query_id": "h001",
+    "candidate_source_id": "h001",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.0017216122981654758,
+    "is_target_pair": true,
+    "cross_encoder_score": 9.439584732055664
+  },
+  {
+    "query_id": "h001",
+    "candidate_source_id": "h001",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.03069265873334115,
+    "is_target_pair": true,
+    "cross_encoder_score": 8.460149765014648
+  },
+  {
+    "query_id": "h001",
+    "candidate_source_id": "h001",
+    "candidate_field": "B",
+    "rank": 3,
+    "embedding_distance": 0.0516747877516085,
+    "is_target_pair": true,
+    "cross_encoder_score": 3.864009380340576
+  },
+  {
+    "query_id": "h001",
+    "candidate_source_id": "h001",
+    "candidate_field": "narrower",
+    "rank": 4,
+    "embedding_distance": 0.060017972232502936,
+    "is_target_pair": false,
+    "cross_encoder_score": 6.928466796875
+  },
+  {
+    "query_id": "h001",
+    "candidate_source_id": "h001",
+    "candidate_field": "C_tilde",
+    "rank": 5,
+    "embedding_distance": 0.10567204861848623,
+    "is_target_pair": true,
+    "cross_encoder_score": -7.163559913635254
+  },
+  {
+    "query_id": "h001",
+    "candidate_source_id": "h005",
+    "candidate_field": "A",
+    "rank": 6,
+    "embedding_distance": 0.15239879618076724,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.814640045166016
+  },
+  {
+    "query_id": "h001",
+    "candidate_source_id": "h005",
+    "candidate_field": "B_min",
+    "rank": 7,
+    "embedding_distance": 0.15251469823029962,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.873966217041016
+  },
+  {
+    "query_id": "h001",
+    "candidate_source_id": "h006",
+    "candidate_field": "C_tilde",
+    "rank": 8,
+    "embedding_distance": 0.154973392487871,
+    "is_target_pair": false,
+    "cross_encoder_score": -11.058225631713867
+  },
+  {
+    "query_id": "h001",
+    "candidate_source_id": "h006",
+    "candidate_field": "C",
+    "rank": 9,
+    "embedding_distance": 0.15745374339773488,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.4315185546875
+  },
+  {
+    "query_id": "h001",
+    "candidate_source_id": "h029",
+    "candidate_field": "B_min",
+    "rank": 10,
+    "embedding_distance": 0.15919090613772047,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.77566909790039
+  },
+  {
+    "query_id": "h002",
+    "candidate_source_id": "h002",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.0014074864920861074,
+    "is_target_pair": true,
+    "cross_encoder_score": 9.752324104309082
+  },
+  {
+    "query_id": "h002",
+    "candidate_source_id": "h002",
+    "candidate_field": "broader",
+    "rank": 2,
+    "embedding_distance": 0.06135263297023552,
+    "is_target_pair": false,
+    "cross_encoder_score": 5.460646152496338
+  },
+  {
+    "query_id": "h002",
+    "candidate_source_id": "h002",
+    "candidate_field": "C",
+    "rank": 3,
+    "embedding_distance": 0.06785672193845238,
+    "is_target_pair": true,
+    "cross_encoder_score": 5.55975341796875
+  },
+  {
+    "query_id": "h002",
+    "candidate_source_id": "h055",
+    "candidate_field": "C",
+    "rank": 4,
+    "embedding_distance": 0.11201880162023903,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.095241546630859
+  },
+  {
+    "query_id": "h002",
+    "candidate_source_id": "h055",
+    "candidate_field": "A",
+    "rank": 5,
+    "embedding_distance": 0.11461554966936693,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.222136974334717
+  },
+  {
+    "query_id": "h002",
+    "candidate_source_id": "h055",
+    "candidate_field": "B_min",
+    "rank": 6,
+    "embedding_distance": 0.11992505481986104,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.96830677986145
+  },
+  {
+    "query_id": "h002",
+    "candidate_source_id": "h044",
+    "candidate_field": "C",
+    "rank": 7,
+    "embedding_distance": 0.12552642332125652,
+    "is_target_pair": false,
+    "cross_encoder_score": -2.0850136280059814
+  },
+  {
+    "query_id": "h002",
+    "candidate_source_id": "h044",
+    "candidate_field": "B_min",
+    "rank": 8,
+    "embedding_distance": 0.12662027744284798,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.6244893074035645
+  },
+  {
+    "query_id": "h002",
+    "candidate_source_id": "h058",
+    "candidate_field": "B",
+    "rank": 9,
+    "embedding_distance": 0.12705995475276166,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.10422420501709
+  },
+  {
+    "query_id": "h002",
+    "candidate_source_id": "h044",
+    "candidate_field": "A",
+    "rank": 10,
+    "embedding_distance": 0.1280422524877909,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.7708218097686768
+  },
+  {
+    "query_id": "h003",
+    "candidate_source_id": "h003",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.002382531059619719,
+    "is_target_pair": true,
+    "cross_encoder_score": 8.215993881225586
+  },
+  {
+    "query_id": "h003",
+    "candidate_source_id": "h003",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.008086579037911878,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.81694221496582
+  },
+  {
+    "query_id": "h003",
+    "candidate_source_id": "h003",
+    "candidate_field": "broader",
+    "rank": 3,
+    "embedding_distance": 0.08667613596470913,
+    "is_target_pair": false,
+    "cross_encoder_score": 4.523149013519287
+  },
+  {
+    "query_id": "h003",
+    "candidate_source_id": "h003",
+    "candidate_field": "B",
+    "rank": 4,
+    "embedding_distance": 0.10122048007583839,
+    "is_target_pair": true,
+    "cross_encoder_score": -2.2911555767059326
+  },
+  {
+    "query_id": "h003",
+    "candidate_source_id": "h003",
+    "candidate_field": "narrower",
+    "rank": 5,
+    "embedding_distance": 0.12863256145999902,
+    "is_target_pair": false,
+    "cross_encoder_score": -0.6042925119400024
+  },
+  {
+    "query_id": "h003",
+    "candidate_source_id": "h003",
+    "candidate_field": "C_tilde",
+    "rank": 6,
+    "embedding_distance": 0.14051234868434248,
+    "is_target_pair": true,
+    "cross_encoder_score": -5.174576759338379
+  },
+  {
+    "query_id": "h003",
+    "candidate_source_id": "h013",
+    "candidate_field": "broader",
+    "rank": 7,
+    "embedding_distance": 0.16406330613206532,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.448453903198242
+  },
+  {
+    "query_id": "h003",
+    "candidate_source_id": "h019",
+    "candidate_field": "C",
+    "rank": 8,
+    "embedding_distance": 0.170522655569308,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.255348205566406
+  },
+  {
+    "query_id": "h003",
+    "candidate_source_id": "h019",
+    "candidate_field": "A",
+    "rank": 9,
+    "embedding_distance": 0.17271518004784336,
+    "is_target_pair": false,
+    "cross_encoder_score": -9.908246994018555
+  },
+  {
+    "query_id": "h003",
+    "candidate_source_id": "h019",
+    "candidate_field": "B_min",
+    "rank": 10,
+    "embedding_distance": 0.1738882895247672,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.716058731079102
+  },
+  {
+    "query_id": "h004",
+    "candidate_source_id": "h004",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.004410353395866928,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.777683258056641
+  },
+  {
+    "query_id": "h004",
+    "candidate_source_id": "h004",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.014366555730849662,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.6299824714660645
+  },
+  {
+    "query_id": "h004",
+    "candidate_source_id": "h004",
+    "candidate_field": "narrower",
+    "rank": 3,
+    "embedding_distance": 0.056487932388426976,
+    "is_target_pair": false,
+    "cross_encoder_score": 6.099668025970459
+  },
+  {
+    "query_id": "h004",
+    "candidate_source_id": "h004",
+    "candidate_field": "C_tilde",
+    "rank": 4,
+    "embedding_distance": 0.0977254198627524,
+    "is_target_pair": true,
+    "cross_encoder_score": 0.7940083742141724
+  },
+  {
+    "query_id": "h004",
+    "candidate_source_id": "h004",
+    "candidate_field": "broader",
+    "rank": 5,
+    "embedding_distance": 0.1010721159208916,
+    "is_target_pair": false,
+    "cross_encoder_score": 3.4709877967834473
+  },
+  {
+    "query_id": "h004",
+    "candidate_source_id": "h004",
+    "candidate_field": "B",
+    "rank": 6,
+    "embedding_distance": 0.1043017560079399,
+    "is_target_pair": true,
+    "cross_encoder_score": 2.1622719764709473
+  },
+  {
+    "query_id": "h004",
+    "candidate_source_id": "h005",
+    "candidate_field": "B_min",
+    "rank": 7,
+    "embedding_distance": 0.1255697659430287,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.969363689422607
+  },
+  {
+    "query_id": "h004",
+    "candidate_source_id": "h005",
+    "candidate_field": "A",
+    "rank": 8,
+    "embedding_distance": 0.12747731232670823,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.888751029968262
+  },
+  {
+    "query_id": "h004",
+    "candidate_source_id": "h025",
+    "candidate_field": "broader",
+    "rank": 9,
+    "embedding_distance": 0.12820475081691485,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.149106979370117
+  },
+  {
+    "query_id": "h004",
+    "candidate_source_id": "h025",
+    "candidate_field": "B_min",
+    "rank": 10,
+    "embedding_distance": 0.13013023962668624,
+    "is_target_pair": false,
+    "cross_encoder_score": -9.079581260681152
+  },
+  {
+    "query_id": "h005",
+    "candidate_source_id": "h005",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.0028675031398012196,
+    "is_target_pair": true,
+    "cross_encoder_score": 8.134381294250488
+  },
+  {
+    "query_id": "h005",
+    "candidate_source_id": "h005",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.04707004494658451,
+    "is_target_pair": true,
+    "cross_encoder_score": 6.448517799377441
+  },
+  {
+    "query_id": "h005",
+    "candidate_source_id": "h018",
+    "candidate_field": "C_tilde",
+    "rank": 3,
+    "embedding_distance": 0.10765714947055915,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.828209400177002
+  },
+  {
+    "query_id": "h005",
+    "candidate_source_id": "h008",
+    "candidate_field": "A",
+    "rank": 4,
+    "embedding_distance": 0.11055556739967709,
+    "is_target_pair": false,
+    "cross_encoder_score": 1.7319209575653076
+  },
+  {
+    "query_id": "h005",
+    "candidate_source_id": "h008",
+    "candidate_field": "narrower",
+    "rank": 5,
+    "embedding_distance": 0.11566204214178788,
+    "is_target_pair": false,
+    "cross_encoder_score": 0.8301927447319031
+  },
+  {
+    "query_id": "h005",
+    "candidate_source_id": "h008",
+    "candidate_field": "B_min",
+    "rank": 6,
+    "embedding_distance": 0.11703980559818827,
+    "is_target_pair": false,
+    "cross_encoder_score": 0.9504790306091309
+  },
+  {
+    "query_id": "h005",
+    "candidate_source_id": "h005",
+    "candidate_field": "C_tilde",
+    "rank": 7,
+    "embedding_distance": 0.11818397313188855,
+    "is_target_pair": true,
+    "cross_encoder_score": -2.724506378173828
+  },
+  {
+    "query_id": "h005",
+    "candidate_source_id": "h018",
+    "candidate_field": "C",
+    "rank": 8,
+    "embedding_distance": 0.12017034669462578,
+    "is_target_pair": false,
+    "cross_encoder_score": -6.140191078186035
+  },
+  {
+    "query_id": "h005",
+    "candidate_source_id": "h004",
+    "candidate_field": "B_min",
+    "rank": 9,
+    "embedding_distance": 0.12200754320062457,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.116018295288086
+  },
+  {
+    "query_id": "h005",
+    "candidate_source_id": "h018",
+    "candidate_field": "A",
+    "rank": 10,
+    "embedding_distance": 0.1228545919741767,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.745728969573975
+  },
+  {
+    "query_id": "h006",
+    "candidate_source_id": "h006",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.00790013379338439,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.168755531311035
+  },
+  {
+    "query_id": "h006",
+    "candidate_source_id": "h006",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.02355142895584983,
+    "is_target_pair": true,
+    "cross_encoder_score": 5.551368236541748
+  },
+  {
+    "query_id": "h006",
+    "candidate_source_id": "h006",
+    "candidate_field": "B",
+    "rank": 3,
+    "embedding_distance": 0.11525646010890622,
+    "is_target_pair": true,
+    "cross_encoder_score": -1.7630338668823242
+  },
+  {
+    "query_id": "h006",
+    "candidate_source_id": "h006",
+    "candidate_field": "C_tilde",
+    "rank": 4,
+    "embedding_distance": 0.12243264620825411,
+    "is_target_pair": true,
+    "cross_encoder_score": -7.801711082458496
+  },
+  {
+    "query_id": "h006",
+    "candidate_source_id": "h006",
+    "candidate_field": "narrower",
+    "rank": 5,
+    "embedding_distance": 0.13116260943265357,
+    "is_target_pair": false,
+    "cross_encoder_score": -0.06523963809013367
+  },
+  {
+    "query_id": "h006",
+    "candidate_source_id": "h004",
+    "candidate_field": "B_min",
+    "rank": 6,
+    "embedding_distance": 0.134504563516485,
+    "is_target_pair": false,
+    "cross_encoder_score": -8.971513748168945
+  },
+  {
+    "query_id": "h006",
+    "candidate_source_id": "h004",
+    "candidate_field": "A",
+    "rank": 7,
+    "embedding_distance": 0.13692957878296885,
+    "is_target_pair": false,
+    "cross_encoder_score": -8.897754669189453
+  },
+  {
+    "query_id": "h006",
+    "candidate_source_id": "h005",
+    "candidate_field": "A",
+    "rank": 8,
+    "embedding_distance": 0.14146857392711532,
+    "is_target_pair": false,
+    "cross_encoder_score": -8.210729598999023
+  },
+  {
+    "query_id": "h006",
+    "candidate_source_id": "h005",
+    "candidate_field": "B_min",
+    "rank": 9,
+    "embedding_distance": 0.14373930481981323,
+    "is_target_pair": false,
+    "cross_encoder_score": -8.21073055267334
+  },
+  {
+    "query_id": "h006",
+    "candidate_source_id": "h008",
+    "candidate_field": "narrower",
+    "rank": 10,
+    "embedding_distance": 0.14481083066468847,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.5174612998962402
+  },
+  {
+    "query_id": "h007",
+    "candidate_source_id": "h007",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.0034709043583353028,
+    "is_target_pair": true,
+    "cross_encoder_score": 6.993431091308594
+  },
+  {
+    "query_id": "h007",
+    "candidate_source_id": "h007",
+    "candidate_field": "narrower",
+    "rank": 2,
+    "embedding_distance": 0.040616804749101565,
+    "is_target_pair": false,
+    "cross_encoder_score": 6.191814422607422
+  },
+  {
+    "query_id": "h007",
+    "candidate_source_id": "h007",
+    "candidate_field": "C",
+    "rank": 3,
+    "embedding_distance": 0.06599249470890056,
+    "is_target_pair": true,
+    "cross_encoder_score": 4.1396355628967285
+  },
+  {
+    "query_id": "h007",
+    "candidate_source_id": "h007",
+    "candidate_field": "B",
+    "rank": 4,
+    "embedding_distance": 0.12073972988790571,
+    "is_target_pair": true,
+    "cross_encoder_score": -8.300021171569824
+  },
+  {
+    "query_id": "h007",
+    "candidate_source_id": "h060",
+    "candidate_field": "C",
+    "rank": 5,
+    "embedding_distance": 0.12187388757811524,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.4810404777526855
+  },
+  {
+    "query_id": "h007",
+    "candidate_source_id": "h009",
+    "candidate_field": "C",
+    "rank": 6,
+    "embedding_distance": 0.12357498982420478,
+    "is_target_pair": false,
+    "cross_encoder_score": -2.587103843688965
+  },
+  {
+    "query_id": "h007",
+    "candidate_source_id": "h060",
+    "candidate_field": "A",
+    "rank": 7,
+    "embedding_distance": 0.1251722426266353,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.337243556976318
+  },
+  {
+    "query_id": "h007",
+    "candidate_source_id": "h060",
+    "candidate_field": "B_min",
+    "rank": 8,
+    "embedding_distance": 0.12611327901903646,
+    "is_target_pair": false,
+    "cross_encoder_score": -8.552319526672363
+  },
+  {
+    "query_id": "h007",
+    "candidate_source_id": "h007",
+    "candidate_field": "broader",
+    "rank": 9,
+    "embedding_distance": 0.12626425677381492,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.049226999282837
+  },
+  {
+    "query_id": "h007",
+    "candidate_source_id": "h018",
+    "candidate_field": "C",
+    "rank": 10,
+    "embedding_distance": 0.13299512593127572,
+    "is_target_pair": false,
+    "cross_encoder_score": -6.563993453979492
+  },
+  {
+    "query_id": "h008",
+    "candidate_source_id": "h008",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.0027890205641377674,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.821498870849609
+  },
+  {
+    "query_id": "h008",
+    "candidate_source_id": "h008",
+    "candidate_field": "narrower",
+    "rank": 2,
+    "embedding_distance": 0.011096242914300114,
+    "is_target_pair": false,
+    "cross_encoder_score": 7.513510704040527
+  },
+  {
+    "query_id": "h008",
+    "candidate_source_id": "h008",
+    "candidate_field": "C",
+    "rank": 3,
+    "embedding_distance": 0.023577747464613608,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.362979888916016
+  },
+  {
+    "query_id": "h008",
+    "candidate_source_id": "h008",
+    "candidate_field": "C_tilde",
+    "rank": 4,
+    "embedding_distance": 0.07911290595300935,
+    "is_target_pair": true,
+    "cross_encoder_score": 3.97371768951416
+  },
+  {
+    "query_id": "h008",
+    "candidate_source_id": "h008",
+    "candidate_field": "broader",
+    "rank": 5,
+    "embedding_distance": 0.09633691781295828,
+    "is_target_pair": false,
+    "cross_encoder_score": 4.365209579467773
+  },
+  {
+    "query_id": "h008",
+    "candidate_source_id": "h005",
+    "candidate_field": "A",
+    "rank": 6,
+    "embedding_distance": 0.11055556739967709,
+    "is_target_pair": false,
+    "cross_encoder_score": -0.9906237721443176
+  },
+  {
+    "query_id": "h008",
+    "candidate_source_id": "h005",
+    "candidate_field": "B_min",
+    "rank": 7,
+    "embedding_distance": 0.114565603069132,
+    "is_target_pair": false,
+    "cross_encoder_score": -1.664298176765442
+  },
+  {
+    "query_id": "h008",
+    "candidate_source_id": "h004",
+    "candidate_field": "C",
+    "rank": 8,
+    "embedding_distance": 0.1272806199288179,
+    "is_target_pair": false,
+    "cross_encoder_score": -2.565643787384033
+  },
+  {
+    "query_id": "h008",
+    "candidate_source_id": "h041",
+    "candidate_field": "B",
+    "rank": 9,
+    "embedding_distance": 0.13089962040376502,
+    "is_target_pair": false,
+    "cross_encoder_score": -6.045745849609375
+  },
+  {
+    "query_id": "h008",
+    "candidate_source_id": "h007",
+    "candidate_field": "B",
+    "rank": 10,
+    "embedding_distance": 0.13211224416537215,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.407469749450684
+  },
+  {
+    "query_id": "h009",
+    "candidate_source_id": "h009",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.02666225161181468,
+    "is_target_pair": true,
+    "cross_encoder_score": 6.333224296569824
+  },
+  {
+    "query_id": "h009",
+    "candidate_source_id": "h009",
+    "candidate_field": "narrower",
+    "rank": 2,
+    "embedding_distance": 0.03137311130410392,
+    "is_target_pair": false,
+    "cross_encoder_score": 5.831653118133545
+  },
+  {
+    "query_id": "h009",
+    "candidate_source_id": "h009",
+    "candidate_field": "broader",
+    "rank": 3,
+    "embedding_distance": 0.07840522725810528,
+    "is_target_pair": false,
+    "cross_encoder_score": 2.8501250743865967
+  },
+  {
+    "query_id": "h009",
+    "candidate_source_id": "h009",
+    "candidate_field": "C",
+    "rank": 4,
+    "embedding_distance": 0.08101657014540853,
+    "is_target_pair": true,
+    "cross_encoder_score": 4.441561698913574
+  },
+  {
+    "query_id": "h009",
+    "candidate_source_id": "h009",
+    "candidate_field": "B",
+    "rank": 5,
+    "embedding_distance": 0.11889870200078889,
+    "is_target_pair": true,
+    "cross_encoder_score": -3.8231282234191895
+  },
+  {
+    "query_id": "h009",
+    "candidate_source_id": "h060",
+    "candidate_field": "A",
+    "rank": 6,
+    "embedding_distance": 0.12216815885761889,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.7075557708740234
+  },
+  {
+    "query_id": "h009",
+    "candidate_source_id": "h060",
+    "candidate_field": "C",
+    "rank": 7,
+    "embedding_distance": 0.1250429237316837,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.8820643424987793
+  },
+  {
+    "query_id": "h009",
+    "candidate_source_id": "h060",
+    "candidate_field": "B_min",
+    "rank": 8,
+    "embedding_distance": 0.12545769393854422,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.360496997833252
+  },
+  {
+    "query_id": "h009",
+    "candidate_source_id": "h060",
+    "candidate_field": "narrower",
+    "rank": 9,
+    "embedding_distance": 0.1255556312586784,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.2868332862854004
+  },
+  {
+    "query_id": "h009",
+    "candidate_source_id": "h026",
+    "candidate_field": "A",
+    "rank": 10,
+    "embedding_distance": 0.13753690333038437,
+    "is_target_pair": false,
+    "cross_encoder_score": -6.194748401641846
+  },
+  {
+    "query_id": "h010",
+    "candidate_source_id": "h010",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.0028161517824100146,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.729269981384277
+  },
+  {
+    "query_id": "h010",
+    "candidate_source_id": "h010",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.030382815143793374,
+    "is_target_pair": true,
+    "cross_encoder_score": 6.180932521820068
+  },
+  {
+    "query_id": "h010",
+    "candidate_source_id": "h010",
+    "candidate_field": "narrower",
+    "rank": 3,
+    "embedding_distance": 0.05170892434151475,
+    "is_target_pair": false,
+    "cross_encoder_score": 4.094768047332764
+  },
+  {
+    "query_id": "h010",
+    "candidate_source_id": "h010",
+    "candidate_field": "B",
+    "rank": 4,
+    "embedding_distance": 0.07181970719330921,
+    "is_target_pair": true,
+    "cross_encoder_score": -4.033129692077637
+  },
+  {
+    "query_id": "h010",
+    "candidate_source_id": "h010",
+    "candidate_field": "C_tilde",
+    "rank": 5,
+    "embedding_distance": 0.08324747309385161,
+    "is_target_pair": true,
+    "cross_encoder_score": -1.2972431182861328
+  },
+  {
+    "query_id": "h010",
+    "candidate_source_id": "h010",
+    "candidate_field": "broader",
+    "rank": 6,
+    "embedding_distance": 0.10830587625162491,
+    "is_target_pair": false,
+    "cross_encoder_score": 3.398531436920166
+  },
+  {
+    "query_id": "h010",
+    "candidate_source_id": "h018",
+    "candidate_field": "C",
+    "rank": 7,
+    "embedding_distance": 0.12188222397451187,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.794552803039551
+  },
+  {
+    "query_id": "h010",
+    "candidate_source_id": "h018",
+    "candidate_field": "A",
+    "rank": 8,
+    "embedding_distance": 0.12446531192494381,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.350768089294434
+  },
+  {
+    "query_id": "h010",
+    "candidate_source_id": "h018",
+    "candidate_field": "B_min",
+    "rank": 9,
+    "embedding_distance": 0.1284930829418106,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.1440582275390625
+  },
+  {
+    "query_id": "h010",
+    "candidate_source_id": "h030",
+    "candidate_field": "broader",
+    "rank": 10,
+    "embedding_distance": 0.13090773488080043,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.503621101379395
+  },
+  {
+    "query_id": "h011",
+    "candidate_source_id": "h011",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.0024335254322469524,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.9773149490356445
+  },
+  {
+    "query_id": "h011",
+    "candidate_source_id": "h011",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.007578442949023212,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.4285359382629395
+  },
+  {
+    "query_id": "h011",
+    "candidate_source_id": "h011",
+    "candidate_field": "narrower",
+    "rank": 3,
+    "embedding_distance": 0.05181470135494748,
+    "is_target_pair": false,
+    "cross_encoder_score": 8.457282066345215
+  },
+  {
+    "query_id": "h011",
+    "candidate_source_id": "h011",
+    "candidate_field": "B",
+    "rank": 4,
+    "embedding_distance": 0.09152794124525265,
+    "is_target_pair": true,
+    "cross_encoder_score": 1.4029122591018677
+  },
+  {
+    "query_id": "h011",
+    "candidate_source_id": "h011",
+    "candidate_field": "broader",
+    "rank": 5,
+    "embedding_distance": 0.11329374412229953,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.285029411315918
+  },
+  {
+    "query_id": "h011",
+    "candidate_source_id": "h020",
+    "candidate_field": "C_tilde",
+    "rank": 6,
+    "embedding_distance": 0.13131062528759485,
+    "is_target_pair": false,
+    "cross_encoder_score": -9.061498641967773
+  },
+  {
+    "query_id": "h011",
+    "candidate_source_id": "h020",
+    "candidate_field": "B",
+    "rank": 7,
+    "embedding_distance": 0.13231569242327168,
+    "is_target_pair": false,
+    "cross_encoder_score": -8.16590690612793
+  },
+  {
+    "query_id": "h011",
+    "candidate_source_id": "h014",
+    "candidate_field": "broader",
+    "rank": 8,
+    "embedding_distance": 0.13326896497146912,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.953128814697266
+  },
+  {
+    "query_id": "h011",
+    "candidate_source_id": "h011",
+    "candidate_field": "C_tilde",
+    "rank": 9,
+    "embedding_distance": 0.13735909364195553,
+    "is_target_pair": true,
+    "cross_encoder_score": -10.541070938110352
+  },
+  {
+    "query_id": "h011",
+    "candidate_source_id": "h013",
+    "candidate_field": "broader",
+    "rank": 10,
+    "embedding_distance": 0.13885614309836491,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.876992225646973
+  },
+  {
+    "query_id": "h012",
+    "candidate_source_id": "h012",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.001986634054738756,
+    "is_target_pair": true,
+    "cross_encoder_score": 8.121649742126465
+  },
+  {
+    "query_id": "h012",
+    "candidate_source_id": "h012",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.002323200479684706,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.756065368652344
+  },
+  {
+    "query_id": "h012",
+    "candidate_source_id": "h012",
+    "candidate_field": "narrower",
+    "rank": 3,
+    "embedding_distance": 0.045139770315872574,
+    "is_target_pair": false,
+    "cross_encoder_score": 8.04162883758545
+  },
+  {
+    "query_id": "h012",
+    "candidate_source_id": "h029",
+    "candidate_field": "C",
+    "rank": 4,
+    "embedding_distance": 0.12225815721318822,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.972491264343262
+  },
+  {
+    "query_id": "h012",
+    "candidate_source_id": "h029",
+    "candidate_field": "B_min",
+    "rank": 5,
+    "embedding_distance": 0.12560071433307973,
+    "is_target_pair": false,
+    "cross_encoder_score": -6.2503204345703125
+  },
+  {
+    "query_id": "h012",
+    "candidate_source_id": "h029",
+    "candidate_field": "A",
+    "rank": 6,
+    "embedding_distance": 0.1270069766936155,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.721046447753906
+  },
+  {
+    "query_id": "h012",
+    "candidate_source_id": "h029",
+    "candidate_field": "broader",
+    "rank": 7,
+    "embedding_distance": 0.12806950760358748,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.066501617431641
+  },
+  {
+    "query_id": "h012",
+    "candidate_source_id": "h029",
+    "candidate_field": "C_tilde",
+    "rank": 8,
+    "embedding_distance": 0.1390129050289063,
+    "is_target_pair": false,
+    "cross_encoder_score": -9.673982620239258
+  },
+  {
+    "query_id": "h012",
+    "candidate_source_id": "h005",
+    "candidate_field": "A",
+    "rank": 9,
+    "embedding_distance": 0.149848387863191,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.416040420532227
+  },
+  {
+    "query_id": "h012",
+    "candidate_source_id": "h012",
+    "candidate_field": "broader",
+    "rank": 10,
+    "embedding_distance": 0.15283260889086603,
+    "is_target_pair": false,
+    "cross_encoder_score": -6.999326705932617
+  },
+  {
+    "query_id": "h013",
+    "candidate_source_id": "h013",
+    "candidate_field": "C",
+    "rank": 1,
+    "embedding_distance": 0.003059174592072167,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.156404972076416
+  },
+  {
+    "query_id": "h013",
+    "candidate_source_id": "h013",
+    "candidate_field": "B_min",
+    "rank": 2,
+    "embedding_distance": 0.003383263222128119,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.269455909729004
+  },
+  {
+    "query_id": "h013",
+    "candidate_source_id": "h013",
+    "candidate_field": "C_tilde",
+    "rank": 3,
+    "embedding_distance": 0.061601502746542525,
+    "is_target_pair": true,
+    "cross_encoder_score": 1.491503119468689
+  },
+  {
+    "query_id": "h013",
+    "candidate_source_id": "h013",
+    "candidate_field": "narrower",
+    "rank": 4,
+    "embedding_distance": 0.0670244598655475,
+    "is_target_pair": false,
+    "cross_encoder_score": 5.508937835693359
+  },
+  {
+    "query_id": "h013",
+    "candidate_source_id": "h013",
+    "candidate_field": "B",
+    "rank": 5,
+    "embedding_distance": 0.07530486941792547,
+    "is_target_pair": true,
+    "cross_encoder_score": -2.250143051147461
+  },
+  {
+    "query_id": "h013",
+    "candidate_source_id": "h013",
+    "candidate_field": "broader",
+    "rank": 6,
+    "embedding_distance": 0.09389111647345527,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.135169982910156
+  },
+  {
+    "query_id": "h013",
+    "candidate_source_id": "h010",
+    "candidate_field": "A",
+    "rank": 7,
+    "embedding_distance": 0.13789533197158754,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.910356521606445
+  },
+  {
+    "query_id": "h013",
+    "candidate_source_id": "h010",
+    "candidate_field": "B_min",
+    "rank": 8,
+    "embedding_distance": 0.14259263701059843,
+    "is_target_pair": false,
+    "cross_encoder_score": -11.224141120910645
+  },
+  {
+    "query_id": "h013",
+    "candidate_source_id": "h009",
+    "candidate_field": "C",
+    "rank": 9,
+    "embedding_distance": 0.14702149175643375,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.556296348571777
+  },
+  {
+    "query_id": "h013",
+    "candidate_source_id": "h002",
+    "candidate_field": "C",
+    "rank": 10,
+    "embedding_distance": 0.14849933274728777,
+    "is_target_pair": false,
+    "cross_encoder_score": -11.390806198120117
+  },
+  {
+    "query_id": "h014",
+    "candidate_source_id": "h014",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.00202368526416985,
+    "is_target_pair": true,
+    "cross_encoder_score": 8.094051361083984
+  },
+  {
+    "query_id": "h014",
+    "candidate_source_id": "h014",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.002795336878911203,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.817324638366699
+  },
+  {
+    "query_id": "h014",
+    "candidate_source_id": "h014",
+    "candidate_field": "narrower",
+    "rank": 3,
+    "embedding_distance": 0.05352847050551801,
+    "is_target_pair": false,
+    "cross_encoder_score": 7.586399078369141
+  },
+  {
+    "query_id": "h014",
+    "candidate_source_id": "h014",
+    "candidate_field": "C_tilde",
+    "rank": 4,
+    "embedding_distance": 0.11306556555755642,
+    "is_target_pair": true,
+    "cross_encoder_score": -3.8379461765289307
+  },
+  {
+    "query_id": "h014",
+    "candidate_source_id": "h014",
+    "candidate_field": "B",
+    "rank": 5,
+    "embedding_distance": 0.11442198876581255,
+    "is_target_pair": true,
+    "cross_encoder_score": -2.4131765365600586
+  },
+  {
+    "query_id": "h014",
+    "candidate_source_id": "h014",
+    "candidate_field": "broader",
+    "rank": 6,
+    "embedding_distance": 0.1155633682866325,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.065492630004883
+  },
+  {
+    "query_id": "h014",
+    "candidate_source_id": "h013",
+    "candidate_field": "C",
+    "rank": 7,
+    "embedding_distance": 0.15403733646435114,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.915600776672363
+  },
+  {
+    "query_id": "h014",
+    "candidate_source_id": "h013",
+    "candidate_field": "B_min",
+    "rank": 8,
+    "embedding_distance": 0.15563226500904548,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.698480606079102
+  },
+  {
+    "query_id": "h014",
+    "candidate_source_id": "h013",
+    "candidate_field": "A",
+    "rank": 9,
+    "embedding_distance": 0.1567225173999699,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.740419387817383
+  },
+  {
+    "query_id": "h014",
+    "candidate_source_id": "h036",
+    "candidate_field": "A",
+    "rank": 10,
+    "embedding_distance": 0.16396605857289137,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.810544967651367
+  },
+  {
+    "query_id": "h015",
+    "candidate_source_id": "h015",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.0026561883066147374,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.944894313812256
+  },
+  {
+    "query_id": "h015",
+    "candidate_source_id": "h015",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.003963763866816961,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.746530532836914
+  },
+  {
+    "query_id": "h015",
+    "candidate_source_id": "h015",
+    "candidate_field": "narrower",
+    "rank": 3,
+    "embedding_distance": 0.03206377712273689,
+    "is_target_pair": false,
+    "cross_encoder_score": 8.500848770141602
+  },
+  {
+    "query_id": "h015",
+    "candidate_source_id": "h015",
+    "candidate_field": "broader",
+    "rank": 4,
+    "embedding_distance": 0.13786978235969172,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.624015808105469
+  },
+  {
+    "query_id": "h015",
+    "candidate_source_id": "h015",
+    "candidate_field": "C_tilde",
+    "rank": 5,
+    "embedding_distance": 0.14024315056318937,
+    "is_target_pair": true,
+    "cross_encoder_score": -6.3983564376831055
+  },
+  {
+    "query_id": "h015",
+    "candidate_source_id": "h020",
+    "candidate_field": "narrower",
+    "rank": 6,
+    "embedding_distance": 0.14094237626514006,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.493742942810059
+  },
+  {
+    "query_id": "h015",
+    "candidate_source_id": "h008",
+    "candidate_field": "broader",
+    "rank": 7,
+    "embedding_distance": 0.14118920687247893,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.5220184326171875
+  },
+  {
+    "query_id": "h015",
+    "candidate_source_id": "h033",
+    "candidate_field": "broader",
+    "rank": 8,
+    "embedding_distance": 0.14741039728369,
+    "is_target_pair": false,
+    "cross_encoder_score": -9.821767807006836
+  },
+  {
+    "query_id": "h015",
+    "candidate_source_id": "h015",
+    "candidate_field": "B",
+    "rank": 9,
+    "embedding_distance": 0.14744322205142957,
+    "is_target_pair": true,
+    "cross_encoder_score": -8.55270004272461
+  },
+  {
+    "query_id": "h015",
+    "candidate_source_id": "h040",
+    "candidate_field": "C_tilde",
+    "rank": 10,
+    "embedding_distance": 0.14853641184932176,
+    "is_target_pair": false,
+    "cross_encoder_score": -8.32421875
+  },
+  {
+    "query_id": "h016",
+    "candidate_source_id": "h016",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.0018919609077778787,
+    "is_target_pair": true,
+    "cross_encoder_score": 8.20267105102539
+  },
+  {
+    "query_id": "h016",
+    "candidate_source_id": "h016",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.0034412323675130363,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.918504238128662
+  },
+  {
+    "query_id": "h016",
+    "candidate_source_id": "h016",
+    "candidate_field": "narrower",
+    "rank": 3,
+    "embedding_distance": 0.10881363486405526,
+    "is_target_pair": false,
+    "cross_encoder_score": 3.888582229614258
+  },
+  {
+    "query_id": "h016",
+    "candidate_source_id": "h018",
+    "candidate_field": "C",
+    "rank": 4,
+    "embedding_distance": 0.13652913758519292,
+    "is_target_pair": false,
+    "cross_encoder_score": -6.043074607849121
+  },
+  {
+    "query_id": "h016",
+    "candidate_source_id": "h016",
+    "candidate_field": "B",
+    "rank": 5,
+    "embedding_distance": 0.14022827139838967,
+    "is_target_pair": true,
+    "cross_encoder_score": -5.299272060394287
+  },
+  {
+    "query_id": "h016",
+    "candidate_source_id": "h018",
+    "candidate_field": "A",
+    "rank": 6,
+    "embedding_distance": 0.14106465311826888,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.750592231750488
+  },
+  {
+    "query_id": "h016",
+    "candidate_source_id": "h016",
+    "candidate_field": "C_tilde",
+    "rank": 7,
+    "embedding_distance": 0.14169746827770713,
+    "is_target_pair": true,
+    "cross_encoder_score": -5.597504138946533
+  },
+  {
+    "query_id": "h016",
+    "candidate_source_id": "h018",
+    "candidate_field": "B_min",
+    "rank": 8,
+    "embedding_distance": 0.1435041481793229,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.262261390686035
+  },
+  {
+    "query_id": "h016",
+    "candidate_source_id": "h004",
+    "candidate_field": "B_min",
+    "rank": 9,
+    "embedding_distance": 0.14417895696163252,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.958504676818848
+  },
+  {
+    "query_id": "h016",
+    "candidate_source_id": "h016",
+    "candidate_field": "broader",
+    "rank": 10,
+    "embedding_distance": 0.14567953101496867,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.408456802368164
+  },
+  {
+    "query_id": "h017",
+    "candidate_source_id": "h017",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.0013451526329371077,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.7721476554870605
+  },
+  {
+    "query_id": "h017",
+    "candidate_source_id": "h017",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.018340839390457053,
+    "is_target_pair": true,
+    "cross_encoder_score": 5.715270042419434
+  },
+  {
+    "query_id": "h017",
+    "candidate_source_id": "h017",
+    "candidate_field": "narrower",
+    "rank": 3,
+    "embedding_distance": 0.043121180858471164,
+    "is_target_pair": false,
+    "cross_encoder_score": 7.548617839813232
+  },
+  {
+    "query_id": "h017",
+    "candidate_source_id": "h017",
+    "candidate_field": "C_tilde",
+    "rank": 4,
+    "embedding_distance": 0.1274239686077463,
+    "is_target_pair": true,
+    "cross_encoder_score": -9.422348976135254
+  },
+  {
+    "query_id": "h017",
+    "candidate_source_id": "h017",
+    "candidate_field": "B",
+    "rank": 5,
+    "embedding_distance": 0.13084879196797816,
+    "is_target_pair": true,
+    "cross_encoder_score": -10.383201599121094
+  },
+  {
+    "query_id": "h017",
+    "candidate_source_id": "h017",
+    "candidate_field": "broader",
+    "rank": 6,
+    "embedding_distance": 0.14672001348753028,
+    "is_target_pair": false,
+    "cross_encoder_score": -8.319995880126953
+  },
+  {
+    "query_id": "h017",
+    "candidate_source_id": "h016",
+    "candidate_field": "B_min",
+    "rank": 7,
+    "embedding_distance": 0.14901737633927326,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.693192481994629
+  },
+  {
+    "query_id": "h017",
+    "candidate_source_id": "h004",
+    "candidate_field": "C",
+    "rank": 8,
+    "embedding_distance": 0.15077055817430607,
+    "is_target_pair": false,
+    "cross_encoder_score": -8.043643951416016
+  },
+  {
+    "query_id": "h017",
+    "candidate_source_id": "h016",
+    "candidate_field": "A",
+    "rank": 9,
+    "embedding_distance": 0.15210673008149433,
+    "is_target_pair": false,
+    "cross_encoder_score": -6.6617937088012695
+  },
+  {
+    "query_id": "h017",
+    "candidate_source_id": "h004",
+    "candidate_field": "B_min",
+    "rank": 10,
+    "embedding_distance": 0.15408377030089881,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.159891128540039
+  },
+  {
+    "query_id": "h018",
+    "candidate_source_id": "h018",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.001905557399921709,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.665615081787109
+  },
+  {
+    "query_id": "h018",
+    "candidate_source_id": "h018",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.003433052574498552,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.354341506958008
+  },
+  {
+    "query_id": "h018",
+    "candidate_source_id": "h018",
+    "candidate_field": "narrower",
+    "rank": 3,
+    "embedding_distance": 0.09347177619106128,
+    "is_target_pair": false,
+    "cross_encoder_score": 5.988048553466797
+  },
+  {
+    "query_id": "h018",
+    "candidate_source_id": "h060",
+    "candidate_field": "A",
+    "rank": 4,
+    "embedding_distance": 0.1008893847706076,
+    "is_target_pair": false,
+    "cross_encoder_score": -2.3138206005096436
+  },
+  {
+    "query_id": "h018",
+    "candidate_source_id": "h060",
+    "candidate_field": "B_min",
+    "rank": 5,
+    "embedding_distance": 0.10407889185466102,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.698143482208252
+  },
+  {
+    "query_id": "h018",
+    "candidate_source_id": "h060",
+    "candidate_field": "C",
+    "rank": 6,
+    "embedding_distance": 0.10704331353772545,
+    "is_target_pair": false,
+    "cross_encoder_score": -2.0300536155700684
+  },
+  {
+    "query_id": "h018",
+    "candidate_source_id": "h030",
+    "candidate_field": "broader",
+    "rank": 7,
+    "embedding_distance": 0.11481020308943035,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.827201843261719
+  },
+  {
+    "query_id": "h018",
+    "candidate_source_id": "h020",
+    "candidate_field": "A",
+    "rank": 8,
+    "embedding_distance": 0.11640422148464902,
+    "is_target_pair": false,
+    "cross_encoder_score": -1.016446590423584
+  },
+  {
+    "query_id": "h018",
+    "candidate_source_id": "h020",
+    "candidate_field": "C",
+    "rank": 9,
+    "embedding_distance": 0.11745841669153989,
+    "is_target_pair": false,
+    "cross_encoder_score": -1.6570301055908203
+  },
+  {
+    "query_id": "h018",
+    "candidate_source_id": "h016",
+    "candidate_field": "broader",
+    "rank": 10,
+    "embedding_distance": 0.1174799951020764,
+    "is_target_pair": false,
+    "cross_encoder_score": -2.4455442428588867
+  },
+  {
+    "query_id": "h019",
+    "candidate_source_id": "h019",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.001710293936385443,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.869546413421631
+  },
+  {
+    "query_id": "h019",
+    "candidate_source_id": "h019",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.003166585286433432,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.748525619506836
+  },
+  {
+    "query_id": "h019",
+    "candidate_source_id": "h019",
+    "candidate_field": "B",
+    "rank": 3,
+    "embedding_distance": 0.1115212457648399,
+    "is_target_pair": true,
+    "cross_encoder_score": -2.1928176879882812
+  },
+  {
+    "query_id": "h019",
+    "candidate_source_id": "h019",
+    "candidate_field": "narrower",
+    "rank": 4,
+    "embedding_distance": 0.11560662705299052,
+    "is_target_pair": false,
+    "cross_encoder_score": 2.078805923461914
+  },
+  {
+    "query_id": "h019",
+    "candidate_source_id": "h019",
+    "candidate_field": "C_tilde",
+    "rank": 5,
+    "embedding_distance": 0.12263990988712226,
+    "is_target_pair": true,
+    "cross_encoder_score": -2.2044034004211426
+  },
+  {
+    "query_id": "h019",
+    "candidate_source_id": "h019",
+    "candidate_field": "broader",
+    "rank": 6,
+    "embedding_distance": 0.12863305300256522,
+    "is_target_pair": false,
+    "cross_encoder_score": -2.2530622482299805
+  },
+  {
+    "query_id": "h019",
+    "candidate_source_id": "h020",
+    "candidate_field": "A",
+    "rank": 7,
+    "embedding_distance": 0.15182943724285058,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.029748916625977
+  },
+  {
+    "query_id": "h019",
+    "candidate_source_id": "h020",
+    "candidate_field": "C",
+    "rank": 8,
+    "embedding_distance": 0.15262995559782755,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.325539588928223
+  },
+  {
+    "query_id": "h019",
+    "candidate_source_id": "h003",
+    "candidate_field": "narrower",
+    "rank": 9,
+    "embedding_distance": 0.1540549235460904,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.9373621940612793
+  },
+  {
+    "query_id": "h019",
+    "candidate_source_id": "h020",
+    "candidate_field": "B_min",
+    "rank": 10,
+    "embedding_distance": 0.15545457610261337,
+    "is_target_pair": false,
+    "cross_encoder_score": -8.068697929382324
+  },
+  {
+    "query_id": "h020",
+    "candidate_source_id": "h020",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.002180905815517886,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.959017753601074
+  },
+  {
+    "query_id": "h020",
+    "candidate_source_id": "h020",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.0035323443390684606,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.664045333862305
+  },
+  {
+    "query_id": "h020",
+    "candidate_source_id": "h020",
+    "candidate_field": "narrower",
+    "rank": 3,
+    "embedding_distance": 0.08889377161653755,
+    "is_target_pair": false,
+    "cross_encoder_score": 6.035748481750488
+  },
+  {
+    "query_id": "h020",
+    "candidate_source_id": "h044",
+    "candidate_field": "B_min",
+    "rank": 4,
+    "embedding_distance": 0.1124334791041477,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.007550239562988
+  },
+  {
+    "query_id": "h020",
+    "candidate_source_id": "h044",
+    "candidate_field": "A",
+    "rank": 5,
+    "embedding_distance": 0.1128365026683894,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.918975353240967
+  },
+  {
+    "query_id": "h020",
+    "candidate_source_id": "h020",
+    "candidate_field": "broader",
+    "rank": 6,
+    "embedding_distance": 0.11605112748159463,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.4359865188598633
+  },
+  {
+    "query_id": "h020",
+    "candidate_source_id": "h018",
+    "candidate_field": "C",
+    "rank": 7,
+    "embedding_distance": 0.11632386915294324,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.707235813140869
+  },
+  {
+    "query_id": "h020",
+    "candidate_source_id": "h018",
+    "candidate_field": "A",
+    "rank": 8,
+    "embedding_distance": 0.11640422148464902,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.169756889343262
+  },
+  {
+    "query_id": "h020",
+    "candidate_source_id": "h018",
+    "candidate_field": "B_min",
+    "rank": 9,
+    "embedding_distance": 0.11807863338851043,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.242347240447998
+  },
+  {
+    "query_id": "h020",
+    "candidate_source_id": "h011",
+    "candidate_field": "broader",
+    "rank": 10,
+    "embedding_distance": 0.11839286928292725,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.2794036865234375
+  },
+  {
+    "query_id": "h021",
+    "candidate_source_id": "h021",
+    "candidate_field": "C",
+    "rank": 1,
+    "embedding_distance": 0.004836657204441153,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.592599391937256
+  },
+  {
+    "query_id": "h021",
+    "candidate_source_id": "h021",
+    "candidate_field": "B_min",
+    "rank": 2,
+    "embedding_distance": 0.007491507364635108,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.854058742523193
+  },
+  {
+    "query_id": "h021",
+    "candidate_source_id": "h021",
+    "candidate_field": "C_tilde",
+    "rank": 3,
+    "embedding_distance": 0.09543641604776631,
+    "is_target_pair": true,
+    "cross_encoder_score": -1.59971022605896
+  },
+  {
+    "query_id": "h021",
+    "candidate_source_id": "h021",
+    "candidate_field": "narrower",
+    "rank": 4,
+    "embedding_distance": 0.09810461100509149,
+    "is_target_pair": false,
+    "cross_encoder_score": 8.955928802490234
+  },
+  {
+    "query_id": "h021",
+    "candidate_source_id": "h021",
+    "candidate_field": "B",
+    "rank": 5,
+    "embedding_distance": 0.1106937341486236,
+    "is_target_pair": true,
+    "cross_encoder_score": -0.6505862474441528
+  },
+  {
+    "query_id": "h021",
+    "candidate_source_id": "h021",
+    "candidate_field": "broader",
+    "rank": 6,
+    "embedding_distance": 0.11573799347487679,
+    "is_target_pair": false,
+    "cross_encoder_score": -2.775144100189209
+  },
+  {
+    "query_id": "h021",
+    "candidate_source_id": "h025",
+    "candidate_field": "broader",
+    "rank": 7,
+    "embedding_distance": 0.14480261352116253,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.87715482711792
+  },
+  {
+    "query_id": "h021",
+    "candidate_source_id": "h024",
+    "candidate_field": "broader",
+    "rank": 8,
+    "embedding_distance": 0.16384008118831261,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.425113677978516
+  },
+  {
+    "query_id": "h021",
+    "candidate_source_id": "h022",
+    "candidate_field": "broader",
+    "rank": 9,
+    "embedding_distance": 0.16962709661802222,
+    "is_target_pair": false,
+    "cross_encoder_score": -9.97005844116211
+  },
+  {
+    "query_id": "h021",
+    "candidate_source_id": "h025",
+    "candidate_field": "B",
+    "rank": 10,
+    "embedding_distance": 0.1727235950734305,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.141138076782227
+  },
+  {
+    "query_id": "h022",
+    "candidate_source_id": "h022",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.003669577116794276,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.810029029846191
+  },
+  {
+    "query_id": "h022",
+    "candidate_source_id": "h022",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.013013510580723642,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.661816120147705
+  },
+  {
+    "query_id": "h022",
+    "candidate_source_id": "h022",
+    "candidate_field": "C_tilde",
+    "rank": 3,
+    "embedding_distance": 0.09880524796867074,
+    "is_target_pair": true,
+    "cross_encoder_score": -5.273748397827148
+  },
+  {
+    "query_id": "h022",
+    "candidate_source_id": "h022",
+    "candidate_field": "broader",
+    "rank": 4,
+    "embedding_distance": 0.10316409189176634,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.723647117614746
+  },
+  {
+    "query_id": "h022",
+    "candidate_source_id": "h022",
+    "candidate_field": "narrower",
+    "rank": 5,
+    "embedding_distance": 0.1162628348335113,
+    "is_target_pair": false,
+    "cross_encoder_score": 2.3856210708618164
+  },
+  {
+    "query_id": "h022",
+    "candidate_source_id": "h022",
+    "candidate_field": "B",
+    "rank": 6,
+    "embedding_distance": 0.12538290974694677,
+    "is_target_pair": true,
+    "cross_encoder_score": -9.520416259765625
+  },
+  {
+    "query_id": "h022",
+    "candidate_source_id": "h056",
+    "candidate_field": "C_tilde",
+    "rank": 7,
+    "embedding_distance": 0.1326217885187252,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.377650260925293
+  },
+  {
+    "query_id": "h022",
+    "candidate_source_id": "h002",
+    "candidate_field": "C",
+    "rank": 8,
+    "embedding_distance": 0.1338153158395149,
+    "is_target_pair": false,
+    "cross_encoder_score": -6.53443717956543
+  },
+  {
+    "query_id": "h022",
+    "candidate_source_id": "h023",
+    "candidate_field": "C",
+    "rank": 9,
+    "embedding_distance": 0.13480678455953998,
+    "is_target_pair": false,
+    "cross_encoder_score": -1.33406400680542
+  },
+  {
+    "query_id": "h022",
+    "candidate_source_id": "h002",
+    "candidate_field": "B_min",
+    "rank": 10,
+    "embedding_distance": 0.13501155388050035,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.840928077697754
+  },
+  {
+    "query_id": "h023",
+    "candidate_source_id": "h023",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.0020529978506422797,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.811916351318359
+  },
+  {
+    "query_id": "h023",
+    "candidate_source_id": "h023",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.019954215335152847,
+    "is_target_pair": true,
+    "cross_encoder_score": 6.883762359619141
+  },
+  {
+    "query_id": "h023",
+    "candidate_source_id": "h023",
+    "candidate_field": "narrower",
+    "rank": 3,
+    "embedding_distance": 0.0359033471851713,
+    "is_target_pair": false,
+    "cross_encoder_score": 8.453338623046875
+  },
+  {
+    "query_id": "h023",
+    "candidate_source_id": "h060",
+    "candidate_field": "B_min",
+    "rank": 4,
+    "embedding_distance": 0.1245052580675775,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.976380348205566
+  },
+  {
+    "query_id": "h023",
+    "candidate_source_id": "h060",
+    "candidate_field": "A",
+    "rank": 5,
+    "embedding_distance": 0.12475664114230833,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.8883211612701416
+  },
+  {
+    "query_id": "h023",
+    "candidate_source_id": "h023",
+    "candidate_field": "B",
+    "rank": 6,
+    "embedding_distance": 0.12638766805549617,
+    "is_target_pair": true,
+    "cross_encoder_score": -8.769386291503906
+  },
+  {
+    "query_id": "h023",
+    "candidate_source_id": "h018",
+    "candidate_field": "C",
+    "rank": 7,
+    "embedding_distance": 0.13118861191274378,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.2581377029418945
+  },
+  {
+    "query_id": "h023",
+    "candidate_source_id": "h018",
+    "candidate_field": "A",
+    "rank": 8,
+    "embedding_distance": 0.13182000890119605,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.8410868644714355
+  },
+  {
+    "query_id": "h023",
+    "candidate_source_id": "h056",
+    "candidate_field": "A",
+    "rank": 9,
+    "embedding_distance": 0.1330564760809343,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.041876792907715
+  },
+  {
+    "query_id": "h023",
+    "candidate_source_id": "h018",
+    "candidate_field": "B_min",
+    "rank": 10,
+    "embedding_distance": 0.1332547183494831,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.733238697052002
+  },
+  {
+    "query_id": "h024",
+    "candidate_source_id": "h024",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.0035362701886210157,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.538317680358887
+  },
+  {
+    "query_id": "h024",
+    "candidate_source_id": "h024",
+    "candidate_field": "narrower",
+    "rank": 2,
+    "embedding_distance": 0.009003548382378823,
+    "is_target_pair": false,
+    "cross_encoder_score": 7.296325206756592
+  },
+  {
+    "query_id": "h024",
+    "candidate_source_id": "h024",
+    "candidate_field": "C",
+    "rank": 3,
+    "embedding_distance": 0.011597908140395852,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.156799793243408
+  },
+  {
+    "query_id": "h024",
+    "candidate_source_id": "h023",
+    "candidate_field": "C",
+    "rank": 4,
+    "embedding_distance": 0.1270975463107955,
+    "is_target_pair": false,
+    "cross_encoder_score": -1.6441773176193237
+  },
+  {
+    "query_id": "h024",
+    "candidate_source_id": "h024",
+    "candidate_field": "C_tilde",
+    "rank": 5,
+    "embedding_distance": 0.13035616388799576,
+    "is_target_pair": true,
+    "cross_encoder_score": -5.515856742858887
+  },
+  {
+    "query_id": "h024",
+    "candidate_source_id": "h023",
+    "candidate_field": "A",
+    "rank": 6,
+    "embedding_distance": 0.13637305909403474,
+    "is_target_pair": false,
+    "cross_encoder_score": -2.708556652069092
+  },
+  {
+    "query_id": "h024",
+    "candidate_source_id": "h023",
+    "candidate_field": "B_min",
+    "rank": 7,
+    "embedding_distance": 0.13854837898065564,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.609592914581299
+  },
+  {
+    "query_id": "h024",
+    "candidate_source_id": "h062",
+    "candidate_field": "B_min",
+    "rank": 8,
+    "embedding_distance": 0.14074812076214427,
+    "is_target_pair": false,
+    "cross_encoder_score": -9.022369384765625
+  },
+  {
+    "query_id": "h024",
+    "candidate_source_id": "h062",
+    "candidate_field": "C",
+    "rank": 9,
+    "embedding_distance": 0.14323420085933092,
+    "is_target_pair": false,
+    "cross_encoder_score": -9.788658142089844
+  },
+  {
+    "query_id": "h024",
+    "candidate_source_id": "h024",
+    "candidate_field": "broader",
+    "rank": 10,
+    "embedding_distance": 0.14346829739572775,
+    "is_target_pair": false,
+    "cross_encoder_score": -2.172697067260742
+  },
+  {
+    "query_id": "h025",
+    "candidate_source_id": "h025",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.002263113615673329,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.71894645690918
+  },
+  {
+    "query_id": "h025",
+    "candidate_source_id": "h025",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.002901264331415132,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.264719486236572
+  },
+  {
+    "query_id": "h025",
+    "candidate_source_id": "h025",
+    "candidate_field": "narrower",
+    "rank": 3,
+    "embedding_distance": 0.028182176478019016,
+    "is_target_pair": false,
+    "cross_encoder_score": 8.14232063293457
+  },
+  {
+    "query_id": "h025",
+    "candidate_source_id": "h025",
+    "candidate_field": "B",
+    "rank": 4,
+    "embedding_distance": 0.05103468913860487,
+    "is_target_pair": true,
+    "cross_encoder_score": 2.0185065269470215
+  },
+  {
+    "query_id": "h025",
+    "candidate_source_id": "h025",
+    "candidate_field": "broader",
+    "rank": 5,
+    "embedding_distance": 0.07955090888850624,
+    "is_target_pair": false,
+    "cross_encoder_score": 1.5723905563354492
+  },
+  {
+    "query_id": "h025",
+    "candidate_source_id": "h025",
+    "candidate_field": "C_tilde",
+    "rank": 6,
+    "embedding_distance": 0.0854886698565136,
+    "is_target_pair": true,
+    "cross_encoder_score": -3.967613458633423
+  },
+  {
+    "query_id": "h025",
+    "candidate_source_id": "h004",
+    "candidate_field": "C",
+    "rank": 7,
+    "embedding_distance": 0.1291283871107366,
+    "is_target_pair": false,
+    "cross_encoder_score": -9.99886703491211
+  },
+  {
+    "query_id": "h025",
+    "candidate_source_id": "h004",
+    "candidate_field": "B_min",
+    "rank": 8,
+    "embedding_distance": 0.13005321331043285,
+    "is_target_pair": false,
+    "cross_encoder_score": -9.139362335205078
+  },
+  {
+    "query_id": "h025",
+    "candidate_source_id": "h027",
+    "candidate_field": "narrower",
+    "rank": 9,
+    "embedding_distance": 0.13245855065789325,
+    "is_target_pair": false,
+    "cross_encoder_score": -2.9614624977111816
+  },
+  {
+    "query_id": "h025",
+    "candidate_source_id": "h026",
+    "candidate_field": "B",
+    "rank": 10,
+    "embedding_distance": 0.13309811509750313,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.773910999298096
+  },
+  {
+    "query_id": "h026",
+    "candidate_source_id": "h026",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.0018367042122743316,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.468191146850586
+  },
+  {
+    "query_id": "h026",
+    "candidate_source_id": "h026",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.003571369914195932,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.595952033996582
+  },
+  {
+    "query_id": "h026",
+    "candidate_source_id": "h026",
+    "candidate_field": "narrower",
+    "rank": 3,
+    "embedding_distance": 0.025088496513686276,
+    "is_target_pair": false,
+    "cross_encoder_score": 7.909008502960205
+  },
+  {
+    "query_id": "h026",
+    "candidate_source_id": "h027",
+    "candidate_field": "C",
+    "rank": 4,
+    "embedding_distance": 0.10593118459510198,
+    "is_target_pair": false,
+    "cross_encoder_score": 2.240478515625
+  },
+  {
+    "query_id": "h026",
+    "candidate_source_id": "h027",
+    "candidate_field": "A",
+    "rank": 5,
+    "embedding_distance": 0.10725829939541731,
+    "is_target_pair": false,
+    "cross_encoder_score": 1.877626657485962
+  },
+  {
+    "query_id": "h026",
+    "candidate_source_id": "h027",
+    "candidate_field": "B_min",
+    "rank": 6,
+    "embedding_distance": 0.11180093555386739,
+    "is_target_pair": false,
+    "cross_encoder_score": 1.266804814338684
+  },
+  {
+    "query_id": "h026",
+    "candidate_source_id": "h027",
+    "candidate_field": "narrower",
+    "rank": 7,
+    "embedding_distance": 0.12835338606638702,
+    "is_target_pair": false,
+    "cross_encoder_score": 1.9757602214813232
+  },
+  {
+    "query_id": "h026",
+    "candidate_source_id": "h026",
+    "candidate_field": "broader",
+    "rank": 8,
+    "embedding_distance": 0.12905098693077788,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.948769569396973
+  },
+  {
+    "query_id": "h026",
+    "candidate_source_id": "h060",
+    "candidate_field": "A",
+    "rank": 9,
+    "embedding_distance": 0.13181365163179337,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.525367498397827
+  },
+  {
+    "query_id": "h026",
+    "candidate_source_id": "h060",
+    "candidate_field": "B_min",
+    "rank": 10,
+    "embedding_distance": 0.13399199942919304,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.554150581359863
+  },
+  {
+    "query_id": "h027",
+    "candidate_source_id": "h027",
+    "candidate_field": "C",
+    "rank": 1,
+    "embedding_distance": 0.0028751950435245144,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.631163120269775
+  },
+  {
+    "query_id": "h027",
+    "candidate_source_id": "h027",
+    "candidate_field": "B_min",
+    "rank": 2,
+    "embedding_distance": 0.002949652677025183,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.931950569152832
+  },
+  {
+    "query_id": "h027",
+    "candidate_source_id": "h027",
+    "candidate_field": "narrower",
+    "rank": 3,
+    "embedding_distance": 0.04628912126478213,
+    "is_target_pair": false,
+    "cross_encoder_score": 7.968928813934326
+  },
+  {
+    "query_id": "h027",
+    "candidate_source_id": "h026",
+    "candidate_field": "A",
+    "rank": 4,
+    "embedding_distance": 0.10725829939541731,
+    "is_target_pair": false,
+    "cross_encoder_score": 1.042028546333313
+  },
+  {
+    "query_id": "h027",
+    "candidate_source_id": "h026",
+    "candidate_field": "B_min",
+    "rank": 5,
+    "embedding_distance": 0.10834936923151228,
+    "is_target_pair": false,
+    "cross_encoder_score": 0.15650536119937897
+  },
+  {
+    "query_id": "h027",
+    "candidate_source_id": "h026",
+    "candidate_field": "C",
+    "rank": 6,
+    "embedding_distance": 0.10842712466758508,
+    "is_target_pair": false,
+    "cross_encoder_score": 1.7046644687652588
+  },
+  {
+    "query_id": "h027",
+    "candidate_source_id": "h027",
+    "candidate_field": "C_tilde",
+    "rank": 7,
+    "embedding_distance": 0.11665116545094867,
+    "is_target_pair": true,
+    "cross_encoder_score": -4.080694198608398
+  },
+  {
+    "query_id": "h027",
+    "candidate_source_id": "h027",
+    "candidate_field": "broader",
+    "rank": 8,
+    "embedding_distance": 0.11981986666115874,
+    "is_target_pair": false,
+    "cross_encoder_score": -1.7694728374481201
+  },
+  {
+    "query_id": "h027",
+    "candidate_source_id": "h027",
+    "candidate_field": "B",
+    "rank": 9,
+    "embedding_distance": 0.1257271414183403,
+    "is_target_pair": true,
+    "cross_encoder_score": -4.0168070793151855
+  },
+  {
+    "query_id": "h027",
+    "candidate_source_id": "h026",
+    "candidate_field": "narrower",
+    "rank": 10,
+    "embedding_distance": 0.12910051273532475,
+    "is_target_pair": false,
+    "cross_encoder_score": -0.2300369143486023
+  },
+  {
+    "query_id": "h029",
+    "candidate_source_id": "h029",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.00652952906222104,
+    "is_target_pair": true,
+    "cross_encoder_score": 6.544979095458984
+  },
+  {
+    "query_id": "h029",
+    "candidate_source_id": "h029",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.029017436353949932,
+    "is_target_pair": true,
+    "cross_encoder_score": 6.879752159118652
+  },
+  {
+    "query_id": "h029",
+    "candidate_source_id": "h029",
+    "candidate_field": "narrower",
+    "rank": 3,
+    "embedding_distance": 0.09454277304375902,
+    "is_target_pair": false,
+    "cross_encoder_score": 1.9675824642181396
+  },
+  {
+    "query_id": "h029",
+    "candidate_source_id": "h012",
+    "candidate_field": "narrower",
+    "rank": 4,
+    "embedding_distance": 0.11813363020459211,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.931095600128174
+  },
+  {
+    "query_id": "h029",
+    "candidate_source_id": "h029",
+    "candidate_field": "C_tilde",
+    "rank": 5,
+    "embedding_distance": 0.12478914478406422,
+    "is_target_pair": true,
+    "cross_encoder_score": -6.268547058105469
+  },
+  {
+    "query_id": "h029",
+    "candidate_source_id": "h012",
+    "candidate_field": "B_min",
+    "rank": 6,
+    "embedding_distance": 0.12552648780387887,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.413463115692139
+  },
+  {
+    "query_id": "h029",
+    "candidate_source_id": "h012",
+    "candidate_field": "C",
+    "rank": 7,
+    "embedding_distance": 0.12616202669846432,
+    "is_target_pair": false,
+    "cross_encoder_score": -6.075124740600586
+  },
+  {
+    "query_id": "h029",
+    "candidate_source_id": "h012",
+    "candidate_field": "A",
+    "rank": 8,
+    "embedding_distance": 0.1270069766936155,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.7960052490234375
+  },
+  {
+    "query_id": "h029",
+    "candidate_source_id": "h029",
+    "candidate_field": "B",
+    "rank": 9,
+    "embedding_distance": 0.12870826408969682,
+    "is_target_pair": true,
+    "cross_encoder_score": -4.683420181274414
+  },
+  {
+    "query_id": "h029",
+    "candidate_source_id": "h030",
+    "candidate_field": "broader",
+    "rank": 10,
+    "embedding_distance": 0.1348485835094808,
+    "is_target_pair": false,
+    "cross_encoder_score": -6.214440822601318
+  },
+  {
+    "query_id": "h030",
+    "candidate_source_id": "h030",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.005706855182272874,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.455679416656494
+  },
+  {
+    "query_id": "h030",
+    "candidate_source_id": "h030",
+    "candidate_field": "narrower",
+    "rank": 2,
+    "embedding_distance": 0.009038441775055972,
+    "is_target_pair": false,
+    "cross_encoder_score": 7.631383895874023
+  },
+  {
+    "query_id": "h030",
+    "candidate_source_id": "h030",
+    "candidate_field": "C",
+    "rank": 3,
+    "embedding_distance": 0.03095929125279595,
+    "is_target_pair": true,
+    "cross_encoder_score": 6.825325965881348
+  },
+  {
+    "query_id": "h030",
+    "candidate_source_id": "h030",
+    "candidate_field": "B",
+    "rank": 4,
+    "embedding_distance": 0.08658758827123592,
+    "is_target_pair": true,
+    "cross_encoder_score": 0.44797247648239136
+  },
+  {
+    "query_id": "h030",
+    "candidate_source_id": "h030",
+    "candidate_field": "C_tilde",
+    "rank": 5,
+    "embedding_distance": 0.09928682090156382,
+    "is_target_pair": true,
+    "cross_encoder_score": -1.1476027965545654
+  },
+  {
+    "query_id": "h030",
+    "candidate_source_id": "h029",
+    "candidate_field": "B",
+    "rank": 6,
+    "embedding_distance": 0.136924453142937,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.204377174377441
+  },
+  {
+    "query_id": "h030",
+    "candidate_source_id": "h030",
+    "candidate_field": "broader",
+    "rank": 7,
+    "embedding_distance": 0.13841631582299618,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.588474273681641
+  },
+  {
+    "query_id": "h030",
+    "candidate_source_id": "h060",
+    "candidate_field": "B",
+    "rank": 8,
+    "embedding_distance": 0.145972381683811,
+    "is_target_pair": false,
+    "cross_encoder_score": -8.030988693237305
+  },
+  {
+    "query_id": "h030",
+    "candidate_source_id": "h008",
+    "candidate_field": "narrower",
+    "rank": 9,
+    "embedding_distance": 0.14729320731880136,
+    "is_target_pair": false,
+    "cross_encoder_score": -6.6689019203186035
+  },
+  {
+    "query_id": "h030",
+    "candidate_source_id": "h041",
+    "candidate_field": "narrower",
+    "rank": 10,
+    "embedding_distance": 0.14934270606349676,
+    "is_target_pair": false,
+    "cross_encoder_score": -9.558629035949707
+  },
+  {
+    "query_id": "h031",
+    "candidate_source_id": "h031",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.005352351481784479,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.626093864440918
+  },
+  {
+    "query_id": "h031",
+    "candidate_source_id": "h031",
+    "candidate_field": "narrower",
+    "rank": 2,
+    "embedding_distance": 0.027331843342223938,
+    "is_target_pair": false,
+    "cross_encoder_score": 6.667398929595947
+  },
+  {
+    "query_id": "h031",
+    "candidate_source_id": "h031",
+    "candidate_field": "C",
+    "rank": 3,
+    "embedding_distance": 0.03146141733995522,
+    "is_target_pair": true,
+    "cross_encoder_score": 6.764590263366699
+  },
+  {
+    "query_id": "h031",
+    "candidate_source_id": "h031",
+    "candidate_field": "B",
+    "rank": 4,
+    "embedding_distance": 0.10116681241273195,
+    "is_target_pair": true,
+    "cross_encoder_score": -1.9219024181365967
+  },
+  {
+    "query_id": "h031",
+    "candidate_source_id": "h031",
+    "candidate_field": "C_tilde",
+    "rank": 5,
+    "embedding_distance": 0.11125472204495312,
+    "is_target_pair": true,
+    "cross_encoder_score": 0.5794727802276611
+  },
+  {
+    "query_id": "h031",
+    "candidate_source_id": "h031",
+    "candidate_field": "broader",
+    "rank": 6,
+    "embedding_distance": 0.1142544573506531,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.1803526878356934
+  },
+  {
+    "query_id": "h031",
+    "candidate_source_id": "h036",
+    "candidate_field": "C_tilde",
+    "rank": 7,
+    "embedding_distance": 0.13080081399601007,
+    "is_target_pair": false,
+    "cross_encoder_score": -6.7625603675842285
+  },
+  {
+    "query_id": "h031",
+    "candidate_source_id": "h029",
+    "candidate_field": "A",
+    "rank": 8,
+    "embedding_distance": 0.14466225115814668,
+    "is_target_pair": false,
+    "cross_encoder_score": -9.665441513061523
+  },
+  {
+    "query_id": "h031",
+    "candidate_source_id": "h030",
+    "candidate_field": "broader",
+    "rank": 9,
+    "embedding_distance": 0.1484534583299183,
+    "is_target_pair": false,
+    "cross_encoder_score": -2.858264923095703
+  },
+  {
+    "query_id": "h031",
+    "candidate_source_id": "h002",
+    "candidate_field": "B",
+    "rank": 10,
+    "embedding_distance": 0.14925415590322666,
+    "is_target_pair": false,
+    "cross_encoder_score": -9.468053817749023
+  },
+  {
+    "query_id": "h032",
+    "candidate_source_id": "h032",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.003653619864806834,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.763059139251709
+  },
+  {
+    "query_id": "h032",
+    "candidate_source_id": "h032",
+    "candidate_field": "narrower",
+    "rank": 2,
+    "embedding_distance": 0.013253197436321251,
+    "is_target_pair": false,
+    "cross_encoder_score": 8.017884254455566
+  },
+  {
+    "query_id": "h032",
+    "candidate_source_id": "h032",
+    "candidate_field": "C",
+    "rank": 3,
+    "embedding_distance": 0.052789850262876525,
+    "is_target_pair": true,
+    "cross_encoder_score": 4.486279487609863
+  },
+  {
+    "query_id": "h032",
+    "candidate_source_id": "h032",
+    "candidate_field": "C_tilde",
+    "rank": 4,
+    "embedding_distance": 0.10822020918296094,
+    "is_target_pair": true,
+    "cross_encoder_score": -1.7809557914733887
+  },
+  {
+    "query_id": "h032",
+    "candidate_source_id": "h032",
+    "candidate_field": "B",
+    "rank": 5,
+    "embedding_distance": 0.11625555169411228,
+    "is_target_pair": true,
+    "cross_encoder_score": -2.124119758605957
+  },
+  {
+    "query_id": "h032",
+    "candidate_source_id": "h032",
+    "candidate_field": "broader",
+    "rank": 6,
+    "embedding_distance": 0.11928629950138103,
+    "is_target_pair": false,
+    "cross_encoder_score": 0.16382279992103577
+  },
+  {
+    "query_id": "h032",
+    "candidate_source_id": "h004",
+    "candidate_field": "C_tilde",
+    "rank": 7,
+    "embedding_distance": 0.1487893320593271,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.521063327789307
+  },
+  {
+    "query_id": "h032",
+    "candidate_source_id": "h040",
+    "candidate_field": "broader",
+    "rank": 8,
+    "embedding_distance": 0.14961750058711198,
+    "is_target_pair": false,
+    "cross_encoder_score": -2.8068697452545166
+  },
+  {
+    "query_id": "h032",
+    "candidate_source_id": "h044",
+    "candidate_field": "A",
+    "rank": 9,
+    "embedding_distance": 0.15116033252650496,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.453822135925293
+  },
+  {
+    "query_id": "h032",
+    "candidate_source_id": "h044",
+    "candidate_field": "B_min",
+    "rank": 10,
+    "embedding_distance": 0.1520350748325201,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.845907211303711
+  },
+  {
+    "query_id": "h033",
+    "candidate_source_id": "h033",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.001278048967882417,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.60962438583374
+  },
+  {
+    "query_id": "h033",
+    "candidate_source_id": "h033",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.006509786534685147,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.4199066162109375
+  },
+  {
+    "query_id": "h033",
+    "candidate_source_id": "h033",
+    "candidate_field": "narrower",
+    "rank": 3,
+    "embedding_distance": 0.009123414202979019,
+    "is_target_pair": false,
+    "cross_encoder_score": 7.932370662689209
+  },
+  {
+    "query_id": "h033",
+    "candidate_source_id": "h033",
+    "candidate_field": "B",
+    "rank": 4,
+    "embedding_distance": 0.09738886560997728,
+    "is_target_pair": true,
+    "cross_encoder_score": -3.3381800651550293
+  },
+  {
+    "query_id": "h033",
+    "candidate_source_id": "h033",
+    "candidate_field": "C_tilde",
+    "rank": 5,
+    "embedding_distance": 0.1043366512443975,
+    "is_target_pair": true,
+    "cross_encoder_score": 1.0235490798950195
+  },
+  {
+    "query_id": "h033",
+    "candidate_source_id": "h033",
+    "candidate_field": "broader",
+    "rank": 6,
+    "embedding_distance": 0.14088272749856934,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.909536361694336
+  },
+  {
+    "query_id": "h033",
+    "candidate_source_id": "h014",
+    "candidate_field": "C_tilde",
+    "rank": 7,
+    "embedding_distance": 0.1512719758497565,
+    "is_target_pair": false,
+    "cross_encoder_score": -9.80333137512207
+  },
+  {
+    "query_id": "h033",
+    "candidate_source_id": "h014",
+    "candidate_field": "broader",
+    "rank": 8,
+    "embedding_distance": 0.15545307555673293,
+    "is_target_pair": false,
+    "cross_encoder_score": -9.838367462158203
+  },
+  {
+    "query_id": "h033",
+    "candidate_source_id": "h038",
+    "candidate_field": "B",
+    "rank": 9,
+    "embedding_distance": 0.16027189735977698,
+    "is_target_pair": false,
+    "cross_encoder_score": -8.047324180603027
+  },
+  {
+    "query_id": "h033",
+    "candidate_source_id": "h012",
+    "candidate_field": "narrower",
+    "rank": 10,
+    "embedding_distance": 0.16706392653913626,
+    "is_target_pair": false,
+    "cross_encoder_score": -8.126237869262695
+  },
+  {
+    "query_id": "h034",
+    "candidate_source_id": "h034",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.003832674200089481,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.581790924072266
+  },
+  {
+    "query_id": "h034",
+    "candidate_source_id": "h034",
+    "candidate_field": "narrower",
+    "rank": 2,
+    "embedding_distance": 0.01948807305395095,
+    "is_target_pair": false,
+    "cross_encoder_score": 8.165489196777344
+  },
+  {
+    "query_id": "h034",
+    "candidate_source_id": "h034",
+    "candidate_field": "C",
+    "rank": 3,
+    "embedding_distance": 0.12215933737242957,
+    "is_target_pair": true,
+    "cross_encoder_score": -2.7355432510375977
+  },
+  {
+    "query_id": "h034",
+    "candidate_source_id": "h034",
+    "candidate_field": "B",
+    "rank": 4,
+    "embedding_distance": 0.1369669963346638,
+    "is_target_pair": true,
+    "cross_encoder_score": -5.12109375
+  },
+  {
+    "query_id": "h034",
+    "candidate_source_id": "h036",
+    "candidate_field": "C_tilde",
+    "rank": 5,
+    "embedding_distance": 0.14266663939691104,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.519340515136719
+  },
+  {
+    "query_id": "h034",
+    "candidate_source_id": "h039",
+    "candidate_field": "A",
+    "rank": 6,
+    "embedding_distance": 0.1430308879081803,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.844372272491455
+  },
+  {
+    "query_id": "h034",
+    "candidate_source_id": "h039",
+    "candidate_field": "C",
+    "rank": 7,
+    "embedding_distance": 0.1434624239502873,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.255911350250244
+  },
+  {
+    "query_id": "h034",
+    "candidate_source_id": "h034",
+    "candidate_field": "broader",
+    "rank": 8,
+    "embedding_distance": 0.14461977580701268,
+    "is_target_pair": false,
+    "cross_encoder_score": -2.6099979877471924
+  },
+  {
+    "query_id": "h034",
+    "candidate_source_id": "h035",
+    "candidate_field": "C",
+    "rank": 9,
+    "embedding_distance": 0.14564858570980532,
+    "is_target_pair": false,
+    "cross_encoder_score": -9.568280220031738
+  },
+  {
+    "query_id": "h034",
+    "candidate_source_id": "h034",
+    "candidate_field": "C_tilde",
+    "rank": 10,
+    "embedding_distance": 0.14566570852008287,
+    "is_target_pair": true,
+    "cross_encoder_score": -9.821953773498535
+  },
+  {
+    "query_id": "h035",
+    "candidate_source_id": "h035",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.003061298483325703,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.6123504638671875
+  },
+  {
+    "query_id": "h035",
+    "candidate_source_id": "h035",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.013239592257883737,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.418916702270508
+  },
+  {
+    "query_id": "h035",
+    "candidate_source_id": "h035",
+    "candidate_field": "narrower",
+    "rank": 3,
+    "embedding_distance": 0.026265919727316955,
+    "is_target_pair": false,
+    "cross_encoder_score": 8.052045822143555
+  },
+  {
+    "query_id": "h035",
+    "candidate_source_id": "h035",
+    "candidate_field": "broader",
+    "rank": 4,
+    "embedding_distance": 0.11744480659864243,
+    "is_target_pair": false,
+    "cross_encoder_score": 1.1938490867614746
+  },
+  {
+    "query_id": "h035",
+    "candidate_source_id": "h039",
+    "candidate_field": "broader",
+    "rank": 5,
+    "embedding_distance": 0.1275492581831722,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.8092432022094727
+  },
+  {
+    "query_id": "h035",
+    "candidate_source_id": "h035",
+    "candidate_field": "B",
+    "rank": 6,
+    "embedding_distance": 0.13643660868233998,
+    "is_target_pair": true,
+    "cross_encoder_score": -6.7074151039123535
+  },
+  {
+    "query_id": "h035",
+    "candidate_source_id": "h034",
+    "candidate_field": "narrower",
+    "rank": 7,
+    "embedding_distance": 0.14323202531248436,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.8080854415893555
+  },
+  {
+    "query_id": "h035",
+    "candidate_source_id": "h034",
+    "candidate_field": "broader",
+    "rank": 8,
+    "embedding_distance": 0.14531744736232433,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.5542831420898438
+  },
+  {
+    "query_id": "h035",
+    "candidate_source_id": "h039",
+    "candidate_field": "B",
+    "rank": 9,
+    "embedding_distance": 0.14553550291070572,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.953258514404297
+  },
+  {
+    "query_id": "h035",
+    "candidate_source_id": "h034",
+    "candidate_field": "A",
+    "rank": 10,
+    "embedding_distance": 0.14572598649067914,
+    "is_target_pair": false,
+    "cross_encoder_score": -6.323356628417969
+  },
+  {
+    "query_id": "h036",
+    "candidate_source_id": "h036",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.0046298038270751185,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.511142253875732
+  },
+  {
+    "query_id": "h036",
+    "candidate_source_id": "h036",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.03408183144579313,
+    "is_target_pair": true,
+    "cross_encoder_score": 5.602234363555908
+  },
+  {
+    "query_id": "h036",
+    "candidate_source_id": "h036",
+    "candidate_field": "narrower",
+    "rank": 3,
+    "embedding_distance": 0.04365536065218545,
+    "is_target_pair": false,
+    "cross_encoder_score": 7.975683689117432
+  },
+  {
+    "query_id": "h036",
+    "candidate_source_id": "h036",
+    "candidate_field": "C_tilde",
+    "rank": 4,
+    "embedding_distance": 0.12090017320916813,
+    "is_target_pair": true,
+    "cross_encoder_score": -1.9596199989318848
+  },
+  {
+    "query_id": "h036",
+    "candidate_source_id": "h036",
+    "candidate_field": "broader",
+    "rank": 5,
+    "embedding_distance": 0.1419049153760671,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.5367259979248047
+  },
+  {
+    "query_id": "h036",
+    "candidate_source_id": "h036",
+    "candidate_field": "B",
+    "rank": 6,
+    "embedding_distance": 0.1503090198003636,
+    "is_target_pair": true,
+    "cross_encoder_score": -6.744359016418457
+  },
+  {
+    "query_id": "h036",
+    "candidate_source_id": "h002",
+    "candidate_field": "broader",
+    "rank": 7,
+    "embedding_distance": 0.15563210240291714,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.037601470947266
+  },
+  {
+    "query_id": "h036",
+    "candidate_source_id": "h012",
+    "candidate_field": "B_min",
+    "rank": 8,
+    "embedding_distance": 0.15567491321752047,
+    "is_target_pair": false,
+    "cross_encoder_score": -8.173493385314941
+  },
+  {
+    "query_id": "h036",
+    "candidate_source_id": "h012",
+    "candidate_field": "C",
+    "rank": 9,
+    "embedding_distance": 0.15613919709044033,
+    "is_target_pair": false,
+    "cross_encoder_score": -8.836113929748535
+  },
+  {
+    "query_id": "h036",
+    "candidate_source_id": "h034",
+    "candidate_field": "A",
+    "rank": 10,
+    "embedding_distance": 0.15684778732672244,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.89232873916626
+  },
+  {
+    "query_id": "h037",
+    "candidate_source_id": "h037",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.002484658931359185,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.176753997802734
+  },
+  {
+    "query_id": "h037",
+    "candidate_source_id": "h037",
+    "candidate_field": "narrower",
+    "rank": 2,
+    "embedding_distance": 0.02098186982933392,
+    "is_target_pair": false,
+    "cross_encoder_score": 7.609844207763672
+  },
+  {
+    "query_id": "h037",
+    "candidate_source_id": "h037",
+    "candidate_field": "C",
+    "rank": 3,
+    "embedding_distance": 0.023965575682459717,
+    "is_target_pair": true,
+    "cross_encoder_score": 6.272982597351074
+  },
+  {
+    "query_id": "h037",
+    "candidate_source_id": "h037",
+    "candidate_field": "C_tilde",
+    "rank": 4,
+    "embedding_distance": 0.09892214109115716,
+    "is_target_pair": true,
+    "cross_encoder_score": -1.9373828172683716
+  },
+  {
+    "query_id": "h037",
+    "candidate_source_id": "h037",
+    "candidate_field": "B",
+    "rank": 5,
+    "embedding_distance": 0.13678967079889337,
+    "is_target_pair": true,
+    "cross_encoder_score": -3.440394878387451
+  },
+  {
+    "query_id": "h037",
+    "candidate_source_id": "h037",
+    "candidate_field": "broader",
+    "rank": 6,
+    "embedding_distance": 0.14526221716273302,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.880738258361816
+  },
+  {
+    "query_id": "h037",
+    "candidate_source_id": "h034",
+    "candidate_field": "A",
+    "rank": 7,
+    "embedding_distance": 0.14870184133252196,
+    "is_target_pair": false,
+    "cross_encoder_score": -8.796072006225586
+  },
+  {
+    "query_id": "h037",
+    "candidate_source_id": "h034",
+    "candidate_field": "B_min",
+    "rank": 8,
+    "embedding_distance": 0.1588499327024282,
+    "is_target_pair": false,
+    "cross_encoder_score": -9.999155044555664
+  },
+  {
+    "query_id": "h037",
+    "candidate_source_id": "h036",
+    "candidate_field": "narrower",
+    "rank": 9,
+    "embedding_distance": 0.16123968368227848,
+    "is_target_pair": false,
+    "cross_encoder_score": -8.881696701049805
+  },
+  {
+    "query_id": "h037",
+    "candidate_source_id": "h034",
+    "candidate_field": "narrower",
+    "rank": 10,
+    "embedding_distance": 0.16172079827642294,
+    "is_target_pair": false,
+    "cross_encoder_score": -9.037147521972656
+  },
+  {
+    "query_id": "h038",
+    "candidate_source_id": "h038",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.005190866724657628,
+    "is_target_pair": true,
+    "cross_encoder_score": 9.35012149810791
+  },
+  {
+    "query_id": "h038",
+    "candidate_source_id": "h038",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.006107477670343586,
+    "is_target_pair": true,
+    "cross_encoder_score": 8.926389694213867
+  },
+  {
+    "query_id": "h038",
+    "candidate_source_id": "h038",
+    "candidate_field": "narrower",
+    "rank": 3,
+    "embedding_distance": 0.04380170091169533,
+    "is_target_pair": false,
+    "cross_encoder_score": 9.609167098999023
+  },
+  {
+    "query_id": "h038",
+    "candidate_source_id": "h038",
+    "candidate_field": "B",
+    "rank": 4,
+    "embedding_distance": 0.12235941239970471,
+    "is_target_pair": true,
+    "cross_encoder_score": -4.02454948425293
+  },
+  {
+    "query_id": "h038",
+    "candidate_source_id": "h038",
+    "candidate_field": "broader",
+    "rank": 5,
+    "embedding_distance": 0.1252810210948314,
+    "is_target_pair": false,
+    "cross_encoder_score": 0.43850505352020264
+  },
+  {
+    "query_id": "h038",
+    "candidate_source_id": "h038",
+    "candidate_field": "C_tilde",
+    "rank": 6,
+    "embedding_distance": 0.12728126004684115,
+    "is_target_pair": true,
+    "cross_encoder_score": -4.464470863342285
+  },
+  {
+    "query_id": "h038",
+    "candidate_source_id": "h006",
+    "candidate_field": "broader",
+    "rank": 7,
+    "embedding_distance": 0.15823963798265794,
+    "is_target_pair": false,
+    "cross_encoder_score": -9.650047302246094
+  },
+  {
+    "query_id": "h038",
+    "candidate_source_id": "h030",
+    "candidate_field": "broader",
+    "rank": 8,
+    "embedding_distance": 0.15867740471929515,
+    "is_target_pair": false,
+    "cross_encoder_score": -9.73111343383789
+  },
+  {
+    "query_id": "h038",
+    "candidate_source_id": "h029",
+    "candidate_field": "C_tilde",
+    "rank": 9,
+    "embedding_distance": 0.15892344579238793,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.818725109100342
+  },
+  {
+    "query_id": "h038",
+    "candidate_source_id": "h004",
+    "candidate_field": "B_min",
+    "rank": 10,
+    "embedding_distance": 0.1656928401919645,
+    "is_target_pair": false,
+    "cross_encoder_score": -11.283337593078613
+  },
+  {
+    "query_id": "h039",
+    "candidate_source_id": "h039",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.0033899017932836895,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.778346061706543
+  },
+  {
+    "query_id": "h039",
+    "candidate_source_id": "h039",
+    "candidate_field": "narrower",
+    "rank": 2,
+    "embedding_distance": 0.028645011459758618,
+    "is_target_pair": false,
+    "cross_encoder_score": 8.451749801635742
+  },
+  {
+    "query_id": "h039",
+    "candidate_source_id": "h039",
+    "candidate_field": "C",
+    "rank": 3,
+    "embedding_distance": 0.03201062732099691,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.10796594619751
+  },
+  {
+    "query_id": "h039",
+    "candidate_source_id": "h039",
+    "candidate_field": "broader",
+    "rank": 4,
+    "embedding_distance": 0.1347964372387177,
+    "is_target_pair": false,
+    "cross_encoder_score": -1.2400567531585693
+  },
+  {
+    "query_id": "h039",
+    "candidate_source_id": "h039",
+    "candidate_field": "B",
+    "rank": 5,
+    "embedding_distance": 0.14280378811181427,
+    "is_target_pair": true,
+    "cross_encoder_score": -7.845893383026123
+  },
+  {
+    "query_id": "h039",
+    "candidate_source_id": "h034",
+    "candidate_field": "A",
+    "rank": 6,
+    "embedding_distance": 0.1430308879081803,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.7757415771484375
+  },
+  {
+    "query_id": "h039",
+    "candidate_source_id": "h034",
+    "candidate_field": "narrower",
+    "rank": 7,
+    "embedding_distance": 0.1503377553880304,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.332284927368164
+  },
+  {
+    "query_id": "h039",
+    "candidate_source_id": "h034",
+    "candidate_field": "B_min",
+    "rank": 8,
+    "embedding_distance": 0.15040681224970565,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.378880977630615
+  },
+  {
+    "query_id": "h039",
+    "candidate_source_id": "h053",
+    "candidate_field": "C",
+    "rank": 9,
+    "embedding_distance": 0.15285784006833236,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.993143558502197
+  },
+  {
+    "query_id": "h039",
+    "candidate_source_id": "h039",
+    "candidate_field": "C_tilde",
+    "rank": 10,
+    "embedding_distance": 0.15702890861632635,
+    "is_target_pair": true,
+    "cross_encoder_score": -10.819120407104492
+  },
+  {
+    "query_id": "h040",
+    "candidate_source_id": "h040",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.002731167325316086,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.712981224060059
+  },
+  {
+    "query_id": "h040",
+    "candidate_source_id": "h040",
+    "candidate_field": "narrower",
+    "rank": 2,
+    "embedding_distance": 0.03442698908134445,
+    "is_target_pair": false,
+    "cross_encoder_score": 7.787633895874023
+  },
+  {
+    "query_id": "h040",
+    "candidate_source_id": "h040",
+    "candidate_field": "C",
+    "rank": 3,
+    "embedding_distance": 0.07789058075618538,
+    "is_target_pair": true,
+    "cross_encoder_score": 5.5985260009765625
+  },
+  {
+    "query_id": "h040",
+    "candidate_source_id": "h005",
+    "candidate_field": "narrower",
+    "rank": 4,
+    "embedding_distance": 0.15300007597730636,
+    "is_target_pair": false,
+    "cross_encoder_score": -6.940463542938232
+  },
+  {
+    "query_id": "h040",
+    "candidate_source_id": "h053",
+    "candidate_field": "C",
+    "rank": 5,
+    "embedding_distance": 0.15471848697459,
+    "is_target_pair": false,
+    "cross_encoder_score": -6.463891506195068
+  },
+  {
+    "query_id": "h040",
+    "candidate_source_id": "h040",
+    "candidate_field": "B",
+    "rank": 6,
+    "embedding_distance": 0.15982468469725897,
+    "is_target_pair": true,
+    "cross_encoder_score": -4.336861610412598
+  },
+  {
+    "query_id": "h040",
+    "candidate_source_id": "h018",
+    "candidate_field": "C",
+    "rank": 7,
+    "embedding_distance": 0.16290644962874468,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.145957946777344
+  },
+  {
+    "query_id": "h040",
+    "candidate_source_id": "h018",
+    "candidate_field": "A",
+    "rank": 8,
+    "embedding_distance": 0.16369799088992643,
+    "is_target_pair": false,
+    "cross_encoder_score": -9.893879890441895
+  },
+  {
+    "query_id": "h040",
+    "candidate_source_id": "h055",
+    "candidate_field": "A",
+    "rank": 9,
+    "embedding_distance": 0.1642358524573454,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.925647735595703
+  },
+  {
+    "query_id": "h040",
+    "candidate_source_id": "h018",
+    "candidate_field": "B_min",
+    "rank": 10,
+    "embedding_distance": 0.16490890716239748,
+    "is_target_pair": false,
+    "cross_encoder_score": -9.776044845581055
+  },
+  {
+    "query_id": "h041",
+    "candidate_source_id": "h041",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.0034691545003849855,
+    "is_target_pair": true,
+    "cross_encoder_score": 8.177937507629395
+  },
+  {
+    "query_id": "h041",
+    "candidate_source_id": "h041",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.025552459281836026,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.0469560623168945
+  },
+  {
+    "query_id": "h041",
+    "candidate_source_id": "h041",
+    "candidate_field": "narrower",
+    "rank": 3,
+    "embedding_distance": 0.040234076729277035,
+    "is_target_pair": false,
+    "cross_encoder_score": 8.224845886230469
+  },
+  {
+    "query_id": "h041",
+    "candidate_source_id": "h041",
+    "candidate_field": "B",
+    "rank": 4,
+    "embedding_distance": 0.10776821958955007,
+    "is_target_pair": true,
+    "cross_encoder_score": -0.24928845465183258
+  },
+  {
+    "query_id": "h041",
+    "candidate_source_id": "h041",
+    "candidate_field": "C_tilde",
+    "rank": 5,
+    "embedding_distance": 0.12680349900008792,
+    "is_target_pair": true,
+    "cross_encoder_score": -1.3782325983047485
+  },
+  {
+    "query_id": "h041",
+    "candidate_source_id": "h041",
+    "candidate_field": "broader",
+    "rank": 6,
+    "embedding_distance": 0.13635166842832724,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.2055611610412598
+  },
+  {
+    "query_id": "h041",
+    "candidate_source_id": "h030",
+    "candidate_field": "broader",
+    "rank": 7,
+    "embedding_distance": 0.143535089003349,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.874617099761963
+  },
+  {
+    "query_id": "h041",
+    "candidate_source_id": "h029",
+    "candidate_field": "B_min",
+    "rank": 8,
+    "embedding_distance": 0.1503082944646673,
+    "is_target_pair": false,
+    "cross_encoder_score": -8.352180480957031
+  },
+  {
+    "query_id": "h041",
+    "candidate_source_id": "h002",
+    "candidate_field": "B_min",
+    "rank": 9,
+    "embedding_distance": 0.1509866228998492,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.002351760864258
+  },
+  {
+    "query_id": "h041",
+    "candidate_source_id": "h029",
+    "candidate_field": "A",
+    "rank": 10,
+    "embedding_distance": 0.15162396986498028,
+    "is_target_pair": false,
+    "cross_encoder_score": -8.185701370239258
+  },
+  {
+    "query_id": "h042",
+    "candidate_source_id": "h042",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.003155013046452715,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.767544746398926
+  },
+  {
+    "query_id": "h042",
+    "candidate_source_id": "h042",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.029015651927404296,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.435039520263672
+  },
+  {
+    "query_id": "h042",
+    "candidate_source_id": "h042",
+    "candidate_field": "narrower",
+    "rank": 3,
+    "embedding_distance": 0.032276430944121914,
+    "is_target_pair": false,
+    "cross_encoder_score": 8.071477890014648
+  },
+  {
+    "query_id": "h042",
+    "candidate_source_id": "h042",
+    "candidate_field": "C_tilde",
+    "rank": 4,
+    "embedding_distance": 0.08968762818215203,
+    "is_target_pair": true,
+    "cross_encoder_score": -4.313936710357666
+  },
+  {
+    "query_id": "h042",
+    "candidate_source_id": "h042",
+    "candidate_field": "B",
+    "rank": 5,
+    "embedding_distance": 0.0913556576179283,
+    "is_target_pair": true,
+    "cross_encoder_score": -4.478687763214111
+  },
+  {
+    "query_id": "h042",
+    "candidate_source_id": "h055",
+    "candidate_field": "A",
+    "rank": 6,
+    "embedding_distance": 0.12564395218308821,
+    "is_target_pair": false,
+    "cross_encoder_score": -9.134678840637207
+  },
+  {
+    "query_id": "h042",
+    "candidate_source_id": "h055",
+    "candidate_field": "B_min",
+    "rank": 7,
+    "embedding_distance": 0.12661071113597921,
+    "is_target_pair": false,
+    "cross_encoder_score": -9.226241111755371
+  },
+  {
+    "query_id": "h042",
+    "candidate_source_id": "h054",
+    "candidate_field": "narrower",
+    "rank": 8,
+    "embedding_distance": 0.12808585955652196,
+    "is_target_pair": false,
+    "cross_encoder_score": -9.158647537231445
+  },
+  {
+    "query_id": "h042",
+    "candidate_source_id": "h060",
+    "candidate_field": "B_min",
+    "rank": 9,
+    "embedding_distance": 0.12950597290163424,
+    "is_target_pair": false,
+    "cross_encoder_score": -8.361963272094727
+  },
+  {
+    "query_id": "h042",
+    "candidate_source_id": "h054",
+    "candidate_field": "A",
+    "rank": 10,
+    "embedding_distance": 0.13079587639195622,
+    "is_target_pair": false,
+    "cross_encoder_score": -9.31013298034668
+  },
+  {
+    "query_id": "h043",
+    "candidate_source_id": "h043",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.003572346908842672,
+    "is_target_pair": true,
+    "cross_encoder_score": 8.136802673339844
+  },
+  {
+    "query_id": "h043",
+    "candidate_source_id": "h043",
+    "candidate_field": "narrower",
+    "rank": 2,
+    "embedding_distance": 0.01311277478028583,
+    "is_target_pair": false,
+    "cross_encoder_score": 8.062789916992188
+  },
+  {
+    "query_id": "h043",
+    "candidate_source_id": "h043",
+    "candidate_field": "C",
+    "rank": 3,
+    "embedding_distance": 0.024423920948908218,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.914507865905762
+  },
+  {
+    "query_id": "h043",
+    "candidate_source_id": "h043",
+    "candidate_field": "B",
+    "rank": 4,
+    "embedding_distance": 0.1240022617157438,
+    "is_target_pair": true,
+    "cross_encoder_score": -5.687398433685303
+  },
+  {
+    "query_id": "h043",
+    "candidate_source_id": "h043",
+    "candidate_field": "broader",
+    "rank": 5,
+    "embedding_distance": 0.12875895417223215,
+    "is_target_pair": false,
+    "cross_encoder_score": -6.3456597328186035
+  },
+  {
+    "query_id": "h043",
+    "candidate_source_id": "h043",
+    "candidate_field": "C_tilde",
+    "rank": 6,
+    "embedding_distance": 0.1385413715892213,
+    "is_target_pair": true,
+    "cross_encoder_score": -6.079983234405518
+  },
+  {
+    "query_id": "h043",
+    "candidate_source_id": "h030",
+    "candidate_field": "broader",
+    "rank": 7,
+    "embedding_distance": 0.15390401940874232,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.496686935424805
+  },
+  {
+    "query_id": "h043",
+    "candidate_source_id": "h002",
+    "candidate_field": "narrower",
+    "rank": 8,
+    "embedding_distance": 0.1574015273478906,
+    "is_target_pair": false,
+    "cross_encoder_score": -9.830628395080566
+  },
+  {
+    "query_id": "h043",
+    "candidate_source_id": "h015",
+    "candidate_field": "B_min",
+    "rank": 9,
+    "embedding_distance": 0.1587222681886057,
+    "is_target_pair": false,
+    "cross_encoder_score": -8.270600318908691
+  },
+  {
+    "query_id": "h043",
+    "candidate_source_id": "h002",
+    "candidate_field": "A",
+    "rank": 10,
+    "embedding_distance": 0.15903333134859954,
+    "is_target_pair": false,
+    "cross_encoder_score": -8.231082916259766
+  },
+  {
+    "query_id": "h044",
+    "candidate_source_id": "h044",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.00185464037695382,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.646601676940918
+  },
+  {
+    "query_id": "h044",
+    "candidate_source_id": "h044",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.01016145977837768,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.561959266662598
+  },
+  {
+    "query_id": "h044",
+    "candidate_source_id": "h044",
+    "candidate_field": "narrower",
+    "rank": 3,
+    "embedding_distance": 0.029889843910945735,
+    "is_target_pair": false,
+    "cross_encoder_score": 7.79273796081543
+  },
+  {
+    "query_id": "h044",
+    "candidate_source_id": "h044",
+    "candidate_field": "C_tilde",
+    "rank": 4,
+    "embedding_distance": 0.08605662665729119,
+    "is_target_pair": true,
+    "cross_encoder_score": 2.4150550365448
+  },
+  {
+    "query_id": "h044",
+    "candidate_source_id": "h044",
+    "candidate_field": "broader",
+    "rank": 5,
+    "embedding_distance": 0.08638755169026857,
+    "is_target_pair": false,
+    "cross_encoder_score": 3.6395347118377686
+  },
+  {
+    "query_id": "h044",
+    "candidate_source_id": "h044",
+    "candidate_field": "B",
+    "rank": 6,
+    "embedding_distance": 0.09942700039308294,
+    "is_target_pair": true,
+    "cross_encoder_score": -2.6314971446990967
+  },
+  {
+    "query_id": "h044",
+    "candidate_source_id": "h058",
+    "candidate_field": "B",
+    "rank": 7,
+    "embedding_distance": 0.1033885390613053,
+    "is_target_pair": false,
+    "cross_encoder_score": -0.08539101481437683
+  },
+  {
+    "query_id": "h044",
+    "candidate_source_id": "h054",
+    "candidate_field": "B_min",
+    "rank": 8,
+    "embedding_distance": 0.10702306163972863,
+    "is_target_pair": false,
+    "cross_encoder_score": -1.025118112564087
+  },
+  {
+    "query_id": "h044",
+    "candidate_source_id": "h054",
+    "candidate_field": "A",
+    "rank": 9,
+    "embedding_distance": 0.11038254769976175,
+    "is_target_pair": false,
+    "cross_encoder_score": -1.2363128662109375
+  },
+  {
+    "query_id": "h044",
+    "candidate_source_id": "h054",
+    "candidate_field": "C",
+    "rank": 10,
+    "embedding_distance": 0.11197434572867204,
+    "is_target_pair": false,
+    "cross_encoder_score": -1.4219155311584473
+  },
+  {
+    "query_id": "h045",
+    "candidate_source_id": "h045",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.002131982172754676,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.929593563079834
+  },
+  {
+    "query_id": "h045",
+    "candidate_source_id": "h045",
+    "candidate_field": "narrower",
+    "rank": 2,
+    "embedding_distance": 0.03414260129639213,
+    "is_target_pair": false,
+    "cross_encoder_score": 8.22791576385498
+  },
+  {
+    "query_id": "h045",
+    "candidate_source_id": "h045",
+    "candidate_field": "C",
+    "rank": 3,
+    "embedding_distance": 0.04273395332810215,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.12502384185791
+  },
+  {
+    "query_id": "h045",
+    "candidate_source_id": "h045",
+    "candidate_field": "B",
+    "rank": 4,
+    "embedding_distance": 0.12230222788859324,
+    "is_target_pair": true,
+    "cross_encoder_score": -5.282782077789307
+  },
+  {
+    "query_id": "h045",
+    "candidate_source_id": "h054",
+    "candidate_field": "C",
+    "rank": 5,
+    "embedding_distance": 0.13319792102146544,
+    "is_target_pair": false,
+    "cross_encoder_score": -8.104398727416992
+  },
+  {
+    "query_id": "h045",
+    "candidate_source_id": "h046",
+    "candidate_field": "C",
+    "rank": 6,
+    "embedding_distance": 0.1352384967730732,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.918869972229004
+  },
+  {
+    "query_id": "h045",
+    "candidate_source_id": "h046",
+    "candidate_field": "A",
+    "rank": 7,
+    "embedding_distance": 0.14105850324022196,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.560118198394775
+  },
+  {
+    "query_id": "h045",
+    "candidate_source_id": "h054",
+    "candidate_field": "A",
+    "rank": 8,
+    "embedding_distance": 0.14169476839823258,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.317646026611328
+  },
+  {
+    "query_id": "h045",
+    "candidate_source_id": "h046",
+    "candidate_field": "B_min",
+    "rank": 9,
+    "embedding_distance": 0.14341276181645857,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.472745895385742
+  },
+  {
+    "query_id": "h045",
+    "candidate_source_id": "h057",
+    "candidate_field": "B_min",
+    "rank": 10,
+    "embedding_distance": 0.1434505558885405,
+    "is_target_pair": false,
+    "cross_encoder_score": -6.714089393615723
+  },
+  {
+    "query_id": "h046",
+    "candidate_source_id": "h046",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.0042253656983974874,
+    "is_target_pair": true,
+    "cross_encoder_score": 8.029621124267578
+  },
+  {
+    "query_id": "h046",
+    "candidate_source_id": "h046",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.016759103881334614,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.87680196762085
+  },
+  {
+    "query_id": "h046",
+    "candidate_source_id": "h046",
+    "candidate_field": "narrower",
+    "rank": 3,
+    "embedding_distance": 0.027166984446166387,
+    "is_target_pair": false,
+    "cross_encoder_score": 8.133438110351562
+  },
+  {
+    "query_id": "h046",
+    "candidate_source_id": "h046",
+    "candidate_field": "C_tilde",
+    "rank": 4,
+    "embedding_distance": 0.12289161828973238,
+    "is_target_pair": true,
+    "cross_encoder_score": 1.4178497791290283
+  },
+  {
+    "query_id": "h046",
+    "candidate_source_id": "h045",
+    "candidate_field": "C",
+    "rank": 5,
+    "embedding_distance": 0.13244337046285093,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.8451285362243652
+  },
+  {
+    "query_id": "h046",
+    "candidate_source_id": "h049",
+    "candidate_field": "broader",
+    "rank": 6,
+    "embedding_distance": 0.1344710498925139,
+    "is_target_pair": false,
+    "cross_encoder_score": -2.1653733253479004
+  },
+  {
+    "query_id": "h046",
+    "candidate_source_id": "h045",
+    "candidate_field": "A",
+    "rank": 7,
+    "embedding_distance": 0.14105850324022196,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.9204208850860596
+  },
+  {
+    "query_id": "h046",
+    "candidate_source_id": "h045",
+    "candidate_field": "broader",
+    "rank": 8,
+    "embedding_distance": 0.1419907977011322,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.513147830963135
+  },
+  {
+    "query_id": "h046",
+    "candidate_source_id": "h054",
+    "candidate_field": "broader",
+    "rank": 9,
+    "embedding_distance": 0.14277040787181228,
+    "is_target_pair": false,
+    "cross_encoder_score": -2.3230772018432617
+  },
+  {
+    "query_id": "h046",
+    "candidate_source_id": "h054",
+    "candidate_field": "B_min",
+    "rank": 10,
+    "embedding_distance": 0.14282076191035853,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.003316879272461
+  },
+  {
+    "query_id": "h047",
+    "candidate_source_id": "h047",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.0016951112163960946,
+    "is_target_pair": true,
+    "cross_encoder_score": 6.8588151931762695
+  },
+  {
+    "query_id": "h047",
+    "candidate_source_id": "h047",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.007094896413663454,
+    "is_target_pair": true,
+    "cross_encoder_score": 6.886746883392334
+  },
+  {
+    "query_id": "h047",
+    "candidate_source_id": "h047",
+    "candidate_field": "narrower",
+    "rank": 3,
+    "embedding_distance": 0.03553324439164807,
+    "is_target_pair": false,
+    "cross_encoder_score": 7.715734481811523
+  },
+  {
+    "query_id": "h047",
+    "candidate_source_id": "h057",
+    "candidate_field": "C",
+    "rank": 4,
+    "embedding_distance": 0.08783331504805958,
+    "is_target_pair": false,
+    "cross_encoder_score": -2.4055380821228027
+  },
+  {
+    "query_id": "h047",
+    "candidate_source_id": "h055",
+    "candidate_field": "A",
+    "rank": 5,
+    "embedding_distance": 0.09723153550251551,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.055422782897949
+  },
+  {
+    "query_id": "h047",
+    "candidate_source_id": "h057",
+    "candidate_field": "A",
+    "rank": 6,
+    "embedding_distance": 0.0978871482435526,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.437215805053711
+  },
+  {
+    "query_id": "h047",
+    "candidate_source_id": "h057",
+    "candidate_field": "B_min",
+    "rank": 7,
+    "embedding_distance": 0.09868883008826945,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.3957316875457764
+  },
+  {
+    "query_id": "h047",
+    "candidate_source_id": "h055",
+    "candidate_field": "C",
+    "rank": 8,
+    "embedding_distance": 0.10004873530461567,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.18867301940918
+  },
+  {
+    "query_id": "h047",
+    "candidate_source_id": "h055",
+    "candidate_field": "B_min",
+    "rank": 9,
+    "embedding_distance": 0.10081662759493315,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.049030780792236
+  },
+  {
+    "query_id": "h047",
+    "candidate_source_id": "h054",
+    "candidate_field": "narrower",
+    "rank": 10,
+    "embedding_distance": 0.10465559583962436,
+    "is_target_pair": false,
+    "cross_encoder_score": -2.6982228755950928
+  },
+  {
+    "query_id": "h048",
+    "candidate_source_id": "h048",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.0063548914408385615,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.802985191345215
+  },
+  {
+    "query_id": "h048",
+    "candidate_source_id": "h048",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.02268639009183604,
+    "is_target_pair": true,
+    "cross_encoder_score": 6.824662208557129
+  },
+  {
+    "query_id": "h048",
+    "candidate_source_id": "h048",
+    "candidate_field": "narrower",
+    "rank": 3,
+    "embedding_distance": 0.0616234771854679,
+    "is_target_pair": false,
+    "cross_encoder_score": 8.169517517089844
+  },
+  {
+    "query_id": "h048",
+    "candidate_source_id": "h054",
+    "candidate_field": "B_min",
+    "rank": 4,
+    "embedding_distance": 0.122362063521537,
+    "is_target_pair": false,
+    "cross_encoder_score": -2.818122386932373
+  },
+  {
+    "query_id": "h048",
+    "candidate_source_id": "h054",
+    "candidate_field": "broader",
+    "rank": 5,
+    "embedding_distance": 0.12787812988928304,
+    "is_target_pair": false,
+    "cross_encoder_score": -2.368434190750122
+  },
+  {
+    "query_id": "h048",
+    "candidate_source_id": "h047",
+    "candidate_field": "B_min",
+    "rank": 6,
+    "embedding_distance": 0.13309237823122178,
+    "is_target_pair": false,
+    "cross_encoder_score": -9.726652145385742
+  },
+  {
+    "query_id": "h048",
+    "candidate_source_id": "h054",
+    "candidate_field": "A",
+    "rank": 7,
+    "embedding_distance": 0.1356889374194692,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.064906120300293
+  },
+  {
+    "query_id": "h048",
+    "candidate_source_id": "h047",
+    "candidate_field": "A",
+    "rank": 8,
+    "embedding_distance": 0.13769703869448258,
+    "is_target_pair": false,
+    "cross_encoder_score": -9.610259056091309
+  },
+  {
+    "query_id": "h048",
+    "candidate_source_id": "h047",
+    "candidate_field": "C",
+    "rank": 9,
+    "embedding_distance": 0.13841576442975945,
+    "is_target_pair": false,
+    "cross_encoder_score": -9.748138427734375
+  },
+  {
+    "query_id": "h048",
+    "candidate_source_id": "h055",
+    "candidate_field": "A",
+    "rank": 10,
+    "embedding_distance": 0.1413326687921025,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.163470268249512
+  },
+  {
+    "query_id": "h049",
+    "candidate_source_id": "h049",
+    "candidate_field": "C",
+    "rank": 1,
+    "embedding_distance": 0.0064035318912396555,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.23544454574585
+  },
+  {
+    "query_id": "h049",
+    "candidate_source_id": "h049",
+    "candidate_field": "B_min",
+    "rank": 2,
+    "embedding_distance": 0.014744715015410415,
+    "is_target_pair": true,
+    "cross_encoder_score": 6.534848213195801
+  },
+  {
+    "query_id": "h049",
+    "candidate_source_id": "h049",
+    "candidate_field": "narrower",
+    "rank": 3,
+    "embedding_distance": 0.021870220154492137,
+    "is_target_pair": false,
+    "cross_encoder_score": 7.39438533782959
+  },
+  {
+    "query_id": "h049",
+    "candidate_source_id": "h058",
+    "candidate_field": "C_tilde",
+    "rank": 4,
+    "embedding_distance": 0.14645506081040782,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.063508987426758
+  },
+  {
+    "query_id": "h049",
+    "candidate_source_id": "h020",
+    "candidate_field": "C_tilde",
+    "rank": 5,
+    "embedding_distance": 0.14790507968387934,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.43564224243164
+  },
+  {
+    "query_id": "h049",
+    "candidate_source_id": "h020",
+    "candidate_field": "C",
+    "rank": 6,
+    "embedding_distance": 0.1517014365259327,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.493062973022461
+  },
+  {
+    "query_id": "h049",
+    "candidate_source_id": "h047",
+    "candidate_field": "C",
+    "rank": 7,
+    "embedding_distance": 0.1521699433179694,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.34903335571289
+  },
+  {
+    "query_id": "h049",
+    "candidate_source_id": "h020",
+    "candidate_field": "A",
+    "rank": 8,
+    "embedding_distance": 0.15288799353433136,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.357969284057617
+  },
+  {
+    "query_id": "h049",
+    "candidate_source_id": "h047",
+    "candidate_field": "B_min",
+    "rank": 9,
+    "embedding_distance": 0.1533138866434106,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.073335647583008
+  },
+  {
+    "query_id": "h049",
+    "candidate_source_id": "h047",
+    "candidate_field": "A",
+    "rank": 10,
+    "embedding_distance": 0.1556012689826769,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.242918968200684
+  },
+  {
+    "query_id": "h050",
+    "candidate_source_id": "h050",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.003256768917110131,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.651744842529297
+  },
+  {
+    "query_id": "h050",
+    "candidate_source_id": "h050",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.00893837979491896,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.577584266662598
+  },
+  {
+    "query_id": "h050",
+    "candidate_source_id": "h050",
+    "candidate_field": "narrower",
+    "rank": 3,
+    "embedding_distance": 0.025417191947555873,
+    "is_target_pair": false,
+    "cross_encoder_score": 7.744926452636719
+  },
+  {
+    "query_id": "h050",
+    "candidate_source_id": "h050",
+    "candidate_field": "C_tilde",
+    "rank": 4,
+    "embedding_distance": 0.09237697673883094,
+    "is_target_pair": true,
+    "cross_encoder_score": 2.5379233360290527
+  },
+  {
+    "query_id": "h050",
+    "candidate_source_id": "h050",
+    "candidate_field": "B",
+    "rank": 5,
+    "embedding_distance": 0.12655775563711513,
+    "is_target_pair": true,
+    "cross_encoder_score": -2.430196762084961
+  },
+  {
+    "query_id": "h050",
+    "candidate_source_id": "h056",
+    "candidate_field": "B_min",
+    "rank": 6,
+    "embedding_distance": 0.14695725051906838,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.385799407958984
+  },
+  {
+    "query_id": "h050",
+    "candidate_source_id": "h056",
+    "candidate_field": "A",
+    "rank": 7,
+    "embedding_distance": 0.1475907885561789,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.253192901611328
+  },
+  {
+    "query_id": "h050",
+    "candidate_source_id": "h056",
+    "candidate_field": "narrower",
+    "rank": 8,
+    "embedding_distance": 0.14793925040312061,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.196433067321777
+  },
+  {
+    "query_id": "h050",
+    "candidate_source_id": "h019",
+    "candidate_field": "C_tilde",
+    "rank": 9,
+    "embedding_distance": 0.14931198066178852,
+    "is_target_pair": false,
+    "cross_encoder_score": -11.236741065979004
+  },
+  {
+    "query_id": "h050",
+    "candidate_source_id": "h023",
+    "candidate_field": "A",
+    "rank": 10,
+    "embedding_distance": 0.1516760283274221,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.55849838256836
+  },
+  {
+    "query_id": "h051",
+    "candidate_source_id": "h051",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.0021963124275125034,
+    "is_target_pair": true,
+    "cross_encoder_score": 8.661333084106445
+  },
+  {
+    "query_id": "h051",
+    "candidate_source_id": "h051",
+    "candidate_field": "narrower",
+    "rank": 2,
+    "embedding_distance": 0.060706655236804075,
+    "is_target_pair": false,
+    "cross_encoder_score": 8.661576271057129
+  },
+  {
+    "query_id": "h051",
+    "candidate_source_id": "h051",
+    "candidate_field": "B",
+    "rank": 3,
+    "embedding_distance": 0.0895135873047147,
+    "is_target_pair": true,
+    "cross_encoder_score": 3.216737747192383
+  },
+  {
+    "query_id": "h051",
+    "candidate_source_id": "h051",
+    "candidate_field": "C",
+    "rank": 4,
+    "embedding_distance": 0.10251275903533641,
+    "is_target_pair": true,
+    "cross_encoder_score": 1.3804738521575928
+  },
+  {
+    "query_id": "h051",
+    "candidate_source_id": "h046",
+    "candidate_field": "A",
+    "rank": 5,
+    "embedding_distance": 0.15393832899719706,
+    "is_target_pair": false,
+    "cross_encoder_score": -8.481392860412598
+  },
+  {
+    "query_id": "h051",
+    "candidate_source_id": "h046",
+    "candidate_field": "B_min",
+    "rank": 6,
+    "embedding_distance": 0.15840188335187344,
+    "is_target_pair": false,
+    "cross_encoder_score": -9.898738861083984
+  },
+  {
+    "query_id": "h051",
+    "candidate_source_id": "h059",
+    "candidate_field": "C_tilde",
+    "rank": 7,
+    "embedding_distance": 0.15882944464964688,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.450600624084473
+  },
+  {
+    "query_id": "h051",
+    "candidate_source_id": "h051",
+    "candidate_field": "C_tilde",
+    "rank": 8,
+    "embedding_distance": 0.15906888648812478,
+    "is_target_pair": true,
+    "cross_encoder_score": -4.388743877410889
+  },
+  {
+    "query_id": "h051",
+    "candidate_source_id": "h054",
+    "candidate_field": "A",
+    "rank": 9,
+    "embedding_distance": 0.16321796318956416,
+    "is_target_pair": false,
+    "cross_encoder_score": -11.144182205200195
+  },
+  {
+    "query_id": "h051",
+    "candidate_source_id": "h054",
+    "candidate_field": "B_min",
+    "rank": 10,
+    "embedding_distance": 0.1651957344587306,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.741920471191406
+  },
+  {
+    "query_id": "h052",
+    "candidate_source_id": "h052",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.006468250808619791,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.795865535736084
+  },
+  {
+    "query_id": "h052",
+    "candidate_source_id": "h052",
+    "candidate_field": "narrower",
+    "rank": 2,
+    "embedding_distance": 0.024086035271015493,
+    "is_target_pair": false,
+    "cross_encoder_score": 8.293218612670898
+  },
+  {
+    "query_id": "h052",
+    "candidate_source_id": "h052",
+    "candidate_field": "C",
+    "rank": 3,
+    "embedding_distance": 0.027129539547578574,
+    "is_target_pair": true,
+    "cross_encoder_score": 8.392784118652344
+  },
+  {
+    "query_id": "h052",
+    "candidate_source_id": "h052",
+    "candidate_field": "broader",
+    "rank": 4,
+    "embedding_distance": 0.1122359124954716,
+    "is_target_pair": false,
+    "cross_encoder_score": 2.4488131999969482
+  },
+  {
+    "query_id": "h052",
+    "candidate_source_id": "h052",
+    "candidate_field": "B",
+    "rank": 5,
+    "embedding_distance": 0.12303967292534956,
+    "is_target_pair": true,
+    "cross_encoder_score": -5.836803436279297
+  },
+  {
+    "query_id": "h052",
+    "candidate_source_id": "h052",
+    "candidate_field": "C_tilde",
+    "rank": 6,
+    "embedding_distance": 0.1272573037899647,
+    "is_target_pair": true,
+    "cross_encoder_score": -8.396459579467773
+  },
+  {
+    "query_id": "h052",
+    "candidate_source_id": "h049",
+    "candidate_field": "broader",
+    "rank": 7,
+    "embedding_distance": 0.14414043161992085,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.650461673736572
+  },
+  {
+    "query_id": "h052",
+    "candidate_source_id": "h044",
+    "candidate_field": "broader",
+    "rank": 8,
+    "embedding_distance": 0.14574082888632423,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.691383361816406
+  },
+  {
+    "query_id": "h052",
+    "candidate_source_id": "h049",
+    "candidate_field": "B",
+    "rank": 9,
+    "embedding_distance": 0.14670567180615535,
+    "is_target_pair": false,
+    "cross_encoder_score": -10.391305923461914
+  },
+  {
+    "query_id": "h052",
+    "candidate_source_id": "h058",
+    "candidate_field": "broader",
+    "rank": 10,
+    "embedding_distance": 0.15090318077585974,
+    "is_target_pair": false,
+    "cross_encoder_score": -1.3074877262115479
+  },
+  {
+    "query_id": "h053",
+    "candidate_source_id": "h053",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.0054846282883453945,
+    "is_target_pair": true,
+    "cross_encoder_score": 8.076417922973633
+  },
+  {
+    "query_id": "h053",
+    "candidate_source_id": "h053",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.018962923225502415,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.554389476776123
+  },
+  {
+    "query_id": "h053",
+    "candidate_source_id": "h053",
+    "candidate_field": "narrower",
+    "rank": 3,
+    "embedding_distance": 0.04757411375879006,
+    "is_target_pair": false,
+    "cross_encoder_score": 8.123933792114258
+  },
+  {
+    "query_id": "h053",
+    "candidate_source_id": "h018",
+    "candidate_field": "C",
+    "rank": 4,
+    "embedding_distance": 0.1201421264092486,
+    "is_target_pair": false,
+    "cross_encoder_score": -6.258391380310059
+  },
+  {
+    "query_id": "h053",
+    "candidate_source_id": "h018",
+    "candidate_field": "A",
+    "rank": 5,
+    "embedding_distance": 0.12131054554943199,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.790517807006836
+  },
+  {
+    "query_id": "h053",
+    "candidate_source_id": "h018",
+    "candidate_field": "B_min",
+    "rank": 6,
+    "embedding_distance": 0.12215454164173589,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.283921241760254
+  },
+  {
+    "query_id": "h053",
+    "candidate_source_id": "h053",
+    "candidate_field": "C_tilde",
+    "rank": 7,
+    "embedding_distance": 0.12789371443022857,
+    "is_target_pair": true,
+    "cross_encoder_score": -7.359737396240234
+  },
+  {
+    "query_id": "h053",
+    "candidate_source_id": "h053",
+    "candidate_field": "broader",
+    "rank": 8,
+    "embedding_distance": 0.1305800074033443,
+    "is_target_pair": false,
+    "cross_encoder_score": 2.7989439964294434
+  },
+  {
+    "query_id": "h053",
+    "candidate_source_id": "h040",
+    "candidate_field": "broader",
+    "rank": 9,
+    "embedding_distance": 0.1347242937009866,
+    "is_target_pair": false,
+    "cross_encoder_score": 0.7283480763435364
+  },
+  {
+    "query_id": "h053",
+    "candidate_source_id": "h016",
+    "candidate_field": "broader",
+    "rank": 10,
+    "embedding_distance": 0.13682636249083213,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.692746162414551
+  },
+  {
+    "query_id": "h054",
+    "candidate_source_id": "h054",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.008331383813819704,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.801993370056152
+  },
+  {
+    "query_id": "h054",
+    "candidate_source_id": "h054",
+    "candidate_field": "narrower",
+    "rank": 2,
+    "embedding_distance": 0.026527046149807387,
+    "is_target_pair": false,
+    "cross_encoder_score": 8.153070449829102
+  },
+  {
+    "query_id": "h054",
+    "candidate_source_id": "h054",
+    "candidate_field": "C",
+    "rank": 3,
+    "embedding_distance": 0.034833243467465747,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.349783897399902
+  },
+  {
+    "query_id": "h054",
+    "candidate_source_id": "h055",
+    "candidate_field": "A",
+    "rank": 4,
+    "embedding_distance": 0.10314823478385593,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.0760631561279297
+  },
+  {
+    "query_id": "h054",
+    "candidate_source_id": "h047",
+    "candidate_field": "B_min",
+    "rank": 5,
+    "embedding_distance": 0.10370993852597132,
+    "is_target_pair": false,
+    "cross_encoder_score": -2.648475408554077
+  },
+  {
+    "query_id": "h054",
+    "candidate_source_id": "h047",
+    "candidate_field": "C",
+    "rank": 6,
+    "embedding_distance": 0.10453848213351125,
+    "is_target_pair": false,
+    "cross_encoder_score": -2.608471393585205
+  },
+  {
+    "query_id": "h054",
+    "candidate_source_id": "h055",
+    "candidate_field": "C",
+    "rank": 7,
+    "embedding_distance": 0.1066113716392465,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.250253677368164
+  },
+  {
+    "query_id": "h054",
+    "candidate_source_id": "h055",
+    "candidate_field": "B_min",
+    "rank": 8,
+    "embedding_distance": 0.10670872079367111,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.019501209259033
+  },
+  {
+    "query_id": "h054",
+    "candidate_source_id": "h047",
+    "candidate_field": "A",
+    "rank": 9,
+    "embedding_distance": 0.10756880123408363,
+    "is_target_pair": false,
+    "cross_encoder_score": -2.4258110523223877
+  },
+  {
+    "query_id": "h054",
+    "candidate_source_id": "h061",
+    "candidate_field": "A",
+    "rank": 10,
+    "embedding_distance": 0.10773793653276365,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.6269140243530273
+  },
+  {
+    "query_id": "h055",
+    "candidate_source_id": "h055",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.005129058322067559,
+    "is_target_pair": true,
+    "cross_encoder_score": 6.195223808288574
+  },
+  {
+    "query_id": "h055",
+    "candidate_source_id": "h055",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.017988856796452235,
+    "is_target_pair": true,
+    "cross_encoder_score": 6.2889509201049805
+  },
+  {
+    "query_id": "h055",
+    "candidate_source_id": "h055",
+    "candidate_field": "narrower",
+    "rank": 3,
+    "embedding_distance": 0.02382963271681182,
+    "is_target_pair": false,
+    "cross_encoder_score": 7.660610675811768
+  },
+  {
+    "query_id": "h055",
+    "candidate_source_id": "h047",
+    "candidate_field": "B_min",
+    "rank": 4,
+    "embedding_distance": 0.09410988572036205,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.753818511962891
+  },
+  {
+    "query_id": "h055",
+    "candidate_source_id": "h057",
+    "candidate_field": "A",
+    "rank": 5,
+    "embedding_distance": 0.09658761017213613,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.8759212493896484
+  },
+  {
+    "query_id": "h055",
+    "candidate_source_id": "h047",
+    "candidate_field": "A",
+    "rank": 6,
+    "embedding_distance": 0.09723153550251551,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.650118350982666
+  },
+  {
+    "query_id": "h055",
+    "candidate_source_id": "h057",
+    "candidate_field": "B_min",
+    "rank": 7,
+    "embedding_distance": 0.09729285749749472,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.059638977050781
+  },
+  {
+    "query_id": "h055",
+    "candidate_source_id": "h057",
+    "candidate_field": "C",
+    "rank": 8,
+    "embedding_distance": 0.09872419516347397,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.710843563079834
+  },
+  {
+    "query_id": "h055",
+    "candidate_source_id": "h054",
+    "candidate_field": "narrower",
+    "rank": 9,
+    "embedding_distance": 0.09914506797591194,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.6805970668792725
+  },
+  {
+    "query_id": "h055",
+    "candidate_source_id": "h047",
+    "candidate_field": "C",
+    "rank": 10,
+    "embedding_distance": 0.10038702432763713,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.746993541717529
+  },
+  {
+    "query_id": "h056",
+    "candidate_source_id": "h056",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.0032362759358081084,
+    "is_target_pair": true,
+    "cross_encoder_score": 8.455615997314453
+  },
+  {
+    "query_id": "h056",
+    "candidate_source_id": "h056",
+    "candidate_field": "narrower",
+    "rank": 2,
+    "embedding_distance": 0.01929169581959167,
+    "is_target_pair": false,
+    "cross_encoder_score": 8.444564819335938
+  },
+  {
+    "query_id": "h056",
+    "candidate_source_id": "h056",
+    "candidate_field": "C",
+    "rank": 3,
+    "embedding_distance": 0.037937571684631854,
+    "is_target_pair": true,
+    "cross_encoder_score": 6.777815341949463
+  },
+  {
+    "query_id": "h056",
+    "candidate_source_id": "h058",
+    "candidate_field": "broader",
+    "rank": 4,
+    "embedding_distance": 0.09757006291079129,
+    "is_target_pair": false,
+    "cross_encoder_score": 4.526078224182129
+  },
+  {
+    "query_id": "h056",
+    "candidate_source_id": "h056",
+    "candidate_field": "broader",
+    "rank": 5,
+    "embedding_distance": 0.1119676788704449,
+    "is_target_pair": false,
+    "cross_encoder_score": 0.5363247394561768
+  },
+  {
+    "query_id": "h056",
+    "candidate_source_id": "h052",
+    "candidate_field": "broader",
+    "rank": 6,
+    "embedding_distance": 0.1213860061364267,
+    "is_target_pair": false,
+    "cross_encoder_score": 0.3354336619377136
+  },
+  {
+    "query_id": "h056",
+    "candidate_source_id": "h044",
+    "candidate_field": "broader",
+    "rank": 7,
+    "embedding_distance": 0.12378652013354574,
+    "is_target_pair": false,
+    "cross_encoder_score": -1.397571086883545
+  },
+  {
+    "query_id": "h056",
+    "candidate_source_id": "h058",
+    "candidate_field": "B",
+    "rank": 8,
+    "embedding_distance": 0.12516454600362237,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.956258773803711
+  },
+  {
+    "query_id": "h056",
+    "candidate_source_id": "h056",
+    "candidate_field": "B",
+    "rank": 9,
+    "embedding_distance": 0.12684777233137334,
+    "is_target_pair": true,
+    "cross_encoder_score": -8.59233570098877
+  },
+  {
+    "query_id": "h056",
+    "candidate_source_id": "h058",
+    "candidate_field": "A",
+    "rank": 10,
+    "embedding_distance": 0.12956019153726805,
+    "is_target_pair": false,
+    "cross_encoder_score": -2.5079822540283203
+  },
+  {
+    "query_id": "h057",
+    "candidate_source_id": "h057",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.008229491452214632,
+    "is_target_pair": true,
+    "cross_encoder_score": 5.921019554138184
+  },
+  {
+    "query_id": "h057",
+    "candidate_source_id": "h057",
+    "candidate_field": "narrower",
+    "rank": 2,
+    "embedding_distance": 0.02463267412509229,
+    "is_target_pair": false,
+    "cross_encoder_score": 7.837188720703125
+  },
+  {
+    "query_id": "h057",
+    "candidate_source_id": "h057",
+    "candidate_field": "C",
+    "rank": 3,
+    "embedding_distance": 0.03458316400834449,
+    "is_target_pair": true,
+    "cross_encoder_score": 4.838752269744873
+  },
+  {
+    "query_id": "h057",
+    "candidate_source_id": "h055",
+    "candidate_field": "B_min",
+    "rank": 4,
+    "embedding_distance": 0.09586053740497535,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.3104095458984375
+  },
+  {
+    "query_id": "h057",
+    "candidate_source_id": "h055",
+    "candidate_field": "A",
+    "rank": 5,
+    "embedding_distance": 0.09658761017213613,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.436709403991699
+  },
+  {
+    "query_id": "h057",
+    "candidate_source_id": "h047",
+    "candidate_field": "B_min",
+    "rank": 6,
+    "embedding_distance": 0.09696205837812621,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.964903831481934
+  },
+  {
+    "query_id": "h057",
+    "candidate_source_id": "h047",
+    "candidate_field": "A",
+    "rank": 7,
+    "embedding_distance": 0.0978871482435526,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.811528205871582
+  },
+  {
+    "query_id": "h057",
+    "candidate_source_id": "h055",
+    "candidate_field": "C",
+    "rank": 8,
+    "embedding_distance": 0.09881904950531706,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.359550952911377
+  },
+  {
+    "query_id": "h057",
+    "candidate_source_id": "h055",
+    "candidate_field": "narrower",
+    "rank": 9,
+    "embedding_distance": 0.10142780252337302,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.645100116729736
+  },
+  {
+    "query_id": "h057",
+    "candidate_source_id": "h047",
+    "candidate_field": "C",
+    "rank": 10,
+    "embedding_distance": 0.10244871991130355,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.919827461242676
+  },
+  {
+    "query_id": "h058",
+    "candidate_source_id": "h058",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.019411393630872076,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.8156328201293945
+  },
+  {
+    "query_id": "h058",
+    "candidate_source_id": "h058",
+    "candidate_field": "narrower",
+    "rank": 2,
+    "embedding_distance": 0.03560099656304416,
+    "is_target_pair": false,
+    "cross_encoder_score": 8.564023971557617
+  },
+  {
+    "query_id": "h058",
+    "candidate_source_id": "h058",
+    "candidate_field": "C",
+    "rank": 3,
+    "embedding_distance": 0.040903010087339875,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.46390438079834
+  },
+  {
+    "query_id": "h058",
+    "candidate_source_id": "h056",
+    "candidate_field": "B_min",
+    "rank": 4,
+    "embedding_distance": 0.12393341153750903,
+    "is_target_pair": false,
+    "cross_encoder_score": 0.3859473466873169
+  },
+  {
+    "query_id": "h058",
+    "candidate_source_id": "h056",
+    "candidate_field": "A",
+    "rank": 5,
+    "embedding_distance": 0.12956019153726805,
+    "is_target_pair": false,
+    "cross_encoder_score": -1.6623857021331787
+  },
+  {
+    "query_id": "h058",
+    "candidate_source_id": "h052",
+    "candidate_field": "broader",
+    "rank": 6,
+    "embedding_distance": 0.13058379898722317,
+    "is_target_pair": false,
+    "cross_encoder_score": 2.384366273880005
+  },
+  {
+    "query_id": "h058",
+    "candidate_source_id": "h056",
+    "candidate_field": "narrower",
+    "rank": 7,
+    "embedding_distance": 0.13774548212974036,
+    "is_target_pair": false,
+    "cross_encoder_score": -1.7820879220962524
+  },
+  {
+    "query_id": "h058",
+    "candidate_source_id": "h058",
+    "candidate_field": "broader",
+    "rank": 8,
+    "embedding_distance": 0.14003210686612377,
+    "is_target_pair": false,
+    "cross_encoder_score": 3.75858211517334
+  },
+  {
+    "query_id": "h058",
+    "candidate_source_id": "h056",
+    "candidate_field": "C",
+    "rank": 9,
+    "embedding_distance": 0.1424042804457969,
+    "is_target_pair": false,
+    "cross_encoder_score": -2.405992031097412
+  },
+  {
+    "query_id": "h058",
+    "candidate_source_id": "h054",
+    "candidate_field": "A",
+    "rank": 10,
+    "embedding_distance": 0.14407969152671518,
+    "is_target_pair": false,
+    "cross_encoder_score": -11.040872573852539
+  },
+  {
+    "query_id": "h059",
+    "candidate_source_id": "h059",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.0020154543510063627,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.931290626525879
+  },
+  {
+    "query_id": "h059",
+    "candidate_source_id": "h059",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.017224854465257566,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.024653434753418
+  },
+  {
+    "query_id": "h059",
+    "candidate_source_id": "h059",
+    "candidate_field": "narrower",
+    "rank": 3,
+    "embedding_distance": 0.05105027121740768,
+    "is_target_pair": false,
+    "cross_encoder_score": 8.31704044342041
+  },
+  {
+    "query_id": "h059",
+    "candidate_source_id": "h059",
+    "candidate_field": "C_tilde",
+    "rank": 4,
+    "embedding_distance": 0.11288368531857473,
+    "is_target_pair": true,
+    "cross_encoder_score": -3.2316465377807617
+  },
+  {
+    "query_id": "h059",
+    "candidate_source_id": "h057",
+    "candidate_field": "B_min",
+    "rank": 5,
+    "embedding_distance": 0.12916265864257526,
+    "is_target_pair": false,
+    "cross_encoder_score": -6.100189208984375
+  },
+  {
+    "query_id": "h059",
+    "candidate_source_id": "h057",
+    "candidate_field": "A",
+    "rank": 6,
+    "embedding_distance": 0.13324757347426852,
+    "is_target_pair": false,
+    "cross_encoder_score": -5.747901916503906
+  },
+  {
+    "query_id": "h059",
+    "candidate_source_id": "h048",
+    "candidate_field": "C_tilde",
+    "rank": 7,
+    "embedding_distance": 0.13475240609275108,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.11141300201416
+  },
+  {
+    "query_id": "h059",
+    "candidate_source_id": "h057",
+    "candidate_field": "B",
+    "rank": 8,
+    "embedding_distance": 0.1365856315988203,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.512166976928711
+  },
+  {
+    "query_id": "h059",
+    "candidate_source_id": "h054",
+    "candidate_field": "C",
+    "rank": 9,
+    "embedding_distance": 0.14359483862283084,
+    "is_target_pair": false,
+    "cross_encoder_score": -9.805154800415039
+  },
+  {
+    "query_id": "h059",
+    "candidate_source_id": "h044",
+    "candidate_field": "B",
+    "rank": 10,
+    "embedding_distance": 0.146824880514984,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.406484603881836
+  },
+  {
+    "query_id": "h060",
+    "candidate_source_id": "h060",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.0024818718006157647,
+    "is_target_pair": true,
+    "cross_encoder_score": 8.23984146118164
+  },
+  {
+    "query_id": "h060",
+    "candidate_source_id": "h060",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.017214466650284477,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.75428581237793
+  },
+  {
+    "query_id": "h060",
+    "candidate_source_id": "h060",
+    "candidate_field": "narrower",
+    "rank": 3,
+    "embedding_distance": 0.022783636766149584,
+    "is_target_pair": false,
+    "cross_encoder_score": 8.897422790527344
+  },
+  {
+    "query_id": "h060",
+    "candidate_source_id": "h018",
+    "candidate_field": "C",
+    "rank": 4,
+    "embedding_distance": 0.1007208874275406,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.901216506958008
+  },
+  {
+    "query_id": "h060",
+    "candidate_source_id": "h018",
+    "candidate_field": "A",
+    "rank": 5,
+    "embedding_distance": 0.1008893847706076,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.376838445663452
+  },
+  {
+    "query_id": "h060",
+    "candidate_source_id": "h018",
+    "candidate_field": "B_min",
+    "rank": 6,
+    "embedding_distance": 0.10363597740682962,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.34599494934082
+  },
+  {
+    "query_id": "h060",
+    "candidate_source_id": "h009",
+    "candidate_field": "narrower",
+    "rank": 7,
+    "embedding_distance": 0.11057530939195692,
+    "is_target_pair": false,
+    "cross_encoder_score": -2.8721983432769775
+  },
+  {
+    "query_id": "h060",
+    "candidate_source_id": "h054",
+    "candidate_field": "narrower",
+    "rank": 8,
+    "embedding_distance": 0.11313712571174273,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.887253761291504
+  },
+  {
+    "query_id": "h060",
+    "candidate_source_id": "h060",
+    "candidate_field": "C_tilde",
+    "rank": 9,
+    "embedding_distance": 0.1143148092257783,
+    "is_target_pair": true,
+    "cross_encoder_score": -4.47390079498291
+  },
+  {
+    "query_id": "h060",
+    "candidate_source_id": "h023",
+    "candidate_field": "C",
+    "rank": 10,
+    "embedding_distance": 0.11433548370770408,
+    "is_target_pair": false,
+    "cross_encoder_score": -0.9072192907333374
+  },
+  {
+    "query_id": "h061",
+    "candidate_source_id": "h061",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.002041325108069869,
+    "is_target_pair": true,
+    "cross_encoder_score": 7.420561790466309
+  },
+  {
+    "query_id": "h061",
+    "candidate_source_id": "h061",
+    "candidate_field": "narrower",
+    "rank": 2,
+    "embedding_distance": 0.016284640585131127,
+    "is_target_pair": false,
+    "cross_encoder_score": 8.02161979675293
+  },
+  {
+    "query_id": "h061",
+    "candidate_source_id": "h061",
+    "candidate_field": "C",
+    "rank": 3,
+    "embedding_distance": 0.02807137732682241,
+    "is_target_pair": true,
+    "cross_encoder_score": 6.445294380187988
+  },
+  {
+    "query_id": "h061",
+    "candidate_source_id": "h054",
+    "candidate_field": "A",
+    "rank": 4,
+    "embedding_distance": 0.10773793653276365,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.747373580932617
+  },
+  {
+    "query_id": "h061",
+    "candidate_source_id": "h054",
+    "candidate_field": "B_min",
+    "rank": 5,
+    "embedding_distance": 0.11333353604101404,
+    "is_target_pair": false,
+    "cross_encoder_score": -3.8258533477783203
+  },
+  {
+    "query_id": "h061",
+    "candidate_source_id": "h047",
+    "candidate_field": "B_min",
+    "rank": 6,
+    "embedding_distance": 0.11727514024800034,
+    "is_target_pair": false,
+    "cross_encoder_score": -6.476421356201172
+  },
+  {
+    "query_id": "h061",
+    "candidate_source_id": "h054",
+    "candidate_field": "narrower",
+    "rank": 7,
+    "embedding_distance": 0.1180527457422107,
+    "is_target_pair": false,
+    "cross_encoder_score": -4.307042121887207
+  },
+  {
+    "query_id": "h061",
+    "candidate_source_id": "h047",
+    "candidate_field": "A",
+    "rank": 8,
+    "embedding_distance": 0.1184909153509881,
+    "is_target_pair": false,
+    "cross_encoder_score": -6.330501556396484
+  },
+  {
+    "query_id": "h061",
+    "candidate_source_id": "h047",
+    "candidate_field": "C",
+    "rank": 9,
+    "embedding_distance": 0.11909392136680619,
+    "is_target_pair": false,
+    "cross_encoder_score": -6.520502090454102
+  },
+  {
+    "query_id": "h061",
+    "candidate_source_id": "h055",
+    "candidate_field": "B_min",
+    "rank": 10,
+    "embedding_distance": 0.1218438067645704,
+    "is_target_pair": false,
+    "cross_encoder_score": -6.079512596130371
+  },
+  {
+    "query_id": "h062",
+    "candidate_source_id": "h062",
+    "candidate_field": "B_min",
+    "rank": 1,
+    "embedding_distance": 0.01558424224240551,
+    "is_target_pair": true,
+    "cross_encoder_score": 6.789944648742676
+  },
+  {
+    "query_id": "h062",
+    "candidate_source_id": "h062",
+    "candidate_field": "C",
+    "rank": 2,
+    "embedding_distance": 0.04128159515583374,
+    "is_target_pair": true,
+    "cross_encoder_score": 5.011233806610107
+  },
+  {
+    "query_id": "h062",
+    "candidate_source_id": "h062",
+    "candidate_field": "narrower",
+    "rank": 3,
+    "embedding_distance": 0.05647382469125972,
+    "is_target_pair": false,
+    "cross_encoder_score": 7.695854187011719
+  },
+  {
+    "query_id": "h062",
+    "candidate_source_id": "h062",
+    "candidate_field": "B",
+    "rank": 4,
+    "embedding_distance": 0.06353857673636631,
+    "is_target_pair": true,
+    "cross_encoder_score": -0.9062842130661011
+  },
+  {
+    "query_id": "h062",
+    "candidate_source_id": "h062",
+    "candidate_field": "broader",
+    "rank": 5,
+    "embedding_distance": 0.0939230679694586,
+    "is_target_pair": false,
+    "cross_encoder_score": 3.241792678833008
+  },
+  {
+    "query_id": "h062",
+    "candidate_source_id": "h062",
+    "candidate_field": "C_tilde",
+    "rank": 6,
+    "embedding_distance": 0.10443421263341746,
+    "is_target_pair": true,
+    "cross_encoder_score": -5.253150939941406
+  },
+  {
+    "query_id": "h062",
+    "candidate_source_id": "h024",
+    "candidate_field": "A",
+    "rank": 7,
+    "embedding_distance": 0.14367154248673186,
+    "is_target_pair": false,
+    "cross_encoder_score": -9.147499084472656
+  },
+  {
+    "query_id": "h062",
+    "candidate_source_id": "h024",
+    "candidate_field": "B_min",
+    "rank": 8,
+    "embedding_distance": 0.14392831889303603,
+    "is_target_pair": false,
+    "cross_encoder_score": -9.16707992553711
+  },
+  {
+    "query_id": "h062",
+    "candidate_source_id": "h022",
+    "candidate_field": "B_min",
+    "rank": 9,
+    "embedding_distance": 0.14394235029245672,
+    "is_target_pair": false,
+    "cross_encoder_score": -7.9454193115234375
+  },
+  {
+    "query_id": "h062",
+    "candidate_source_id": "h022",
+    "candidate_field": "C",
+    "rank": 10,
+    "embedding_distance": 0.1443553360898847,
+    "is_target_pair": false,
+    "cross_encoder_score": -8.574942588806152
+  }
+]

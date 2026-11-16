@@ -1,0 +1,217 @@
+{
+  "source": "saved OpenAlex API responses; no network access",
+  "protocol_eligibility": "supplementary only; Semantic Scholar provenance remains required",
+  "candidate_count": 10,
+  "candidates": [
+    {
+      "title": null,
+      "title_status": "NOT_INCLUDED_IN_SAVED_RESPONSE",
+      "doi": "https://doi.org/10.18653/v1/2021.eacl-main.86",
+      "arxiv_id": null,
+      "publication_date": "2021-01-01",
+      "openalex_id": "https://openalex.org/W3047026265",
+      "openalex_source_url": "https://openalex.org/W3047026265",
+      "cited_seed_openalex_ids": [
+        "https://openalex.org/W3015883388",
+        "https://openalex.org/W3027879771",
+        "https://openalex.org/W3039017601"
+      ],
+      "corresponding_seed_semantic_scholar_ids": [
+        "659bf9ce7175e1ec266ff54359e2bd76e0b7ff31",
+        "b26f2037f769d5ffc5f7bdcec2de8da28ec14bee",
+        "ea8c46e193d5121e440daf96edfd15a47151c293"
+      ],
+      "semantic_scholar_lookup_url": "https://www.semanticscholar.org/search?q=https://doi.org/10.18653/v1/2021.eacl-main.86",
+      "semantic_scholar_status": "UNVERIFIED"
+    },
+    {
+      "title": null,
+      "title_status": "NOT_INCLUDED_IN_SAVED_RESPONSE",
+      "doi": "https://doi.org/10.18653/v1/2021.findings-emnlp.320",
+      "arxiv_id": null,
+      "publication_date": "2021-01-01",
+      "openalex_id": "https://openalex.org/W3155807546",
+      "openalex_source_url": "https://openalex.org/W3155807546",
+      "cited_seed_openalex_ids": [
+        "https://openalex.org/W3015883388",
+        "https://openalex.org/W3027879771",
+        "https://openalex.org/W3039017601"
+      ],
+      "corresponding_seed_semantic_scholar_ids": [
+        "659bf9ce7175e1ec266ff54359e2bd76e0b7ff31",
+        "b26f2037f769d5ffc5f7bdcec2de8da28ec14bee",
+        "ea8c46e193d5121e440daf96edfd15a47151c293"
+      ],
+      "semantic_scholar_lookup_url": "https://www.semanticscholar.org/search?q=https://doi.org/10.18653/v1/2021.findings-emnlp.320",
+      "semantic_scholar_status": "UNVERIFIED"
+    },
+    {
+      "title": null,
+      "title_status": "NOT_INCLUDED_IN_SAVED_RESPONSE",
+      "doi": "https://doi.org/10.18653/v1/2021.naacl-main.466",
+      "arxiv_id": null,
+      "publication_date": "2021-01-01",
+      "openalex_id": "https://openalex.org/W3168875417",
+      "openalex_source_url": "https://openalex.org/W3168875417",
+      "cited_seed_openalex_ids": [
+        "https://openalex.org/W3015883388",
+        "https://openalex.org/W3027879771",
+        "https://openalex.org/W3039017601"
+      ],
+      "corresponding_seed_semantic_scholar_ids": [
+        "659bf9ce7175e1ec266ff54359e2bd76e0b7ff31",
+        "b26f2037f769d5ffc5f7bdcec2de8da28ec14bee",
+        "ea8c46e193d5121e440daf96edfd15a47151c293"
+      ],
+      "semantic_scholar_lookup_url": "https://www.semanticscholar.org/search?q=https://doi.org/10.18653/v1/2021.naacl-main.466",
+      "semantic_scholar_status": "UNVERIFIED"
+    },
+    {
+      "title": null,
+      "title_status": "NOT_INCLUDED_IN_SAVED_RESPONSE",
+      "doi": "https://doi.org/10.18653/v1/2021.acl-long.316",
+      "arxiv_id": null,
+      "publication_date": "2021-01-01",
+      "openalex_id": "https://openalex.org/W3176182290",
+      "openalex_source_url": "https://openalex.org/W3176182290",
+      "cited_seed_openalex_ids": [
+        "https://openalex.org/W3015883388",
+        "https://openalex.org/W3027879771",
+        "https://openalex.org/W3039017601"
+      ],
+      "corresponding_seed_semantic_scholar_ids": [
+        "659bf9ce7175e1ec266ff54359e2bd76e0b7ff31",
+        "b26f2037f769d5ffc5f7bdcec2de8da28ec14bee",
+        "ea8c46e193d5121e440daf96edfd15a47151c293"
+      ],
+      "semantic_scholar_lookup_url": "https://www.semanticscholar.org/search?q=https://doi.org/10.18653/v1/2021.acl-long.316",
+      "semantic_scholar_status": "UNVERIFIED"
+    },
+    {
+      "title": null,
+      "title_status": "NOT_INCLUDED_IN_SAVED_RESPONSE",
+      "doi": "https://doi.org/10.18653/v1/2021.findings-emnlp.232",
+      "arxiv_id": null,
+      "publication_date": "2021-01-01",
+      "openalex_id": "https://openalex.org/W3194195934",
+      "openalex_source_url": "https://openalex.org/W3194195934",
+      "cited_seed_openalex_ids": [
+        "https://openalex.org/W3015883388",
+        "https://openalex.org/W3027879771",
+        "https://openalex.org/W3039017601"
+      ],
+      "corresponding_seed_semantic_scholar_ids": [
+        "659bf9ce7175e1ec266ff54359e2bd76e0b7ff31",
+        "b26f2037f769d5ffc5f7bdcec2de8da28ec14bee",
+        "ea8c46e193d5121e440daf96edfd15a47151c293"
+      ],
+      "semantic_scholar_lookup_url": "https://www.semanticscholar.org/search?q=https://doi.org/10.18653/v1/2021.findings-emnlp.232",
+      "semantic_scholar_status": "UNVERIFIED"
+    },
+    {
+      "title": null,
+      "title_status": "NOT_INCLUDED_IN_SAVED_RESPONSE",
+      "doi": "https://doi.org/10.18653/v1/2021.emnlp-main.565",
+      "arxiv_id": null,
+      "publication_date": "2021-01-01",
+      "openalex_id": "https://openalex.org/W3199011812",
+      "openalex_source_url": "https://openalex.org/W3199011812",
+      "cited_seed_openalex_ids": [
+        "https://openalex.org/W3015883388",
+        "https://openalex.org/W3027879771",
+        "https://openalex.org/W3039017601"
+      ],
+      "corresponding_seed_semantic_scholar_ids": [
+        "659bf9ce7175e1ec266ff54359e2bd76e0b7ff31",
+        "b26f2037f769d5ffc5f7bdcec2de8da28ec14bee",
+        "ea8c46e193d5121e440daf96edfd15a47151c293"
+      ],
+      "semantic_scholar_lookup_url": "https://www.semanticscholar.org/search?q=https://doi.org/10.18653/v1/2021.emnlp-main.565",
+      "semantic_scholar_status": "UNVERIFIED"
+    },
+    {
+      "title": null,
+      "title_status": "NOT_INCLUDED_IN_SAVED_RESPONSE",
+      "doi": "https://doi.org/10.18653/v1/2022.acl-long.579",
+      "arxiv_id": null,
+      "publication_date": "2022-01-01",
+      "openalex_id": "https://openalex.org/W3186138538",
+      "openalex_source_url": "https://openalex.org/W3186138538",
+      "cited_seed_openalex_ids": [
+        "https://openalex.org/W3015883388",
+        "https://openalex.org/W3027879771",
+        "https://openalex.org/W3039017601"
+      ],
+      "corresponding_seed_semantic_scholar_ids": [
+        "659bf9ce7175e1ec266ff54359e2bd76e0b7ff31",
+        "b26f2037f769d5ffc5f7bdcec2de8da28ec14bee",
+        "ea8c46e193d5121e440daf96edfd15a47151c293"
+      ],
+      "semantic_scholar_lookup_url": "https://www.semanticscholar.org/search?q=https://doi.org/10.18653/v1/2022.acl-long.579",
+      "semantic_scholar_status": "UNVERIFIED"
+    },
+    {
+      "title": null,
+      "title_status": "NOT_INCLUDED_IN_SAVED_RESPONSE",
+      "doi": "https://doi.org/10.18653/v1/2022.acl-long.356",
+      "arxiv_id": null,
+      "publication_date": "2022-01-01",
+      "openalex_id": "https://openalex.org/W3186804217",
+      "openalex_source_url": "https://openalex.org/W3186804217",
+      "cited_seed_openalex_ids": [
+        "https://openalex.org/W3015883388",
+        "https://openalex.org/W3027879771",
+        "https://openalex.org/W3039017601"
+      ],
+      "corresponding_seed_semantic_scholar_ids": [
+        "659bf9ce7175e1ec266ff54359e2bd76e0b7ff31",
+        "b26f2037f769d5ffc5f7bdcec2de8da28ec14bee",
+        "ea8c46e193d5121e440daf96edfd15a47151c293"
+      ],
+      "semantic_scholar_lookup_url": "https://www.semanticscholar.org/search?q=https://doi.org/10.18653/v1/2022.acl-long.356",
+      "semantic_scholar_status": "UNVERIFIED"
+    },
+    {
+      "title": null,
+      "title_status": "NOT_INCLUDED_IN_SAVED_RESPONSE",
+      "doi": "https://doi.org/10.18653/v1/2022.naacl-main.194",
+      "arxiv_id": null,
+      "publication_date": "2022-01-01",
+      "openalex_id": "https://openalex.org/W4287887100",
+      "openalex_source_url": "https://openalex.org/W4287887100",
+      "cited_seed_openalex_ids": [
+        "https://openalex.org/W3015883388",
+        "https://openalex.org/W3027879771",
+        "https://openalex.org/W3039017601"
+      ],
+      "corresponding_seed_semantic_scholar_ids": [
+        "659bf9ce7175e1ec266ff54359e2bd76e0b7ff31",
+        "b26f2037f769d5ffc5f7bdcec2de8da28ec14bee",
+        "ea8c46e193d5121e440daf96edfd15a47151c293"
+      ],
+      "semantic_scholar_lookup_url": "https://www.semanticscholar.org/search?q=https://doi.org/10.18653/v1/2022.naacl-main.194",
+      "semantic_scholar_status": "UNVERIFIED"
+    },
+    {
+      "title": null,
+      "title_status": "NOT_INCLUDED_IN_SAVED_RESPONSE",
+      "doi": "https://doi.org/10.18653/v1/2022.emnlp-main.249",
+      "arxiv_id": null,
+      "publication_date": "2022-01-01",
+      "openalex_id": "https://openalex.org/W4385573057",
+      "openalex_source_url": "https://openalex.org/W4385573057",
+      "cited_seed_openalex_ids": [
+        "https://openalex.org/W3015883388",
+        "https://openalex.org/W3027879771",
+        "https://openalex.org/W3039017601"
+      ],
+      "corresponding_seed_semantic_scholar_ids": [
+        "659bf9ce7175e1ec266ff54359e2bd76e0b7ff31",
+        "b26f2037f769d5ffc5f7bdcec2de8da28ec14bee",
+        "ea8c46e193d5121e440daf96edfd15a47151c293"
+      ],
+      "semantic_scholar_lookup_url": "https://www.semanticscholar.org/search?q=https://doi.org/10.18653/v1/2022.emnlp-main.249",
+      "semantic_scholar_status": "UNVERIFIED"
+    }
+  ]
+}

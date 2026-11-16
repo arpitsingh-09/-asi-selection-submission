@@ -1,0 +1,21 @@
+{
+  "completed_dois": [],
+  "verified_records": {},
+  "last_error": {
+    "doi": "10.18653/v1/2021.eacl-main.86",
+    "status": 429,
+    "body": "{\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"}",
+    "stage": "ACL"
+  },
+  "attempt_errors": [
+    {
+      "doi": "10.18653/v1/2021.eacl-main.86",
+      "status": 429,
+      "body": "{\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"}",
+      "stage": "ACL"
+    }
+  ],
+  "doi_not_found": {
+    "10.18653/v1/2021.eacl-main.86": "{\"error\":\"Paper with id DOI:10.18653/v1/2021.eacl-main.86 not found\"}\n"
+  }
+}

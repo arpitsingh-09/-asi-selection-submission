@@ -1,0 +1,15 @@
+{
+  "rows": 6,
+  "source_specific_match_proposals": 3,
+  "unresolved_rows": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "human_verified": 0,
+  "decoy_questions_replaced": 0,
+  "reason": "Local corpus has source papers matching several specific problems, but the selected source abstracts do not expose an exact question span for reuse. New question text was not created."
+}

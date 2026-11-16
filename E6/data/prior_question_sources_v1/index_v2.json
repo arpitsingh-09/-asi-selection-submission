@@ -1,0 +1,65 @@
+{
+  "schema_version": "e6-prior-question-source-index-v1",
+  "sources": [
+    {
+      "path": "E6/data/prior_question_sources_v1/arxiv_2305_12544.txt",
+      "source_url": "https://arxiv.org/abs/2305.12544",
+      "retrieved_at_utc": "2026-11-12T02:26:21Z"
+    },
+    {
+      "path": "E6/data/prior_question_sources_v1/arxiv_1706_03762.txt",
+      "source_url": "https://arxiv.org/abs/1706.03762",
+      "retrieved_at_utc": "2026-11-12T02:26:21Z"
+    },
+    {
+      "path": "E6/data/prior_question_sources_v1/arxiv_1811_04820.txt",
+      "source_url": "https://arxiv.org/abs/1811.04820",
+      "retrieved_at_utc": "2026-11-12T02:26:21Z"
+    },
+    {
+      "path": "E6/data/prior_question_sources_v1/arxiv_1202_3732.txt",
+      "source_url": "https://arxiv.org/abs/1202.3732",
+      "retrieved_at_utc": "2026-11-12T02:29:38Z"
+    },
+    {
+      "path": "E6/data/prior_question_sources_v1/arxiv_1801_03924.txt",
+      "source_url": "https://arxiv.org/abs/1801.03924",
+      "retrieved_at_utc": "2026-11-12T02:29:38Z"
+    },
+    {
+      "path": "E6/data/prior_question_sources_v1/arxiv_1803_05457.txt",
+      "source_url": "https://arxiv.org/abs/1803.05457",
+      "retrieved_at_utc": "2026-11-12T02:29:38Z"
+    },
+    {
+      "path": "E6/data/prior_question_sources_v1/arxiv_1804_08328.txt",
+      "source_url": "https://arxiv.org/abs/1804.08328",
+      "retrieved_at_utc": "2026-11-12T02:29:38Z"
+    },
+    {
+      "path": "E6/data/prior_question_sources_v1/arxiv_2204_14211.txt",
+      "source_url": "https://arxiv.org/abs/2204.14211",
+      "retrieved_at_utc": "2026-11-12T02:29:38Z"
+    },
+    {
+      "path": "E6/data/prior_question_sources_v1/arxiv_2207_13332.txt",
+      "source_url": "https://arxiv.org/abs/2207.13332",
+      "retrieved_at_utc": "2026-11-12T02:29:38Z"
+    }
+  ],
+  "retrieval_failures": [
+    {
+      "source": "arXiv API",
+      "paper_id": "2305.12544",
+      "error": "DNS resolution failed in local Python transport: [Errno 8] nodename nor servname provided, or not known",
+      "fallback": "real arXiv abstract pages retrieved via web tool; snapshots preserved"
+    },
+    {
+      "source": "arXiv version URL",
+      "url": "https://arxiv.org/abs/2305.12544v2",
+      "error": "web-tool cache miss",
+      "fallback": "unversioned abstract page explicitly identifies observed version v2 and its exact submission-history timestamp"
+    }
+  ],
+  "selection_scope": "Original three source pages plus first six stable arXiv IDs with candidate explicit abstract questions in existing frozen E6 references; references used only for discovery, re-retrieved independently from arXiv. No experimental generated questions or TEST records inspected."
+}

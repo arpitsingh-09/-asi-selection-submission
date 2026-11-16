@@ -1,0 +1,69 @@
+{
+  "schema": "M-public-human-evidence-acquisition-v1",
+  "collected_at_utc": "2026-11-14T04:17:44Z",
+  "dataset": {
+    "name": "NovGauge",
+    "paper_arxiv_id": "2609.11234",
+    "dataset_repository": "https://huggingface.co/datasets/ZitaGo/NovGauge",
+    "author_repository": "https://github.com/Zita-Go/NovGauge",
+    "revision": "3b4d9589ca72499b30cf1fb766f143b74e6dbe89",
+    "license": "CC BY 4.0",
+    "attribution": "NovGauge authors, ZitaGo/NovGauge; cite arXiv:2609.11234",
+    "files": {
+      "positives.json": {
+        "path": "M/data/public_human_evidence_v1/novgauge/positives.json",
+        "bytes": 594671,
+        "sha256": "0dab834d05ed84adc1d80d1a6b7b22665131ac5a2bad0461569004e051a5aada"
+      },
+      "negatives.json": {
+        "path": "M/data/public_human_evidence_v1/novgauge/negatives.json",
+        "bytes": 199949,
+        "sha256": "0029b9bdc582ff36f90f3e8bce8d92e7e406673ca5eb59e4ab4e68b28dbe6e6c"
+      },
+      "grouping.json": {
+        "path": "M/data/public_human_evidence_v1/novgauge/grouping.json",
+        "bytes": 124987,
+        "sha256": "fa18212b5935c27fa020a987799ddc35c289d1688a6f4ba2257b969f077c5752"
+      }
+    }
+  },
+  "verified_content": {
+    "positive_pairs": 463,
+    "negative_pairs": 156,
+    "grouping_sets": 50,
+    "unique_pair_ids": 619,
+    "labeled_dimensions": {
+      "task": {
+        "positive": 222,
+        "negative": 77
+      },
+      "problem": {
+        "positive": 162,
+        "negative": 33
+      },
+      "method": {
+        "positive": 265,
+        "negative": 116
+      }
+    },
+    "source_counts": {
+      "iclr_positive": 236,
+      "survey_positive": 227,
+      "survey_negative": 156
+    },
+    "verification_claim": "Dataset paper says three PhD-level annotators verified benchmark labels; the released records contain final labels, not annotator identities or individual votes.",
+    "raw_source_files_preserved": true,
+    "screened_records_file": "screened_pair_records.jsonl"
+  },
+  "eligibility": {
+    "M_train_exact_arxiv_matches": 0,
+    "M_validation_exact_arxiv_matches": 0,
+    "M_test_exact_arxiv_matches": 0,
+    "records_eligible_for_M_training_or_validation": 0,
+    "records_eligible_for_registered_M_test": 0,
+    "reason": "The published data are explicitly a single test split and the paper IDs do not match the frozen M manifests. The release omits question/input links, question-posing dates, review timestamps, and per-annotator votes. It is preserved as external source evidence only; it is not used for fitting or scoring."
+  },
+  "frozen_protocol_unchanged": true,
+  "E1_E2_E5_E6_unchanged": true,
+  "registered_evaluation_run": false
+}

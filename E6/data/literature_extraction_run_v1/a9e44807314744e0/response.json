@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:26:26.389795+00:00",
+  "identity": "13d4f012d2134b076ad46df18f8781d60c83a5b21180270c68a5e503181e3020",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:26:26.376947Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 61,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 7.957190749999995,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:26:26.376947Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 3059,
+      "prompt_eval_count": 616,
+      "prompt_sha256": "a521b33ae7a5bb094b2576951ae3ff7c201f5764dcbb8abc074cb7c4682843d4",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 677,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 616,
+    "latency_seconds": 7.957190749999995,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:26:26.376947Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 61,
+    "raw_response": "{\n  \"research_question\": \"How can raw images of handwritten circuit diagrams be converted into executable SPICE-like netlists?\",\n  \"research_question_explicit\": true,\n  \"main_hypothesis\": null,\n  \"main_hypothesis_explicit\": false\n}",
+    "total_tokens": 677
+  },
+  "reply_sha256": "0d3bab7e26c2a1479818dc30189fce8fea6a23fb31537d09d7c0699afbc8a8be"
+}

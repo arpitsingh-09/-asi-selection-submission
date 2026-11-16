@@ -1,0 +1,159 @@
+{
+  "schema": "M-ingestion-v1",
+  "review_sources": [
+    {
+      "path": "/Users/arpit/Downloads/iclr_task3_baseline/data/iclr_2023/reviews.jsonl",
+      "records_scanned": 1000,
+      "outcomes_recovered": 270,
+      "scan_rule": "first fixed 1000 records maximum; no outcome-based selection"
+    },
+    {
+      "path": "/Users/arpit/Downloads/iclr_task3_baseline/data/iclr_2024/reviews.jsonl",
+      "records_scanned": 1000,
+      "outcomes_recovered": 300,
+      "scan_rule": "first fixed 1000 records maximum; no outcome-based selection"
+    }
+  ],
+  "genuine_source_review_values": 570,
+  "verified_public_observation_dates": 0,
+  "paper_identity_links": 277,
+  "linked_papers_with_verbatim_question_candidates": 9,
+  "usable_question_linked_labels": 0,
+  "undated_benchmark_aggregates": 299,
+  "annotation_status": {
+    "E1_alignment_status_counts": {
+      "PENDING_MANUAL_CONFIRMATION": 61
+    },
+    "E1_source_file_sha256": "45786a684a0c5bb5abfa12c74e9aed5e1cdb111f6a9b933fcdb09c1a77615218"
+  },
+  "real_evaluations": 0,
+  "cohorts": {
+    "I1": {
+      "schema": "M-core-readiness-v2",
+      "test": "I1",
+      "status": "BLOCKED",
+      "eligible_records": 0,
+      "heldout_evaluated": false,
+      "metrics": null,
+      "ci95": null,
+      "baseline_comparisons": null,
+      "missing_dependencies": [
+        "No verified original input links, shuffled/independently verified decoy controls.",
+        "No fitted Q heads or frozen normalization for every readout."
+      ]
+    },
+    "I3": {
+      "schema": "M-core-readiness-v2",
+      "test": "I3",
+      "status": "BLOCKED",
+      "eligible_records": 0,
+      "heldout_evaluated": false,
+      "metrics": null,
+      "ci95": null,
+      "baseline_comparisons": null,
+      "missing_dependencies": [
+        "No length-matched dated Q/N preference labels linked to M questions.",
+        "Q heads unavailable."
+      ]
+    },
+    "S1": {
+      "schema": "M-core-readiness-v2",
+      "test": "S1",
+      "status": "BLOCKED",
+      "eligible_records": 0,
+      "heldout_evaluated": false,
+      "metrics": null,
+      "ci95": null,
+      "baseline_comparisons": null,
+      "missing_dependencies": [
+        "E1 source-alignment/second-reader annotations are unverified.",
+        "Question creation dates and original input/control links unavailable.",
+        "No verified cache model training cutoff."
+      ]
+    },
+    "A1": {
+      "schema": "M-core-readiness-v2",
+      "test": "A1",
+      "status": "BLOCKED",
+      "eligible_records": 0,
+      "heldout_evaluated": false,
+      "metrics": null,
+      "ci95": null,
+      "baseline_comparisons": null,
+      "missing_dependencies": [
+        "Existing E2 results are previously evaluated development evidence, not prospective M tests.",
+        "No new heldout partial-coverage/concentration cohort with original inputs and four controls."
+      ]
+    },
+    "H1": {
+      "schema": "M-core-readiness-v2",
+      "test": "H1",
+      "status": "BLOCKED",
+      "eligible_records": 0,
+      "heldout_evaluated": false,
+      "metrics": null,
+      "ci95": null,
+      "baseline_comparisons": null,
+      "missing_dependencies": [
+        "No local source-bound expert battles linked to seed IDs and generating systems with dated labels.",
+        "Q heads unavailable."
+      ]
+    },
+    "H3": {
+      "schema": "M-core-readiness-v2",
+      "test": "H3",
+      "status": "BLOCKED",
+      "eligible_records": 0,
+      "heldout_evaluated": false,
+      "metrics": null,
+      "ci95": null,
+      "baseline_comparisons": null,
+      "missing_dependencies": [
+        "No post-July-2025 original question/version and review-observation-date linkage.",
+        "Q heads, semantic B-Q and independently estimated human ceiling unavailable."
+      ]
+    },
+    "O1": {
+      "schema": "M-core-readiness-v2",
+      "test": "O1",
+      "status": "BLOCKED",
+      "eligible_records": 0,
+      "heldout_evaluated": false,
+      "metrics": null,
+      "ci95": null,
+      "baseline_comparisons": null,
+      "missing_dependencies": [
+        "No dated peer-review AND community-use outcomes linked to postcutoff question versions within topic.",
+        "Both Q heads unavailable."
+      ]
+    },
+    "O2": {
+      "schema": "M-core-readiness-v2",
+      "test": "O2",
+      "status": "BLOCKED",
+      "eligible_records": 0,
+      "heldout_evaluated": false,
+      "metrics": null,
+      "ci95": null,
+      "baseline_comparisons": null,
+      "missing_dependencies": [
+        "No verified identical >=3-seed citation groups, within-year dates and dated outcome linkage.",
+        "Q outcome prediction unavailable."
+      ]
+    },
+    "T1": {
+      "schema": "M-core-readiness-v2",
+      "test": "T1",
+      "status": "BLOCKED",
+      "eligible_records": 0,
+      "heldout_evaluated": false,
+      "metrics": null,
+      "ci95": null,
+      "baseline_comparisons": null,
+      "missing_dependencies": [
+        "No separately trained and prospectively frozen 2022 and 2023 head artifacts.",
+        "No complete-head normalized predictions and original input controls."
+      ]
+    }
+  }
+}

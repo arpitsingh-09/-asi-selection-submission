@@ -1,0 +1,32 @@
+{
+  "client_configuration": {
+    "backend": "ollama-local",
+    "endpoint": "http://localhost:11434/api/generate",
+    "format": "json",
+    "generation_options": {
+      "num_ctx": 32768,
+      "num_predict": 2048,
+      "seed": 2026,
+      "temperature": 0,
+      "top_p": 1
+    },
+    "model": "gemma3:12b",
+    "stream": false,
+    "timeout_seconds": 600.0
+  },
+  "content_attempt": 1,
+  "identity": "a78c854f019fc759359b8598cd01bdf087ab567cba555f488116b8e99c174c57",
+  "model_configuration": {
+    "context_limit": 32768,
+    "immutable_version_or_digest": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+    "max_output_tokens": 2048,
+    "model": "gemma3:12b",
+    "seed": 2026,
+    "temperature": 0,
+    "top_p": 1
+  },
+  "prompt": "ROLE\nYou are a scientific paper information extractor.\n\nTASK\nExtract the target paper's research question and main hypothesis using only the supplied paper text.\n\nTARGET PAPER TEXT\nRecent advancements in physics-informed neural networks (PINNs) and their variants have garnered substantial focus from researchers due to their effectiveness in solving both forward and inverse problems governed by differential equations. In this research, a modified Auxiliary physics-informed neural network (A-PINN) framework with balanced adaptive optimizers is proposed for the analysis of structural vibration problems. In order to accurately represent structural systems, it is critical for capturing vibration phenomena and ensuring reliable predictive analysis. So, our investigations are crucial for gaining deeper insight into the robustness of scientific machine learning models for solving vibration problems. Further, to rigorously evaluate the performance of A-PINN, we conducted different numerical simulations to approximate the Euler-Bernoulli beam equations under the various scenarios. The numerical results substantiate the enhanced performance of our model in terms of both numerical stability and predictive accuracy. Our model shows improvement of at least 40% over the baselines.\n\nRULES\n1. Use only the supplied text.\n2. Do not use outside knowledge or infer information unsupported by the text.\n3. Prefer an explicitly stated research question or hypothesis.\n4. If the research question is not explicitly stated but is clearly supported by the text, provide a concise faithful formulation and set research_question_explicit to false.\n5. If no research question can be reliably identified, return null.\n6. Apply the same explicitness rule to the main hypothesis.\n7. Do not confuse the paper's general topic, method or objective with its research question.\n8. Do not invent a hypothesis merely because the paper reports results.\n9. Keep extracted statements concise and faithful to the authors' meaning.\n\nOUTPUT\nReturn valid JSON only:\n\n{\n  \"research_question\": null,\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": null,\n  \"main_hypothesis_explicit\": false\n}\n\nUse strings instead of null when a statement can be reliably extracted or formulated. Explicitness fields must always be JSON booleans.\n",
+  "prompt_sha256": "b8575e493ef3e04cc8bbd1fab8d3caf92501a07762c07d514ff2d1ed8b5bd425",
+  "stage": "reference_target_extraction",
+  "started_at_utc": "2026-11-12T13:31:02.073900+00:00"
+}

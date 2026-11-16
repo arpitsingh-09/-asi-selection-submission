@@ -1,0 +1,633 @@
+{
+  "status": "controlled_development_baseline_not_semantic_model_validation",
+  "preregistration_commit": "8445bb9679394f617dae0e63f8224b297d762250",
+  "backend": "fixed_hash_lexical_and_controlled_regex_baseline",
+  "semantic_cross_encoder": false,
+  "sets": 200,
+  "topic_clusters": 20,
+  "scored_set_conditions": 1400,
+  "primary_axioms": [
+    "paraphrase",
+    "facet_edit",
+    "clone",
+    "vague"
+  ],
+  "rates": [
+    {
+      "axiom": "paraphrase",
+      "measure": "mean_pairwise_cosine_distance",
+      "passes": 0,
+      "valid": 200,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "axiom": "paraphrase",
+      "measure": "vendi",
+      "passes": 0,
+      "valid": 200,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "axiom": "paraphrase",
+      "measure": "distinct_question_count",
+      "passes": 0,
+      "valid": 200,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "axiom": "paraphrase",
+      "measure": "class_entropy",
+      "passes": 0,
+      "valid": 200,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "axiom": "paraphrase",
+      "measure": "quality_diversity_count",
+      "passes": 0,
+      "valid": 200,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "axiom": "paraphrase",
+      "measure": "facet_purpose",
+      "passes": 0,
+      "valid": 200,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "axiom": "paraphrase",
+      "measure": "facet_mechanism",
+      "passes": 0,
+      "valid": 200,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "axiom": "paraphrase",
+      "measure": "facet_evaluation",
+      "passes": 0,
+      "valid": 200,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "axiom": "paraphrase",
+      "measure": "facet_domain",
+      "passes": 0,
+      "valid": 200,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "axiom": "facet_edit",
+      "measure": "mean_pairwise_cosine_distance",
+      "passes": 165,
+      "valid": 200,
+      "rate": 0.825,
+      "ci95": [
+        0.77,
+        0.88
+      ]
+    },
+    {
+      "axiom": "facet_edit",
+      "measure": "vendi",
+      "passes": 200,
+      "valid": 200,
+      "rate": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "axiom": "facet_edit",
+      "measure": "distinct_question_count",
+      "passes": 60,
+      "valid": 200,
+      "rate": 0.3,
+      "ci95": [
+        0.26,
+        0.34
+      ]
+    },
+    {
+      "axiom": "facet_edit",
+      "measure": "class_entropy",
+      "passes": 60,
+      "valid": 200,
+      "rate": 0.3,
+      "ci95": [
+        0.26,
+        0.34
+      ]
+    },
+    {
+      "axiom": "facet_edit",
+      "measure": "quality_diversity_count",
+      "passes": 0,
+      "valid": 200,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "axiom": "facet_edit",
+      "measure": "facet_purpose",
+      "passes": 50,
+      "valid": 200,
+      "rate": 0.25,
+      "ci95": [
+        0.23,
+        0.27
+      ]
+    },
+    {
+      "axiom": "facet_edit",
+      "measure": "facet_mechanism",
+      "passes": 20,
+      "valid": 200,
+      "rate": 0.1,
+      "ci95": [
+        0.06,
+        0.14
+      ]
+    },
+    {
+      "axiom": "facet_edit",
+      "measure": "facet_evaluation",
+      "passes": 50,
+      "valid": 200,
+      "rate": 0.25,
+      "ci95": [
+        0.23,
+        0.27
+      ]
+    },
+    {
+      "axiom": "facet_edit",
+      "measure": "facet_domain",
+      "passes": 50,
+      "valid": 200,
+      "rate": 0.25,
+      "ci95": [
+        0.23,
+        0.27
+      ]
+    },
+    {
+      "axiom": "clone",
+      "measure": "mean_pairwise_cosine_distance",
+      "passes": 0,
+      "valid": 200,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "axiom": "clone",
+      "measure": "vendi",
+      "passes": 0,
+      "valid": 200,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "axiom": "clone",
+      "measure": "distinct_question_count",
+      "passes": 183,
+      "valid": 200,
+      "rate": 0.915,
+      "ci95": [
+        0.875,
+        0.955
+      ]
+    },
+    {
+      "axiom": "clone",
+      "measure": "class_entropy",
+      "passes": 183,
+      "valid": 200,
+      "rate": 0.915,
+      "ci95": [
+        0.875,
+        0.955
+      ]
+    },
+    {
+      "axiom": "clone",
+      "measure": "quality_diversity_count",
+      "passes": 200,
+      "valid": 200,
+      "rate": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "axiom": "clone",
+      "measure": "facet_purpose",
+      "passes": 0,
+      "valid": 200,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "axiom": "clone",
+      "measure": "facet_mechanism",
+      "passes": 200,
+      "valid": 200,
+      "rate": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "axiom": "clone",
+      "measure": "facet_evaluation",
+      "passes": 0,
+      "valid": 200,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "axiom": "clone",
+      "measure": "facet_domain",
+      "passes": 0,
+      "valid": 200,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "axiom": "vague",
+      "measure": "mean_pairwise_cosine_distance",
+      "passes": 0,
+      "valid": 200,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "axiom": "vague",
+      "measure": "vendi",
+      "passes": 0,
+      "valid": 200,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "axiom": "vague",
+      "measure": "distinct_question_count",
+      "passes": 0,
+      "valid": 200,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "axiom": "vague",
+      "measure": "class_entropy",
+      "passes": 0,
+      "valid": 200,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "axiom": "vague",
+      "measure": "quality_diversity_count",
+      "passes": 200,
+      "valid": 200,
+      "rate": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "axiom": "vague",
+      "measure": "facet_purpose",
+      "passes": 0,
+      "valid": 200,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "axiom": "vague",
+      "measure": "facet_mechanism",
+      "passes": 0,
+      "valid": 200,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "axiom": "vague",
+      "measure": "facet_evaluation",
+      "passes": 0,
+      "valid": 200,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "axiom": "vague",
+      "measure": "facet_domain",
+      "passes": 0,
+      "valid": 200,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "axiom": "vague_length_matched",
+      "measure": "mean_pairwise_cosine_distance",
+      "passes": 200,
+      "valid": 200,
+      "rate": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "axiom": "vague_length_matched",
+      "measure": "vendi",
+      "passes": 200,
+      "valid": 200,
+      "rate": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "axiom": "vague_length_matched",
+      "measure": "distinct_question_count",
+      "passes": 0,
+      "valid": 200,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "axiom": "vague_length_matched",
+      "measure": "class_entropy",
+      "passes": 0,
+      "valid": 200,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "axiom": "vague_length_matched",
+      "measure": "quality_diversity_count",
+      "passes": 200,
+      "valid": 200,
+      "rate": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "axiom": "vague_length_matched",
+      "measure": "facet_purpose",
+      "passes": 0,
+      "valid": 200,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "axiom": "vague_length_matched",
+      "measure": "facet_mechanism",
+      "passes": 0,
+      "valid": 200,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "axiom": "vague_length_matched",
+      "measure": "facet_evaluation",
+      "passes": 0,
+      "valid": 200,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "axiom": "vague_length_matched",
+      "measure": "facet_domain",
+      "passes": 0,
+      "valid": 200,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "facet_paraphrase_stability": [
+    {
+      "facet": "purpose",
+      "stable": 0,
+      "valid": 200,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "facet": "mechanism",
+      "stable": 0,
+      "valid": 200,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "facet": "evaluation",
+      "stable": 0,
+      "valid": 200,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "facet": "domain",
+      "stable": 0,
+      "valid": 200,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "edit_by_intended_facet": [
+    {
+      "facet": "purpose",
+      "local_moves": 50,
+      "valid": 50,
+      "rate": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "facet": "mechanism",
+      "local_moves": 50,
+      "valid": 50,
+      "rate": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "facet": "evaluation",
+      "local_moves": 50,
+      "valid": 50,
+      "rate": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "facet": "domain",
+      "local_moves": 50,
+      "valid": 50,
+      "rate": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "facet_edit_locality": {
+    "passes": 200,
+    "valid": 200,
+    "rate": 1.0,
+    "ci95": [
+      1.0,
+      1.0
+    ]
+  },
+  "question_order_control": {
+    "passes": 200,
+    "valid": 200,
+    "rate": 1.0,
+    "ci95": [
+      1.0,
+      1.0
+    ]
+  },
+  "paraphrase_length_matched_count": 0,
+  "paraphrases_with_less_than_75_percent_source_word_retention": 200,
+  "bootstrap": {
+    "draws": 10000,
+    "seed": 20261113,
+    "unit": "domain/topic family; all ten related sets retained together"
+  },
+  "known_groups_evaluated": 0,
+  "new_model_inference": false,
+  "limitations": [
+    "Procedural template labels encode design intent, not independent human semantic validation.",
+    "Hash embeddings and regex facets are explicit baselines, not a same-question cross-encoder or GENIE reproduction.",
+    "Quality gates operationalize question form, complete facets and concrete language, not scientific soundness.",
+    "Raw distance/facet axioms use response surrogates where distinct-question units do not apply.",
+    "Class entropy weights multiplicity; adding a true paraphrase can change it even with perfect classes.",
+    "Missing facet answers fail the associated axiom; they are never silently imputed.",
+    "Question-order/empty-question controls do not replace empty/shuffled seed and decoy controls for known groups.",
+    "No heldout evaluation or real/generated separation claim. Real citation groups and semantic-model experiments remain required."
+  ]
+}

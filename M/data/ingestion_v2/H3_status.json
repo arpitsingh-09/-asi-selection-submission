@@ -1,0 +1,14 @@
+{
+  "schema": "M-core-readiness-v2",
+  "test": "H3",
+  "status": "BLOCKED",
+  "eligible_records": 0,
+  "heldout_evaluated": false,
+  "metrics": null,
+  "ci95": null,
+  "baseline_comparisons": null,
+  "missing_dependencies": [
+    "No post-July-2025 original question/version and review-observation-date linkage.",
+    "Q heads, semantic B-Q and independently estimated human ceiling unavailable."
+  ]
+}

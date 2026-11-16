@@ -1,0 +1,28 @@
+{
+  "schema": "M-A1-preparation-v1",
+  "source_records": 6,
+  "eligible_cohort_size": 0,
+  "eligible_records": 0,
+  "evaluation_run": false,
+  "axioms": [
+    "partial_coverage",
+    "concentration"
+  ],
+  "conditions": [
+    "original",
+    "empty",
+    "shuffled",
+    "decoy"
+  ],
+  "exclusions_by_reason": {
+    "concentration_manipulation_and_scores_missing": 6,
+    "four-condition frozen predictions missing": 6,
+    "partial_coverage_manipulation_and_scores_missing": 6,
+    "same_topic_decoy_unresolved_or_unverified": 4
+  },
+  "remaining_blockers": [
+    "All six decoy proposals lack human same-topic verification or are unresolved.",
+    "Neither required novelty manipulation is present as a frozen, provenance-bound record with predictions.",
+    "No four-condition predictions are frozen; evaluation authorization/cohort lock remains required."
+  ]
+}

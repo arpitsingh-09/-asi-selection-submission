@@ -1,0 +1,49 @@
+{
+  "accounting_unit": "generated_tokens; prompt tokens recorded separately",
+  "alternatives": [
+    "Choose a different cost ceiling prospectively with rationale.",
+    "Use saved uncensored complete DEVELOPMENT envelopes if supplied; report censored cells separately."
+  ],
+  "configured_e6_cap_changed": false,
+  "confirmatory_execution_authorized": false,
+  "development_settings_evidence": {
+    "file_sha256": "4910ba907c4e044a82a16a22ea2d179b713c4dc5c6904e11dabbfe228243f8ec",
+    "is_successful_usage_evidence": false,
+    "path": "E6/development_profile_config.json",
+    "per_call_output_limit": 512,
+    "temporary_ceiling": 8192
+  },
+  "feasibility_report": "E6/data/token_feasibility_v2.json",
+  "full_ten_record_profile_required": false,
+  "historical_profile_budget_unit": "prompt_plus_generation_tokens",
+  "optional_development_check": "One checkpointed DEVELOPMENT row can test these exact proposed settings if desired; no ten-row completion prerequisite. Existing runner remains at its historical 512 output tokens and is not evidence for the proposed 2048 setting.",
+  "proposal_basis": "Unapproved cost limit under the assignment generated-token unit. Historical 8192 prompt-plus-output development ceiling is not a directly comparable usage estimate.",
+  "proposal_sha256": "20e6519338cd7efab977e33aac7ad4003ec813fc4086c9e054d52051075f8e81",
+  "proposed_generated_tokens_per_input_set_arm": 8192,
+  "proposed_related_limits": {
+    "context_limit": 32768,
+    "counting_probe_context_limit": 131072,
+    "max_output_tokens_per_call": 2048,
+    "status": "all unapproved; model metadata supports 131072 but runtime only has saved 32-token output probe"
+  },
+  "rationale": [
+    "Assignment p.39 explicitly caps generated tokens; prompts are reported separately.",
+    "8192 generated tokens is a proposed cost limit, not a measured completion guarantee.",
+    "Context must be checked independently against rendered prompts; a generated-token cap does not bound prompt length."
+  ],
+  "required_approval_terms": [
+    "Accept retained budget-exhaustion failures and approved denominator treatment.",
+    "Approve 32768 context, 2048 output and exact-count context policy independently of the unchanged 8192 generated-token cap.",
+    "Approve TRAIN-only data evidence cohorts and fixed ten-reference literature evidence selection."
+  ],
+  "runtime_evidence": {
+    "file_sha256": "705211d2dafd25afd7c42c52e11d8f3373efc089da313b5fb650ab4068f8783a",
+    "path": "E6/data/gemma3_local_verification_v1.json",
+    "verified_context_metadata_tokens": 131072,
+    "verified_output_probe_tokens": 32
+  },
+  "saved_complete_workflow_usage_profiles_found": 0,
+  "schema_version": "e6-fixed-token-cap-proposal-v3",
+  "status": "pending_researcher_approval",
+  "supersedes": "E6/data/fixed_token_cap_proposal_v2.json"
+}

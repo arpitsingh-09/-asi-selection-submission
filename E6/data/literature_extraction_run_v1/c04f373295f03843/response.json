@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:46:36.193006+00:00",
+  "identity": "0caf1d31212c3f5d71507d6ea00a017dc18f9b58b7ac89cb694e5a2421cf5954",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:46:36.172127Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 127,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 18.800657750000028,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:46:36.172127Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2800,
+      "prompt_eval_count": 575,
+      "prompt_sha256": "95af14195ab857ba0c9caef17e9be82f0063deb572f4708f881940e4eca2ca9d",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 702,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 575,
+    "latency_seconds": 18.800657750000028,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:46:36.172127Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 127,
+    "raw_response": "{\n  \"research_question\": \"How can harness optimization be made more budget-efficient for planning agents, where existing approaches like the Huxley--Godel Machine (HGM) struggle due to misaligned competence?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"A diagnostic-guided framework, HGM-Dual, which represents agent evolution as lineage-aware context and introduces error-conditioned dual-path child generation, will outperform existing harness optimization methods for planning agents, achieving comparable performance with a significantly reduced evaluation budget.\",\n  \"main_hypothesis_explicit\": false\n}",
+    "total_tokens": 702
+  },
+  "reply_sha256": "e6fdbf1bd9a50f34edd29018037833e8e8c212a8fb7f739ab28c7eb351e737d3"
+}

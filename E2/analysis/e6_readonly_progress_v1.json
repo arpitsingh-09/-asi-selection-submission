@@ -1,0 +1,53 @@
+{
+  "checked_at": "2026-11-13T17:20:02.586118+05:30",
+  "requested_supervisor_pid": 54352,
+  "requested_worker_pid": 58239,
+  "direct_process_inspection": "Denied by sandbox: ps and os.kill(pid,0); live identity is supported by recent supervisor events, not independently kernel-verified.",
+  "latest_supervisor_event": {
+    "time": "2026-11-13T17:19:58+0530",
+    "supervisor_pid": 54352,
+    "event": "battery",
+    "test_pid": 58239,
+    "percent": 72,
+    "status": "discharging",
+    "ac_power": false
+  },
+  "planned_cells": 140,
+  "evaluable_cells": 125,
+  "excluded_generation_cells": 15,
+  "complete_prediction_arm_cells": 11,
+  "remaining_evaluable_cells_without_full_prediction_coverage": 114,
+  "prediction_assignments_saved": 5543,
+  "prediction_assignments_remaining": 57082,
+  "finalized_set_summaries": [
+    {
+      "path": "E6/runs/heldout_accuracy_optimized_v1/b90d71ea502c100a/b90d71ea502c100a_579af79fc5a96316_evaluation.json",
+      "mtime": "2026-11-13T07:39:13.116887+05:30",
+      "evaluated_arm_count": 5
+    }
+  ],
+  "latest_batch_checkpoint": {
+    "batches": 8,
+    "rows": 32,
+    "latest_epoch": 1794570568.5329459,
+    "latest_path": "E6/runs/heldout_accuracy_optimized_v1/aa367e4423af8dc3/aa367e4423af8dc3_D-shuffled_0007.json",
+    "input_hash": "aa367e4423af8dc3",
+    "arm": "D-shuffled",
+    "complete_prediction_coverage": false
+  },
+  "progress_vs_latest_finalized_set_summary": 6,
+  "progress_vs_first_this_turn_count": 2,
+  "recent_20_request_terminal_states": {
+    "finished": 20
+  },
+  "current_supervisor_error_exit_events": [],
+  "resource_observations": {
+    "limits": "ps CPU/RSS and sysctl swap denied. Memory is tight; exhaustion is not independently established. No inference started.",
+    "memory_free_percent_initial": 8,
+    "memory_free_percent_latest": 7,
+    "disk_available_GiB_initial": 328,
+    "disk_available_GiB_latest": 326
+  },
+  "measurement_scope": "Completed arm-cell means all 501 prediction rows checkpointed; second-set final scoring/summary may still be pending. No accuracy values read or recomputed.",
+  "E6_write_or_control_operations": 0
+}

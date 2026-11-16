@@ -1,0 +1,670 @@
+{
+  "all_raw_response_hashes_verified": true,
+  "arxiv_id_search_hits_not_matching_review_notes": [
+    {
+      "arxiv_id": "2012.15859",
+      "paper_id": "2012.15859v5",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_arxivid_raw/2012.15859v5.json",
+      "result_count": 1,
+      "returned_notes": [
+        {
+          "cdate": 1731737384586,
+          "content_fields": [
+            "comment"
+          ],
+          "forum": "HyN9POiYhN",
+          "id": "AWzR72DcRh",
+          "invitations": [
+            "ICLR.cc/2025/Conference/Submission8170/-/Official_Comment"
+          ],
+          "odate": null,
+          "replyto": "bo12VFzmQn",
+          "signatures": [
+            "ICLR.cc/2025/Conference/Submission8170/Authors"
+          ],
+          "tcdate": 1731737384586,
+          "tmdate": 1731737384586
+        }
+      ],
+      "sha256": "febdefe265e19f1a5e25c8e3eb8f7c72d21806f04b214118272b034cd56519b8",
+      "title": "Intrinsic Bias Metrics Do Not Correlate with Application Bias"
+    },
+    {
+      "arxiv_id": "2112.10508",
+      "paper_id": "2112.10508v1",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_arxivid_raw/2112.10508v1.json",
+      "result_count": 1,
+      "returned_notes": [
+        {
+          "cdate": 1748915319654,
+          "content_fields": [
+            "comment"
+          ],
+          "forum": "8ExXncFpf6",
+          "id": "IInCCUn6FX",
+          "invitations": [
+            "colmweb.org/COLM/2025/Conference/Submission875/-/Official_Comment",
+            "colmweb.org/COLM/2025/Conference/-/Edit"
+          ],
+          "odate": null,
+          "replyto": "8ExXncFpf6",
+          "signatures": [
+            "colmweb.org/COLM/2025/Conference/Submission875/Authors"
+          ],
+          "tcdate": 1748915319654,
+          "tmdate": 1756226364763
+        }
+      ],
+      "sha256": "29ca2c13ea8a6a7c7facead802ef7a579d700d14b7a868e09823ee32cabb8279",
+      "title": "Between words and characters: A Brief History of Open-Vocabulary Modeling and Tokenization in NLP"
+    }
+  ],
+  "arxiv_id_search_results": [
+    {
+      "arxiv_id": "2012.15470",
+      "paper_id": "2012.15470v1",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_arxivid_raw/2012.15470v1.json",
+      "result_count": 0,
+      "returned_notes": [],
+      "sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "title": "Audio-Visual Floorplan Reconstruction"
+    },
+    {
+      "arxiv_id": "2112.15571",
+      "paper_id": "2112.15571v1",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_arxivid_raw/2112.15571v1.json",
+      "result_count": 0,
+      "returned_notes": [],
+      "sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "title": "PCACE: A Statistical Approach to Ranking Neurons for CNN Interpretability"
+    },
+    {
+      "arxiv_id": "2112.14921",
+      "paper_id": "2112.14921v1",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_arxivid_raw/2112.14921v1.json",
+      "result_count": 0,
+      "returned_notes": [],
+      "sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "title": "Retrieving Black-box Optimal Images from External Databases"
+    },
+    {
+      "arxiv_id": "2212.14746",
+      "paper_id": "2212.14746v1",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_arxivid_raw/2212.14746v1.json",
+      "result_count": 0,
+      "returned_notes": [],
+      "sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "title": "MindBigData 2022 A Large Dataset of Brain Signals"
+    },
+    {
+      "arxiv_id": "2012.15859",
+      "paper_id": "2012.15859v5",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_arxivid_raw/2012.15859v5.json",
+      "result_count": 1,
+      "returned_notes": [
+        {
+          "cdate": 1731737384586,
+          "content_fields": [
+            "comment"
+          ],
+          "forum": "HyN9POiYhN",
+          "id": "AWzR72DcRh",
+          "invitations": [
+            "ICLR.cc/2025/Conference/Submission8170/-/Official_Comment"
+          ],
+          "odate": null,
+          "replyto": "bo12VFzmQn",
+          "signatures": [
+            "ICLR.cc/2025/Conference/Submission8170/Authors"
+          ],
+          "tcdate": 1731737384586,
+          "tmdate": 1731737384586
+        }
+      ],
+      "sha256": "febdefe265e19f1a5e25c8e3eb8f7c72d21806f04b214118272b034cd56519b8",
+      "title": "Intrinsic Bias Metrics Do Not Correlate with Application Bias"
+    },
+    {
+      "arxiv_id": "2012.14312",
+      "paper_id": "2012.14312v1",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_arxivid_raw/2012.14312v1.json",
+      "result_count": 0,
+      "returned_notes": [],
+      "sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "title": "Panarchy: ripples of a boundary concept"
+    },
+    {
+      "arxiv_id": "2112.13320",
+      "paper_id": "2112.13320v1",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_arxivid_raw/2112.13320v1.json",
+      "result_count": 0,
+      "returned_notes": [],
+      "sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "title": "Budget Sensitive Reannotation of Noisy Relation Classification Data Using Label Hierarchy"
+    },
+    {
+      "arxiv_id": "2112.10508",
+      "paper_id": "2112.10508v1",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_arxivid_raw/2112.10508v1.json",
+      "result_count": 1,
+      "returned_notes": [
+        {
+          "cdate": 1748915319654,
+          "content_fields": [
+            "comment"
+          ],
+          "forum": "8ExXncFpf6",
+          "id": "IInCCUn6FX",
+          "invitations": [
+            "colmweb.org/COLM/2025/Conference/Submission875/-/Official_Comment",
+            "colmweb.org/COLM/2025/Conference/-/Edit"
+          ],
+          "odate": null,
+          "replyto": "8ExXncFpf6",
+          "signatures": [
+            "colmweb.org/COLM/2025/Conference/Submission875/Authors"
+          ],
+          "tcdate": 1748915319654,
+          "tmdate": 1756226364763
+        }
+      ],
+      "sha256": "29ca2c13ea8a6a7c7facead802ef7a579d700d14b7a868e09823ee32cabb8279",
+      "title": "Between words and characters: A Brief History of Open-Vocabulary Modeling and Tokenization in NLP"
+    },
+    {
+      "arxiv_id": "2212.14402",
+      "paper_id": "2212.14402v1",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_arxivid_raw/2212.14402v1.json",
+      "result_count": 0,
+      "returned_notes": [],
+      "sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "title": "GPT Takes the Bar Exam"
+    },
+    {
+      "arxiv_id": "2212.10933",
+      "paper_id": "2212.10933v2",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_arxivid_raw/2212.10933v2.json",
+      "result_count": 0,
+      "returned_notes": [],
+      "sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "title": "Resolving Indirect Referring Expressions for Entity Selection"
+    },
+    {
+      "arxiv_id": "2212.10728",
+      "paper_id": "2212.10728v1",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_arxivid_raw/2212.10728v1.json",
+      "result_count": 0,
+      "returned_notes": [],
+      "sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "title": "Spoken Language Understanding for Conversational AI: Recent Advances and Future Direction"
+    },
+    {
+      "arxiv_id": "2401.02978",
+      "paper_id": "2401.02978v1",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_arxivid_raw/2401.02978v1.json",
+      "result_count": 0,
+      "returned_notes": [],
+      "sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "title": "Learning from a Generative AI Predecessor -- The Many Motivations for Interacting with Conversational Agents"
+    },
+    {
+      "arxiv_id": "2012.15006",
+      "paper_id": "2012.15006v4",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_arxivid_raw/2012.15006v4.json",
+      "result_count": 0,
+      "returned_notes": [],
+      "sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "title": "Dynamic Graph-Based Anomaly Detection in the Electrical Grid"
+    },
+    {
+      "arxiv_id": "2112.15110",
+      "paper_id": "2112.15110v2",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_arxivid_raw/2112.15110v2.json",
+      "result_count": 0,
+      "returned_notes": [],
+      "sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "title": "Audio-to-symbolic Arrangement via Cross-modal Music Representation Learning"
+    }
+  ],
+  "community_use_blocker": "M/PREREG.md and M/quality.py name later_community_use but do not operationally define its measurable outcome or observation window. No value was inferred from citations, and no post-cutoff citation was used for TRAIN.",
+  "created_at_utc": "2026-11-14T06:33:17.525097+00:00",
+  "eligibility_minimums": {
+    "label_not_before": "paper/question publication",
+    "per_factor_train": 2,
+    "per_factor_validation": 1,
+    "train_label_observed_before": "2024-01-01",
+    "validation_label_observed_before": "2025-01-01"
+  },
+  "eligible_labels": {
+    "later_community_use": {
+      "train": 0,
+      "validation": 0
+    },
+    "peer_review": {
+      "train": 0,
+      "validation": 0
+    }
+  },
+  "existing_570_review_cache_exact_title_hits": 0,
+  "peer_review_blocker": "No original reviewer score plus exact rating-note public timestamp was retrieved for any frozen paper. OpenReview ID search returned two unrelated 2025 official comments; the only conference submission candidate is paper 2212.14034v1, whose notes endpoint requires a browser challenge (403), so no rating value or odate can be verified.",
+  "raw_openreview_responses": 36,
+  "schema": "M-quality-label-eligibility-exact-cohort-v2",
+  "source_files": {
+    "arxiv_id_search_manifest": "M/data/quality_source_evidence_v1/openreview_arxivid_manifest.json",
+    "eligibility_v1": "M/data/quality_source_evidence_v1/eligibility_record.json",
+    "review_cache_verification": "M/data/public_human_evidence_v1/openreview_cached/verification_manifest.json",
+    "title_retry_manifest": "M/data/quality_source_evidence_v1/openreview_retry_manifest.json",
+    "title_search_manifest": "M/data/quality_source_evidence_v1/openreview_search_manifest.json"
+  },
+  "split_membership_changed": false,
+  "target_papers": [
+    {
+      "exact_title_matches": [],
+      "paper_id": "2012.15470v1",
+      "raw_hash_verified": true,
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2012.15470v1.json",
+      "raw_sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "search_error": null,
+      "search_http_status": 200,
+      "splits": [
+        "train"
+      ],
+      "title": "Audio-Visual Floorplan Reconstruction"
+    },
+    {
+      "exact_title_matches": [],
+      "paper_id": "2112.15571v1",
+      "raw_hash_verified": true,
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2112.15571v1.json",
+      "raw_sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "search_error": null,
+      "search_http_status": 200,
+      "splits": [
+        "train"
+      ],
+      "title": "PCACE: A Statistical Approach to Ranking Neurons for CNN Interpretability"
+    },
+    {
+      "exact_title_matches": [],
+      "paper_id": "2112.14921v1",
+      "raw_hash_verified": true,
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2112.14921v1.json",
+      "raw_sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "search_error": null,
+      "search_http_status": 200,
+      "splits": [
+        "train"
+      ],
+      "title": "Retrieving Black-box Optimal Images from External Databases"
+    },
+    {
+      "exact_title_matches": [
+        {
+          "forum": "eFcK7SU3s4",
+          "invitations": [
+            "DBLP.org/-/Record",
+            "DBLP.org/-/Edit",
+            "DBLP.org/-/Author_Coreference"
+          ],
+          "note_id": "eFcK7SU3s4",
+          "venue": "CoRR 2021"
+        }
+      ],
+      "paper_id": "2112.14340v1",
+      "raw_hash_verified": true,
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2112.14340v1.json",
+      "raw_sha256": "28083a568f1515e1c390d6c7f66afa5c262abcb9e6c1a6183aa5ecf006e32f24",
+      "search_error": null,
+      "search_http_status": 200,
+      "splits": [
+        "train"
+      ],
+      "title": "Super-Efficient Super Resolution for Fast Adversarial Defense at the Edge"
+    },
+    {
+      "exact_title_matches": [
+        {
+          "forum": "iVj6KjsLGh",
+          "invitations": [
+            "DBLP.org/-/Record",
+            "DBLP.org/-/Edit",
+            "DBLP.org/-/Author_Coreference"
+          ],
+          "note_id": "iVj6KjsLGh",
+          "venue": "CVPR 2023"
+        }
+      ],
+      "paper_id": "2301.00184v3",
+      "raw_hash_verified": true,
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2301.00184v3.json",
+      "raw_sha256": "c571b6ee708b5cc4c35bfa14ff09a15730e27db07ced068f353535d3bd913d95",
+      "search_error": null,
+      "search_http_status": 200,
+      "splits": [
+        "train"
+      ],
+      "title": "Cap4Video: What Can Auxiliary Captions Do for Text-Video Retrieval?"
+    },
+    {
+      "exact_title_matches": [],
+      "paper_id": "2212.14746v1",
+      "raw_hash_verified": true,
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2212.14746v1.json",
+      "raw_sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "search_error": null,
+      "search_http_status": 200,
+      "splits": [
+        "train"
+      ],
+      "title": "MindBigData 2022 A Large Dataset of Brain Signals"
+    },
+    {
+      "exact_title_matches": [],
+      "paper_id": "2012.15859v5",
+      "raw_hash_verified": true,
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2012.15859v5.json",
+      "raw_sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "search_error": null,
+      "search_http_status": 200,
+      "splits": [
+        "train"
+      ],
+      "title": "Intrinsic Bias Metrics Do Not Correlate with Application Bias"
+    },
+    {
+      "exact_title_matches": [
+        {
+          "forum": "xefzWNBJlL",
+          "invitations": [
+            "DBLP.org/-/Record",
+            "DBLP.org/-/Edit",
+            "DBLP.org/-/Author_Coreference"
+          ],
+          "note_id": "xefzWNBJlL",
+          "venue": "CoRR 2020"
+        }
+      ],
+      "paper_id": "2012.15180v2",
+      "raw_hash_verified": true,
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2012.15180v2.json",
+      "raw_sha256": "52074b44f70ef4df5dac4ff6a5d4ef53cc3542bf5d1192f6aa346ed5fe8ae7a6",
+      "search_error": null,
+      "search_http_status": 200,
+      "splits": [
+        "train"
+      ],
+      "title": "Out of Order: How Important Is The Sequential Order of Words in a Sentence in Natural Language Understanding Tasks?"
+    },
+    {
+      "exact_title_matches": [],
+      "paper_id": "2012.14312v1",
+      "raw_hash_verified": true,
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2012.14312v1.json",
+      "raw_sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "search_error": null,
+      "search_http_status": 200,
+      "splits": [
+        "train"
+      ],
+      "title": "Panarchy: ripples of a boundary concept"
+    },
+    {
+      "exact_title_matches": [],
+      "paper_id": "2112.13320v1",
+      "raw_hash_verified": true,
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2112.13320v1.json",
+      "raw_sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "search_error": null,
+      "search_http_status": 200,
+      "splits": [
+        "train"
+      ],
+      "title": "Budget Sensitive Reannotation of Noisy Relation Classification Data Using Label Hierarchy"
+    },
+    {
+      "exact_title_matches": [],
+      "paper_id": "2112.10508v1",
+      "raw_hash_verified": true,
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2112.10508v1.json",
+      "raw_sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "search_error": null,
+      "search_http_status": 200,
+      "splits": [
+        "train"
+      ],
+      "title": "Between words and characters: A Brief History of Open-Vocabulary Modeling and Tokenization in NLP"
+    },
+    {
+      "exact_title_matches": [],
+      "paper_id": "2212.14402v1",
+      "raw_hash_verified": true,
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2212.14402v1.json",
+      "raw_sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "search_error": null,
+      "search_http_status": 200,
+      "splits": [
+        "train"
+      ],
+      "title": "GPT Takes the Bar Exam"
+    },
+    {
+      "exact_title_matches": [
+        {
+          "forum": "v2kCeW31DW",
+          "invitations": [
+            "DBLP.org/-/Record",
+            "DBLP.org/-/Edit"
+          ],
+          "note_id": "v2kCeW31DW",
+          "venue": "CoRR 2022"
+        },
+        {
+          "forum": "E66gR8hTJD",
+          "invitations": [
+            "DBLP.org/-/Record",
+            "DBLP.org/-/Edit"
+          ],
+          "note_id": "E66gR8hTJD",
+          "venue": "ICML 2023"
+        },
+        {
+          "forum": "zjKKxDz0PW",
+          "invitations": [
+            "ICML.cc/2023/Workshop/ES-FoMO/-/Submission",
+            "ICML.cc/2023/Workshop/ES-FoMO/-/Post_Submission",
+            "ICML.cc/2023/Workshop/ES-FoMO/-/Edit",
+            "ICML.cc/2023/Workshop/ES-FoMO/Submission35/-/Camera-Ready_Revision"
+          ],
+          "note_id": "zjKKxDz0PW",
+          "venue": "ES-FoMO 2023 Poster"
+        },
+        {
+          "forum": "2snzoozOWH",
+          "invitations": [
+            "ICML.cc/2023/Conference/-/Submission",
+            "ICML.cc/2023/Conference/-/Edit",
+            "ICML.cc/2023/Conference/Submission4939/-/Camera_Ready_Revision"
+          ],
+          "note_id": "2snzoozOWH",
+          "venue": "ICML 2023 Poster"
+        }
+      ],
+      "paper_id": "2212.14034v1",
+      "raw_hash_verified": true,
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2212.14034v1.json",
+      "raw_sha256": "0c7697139acfe2a886a4c28436d64299d65df6a5a1ea067b7cce4109d72324da",
+      "search_error": null,
+      "search_http_status": 200,
+      "splits": [
+        "train"
+      ],
+      "title": "Cramming: Training a Language Model on a Single GPU in One Day"
+    },
+    {
+      "exact_title_matches": [],
+      "paper_id": "2212.10933v2",
+      "raw_hash_verified": true,
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2212.10933v2.json",
+      "raw_sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "search_error": null,
+      "search_http_status": 200,
+      "splits": [
+        "train"
+      ],
+      "title": "Resolving Indirect Referring Expressions for Entity Selection"
+    },
+    {
+      "exact_title_matches": [],
+      "paper_id": "2212.10728v1",
+      "raw_hash_verified": true,
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2212.10728v1.json",
+      "raw_sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "search_error": null,
+      "search_http_status": 200,
+      "splits": [
+        "train"
+      ],
+      "title": "Spoken Language Understanding for Conversational AI: Recent Advances and Future Direction"
+    },
+    {
+      "exact_title_matches": [],
+      "paper_id": "2401.02978v1",
+      "raw_hash_verified": true,
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2401.02978v1.json",
+      "raw_sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "search_error": null,
+      "search_http_status": 200,
+      "splits": [
+        "train"
+      ],
+      "title": "Learning from a Generative AI Predecessor -- The Many Motivations for Interacting with Conversational Agents"
+    },
+    {
+      "exact_title_matches": [
+        {
+          "forum": "Nv9XHneCfu",
+          "invitations": [
+            "DBLP.org/-/Record",
+            "DBLP.org/-/Edit",
+            "DBLP.org/-/Author_Coreference"
+          ],
+          "note_id": "Nv9XHneCfu",
+          "venue": "CoRR 2023"
+        }
+      ],
+      "paper_id": "2312.16864v1",
+      "raw_hash_verified": true,
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2312.16864v1.json",
+      "raw_sha256": "3c62950cbed031af32cab86a5711c0ebac89c26a14e25d9c8719f141807195c2",
+      "search_error": null,
+      "search_http_status": 200,
+      "splits": [
+        "train"
+      ],
+      "title": "OmniDialog: An Omnipotent Pre-training Model for Task-Oriented Dialogue System"
+    },
+    {
+      "exact_title_matches": [],
+      "paper_id": "2012.15006v4",
+      "raw_hash_verified": true,
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2012.15006v4.json",
+      "raw_sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "search_error": null,
+      "search_http_status": 200,
+      "splits": [
+        "train"
+      ],
+      "title": "Dynamic Graph-Based Anomaly Detection in the Electrical Grid"
+    },
+    {
+      "exact_title_matches": [],
+      "paper_id": "2112.15110v2",
+      "raw_hash_verified": true,
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2112.15110v2.json",
+      "raw_sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "search_error": null,
+      "search_http_status": 200,
+      "splits": [
+        "train"
+      ],
+      "title": "Audio-to-symbolic Arrangement via Cross-modal Music Representation Learning"
+    },
+    {
+      "exact_title_matches": [
+        {
+          "forum": "fWoKMBxGOR",
+          "invitations": [
+            "OpenReview.net/Public_Article/DBLP.org/-/Record",
+            "OpenReview.net/Public_Article/-/Edit"
+          ],
+          "note_id": "fWoKMBxGOR",
+          "venue": "CoRR 2023"
+        }
+      ],
+      "paper_id": "2301.00189v1",
+      "raw_hash_verified": true,
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2301.00189v1.json",
+      "raw_sha256": "824d194b10040df1c0574c92428191631066c2f690e6d029466eb41662f0d827",
+      "search_error": null,
+      "search_http_status": 200,
+      "splits": [
+        "train"
+      ],
+      "title": "Mapping Knowledge Representations to Concepts: A Review and New Perspectives"
+    },
+    {
+      "exact_title_matches": [
+        {
+          "forum": "WA3TzqOTp9",
+          "invitations": [
+            "DBLP.org/-/Record",
+            "DBLP.org/-/Edit",
+            "DBLP.org/-/Author_Coreference"
+          ],
+          "note_id": "WA3TzqOTp9",
+          "venue": "CoRR 2025"
+        }
+      ],
+      "paper_id": "2501.00457v1",
+      "raw_hash_verified": true,
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_retry_raw/2501.00457v1.json",
+      "raw_sha256": "e2ea193f083e6e3b6e7b69c4a783173183d9893951a68cee43984a014b6a364b",
+      "search_error": null,
+      "search_http_status": 200,
+      "splits": [
+        "validation"
+      ],
+      "title": "Differentiable Prompt Learning for Vision Language Models"
+    },
+    {
+      "exact_title_matches": [
+        {
+          "forum": "xvBbThnIgi",
+          "invitations": [
+            "DBLP.org/-/Record",
+            "DBLP.org/-/Edit"
+          ],
+          "note_id": "xvBbThnIgi",
+          "venue": "CoRR 2024"
+        }
+      ],
+      "paper_id": "2412.20895v1",
+      "raw_hash_verified": true,
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_retry_raw/2412.20895v1.json",
+      "raw_sha256": "6a81c75329c95cbfe63184a8f2479deafc28833917dd28a03fda4721865ac34a",
+      "search_error": null,
+      "search_http_status": 200,
+      "splits": [
+        "validation"
+      ],
+      "title": "Towards Compatible Fine-tuning for Vision-Language Model Updates"
+    }
+  ],
+  "targeted_arxiv_id_queries": 14,
+  "targeted_title_queries": 22,
+  "title_search_exact_paper_hits": 8,
+  "train_manifest_sha256": "ba18f9b3cd2c781379ac4a98c71c66359a2940c78163388b392ced125af34329",
+  "training_performed": false,
+  "validation_manifest_sha256": "a4854b7144724bc28b3b6c2ca0fd0c3b1d57ac6373d029c0dcec40c25f76f842",
+  "validation_predictions_saved": false
+}

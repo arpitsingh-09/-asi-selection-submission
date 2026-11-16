@@ -1,0 +1,76 @@
+[2310.04451] AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned Large Language Models (https://arxiv.org/abs/2310.04451)
+citeturn7view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2310.04451","lineno":null}); Total lines: 163
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1: 
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3: 
+L4: Press Enter to search · 【4†Advanced search】
+L5: 
+L6: # Computer Science > Computation and Language
+L7: 
+L8: [Submitted on 3 Oct 2023 (【5†v1】), last revised 20 Mar 2024 (this version, v2)]
+L9: # Title:AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned Large Language Models
+L10: 
+L11: Authors:【6†Xiaogeng Liu】, 【7†Nan Xu】, 【8†Muhao Chen】, 【9†Chaowei Xiao】
+L12: 
+L13: View a PDF of the paper titled AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned Large Language Models, by Xiaogeng Liu and 3 other authors
+L14: 
+L15: 【10†View PDF】 【11†HTML (experimental)】
+L16: > Abstract:The aligned Large Language Models (LLMs) are powerful language understanding and decision-making tools that are created through extensive alignment with human feedback. However, these large models remain susceptible to jailbreak attacks, where adversaries manipulate prompts to elicit malicious outputs that should not be given by aligned LLMs. Investigating jailbreak prompts can lead us to delve into the limitations of LLMs and further guide us to secure them.
+L17: Unfortunately, existing jailbreak techniques suffer from either (1) scalability issues, where attacks heavily rely on manual crafting of prompts, or (2) stealthiness problems, as attacks depend on token-based algorithms to generate prompts that are often semantically meaningless, making them susceptible to detection through basic perplexity testing.
+L18: In light of these challenges, we intend to answer this question: Can we develop an approach that can automatically generate stealthy jailbreak prompts? In this paper, we introduce AutoDAN, a novel jailbreak attack against aligned LLMs. AutoDAN can automatically generate stealthy jailbreak prompts by the carefully designed hierarchical genetic algorithm.
+L19: Extensive evaluations demonstrate that AutoDAN not only automates the process while preserving semantic meaningfulness, but also demonstrates superior attack strength in cross-model transferability, and cross-sample universality compared with the baseline. Moreover, we also compare AutoDAN with perplexity-based defense methods and show that AutoDAN can bypass them effectively.
+L20: Comments:  | Published as a conference paper at ICLR 2024. Code is available at 【12†this https URL†github.com】
+L21: Subjects:  | Computation and Language (cs.CL); Artificial Intelligence (cs.AI)
+L22: Cite as:  | 【13†arXiv:2310.04451】 [cs.CL]
+L23:    | (or 【14†arXiv:2310.04451v2】 [cs.CL] for this version)
+L24:    | 【15†https://doi.org/10.48550/arXiv.2310.04451†doi.org】 arXiv-issued DOI via DataCite
+L25: ## Submission history
+L26: 
+L27: From: Xiaogeng Liu [【16†view email】]
+L28: 【5†[v1]】 Tue, 3 Oct 2023 19:44:37 UTC (282 KB)
+L29: [v2] Wed, 20 Mar 2024 21:34:56 UTC (445 KB)
+L30: 
+L31: Full-text links:
+L32: 
+L33: ## Access Paper:
+L34: 
+L35: View a PDF of the paper titled AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned Large Language Models, by Xiaogeng Liu and 3 other authors
+L36: 
+L37:   * 【10†View PDF】
+L38:   * 【11†HTML (experimental)】
+L39:   * 【17†TeX Source】
+L40: 
+L41: 【18†view license】
+L42: ### Current browse context:
+L43: 
+L44: cs.CL
+L45: 
+L46: 【19†< prev】   |   【20†next >】
+L47: 
+L48: 【21†new】 | 【22†recent】 | 【23†2023-10】
+L49: 
+L50: Change to browse by:
+L51: 
+L52: 【24†cs】
+L53: 【25†cs.AI】
+L54: 
+L55: ### References & Citations
+L56: 
+L57:   * 【26†NASA ADS†ui.adsabs.harvard.edu】
+L58:   * 【27†Google Scholar†scholar.google.com】
+L59:   * 【28†Semantic Scholar†api.semanticscholar.org】
+L60: 
+L61: [Button: export BibTeX citation] Loading...
+L62: 
+L63: ## BibTeX formatted citation
+L64: 
+L65: [Button: ×]
+L66: 
+L67: loading...
+L68: 
+L69: Data provided by:
+L70: 
+L71: ### Bookmark
+L72: 
+L73: [Input] Bibliographic Tools

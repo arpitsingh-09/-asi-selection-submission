@@ -1,0 +1,14 @@
+{
+  "schema": "M-core-readiness-v2",
+  "test": "T1",
+  "status": "BLOCKED",
+  "eligible_records": 0,
+  "heldout_evaluated": false,
+  "metrics": null,
+  "ci95": null,
+  "baseline_comparisons": null,
+  "missing_dependencies": [
+    "No separately trained and prospectively frozen 2022 and 2023 head artifacts.",
+    "No complete-head normalized predictions and original input controls."
+  ]
+}

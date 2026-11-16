@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-11-13T14:01:40Z",
+  "records": 6,
+  "eligible_records": 0,
+  "data_sha256": "3f81a9f462e6003fc7ac1b555ee291adc46f952b4d917986eb01b1ea6c040f65",
+  "evaluation_run": false,
+  "cohort_lock_commit": null,
+  "temporal_basis": "actual generation timestamp; source published and updated timestamps precede it",
+  "question_overlap_count": 0,
+  "sources": [
+    "2012.14128v1",
+    "2012.14556v1",
+    "2012.15020v1",
+    "2012.15052v1",
+    "2101.02141v3",
+    "2112.14478v1",
+    "2212.13979v1",
+    "2212.14704v2",
+    "2401.00029v3",
+    "2401.00155v2",
+    "2412.20911v1",
+    "2501.00437v1"
+  ],
+  "controls": {
+    "original": 6,
+    "empty": 6,
+    "shuffled_ready": 6,
+    "same_category_decoy_proposals": 6,
+    "independently_verified_same_topic": 0
+  },
+  "blockers": [
+    "No original input source was disclosed by a question author; R is explicitly the generation input set, not inferred author provenance.",
+    "Questions are newly generated, not human validated.",
+    "Shared category decoy lacks independent semantic verification."
+  ]
+}

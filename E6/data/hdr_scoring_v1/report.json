@@ -1,0 +1,736 @@
+{
+  "HDR_cells_required": 125,
+  "HDR_cells_scored": 0,
+  "TEST_evaluation": false,
+  "identity": "2ae3877fcd37a4f60a1d8feeef27a2dca5a3ef12f1ef795bfdbbd3c6a3538399",
+  "mapping_present": false,
+  "model_calls": 0,
+  "note": "Failed generation cells excluded from scoring, never replaced; no imputation. Exact full-rule matches do not define the feature denominator.",
+  "objective_full_rule_matches": 0,
+  "pending_cells": [
+    {
+      "arm": "D",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0000:4b44593d53e3",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0000:4b44593d53e3",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "HQ",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0000:4b44593d53e3",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-empty",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0000:4b44593d53e3",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-shuffled",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0000:4b44593d53e3",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0001:f4dd50eb316a",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0001:f4dd50eb316a",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH-sel",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0001:f4dd50eb316a",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH-rand",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0001:f4dd50eb316a",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "HQ",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0001:f4dd50eb316a",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-empty",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0001:f4dd50eb316a",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-shuffled",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0001:f4dd50eb316a",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0002:157cd742897d",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH-sel",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0002:157cd742897d",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH-rand",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0002:157cd742897d",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "HQ",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0002:157cd742897d",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-empty",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0002:157cd742897d",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-shuffled",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0002:157cd742897d",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0003:2dd885278cb2",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0003:2dd885278cb2",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH-sel",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0003:2dd885278cb2",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH-rand",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0003:2dd885278cb2",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "HQ",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0003:2dd885278cb2",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-empty",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0003:2dd885278cb2",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-shuffled",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0003:2dd885278cb2",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0004:56bffd79f9b2",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0004:56bffd79f9b2",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH-sel",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0004:56bffd79f9b2",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH-rand",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0004:56bffd79f9b2",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "HQ",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0004:56bffd79f9b2",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-empty",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0004:56bffd79f9b2",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-shuffled",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0004:56bffd79f9b2",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0005:713a53afc564",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0005:713a53afc564",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH-sel",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0005:713a53afc564",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH-rand",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0005:713a53afc564",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "HQ",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0005:713a53afc564",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-empty",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0005:713a53afc564",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-shuffled",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0005:713a53afc564",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0006:d2196c978877",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH-sel",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0006:d2196c978877",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH-rand",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0006:d2196c978877",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "HQ",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0006:d2196c978877",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-empty",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0006:d2196c978877",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-shuffled",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0006:d2196c978877",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0008:3ac85a345990",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0008:3ac85a345990",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH-sel",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0008:3ac85a345990",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH-rand",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0008:3ac85a345990",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "HQ",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0008:3ac85a345990",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-empty",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0008:3ac85a345990",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-shuffled",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0008:3ac85a345990",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0009:f87672ddc715",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH-sel",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0009:f87672ddc715",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH-rand",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0009:f87672ddc715",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "HQ",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0009:f87672ddc715",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-empty",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0009:f87672ddc715",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-shuffled",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0009:f87672ddc715",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0010:2bb41ec842c2",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0010:2bb41ec842c2",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH-sel",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0010:2bb41ec842c2",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH-rand",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0010:2bb41ec842c2",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "HQ",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0010:2bb41ec842c2",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-empty",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0010:2bb41ec842c2",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-shuffled",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0010:2bb41ec842c2",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0011:a26c8c80a830",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0011:a26c8c80a830",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH-sel",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0011:a26c8c80a830",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH-rand",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0011:a26c8c80a830",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "HQ",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0011:a26c8c80a830",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-empty",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0011:a26c8c80a830",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-shuffled",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0011:a26c8c80a830",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0012:389f9702d175",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0012:389f9702d175",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH-sel",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0012:389f9702d175",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH-rand",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0012:389f9702d175",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "HQ",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0012:389f9702d175",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-empty",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0012:389f9702d175",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-shuffled",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0012:389f9702d175",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0013:cdb388bd85ad",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0013:cdb388bd85ad",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH-sel",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0013:cdb388bd85ad",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH-rand",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0013:cdb388bd85ad",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "HQ",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0013:cdb388bd85ad",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-empty",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0013:cdb388bd85ad",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-shuffled",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0013:cdb388bd85ad",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0014:c98fd1f5b397",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0014:c98fd1f5b397",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH-sel",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0014:c98fd1f5b397",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH-rand",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0014:c98fd1f5b397",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "HQ",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0014:c98fd1f5b397",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-empty",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0014:c98fd1f5b397",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-shuffled",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0014:c98fd1f5b397",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0015:6949369dd111",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0015:6949369dd111",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH-sel",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0015:6949369dd111",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH-rand",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0015:6949369dd111",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "HQ",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0015:6949369dd111",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-empty",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0015:6949369dd111",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-shuffled",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0015:6949369dd111",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0016:fe31c77d0598",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0016:fe31c77d0598",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "HQ",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0016:fe31c77d0598",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-empty",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0016:fe31c77d0598",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-shuffled",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0016:fe31c77d0598",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0017:1dec51397785",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0017:1dec51397785",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH-sel",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0017:1dec51397785",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH-rand",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0017:1dec51397785",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "HQ",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0017:1dec51397785",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-empty",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0017:1dec51397785",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-shuffled",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0017:1dec51397785",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0018:b494f9ac8f33",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0018:b494f9ac8f33",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH-sel",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0018:b494f9ac8f33",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH-rand",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0018:b494f9ac8f33",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "HQ",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0018:b494f9ac8f33",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-empty",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0018:b494f9ac8f33",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-shuffled",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0018:b494f9ac8f33",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0019:e7f02a62e08f",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0019:e7f02a62e08f",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "QH-rand",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0019:e7f02a62e08f",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "HQ",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0019:e7f02a62e08f",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-empty",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0019:e7f02a62e08f",
+      "reason": "blocked_reference_feature_definition_missing"
+    },
+    {
+      "arm": "D-shuffled",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0019:e7f02a62e08f",
+      "reason": "blocked_reference_feature_definition_missing"
+    }
+  ],
+  "readiness_inputs_file": "hdr_inputs_actual.json",
+  "schema_version": "e6-hdr-compilation-v1",
+  "scores": [],
+  "semantic_runner_blockers": [
+    "Frozen evaluation_config.json contains no HDR discovery/relationship judgment policy or prompt. Recovery prompt 14 measures a separate outcome; no HDR model calls are authorized by this runner."
+  ],
+  "terminal_missing_cells": [
+    {
+      "arm": "QH-sel",
+      "checkpoint": "E6/runs/priority10_train_batch001/b90d71ea502c100a_generation_envelope.json",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0000:4b44593d53e3",
+      "missing_output": true,
+      "status": "terminal_generation_failure"
+    },
+    {
+      "arm": "QH-rand",
+      "checkpoint": "E6/runs/priority10_train_batch001/b90d71ea502c100a_generation_envelope.json",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0000:4b44593d53e3",
+      "missing_output": true,
+      "status": "terminal_generation_failure"
+    },
+    {
+      "arm": "D",
+      "checkpoint": "E6/runs/priority10_train_remaining/train_0002/a80a1d4dac36ea26_generation_envelope.json",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0002:157cd742897d",
+      "missing_output": true,
+      "status": "terminal_generation_failure"
+    },
+    {
+      "arm": "D",
+      "checkpoint": "E6/runs/priority10_train_remaining/train_0006/a307a7ad5872a02b_generation_envelope.json",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0006:d2196c978877",
+      "missing_output": true,
+      "status": "terminal_generation_failure"
+    },
+    {
+      "arm": "D",
+      "checkpoint": "E6/runs/priority10_train_remaining/train_0009/366f9231e28f7bce_generation_envelope.json",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0009:f87672ddc715",
+      "missing_output": true,
+      "status": "terminal_generation_failure"
+    },
+    {
+      "arm": "QH-sel",
+      "checkpoint": "E6/runs/priority10_train_remaining/train_0016/11168a992f8310ac_generation_envelope.json",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0016:fe31c77d0598",
+      "missing_output": true,
+      "status": "terminal_generation_failure"
+    },
+    {
+      "arm": "QH-rand",
+      "checkpoint": "E6/runs/priority10_train_remaining/train_0016/11168a992f8310ac_generation_envelope.json",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0016:fe31c77d0598",
+      "missing_output": true,
+      "status": "terminal_generation_failure"
+    },
+    {
+      "arm": "QH-sel",
+      "checkpoint": "E6/runs/priority10_train_remaining/train_0019/3938323d60bba3b5_generation_envelope.json",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0019:e7f02a62e08f",
+      "missing_output": true,
+      "status": "terminal_generation_failure"
+    },
+    {
+      "arm": "D",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0007:7834fee0c0ed",
+      "status": "unresolved_0007_do_not_retry"
+    },
+    {
+      "arm": "QH",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0007:7834fee0c0ed",
+      "status": "unresolved_0007_do_not_retry"
+    },
+    {
+      "arm": "QH-sel",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0007:7834fee0c0ed",
+      "status": "unresolved_0007_do_not_retry"
+    },
+    {
+      "arm": "QH-rand",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0007:7834fee0c0ed",
+      "status": "unresolved_0007_do_not_retry"
+    },
+    {
+      "arm": "HQ",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0007:7834fee0c0ed",
+      "status": "unresolved_0007_do_not_retry"
+    },
+    {
+      "arm": "D-empty",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0007:7834fee0c0ed",
+      "status": "unresolved_0007_do_not_retry"
+    },
+    {
+      "arm": "D-shuffled",
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0007:7834fee0c0ed",
+      "status": "unresolved_0007_do_not_retry"
+    }
+  ]
+}

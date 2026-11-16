@@ -1,0 +1,3 @@
+candidate_id,question_id,packet_sha256,reviewer_slot,reviewer_code,review_date_utc,question_input_relationship_valid,paraphrase_equivalent,near_miss_distinct,same_topic_decoy_valid,evidence_references_json,rationale
+mgen-v1-01,mgen-v1-01,ae5d6de6530c3beeb911b6e034585335a297e6ceb3e40e3518983fcf99463e68,1,,,,,,,,
+mgen-v1-02,mgen-v1-02,ae5d6de6530c3beeb911b6e034585335a297e6ceb3e40e3518983fcf99463e68,1,,,,,,,,

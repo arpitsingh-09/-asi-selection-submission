@@ -1,0 +1,73 @@
+{
+  "schema": "M-A1-authorized-manipulation-validation-v1",
+  "inputs_file": "A1_AUTHORIZED_MANIPULATIONS_V1.json",
+  "inputs_sha256": "32fd5e11df8c6f8a92e3f49421f3a5e1a40830509201425dd5f9d95e6fdcceed",
+  "focal_results": [
+    {
+      "paper_id": "2512.23709v3",
+      "reviewed_claims": 9,
+      "retained_supported_atomic_claims": 9,
+      "claim_numbers_in_extraction_order": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "original_pool_count": 716,
+      "shuffled_pool_count": 715,
+      "case_count": 7,
+      "synthetic_paper_count": 14,
+      "abstract_and_evidence_validation": "passed",
+      "temporal_validation": "passed"
+    },
+    {
+      "paper_id": "2610.29385v1",
+      "reviewed_claims": 9,
+      "retained_supported_atomic_claims": 7,
+      "claim_numbers_in_extraction_order": [
+        1,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "original_pool_count": 896,
+      "shuffled_pool_count": 716,
+      "case_count": 7,
+      "synthetic_paper_count": 12,
+      "abstract_and_evidence_validation": "passed",
+      "temporal_validation": "passed"
+    }
+  ],
+  "manipulation_case_counts": {
+    "baseline": 2,
+    "concentrated": 2,
+    "coverage_100": 2,
+    "coverage_25": 2,
+    "coverage_50": 2,
+    "coverage_75": 2,
+    "distributed": 2
+  },
+  "control_record_counts": {
+    "empty": 2,
+    "original": 2,
+    "same_topic_decoy": 2,
+    "shuffled": 2
+  },
+  "empty_pool_status": "undefined; no score assigned",
+  "decoy_status": "unavailable under Amendment 003; no substitute generated",
+  "control_identity_validation": "passed",
+  "synthetic_timestamp_validation": "passed: focal publication minus one second (intervention ordering only)",
+  "case_id_validation": "passed",
+  "scores_generated": false,
+  "model_inference_run": false,
+  "bootstrap_run": false,
+  "validation_status": "passed"
+}

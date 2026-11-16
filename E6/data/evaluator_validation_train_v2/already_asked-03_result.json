@@ -1,0 +1,96 @@
+{
+  "a": "Does the expression of frustration regarding the lack of third-party debate presence correlate with a specific predicted voting preference?",
+  "b": "To what extent does reaction to specific political events (e.g., government shutdowns, Supreme Court decisions) influence the predicted voting preference?",
+  "calls": [
+    {
+      "model_metadata": {
+        "adapter_metadata": {
+          "backend": "ollama-local",
+          "created_at": "2026-11-12T13:01:24.116036Z",
+          "done": true,
+          "done_reason": "stop",
+          "endpoint": "http://localhost:11434/api/generate",
+          "eval_count": 8,
+          "generation_settings": {
+            "format": "json",
+            "options": {
+              "num_ctx": 32768,
+              "num_predict": 2048,
+              "seed": 2026,
+              "temperature": 0,
+              "top_p": 1
+            },
+            "stream": false
+          },
+          "http_status": 200,
+          "latency_seconds": 2.6600119999999983,
+          "model": "gemma3:12b",
+          "model_identity": {
+            "reported_created_at": "2026-11-12T13:01:24.116036Z",
+            "reported_model": "gemma3:12b",
+            "requested_model": "gemma3:12b"
+          },
+          "prompt_characters": 1372,
+          "prompt_eval_count": 261,
+          "prompt_sha256": "315abf092e4f90b1cc82e2e1758aafa234a7896298bf8d224a41af571e6e51b5",
+          "requested_output_token_limit": 2048,
+          "stage": "same_question",
+          "total_tokens": 269,
+          "usage_metadata_available": true
+        },
+        "generation_settings": {
+          "format": "json",
+          "options": {
+            "num_ctx": 32768,
+            "num_predict": 2048,
+            "seed": 2026,
+            "temperature": 0,
+            "top_p": 1
+          },
+          "stream": false
+        },
+        "http_status": 200,
+        "input_tokens": 261,
+        "latency_seconds": 2.6600119999999983,
+        "model": "gemma3:12b",
+        "model_identity": {
+          "reported_created_at": "2026-11-12T13:01:24.116036Z",
+          "reported_model": "gemma3:12b",
+          "requested_model": "gemma3:12b"
+        },
+        "output_tokens": 8,
+        "total_tokens": 269
+      },
+      "prompt": "ROLE\nYou are an evaluator of semantic equivalence between scientific research statements.\n\nTASK\nDetermine whether two supplied statements express substantially the same research objective.\n\nSTATEMENT A TYPE\ngenerated research question\n\nSTATEMENT A\nDoes the expression of frustration regarding the lack of third-party debate presence correlate with a specific predicted voting preference?\n\nSTATEMENT B TYPE\nTRAIN generated research question\n\nSTATEMENT B\nTo what extent does reaction to specific political events (e.g., government shutdowns, Supreme Court decisions) influence the predicted voting preference?\n\nDECISION RULE\nReturn true only when both statements substantially concern the same:\n- phenomenon or scientific subject;\n- objective, mechanism or relationship being investigated; and\n- principal outcome or question being addressed.\n\nTreat genuine paraphrases as equivalent even when wording differs.\n\nReturn false when statements merely share a topic, keywords, broad domain or research area but investigate meaningfully different mechanisms, relationships, objectives or outcomes.\n\nDo not treat a more specific question as equivalent to a broader question unless they genuinely express the same central objective.\n\nDo not use outside knowledge. Judge only the supplied text.\n\nOUTPUT\nReturn valid JSON only:\n\n{\"same_question\": true}\n\nor\n\n{\"same_question\": false}\n",
+      "prompt_sha256": "695b351caf2e1f8e787f62faad45f8f628bfa183358bcb979586f109a49945c5",
+      "raw_output": "{\"same_question\": false}",
+      "stage": "same_question"
+    }
+  ],
+  "case_id": "already_asked-03",
+  "expected": null,
+  "key": "same_question",
+  "prediction": false,
+  "reference_kind": "human_reference_required",
+  "rubric": "same_question",
+  "section": "already_asked",
+  "sources": [
+    {
+      "hypothesis": "Expressing frustration over the lack of third-party debate presence is more likely to correlate with a Democratic voting preference.",
+      "hypothesis_id": "QH:H5",
+      "question": "Does the expression of frustration regarding the lack of third-party debate presence correlate with a specific predicted voting preference?",
+      "source": "E6/runs/priority10_train_batch001/b90d71ea502c100a_generation_envelope.json",
+      "source_file_sha256": "37a1f47e90f743086a5fa24a05af828ca6dbccaa04ecda57f24b973e1db0d926",
+      "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0000:4b44593d53e3"
+    },
+    {
+      "hypothesis": "Negative reactions to Republican-led government shutdowns increase the likelihood of a Democratic or third-party vote prediction.",
+      "hypothesis_id": "QH:H3",
+      "question": "To what extent does reaction to specific political events (e.g., government shutdowns, Supreme Court decisions) influence the predicted voting preference?",
+      "source": "E6/runs/priority10_train_batch001/b90d71ea502c100a_generation_envelope.json",
+      "source_file_sha256": "37a1f47e90f743086a5fa24a05af828ca6dbccaa04ecda57f24b973e1db0d926",
+      "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0000:4b44593d53e3"
+    }
+  ],
+  "status": "returned_valid"
+}

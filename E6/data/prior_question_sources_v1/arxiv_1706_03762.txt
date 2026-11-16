@@ -1,0 +1,185 @@
+[1706.03762] Attention Is All You Need (https://arxiv.org/abs/1706.03762)
+citeturn3view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/1706.03762","lineno":null}); Total lines: 183
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1: 
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3: 
+L4: Press Enter to search · 【4†Advanced search】
+L5: 
+L6: # Computer Science > Computation and Language
+L7: 
+L8: [Submitted on 12 Jun 2017 (【5†v1】), last revised 2 Aug 2023 (this version, v7)]
+L9: # Title:Attention Is All You Need
+L10: 
+L11: Authors:【6†Ashish Vaswani】, 【7†Noam Shazeer】, 【8†Niki Parmar】, 【9†Jakob Uszkoreit】, 【10†Llion Jones】, 【11†Aidan N. Gomez】, 【12†Lukasz Kaiser】, 【13†Illia Polosukhin】
+L12: 
+L13: View a PDF of the paper titled Attention Is All You Need, by Ashish Vaswani and 7 other authors
+L14: 
+L15: 【14†View PDF】 【15†HTML (experimental)】
+L16: > Abstract:The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely.
+L17: Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU.
+L18: On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.
+L19: Comments:  | 15 pages, 5 figures
+L20: Subjects:  | Computation and Language (cs.CL); Machine Learning (cs.LG)
+L21: Cite as:  | 【16†arXiv:1706.03762】 [cs.CL]
+L22:    | (or 【17†arXiv:1706.03762v7】 [cs.CL] for this version)
+L23:    | 【18†https://doi.org/10.48550/arXiv.1706.03762†doi.org】 arXiv-issued DOI via DataCite
+L24: ## Submission history
+L25: 
+L26: From: Llion Jones [【19†view email】]
+L27: 【5†[v1]】 Mon, 12 Jun 2017 17:57:34 UTC (1,102 KB)
+L28: 【20†[v2]】 Mon, 19 Jun 2017 16:49:45 UTC (1,125 KB)
+L29: 【21†[v3]】 Tue, 20 Jun 2017 05:20:02 UTC (1,125 KB)
+L30: 【22†[v4]】 Fri, 30 Jun 2017 17:29:30 UTC (1,124 KB)
+L31: 【23†[v5]】 Wed, 6 Dec 2017 03:30:32 UTC (1,124 KB)
+L32: 【24†[v6]】 Mon, 24 Jul 2023 00:48:54 UTC (1,124 KB)
+L33: [v7] Wed, 2 Aug 2023 00:41:18 UTC (1,124 KB)
+L34: 
+L35: Full-text links:
+L36: ## Access Paper:
+L37: 
+L38: View a PDF of the paper titled Attention Is All You Need, by Ashish Vaswani and 7 other authors
+L39: 
+L40:   * 【14†View PDF】
+L41:   * 【15†HTML (experimental)】
+L42:   * 【25†TeX Source】
+L43: 
+L44: 【26†view license】
+L45: 
+L46: ### Additional Features
+L47: 
+L48:   * 【27†Audio Summary】
+L49: 
+L50: ### Current browse context:
+L51: 
+L52: cs.CL
+L53: 
+L54: 【28†< prev】   |   【29†next >】
+L55: 
+L56: 【30†new】 | 【31†recent】 | 【32†2017-06】
+L57: 
+L58: Change to browse by:
+L59: 
+L60: 【33†cs】
+L61: 【34†cs.LG】
+L62: ### References & Citations
+L63: 
+L64:   * 【35†SciX†scixplorer.org】
+L65:   * 【36†Google Scholar†scholar.google.com】
+L66:   * 【37†Semantic Scholar†api.semanticscholar.org】
+L67: 
+L68: ### 【38†123 blog links】
+L69: 
+L70: (【39†what is this?†info.arxiv.org】)
+L71: ### 【40†DBLP†dblp.uni-trier.de】 - CS Bibliography
+L72: 
+L73: 【41†listing†dblp.uni-trier.de】 | 【42†bibtex†dblp.uni-trier.de】
+L74: 
+L75: 【43†Ashish Vaswani†dblp.uni-trier.de】
+L76: 【44†Noam Shazeer†dblp.uni-trier.de】
+L77: 【45†Niki Parmar†dblp.uni-trier.de】
+L78: 【46†Jakob Uszkoreit†dblp.uni-trier.de】
+L79: 【47†Llion Jones†dblp.uni-trier.de】
+L80: 
+L81: …
+L82: 
+L83: [Button: export BibTeX citation] Loading...
+L84: 
+L85: ## BibTeX formatted citation
+L86: 
+L87: [Button: ×]
+L88: 
+L89: loading...
+L90: 
+L91: Data provided by:
+L92: 
+L93: ### Bookmark
+L94: 
+L95: [Input] Bibliographic Tools
+L96: # Bibliographic and Citation Tools
+L97: 
+L98: [Input] Bibliographic Explorer Toggle
+L99: 
+L100: Bibliographic Explorer (【48†What is the Explorer?†info.arxiv.org】)
+L101: 
+L102: [Input] Connected Papers Toggle
+L103: 
+L104: Connected Papers (【49†What is Connected Papers?†www.connectedpapers.com】)
+L105: 
+L106: [Input] Litmaps Toggle
+L107: 
+L108: Litmaps (【50†What is Litmaps?†www.litmaps.co】)
+L109: 
+L110: [Input] scite.ai Toggle
+L111: 
+L112: scite Smart Citations (【51†What are Smart Citations?†www.scite.ai】)
+L113: 
+L114: [Input] Code, Data, Media
+L115: # Code, Data and Media Associated with this Article
+L116: 
+L117: [Input] alphaXiv Toggle
+L118: 
+L119: alphaXiv (【52†What is alphaXiv?†alphaxiv.org】)
+L120: 
+L121: [Input] Links to Code Toggle
+L122: 
+L123: CatalyzeX Code Finder for Papers (【53†What is CatalyzeX?†www.catalyzex.com】)
+L124: 
+L125: [Input] DagsHub Toggle
+L126: 
+L127: DagsHub (【54†What is DagsHub?†dagshub.com】)
+L128: 
+L129: [Input] GotitPub Toggle
+L130: 
+L131: Gotit.pub (【55†What is GotitPub?†gotit.pub】)
+L132: 
+L133: [Input] Huggingface Toggle
+L134: 
+L135: Hugging Face (【56†What is Huggingface?†huggingface.co】)
+L136: 
+L137: [Input] ScienceCast Toggle
+L138: ScienceCast (【57†What is ScienceCast?†sciencecast.org】)
+L139: 
+L140: [Input] Demos
+L141: # Demos
+L142: 
+L143: [Input] Replicate Toggle
+L144: 
+L145: Replicate (【58†What is Replicate?†replicate.com】)
+L146: 
+L147: [Input] Spaces Toggle
+L148: 
+L149: Hugging Face Spaces (【59†What is Spaces?†huggingface.co】)
+L150: 
+L151: [Input] Spaces Toggle
+L152: 
+L153: TXYZ.AI (【60†What is TXYZ.AI?†txyz.ai】)
+L154: 
+L155: [Input] Related Papers
+L156: # Recommenders and Search Tools
+L157: 
+L158: [Input] Link to Influence Flower
+L159: 
+L160: Influence Flower (【61†What are Influence Flowers?†influencemap.cmlab.dev】)
+L161: 
+L162: [Input] Core recommender toggle
+L163: 
+L164: CORE Recommender (【62†What is CORE?†core.ac.uk】)
+L165: 
+L166:   * Author
+L167:   * Venue
+L168:   * Institution
+L169:   * Topic
+L170: 
+L171: [Input] About arXivLabs
+L172: # arXivLabs: experimental projects with community collaborators
+L173: 
+L174: arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.
+L175: 
+L176: Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
+L177: Have an idea for a project that will add value for arXiv's community? 【63†Learn more about arXivLabs†info.arxiv.org】.
+L178: 
+L179: 【64†Which authors of this paper are endorsers?】 | Disable MathJax (【65†What is MathJax?†info.arxiv.org】)
+L180: 
+L181: We gratefully acknowledge support from our 【66†major funders†info.arxiv.org】, 【67†member institutions†info.arxiv.org】, , and all contributors.
+L182: 【68†About†info.arxiv.org】 · 【69†Help†info.arxiv.org】 · 【70†Contact†info.arxiv.org】 · 【71†Subscribe†info.arxiv.org】 · 【72†Copyright†info.arxiv.org】 · 【73†Privacy†info.arxiv.org】 · 【74†Accessibility†info.arxiv.org】 · 【75†Operational Status (opens in new tab)†status.arxiv.org】

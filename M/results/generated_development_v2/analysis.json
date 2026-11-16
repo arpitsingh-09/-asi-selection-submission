@@ -1,0 +1,66 @@
+{
+  "schema": "M-generated-development-summary-v1",
+  "development_only": true,
+  "core_test_completed": false,
+  "evaluation_run": false,
+  "question_count": 6,
+  "control_snapshots": 18,
+  "execution_errors": [],
+  "confidence_intervals": null,
+  "readouts": {
+    "original": {
+      "G_mean_available": 0.49452637453948706,
+      "G_records_available": 6,
+      "N_Y_mean_numerically_suspect": 0.4686527152856191,
+      "N_Y_records": 6,
+      "N_density_mean_numerically_suspect": 100.0,
+      "Q_peer_review_predictions": 0,
+      "Q_later_community_use_predictions": 0,
+      "set_diversity": {
+        "mean_pairwise_cosine_distance": 0.6454798664494539,
+        "vendi": 4.699807081751871,
+        "class_entropy": 1.7917594692280547,
+        "distinct_question_count": 6
+      },
+      "T_future_information_exposed": true
+    },
+    "empty": {
+      "G_mean_available": null,
+      "G_records_available": 0,
+      "N_Y_mean_numerically_suspect": 0.4686527152856191,
+      "N_Y_records": 6,
+      "N_density_mean_numerically_suspect": 100.0,
+      "Q_peer_review_predictions": 0,
+      "Q_later_community_use_predictions": 0,
+      "set_diversity": {
+        "mean_pairwise_cosine_distance": 0.6454798664494539,
+        "vendi": 4.699807081751871,
+        "class_entropy": 1.7917594692280547,
+        "distinct_question_count": 6
+      },
+      "T_future_information_exposed": true
+    },
+    "shuffled": {
+      "G_mean_available": 0.2655136629992328,
+      "G_records_available": 6,
+      "N_Y_mean_numerically_suspect": 0.4686527152856191,
+      "N_Y_records": 6,
+      "N_density_mean_numerically_suspect": 100.0,
+      "Q_peer_review_predictions": 0,
+      "Q_later_community_use_predictions": 0,
+      "set_diversity": {
+        "mean_pairwise_cosine_distance": 0.6454798664494539,
+        "vendi": 4.699807081751871,
+        "class_entropy": 1.7917594692280547,
+        "distinct_question_count": 6
+      },
+      "T_future_information_exposed": true
+    }
+  },
+  "failures": [
+    "NumPy divide-by-zero/overflow/invalid-value RuntimeWarnings occurred in the N Y matrix multiplication (M/readouts.py:55). Serialized values are finite, but N scores should be treated as numerically suspect.",
+    "Q unavailable: both quality factors are untrained.",
+    "Claim-based N/custom coordinates unavailable: no supplied source-backed claim cards.",
+    "Same-topic decoys not used: human review is pending."
+  ]
+}

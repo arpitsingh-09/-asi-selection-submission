@@ -1,0 +1,81 @@
+[2212.03640] Fine-tuned CLIP Models are Efficient Video Learners (https://arxiv.org/abs/2212.03640)
+citeturn7view0 [wordlim: 200] Crawled: yesterday; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2212.03640","lineno":null}); Total lines: 170
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1: 
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3: 
+L4: Press Enter to search · 【4†Advanced search】
+L5: 
+L6: # Computer Science > Computer Vision and Pattern Recognition
+L7: 
+L8: [Submitted on 6 Dec 2022 (【5†v1】), last revised 26 Mar 2023 (this version, v3)]
+L9: # Title:Fine-tuned CLIP Models are Efficient Video Learners
+L10: 
+L11: Authors:【6†Hanoona Rasheed】, 【7†Muhammad Uzair Khattak】, 【8†Muhammad Maaz】, 【9†Salman Khan】, 【10†Fahad Shahbaz Khan】
+L12: 
+L13: View a PDF of the paper titled Fine-tuned CLIP Models are Efficient Video Learners, by Hanoona Rasheed and 4 other authors
+L14: 
+L15: 【11†View PDF】 【12†HTML (experimental)】
+L16: > Abstract:Large-scale multi-modal training with image-text pairs imparts strong generalization to CLIP model. Since training on a similar scale for videos is infeasible, recent approaches focus on the effective transfer of image-based CLIP to the video domain. In this pursuit, new parametric modules are added to learn temporal information and inter-frame relationships which require meticulous design efforts.
+L17: Furthermore, when the resulting models are learned on videos, they tend to overfit on the given task distribution and lack in generalization aspect. This begs the following question: How to effectively transfer image-level CLIP representations to videos? In this work, we show that a simple Video Fine-tuned CLIP (ViFi-CLIP) baseline is generally sufficient to bridge the domain gap from images to videos.
+L18: Our qualitative analysis illustrates that the frame-level processing from CLIP image-encoder followed by feature pooling and similarity matching with corresponding text embeddings helps in implicitly modeling the temporal cues within ViFi-CLIP. Such fine-tuning helps the model to focus on scene dynamics, moving objects and inter-object relationships.
+L19: For low-data regimes where full fine-tuning is not viable, we propose a `bridge and prompt' approach that first uses fine-tuning to bridge the domain gap and then learns prompts on language and vision side to adapt CLIP representations. We extensively evaluate this simple yet strong baseline on zero-shot, base-to-novel generalization, few-shot and fully supervised settings across five video benchmarks. Our code is available at 【13†this https URL†github.com】.
+L20: Comments:  | Accepted at CVPR 2023
+L21: Subjects:  | Computer Vision and Pattern Recognition (cs.CV); Artificial Intelligence (cs.AI)
+L22: Cite as:  | 【14†arXiv:2212.03640】 [cs.CV]
+L23:    | (or 【15†arXiv:2212.03640v3】 [cs.CV] for this version)
+L24:    | 【16†https://doi.org/10.48550/arXiv.2212.03640†doi.org】 arXiv-issued DOI via DataCite
+L25: ## Submission history
+L26: 
+L27: From: Muhammad Maaz Mr [【17†view email】]
+L28: 【5†[v1]】 Tue, 6 Dec 2022 18:59:58 UTC (7,408 KB)
+L29: 【18†[v2]】 Fri, 10 Mar 2023 15:18:18 UTC (7,408 KB)
+L30: [v3] Sun, 26 Mar 2023 11:40:16 UTC (6,760 KB)
+L31: 
+L32: Full-text links:
+L33: 
+L34: ## Access Paper:
+L35: 
+L36: View a PDF of the paper titled Fine-tuned CLIP Models are Efficient Video Learners, by Hanoona Rasheed and 4 other authors
+L37: 
+L38:   * 【11†View PDF】
+L39:   * 【12†HTML (experimental)】
+L40:   * 【19†TeX Source】
+L41: 
+L42: 【20†view license†creativecommons.org】
+L43: ### Additional Features
+L44: 
+L45:   * 【21†Audio Summary】
+L46: 
+L47: ### Current browse context:
+L48: 
+L49: cs.CV
+L50: 
+L51: 【22†< prev】   |   【23†next >】
+L52: 
+L53: 【24†new】 | 【25†recent】 | 【26†2022-12】
+L54: 
+L55: Change to browse by:
+L56: 
+L57: 【27†cs】
+L58: 【28†cs.AI】
+L59: 
+L60: ### References & Citations
+L61: 
+L62:   * 【29†SciX†scixplorer.org】
+L63:   * 【30†Google Scholar†scholar.google.com】
+L64:   * 【31†Semantic Scholar†api.semanticscholar.org】
+L65: 
+L66: [Button: export BibTeX citation] Loading...
+L67: 
+L68: ## BibTeX formatted citation
+L69: 
+L70: [Button: ×]
+L71: 
+L72: loading...
+L73: 
+L74: Data provided by:
+L75: 
+L76: ### Bookmark
+L77: 
+L78: [Input] Bibliographic Tools

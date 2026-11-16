@@ -1,0 +1,1842 @@
+{
+  "source": "/Users/arpit/.cache/huggingface/hub/datasets--allenai--novelty-judge-bench/snapshots/fe201e9638efbf8562413de2d3f50f9b661910c4/data/human-only_pointwise.parquet",
+  "sha256": "ddca02ffcb54f9e3fba0ab3c4f12256744273c3fd514d5f610e17de7ef3ccb1a",
+  "records": 299,
+  "labels": {
+    "NEGATIVE": 145,
+    "POSITIVE": 154
+  },
+  "schema": "cached parquet has top-level metadata fields; normalizer also validates nested metadata",
+  "mappings": [
+    {
+      "id": 0,
+      "title": "Learning from Peers in Reasoning Models",
+      "forum_id": "qImzresc4C",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 1,
+      "title": "StreamingThinker: Large Language Models Can Think While Reading",
+      "forum_id": "10Iiew095e",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 10,
+      "title": "The Unseen Bias: How Norm Discrepancy in Pre-Norm MLLMs Leads to  Visual  Information Loss",
+      "forum_id": "GVVNG2EMQv",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 100,
+      "title": "ORCaS: Unsupervised Depth Completion via Occluded Region Completion as Supervision",
+      "forum_id": "v2skNLbrfF",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 101,
+      "title": "AutoEP: LLMs-Driven Automation of Hyperparameter Evolution for Metaheuristic Algorithms",
+      "forum_id": "hit3hGBheP",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 102,
+      "title": "A New Efficient Method For Combining Gradients Of Different Orders",
+      "forum_id": "yX1Nn63DwQ",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 103,
+      "title": "Efficient algorithms for Incremental Metric Bipartite Matching",
+      "forum_id": "wnIanx0r0w",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 104,
+      "title": "Boosting Language Model Fine-Tuning via Zeroth-Order Hybrid Methods with Additional  Memory Aid",
+      "forum_id": "EjH5I9ziug",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 105,
+      "title": "The Polar Express: Optimal Matrix Sign Methods and their Application to the Muon Algorithm",
+      "forum_id": "yRtgZ1K8hO",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 106,
+      "title": "PAML: MoE-Based Partitioning and Merging Framework for Solving Large-scale Multi-task VRPs",
+      "forum_id": "Y74tGjpsjq",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 107,
+      "title": "Structure-Aware Bipartite Representations for Efficient MILP Branching",
+      "forum_id": "1nbTSuIdQ7",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 108,
+      "title": "Convergence of Regret Matching in Potential Games and Constrained Optimization",
+      "forum_id": "EOV1q1U23N",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 109,
+      "title": "Faster Gradient Methods for Highly-smooth Stochastic Bilevel Optimization",
+      "forum_id": "XIAta0WOJ6",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 11,
+      "title": "HSA: Head-wise Sparse Attention for Efficient and Accurate Long-context Inference",
+      "forum_id": "WytruI9uM3",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 110,
+      "title": "Estimating Latent Regularization Parameters in Ill-Posed Problems with Semi-Definite Programming",
+      "forum_id": "e5sTFYhtqK",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 111,
+      "title": "Convergence Dynamics of Over-Parameterized Score Matching for a Single Gaussian",
+      "forum_id": "VDIH6L8ANo",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 112,
+      "title": "Gradient Flow Convergence Guarantee for General Neural Network Architectures",
+      "forum_id": "b36drMoKir",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 113,
+      "title": "Byzantine-Robust Federated Learning with Learnable Aggregation Weights",
+      "forum_id": "lXSrulux48",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 114,
+      "title": "ALS-LoRA: Improved Low-Rank Matrix Compesation Method for Low Bit Quantization",
+      "forum_id": "ab4wG3EjnQ",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 115,
+      "title": "Image Quality Assessment for Embodied AI",
+      "forum_id": "azj53PLJRL",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 116,
+      "title": "TIIF-Bench: How Does Your T2I Model Follow Your Instructions?",
+      "forum_id": "vm8lNKLfuo",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 117,
+      "title": "Data Leakage Detection and De-duplication in Large Scale Geospatial Image Datasets",
+      "forum_id": "SB8xCvNFp7",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 118,
+      "title": "BIRD-INTERACT: Re-imagining Text-to-SQL Evaluation via Lens of Dynamic Interactions",
+      "forum_id": "nHrYBGujps",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 119,
+      "title": "Automatic Image-Level Morphological Trait Annotation for Organismal Images",
+      "forum_id": "oFRbiaib5Q",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 12,
+      "title": "LLM Pretraining with Continuous Concepts",
+      "forum_id": "wTGcb3DxOn",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 120,
+      "title": "Harnessing Large Language Models Locally: Empirical Results and Implications",
+      "forum_id": "gtc8URMymz",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 121,
+      "title": "Referring Layer Decomposition",
+      "forum_id": "AlgRVfd1z7",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 122,
+      "title": "RelEval: A Structured Benchmark for Logical and Relational Reasoning in LLMs",
+      "forum_id": "CkrqfhD4fV",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 123,
+      "title": "UAVDB: Point-Guided Masks for UAV Detection and Segmentation",
+      "forum_id": "bpD4wXVFXV",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 124,
+      "title": "InclusiveVidPose: Bridging the Pose Estimation Gap for Individuals with Limb Deficiencies in Video-Based Motion",
+      "forum_id": "SyQqXAdWUq",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 125,
+      "title": "CardioBench: Do Echocardiography Foundation Models Generalize Beyond the Lab?",
+      "forum_id": "CX35pnGzht",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 126,
+      "title": "Benchmarking Open-ended Segmentation",
+      "forum_id": "QSmwRnw8GP",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 127,
+      "title": "Same model, better performance: the impact of shuffling on DNA Language Models benchmarking",
+      "forum_id": "ph9Pq45KLN",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 128,
+      "title": "TabStruct: Measuring Structural Fidelity of Tabular Data",
+      "forum_id": "XOPH34Extq",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 129,
+      "title": "ConDABench: Interactive Evaluation of Language Models for Data Analysis",
+      "forum_id": "jOxfpsnDFo",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 13,
+      "title": "InfiMed-Foundation: Pioneering Advanced Multimodal Medical Models with Compute-Efficient Pre-Training and Multi-Stage Fine-Tuning",
+      "forum_id": "SboD1FBYdy",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 130,
+      "title": "OCR-Reasoning Benchmark: Unveiling the True Capabilities of MLLMs in Complex Text-Rich Image Reasoning",
+      "forum_id": "aH7eyx64pC",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 131,
+      "title": "LLMs Get Lost In Multi-Turn Conversation",
+      "forum_id": "VKGTGGcwl6",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 132,
+      "title": "MOCHA: Multi-sample Omics Cohorts with Human Annotation",
+      "forum_id": "FkTEc3XEL6",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 133,
+      "title": "A Single Character Can Make or Break your LLM Evals",
+      "forum_id": "aw3UYrrt3X",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 134,
+      "title": "CounselBench: A Large-Scale Expert Evaluation and Adversarial Benchmarking of Large Language Models in Mental Health Question Answering",
+      "forum_id": "8MBYRZHVWT",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 135,
+      "title": "WebArena Verified",
+      "forum_id": "CSIo4D7xBG",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 136,
+      "title": "IF-VidCap: Can Video Caption Models Follow Instructions?",
+      "forum_id": "lBXJexaC8a",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 137,
+      "title": "Triple-S: A Sticker Semantic Similarity Benchmark with General Sticker Encoder",
+      "forum_id": "fOmX9aaQD3",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 138,
+      "title": "BANZ-FS: BANZSL Fingerspelling Dataset",
+      "forum_id": "GMR9BUsPbq",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 139,
+      "title": "Spatial CAPTCHA: Generatively Benchmarking Spatial Reasoning for Human-Machine Differentiation",
+      "forum_id": "8LAc5kzjhz",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 14,
+      "title": "DuoLLM: A Dual-Stream Decoupled Visual Language Model for 3D Spatial Reasoning",
+      "forum_id": "2PjBGzP7mw",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 140,
+      "title": "Gym4ReaL: Towards Real-World Reference Environments for Reinforcement Learning",
+      "forum_id": "eqyyvNT7eS",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 141,
+      "title": "IL3D: A Large-Scale Indoor Layout Dataset for LLM-Driven 3D Scene Generation",
+      "forum_id": "0oxkxG9cCo",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 142,
+      "title": "AudioTrust: Benchmarking The Multifaceted Trustworthiness of Audio Large Language Models",
+      "forum_id": "E823AY0taq",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 143,
+      "title": "OmniSTVG: Toward Spatio-Temporal Omni-Object Video Grounding",
+      "forum_id": "azcQJtcYTE",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 144,
+      "title": "From Charts to Code: A Hierarchical Benchmark for Multimodal Models",
+      "forum_id": "oCkPzCR4f4",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 145,
+      "title": "BioCoref: Benchmarking Biomedical Coreference Resolution with LLMs",
+      "forum_id": "hFixHMwX1D",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 146,
+      "title": "Gaia2: Benchmarking LLM Agents on Dynamic and  Asynchronous Environments",
+      "forum_id": "9gw03JpKK4",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 147,
+      "title": "Virtual Community: An Open World for Humans, Robots, and Society",
+      "forum_id": "Qo0OZZoTLh",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 148,
+      "title": "ReefNet: A Large-Scale, Taxonomically Enriched Dataset and Benchmark for Hard Coral Classification",
+      "forum_id": "aY6RcnTH4v",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 149,
+      "title": "Quotient-Space Diffusion Models",
+      "forum_id": "3JPAkwSVc4",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 15,
+      "title": "Why Keep Your Doubts to Yourself? Trading Visual Uncertainties among Vision-Language Models",
+      "forum_id": "zeqCjGQB4U",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 150,
+      "title": "From Past To Path: Masked History Learning for Next-Item Prediction in Generative Recommendation",
+      "forum_id": "zQqeMZEveG",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 151,
+      "title": "Generation Properties of Stochastic Interpolation under Finite Training Set",
+      "forum_id": "Bf6C60cqYU",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 152,
+      "title": "A Unification of Discrete, Gaussian, and Simplicial Diffusion",
+      "forum_id": "1taAXRcm21",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 153,
+      "title": "Clone Deterministic 3D Worlds with Geometrically Regularized World Models",
+      "forum_id": "TLXp0scq3x",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 154,
+      "title": "When Scores Learn Geometry: Rate Separations under the Manifold Hypothesis",
+      "forum_id": "34V0IZytle",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 155,
+      "title": "Reward-Focused Fine-tuning of Pocket-aware Diffusion Models via Direct Preference Optimization",
+      "forum_id": "U1ttMrMhig",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 156,
+      "title": "DiffusionBlocks: Block-wise Neural Network Training via Diffusion Interpretation",
+      "forum_id": "pwVSmK71cS",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 157,
+      "title": "Evolutionary Caching to Accelerate Your Off-the-Shelf Diffusion Model",
+      "forum_id": "z9MlGsQbzR",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 158,
+      "title": "Fast to Train, Fast to Sample: Stable Velocity for Flow Matching",
+      "forum_id": "YiV2rJOIUJ",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 159,
+      "title": "Half-order Fine-Tuning for Diffusion Model: A Recursive Likelihood Ratio Optimizer",
+      "forum_id": "AZ6lqcvHLX",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 16,
+      "title": "Learning to See Before Seeing: Demystifying LLM Visual Priors from Language Pre-training",
+      "forum_id": "pfw176o1YJ",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 160,
+      "title": "LLM-Based Social Simulations Require a Boundary",
+      "forum_id": "1T1SE9xxAB",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 161,
+      "title": "Diffusion Blend: Inference-Time Multi-Preference Alignment for Diffusion Models",
+      "forum_id": "M2DXbwO8le",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 162,
+      "title": "MRI2PET: Realistic PET Image Generation from MRI for Automated Inference of Brain Atrophy and Alzheimer\u2019s",
+      "forum_id": "PMCD5pKglt",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 163,
+      "title": "pi-Flow: Policy-Based Few-Step Generation via Imitation Distillation",
+      "forum_id": "1vAte8dsap",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 164,
+      "title": "Rethinking Diffusion Model in High Dimension",
+      "forum_id": "OPFE1zPYbU",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 165,
+      "title": "Massive Activations are the Key to Local Detail Synthesis in Diffusion Transformers",
+      "forum_id": "tOOAWDRjrb",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 166,
+      "title": "Generalizing Consistency Models for Fast Image-to-Image Translation",
+      "forum_id": "dR0M7PEyA6",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 167,
+      "title": "LongLive: Real-time Interactive Long Video Generation",
+      "forum_id": "nCAODkpsPJ",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 168,
+      "title": "UniLat3D: Geometry-Appearance Unified Latents for Single-Stage 3D Generation",
+      "forum_id": "Hxzjxu4y6A",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 169,
+      "title": "Cross-Modal Flows for Multimodal Generation",
+      "forum_id": "GtxAu3AogM",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 17,
+      "title": "Consistent 3D Object Detection with Active LLM Reasoning",
+      "forum_id": "Zt5Tu3Xdvw",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 170,
+      "title": "Learning an Image Editing Model without Image Editing Pairs",
+      "forum_id": "OHqZ61ZqNO",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 171,
+      "title": "PRISM: A Unified and Generalizable Adversarial Robustness Evaluation Framework for LLM-based Classification",
+      "forum_id": "gkGLiuDFeB",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 172,
+      "title": "Ultra-Fast Language Generation via Discrete Diffusion Divergence Instruct",
+      "forum_id": "mtdyZsa47V",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 173,
+      "title": "Continuously Augmented Discrete Diffusion model for Categorical Generative Modeling",
+      "forum_id": "JNAZ3e7Bwt",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 174,
+      "title": "Combine-ICMH: A Dual-Adapter Co-Tuning Framework in Image Compression for Machine and Human Vision",
+      "forum_id": "brRjG5G9Qu",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 175,
+      "title": "How Should We Evaluate LLM Reasoning Quality For Fact Verification?",
+      "forum_id": "ruh9H1Nwvr",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 176,
+      "title": "TrajFlow: Nation-wide Pseudo GPS Trajectory Generation with Flow Matching Models",
+      "forum_id": "BDOldEjwCE",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 177,
+      "title": "The Spacetime of Diffusion Models: An Information Geometry Perspective",
+      "forum_id": "qCsbYJZRA5",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 178,
+      "title": "OmniDrive:Towards Unified Next-Gen Controllable Multi-View Driving Video Generation with LLM-Guided World Model",
+      "forum_id": "dYW9MJyyK3",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 179,
+      "title": "SSG-ECPE: Semantics-Structured Generation with Alignment for Emotion-Cause Pair Extraction",
+      "forum_id": "qIbGpiNHhs",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 18,
+      "title": "When Greedy Wins: Emergent Exploitation Bias in Meta-Bandit LLM Training",
+      "forum_id": "ZRO79e2BHI",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 180,
+      "title": "EgoTwin: Dreaming Body and View in First Person",
+      "forum_id": "QFJkvv3zMi",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 181,
+      "title": "NUMBERS AS TEXT: COMPLEMENTARY DUAL- MODALITY EMBEDDINGS FOR TIME SERIES FORECASTING",
+      "forum_id": "wSUysJXv07",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 182,
+      "title": "Quadratic Direct Forecast for Training Multi-Step Time-Series Forecast Models",
+      "forum_id": "vpO8n9AqEG",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 183,
+      "title": "KANO: Kolmogorov-Arnold Neural Operator",
+      "forum_id": "2QmiKXfsIr",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 184,
+      "title": "Pushing the limits of unconstrained machine-learned interatomic potentials",
+      "forum_id": "QihJMqm2aX",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 185,
+      "title": "Neural Networks with Adaptive Activation Functions and their Application to the Solution of PDEs",
+      "forum_id": "fdjGPp1KPR",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 186,
+      "title": "La-Proteina: Atomistic Protein Generation via Partially Latent Flow Matching",
+      "forum_id": "RDerF20JYT",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 187,
+      "title": "Panda: A pretrained forecast model for chaotic dynamics",
+      "forum_id": "DgnsohAUMn",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 188,
+      "title": "PDE Solvers Should Be Local: Fast, Stable Rollouts with Learned Local Stencils",
+      "forum_id": "Kmbtv3gMuM",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 189,
+      "title": "FERD: Fairness-Enhanced Data-Free Adversarial Robustness Distillation",
+      "forum_id": "jGXTx64gal",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 19,
+      "title": "Two Sides of the Same Optimization Coin: Model Degradation and Representation Collapse in Graph Foundation Models",
+      "forum_id": "0BD2dCM4Ig",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 190,
+      "title": "Learning Semantic Anchors for Continual Generalized Category Discovery",
+      "forum_id": "rFmEPL6svs",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 191,
+      "title": "Fast and Stable Continual Test-Time Adaptation via Masked Modeling and Momentum-Guided Updates",
+      "forum_id": "FLmgVrgJo6",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 192,
+      "title": "Heads collapse, features stay: Why Replay needs big buffers",
+      "forum_id": "IdW0d0mRnG",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 193,
+      "title": "Beyond Linear Probes: Dynamic Safety Monitoring for Language Models",
+      "forum_id": "AGWa8whf92",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 194,
+      "title": "Leverage Unlearning to Sanitize LLMs",
+      "forum_id": "6zcXThQIoR",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 195,
+      "title": "Distilling Safe LLM Systems via Soft Prompts",
+      "forum_id": "4eVpczyaNx",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 196,
+      "title": "Cultivating Pluralism In Algorithmic Monoculture: The Community Alignment Dataset",
+      "forum_id": "4NtoAVqfhA",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 197,
+      "title": "Output Supervision Can Obfuscate the Chain of Thought",
+      "forum_id": "JTX0iqxBjk",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 198,
+      "title": "MedGazeShift : Transferable Multimodal Adversarial Attacks for Diagnostic Misdirection in Vision-Language Models",
+      "forum_id": "J9qGnGOfuY",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 199,
+      "title": "Fine-Grained Iterative Adversarial Attacks with Limited Computation Budget",
+      "forum_id": "GW9sp1g9qh",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 2,
+      "title": "Expanding Reasoning Potential in Foundation Model by Learning Diverse Chains of Thought Patterns",
+      "forum_id": "3FQV4JHPpY",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 20,
+      "title": "LoongRL: Reinforcement Learning for Advanced Reasoning over Long Contexts",
+      "forum_id": "o29E01Q6bv",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 200,
+      "title": "Advancing Equitable AI: A Comprehensive Framework for Individual Fairness Assessment",
+      "forum_id": "zmYx32SSOR",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 201,
+      "title": "Gaussian certified unlearning in high dimensions: A hypothesis testing approach",
+      "forum_id": "0FJYicpOj0",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 202,
+      "title": "DBLP: Noise Bridge Consistency Distillation For Efficient And Reliable Adversarial Purification",
+      "forum_id": "60RXHBGag4",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 203,
+      "title": "Conjuring Semantic Similarity",
+      "forum_id": "Wf0tGnQOIh",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 204,
+      "title": "Human Aligned Compression for Robust Models",
+      "forum_id": "AuzSDvSUzg",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 205,
+      "title": "Hot PATE: Private Aggregation of Distributions  for Diverse Tasks",
+      "forum_id": "y8dVmQxKgb",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 206,
+      "title": "Memorization or Interpolation? Detecting LLM Memorization through Input Perturbation Analysis",
+      "forum_id": "vkTl53bXMs",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 207,
+      "title": "Omni-Reward: Towards Generalist Omni-Modal Reward Modeling with Free-Form Preferences",
+      "forum_id": "9C4gVbPqSy",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 208,
+      "title": "Empirically Investigating the Trade-Offs in Deterministic Certified Training",
+      "forum_id": "GdcDEvh90X",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 209,
+      "title": "Comparing AI Agents to Cybersecurity Professionals in Real-World Penetration Testing",
+      "forum_id": "Us00XndbVi",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 21,
+      "title": "How Do Transformers Perform Two-Hop Reasoning in Context?",
+      "forum_id": "DPdev1Gg1o",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 210,
+      "title": "Feature-Level Adversarial Attack on Quantum Neural Networks",
+      "forum_id": "VgNs9dzyp6",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 211,
+      "title": "Supervised Fine-Tuning on Ambiguous Preference Pairs Boosts LLM Alignment",
+      "forum_id": "qBfeoNi3Ja",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 212,
+      "title": "Fair Decision Utility in Human-AI Collaboration: Interpretable Confidence Adjustment for Humans with Cognitive Disparities",
+      "forum_id": "hqq6GyYISN",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 213,
+      "title": "Why Adversarially Train Diffusion Models?",
+      "forum_id": "lL6htAaolp",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 214,
+      "title": "SEM: Reinforcement Learning For Search-Efficient Large Language Models",
+      "forum_id": "ibM9ZjUCiu",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 215,
+      "title": "Numerical Sensitivity and Robustness: Exploring the Flaws of Mathematical Reasoning in Large Language Models",
+      "forum_id": "ZozCeC9rD4",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 216,
+      "title": "Attack-Resistant Watermarking for AIGC Image Forensics via Diffusion-based Semantic Deflection",
+      "forum_id": "wyucYNGPiW",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 217,
+      "title": "AGENTCON: PRACTICAL ATTACKS ON GENERALIST WEB AGENTS VIA IMPERCEPTIBLE MANIPULATION",
+      "forum_id": "AMIb7RWnBI",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 218,
+      "title": "Control Tax: The Price of Keeping AI in Check",
+      "forum_id": "BpyR6Wkl1c",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 219,
+      "title": "Erased but Not Forgotten: How Backdoors Compromise Concept Erasure",
+      "forum_id": "jk7PL8GAV8",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 22,
+      "title": "CoDA: Agentic Systems for Collaborative Data Visualization",
+      "forum_id": "M4RKeHIAxw",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 220,
+      "title": "Critical Confabulation: Can LLMs Hallucinate for Social Good?",
+      "forum_id": "wGFD7ITicm",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 221,
+      "title": "Beyond Hearing: Learning Task-Agnostic ExG Representations from Earphones via Physiology-Informed Tokenization",
+      "forum_id": "s79tJrxDmt",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 222,
+      "title": "Representational and Temporal Dynamics in Neural Decoding: Linear and Nonlinear Models for Position and Velocity Prediction",
+      "forum_id": "VlTHxRcP3A",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 223,
+      "title": "Meta-Learning Theory-Informed Inductive Biases using Deep Kernel Gaussian Processes",
+      "forum_id": "7dvYWzOiEu",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 224,
+      "title": "MTSSRL-MD: Multi-Task Self-Supervised Representation Learning for EEG Signals across Multiple Datasets",
+      "forum_id": "qD4N15aL2W",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 225,
+      "title": "Spatially and Temporally Guided Bayesian Optimization for Brain Effective Connectivity Learning from fMRI and EEG Data",
+      "forum_id": "81iTOKJbzZ",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 226,
+      "title": "Assembling the Mind's Mosaic: Towards EEG Semantic Intent Decoding",
+      "forum_id": "8OgJ2uhiu8",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 227,
+      "title": "False, misleading, and unfounded statements in a recent TPAMI publication",
+      "forum_id": "1CR1MTIgmq",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 228,
+      "title": "Discovering alternative solutions beyond the simplicity bias in recurrent neural networks",
+      "forum_id": "8fViWZ0yZJ",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 229,
+      "title": "Reliable Detection of Autism Spectrum Disorder in Children Using Conformal Prediction",
+      "forum_id": "v8lXG3Z1PB",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 23,
+      "title": "NoLoRA: Nonlinear Low-Rank Adaptation for Parameter-Efficient Fine-Tuning",
+      "forum_id": "6vIc5PdqQV",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 230,
+      "title": "Robust Selective Activation with Randomized Temporal K-Winner-Take-All in Spiking Neural Networks for Continual Learning",
+      "forum_id": "uAkexWJ7dW",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 231,
+      "title": "Neural Graduated Assignment for Maximum Common Edge Subgraphs",
+      "forum_id": "ZVlTIyRe35",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 232,
+      "title": "AEGIS: Authentic Edge Growth In Sparsity for Link Prediction in Edge-Sparse Bipartite Knowledge Graphs",
+      "forum_id": "aMciux4VKg",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 233,
+      "title": "Context-aware Heterogeneous Graph-driven Multimodal Representation Learning for Emotion Recognition",
+      "forum_id": "twq5A3zdrH",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 234,
+      "title": "Reducing Symmetry Increase in Equivariant Neural Networks",
+      "forum_id": "dUgq4bLY4X",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 235,
+      "title": "Revisiting Dynamic Graphs from the Perspective of Time Series",
+      "forum_id": "ojVcsWXPpU",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 236,
+      "title": "Tree-sliced Sobolev IPM",
+      "forum_id": "HHNQSXaLkF",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 237,
+      "title": "Multi-Domain Riemannian Graph Gluing for Building Graph Foundation Models",
+      "forum_id": "G3uNHQpP7J",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 238,
+      "title": "DeepOPF-GAF: Graph Self-Attention Framework for N-1 Security-Constrained Optimal Power Flow",
+      "forum_id": "4eZqQ0Qs8u",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 239,
+      "title": "CAPL: Graph Few-Shot Class-Incremental Learning Via Class-Adaptive Prototype Learning",
+      "forum_id": "B6t4qcdmM0",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 24,
+      "title": "TaTToo: Tool-Grounded Thinking PRM for Test-Time Scaling in Tabular Reasoning",
+      "forum_id": "zc1ezBrr5m",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 240,
+      "title": "CheckMate! Watermarking Graph Diffusion Models in Polynomial Time",
+      "forum_id": "92fliNrbxY",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 241,
+      "title": "Neural Message-Passing on Attention Graphs for Hallucination Detection",
+      "forum_id": "4twbqwV4br",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 242,
+      "title": "Rethinking Graph-Based Document Classification: Learning Data-Driven Structures Beyond Heuristic Approaches",
+      "forum_id": "col1qqZUAk",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 243,
+      "title": "ChebMoE: A Spectral-Aware and Expert-Adaptive Framework for Graph Anomaly Detection",
+      "forum_id": "HlQtHRjh5O",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 244,
+      "title": "Mixed-Curvature Tree-Sliced Wasserstein Distance",
+      "forum_id": "e439wJl5sT",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 245,
+      "title": "Native Adaptive Solution Expansion for Diffusion-based Combinatorial Optimization",
+      "forum_id": "084SvT55yk",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 246,
+      "title": "Rethinking the Gold Standard: Why Discrete Curvature Fails to Fully Capture Over-squashing in GNNs?",
+      "forum_id": "QYtmqCoilk",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 247,
+      "title": "Mechanism of Task-oriented Information Removal in In-context Learning",
+      "forum_id": "VAv1rrPR1A",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 248,
+      "title": "ExAI5G: A Logic-Based Explainable AI Framework for Intrusion Detection in 5G Networks",
+      "forum_id": "nF7ORZfCLi",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 249,
+      "title": "Alice: An Interpretable Neural Architecture for Generalization in Substitution Ciphers",
+      "forum_id": "5Y3GYuRWsi",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 25,
+      "title": "EfficientLLM: Unified Pruning-Aware Pretraining for Auto-Designed Edge Language Models",
+      "forum_id": "zbNWwHLJFw",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 250,
+      "title": "On the Limits of Sparse Autoencoders: A Theoretical Framework and Reweighted Remedy",
+      "forum_id": "DSOTgzeH3w",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 251,
+      "title": "A dimensional R2 regression metric",
+      "forum_id": "iD6ZD5wE1n",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 252,
+      "title": "Discovering and Steering Interpretable Concepts in Large Generative Music Models",
+      "forum_id": "mGtEoLYr9j",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 253,
+      "title": "Exploratory Causal Inference in SAEnce",
+      "forum_id": "Ml8t8kQMUP",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 254,
+      "title": "Signals of Trust: From Classification to Confidence",
+      "forum_id": "9HxITL2Xlo",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 255,
+      "title": "Formal Mechanistic Interpretability: Automated Circuit Discovery with Provable Guarantees",
+      "forum_id": "Timsb74vIY",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 256,
+      "title": "Embedding Interpretability Score: A Domain-Agnostic Representation Quality Assessment",
+      "forum_id": "pFTfTJitMb",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 257,
+      "title": "Surpassing Cosine Similarity  for Multidimensional Comparisons:  Dimension Insensitive Euclidean Metric",
+      "forum_id": "4i66VARUHD",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 258,
+      "title": "Learning to Interpret Weight Differences in Language Models",
+      "forum_id": "6As4wfTB77",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 259,
+      "title": "Structural Inference: Interpreting Small Language Models with Susceptibilities",
+      "forum_id": "J4GYMiE3JT",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 260,
+      "title": "SALVE: Sparse Autoencoder-Latent Vector Editing for Mechanistic Control of Neural Networks",
+      "forum_id": "tWe5owhOyU",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 261,
+      "title": "Towards Understanding the Nature of Attention with Low-Rank Sparse Decomposition",
+      "forum_id": "9A2etpDFIB",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 262,
+      "title": "Attend or Perish: Benchmarking Attention on Algorithmic Reasoning",
+      "forum_id": "jHPCXOi9LU",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 263,
+      "title": "Reforming the Mechanism: Editing Reasoning Patterns in LLMs with Circuit Reshaping",
+      "forum_id": "Af16P0ODP6",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 264,
+      "title": "Plan-R1: Safe and Feasible Trajectory Planning as Language Modeling",
+      "forum_id": "uusTA1rBhR",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 265,
+      "title": "MTG-RPD: Multimodal Trajectories Generation with Rule-Based Prior Diffusion for End-to-End Autonomous Driving",
+      "forum_id": "f2nxdOv1Uh",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 266,
+      "title": "On residual network depth",
+      "forum_id": "IKy24F8tGn",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 267,
+      "title": "Sequences of Logits Reveal the Low Rank Structure of Language Models",
+      "forum_id": "gdZ6J5hZzF",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 268,
+      "title": "Dynamical properties of dense associative memory",
+      "forum_id": "TeDkzf34hs",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 269,
+      "title": "Accelerating Optimization and Machine Learning via Decentralization",
+      "forum_id": "UkiGZBRZmg",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 270,
+      "title": "LLM-ERM: Sample-Efficient Program Learning via LLM-Guided Search",
+      "forum_id": "ARWB0SNmFR",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 271,
+      "title": "Instance-Dependent Fixed-Budget Pure Exploration in Reinforcement Learning",
+      "forum_id": "xIycolc5Xw",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 272,
+      "title": "Transfer Learning in Infinite Width Feature Learning Networks",
+      "forum_id": "Oox4QOhmi9",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 273,
+      "title": "FINDER: Feature Inference on Noisy Datasets using Eigenspace Residuals",
+      "forum_id": "Oe5Min0Na2",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 274,
+      "title": "Computational Bottlenecks for Denoising Diffusions",
+      "forum_id": "rAjHUNXybH",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 275,
+      "title": "Modern Hopfield Networks Cannot Solve $\\mathsf{NC}^1$-Hard Problems",
+      "forum_id": "P0rW0xr3mT",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 276,
+      "title": "On Rademacher Complexity-based Generalization Bounds for the Transformer Architecture",
+      "forum_id": "bo6cliXvPQ",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 277,
+      "title": "Two failure modes of deep transformers and how to avoid them: a unified theory of signal propagation at initialisation",
+      "forum_id": "utSqpxQHXq",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 278,
+      "title": "Scaling Laws and Spectra of Shallow Neural Networks in the Feature Learning Regime",
+      "forum_id": "Q3yLIIkt7z",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 279,
+      "title": "Towards Robust Out-of-Distribution Generalization for Deep Neural Networks with Tailored Data Regularization",
+      "forum_id": "9eBYO45Fcx",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 28,
+      "title": "Learn to Memorize: Optimizing LLM-based Agents with Adaptive Memory Framework",
+      "forum_id": "EQ3TwO84Cs",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 280,
+      "title": "A Recovery Guarantee for Sparse Neural Networks",
+      "forum_id": "6UpstNltZ4",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 281,
+      "title": "Ensemble Learning for AUC Maximization via Surrogate Loss",
+      "forum_id": "kbxjkoF42x",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 282,
+      "title": "STADE: Standard Deviation as a Pruning Metric",
+      "forum_id": "Vp9lqAzWok",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 283,
+      "title": "Theoretical Analysis of Contrastive Learning under Imbalanced Data: From Training Dynamics to a Pruning Solution",
+      "forum_id": "DUXG9E8dEO",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 284,
+      "title": "Learning on a Razor\u2019s Edge: Identifiability and Singularity of Polynomial Neural Networks",
+      "forum_id": "L5jYWeycAx",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 285,
+      "title": "O-Forge: An LLM + Computer Algebra Framework for Asymptotic Analysis",
+      "forum_id": "SkmkGKEZ1U",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 286,
+      "title": "ProofFlow: A Dependency Graph Approach to Faithful Proof Autoformalization",
+      "forum_id": "s9t2FJVsBH",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 287,
+      "title": "Aligning Collaborative View Recovery and Tensorial Subspace Learning via Latent Representation for Incomplete Multi-View Clustering",
+      "forum_id": "a5aRjldX9l",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 288,
+      "title": "A Framework for Sample and Objective Forgetting: Pull-to-Outlier & Contrastive Objective-level (POCO) Unlearning",
+      "forum_id": "62nHvQRfaw",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 289,
+      "title": "Fisher Information for Robust Federated Cross-Validation",
+      "forum_id": "sZ3tjtN8AW",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 29,
+      "title": "Multiple Token Divergence: Measuring and Steering In-Context Computation Density",
+      "forum_id": "Ch0MxMvNHz",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 290,
+      "title": "Federated Graph-Level Clustering Network with Dual Knowledge Separation",
+      "forum_id": "FwKFjBX0PK",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 291,
+      "title": "FineKB: Domain-Adaptive Issue Summarization and Cluster-Aware Retrieval for Support Knowledge Bases",
+      "forum_id": "NWXUpwHPP7",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 292,
+      "title": "Improving Diffusion Models for Class-imbalanced Training Data via Capacity Manipulation",
+      "forum_id": "wSGle6ag5I",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 293,
+      "title": "Online Test-Time Adaptation in Tabular Data with Minimal High-Certainty Samples",
+      "forum_id": "TA4R2GYA50",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 294,
+      "title": "A Study on PAVE Specification for Learnware",
+      "forum_id": "JkKkquv5lw",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 295,
+      "title": "MMUDA: Towards Robust Sleep Staging with Multi-Source Multi-Channel Unsupervised Domain Adaptation",
+      "forum_id": "4ozxLQHt5F",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 296,
+      "title": "Debiased and Denoised Representation Learning for Incomplete Multi-view Clustering",
+      "forum_id": "Bp3I456do5",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 297,
+      "title": "Understanding Weak-to-Strong Generalization: A Spectral Analysis",
+      "forum_id": "bzhCJQz35M",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 298,
+      "title": "LLM-JEPA: Large Language Models Meet Joint Embedding Predictive Architectures",
+      "forum_id": "GbXKPo9QfH",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 299,
+      "title": "Toward Principled Flexible Scaling for Self-Gated Neural Activation",
+      "forum_id": "XGODWn7HeJ",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 3,
+      "title": "AsymPuzl: An asymmetric puzzle for multi-agent cooperation",
+      "forum_id": "Uft46u0GRx",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 30,
+      "title": "MoBE: Mixture-of-Basis-Experts for Compressing MoE-based LLMs",
+      "forum_id": "8RV6H50OSf",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 300,
+      "title": "ATTENTION-GUIDED DEEP ADVERSARIAL TEMPORAL SUBSPACE CLUSTERING FOR MULTIVARIATE SPATIOTEMPORAL DATA",
+      "forum_id": "NMz8o7MZ56",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 301,
+      "title": "Forecasting Diabetic Complications from Brazilian Billing Codes with Time-Aware Attention",
+      "forum_id": "yACLq4HoKi",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 302,
+      "title": "Learning with Dual-level Noisy Correspondence for Multi-modal Entity Alignment",
+      "forum_id": "mytIKuRsSE",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 303,
+      "title": "On the Wasserstein Geodesic Principal Component Analysis of probability measures",
+      "forum_id": "OJupg4mDjS",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 304,
+      "title": "DGNet: Self-Supervised Delta2Gamma Multi-Band EEG Representation Learning for Dementia Classification",
+      "forum_id": "0K4jNe8ik9",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 305,
+      "title": "Revela: Dense Retriever Learning via Language Modeling",
+      "forum_id": "e7pAjJZJWb",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 306,
+      "title": "BotaCLIP: Contrastive Learning for Botany-Aware Representation of Earth Observation Data",
+      "forum_id": "OOebHJcqgR",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 307,
+      "title": "A Scalable Distributed Framework for Multimodal GigaVoxel Image Registration",
+      "forum_id": "8dLexnao2h",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 308,
+      "title": "AU-Harness: An Open-Source Toolkit for Holistic Evaluation of AudioLLMs",
+      "forum_id": "3eoCXVxvbZ",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 309,
+      "title": "Characterization and Learning of Causal Graphs with Latent Confounders and Post-treatment Selection from Interventional Data",
+      "forum_id": "qclNnbjxNJ",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 31,
+      "title": "Visual Reasoning via Perceptual Extension and In-Context Learning",
+      "forum_id": "kXaKh8HJsN",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 310,
+      "title": "Counterfactual Techniques for Enhancing Customer Retention",
+      "forum_id": "pEtQaGUZVB",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 311,
+      "title": "Learning Dynamic Causal Graphs Under Parametric Uncertainty via Polynomial Chaos Expansions",
+      "forum_id": "4bnCXOtHTm",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 312,
+      "title": "Dynamic Cognitive Orchestration: Eliciting Metacognitive Planning in Large Language Models",
+      "forum_id": "1GoQe3r0Lv",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 32,
+      "title": "Visual Multi-Agent System: Mitigating Hallucination Snowballing via Visual Flow",
+      "forum_id": "Ii4HBlERix",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 33,
+      "title": "Improving RAG Question Answering Generation with Synthetic Data",
+      "forum_id": "4UPTS9eA5E",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 34,
+      "title": "iGRPO: Self\u2011Feedback\u2013Driven LLM Reasoning",
+      "forum_id": "l6uUFUKWHw",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 35,
+      "title": "FASA: FREQUENCY-AWARE SPARSE ATTENTION",
+      "forum_id": "FnSgecCEwg",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 36,
+      "title": "Token-Importance Guided Direct Preference Optimization",
+      "forum_id": "cMEnMVvMw9",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 37,
+      "title": "ILRe: Intermediate Layer Retrieval for Context Compression in Causal Language Models",
+      "forum_id": "GiI6tPrPAG",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 38,
+      "title": "Safe Exploration via Policy Priors",
+      "forum_id": "JC8xYAADHL",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 39,
+      "title": "MaxCode: A Max-Reward Reinforcement Learning Framework for Automated Code Optimization",
+      "forum_id": "E4RYoWcbl2",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 4,
+      "title": "Towards demystifying the optimization landscape of RLVR methods",
+      "forum_id": "8gk7qmKSRv",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 40,
+      "title": "Smooth Gradients, Stable Learning: Logits Convexity for Reinforcement Learning",
+      "forum_id": "Ybv4qufmuG",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 41,
+      "title": "Lipschitz Bandits with Stochastic Delayed Feedback",
+      "forum_id": "dfoN64vP4Q",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 42,
+      "title": "Less Is More: Clustered Cross-Covariance Control for Offline RL",
+      "forum_id": "drOy5wi6Qq",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 43,
+      "title": "A Survey of Optimizing ICU Sepsis Treatment Techniques in Reinforcement Learning",
+      "forum_id": "yDDmqLyS8F",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 44,
+      "title": "Optimistic Task Inference for Behavior Foundation Models",
+      "forum_id": "m5byThUSNE",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 45,
+      "title": "Prospective Decision Learning for Safe Exploration in Model-free Reinforcement Learning",
+      "forum_id": "kxVHb58g3J",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 5,
+      "title": "MobileLLM-R1: Exploring the Limits of Sub-Billion Language Model Reasoners with Open Training Recipes",
+      "forum_id": "GMlZt4fZSY",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 58,
+      "title": "Amortized Bayesian Meta-Learning for Low-Rank Adaptation of Large Language Models",
+      "forum_id": "Wr1IDzjttB",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 59,
+      "title": "How to Square Tensor Networks and Circuits Without Squaring Them",
+      "forum_id": "gHPRSPxIsk",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 6,
+      "title": "TNT: Improving Chunkwise Training for Test-Time Memorization",
+      "forum_id": "rajioNWfRs",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 60,
+      "title": "Toward Reliable Domain Adaptation under Continuous Spurious Shift",
+      "forum_id": "pUEAy4Ibjh",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 61,
+      "title": "Revisiting Nonstationary Kernel Design for Multi-Output Gaussian Processes",
+      "forum_id": "vFfujX5Ygn",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 62,
+      "title": "Lossless Vocabulary Reduction for Auto-Regressive Language Models",
+      "forum_id": "xAvqHtLVgz",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 63,
+      "title": "Marginal Flow: a flexible and efficient framework for density estimation",
+      "forum_id": "uP6RDWHcs7",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 64,
+      "title": "Uncertainty Quantification Revisited: Conditional Cross-Entropy for Neural Classifiers",
+      "forum_id": "PuA3aQAMIo",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 65,
+      "title": "Semantic Uncertainty Quantification of Hallucinations in LLMs: A Quantum Tensor Network Based Method",
+      "forum_id": "11kPIEkj75",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 66,
+      "title": "Neural Posterior Estimation with Latent Basis Expansions",
+      "forum_id": "jsPQFNmnln",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 67,
+      "title": "PriorGuide: Test-Time Prior Adaptation for Simulation-Based Inference",
+      "forum_id": "G4I23g5Ugh",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 68,
+      "title": "Multilevel Control Functional",
+      "forum_id": "Ahdsg2nkNH",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 69,
+      "title": "Diffusion and Flow-based Copulas: Forgetting and Remembering Dependencies",
+      "forum_id": "YrX77XRgku",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 7,
+      "title": "Continuous Control of LLM Text Generation via Probabilistic Prompting",
+      "forum_id": "QlueaQClYw",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 70,
+      "title": "Symmetry-Aware Bayesian Optimization via Max Kernels",
+      "forum_id": "zUbBaWAM1Q",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 71,
+      "title": "CARE: Towards Clinical Accountability in Multi-Modal Medical Reasoning with an Evidence-Grounded Agentic Framework",
+      "forum_id": "whRAOJiyHM",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 72,
+      "title": "Probing Latent Knowledge Conflict for Faithful Retrieval-Augmented Generation",
+      "forum_id": "NhO6iEUISf",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 73,
+      "title": "Talking Points: Describing and Localizing Pixels",
+      "forum_id": "FcGQVshxMP",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 74,
+      "title": "Temporal-Oriented Recipe for Transferring Large Vision-Language Model to Video Understanding",
+      "forum_id": "YgeeVE75TJ",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 75,
+      "title": "FlowKV: Enhancing Multi-Turn Conversational Coherence in LLMs via Isolated Key-Value Cache Management",
+      "forum_id": "i0cjbEuezL",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 76,
+      "title": "TD-MoE: Tensor Decomposition for MoE Models",
+      "forum_id": "D9cnZNZfxX",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 77,
+      "title": "EVTAR: End-to-End Try on with Additional Unpaired Visual Reference",
+      "forum_id": "jPFjUehx4i",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 78,
+      "title": "Mitigating Hallucination in Vision-Language Model with Depth and Spatial-aware Key-Value Refinement",
+      "forum_id": "FHTt9ipAra",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 79,
+      "title": "Balancing the False Positive-Negative tradeoff to enhance Image Segmentation",
+      "forum_id": "5BS1VPlzBR",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 8,
+      "title": "MemGen: Weaving Generative Latent Memory for Self-Evolving Agents",
+      "forum_id": "vI56m4Iu4e",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 80,
+      "title": "QVGen: Pushing the Limit of Quantized Video Generative Models",
+      "forum_id": "XJXZXuTj11",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 81,
+      "title": "XTalker: Turn, Smile, and Speak in Controllable Talking Portrait Animation",
+      "forum_id": "DEWB8yCoOu",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 82,
+      "title": "SoLoPO: Unlocking Long-Context Capabilities in LLMs via Short-to-Long Preference Optimization",
+      "forum_id": "iiBjaiikJG",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 83,
+      "title": "Lexicon-Aligned Prompting: A General Method for Dictionary-Guided Low-Resource Machine Translation",
+      "forum_id": "KuwPZXdHQi",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 84,
+      "title": "GenCape: Structure-Inductive Generative Modeling for Category-Agnostic Pose Estimation",
+      "forum_id": "IVjs6vNDhV",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 85,
+      "title": "Adaptable Symbolic Music Infilling with MIDI-RWKV",
+      "forum_id": "lFn1Bb1ZMD",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 86,
+      "title": "VoMP: Predicting Volumetric Mechanical Property Fields",
+      "forum_id": "aTP1IM6alo",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 87,
+      "title": "Few-Shot Paraphrase Generation with LLMs: An Empirical Study of Models and Hyperparameters",
+      "forum_id": "wjjqurlXvg",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 88,
+      "title": "True Self-Supervised Novel View Synthesis is Transferable",
+      "forum_id": "aJJppqAm6r",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 89,
+      "title": "DiffWind: Physics-Informed Differentiable Modeling of Wind-Driven Object Dynamics",
+      "forum_id": "vKVzihkbQo",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 9,
+      "title": "Context Tuning for In-Context Optimization",
+      "forum_id": "ksxocXsFVh",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 90,
+      "title": "Comprehend and Talk: Text to Speech Synthesis  via Dual Language Modeling",
+      "forum_id": "VPju7xAxb1",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 91,
+      "title": "Joint Geometry\u2013Appearance Human Reconstruction in a Unified Latent Space via Bridge Diffusion",
+      "forum_id": "htKfC79soD",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 92,
+      "title": "LiveMoments: Reselected Key Photo Restoration in Live Photos via Reference-guided Diffusion",
+      "forum_id": "02mgFnnfqG",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 93,
+      "title": "Thinking with Camera: A Unified Multimodal Model for Camera-Centric Understanding and Generation",
+      "forum_id": "5THcDkGGjt",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 94,
+      "title": "RAD3D-Prefix:  Anomaly-Aware Prefix Learning on Frozen LLM for 3D CT Image to Report Generation",
+      "forum_id": "FLXZOIDrli",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 95,
+      "title": "ThinkOmni: Lifting Textual Reasoning to Omni-modal Scenarios via Guidance Decoding",
+      "forum_id": "pMpCOjzwI1",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 96,
+      "title": "TESA: Task-Agnostic Embedding of Scene Graphs using Vision Alignment",
+      "forum_id": "Omo8RAEqSS",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 97,
+      "title": "EgoHandICL: Egocentric 3D Hand Reconstruction with In-Context Learning",
+      "forum_id": "nwjy9BeorI",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 98,
+      "title": "Model-agnostic Watermarked Image Restoration without Additional Training",
+      "forum_id": "4Lop9ReXBP",
+      "mapping_source": "benchmark"
+    },
+    {
+      "id": 99,
+      "title": "TiViT: Time Series Representations Lie Hidden in Pretrained Vision Transformers",
+      "forum_id": "2xEvtVALpg",
+      "mapping_source": "benchmark"
+    }
+  ],
+  "publication_dates_available": 0,
+  "post_cutoff_status": "UNVERIFIED: no item-level dates or documented E2 encoder cutoff",
+  "historical_eligible_after_exclusions": {
+    "2022": 2617,
+    "2023": 3792,
+    "2024": 7260,
+    "2025": 11517
+  },
+  "excluded_history": [
+    {
+      "forum_id": "MxuFXJtVTt",
+      "year": 2024,
+      "title": "Hot PATE: Private Aggregation of Distributions for Diverse Tasks"
+    },
+    {
+      "forum_id": "z1td6fBKpG",
+      "year": 2025,
+      "title": "Conjuring Semantic Similarity"
+    },
+    {
+      "forum_id": "bSSFERgkFn",
+      "year": 2025,
+      "title": "Counterfactual Techniques for Enhancing Customer Retention"
+    },
+    {
+      "forum_id": "B6AQzaQCsl",
+      "year": 2025,
+      "title": "Hot PATE: Private Aggregation of Distributions  for Diverse Tasks"
+    }
+  ],
+  "task3_blockers": [
+    "No saved benchmark novelty predictions for four measures",
+    "No provenance-verified abstract-only historical/test embedding matrices",
+    "No verified item-level post-cutoff publication dates",
+    "TASK3_PROTOCOL is retrospective, not prospective preregistration; no held-out evaluation executed"
+  ]
+}

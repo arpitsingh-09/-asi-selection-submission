@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:30:28.636415+00:00",
+  "identity": "556788e741f04fe823d1836c9028f9448c70a80f753a25796670c1c32577aad6",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:30:28.624719Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 65,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 9.864016959000026,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:30:28.624719Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2417,
+      "prompt_eval_count": 477,
+      "prompt_sha256": "21b1731b9680a5d2600708d696f7e39e686247a94173f5d1e9ecdc50e28964f3",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 542,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 477,
+    "latency_seconds": 9.864016959000026,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:30:28.624719Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 65,
+    "raw_response": "{\n  \"research_question\": \"How can machine learning techniques be combined with control theory to design autonomous systems that are capable, reliable, and safe?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": null,\n  \"main_hypothesis_explicit\": false\n}",
+    "total_tokens": 542
+  },
+  "reply_sha256": "ecff2a4f8ba4406afd47fb0c68dbe44603a70a7252520cfa1c74c0016093c420"
+}

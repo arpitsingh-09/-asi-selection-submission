@@ -1,0 +1,166 @@
+Source: /Users/arpit/Downloads/asi_assignment.txt
+Source file SHA-256: c88ac2b73b9cf6eec6f1666860c07e344fb0358bb987dbe8929adb0bd8346113
+Preserved excerpts: experiment instructions (lines 870-889) and E6 (1263-1403).
+
+Do any three of E1–E5 (10 points each) and E6 (20 points, required). A
+fourth problem among E1–E5 is not marked. Every problem produces a
+dataset or a tool that the Main Problem needs, so choose the three you
+will build on.
+• Schemas are mandatory. Each problem specifies the format of its deliverable.
+Follow it exactly: your outputs must run with someone else’s code.
+• Predict first. Before each evaluation, write your predictions in PREREG.md. Marks
+are given for comparing them honestly with what happened, not for being right.
+• Confidence intervals. Report a 95 % bootstrap interval for every headline number.
+Resample the right unit: the paper, the group of inputs, or the generating system,
+not the individual pair, whenever pairs share these.
+• Controls. Wherever inputs are involved, also run an empty-input control (no
+inputs) and a shuffled-input control (another instance’s inputs). A method that
+does as well without its inputs is not using them.
+• Tiers. Every problem can be done in the small tier (rule R5). Say which tier you
+used.
+27
+
+E1 A hand-made test of identity and
+scope
+
+E6 Should an AI scientist ask its
+questions first?
+20 points
+Difficulty: ⋆⋆⋆
+(required)
+Recommended Read first: [R44], [R45], [R35], [R41], [R33], [R27].
+Most automated-science pipelines go straight from papers to hypotheses. A decomposed
+pipeline first writes research questions, selects among them and only then writes a
+hypothesis for each. Decomposition might help: the gap becomes explicit, mechanisms
+may diversify and there is a natural place to apply a question space Φ. It might also
+hurt: errors compound and the questions themselves may be the weak link. Sp, you will
+measure this now against outcome-based targets.
+input papers R
+same papers,
+model and
+token budget
+write K
+hypotheses
+write M
+questions
+K/M hypotheses
+per question
+write 2M
+questions
+keep M:
+rule or random
+write
+hypotheses
+write K
+hypotheses
+state the
+question
+D: direct
+QH: questions first
+QH-sel / QH-rand: more questions, then a choice
+HQ: hypotheses first
+same evaluation
+reconstruction
+data-based score
+already asked
+diversity
+question type
+one labelled judge
+Figure E6.1: The arms of E6 (controls not drawn). Every arm returns K hypotheses under the
+same budget. The orange step is where your question space chooses which questions
+to pursue.
+Arms. Use one model and one set of decoding settings throughout.
+38
+
+E6 Should an AI scientist ask its questions first?
+ASI Intern Recruitment 2026
+39
+Arm
+Pipeline
+What it isolates
+D
+inputs →K hypotheses
+the usual direct pipeline
+QH
+inputs →M questions →K/M
+hypotheses per question
+decomposition
+QH-sel
+inputs →2M questions →keep M
+by a rule fixed in advance (remove
+duplicates with a same-question
+model, then rank with your own
+scores) →K/M hypotheses per
+question
+decomposition plus selection
+QH-rand
+as QH-sel, but keep M questions at
+random
+whether selection adds anything
+HQ
+inputs →K hypotheses →state
+the question each one answers
+the reverse order
+D-empty, D-shuffled
+D with no inputs, or with another
+input set’s papers
+controls that must do worse
+Budget. Choose M dividing K (for example K = 6, M = 3). Every arm returns exactly
+K final hypotheses under the same cap on generated tokens per input set. Report the
+tokens actually used.
+Example (One input set, two arms)
+Inputs: the references of a 2026 paper on contrastive pre-training. D writes six hypotheses
+directly, e.g. “Stronger crops improve linear-probe accuracy on small datasets.” QH
+first writes three questions, e.g. “How does augmentation strength interact with batch
+size in contrastive pre-training?” and then two hypotheses per question, e.g. “Optimal
+augmentation strength decreases as batch size grows.” Both arms are then scored by the
+same evaluation.
+Two testbeds.
+1. Literature. At least 100 input sets, each the references (at least 10 with abstracts)
+of a paper posted after your generator’s training cutoff. The target is that paper’s
+own research question and main hypothesis; extract them with one fixed prompt
+and check 20 by hand.
+2. Data. Tasks from [R44], where a hypothesis is scored by how well it explains held-out
+data and, on synthetic tasks, by whether it recovers the planted hypothesis.
+Predict first - Which arm wins on each testbed and on each metric of Task 2 and by how
+much? Will selection beat random choice?
+Task 1
+3.0 pt
+Pre-register your hypotheses, the primary metric for each testbed, the budget rule,
+the selection rule for QH-sel, and the analyses you will run whatever the outcome.
+Task 2
+8.0 pt
+Run every arm on both testbeds. Report, with paired bootstrap intervals over input
+sets:
+
+E6 Should an AI scientist ask its questions first?
+ASI Intern Recruitment 2026
+40
+(a) reconstruction: the best similarity and a same-question judgement, between
+the generated items and the real question and hypothesis;
+(b) the data-based scores of [R44];
+(c) the already-asked rate of the generated questions (reuse E3 if you did it);
+(d) the diversity of the K hypotheses (reuse E5 if you did it);
+(e) the type of question produced: constructive (“how can we achieve . . . ?”)
+versus analytic (“to what extent does . . . compare with . . . ?”) and any other
+distinction you find useful;
+(f) at most one language-model judge, run in both orders on length-matched
+pairs and labelled as a judge.
+Task 3
+6.0 pt
+Where did decomposition help and where did it hurt? Read 20 input sets end to
+end and write an error analysis with real examples. Does selection add anything
+beyond decomposition? Do the controls behave as they must? Which failure of the
+language model did you see most often and how would you detect it automatically?
+Task 4
+3.0 pt
+Write a one-page memo for someone designing a research agent: should an AI
+scientist ask its questions first? Under which conditions and at what cost?
+Deliverable - E6/ with prompts, all generations and all evaluation outputs, one generation
+per line:
+{"input_set_id": "...", "testbed": "literature|data",
+"arm": "D|QH|QH_sel|QH_rand|HQ|D_empty|D_shuffled",
+"rq": "... or null", "hypothesis": "...",
+"tokens_generated": 812, "model": "...", "seed": 0}
+
+III

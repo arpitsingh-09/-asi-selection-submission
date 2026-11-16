@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:46:52.701608+00:00",
+  "identity": "d0e024cb6e0348b6458bc7834be18d8c4b4d87d4ffb4a6da77b268858c76498a",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:46:52.676769Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 102,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 16.392233125000075,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:46:52.676769Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2878,
+      "prompt_eval_count": 544,
+      "prompt_sha256": "d52da6b248aa38237afe54bb61f29dc9ad10d274a950851e2415938d0894a645",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 646,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 544,
+    "latency_seconds": 16.392233125000075,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:46:52.676769Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 102,
+    "raw_response": "{\n  \"research_question\": \"How can indoor localization be made more scalable, interoperable, and energy-efficient, particularly in dynamic environments where conventional techniques struggle?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"Transfer learning (TL) based approach for visible light communication based indoor localization can address environmental variability, reduce computational overhead and energy consumption, and improve localization accuracy compared to conventional approaches.\",\n  \"main_hypothesis_explicit\": false\n}",
+    "total_tokens": 646
+  },
+  "reply_sha256": "4ef3b311b870bc4a25d99b749a2c617416f9e2f9a738ff89f393625ea24a2fe9"
+}

@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:38:15.500520+00:00",
+  "identity": "c556cb47e0bf6e8c7cbd31c70551040cb781a47f7813e490deb52c73b0a900f9",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:38:15.483105Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 92,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 14.799586416999887,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:38:15.483105Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2507,
+      "prompt_eval_count": 519,
+      "prompt_sha256": "7ea5377df7ffb7b59aaab696949b4c5e006f8e46e75cd7693d9a3756814b8b19",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 611,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 519,
+    "latency_seconds": 14.799586416999887,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:38:15.483105Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 92,
+    "raw_response": "{\n  \"research_question\": \"How much of the gain observed with new draft-training objectives survives when the target rewrites them?\",\n  \"research_question_explicit\": true,\n  \"main_hypothesis\": \"Gains from distillation and gating objectives shrink after greedy regeneration and across various experimental conditions, suggesting objective gains should be measured against a target-regenerated baseline.\",\n  \"main_hypothesis_explicit\": true\n}",
+    "total_tokens": 611
+  },
+  "reply_sha256": "eb1ce3e3ae5a7472928e614231ced47391b5f78760d45fbb0505024f5d2f7ea3"
+}

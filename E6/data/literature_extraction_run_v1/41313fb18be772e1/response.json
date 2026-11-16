@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:31:41.938098+00:00",
+  "identity": "785b422896fc172f0535b53a01e63176c14feb609ba1b8212b48e63d62623946",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:31:41.926941Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 67,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 9.706033416999958,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:31:41.926941Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2336,
+      "prompt_eval_count": 503,
+      "prompt_sha256": "624f5b9a66052496841f0a2efe59e65a5ff45d0f7fe9f71a7b6c67443a2d1caf",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 570,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 503,
+    "latency_seconds": 9.706033416999958,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:31:41.926941Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 67,
+    "raw_response": "{\n  \"research_question\": \"Can large language models (LLMs) complete the iterative loop of quantitative research and produce strategies that work beyond the research period?\",\n  \"research_question_explicit\": true,\n  \"main_hypothesis\": null,\n  \"main_hypothesis_explicit\": false\n}",
+    "total_tokens": 570
+  },
+  "reply_sha256": "3421827e96e00b40f49cda725484e545811dfcb9b21ba8c43cebfbd5e36ee61a"
+}

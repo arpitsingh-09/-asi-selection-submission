@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:26:18.345371+00:00",
+  "identity": "999b7561f2780b6fc58bd9bd700772dae297836f0832b8472f8fb35fbb30c782",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:26:18.32752Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 103,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 10.683913457999992,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:26:18.32752Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2783,
+      "prompt_eval_count": 549,
+      "prompt_sha256": "a786a74d87db455bc030977ec929bdd247a066c1c77f618b594d2d7b4c6b8f68",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 652,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 549,
+    "latency_seconds": 10.683913457999992,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:26:18.32752Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 103,
+    "raw_response": "{\n  \"research_question\": \"How can scene geometry be connected with the state changes induced by actions in robot manipulation?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"Connecting scene geometry with the state changes induced by actions can be achieved through a dual-stream RGB--Depth joint-embedding predictive architecture that connects spatial understanding with action-conditioned prediction through a shared latent state (DepState).\",\n  \"main_hypothesis_explicit\": false\n}",
+    "total_tokens": 652
+  },
+  "reply_sha256": "700e45818c4e641fb01a453fc3bd0cf27d970c923f8e3895e5aafd8153ae282d"
+}

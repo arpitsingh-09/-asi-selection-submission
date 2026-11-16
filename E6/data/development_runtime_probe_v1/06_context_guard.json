@@ -1,0 +1,25 @@
+{
+  "checkpoint_sha256": "4d79a0f21ba339c95b3fb053645c8e5cccde1c957d2716a5d898e78638bd335a",
+  "result": {
+    "blocked_calls": [
+      {
+        "context_limit": 30918,
+        "error": "exact prompt plus requested output exceeds context; no truncation or silent limit reduction",
+        "input_set_id": "development-runtime-guard",
+        "output_limit": 2048,
+        "participants": [
+          "D"
+        ],
+        "prompt_tokens": 28871,
+        "stage": "D_generation",
+        "status": "context_overflow"
+      }
+    ],
+    "configured_negative_context": 30918,
+    "generated_cap_unchanged": 8192,
+    "passed": true,
+    "test_kind": "software_negative_test_using_measured_prompt_count"
+  },
+  "run_identity": "43490d6a3dad0e59dbc1753965ac5e6ede45c24850311f3a21951e08a274cbbd",
+  "step": "06_context_guard"
+}

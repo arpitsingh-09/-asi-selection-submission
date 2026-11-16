@@ -1,0 +1,1622 @@
+[
+  {
+    "arms": {
+      "D": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-empty": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-shuffled": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "HQ": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-rand": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-sel": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      }
+    },
+    "end_to_end_review_completed": false,
+    "input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0007:7834fee0c0ed",
+    "notes": null,
+    "packet_sha256": "2e7f51ab1e20b90612396941dd070e34cfbeee89dce60a9ec4795dcfce1de958",
+    "reviewed_at_utc": null,
+    "reviewer_id": null,
+    "testbed": "data"
+  },
+  {
+    "arms": {
+      "D": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-empty": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-shuffled": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "HQ": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-rand": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-sel": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      }
+    },
+    "end_to_end_review_completed": false,
+    "input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0008:3ac85a345990",
+    "notes": null,
+    "packet_sha256": "f460e3f017cb46ef3443009e927e37cd695daacfe2c769994b97bf0380ea25d0",
+    "reviewed_at_utc": null,
+    "reviewer_id": null,
+    "testbed": "data"
+  },
+  {
+    "arms": {
+      "D": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-empty": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-shuffled": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "HQ": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-rand": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-sel": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      }
+    },
+    "end_to_end_review_completed": false,
+    "input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0009:f87672ddc715",
+    "notes": null,
+    "packet_sha256": "9dbbdbcde4fa2d0a4f8d06ce9f3bdfa8fdedd9f1ff46263963af9a815b00f54a",
+    "reviewed_at_utc": null,
+    "reviewer_id": null,
+    "testbed": "data"
+  },
+  {
+    "arms": {
+      "D": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-empty": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-shuffled": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "HQ": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-rand": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-sel": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      }
+    },
+    "end_to_end_review_completed": false,
+    "input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0011:a26c8c80a830",
+    "notes": null,
+    "packet_sha256": "f7843723da623145c6b63e9ebb9d2623a5554b3c69606f21e3a2a4849e53c65d",
+    "reviewed_at_utc": null,
+    "reviewer_id": null,
+    "testbed": "data"
+  },
+  {
+    "arms": {
+      "D": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-empty": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-shuffled": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "HQ": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-rand": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-sel": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      }
+    },
+    "end_to_end_review_completed": false,
+    "input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0012:389f9702d175",
+    "notes": null,
+    "packet_sha256": "5755b76e9f48eada2d8056a9e11d9613a6a65a8305c9e263a33f85995e86854e",
+    "reviewed_at_utc": null,
+    "reviewer_id": null,
+    "testbed": "data"
+  },
+  {
+    "arms": {
+      "D": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-empty": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-shuffled": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "HQ": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-rand": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-sel": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      }
+    },
+    "end_to_end_review_completed": false,
+    "input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0013:cdb388bd85ad",
+    "notes": null,
+    "packet_sha256": "2f966229a69d511b5b69b1c892da55c9c68a084ca40602b4fdf2059347438936",
+    "reviewed_at_utc": null,
+    "reviewer_id": null,
+    "testbed": "data"
+  },
+  {
+    "arms": {
+      "D": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-empty": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-shuffled": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "HQ": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-rand": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-sel": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      }
+    },
+    "end_to_end_review_completed": false,
+    "input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0014:c98fd1f5b397",
+    "notes": null,
+    "packet_sha256": "e267a49d6d3978901e81a815542723e58283ffe44bcead1037ff1dc568860f98",
+    "reviewed_at_utc": null,
+    "reviewer_id": null,
+    "testbed": "data"
+  },
+  {
+    "arms": {
+      "D": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-empty": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-shuffled": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "HQ": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-rand": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-sel": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      }
+    },
+    "end_to_end_review_completed": false,
+    "input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0015:6949369dd111",
+    "notes": null,
+    "packet_sha256": "1a53cc60553c07864e998c75cc78f37586bf3e0db88d328aaff1d0dd59c259da",
+    "reviewed_at_utc": null,
+    "reviewer_id": null,
+    "testbed": "data"
+  },
+  {
+    "arms": {
+      "D": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-empty": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-shuffled": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "HQ": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-rand": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-sel": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      }
+    },
+    "end_to_end_review_completed": false,
+    "input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0017:1dec51397785",
+    "notes": null,
+    "packet_sha256": "4acca270a59841a207b954bb5413d99244186be2849a3f420848c4599482a3fe",
+    "reviewed_at_utc": null,
+    "reviewer_id": null,
+    "testbed": "data"
+  },
+  {
+    "arms": {
+      "D": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-empty": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-shuffled": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "HQ": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-rand": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-sel": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      }
+    },
+    "end_to_end_review_completed": false,
+    "input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0019:e7f02a62e08f",
+    "notes": null,
+    "packet_sha256": "12b6f69583cd3a25270aff2dece9799189045345ae240f7a2fa80e8989579380",
+    "reviewed_at_utc": null,
+    "reviewer_id": null,
+    "testbed": "data"
+  },
+  {
+    "arms": {
+      "D": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-empty": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-shuffled": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "HQ": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-rand": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-sel": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      }
+    },
+    "end_to_end_review_completed": false,
+    "input_set_id": "lit-2610.30097",
+    "notes": null,
+    "packet_sha256": "3b8bd829e2547ec02e3a7c5dbf87db8fbc39b5d1bffabc470ab25e1aa81b6f07",
+    "reviewed_at_utc": null,
+    "reviewer_id": null,
+    "testbed": "literature"
+  },
+  {
+    "arms": {
+      "D": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-empty": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-shuffled": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "HQ": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-rand": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-sel": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      }
+    },
+    "end_to_end_review_completed": false,
+    "input_set_id": "lit-2610.29246",
+    "notes": null,
+    "packet_sha256": "69e55497a559303cddb5f887a2d3ec011d26345e7b529eb459beae6030ff28e8",
+    "reviewed_at_utc": null,
+    "reviewer_id": null,
+    "testbed": "literature"
+  },
+  {
+    "arms": {
+      "D": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-empty": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-shuffled": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "HQ": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-rand": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-sel": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      }
+    },
+    "end_to_end_review_completed": false,
+    "input_set_id": "lit-2610.29439",
+    "notes": null,
+    "packet_sha256": "ba9be1f14825899f168c641a8168bad21ac5e9918d15cfd94ae342d3e50de646",
+    "reviewed_at_utc": null,
+    "reviewer_id": null,
+    "testbed": "literature"
+  },
+  {
+    "arms": {
+      "D": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-empty": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-shuffled": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "HQ": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-rand": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-sel": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      }
+    },
+    "end_to_end_review_completed": false,
+    "input_set_id": "lit-2610.29517",
+    "notes": null,
+    "packet_sha256": "a8d033f56925414194f148e32c74017c74417f27638f4ec269c661f2b4412720",
+    "reviewed_at_utc": null,
+    "reviewer_id": null,
+    "testbed": "literature"
+  },
+  {
+    "arms": {
+      "D": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-empty": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-shuffled": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "HQ": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-rand": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-sel": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      }
+    },
+    "end_to_end_review_completed": false,
+    "input_set_id": "lit-2610.29722",
+    "notes": null,
+    "packet_sha256": "0008276170e8cb62cfad9db340e79e6dd1350b7c0c7582189ac87139ac45a39e",
+    "reviewed_at_utc": null,
+    "reviewer_id": null,
+    "testbed": "literature"
+  },
+  {
+    "arms": {
+      "D": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-empty": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-shuffled": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "HQ": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-rand": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-sel": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      }
+    },
+    "end_to_end_review_completed": false,
+    "input_set_id": "lit-2610.29174",
+    "notes": null,
+    "packet_sha256": "8b5b5f74d88cb6f56ac3673f6b6c127f55e861e49854482dbdd0137cf07d5b85",
+    "reviewed_at_utc": null,
+    "reviewer_id": null,
+    "testbed": "literature"
+  },
+  {
+    "arms": {
+      "D": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-empty": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-shuffled": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "HQ": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-rand": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-sel": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      }
+    },
+    "end_to_end_review_completed": false,
+    "input_set_id": "lit-2610.30103",
+    "notes": null,
+    "packet_sha256": "02e8af407ca4b1e7e7219c20ae1bc2b53c3b719bbe247dffc933c754114c8393",
+    "reviewed_at_utc": null,
+    "reviewer_id": null,
+    "testbed": "literature"
+  },
+  {
+    "arms": {
+      "D": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-empty": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-shuffled": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "HQ": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-rand": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-sel": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      }
+    },
+    "end_to_end_review_completed": false,
+    "input_set_id": "lit-2610.30105",
+    "notes": null,
+    "packet_sha256": "dbade6b46b0e48b5389a694282bb3cfc7007a7e3f1867d5a796eabd3328e6560",
+    "reviewed_at_utc": null,
+    "reviewer_id": null,
+    "testbed": "literature"
+  },
+  {
+    "arms": {
+      "D": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-empty": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-shuffled": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "HQ": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-rand": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-sel": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      }
+    },
+    "end_to_end_review_completed": false,
+    "input_set_id": "lit-2610.29909",
+    "notes": null,
+    "packet_sha256": "1e5ebba14d72a421e648520c7dacf43bea8b0de5bcc8f2c67753d6bab17cc9ae",
+    "reviewed_at_utc": null,
+    "reviewer_id": null,
+    "testbed": "literature"
+  },
+  {
+    "arms": {
+      "D": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-empty": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "D-shuffled": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "HQ": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-rand": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      },
+      "QH-sel": {
+        "examples": [],
+        "generation_schema_failure": null,
+        "notes": null,
+        "question_hypothesis_mismatch": null,
+        "redundancy": null,
+        "status": "pending_review",
+        "target_mismatch": null,
+        "unsupported_evidence": null
+      }
+    },
+    "end_to_end_review_completed": false,
+    "input_set_id": "lit-2610.30099",
+    "notes": null,
+    "packet_sha256": "ea7e2e9ab356d7894d0d328598ec41b900f8a4d5224df7bfdf66044db727c861",
+    "reviewed_at_utc": null,
+    "reviewer_id": null,
+    "testbed": "literature"
+  }
+]

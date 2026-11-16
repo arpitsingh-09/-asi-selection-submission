@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:49:26.211852+00:00",
+  "identity": "3327364ba613925cb18b16db5ec76dfea510c96d4d25665a1bde368f083f51c8",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:49:26.199313Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 154,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 23.15307395900004,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:49:26.199313Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2993,
+      "prompt_eval_count": 640,
+      "prompt_sha256": "691ec5ae1c31f54943ca9c9032b644d998c64ec48c0bf26781d86150497495e5",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 794,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 640,
+    "latency_seconds": 23.15307395900004,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:49:26.199313Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 154,
+    "raw_response": "{\n  \"research_question\": \"How can reinforcement learning with human feedback (RLHF) be performed privately when human preferences are governed by a subset of relevant features (sparse reward models)?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"Differentially private sparse reward estimation from pairwise preference feedback can be achieved with upper bounds of $\\tilde{O}(s^*/n + {s^*}^2/n^2\\text{ɛ}^2)$ for (ɛ,δ)-Sample-DP and $\\tilde{O}(s^*/n + s^*/n\\text{ɛ}^2)$ for ɛ-Label-DP.\",\n  \"main_hypothesis_explicit\": true\n}",
+    "total_tokens": 794
+  },
+  "reply_sha256": "dd423cb998a24eb275ce604c94778274f3a1cc58313be3af5f4ab0f7880f0720"
+}

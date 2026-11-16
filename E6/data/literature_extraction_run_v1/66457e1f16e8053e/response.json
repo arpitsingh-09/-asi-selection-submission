@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:48:46.852050+00:00",
+  "identity": "a268db7f198e30251303c9f6b7c30ca8de21808eb80f23aa240bca94ddf60edd",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:48:46.842028Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 128,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 19.63093766599991,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:48:46.842028Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2879,
+      "prompt_eval_count": 547,
+      "prompt_sha256": "ca7d8ba111919a1687bbab651c0f6a4a5814dd5b19b2c2f2505c4061dfbf47ec",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 675,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 547,
+    "latency_seconds": 19.63093766599991,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:48:46.842028Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 128,
+    "raw_response": "{\n  \"research_question\": \"How can the computational cost of evaluating expectations, variances, conserved integrals, and normalization constants in Kolmogorov--Arnold networks (KANs) be reduced?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"KANs with Tractable Operators for Uncertainty and Constraints (TOUCKANs), utilizing finite-degree polynomial outer functions, will allow for deterministic recursions over one-dimensional leaf integrals, reducing the computational cost associated with evaluating statistical operators and integral constraints compared to conventional methods like Monte Carlo sampling.\",\n  \"main_hypothesis_explicit\": false\n}",
+    "total_tokens": 675
+  },
+  "reply_sha256": "6b8236083ff72440c21c9cf9b49fa64fc2b90f5ed06bc29956bcf838707c3a1e"
+}

@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:39:29.124403+00:00",
+  "identity": "8f2fdc3411443a2d78a73b1efef6b69abdf5c4b20bc557a59f91a71b42f7609e",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:39:29.112471Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 121,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 17.73952920800002,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:39:29.112471Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2867,
+      "prompt_eval_count": 627,
+      "prompt_sha256": "1cfe779e67929da41f8bd660f19cf859e9aa046ef9612985baf52613baee2a30",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 748,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 627,
+    "latency_seconds": 17.73952920800002,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:39:29.112471Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 121,
+    "raw_response": "{\n  \"research_question\": \"How can robust hate speech detection be achieved in memes, given the challenges posed by their cryptic nature and the lack of high-quality datasets?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"A structured reasoning framework (SAFE-MEME), employing either Q&A-style reasoning (SAFE-MEME-QA) or hierarchical categorization (SAFE-MEME-H), will enable robust hate speech detection in memes, outperforming existing baselines.\",\n  \"main_hypothesis_explicit\": true\n}",
+    "total_tokens": 748
+  },
+  "reply_sha256": "1c81c319a35112226569cd3348f60584a8392fb2786ea8ec40618952be266c9c"
+}

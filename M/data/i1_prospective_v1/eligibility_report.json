@@ -1,0 +1,15 @@
+{
+  "schema": "M-I1-prospective-readiness-v1",
+  "candidates_examined": 6,
+  "verified_timestamps": 6,
+  "verified_input_sets": 6,
+  "temporally_eligible_candidates": 6,
+  "fully_I1_eligible_candidates": 0,
+  "source_sha256": "3f81a9f462e6003fc7ac1b555ee291adc46f952b4d917986eb01b1ea6c040f65",
+  "evaluation_run": false,
+  "global_blockers": [
+    "Generated candidates lack frozen I1 paraphrase/near-miss contrast labels and independent human verification.",
+    "Both registered Q heads and frozen normalization are unavailable.",
+    "Same-topic decoy judgments remain unverified."
+  ]
+}

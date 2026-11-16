@@ -1,0 +1,177 @@
+{
+  "reviewer_code": "reviewer_1",
+  "review_date_utc": "2026-11-15",
+  "independent_review_confirmed": "yes",
+  "paper_ratings": [
+    {
+      "question_id": "Q-8BB9ED",
+      "collection_id": "C-E5ACD7",
+      "document_id": "D-84D9A1",
+      "rating_0_1_2": "1",
+      "evidence_note": "UEGAN supports unpaired GAN-based aesthetic enhancement and content fidelity, but does not specifically study low-light realism or the named lighting attributes."
+    },
+    {
+      "question_id": "Q-8BB9ED",
+      "collection_id": "C-E5ACD7",
+      "document_id": "D-B561B6",
+      "rating_0_1_2": "1",
+      "evidence_note": "GPP-LLIE directly studies perceptually realistic low-light enhancement, but uses VLM-guided diffusion rather than an unpaired GAN or demonstrated user-preference alignment."
+    },
+    {
+      "question_id": "Q-6C0C74",
+      "collection_id": "C-877C7D",
+      "document_id": "D-C9ADFA",
+      "rating_0_1_2": "1",
+      "evidence_note": "The paper addresses dynamic video content and memorability, but not emotional narration, educational videos, or narrated-versus-nonnarrated comparisons."
+    },
+    {
+      "question_id": "Q-8BB9ED",
+      "collection_id": "C-E5ACD7",
+      "document_id": "D-B76C01",
+      "rating_0_1_2": "1",
+      "evidence_note": "QAGAN learns user-supplied quality characteristics from unpaired images using attention, but its abstract does not establish low-light-specific perceptual realism."
+    },
+    {
+      "question_id": "Q-75BF83",
+      "collection_id": "C-877C7D",
+      "document_id": "D-C9ADFA",
+      "rating_0_1_2": "0",
+      "evidence_note": "The abstract concerns dynamic video memorability rather than image enhancement, attention, perceptual priors, or unpaired training."
+    },
+    {
+      "question_id": "Q-75BF83",
+      "collection_id": "C-877C7D",
+      "document_id": "D-DB4D08",
+      "rating_0_1_2": "0",
+      "evidence_note": "The paper describes a video memorability benchmark, not image enhancement or its proposed mechanisms."
+    },
+    {
+      "question_id": "Q-75BF83",
+      "collection_id": "C-877C7D",
+      "document_id": "D-132F4C",
+      "rating_0_1_2": "0",
+      "evidence_note": "Multimodal video memorability prediction does not ground the proposed image enhancement framework."
+    },
+    {
+      "question_id": "Q-75BF83",
+      "collection_id": "C-E5ACD7",
+      "document_id": "D-B76C01",
+      "rating_0_1_2": "2",
+      "evidence_note": "QAGAN explicitly provides unpaired image enhancement with quality attention and user-provided high-quality image characteristics, grounding a central proposed component."
+    },
+    {
+      "question_id": "Q-C4C5C7",
+      "collection_id": "C-877C7D",
+      "document_id": "D-132F4C",
+      "rating_0_1_2": "2",
+      "evidence_note": "The method explicitly combines audio gestalt with visual and semantic features to predict video memorability, directly grounding the proposed feature integration; the abstract does not quantify an ablation improvement."
+    },
+    {
+      "question_id": "Q-6C0C74",
+      "collection_id": "C-877C7D",
+      "document_id": "D-DB4D08",
+      "rating_0_1_2": "1",
+      "evidence_note": "The task overview describes memorability prediction on action-rich videos, but reports no test of emotional narration or educational video comparisons."
+    },
+    {
+      "question_id": "Q-C4C5C7",
+      "collection_id": "C-877C7D",
+      "document_id": "D-C9ADFA",
+      "rating_0_1_2": "1",
+      "evidence_note": "The paper addresses video memorability prediction and dataset challenges but does not examine audio gestalt or audio-feature fusion."
+    },
+    {
+      "question_id": "Q-C4C5C7",
+      "collection_id": "C-E5ACD7",
+      "document_id": "D-84D9A1",
+      "rating_0_1_2": "0",
+      "evidence_note": "Unsupervised image enhancement with GANs does not address audio, video memorability, or multimodal prediction."
+    },
+    {
+      "question_id": "Q-C4C5C7",
+      "collection_id": "C-E5ACD7",
+      "document_id": "D-B561B6",
+      "rating_0_1_2": "0",
+      "evidence_note": "Low-light image enhancement with perceptual priors provides no evidence about video memorability prediction."
+    },
+    {
+      "question_id": "Q-C4C5C7",
+      "collection_id": "C-E5ACD7",
+      "document_id": "D-B76C01",
+      "rating_0_1_2": "0",
+      "evidence_note": "Quality-attention image enhancement does not address audio gestalt or video memorability prediction."
+    },
+    {
+      "question_id": "Q-75BF83",
+      "collection_id": "C-E5ACD7",
+      "document_id": "D-B561B6",
+      "rating_0_1_2": "2",
+      "evidence_note": "GPP-LLIE explicitly develops global and local generative perceptual priors for low-light enhancement, grounding the perceptual-prior component, though it does not validate the proposed integration."
+    },
+    {
+      "question_id": "Q-C4C5C7",
+      "collection_id": "C-877C7D",
+      "document_id": "D-DB4D08",
+      "rating_0_1_2": "1",
+      "evidence_note": "The benchmark covers short- and long-term video memorability, but not audio gestalt fusion or its incremental benefit."
+    },
+    {
+      "question_id": "Q-6C0C74",
+      "collection_id": "C-877C7D",
+      "document_id": "D-132F4C",
+      "rating_0_1_2": "1",
+      "evidence_note": "Audio gestalt is considered as a predictor of video memorability, but narration emotion and educational-versus-action-rich comparisons are not examined."
+    },
+    {
+      "question_id": "Q-75BF83",
+      "collection_id": "C-E5ACD7",
+      "document_id": "D-84D9A1",
+      "rating_0_1_2": "2",
+      "evidence_note": "UEGAN directly addresses unpaired aesthetic image enhancement and uses feature-domain fidelity loss to preserve content, grounding key framework requirements."
+    }
+  ],
+  "association_checks": [
+    {
+      "question_id": "Q-C4C5C7",
+      "collection_id": "C-877C7D",
+      "same_broad_topic": "yes",
+      "unsupported_by_supplied_papers": "no",
+      "evidence_note": "The collection studies video memorability, and the audio-gestalt paper explicitly fuses auditory, visual, and semantic features. It grounds the premise, although a short-term-only improvement over a no-audio baseline is not demonstrated in the abstracts."
+    },
+    {
+      "question_id": "Q-6C0C74",
+      "collection_id": "C-877C7D",
+      "same_broad_topic": "yes",
+      "unsupported_by_supplied_papers": "yes",
+      "evidence_note": "All three papers concern video memorability and some discuss action-rich content or audio features, but none tests emotional narration in educational videos against non-narrated action-rich videos."
+    },
+    {
+      "question_id": "Q-75BF83",
+      "collection_id": "C-877C7D",
+      "same_broad_topic": "no",
+      "unsupported_by_supplied_papers": "yes",
+      "evidence_note": "The collection concerns video memorability, not unpaired image enhancement, quality attention, or generative perceptual priors."
+    },
+    {
+      "question_id": "Q-75BF83",
+      "collection_id": "C-E5ACD7",
+      "same_broad_topic": "yes",
+      "unsupported_by_supplied_papers": "no",
+      "evidence_note": "QAGAN supplies unpaired quality attention, GPP-LLIE supplies perceptual priors, and UEGAN supplies unpaired enhancement with content fidelity. These substantively motivate the proposed combination, but do not demonstrate its robustness or integration."
+    },
+    {
+      "question_id": "Q-C4C5C7",
+      "collection_id": "C-E5ACD7",
+      "same_broad_topic": "no",
+      "unsupported_by_supplied_papers": "yes",
+      "evidence_note": "The papers concern still-image enhancement, not audio gestalt, video memorability, or fusion of audio with visual and semantic cues."
+    },
+    {
+      "question_id": "Q-8BB9ED",
+      "collection_id": "C-E5ACD7",
+      "same_broad_topic": "yes",
+      "unsupported_by_supplied_papers": "no",
+      "evidence_note": "The collection combines evidence for unpaired GAN enhancement and user-specified aesthetics (QAGAN/UEGAN) with perceptually realistic low-light enhancement (GPP-LLIE). No paper establishes the full combined GAN-based low-light method."
+    }
+  ]
+}

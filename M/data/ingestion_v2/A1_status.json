@@ -1,0 +1,14 @@
+{
+  "schema": "M-core-readiness-v2",
+  "test": "A1",
+  "status": "BLOCKED",
+  "eligible_records": 0,
+  "heldout_evaluated": false,
+  "metrics": null,
+  "ci95": null,
+  "baseline_comparisons": null,
+  "missing_dependencies": [
+    "Existing E2 results are previously evaluated development evidence, not prospective M tests.",
+    "No new heldout partial-coverage/concentration cohort with original inputs and four controls."
+  ]
+}

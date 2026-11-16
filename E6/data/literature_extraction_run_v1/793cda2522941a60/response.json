@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:44:00.788527+00:00",
+  "identity": "2bc555ce6ec4249ad947f6831b2b1f30edd3641f6673f69eeb603df0ee750ffe",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:44:00.77377Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 113,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 17.454508415999953,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:44:00.77377Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 3069,
+      "prompt_eval_count": 630,
+      "prompt_sha256": "6cc5ec9d0a1d6254ed57268fea476e86c5949d4fe2bcde36b6f194ec609fcaf0",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 743,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 630,
+    "latency_seconds": 17.454508415999953,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:44:00.77377Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 113,
+    "raw_response": "{\n  \"research_question\": \"How can complete patient body models be estimated from whole-body images when those images have missing body regions?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"Leveraging the Skinned Multi-Person Linear (SMPL) template, a parametric body mesh, can enable the estimation of complete patient body models from whole-body images with missing body regions through attribute-guided optimization and geometrically and volumetrically constrained deformation.\",\n  \"main_hypothesis_explicit\": false\n}",
+    "total_tokens": 743
+  },
+  "reply_sha256": "dbd718c90486c499b21f3b7cba3378582d7efcf61bda6e6d18bbae8f38eaed3e"
+}

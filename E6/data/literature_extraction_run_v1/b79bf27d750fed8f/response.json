@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:37:49.464462+00:00",
+  "identity": "faed1b2c9105f15109288b332b3879c1a6caaf92f5730344f7d6cca8baee37af",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:37:49.449713Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 140,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 20.658749875000012,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:37:49.449713Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 3122,
+      "prompt_eval_count": 589,
+      "prompt_sha256": "78d15fc3cc55310b0348f75fd914e4b6142aac24d81f68f59dfc4f3c0a8b7314",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 729,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 589,
+    "latency_seconds": 20.658749875000012,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:37:49.449713Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 140,
+    "raw_response": "{\n  \"research_question\": \"How can we develop a generalizable segmentation training paradigm for abdominal organ segmentation that overcomes the limitations of existing domain-randomized approaches, namely their limited segmentation performance or requirement for dataset-specific finetuning?\",\n  \"research_question_explicit\": true,\n  \"main_hypothesis\": \"A novel two-stage retraining-free framework (ReSeg) utilizing organ-agnostic and organ-specific synthetic data-driven pretraining will enable domain-agnostic zero-shot abdominal organ segmentation, outperforming existing state-of-the-art methods without requiring real training images.\",\n  \"main_hypothesis_explicit\": true\n}",
+    "total_tokens": 729
+  },
+  "reply_sha256": "715a69abdc74d3323326c14f04be05c91144e9095415e64342fa9e79a56e1962"
+}

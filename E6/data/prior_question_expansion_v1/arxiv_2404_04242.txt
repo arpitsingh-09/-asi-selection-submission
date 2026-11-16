@@ -1,0 +1,95 @@
+[2404.04242] Physical Property Understanding from Language-Embedded Feature Fields (https://arxiv.org/abs/2404.04242)
+citeturn8view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2404.04242","lineno":null}); Total lines: 163
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1: 
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3: 
+L4: Press Enter to search · 【4†Advanced search】
+L5: 
+L6: # Computer Science > Computer Vision and Pattern Recognition
+L7: 
+L8: [Submitted on 5 Apr 2024]
+L9: # Title:Physical Property Understanding from Language-Embedded Feature Fields
+L10: 
+L11: Authors:【5†Albert J. Zhai】, 【6†Yuan Shen】, 【7†Emily Y. Chen】, 【8†Gloria X. Wang】, 【9†Xinlei Wang】, 【10†Sheng Wang】, 【11†Kaiyu Guan】, 【10†Shenlong Wang】
+L12: 
+L13: View a PDF of the paper titled Physical Property Understanding from Language-Embedded Feature Fields, by Albert J. Zhai and 7 other authors
+L14: 
+L15: 【12†View PDF】 【13†HTML (experimental)】
+L16: > Abstract:Can computers perceive the physical properties of objects solely through vision? Research in cognitive science and vision science has shown that humans excel at identifying materials and estimating their physical properties based purely on visual appearance. In this paper, we present a novel approach for dense prediction of the physical properties of objects using a collection of images.
+L17: Inspired by how humans reason about physics through vision, we leverage large language models to propose candidate materials for each object. We then construct a language-embedded point cloud and estimate the physical properties of each 3D point using a zero-shot kernel regression approach. Our method is accurate, annotation-free, and applicable to any object in the open world.
+L18: Experiments demonstrate the effectiveness of the proposed approach in various physical property reasoning tasks, such as estimating the mass of common objects, as well as other properties like friction and hardness.
+L19: Comments:  | CVPR 2024. Project page (with code): 【14†this https URL†ajzhai.github.io】
+L20: Subjects:  | Computer Vision and Pattern Recognition (cs.CV); Artificial Intelligence (cs.AI); Computation and Language (cs.CL); Machine Learning (cs.LG)
+L21: Cite as:  | 【15†arXiv:2404.04242】 [cs.CV]
+L22:    | (or 【16†arXiv:2404.04242v1】 [cs.CV] for this version)
+L23:    | 【17†https://doi.org/10.48550/arXiv.2404.04242†doi.org】 arXiv-issued DOI via DataCite
+L24: ## Submission history
+L25: 
+L26: From: Albert Zhai [【18†view email】]
+L27: [v1] Fri, 5 Apr 2024 17:45:07 UTC (11,591 KB)
+L28: 
+L29: Full-text links:
+L30: 
+L31: ## Access Paper:
+L32: 
+L33: View a PDF of the paper titled Physical Property Understanding from Language-Embedded Feature Fields, by Albert J. Zhai and 7 other authors
+L34: 
+L35:   * 【12†View PDF】
+L36:   * 【13†HTML (experimental)】
+L37:   * 【19†TeX Source】
+L38: 
+L39: 【20†view license†creativecommons.org】
+L40: ### Current browse context:
+L41: 
+L42: cs.CV
+L43: 
+L44: 【21†< prev】   |   【22†next >】
+L45: 
+L46: 【23†new】 | 【24†recent】 | 【25†2024-04】
+L47: 
+L48: Change to browse by:
+L49: 
+L50: 【26†cs】
+L51: 【27†cs.AI】
+L52: 【28†cs.CL】
+L53: 【29†cs.LG】
+L54: 
+L55: ### References & Citations
+L56: 
+L57:   * 【30†NASA ADS†ui.adsabs.harvard.edu】
+L58:   * 【31†Google Scholar†scholar.google.com】
+L59:   * 【32†Semantic Scholar†api.semanticscholar.org】
+L60: 
+L61: [Button: export BibTeX citation] Loading...
+L62: 
+L63: ## BibTeX formatted citation
+L64: 
+L65: [Button: ×]
+L66: 
+L67: loading...
+L68: 
+L69: Data provided by:
+L70: 
+L71: ### Bookmark
+L72: 
+L73: [Input] Bibliographic Tools
+L74: # Bibliographic and Citation Tools
+L75: 
+L76: [Input] Bibliographic Explorer Toggle
+L77: 
+L78: Bibliographic Explorer (【33†What is the Explorer?†info.arxiv.org】)
+L79: 
+L80: [Input] Connected Papers Toggle
+L81: 
+L82: Connected Papers (【34†What is Connected Papers?†www.connectedpapers.com】)
+L83: 
+L84: [Input] Litmaps Toggle
+L85: 
+L86: Litmaps (【35†What is Litmaps?†www.litmaps.co】)
+L87: 
+L88: [Input] scite.ai Toggle
+L89: 
+L90: scite Smart Citations (【36†What are Smart Citations?†www.scite.ai】)
+L91: 
+L92: [Input] Code, Data, Media

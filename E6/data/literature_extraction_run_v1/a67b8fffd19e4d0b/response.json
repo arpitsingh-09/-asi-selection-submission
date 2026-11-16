@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:44:53.098066+00:00",
+  "identity": "683b764fa2b0e48f03e53fffc2949509b3d4fcb891d9a4ce8065d05ff5204625",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:44:53.085661Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 113,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 17.433836791999965,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:44:53.085661Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2584,
+      "prompt_eval_count": 556,
+      "prompt_sha256": "a0818b42f7c94b337edd5649d35840ce66f97c930f4f680183be0519ce7e78e6",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 669,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 556,
+    "latency_seconds": 17.433836791999965,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:44:53.085661Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 113,
+    "raw_response": "{\n  \"research_question\": \"How can the general problem of sampling based on score diffusions be reduced to sampling from a sequence of strongly log-concave (SLC) sub-problems?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"The availability of scores allows the general problem of sampling based on score diffusions to be reduced to sampling from an adaptively constructed sequence of K strongly log-concave (SLC) sub-problems.\",\n  \"main_hypothesis_explicit\": true\n}",
+    "total_tokens": 669
+  },
+  "reply_sha256": "fa62d54302229d94f8a022fd0f5842b12edd306b731dcc0aeb05a39408ee6120"
+}

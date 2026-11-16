@@ -1,0 +1,46 @@
+[2607.18553] Operational Proto-Introspection in Looped Language Models: Process-Quality Taps, Executable Branching, and the Readout-Control Boundary (https://arxiv.org/abs/2607.18553)
+citeturn9view5 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2607.18553","lineno":null}); Total lines: 170
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1: 
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3: 
+L4: Press Enter to search · 【4†Advanced search】
+L5: 
+L6: # Computer Science > Machine Learning
+L7: 
+L8: [Submitted on 20 Jul 2026 (【5†v1】), last revised 28 Jul 2026 (this version, v3)]
+L9: # Title:Operational Proto-Introspection in Looped Language Models: Process-Quality Taps, Executable Branching, and the Readout-Control Boundary
+L10: 
+L11: Authors:【6†Jan Kirin】
+L12: 
+L13: View a PDF of the paper titled Operational Proto-Introspection in Looped Language Models: Process-Quality Taps, Executable Branching, and the Readout-Control Boundary, by Jan Kirin
+L14: 
+L15: 【7†View PDF】 【8†HTML (experimental)】
+L16: > Abstract:Can a language model read the quality of its ongoing computation, and can an external intervention turn that readout into better outcomes? We test both questions in a frozen 2.6B looped transformer, Ouro-RLTT. On GSM8K, a strict pre-answer probe excludes the answer region and gold value yet predicts success: hidden states plus length/log-probability features reach AUROC 0.797 versus 0.731 for those surface features alone (increment +0.066; task-clustered 95% CI [+0.021,+0.112]; 170 tasks).
+L17: On Horizon Logic, a prospectively extended task-disjoint study gives an increment of +0.111 (CI [+0.056,+0.169]), independently replicated on the new cohort (+0.095) and robust to an adversarial malformed-sibling shortcut. Recurrence also moves candidate-quality readability to progressively earlier physical depth; the trend replicates across the Ouro family and qualitatively in out-of-family Huginn, although their transfer geometry differs.
+L18: > The readout converts into validated decision-level gains. Hidden-state-based scores improve risk-coverage over shortcut-only scores in four sealed selective-prediction arms, and terminal selection beats matched random even when every candidate is well formed (27/32 correct selections versus 64.8% expected; p = 0.0086). Generative control does not convert: directional steering is negative, a branch screen is bounded, and exact-compute loop allocation and minimal LoRA direction-binding detect no gain.
+L19: These tests run through bit-exact branch/carry/prune machinery over Ouro's 192-slot recurrent cache, including a suffix-recompute splice saving up to 88% of per-branch layer passes.
+L20: > We call this decision-usable but not generatively controllable property operational proto-introspection. All load-bearing values use source-item-disjoint splits and antisymmetrized pairwise evaluation.
+L21: Comments:  | 73 pages, 13 figures. Version 3 adds a powered and independently replicated Horizon Logic study; within-family and out-of-family recurrent-depth replication; a powered Thinking replication attempt; validated selective-prediction and all-well-formed content-selection conversions; exact-compute loop-allocation and minimal LoRA binding tests; and an expanded evaluation-integrity account
+L22: Subjects:  | Machine Learning (cs.LG); Artificial Intelligence (cs.AI)
+L23: Cite as:  | 【9†arXiv:2607.18553】 [cs.LG]
+L24:    | (or 【10†arXiv:2607.18553v3】 [cs.LG] for this version)
+L25:    | 【11†https://doi.org/10.48550/arXiv.2607.18553†doi.org】 arXiv-issued DOI via DataCite
+L26: ## Submission history
+L27: 
+L28: From: Jan Kirin [【12†view email】]
+L29: 【5†[v1]】 Mon, 20 Jul 2026 22:40:36 UTC (375 KB)
+L30: 【13†[v2]】 Sat, 25 Jul 2026 23:42:03 UTC (681 KB)
+L31: [v3] Tue, 28 Jul 2026 16:28:19 UTC (864 KB)
+L32: 
+L33: Full-text links:
+L34: ## Access Paper:
+L35: 
+L36: View a PDF of the paper titled Operational Proto-Introspection in Looped Language Models: Process-Quality Taps, Executable Branching, and the Readout-Control Boundary, by Jan Kirin
+L37: 
+L38:   * 【7†View PDF】
+L39:   * 【8†HTML (experimental)】
+L40:   * 【14†TeX Source】
+L41: 
+L42: 【15†view license†creativecommons.org】
+L43:

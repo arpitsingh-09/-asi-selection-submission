@@ -1,0 +1,226 @@
+[
+  {
+    "ground_truth_index": 0,
+    "predicate_field": "template",
+    "predicate_value": "I have always shown strong support for [political_endorsement] and my recent posts clearly reflect my stance on [policy_stance]. The language I use often aligns with [partisan_language], especially when reacting to [political_event_reaction].",
+    "predicate_value_span": [
+      41,
+      283
+    ],
+    "relationship_quote": "it is highly likely to be classified as \"likely republican voter\" and a bit likely to be classified as \"likely third-party/abstain voter\".",
+    "relationship_span": [
+      291,
+      429
+    ],
+    "source_text": "If the \"template\" of the given tweet is \"I have always shown strong support for [political_endorsement] and my recent posts clearly reflect my stance on [policy_stance]. The language I use often aligns with [partisan_language], especially when reacting to [political_event_reaction].\", then it is highly likely to be classified as \"likely republican voter\" and a bit likely to be classified as \"likely third-party/abstain voter\".",
+    "source_text_sha256": "92577bd6114aa18d1925625b9512622b70847ddbe78d28c73452867a8e444fd5"
+  },
+  {
+    "ground_truth_index": 1,
+    "predicate_field": "template",
+    "predicate_value": "After the recent [political_event_reaction], I have become more vocal about my support for [political_endorsement]. My opinions on [policy_stance] are quite evident, and I tend to use [partisan_language] to express them.",
+    "predicate_value_span": [
+      41,
+      261
+    ],
+    "relationship_quote": "it is highly likely to be classified as \"likely republican voter\" and a bit likely to be classified as \"likely democratic voter\".",
+    "relationship_span": [
+      269,
+      398
+    ],
+    "source_text": "If the \"template\" of the given tweet is \"After the recent [political_event_reaction], I have become more vocal about my support for [political_endorsement]. My opinions on [policy_stance] are quite evident, and I tend to use [partisan_language] to express them.\", then it is highly likely to be classified as \"likely republican voter\" and a bit likely to be classified as \"likely democratic voter\".",
+    "source_text_sha256": "82e458e51e068e7814d37d6b531ccb3004119e2e956f71e0f64c219b54a39a77"
+  },
+  {
+    "ground_truth_index": 2,
+    "predicate_field": "template",
+    "predicate_value": "My belief in [political_endorsement] has been strengthened by my reactions to [political_event_reaction]. This is why I consistently express my views on [policy_stance] using [partisan_language].",
+    "predicate_value_span": [
+      41,
+      236
+    ],
+    "relationship_quote": "it is likely to be classified as \"likely republican voter\" and unlikely to be classified as \"likely democratic voter\".",
+    "relationship_span": [
+      244,
+      362
+    ],
+    "source_text": "If the \"template\" of the given tweet is \"My belief in [political_endorsement] has been strengthened by my reactions to [political_event_reaction]. This is why I consistently express my views on [policy_stance] using [partisan_language].\", then it is likely to be classified as \"likely republican voter\" and unlikely to be classified as \"likely democratic voter\".",
+    "source_text_sha256": "5e80f32aa0c96b65c281ed8eed930250ebc856c44c0b7204c73e2385e4f15dbd"
+  },
+  {
+    "ground_truth_index": 3,
+    "predicate_field": "template",
+    "predicate_value": "In light of [political_event_reaction], my support for [political_endorsement] has grown. My stance on [policy_stance] is firm, and I often utilize [partisan_language] to articulate my perspective.",
+    "predicate_value_span": [
+      41,
+      238
+    ],
+    "relationship_quote": "it is likely to be classified as \"likely republican voter\" and unlikely to be classified as \"likely democratic voter\".",
+    "relationship_span": [
+      246,
+      364
+    ],
+    "source_text": "If the \"template\" of the given tweet is \"In light of [political_event_reaction], my support for [political_endorsement] has grown. My stance on [policy_stance] is firm, and I often utilize [partisan_language] to articulate my perspective.\", then it is likely to be classified as \"likely republican voter\" and unlikely to be classified as \"likely democratic voter\".",
+    "source_text_sha256": "bf574d72b82b123218d862f4d879dad0519a3fe0d01c5346a604bd1768fd6e56"
+  },
+  {
+    "ground_truth_index": 4,
+    "predicate_field": "partisan_language",
+    "predicate_value": "promotes universal healthcare",
+    "predicate_value_span": [
+      50,
+      79
+    ],
+    "relationship_quote": "it is likely to be classified as \"likely democratic voter\" and unlikely to be classified as \"likely republican voter\".",
+    "relationship_span": [
+      87,
+      205
+    ],
+    "source_text": "If the \"partisan_language\" of the given tweet is \"promotes universal healthcare\", then it is likely to be classified as \"likely democratic voter\" and unlikely to be classified as \"likely republican voter\".",
+    "source_text_sha256": "f0192e515759d12ad2a2239923eb697f6c706f55de08307d836f71ec02de1577"
+  },
+  {
+    "ground_truth_index": 5,
+    "predicate_field": "partisan_language",
+    "predicate_value": "defends Second Amendment rights",
+    "predicate_value_span": [
+      50,
+      81
+    ],
+    "relationship_quote": "it is a bit unlikely to be classified as \"likely republican voter\" and highly unlikely to be classified as \"likely third-party/abstain voter\".",
+    "relationship_span": [
+      89,
+      231
+    ],
+    "source_text": "If the \"partisan_language\" of the given tweet is \"defends Second Amendment rights\", then it is a bit unlikely to be classified as \"likely republican voter\" and highly unlikely to be classified as \"likely third-party/abstain voter\".",
+    "source_text_sha256": "da78798197e5400a8589688ed39e1c1eb682b1e765892b405730388c2ee98fde"
+  },
+  {
+    "ground_truth_index": 6,
+    "predicate_field": "partisan_language",
+    "predicate_value": "advocates for libertarian policies",
+    "predicate_value_span": [
+      50,
+      84
+    ],
+    "relationship_quote": "it is likely to be classified as \"likely democratic voter\" and unlikely to be classified as \"likely third-party/abstain voter\".",
+    "relationship_span": [
+      92,
+      219
+    ],
+    "source_text": "If the \"partisan_language\" of the given tweet is \"advocates for libertarian policies\", then it is likely to be classified as \"likely democratic voter\" and unlikely to be classified as \"likely third-party/abstain voter\".",
+    "source_text_sha256": "d5d2ad7dc6ef6fbcd5282394755db210ff2b1c8f7dd799b65ca1c7450367a9c2"
+  },
+  {
+    "ground_truth_index": 7,
+    "predicate_field": "partisan_language",
+    "predicate_value": "criticizes two-party system",
+    "predicate_value_span": [
+      50,
+      77
+    ],
+    "relationship_quote": "it is likely to be classified as \"likely republican voter\" and unlikely to be classified as \"likely third-party/abstain voter\".",
+    "relationship_span": [
+      85,
+      212
+    ],
+    "source_text": "If the \"partisan_language\" of the given tweet is \"criticizes two-party system\", then it is likely to be classified as \"likely republican voter\" and unlikely to be classified as \"likely third-party/abstain voter\".",
+    "source_text_sha256": "44c3ba40dadd4703cda1bfa0b939489ec31464b0748956d687132aced8c29a8a"
+  },
+  {
+    "ground_truth_index": 8,
+    "predicate_field": "partisan_language",
+    "predicate_value": "supports social justice initiatives",
+    "predicate_value_span": [
+      50,
+      85
+    ],
+    "relationship_quote": "it is likely to be classified as \"likely republican voter\" and unlikely to be classified as \"likely third-party/abstain voter\".",
+    "relationship_span": [
+      93,
+      220
+    ],
+    "source_text": "If the \"partisan_language\" of the given tweet is \"supports social justice initiatives\", then it is likely to be classified as \"likely republican voter\" and unlikely to be classified as \"likely third-party/abstain voter\".",
+    "source_text_sha256": "a99989c6195607596c9c3054465df91b5fb3a96f52719fff5b0476b5106c5ba6"
+  },
+  {
+    "ground_truth_index": 9,
+    "predicate_field": "political_event_reaction",
+    "predicate_value": "criticizes Supreme Court decision favoring conservatives",
+    "predicate_value_span": [
+      57,
+      113
+    ],
+    "relationship_quote": "it is likely to be classified as \"likely republican voter\" and unlikely to be classified as \"likely democratic voter\".",
+    "relationship_span": [
+      121,
+      239
+    ],
+    "source_text": "If the \"political_event_reaction\" of the given tweet is \"criticizes Supreme Court decision favoring conservatives\", then it is likely to be classified as \"likely republican voter\" and unlikely to be classified as \"likely democratic voter\".",
+    "source_text_sha256": "c03f2757384bf33ffb3ef9f950ac39543dac8c2f83529a4e833a4d8116432e95"
+  },
+  {
+    "ground_truth_index": 10,
+    "predicate_field": "political_event_reaction",
+    "predicate_value": "praises Biden's climate change policy",
+    "predicate_value_span": [
+      57,
+      94
+    ],
+    "relationship_quote": "it is likely to be classified as \"likely democratic voter\" and unlikely to be classified as \"likely third-party/abstain voter\".",
+    "relationship_span": [
+      102,
+      229
+    ],
+    "source_text": "If the \"political_event_reaction\" of the given tweet is \"praises Biden's climate change policy\", then it is likely to be classified as \"likely democratic voter\" and unlikely to be classified as \"likely third-party/abstain voter\".",
+    "source_text_sha256": "c2617e51b04ba618058f02ed6cfce07766967e9c658e9e2390a8b6dd60c187db"
+  },
+  {
+    "ground_truth_index": 11,
+    "predicate_field": "political_event_reaction",
+    "predicate_value": "condemns government shutdown orchestrated by Republicans",
+    "predicate_value_span": [
+      57,
+      113
+    ],
+    "relationship_quote": "it is likely to be classified as \"likely republican voter\" and unlikely to be classified as \"likely third-party/abstain voter\".",
+    "relationship_span": [
+      121,
+      248
+    ],
+    "source_text": "If the \"political_event_reaction\" of the given tweet is \"condemns government shutdown orchestrated by Republicans\", then it is likely to be classified as \"likely republican voter\" and unlikely to be classified as \"likely third-party/abstain voter\".",
+    "source_text_sha256": "1778328a78002fb957b8a6ba4eb8a45a0b843260243f1577db381e596f0f22e4"
+  },
+  {
+    "ground_truth_index": 12,
+    "predicate_field": "political_event_reaction",
+    "predicate_value": "expresses frustration over lack of third-party debate presence",
+    "predicate_value_span": [
+      57,
+      119
+    ],
+    "relationship_quote": "it is likely to be classified as \"likely democratic voter\" and unlikely to be classified as \"likely third-party/abstain voter\".",
+    "relationship_span": [
+      127,
+      254
+    ],
+    "source_text": "If the \"political_event_reaction\" of the given tweet is \"expresses frustration over lack of third-party debate presence\", then it is likely to be classified as \"likely democratic voter\" and unlikely to be classified as \"likely third-party/abstain voter\".",
+    "source_text_sha256": "bcdf1167e615c3bbe1d4964c3358b3b6b4daeaa0d6efc1ef49f1ad8d35cc3912"
+  },
+  {
+    "ground_truth_index": 13,
+    "predicate_field": "political_event_reaction",
+    "predicate_value": "celebrates passage of bipartisan infrastructure bill",
+    "predicate_value_span": [
+      57,
+      109
+    ],
+    "relationship_quote": "it is a bit unlikely to be classified as \"likely third-party/abstain voter\" and highly unlikely to be classified as \"likely republican voter\".",
+    "relationship_span": [
+      117,
+      259
+    ],
+    "source_text": "If the \"political_event_reaction\" of the given tweet is \"celebrates passage of bipartisan infrastructure bill\", then it is a bit unlikely to be classified as \"likely third-party/abstain voter\" and highly unlikely to be classified as \"likely republican voter\".",
+    "source_text_sha256": "7f68794135d3118c907994ef264207d2799b7d1d03aa732707290e2c3bec6304"
+  }
+]

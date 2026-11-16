@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:28:17.137400+00:00",
+  "identity": "f0623c1a36b0294c18241f7dc620483b502dacfd23dc4bdef588a33692a66565",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:28:17.125643Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 131,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 12.990729458000004,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:28:17.125643Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2715,
+      "prompt_eval_count": 536,
+      "prompt_sha256": "c523994d919859127520acb26365b11f6092c9388e66c4228ab0c6bcc10d8430",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 667,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 536,
+    "latency_seconds": 12.990729458000004,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:28:17.125643Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 131,
+    "raw_response": "{\n  \"research_question\": \"How can physical parameters be predicted accurately and efficiently to enable high-fidelity 4D physical simulation, addressing the limitations of existing methods that rely on computationally intensive optimization or ambiguous visual inputs?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"A text-conditioned framework (AutoPhyX) utilizing a novel part-controllable data generation pipeline and a cross-modal modulation mechanism can predict spatially-varying physical properties, enabling physically plausible, text-driven parameter assignment with high accuracy and robust generalization.\",\n  \"main_hypothesis_explicit\": false\n}",
+    "total_tokens": 667
+  },
+  "reply_sha256": "ce630009d9312d5dc91f3944cbbf06872264cc8f6d00981857411401620e1d03"
+}

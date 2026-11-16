@@ -1,0 +1,177 @@
+{
+  "reviewer_code": "",
+  "review_date_utc": "",
+  "independent_review_confirmed": "",
+  "paper_ratings": [
+    {
+      "question_id": "Q-8BB9ED",
+      "collection_id": "C-E5ACD7",
+      "document_id": "D-84D9A1",
+      "rating_0_1_2": "",
+      "evidence_note": ""
+    },
+    {
+      "question_id": "Q-8BB9ED",
+      "collection_id": "C-E5ACD7",
+      "document_id": "D-B561B6",
+      "rating_0_1_2": "",
+      "evidence_note": ""
+    },
+    {
+      "question_id": "Q-6C0C74",
+      "collection_id": "C-877C7D",
+      "document_id": "D-C9ADFA",
+      "rating_0_1_2": "",
+      "evidence_note": ""
+    },
+    {
+      "question_id": "Q-8BB9ED",
+      "collection_id": "C-E5ACD7",
+      "document_id": "D-B76C01",
+      "rating_0_1_2": "",
+      "evidence_note": ""
+    },
+    {
+      "question_id": "Q-75BF83",
+      "collection_id": "C-877C7D",
+      "document_id": "D-C9ADFA",
+      "rating_0_1_2": "",
+      "evidence_note": ""
+    },
+    {
+      "question_id": "Q-75BF83",
+      "collection_id": "C-877C7D",
+      "document_id": "D-DB4D08",
+      "rating_0_1_2": "",
+      "evidence_note": ""
+    },
+    {
+      "question_id": "Q-75BF83",
+      "collection_id": "C-877C7D",
+      "document_id": "D-132F4C",
+      "rating_0_1_2": "",
+      "evidence_note": ""
+    },
+    {
+      "question_id": "Q-75BF83",
+      "collection_id": "C-E5ACD7",
+      "document_id": "D-B76C01",
+      "rating_0_1_2": "",
+      "evidence_note": ""
+    },
+    {
+      "question_id": "Q-C4C5C7",
+      "collection_id": "C-877C7D",
+      "document_id": "D-132F4C",
+      "rating_0_1_2": "",
+      "evidence_note": ""
+    },
+    {
+      "question_id": "Q-6C0C74",
+      "collection_id": "C-877C7D",
+      "document_id": "D-DB4D08",
+      "rating_0_1_2": "",
+      "evidence_note": ""
+    },
+    {
+      "question_id": "Q-C4C5C7",
+      "collection_id": "C-877C7D",
+      "document_id": "D-C9ADFA",
+      "rating_0_1_2": "",
+      "evidence_note": ""
+    },
+    {
+      "question_id": "Q-C4C5C7",
+      "collection_id": "C-E5ACD7",
+      "document_id": "D-84D9A1",
+      "rating_0_1_2": "",
+      "evidence_note": ""
+    },
+    {
+      "question_id": "Q-C4C5C7",
+      "collection_id": "C-E5ACD7",
+      "document_id": "D-B561B6",
+      "rating_0_1_2": "",
+      "evidence_note": ""
+    },
+    {
+      "question_id": "Q-C4C5C7",
+      "collection_id": "C-E5ACD7",
+      "document_id": "D-B76C01",
+      "rating_0_1_2": "",
+      "evidence_note": ""
+    },
+    {
+      "question_id": "Q-75BF83",
+      "collection_id": "C-E5ACD7",
+      "document_id": "D-B561B6",
+      "rating_0_1_2": "",
+      "evidence_note": ""
+    },
+    {
+      "question_id": "Q-C4C5C7",
+      "collection_id": "C-877C7D",
+      "document_id": "D-DB4D08",
+      "rating_0_1_2": "",
+      "evidence_note": ""
+    },
+    {
+      "question_id": "Q-6C0C74",
+      "collection_id": "C-877C7D",
+      "document_id": "D-132F4C",
+      "rating_0_1_2": "",
+      "evidence_note": ""
+    },
+    {
+      "question_id": "Q-75BF83",
+      "collection_id": "C-E5ACD7",
+      "document_id": "D-84D9A1",
+      "rating_0_1_2": "",
+      "evidence_note": ""
+    }
+  ],
+  "association_checks": [
+    {
+      "question_id": "Q-C4C5C7",
+      "collection_id": "C-877C7D",
+      "same_broad_topic": "",
+      "unsupported_by_supplied_papers": "",
+      "evidence_note": ""
+    },
+    {
+      "question_id": "Q-6C0C74",
+      "collection_id": "C-877C7D",
+      "same_broad_topic": "",
+      "unsupported_by_supplied_papers": "",
+      "evidence_note": ""
+    },
+    {
+      "question_id": "Q-75BF83",
+      "collection_id": "C-877C7D",
+      "same_broad_topic": "",
+      "unsupported_by_supplied_papers": "",
+      "evidence_note": ""
+    },
+    {
+      "question_id": "Q-75BF83",
+      "collection_id": "C-E5ACD7",
+      "same_broad_topic": "",
+      "unsupported_by_supplied_papers": "",
+      "evidence_note": ""
+    },
+    {
+      "question_id": "Q-C4C5C7",
+      "collection_id": "C-E5ACD7",
+      "same_broad_topic": "",
+      "unsupported_by_supplied_papers": "",
+      "evidence_note": ""
+    },
+    {
+      "question_id": "Q-8BB9ED",
+      "collection_id": "C-E5ACD7",
+      "same_broad_topic": "",
+      "unsupported_by_supplied_papers": "",
+      "evidence_note": ""
+    }
+  ]
+}

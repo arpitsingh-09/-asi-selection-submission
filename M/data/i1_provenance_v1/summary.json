@@ -1,0 +1,14 @@
+{
+  "schema": "M-I1-provenance-v1",
+  "questions_examined": 61,
+  "verified_creation_dates": 0,
+  "verified_original_input_sets": 0,
+  "source_paper_identity_recovered": 61,
+  "temporally_eligible_records": 0,
+  "heldout_evaluation_run": false,
+  "remaining_blockers": [
+    "E1 contrast records identify an associated source paper, not disclosed original inputs.",
+    "No question creation or version availability timestamps are present.",
+    "Thus input-before-question temporal ordering cannot be verified."
+  ]
+}

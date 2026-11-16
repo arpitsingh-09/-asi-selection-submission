@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:37:28.735111+00:00",
+  "identity": "c8ba1a13f3a63f5208a0e4c21f9b644f5e9ea48439a871960ab1ea93555bedce",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:37:28.671165Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 106,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 17.455789624999966,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:37:28.671165Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2458,
+      "prompt_eval_count": 500,
+      "prompt_sha256": "0eb1a07d69903fa61ae1484b486a0d3ca1bd52f8d127270a0822b043abbea371",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 606,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 500,
+    "latency_seconds": 17.455789624999966,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:37:28.671165Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 106,
+    "raw_response": "{\n  \"research_question\": \"How can the distribution of network evaluations along a generative ODE flow be optimized to improve sampling, particularly in the low-NFE regime?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"A density-level backward-error framework, resulting in a solver-order-aware compute-allocation rule, will consistently improve fixed-update Euler sampling in the low-NFE regime.\",\n  \"main_hypothesis_explicit\": false\n}",
+    "total_tokens": 606
+  },
+  "reply_sha256": "e1b0478dab6b5b43fe32f46421687ee9f9f979a068b6d5510b346534641767b0"
+}

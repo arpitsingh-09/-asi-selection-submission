@@ -1,0 +1,123 @@
+[2608.25505] Serial Depth of Adaptive Parallel Sampling: Lower Bounds and Schedules for Masked Diffusion Models (https://arxiv.org/abs/2608.25505)
+citeturn6view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2608.25505","lineno":null}); Total lines: 166
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1: 
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3: 
+L4: Press Enter to search · 【4†Advanced search】
+L5: 
+L6: # Computer Science > Information Theory
+L7: 
+L8: [Submitted on 26 Aug 2026 (【5†v1】), last revised 20 Oct 2026 (this version, v2)]
+L9: # Title:Serial Depth of Adaptive Parallel Sampling: Lower Bounds and Schedules for Masked Diffusion Models
+L10: 
+L11: Authors:【6†Chuling Wen】, 【7†Weijie Liang】, 【8†Jian Lu】, 【9†Zhouchen Lin】
+L12: 
+L13: View a PDF of the paper titled Serial Depth of Adaptive Parallel Sampling: Lower Bounds and Schedules for Masked Diffusion Models, by Chuling Wen and 3 other authors
+L14: 
+L15: 【10†View PDF】 【11†HTML (experimental)】
+L16: > Abstract:Masked diffusion models generate sequences in rounds, predicting several masked positions at once. Fewer rounds can accelerate decoding, but sampling positions independently can lose their dependence and bias the output. How few rounds suffice for a prescribed error budget? Beyond error bounds for individual decoding rules, we study sharp lower bounds on the number of rounds required for a given target distribution.
+L17: We introduce serial depth: the minimum number of rounds, averaged over target sequences, needed to meet a forward Kullback-Leibler error budget. With exact conditional probabilities, we prove these bounds for all deterministic rules that may adapt to generated values and construct matching schedules for several distribution families, with depths ranging from $\log\log n$ to linear in sequence length $n$.
+L18: To narrow the gap to trained models, we show that these lower bounds remain valid for learned predictors and give sufficient accuracy conditions on visited contexts for schedules to retain their error guarantees. On two pretrained models across five text domains, a schedule suggested by the theory achieves higher average log-likelihood on held-out text in five rounds than random selection in eight. A preregistered confirmation study certifies a relative improvement on independent dialogue data.
+L19: Comments:  | 45 pages. Revised version with a new title
+L20: Subjects:  | Information Theory (cs.IT); Computation and Language (cs.CL)
+L21: Cite as:  | 【12†arXiv:2608.25505】 [cs.IT]
+L22:    | (or 【13†arXiv:2608.25505v2】 [cs.IT] for this version)
+L23:    | 【14†https://doi.org/10.48550/arXiv.2608.25505†doi.org】 arXiv-issued DOI via DataCite
+L24: ## Submission history
+L25: 
+L26: From: Jian Lu [【15†view email】]
+L27: 【5†[v1]】 Wed, 26 Aug 2026 08:16:24 UTC (78 KB)
+L28: [v2] Tue, 20 Oct 2026 13:49:11 UTC (75 KB)
+L29: 
+L30: Full-text links:
+L31: 
+L32: ## Access Paper:
+L33: 
+L34: View a PDF of the paper titled Serial Depth of Adaptive Parallel Sampling: Lower Bounds and Schedules for Masked Diffusion Models, by Chuling Wen and 3 other authors
+L35: 
+L36:   * 【10†View PDF】
+L37:   * 【11†HTML (experimental)】
+L38:   * 【16†TeX Source】
+L39: 
+L40: 【17†view license】
+L41: 
+L42: ### Additional Features
+L43: 
+L44:   * 【18†Audio Summary】
+L45: ### Current browse context:
+L46: 
+L47: cs.IT
+L48: 
+L49: 【19†< prev】   |   【20†next >】
+L50: 
+L51: 【21†new】 | 【22†recent】 | 【23†2026-08】
+L52: 
+L53: Change to browse by:
+L54: 
+L55: 【24†cs】
+L56: 【25†cs.CL】
+L57: 【26†math】
+L58: 【27†math.IT】
+L59: 
+L60: ### References & Citations
+L61: 
+L62:   * 【28†SciX†scixplorer.org】
+L63:   * 【29†Google Scholar†scholar.google.com】
+L64:   * 【30†Semantic Scholar†api.semanticscholar.org】
+L65: 
+L66: [Button: export BibTeX citation] Loading...
+L67: 
+L68: ## BibTeX formatted citation
+L69: 
+L70: [Button: ×]
+L71: 
+L72: loading...
+L73: 
+L74: Data provided by:
+L75: 
+L76: ### Bookmark
+L77: 
+L78: [Input] Bibliographic Tools
+L79: # Bibliographic and Citation Tools
+L80: 
+L81: [Input] Bibliographic Explorer Toggle
+L82: 
+L83: Bibliographic Explorer (【31†What is the Explorer?†info.arxiv.org】)
+L84: 
+L85: [Input] Connected Papers Toggle
+L86: 
+L87: Connected Papers (【32†What is Connected Papers?†www.connectedpapers.com】)
+L88: 
+L89: [Input] Litmaps Toggle
+L90: 
+L91: Litmaps (【33†What is Litmaps?†www.litmaps.co】)
+L92: 
+L93: [Input] scite.ai Toggle
+L94: 
+L95: scite Smart Citations (【34†What are Smart Citations?†www.scite.ai】)
+L96: 
+L97: [Input] Code, Data, Media
+L98: # Code, Data and Media Associated with this Article
+L99: 
+L100: [Input] alphaXiv Toggle
+L101: 
+L102: alphaXiv (【35†What is alphaXiv?†alphaxiv.org】)
+L103: 
+L104: [Input] Links to Code Toggle
+L105: 
+L106: CatalyzeX Code Finder for Papers (【36†What is CatalyzeX?†www.catalyzex.com】)
+L107: 
+L108: [Input] DagsHub Toggle
+L109: 
+L110: DagsHub (【37†What is DagsHub?†dagshub.com】)
+L111: 
+L112: [Input] GotitPub Toggle
+L113: 
+L114: Gotit.pub (【38†What is GotitPub?†gotit.pub】)
+L115: 
+L116: [Input] Huggingface Toggle
+L117: 
+L118: Hugging Face (【39†What is Huggingface?†huggingface.co】)
+L119: 
+L120: [Input] ScienceCast Toggle

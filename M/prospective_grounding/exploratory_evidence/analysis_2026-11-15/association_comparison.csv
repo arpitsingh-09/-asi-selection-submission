@@ -1,0 +1,7 @@
+question_id,family,same_broad_topic_reviewer_1,same_broad_topic_reviewer_2,same_broad_topic_agreement,unsupported_reviewer_1,unsupported_reviewer_2,unsupported_agreement
+decoy-image_enhancement-v2,image_enhancement,True,True,True,False,False,True
+decoy-video_memorability-v2,video_memorability,True,True,True,True,True,True
+primary-image_enhancement-v2,image_enhancement,True,True,True,False,False,True
+primary-image_enhancement-v2,video_memorability,False,False,True,True,True,True
+primary-video_memorability-v2,image_enhancement,False,False,True,True,True,True
+primary-video_memorability-v2,video_memorability,True,True,True,False,False,True

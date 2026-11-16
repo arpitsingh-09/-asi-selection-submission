@@ -1,0 +1,220 @@
+{
+  "format": 1,
+  "sources": {
+    "history_2022": {
+      "path": "/Users/arpit/Downloads/iclr_task3_baseline/data/iclr_2022/papers.jsonl",
+      "kind": "openreview",
+      "sha256": "bae43dbcd1a929afb4f3687f0a1e296b3825d7f417395367e4c0ee090b10d0b4"
+    },
+    "history_2023": {
+      "path": "/Users/arpit/Downloads/iclr_task3_baseline/data/iclr_2023/papers.jsonl",
+      "kind": "openreview",
+      "sha256": "6fb56c1ab5734285cc7a25bcc4b32762d8cae68bfcb55acf98b7830a5e2cf199"
+    },
+    "history_2024": {
+      "path": "/Users/arpit/Downloads/iclr_task3_baseline/data/iclr_2024/papers.jsonl",
+      "kind": "openreview",
+      "sha256": "059a99829755d2e64d1acd2726a6bbf29f1c1c036b179a165c90c5bdef8b2bee"
+    },
+    "history_2025": {
+      "path": "/Users/arpit/Downloads/iclr_task3_baseline/data/iclr_2025/papers.jsonl",
+      "kind": "openreview",
+      "sha256": "8c68200e3b88cb293fe81010c21c17228afd118632c8bfe737d4f0abf5fb91ed"
+    },
+    "test": {
+      "path": "/Users/arpit/asi-selection/E2/analysis/recovered_inputs_v1/benchmark_inputs.jsonl",
+      "kind": "prepared_test",
+      "sha256": "5a93effb0066be6046387e7fd7a37c030a2ef7bf908e6fd18f20300cddde3968"
+    }
+  },
+  "provenance": {
+    "encoder": "allenai/specter2_base",
+    "encoder_revision": "3447645e1def9117997203454fa4495937bfbd83",
+    "adapter": "allenai/specter2",
+    "adapter_revision": "2081559630a80fc5851d8f798a05ba81e9468089",
+    "input": "abstract_only",
+    "pooling": "CLS",
+    "max_length": 512,
+    "frozen": true,
+    "normalization": "none",
+    "device": "cpu"
+  },
+  "model_inventory": {
+    "base_revision": "3447645e1def9117997203454fa4495937bfbd83",
+    "adapter_revision": "2081559630a80fc5851d8f798a05ba81e9468089",
+    "base_path": "/Users/arpit/.cache/huggingface/hub/models--allenai--specter2_base/snapshots/3447645e1def9117997203454fa4495937bfbd83",
+    "adapter_path": "/Users/arpit/.cache/huggingface/hub/models--allenai--specter2/snapshots/2081559630a80fc5851d8f798a05ba81e9468089",
+    "assets": {
+      "/Users/arpit/.cache/huggingface/hub/models--allenai--specter2_base/snapshots/3447645e1def9117997203454fa4495937bfbd83/config.json": {
+        "bytes": 754,
+        "sha256": "6d9d68ca2bfeca756fd807e7c81e8e9d3203d8a002dff19cc42b29edd48e8802"
+      },
+      "/Users/arpit/.cache/huggingface/hub/models--allenai--specter2_base/snapshots/3447645e1def9117997203454fa4495937bfbd83/pytorch_model.bin": {
+        "bytes": 439740465,
+        "sha256": "801eda968fad1752fe846a8e572bfdc25202be85544680dda4c99f4589646ebc"
+      },
+      "/Users/arpit/.cache/huggingface/hub/models--allenai--specter2_base/snapshots/3447645e1def9117997203454fa4495937bfbd83/tokenizer.json": {
+        "bytes": 716830,
+        "sha256": "fcd3fffca5d8fcc0d5863406f5f491293c1e4658ed503f424a30324b70533c0d"
+      },
+      "/Users/arpit/.cache/huggingface/hub/models--allenai--specter2_base/snapshots/3447645e1def9117997203454fa4495937bfbd83/tokenizer_config.json": {
+        "bytes": 453,
+        "sha256": "afea6e85bb539b2c2de8847d92c2a3ae88334c280abbbdb3baaddc5fb7195242"
+      },
+      "/Users/arpit/.cache/huggingface/hub/models--allenai--specter2_base/snapshots/3447645e1def9117997203454fa4495937bfbd83/vocab.txt": {
+        "bytes": 227845,
+        "sha256": "f0a650346e51ede8996710f79ba65d83fdb8da05b159f17037b74ba4e3a36c6f"
+      },
+      "/Users/arpit/.cache/huggingface/hub/models--allenai--specter2_base/snapshots/3447645e1def9117997203454fa4495937bfbd83/special_tokens_map.json": {
+        "bytes": 125,
+        "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3"
+      },
+      "/Users/arpit/.cache/huggingface/hub/models--allenai--specter2/snapshots/2081559630a80fc5851d8f798a05ba81e9468089/adapter_config.json": {
+        "bytes": 1032,
+        "sha256": "1065ad610a661c5169f05d81040fe14429d2cc7ecdf83ed654dca4a62aaf9a8c"
+      },
+      "/Users/arpit/.cache/huggingface/hub/models--allenai--specter2/snapshots/2081559630a80fc5851d8f798a05ba81e9468089/pytorch_adapter.bin": {
+        "bytes": 3593365,
+        "sha256": "5b6105714f78b294daa7e2d181134df12f0acb7a4ec7c1e3c13e512c908db94a"
+      },
+      "/Users/arpit/.cache/huggingface/hub/models--allenai--specter2/snapshots/2081559630a80fc5851d8f798a05ba81e9468089/README.md": {
+        "bytes": 9767,
+        "sha256": "35e07453097b8a52632532d0b3024075c22b575e1e3c555bef74357cc5042479"
+      }
+    },
+    "architecture": {
+      "_name_or_path": "scirepeval/specterv4/checkpoints/model",
+      "adapters": {
+        "adapters": {},
+        "config_map": {},
+        "fusion_config_map": {},
+        "fusions": {}
+      },
+      "architectures": [
+        "BertModel"
+      ],
+      "attention_probs_dropout_prob": 0.1,
+      "classifier_dropout": null,
+      "hidden_act": "gelu",
+      "hidden_dropout_prob": 0.1,
+      "hidden_size": 768,
+      "initializer_range": 0.02,
+      "intermediate_size": 3072,
+      "layer_norm_eps": 1e-12,
+      "max_position_embeddings": 512,
+      "model_type": "bert",
+      "num_attention_heads": 12,
+      "num_hidden_layers": 12,
+      "pad_token_id": 0,
+      "position_embedding_type": "absolute",
+      "torch_dtype": "float32",
+      "transformers_version": "4.26.1",
+      "type_vocab_size": 2,
+      "use_cache": true,
+      "vocab_size": 31090
+    },
+    "adapter_config": {
+      "config": {
+        "adapter_residual_before_ln": false,
+        "cross_adapter": false,
+        "factorized_phm_W": true,
+        "factorized_phm_rule": false,
+        "hypercomplex_nonlinearity": "glorot-uniform",
+        "init_weights": "bert",
+        "inv_adapter": null,
+        "inv_adapter_reduction_factor": null,
+        "is_parallel": false,
+        "learn_phm": true,
+        "leave_out": [],
+        "ln_after": false,
+        "ln_before": false,
+        "mh_adapter": false,
+        "non_linearity": "relu",
+        "original_ln_after": true,
+        "original_ln_before": true,
+        "output_adapter": true,
+        "phm_bias": true,
+        "phm_c_init": "normal",
+        "phm_dim": 4,
+        "phm_init_range": 0.0001,
+        "phm_layer": false,
+        "phm_rank": 1,
+        "reduction_factor": 16,
+        "residual_before_ln": true,
+        "scaling": 1.0,
+        "shared_W_phm": false,
+        "shared_phm_rule": true,
+        "use_gating": false
+      },
+      "hidden_size": 768,
+      "model_class": "BertAdapterModel",
+      "model_name": "allenai/specter_plus_plus",
+      "model_type": "bert",
+      "name": "[PRX]",
+      "version": "3.1.0"
+    },
+    "dependencies": {
+      "torch": "2.8.0",
+      "transformers": "4.57.6",
+      "adapters": "1.3.0",
+      "numpy": "2.0.2"
+    },
+    "release_evidence": {
+      "type": "official_revision_commit_dates",
+      "commit_date": "2024-12-04",
+      "sources": [
+        "https://huggingface.co/allenai/specter2_base/commit/3447645e1def9117997203454fa4495937bfbd83",
+        "https://huggingface.co/allenai/specter2/commit/2081559630a80fc5851d8f798a05ba81e9468089"
+      ],
+      "conservative_weights_existence_bound": "2024-12-31T23:59:59.999999+00:00",
+      "exact_training_data_cutoff_known": false,
+      "first_global_test_publication_verified": false,
+      "interpretation": "Pinned weights existed by these commits; not an exact training-data cutoff or proof against earlier preprints."
+    }
+  },
+  "protocol_path": "/Users/arpit/asi-selection/E2/TASK3_EXECUTION_PROTOCOL.md",
+  "protocol_sha256": "9f15b152e203db5b2833cc7b7e1e1b9ca26223a1ae59d22003ce7b86c58bfa21",
+  "items_sha256": "c94bbce41706b92a4fac5f3e280aa502e104fd19b146b2e5e95ee93a1566726e",
+  "targets_sha256": "790df71bbb44fba51810931ced965a5a67109bc21d2433563ee5aa58c2b3c895",
+  "claim_requests_sha256": "e3a3bb1e593f1b9a35345da15b25374628155e3989b43e7d3ca9f3ca03891735",
+  "benchmark_path": "/Users/arpit/asi-selection/E2/analysis/recovered_inputs_v1/benchmark_inputs.jsonl",
+  "reference_sha256": "608130ed0691727bb00aeebb530e80001741b5b0559695d7e573afe9f983680b",
+  "history_count": 25186,
+  "test_count": 299,
+  "claim_papers": 0,
+  "claims_sha256": null,
+  "prior_test_exposure": true,
+  "input_text_policy": "original_abstract_only_raw_CLS_for_ridge_unit_normalized_for_novelty",
+  "resource_estimate": {
+    "embedding_cpu_threads": 1,
+    "embedding_batch_size": 2,
+    "embedding_ram_gib": [
+      2,
+      4
+    ],
+    "evaluation_ram_gib": [
+      1,
+      2
+    ],
+    "raw_history_test_float32_bytes": 78289920,
+    "runtime": "Unmeasured. At 0.25/1/5 seconds per abstract: approximately 1.8/7.1/35.4 CPU hours, excluding claims and evaluation. Calibrate on an authorized small batch."
+  },
+  "validated": {
+    "required_test_fields": 299,
+    "labels": {
+      "NEGATIVE": 145,
+      "POSITIVE": 154
+    },
+    "historical_abstract_bindings": 25186,
+    "chronology": "public-release chronology only; first global publication unverified"
+  },
+  "status": "prepared_no_inference_or_evaluation_authorized",
+  "code_sha256": {
+    "/Users/arpit/asi-selection/E2/task3_plan.py": "742bbfa7d46416f56a8515113d7dd0e65bf66656895384524e8177cc28d65b7c",
+    "/Users/arpit/asi-selection/E2/task3_execution.py": "e80c76e7abb747515db3e4871957c96782046593e3f7db934f3e9d90f934324c",
+    "/Users/arpit/asi-selection/E2/task3_novelty.py": "84de784fce12c2f5b560ec70a9a29dbcfc29b4d6fc30498eeaf213eaae97c0c1",
+    "/Users/arpit/asi-selection/E2/human_check.py": "9b2e5379fd47e30aac94306085fd5f329e8e9723719928f7a47565004cf2be1f",
+    "/Users/arpit/asi-selection/E2/abstract_embeddings.py": "cdbe76b7ea8dfd972032e2bb203ac9e9de43ed622b282bea4c0735175eaf30eb",
+    "/Users/arpit/asi-selection/E2/evaluate_human_check.py": "fc769d6f4a50c1206d8b30143ce5b0f193261b8c91a77e5ae244b11403b3d231"
+  }
+}

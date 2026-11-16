@@ -1,0 +1,35 @@
+{
+  "HDR_records_required": 125,
+  "HDR_records_scored": 0,
+  "blocker": "Source evidence does not uniquely choose reference-feature granularity or how several value-specific rules determine one feature relationship score. Actual grounded mapping and attributable discovery/relationship judgments are absent.",
+  "denominator": null,
+  "exact_duplicate_reviews_avoided": 18,
+  "ground_truth_rules": 14,
+  "human_judgments_created": 0,
+  "interpretation": "The paper defines HDR over true features and separately rates relationship correctness. Its Appendix A matches input variables independently of outcomes. It does not settle this local grouping and aggregation choice.",
+  "literal_rule_field_groups": [
+    "partisan_language",
+    "political_event_reaction",
+    "template"
+  ],
+  "metadata_feature_categories": [
+    "political_endorsement",
+    "policy_stance",
+    "partisan_language",
+    "political_event_reaction"
+  ],
+  "model_calls": 0,
+  "next_action": "Independent domain reviewer defines source-grounded feature IDs, rule mapping and relationship aggregation consistent with frozen requirements, with identity, UTC time and justification; then judges each distinct set. If this requires a new method rather than documenting an existing one, researcher resolution is necessary before scoring.",
+  "paper_source": "https://arxiv.org/html/2504.11524v1#S3",
+  "readiness_inputs": "E6/data/hdr_scoring_v3/hdr_inputs_actual.json",
+  "scoring_ready": false,
+  "source_hashes": {
+    "E6/PREREG.md": "00922ad1779b6bfa0c29e788092a72670a0bd276dc247b76dac42e4e0d32abfe",
+    "E6/assignment_e6_excerpt_v1.txt": "53404862f4d2d0e68d18998ca2342d13a417c7d6fae1a12415059d94fec1992a",
+    "E6/data/required_evidence_v1/HDR_judgment_forms.json": "a4a886c1ce77c5bdeb9c403faded3644b0bae0f77929d09cb4379ecec81ceec3",
+    "E6/evaluation_config.json": "c14605e340fcfe85897364f82c7a8d8a8eb2b4eaf5738f5c8dc73ff7a504e023",
+    "data/HypoBench-datasets/synthetic/election/level2/gt_hypotheses_level2.json": "beab62a37f4ce1be2d3d282ae2df05c11a5da12704db0b5b0f7d8478d84c5c37",
+    "data/HypoBench-datasets/synthetic/election/level2/metadata.json": "d1ba64b6b79a1f59f9486649644b1b419c37dd31c51197a3616aa7594f327af4"
+  },
+  "unique_review_sets": 107
+}

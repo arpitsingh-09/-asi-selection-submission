@@ -1,0 +1,27 @@
+{
+  "format": 1,
+  "plan_path": "/Users/arpit/asi-selection/E2/analysis/task2_extension_52_v1/claim_vector_execution_plan.json",
+  "source_sha256": {
+    "/Users/arpit/asi-selection/E2/analysis/task2_extension_52_v1/claim_vector_execution_plan.json": "57ebb059d5cbadaa55b8dd84fcf7b31f0e17fec18ac4e4f277449c507be35da3",
+    "/Users/arpit/asi-selection/E2/analysis/task2_extension_52_v1/missing_claim_vectors.jsonl": "0b595cc10d020ecb757b36762d834c7d4cef1ffc45f6131884efd039fe4acb43",
+    "/Users/arpit/asi-selection/E2/analysis/claim_completion_v2/claims_future.jsonl": "98a4244c8389284b87f171372eafe58326ea444256226f089e429d165d3f8410",
+    "/Users/arpit/asi-selection/E2/analysis/task2_extension_52_v1/pool_plan.jsonl": "fff8a5a5336448f65e478e7bc842986ab426d1d6837140c32d396d5c338bac24",
+    "/Users/arpit/asi-selection/E2/analysis/task2_extension_52_v1/future_encoder_parity_controls.json": "59eb825fb8976c2abeb35793ab108cd571ae36a6f540e1aa3a0b0d05dc105ec2",
+    "/Users/arpit/asi-selection/E2/analysis/task3_execution_v1/model_inventory.json": "7df5697f992503c49aa8642f1e7f8e3ab0fcdc1acc682ba091aec790a4da55d1",
+    "/Users/arpit/asi-selection/E2/data/novelty_embeddings.sqlite3": "a1d42a472f7ecda6935beb67ad595fb6a39e2fdcbbd022259a4f0e8230ac8289"
+  },
+  "code_sha256": {
+    "/Users/arpit/asi-selection/E2/claim_sidecar.py": "6e6294fce0385b1efeaff60c89d01fc57b0cbb88cd4dd766d107eee74e87d2a8",
+    "/Users/arpit/asi-selection/E2/cached_extensions.py": "5975cab069d0425f2402ef197655cc3975403d15c1a1a6fc8c714c4b7e78d8a0",
+    "/Users/arpit/asi-selection/E2/abstract_embeddings.py": "cdbe76b7ea8dfd972032e2bb203ac9e9de43ed622b282bea4c0735175eaf30eb",
+    "/Users/arpit/asi-selection/E2/task3_execution.py": "0be2084bbe13bd6d64674c66259f02153de2485d30a02cdab8f2226b6821714d",
+    "/Users/arpit/asi-selection/E2/novelty.py": "30276aee4718359840fe72b143ccfccc7c166c74f5dcb5c0953fdd48fbd5215c"
+  },
+  "model_key": "85d28c921a5d7ab3bddaefbc4c10581ac90d3415b4c2df0990485d604fcdd1d2",
+  "request_count": 93,
+  "affected_focals": 52,
+  "sidecar_filename": "claim_vectors_v1.sqlite3",
+  "parity_atol": 1e-05,
+  "parity_rtol": 0.0001,
+  "status": "prepared_no_inference_authorized"
+}

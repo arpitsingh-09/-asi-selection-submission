@@ -1,0 +1,27 @@
+{
+  "frozen_validation_statuses_modified": false,
+  "implementation_sha256": "7a67d51faf5c2b8777326ab237fc5e828a4854a0dc9760c2153845c072b3fe0c",
+  "limitations": [
+    "small operational pilot, not a preregistered validation sample",
+    "same-model evaluator, no independent human reference yet",
+    "no constructive/other/ambiguous coverage guaranteed",
+    "TRAIN similarity controls do not validate literature target extraction",
+    "no historical cutoff invented; binary identity rubric tested without claiming historical already-asked rates"
+  ],
+  "preserved_file_hashes": {
+    "E6/PREREG.md": "00922ad1779b6bfa0c29e788092a72670a0bd276dc247b76dac42e4e0d32abfe",
+    "E6/RESEARCHER_APPROVAL.json": "6e156c819799b973209ce8dc4db83a3e9ef6111238db3c76460f237cff420fab",
+    "E6/config.json": "43570cec362353db9218891b1fb975c5382bfbc1c233daf8db94206eb28a1b50",
+    "E6/evaluation_config.json": "c14605e340fcfe85897364f82c7a8d8a8eb2b4eaf5738f5c8dc73ff7a504e023",
+    "E6/runs/priority10_train_batch001/b90d71ea502c100a_generation_envelope.json": "37a1f47e90f743086a5fa24a05af828ca6dbccaa04ecda57f24b973e1db0d926",
+    "E6/runs/priority10_train_batch002/aa367e4423af8dc3_generation_envelope.json": "7340af8c3df91e969ef4060271247f91799584276e5b506298ae3f2162454032",
+    "prompts/e6/08_same_question.txt": "ff50bc4e09ff7c97b2bc52688831fbb027df940969d6bef305c27f327dc9ca82",
+    "prompts/e6/10_question_type.txt": "e0ebd66a009d84342f6ab6c781d3e0d42cc9a432a3bf0abeb29d91c47fca8503",
+    "prompts/e6/15_reconstruction_similarity.txt": "04c2dfc868e1d7054ac9cb496b0b5d8c6172965fadb37e1327047acbb33c152d",
+    "prompts/e6/16_hypothesis_distinctness.txt": "eeca6fcbb7f8a8f7a294b0fd9c9d31c91b671fd1d395ab36139c2f9a99b217e8"
+  },
+  "scope": "TRAIN-only development validation; no confirmatory TEST calls",
+  "selection": "four actual QH questions sorted by SHA256(canonical [unit,question]) from preserved first two TRAIN checkpoints",
+  "semantic_labels_supplied_by_assistant": false,
+  "started_at_utc": "2026-11-12T12:58:48.543622+00:00"
+}

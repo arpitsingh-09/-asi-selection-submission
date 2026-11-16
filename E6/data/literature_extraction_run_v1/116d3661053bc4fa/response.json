@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:27:30.598770+00:00",
+  "identity": "44c38e910e77c09304e24279d20cce18c4c460fc2fe4174ea27bf128d42739c8",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:27:30.586774Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 85,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 8.80957591699999,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:27:30.586774Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2133,
+      "prompt_eval_count": 439,
+      "prompt_sha256": "5644385365779001de34749b9d364474fb039cfb072772b0e907a523d3d5ed94",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 524,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 439,
+    "latency_seconds": 8.80957591699999,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:27:30.586774Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 85,
+    "raw_response": "{\n  \"research_question\": \"How does fine-tuning LLMs for specific values alter unrelated capabilities and behaviors, given that values are interconnected?\",\n  \"research_question_explicit\": true,\n  \"main_hypothesis\": \"Value-specific training produces unintended side effects on untrained values, risk preferences, social cognition, and safety traits.\",\n  \"main_hypothesis_explicit\": true\n}",
+    "total_tokens": 524
+  },
+  "reply_sha256": "a34adcd84d5436cbfb9d0d6abfa93b919712c7183cc6b5047eae3ee106ca0ab6"
+}

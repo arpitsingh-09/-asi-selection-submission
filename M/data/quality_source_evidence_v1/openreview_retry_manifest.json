@@ -1,0 +1,42 @@
+{
+  "queries": [
+    {
+      "http_status": 200,
+      "notes": [
+        {
+          "forum": "WA3TzqOTp9",
+          "id": "WA3TzqOTp9",
+          "invitation": null
+        }
+      ],
+      "paper_id": "2501.00457v1",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_retry_raw/2501.00457v1.json",
+      "result_count": 1,
+      "retrieval_started_utc": "2026-11-14T06:26:19.212493+00:00",
+      "retrieved_at_utc": "2026-11-14T06:26:19.895756+00:00",
+      "sha256": "e2ea193f083e6e3b6e7b69c4a783173183d9893951a68cee43984a014b6a364b",
+      "title": "Differentiable Prompt Learning for Vision Language Models",
+      "url": "https://api2.openreview.net/notes/search?term=Differentiable+Prompt+Learning+for+Vision+Language+Models&content=title&type=exact&limit=20&count=true"
+    },
+    {
+      "http_status": 200,
+      "notes": [
+        {
+          "forum": "xvBbThnIgi",
+          "id": "xvBbThnIgi",
+          "invitation": null
+        }
+      ],
+      "paper_id": "2412.20895v1",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_retry_raw/2412.20895v1.json",
+      "result_count": 1,
+      "retrieval_started_utc": "2026-11-14T06:26:19.212829+00:00",
+      "retrieved_at_utc": "2026-11-14T06:26:19.894351+00:00",
+      "sha256": "6a81c75329c95cbfe63184a8f2479deafc28833917dd28a03fda4721865ac34a",
+      "title": "Towards Compatible Fine-tuning for Vision-Language Model Updates",
+      "url": "https://api2.openreview.net/notes/search?term=Towards+Compatible+Fine-tuning+for+Vision-Language+Model+Updates&content=title&type=exact&limit=20&count=true"
+    }
+  ],
+  "schema": "M-frozen-quality-openreview-retry-v1",
+  "validation_manifest_sha256": "a4854b7144724bc28b3b6c2ca0fd0c3b1d57ac6373d029c0dcec40c25f76f842"
+}

@@ -1,0 +1,115 @@
+Excellent. Template 03 — QH-sel hypothesis generation is now prepared.
+
+Next, we’ll prepare Template 04 — QH-rand (Random Question Selection).
+
+Purpose
+
+This arm follows the same process as QH-sel, except that the three questions are selected randomly rather than by ranking.
+
+To ensure a fair comparison:
+
+* Both arms receive the exact same six candidate questions.
+* QH-sel receives the three highest-ranked distinct questions.
+* QH-rand receives three randomly selected questions.
+* Both generate exactly two hypotheses per selected question.
+
+Step 1 — Create the file
+
+Run:
+
+touch prompts/e6/04_generator_QH_rand.txt
+open -e prompts/e6/04_generator_QH_rand.txt
+
+Step 2 — Paste this prompt
+
+ROLE
+
+You are an AI research scientist. Your task is to generate testable hypotheses from three randomly selected research questions.
+
+INPUT
+
+Research domain and task:
+{{DOMAIN_AND_TASK}}
+
+Research evidence:
+{{EVIDENCE}}
+
+Three randomly selected research questions:
+{{SELECTED_QUESTIONS}}
+
+INSTRUCTIONS
+
+1. Use exactly the three supplied research questions.
+2. These questions have already been selected randomly by the experiment script.
+3. Do not rank, score, replace, modify, or reorder the questions.
+4. For EACH research question, generate exactly TWO distinct hypotheses.
+5. Generate exactly SIX hypotheses overall.
+
+HYPOTHESIS REQUIREMENTS
+
+Each hypothesis must:
+
+* Be one declarative sentence.
+* Contain no more than 50 words.
+* Express a specific, testable relationship, mechanism, or prediction.
+* Directly address its associated research question.
+* Be grounded in the supplied research evidence.
+* Be meaningfully different from its paired hypothesis.
+
+RESTRICTIONS
+
+* Do not generate additional research questions.
+* Do not invent evidence.
+* Do not claim experimental validation.
+* Do not provide explanations, introductions, conclusions, citations, or recommendations.
+
+OUTPUT FORMAT
+
+Return valid JSON only:
+
+{
+“arm”: “QH-rand”,
+“questions”: [
+{
+“id”: “Q1”,
+“text”: “First randomly selected research question.”,
+“hypotheses”: [
+{“id”: “H1”, “text”: “First hypothesis.”},
+{“id”: “H2”, “text”: “Second hypothesis.”}
+]
+},
+{
+“id”: “Q2”,
+“text”: “Second randomly selected research question.”,
+“hypotheses”: [
+{“id”: “H3”, “text”: “Third hypothesis.”},
+{“id”: “H4”, “text”: “Fourth hypothesis.”}
+]
+},
+{
+“id”: “Q3”,
+“text”: “Third randomly selected research question.”,
+“hypotheses”: [
+{“id”: “H5”, “text”: “Fifth hypothesis.”},
+{“id”: “H6”, “text”: “Sixth hypothesis.”}
+]
+}
+]
+}
+
+FINAL VALIDATION
+
+Verify that:
+
+* Exactly three supplied questions are used.
+* Exactly two hypotheses are generated per question.
+* Exactly six hypotheses are present.
+* Each hypothesis contains no more than 50 words.
+* All hypotheses are distinct and testable.
+* The response is valid JSON with no additional text.
+
+Save with Cmd + S.
+
+Important: The Python experiment script will perform random selection using the preregistered fixed seed. Qwen3 must not choose the questions.
+
+Say done when saved.

@@ -1,0 +1,99 @@
+[2502.11886] LIMR: Less is More for RL Scaling (https://arxiv.org/abs/2502.11886)
+citeturn8view4 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2502.11886","lineno":null}); Total lines: 169
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1: 
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3: 
+L4: Press Enter to search · 【4†Advanced search】
+L5: 
+L6: # Computer Science > Machine Learning
+L7: 
+L8: [Submitted on 17 Feb 2025]
+L9: # Title:LIMR: Less is More for RL Scaling
+L10: 
+L11: Authors:【5†Xuefeng Li】, 【6†Haoyang Zou】, 【7†Pengfei Liu】
+L12: 
+L13: View a PDF of the paper titled LIMR: Less is More for RL Scaling, by Xuefeng Li and 2 other authors
+L14: 
+L15: 【8†View PDF】 【9†HTML (experimental)】
+L16: > Abstract:In this paper, we ask: what truly determines the effectiveness of RL training data for enhancing language models' reasoning capabilities? While recent advances like o1, Deepseek R1, and Kimi1.5 demonstrate RL's potential, the lack of transparency about training data requirements has hindered systematic progress. Starting directly from base models without distillation, we challenge the assumption that scaling up RL training data inherently improves performance.
+L17: we demonstrate that a strategically selected subset of just 1,389 samples can outperform the full 8,523-sample dataset. We introduce Learning Impact Measurement (LIM), an automated method to evaluate and prioritize training samples based on their alignment with model learning trajectories, enabling efficient resource utilization and scalable implementation. Our method achieves comparable or even superior performance using only 1,389 samples versus the full 8,523 samples dataset.
+L18: Notably, while recent data-efficient approaches (e.g., LIMO and s1) show promise with 32B-scale models, we find it significantly underperforms at 7B-scale through supervised fine-tuning (SFT). In contrast, our RL-based LIMR achieves 16.7% higher accuracy on AIME24 and outperforms LIMO and s1 by 13.0% and 22.2% on MATH500.
+L19: These results fundamentally reshape our understanding of RL scaling in LLMs, demonstrating that precise sample selection, rather than data scale, may be the key to unlocking enhanced reasoning capabilities. For reproducible research and future innovation, we are open-sourcing LIMR, including implementation of LIM, training and evaluation code, curated datasets, and trained models at 【10†this https URL†github.com】.
+L20: Comments:  | 6pages
+L21: Subjects:  | Machine Learning (cs.LG); Artificial Intelligence (cs.AI); Computation and Language (cs.CL)
+L22: Cite as:  | 【11†arXiv:2502.11886】 [cs.LG]
+L23:    | (or 【12†arXiv:2502.11886v1】 [cs.LG] for this version)
+L24:    | 【13†https://doi.org/10.48550/arXiv.2502.11886†doi.org】 arXiv-issued DOI via DataCite
+L25: ## Submission history
+L26: 
+L27: From: Xuefeng Li [【14†view email】]
+L28: [v1] Mon, 17 Feb 2025 15:13:29 UTC (864 KB)
+L29: 
+L30: Full-text links:
+L31: 
+L32: ## Access Paper:
+L33: 
+L34: View a PDF of the paper titled LIMR: Less is More for RL Scaling, by Xuefeng Li and 2 other authors
+L35: 
+L36:   * 【8†View PDF】
+L37:   * 【9†HTML (experimental)】
+L38:   * 【15†TeX Source】
+L39: 
+L40: 【16†view license】
+L41: 
+L42: ### Additional Features
+L43: 
+L44:   * 【17†Audio Summary】
+L45: ### Current browse context:
+L46: 
+L47: cs.LG
+L48: 
+L49: 【18†< prev】   |   【19†next >】
+L50: 
+L51: 【20†new】 | 【21†recent】 | 【22†2025-02】
+L52: 
+L53: Change to browse by:
+L54: 
+L55: 【23†cs】
+L56: 【24†cs.AI】
+L57: 【25†cs.CL】
+L58: 
+L59: ### References & Citations
+L60: 
+L61:   * 【26†SciX†scixplorer.org】
+L62:   * 【27†Google Scholar†scholar.google.com】
+L63:   * 【28†Semantic Scholar†api.semanticscholar.org】
+L64: 
+L65: [Button: export BibTeX citation] Loading...
+L66: 
+L67: ## BibTeX formatted citation
+L68: 
+L69: [Button: ×]
+L70: 
+L71: loading...
+L72: 
+L73: Data provided by:
+L74: 
+L75: ### Bookmark
+L76: 
+L77: [Input] Bibliographic Tools
+L78: # Bibliographic and Citation Tools
+L79: 
+L80: [Input] Bibliographic Explorer Toggle
+L81: 
+L82: Bibliographic Explorer (【29†What is the Explorer?†info.arxiv.org】)
+L83: 
+L84: [Input] Connected Papers Toggle
+L85: 
+L86: Connected Papers (【30†What is Connected Papers?†www.connectedpapers.com】)
+L87: 
+L88: [Input] Litmaps Toggle
+L89: 
+L90: Litmaps (【31†What is Litmaps?†www.litmaps.co】)
+L91: 
+L92: [Input] scite.ai Toggle
+L93: 
+L94: scite Smart Citations (【32†What are Smart Citations?†www.scite.ai】)
+L95: 
+L96: [Input] Code, Data, Media

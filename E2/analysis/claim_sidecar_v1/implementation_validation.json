@@ -1,0 +1,21 @@
+{
+  "targeted_tests_passed": 19,
+  "real_request_status": {
+    "required_vectors": 93,
+    "complete_vectors": 0,
+    "missing_vectors": 93,
+    "model_loaded": false,
+    "new_vectors_generated": 0,
+    "inference_authorized": false
+  },
+  "old_extension_sources_and_protected_hashes_unchanged": true,
+  "original_embedding_cache_hash_unchanged": true,
+  "new_embeddings_generated": 0,
+  "sidecar_database_created_for_real_requests": false,
+  "frozen_execution_plan_modified": false,
+  "E6_write_or_control_operations": 0,
+  "additional_mandatory_preparation": {
+    "nearest_planting_request_file": "/Users/arpit/asi-selection/E2/analysis/nearest_planting_vector_requests_v1/requests.jsonl",
+    "missing_modified_paper_vectors": 1304
+  }
+}

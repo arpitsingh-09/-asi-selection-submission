@@ -1,0 +1,693 @@
+{
+  "status": "provisional_unapproved",
+  "approval_required_before_use": true,
+  "reconstruction": {
+    "target_extraction_prompt": "prompts/e6/09_target_extraction.txt",
+    "best_similarity_metrics": [
+      "research_question",
+      "main_hypothesis"
+    ],
+    "same_question_evaluation": "fixed 08_same_question.txt rubric; same approved Gemma identity and decoding",
+    "reference_source": "original source-bound extraction manifest validated against frozen literature source and actual Decision 24 reviews",
+    "matching_and_aggregation_policy": "maximum integer 1–5 similarity per target field; Boolean same-question judgments per candidate, report per-input-set fraction",
+    "explicitness_handling": "preserve source extraction flags and actual human-review checks; no invented annotation",
+    "required_judgments": [
+      "best_similarity",
+      "same_question"
+    ],
+    "proposed_matching_and_aggregation_policy": "maximum integer 1–5 similarity per field; Boolean same-question fraction per generated input set; null failures",
+    "source_bound_evidence_required": true,
+    "missing_annotation_policy": "source-bound original evidence only; unavailable or failed evaluation null, explicit exclusions/denominators; no unvalidated annotation as truth",
+    "validation_status": "not_performed",
+    "review_bundle_paths": null
+  },
+  "hypobench": {
+    "heldout_scoring_interface": "E6/evaluation.py exact-match accuracy over supplied held-out labels",
+    "synthetic_planted_hypothesis_recovery": "preserve E6/evaluation.py recovery interface",
+    "dataset_and_split": {
+      "dataset_id": "hypobench-synthetic-election-level2",
+      "source_path": "data/HypoBench-datasets/synthetic/election/level2",
+      "split": "TEST",
+      "input_set_count": 501,
+      "input_set_manifest": "E6/data/hypobench_election_level2_test_manifest_v1.json",
+      "manifest_sha256": "b4a7c6da1ef9f0bf9bb27c160c850ab4a2b8cd3a7082e4ee48d82223f7ea6cc0",
+      "source_test_split_sha256": "d842113b8538112458844a6a1b22f20e25d66a96a130f378811be299388114b1",
+      "split_sizes": {
+        "TRAIN": 1750,
+        "VALIDATION": 249,
+        "TEST": 501
+      },
+      "generation_observation_field": "text",
+      "heldout_label_field": "label",
+      "declared_label_classes": [
+        "likely democratic voter",
+        "likely third-party/abstain voter",
+        "likely republican voter"
+      ],
+      "observed_test_label_classes": [
+        "likely democratic voter",
+        "likely republican voter"
+      ],
+      "split_isolation_verified": true,
+      "protocol_approval_status": "draft_unapproved",
+      "manifest_role": "evaluation_only",
+      "generation_split": "TRAIN",
+      "generation_manifest_proposal": "E6/data/hypobench_inductive_proposal_v1.json",
+      "generation_input_set_count": 20,
+      "proposed_generation_input_set_count": 20,
+      "input_set_count_interpretation": "legacy name: 501 TEST evaluation observations, not generation evidence sets",
+      "legacy_test_row_generation_allowed": false
+    },
+    "planted_hypothesis_source": {
+      "source_path": "data/HypoBench-datasets/synthetic/election/level2/gt_hypotheses_level2.json",
+      "source_sha256": "beab62a37f4ce1be2d3d282ae2df05c11a5da12704db0b5b0f7d8478d84c5c37",
+      "hypothesis_count": 14,
+      "scope": "dataset_level",
+      "metadata_copy_verified_equal": true,
+      "row_level_hypothesis_mapping": null,
+      "row_level_mapping_status": "not_provided_by_source"
+    },
+    "row_provenance": {
+      "native_source_record_id": null,
+      "native_id_status": "source rows do not contain an identifier field",
+      "stable_input_set_id": "dataset_id:split:zero_padded_source_row_index:canonical_source_record_sha256_prefix",
+      "source_record_hash_basis": "canonical JSON of the complete original source row",
+      "heldout_label_is_generation_input": false
+    },
+    "prediction_policy": {
+      "policy_id": "e6-hypobench-generated-hypothesis-application-v1",
+      "model": "gemma3:12b",
+      "model_layer_digest": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+      "backend": "ollama-local",
+      "backend_version": "0.40.16",
+      "prompt": "prompts/e6/13_hypobench_heldout_prediction.txt",
+      "temperature": 0.0,
+      "seed": 2026,
+      "max_output_tokens": 32,
+      "input_fields": [
+        "task_description",
+        "text",
+        "six_generated_hypotheses",
+        "metadata_declared_label_names"
+      ],
+      "heldout_label_available_to_predictor": false,
+      "required_supporting_hypothesis_id": true,
+      "invalid_prediction_policy": "malformed_json, missing/extra fields, out-of-set label, invalid support ID, or backend failure is recorded as null and scored incorrect; retain all 501 examples in denominator",
+      "primary_metric": "exact-match accuracy against the original source label field",
+      "aggregation_unit": "fixed TRAIN evidence input set / arm, evaluated on the complete TEST split",
+      "dataset_aggregation": "correct count divided by 501 for EACH unchanged hypothesis set; paired analysis across TRAIN evidence input sets",
+      "budget_accounting": "one evaluation-only prediction per TEST observation per TRAIN evidence set and arm; excluded from generated-token arm cap, exact usage retained",
+      "policy_status": "specified_pending_protocol_approval"
+    },
+    "recovery_judgment_policy": {
+      "policy_id": "e6-hypobench-dataset-ground-truth-semantic-recovery-v1",
+      "judge_model": "gemma3:12b",
+      "judge_model_layer_digest": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+      "backend": "ollama-local",
+      "backend_version": "0.40.16",
+      "judge_count": 1,
+      "prompt": "prompts/e6/14_hypobench_hypothesis_recovery.txt",
+      "temperature": 0.0,
+      "seed": 2026,
+      "max_output_tokens": 512,
+      "comparison_unit": "all 6 generated hypotheses by all 14 dataset-level planted hypotheses per TRAIN evidence input set, in source order, judged in both presentation orders",
+      "verdicts": [
+        "MATCH",
+        "NO_MATCH",
+        "AMBIGUOUS"
+      ],
+      "match_criterion": "same substantive predictor/condition, outcome, and direction; wording may differ",
+      "ambiguous_criterion": "relationship cannot be determined or only partially overlaps",
+      "ambiguous_and_invalid_handling": "order disagreement, missing/invalid cells, and semantic ambiguity do not count as recovered; retain and report each count",
+      "per_ground_truth_aggregation": "a planted hypothesis is recovered when at least one of the six generated hypotheses is MATCH; a MATCH takes precedence over ambiguous pairs for that same reference",
+      "per_input_set_metric": "number of recovered planted hypotheses divided by 14",
+      "across_testset_aggregation": "mean recall across TRAIN evidence input sets; do not count 501 repeated test observations as hypothesis-generation replications",
+      "budget_accounting": "one evaluation-only recovery call per input set and arm; excluded from arm generation-token cap and exact backend usage retained per record; no retry",
+      "row_level_ground_truth_assignment": "none; source does not provide one",
+      "policy_status": "specified_pending_protocol_approval",
+      "scientific_limit": "single-model semantic judgments are subjective and use the generator model; all arms receive the same blinded policy"
+    },
+    "evaluation_metrics": {
+      "primary_heldout": "501-row TEST exact-match accuracy per fixed TRAIN-generated hypothesis set; invalid predictions incorrect",
+      "dataset_level_planted_recovery": "14-reference recall per TRAIN-generated set; macro mean across evidence input sets; not paper HDR"
+    },
+    "heldout_design_status": "TRAIN-only inductive adaptation implemented as unapproved proposal; legacy TEST-row generation is transductive",
+    "paper_hdr": {
+      "status": "scoring interface implemented; grounded feature mapping and relationship scores required before computation",
+      "definition": "feature discovery rate times relationship correctness",
+      "source": "https://arxiv.org/html/2504.11524v1#S3",
+      "not_equivalent_to": "14-reference recall",
+      "source_mapping_invented": false,
+      "grounded_features_required": true,
+      "grounded_relationship_judgments_required": true,
+      "evidence_status": "missing feature mapping and relationship judgments; no score fabricated"
+    },
+    "prior_test_exposure": "NOTEBOOK.md records a 2026-11-05 audit of all source splits, including labels. TEST is withheld from new generation, not claimed historically unseen by the researcher."
+  },
+  "already_asked": {
+    "rate_interface": "E6/evaluation.py binary rate over supplied reference matches",
+    "reference_question_corpus": {
+      "path": "E6/data/prior_question_corpus_v4.json",
+      "file_sha256": "0ba88a644a238ec696bf5b010228cfb13728b7931ff7434407d3d52a5ffbac18",
+      "manifest_sha256": "d5044a2b3adc7323b0bd77e5a8412c462fa0c330c698c36ece5b3e47a3d22f07"
+    },
+    "semantic_matcher": {
+      "policy_id": "e6-reviewed-temporal-prior-question-matcher-v1",
+      "corpus_sha256": "d5044a2b3adc7323b0bd77e5a8412c462fa0c330c698c36ece5b3e47a3d22f07",
+      "candidate_limit": 20,
+      "identity_policy_id": "e6-fixed-same-question-rubric:ff50bc4e09ff7c97b2bc52688831fbb027df940969d6bef305c27f327dc9ca82",
+      "retrieval": "lexical_jaccard_stable_id; identity requires explicit semantic decision"
+    },
+    "threshold_or_adjudication_policy": "fixed 08_same_question Boolean semantic judgment; lexical score ranks only; null/non-Boolean judgments fail without substituting similarity",
+    "denominator_and_missing_reference_policy": "complete_input_set_questions_v1; null for absent corpus/cutoff or failed judgment; explicit eligible generated-question denominator; questionless arms N/A",
+    "independently_sourced_corpus_required": true,
+    "missing_corpus_policy": "blocked/null; no substituted corpus or zero rate",
+    "validation_status": "source_provenance_and_assistant_review_passed; semantic_evaluator_validation_pending",
+    "corpus_scope": "Systematic census of all 1659 unique arXiv references in frozen 100-target testbed; all 29 fixed-prompt-screen-positive papers independently retrieved; 13 source-supported standalone questions accepted from 13 papers. ArXiv-only, explicit-abstract-question scope; not the whole prior scientific literature.",
+    "evaluation_cutoffs_by_input_set": {
+      "lit-2412.20541": "2024-12-29T18:16:28Z",
+      "lit-2412.20662": "2024-12-30T02:40:19Z",
+      "lit-2512.23864": "2025-12-29T21:06:33Z",
+      "lit-2512.24120": "2025-12-30T10:01:55Z",
+      "lit-2512.24152": "2025-12-30T11:34:59Z",
+      "lit-2512.24407": "2025-12-30T18:41:05Z",
+      "lit-2512.24497": "2025-12-30T22:50:03Z",
+      "lit-2512.24561": "2025-12-31T02:01:02Z",
+      "lit-2512.24592": "2025-12-31T03:28:41Z",
+      "lit-2512.24827": "2025-12-31T12:39:22Z",
+      "lit-2512.24985": "2025-12-31T17:31:29Z",
+      "lit-2601.00065": "2025-12-31T19:00:03Z",
+      "lit-2601.00086": "2025-12-31T19:40:10Z",
+      "lit-2601.00866": "2025-12-30T13:16:45Z",
+      "lit-2601.00898": "2025-12-31T16:56:56Z",
+      "lit-2601.06086": "2025-12-31T04:05:04Z",
+      "lit-2610.28498": "2026-10-20T16:41:29Z",
+      "lit-2610.28500": "2026-10-20T16:42:17Z",
+      "lit-2610.28626": "2026-10-20T17:59:04Z",
+      "lit-2610.28711": "2026-10-20T17:08:12Z",
+      "lit-2610.28763": "2026-10-20T18:03:48Z",
+      "lit-2610.28785": "2026-10-20T18:15:52Z",
+      "lit-2610.28829": "2026-10-20T18:51:48Z",
+      "lit-2610.28834": "2026-10-20T18:59:01Z",
+      "lit-2610.28836": "2026-10-20T19:04:12Z",
+      "lit-2610.28895": "2026-10-20T20:18:46Z",
+      "lit-2610.28944": "2026-10-20T21:46:27Z",
+      "lit-2610.28957": "2026-10-20T22:11:07Z",
+      "lit-2610.28974": "2026-10-20T22:48:06Z",
+      "lit-2610.28985": "2026-10-20T23:27:23Z",
+      "lit-2610.28998": "2026-10-20T23:53:09Z",
+      "lit-2610.29003": "2026-10-21T00:11:32Z",
+      "lit-2610.29008": "2026-10-21T00:19:09Z",
+      "lit-2610.29013": "2026-10-21T00:26:37Z",
+      "lit-2610.29052": "2026-10-21T01:28:58Z",
+      "lit-2610.29090": "2026-10-21T02:31:19Z",
+      "lit-2610.29107": "2026-10-21T02:49:38Z",
+      "lit-2610.29110": "2026-10-21T02:50:46Z",
+      "lit-2610.29136": "2026-10-21T03:15:30Z",
+      "lit-2610.29167": "2026-10-21T03:59:23Z",
+      "lit-2610.29174": "2026-10-21T04:04:32Z",
+      "lit-2610.29187": "2026-10-21T04:18:47Z",
+      "lit-2610.29189": "2026-10-21T04:19:06Z",
+      "lit-2610.29196": "2026-10-21T04:38:02Z",
+      "lit-2610.29205": "2026-10-21T04:51:14Z",
+      "lit-2610.29207": "2026-10-21T04:55:58Z",
+      "lit-2610.29227": "2026-10-21T05:36:59Z",
+      "lit-2610.29241": "2026-10-21T05:47:57Z",
+      "lit-2610.29246": "2026-10-21T05:51:06Z",
+      "lit-2610.29256": "2026-10-21T06:06:11Z",
+      "lit-2610.29302": "2026-10-21T06:59:07Z",
+      "lit-2610.29303": "2026-10-21T07:00:23Z",
+      "lit-2610.29313": "2026-10-21T07:09:14Z",
+      "lit-2610.29315": "2026-10-21T07:12:55Z",
+      "lit-2610.29318": "2026-10-21T07:21:08Z",
+      "lit-2610.29327": "2026-10-21T07:26:26Z",
+      "lit-2610.29328": "2026-10-21T07:27:08Z",
+      "lit-2610.29348": "2026-10-21T07:42:20Z",
+      "lit-2610.29374": "2026-10-21T08:02:14Z",
+      "lit-2610.29408": "2026-10-21T08:34:03Z",
+      "lit-2610.29409": "2026-10-21T08:35:16Z",
+      "lit-2610.29411": "2026-10-21T08:36:09Z",
+      "lit-2610.29419": "2026-10-21T08:44:52Z",
+      "lit-2610.29426": "2026-10-21T08:50:39Z",
+      "lit-2610.29439": "2026-10-21T09:00:56Z",
+      "lit-2610.29442": "2026-10-21T09:02:34Z",
+      "lit-2610.29455": "2026-10-21T09:11:30Z",
+      "lit-2610.29475": "2026-10-21T09:30:21Z",
+      "lit-2610.29498": "2026-10-21T09:51:01Z",
+      "lit-2610.29517": "2026-10-21T10:05:23Z",
+      "lit-2610.29550": "2026-10-21T10:35:39Z",
+      "lit-2610.29594": "2026-10-21T11:33:42Z",
+      "lit-2610.29618": "2026-10-21T11:57:36Z",
+      "lit-2610.29649": "2026-10-21T12:29:24Z",
+      "lit-2610.29657": "2026-10-21T12:38:04Z",
+      "lit-2610.29676": "2026-10-21T12:53:21Z",
+      "lit-2610.29722": "2026-10-21T13:30:29Z",
+      "lit-2610.29734": "2026-10-21T13:35:57Z",
+      "lit-2610.29746": "2026-10-21T13:46:27Z",
+      "lit-2610.29780": "2026-10-21T14:08:01Z",
+      "lit-2610.29823": "2026-10-21T14:46:27Z",
+      "lit-2610.29828": "2026-10-21T14:50:48Z",
+      "lit-2610.29832": "2026-10-21T14:55:58Z",
+      "lit-2610.29909": "2026-10-21T15:49:10Z",
+      "lit-2610.29922": "2026-10-21T15:58:53Z",
+      "lit-2610.29932": "2026-10-21T16:04:27Z",
+      "lit-2610.29968": "2026-10-21T16:20:30Z",
+      "lit-2610.29985": "2026-10-21T16:27:48Z",
+      "lit-2610.30016": "2026-10-21T16:45:43Z",
+      "lit-2610.30026": "2026-10-21T16:51:25Z",
+      "lit-2610.30042": "2026-10-21T17:02:28Z",
+      "lit-2610.30086": "2026-10-21T17:33:59Z",
+      "lit-2610.30097": "2026-10-21T17:45:24Z",
+      "lit-2610.30099": "2026-10-21T17:45:42Z",
+      "lit-2610.30103": "2026-10-21T17:50:19Z",
+      "lit-2610.30105": "2026-10-21T17:50:31Z",
+      "lit-2610.30108": "2026-10-21T17:52:48Z",
+      "lit-2610.30113": "2026-10-21T17:54:01Z",
+      "lit-2610.30119": "2026-10-21T17:56:37Z",
+      "lit-2610.30125": "2026-10-21T17:57:59Z"
+    },
+    "temporal_policy": "observed arXiv source-version timestamp strictly predates original target published timestamp from frozen native source; reject missing or uncertain dates",
+    "corpus_statistics": {
+      "accepted_questions": 13,
+      "extracted_questions": 28,
+      "extraction_failures": 2,
+      "frame_papers": 1659,
+      "rejected_ambiguous_questions": 15,
+      "retrieved_papers": 29,
+      "screen_positive_papers": 29,
+      "targets_with_eligible_questions": 100,
+      "temporal_eligible_counts": {
+        "lit-2412.20541": 6,
+        "lit-2412.20662": 6,
+        "lit-2512.23864": 8,
+        "lit-2512.24120": 8,
+        "lit-2512.24152": 8,
+        "lit-2512.24407": 8,
+        "lit-2512.24497": 8,
+        "lit-2512.24561": 8,
+        "lit-2512.24592": 8,
+        "lit-2512.24827": 8,
+        "lit-2512.24985": 8,
+        "lit-2601.00065": 8,
+        "lit-2601.00086": 8,
+        "lit-2601.00866": 8,
+        "lit-2601.00898": 8,
+        "lit-2601.06086": 8,
+        "lit-2610.28498": 13,
+        "lit-2610.28500": 13,
+        "lit-2610.28626": 13,
+        "lit-2610.28711": 13,
+        "lit-2610.28763": 13,
+        "lit-2610.28785": 13,
+        "lit-2610.28829": 13,
+        "lit-2610.28834": 13,
+        "lit-2610.28836": 13,
+        "lit-2610.28895": 13,
+        "lit-2610.28944": 13,
+        "lit-2610.28957": 13,
+        "lit-2610.28974": 13,
+        "lit-2610.28985": 13,
+        "lit-2610.28998": 13,
+        "lit-2610.29003": 13,
+        "lit-2610.29008": 13,
+        "lit-2610.29013": 13,
+        "lit-2610.29052": 13,
+        "lit-2610.29090": 13,
+        "lit-2610.29107": 13,
+        "lit-2610.29110": 13,
+        "lit-2610.29136": 13,
+        "lit-2610.29167": 13,
+        "lit-2610.29174": 13,
+        "lit-2610.29187": 13,
+        "lit-2610.29189": 13,
+        "lit-2610.29196": 13,
+        "lit-2610.29205": 13,
+        "lit-2610.29207": 13,
+        "lit-2610.29227": 13,
+        "lit-2610.29241": 13,
+        "lit-2610.29246": 13,
+        "lit-2610.29256": 13,
+        "lit-2610.29302": 13,
+        "lit-2610.29303": 13,
+        "lit-2610.29313": 13,
+        "lit-2610.29315": 13,
+        "lit-2610.29318": 13,
+        "lit-2610.29327": 13,
+        "lit-2610.29328": 13,
+        "lit-2610.29348": 13,
+        "lit-2610.29374": 13,
+        "lit-2610.29408": 13,
+        "lit-2610.29409": 13,
+        "lit-2610.29411": 13,
+        "lit-2610.29419": 13,
+        "lit-2610.29426": 13,
+        "lit-2610.29439": 13,
+        "lit-2610.29442": 13,
+        "lit-2610.29455": 13,
+        "lit-2610.29475": 13,
+        "lit-2610.29498": 13,
+        "lit-2610.29517": 13,
+        "lit-2610.29550": 13,
+        "lit-2610.29594": 13,
+        "lit-2610.29618": 13,
+        "lit-2610.29649": 13,
+        "lit-2610.29657": 13,
+        "lit-2610.29676": 13,
+        "lit-2610.29722": 13,
+        "lit-2610.29734": 13,
+        "lit-2610.29746": 13,
+        "lit-2610.29780": 13,
+        "lit-2610.29823": 13,
+        "lit-2610.29828": 13,
+        "lit-2610.29832": 13,
+        "lit-2610.29909": 13,
+        "lit-2610.29922": 13,
+        "lit-2610.29932": 13,
+        "lit-2610.29968": 13,
+        "lit-2610.29985": 13,
+        "lit-2610.30016": 13,
+        "lit-2610.30026": 13,
+        "lit-2610.30042": 13,
+        "lit-2610.30086": 13,
+        "lit-2610.30097": 13,
+        "lit-2610.30099": 13,
+        "lit-2610.30103": 13,
+        "lit-2610.30105": 13,
+        "lit-2610.30108": 13,
+        "lit-2610.30113": 13,
+        "lit-2610.30119": 13,
+        "lit-2610.30125": 13
+      },
+      "valid_question_papers": 13
+    },
+    "prepared_semantic_matcher": {
+      "policy_id": "e6-reviewed-temporal-prior-question-matcher-v1",
+      "corpus_sha256": "d5044a2b3adc7323b0bd77e5a8412c462fa0c330c698c36ece5b3e47a3d22f07",
+      "candidate_limit": 20,
+      "identity_policy_id": "e6-fixed-same-question-rubric:ff50bc4e09ff7c97b2bc52688831fbb027df940969d6bef305c27f327dc9ca82",
+      "retrieval": "lexical_jaccard_stable_id; identity requires explicit semantic decision",
+      "status": "researcher_approved_subject_to_existing_execution_and_validation_gates",
+      "same_question_rubric": {
+        "path": "prompts/e6/08_same_question.txt",
+        "file_sha256": "ff50bc4e09ff7c97b2bc52688831fbb027df940969d6bef305c27f327dc9ca82"
+      }
+    },
+    "candidate_limit": 20,
+    "data_testbed_temporal_policy": "use a historical cutoff only with independently supported, hash-bound dataset provenance; otherwise report already-asked unavailable/null",
+    "corpus_coverage": {
+      "direct_reference_target_count": 13,
+      "direct_reference_target_ids": [
+        "lit-2601.00065",
+        "lit-2610.28498",
+        "lit-2610.28785",
+        "lit-2610.29318",
+        "lit-2610.29442",
+        "lit-2610.29517",
+        "lit-2610.29649",
+        "lit-2610.29909",
+        "lit-2610.29932",
+        "lit-2610.29968",
+        "lit-2610.30097",
+        "lit-2610.30105",
+        "lit-2610.30113"
+      ],
+      "temporal_eligible_target_count": 100,
+      "temporal_eligible_questions_per_target_range": [
+        6,
+        13
+      ],
+      "limitation": "temporal availability is not proof of semantic relevance; explicit abstract questions from arXiv-only reference neighborhood"
+    },
+    "methodology_status": "researcher_approved_limited_historical_sample",
+    "coverage_reporting": "always state 13-question non-comprehensive reference sample and per-input eligible candidate counts",
+    "hypobench_cutoff_evidence_by_input_set": {}
+  },
+  "diversity": {
+    "hypothesis_count": 6,
+    "metric_interface": "E6/evaluation.py K=6 diversity interface; operational definition unresolved",
+    "construct_definition": "substantive distinctness under prepared hypothesis-pair rubric",
+    "comparison_or_taxonomy_method": {
+      "path": "prompts/e6/16_hypothesis_distinctness.txt",
+      "file_sha256": "eeca6fcbb7f8a8f7a294b0fd9c9d31c91b671fd1d395ab36139c2f9a99b217e8"
+    },
+    "aggregation_policy": "15 unordered pairs; distinct-pair proportion; failed or unavailable pair blocks input-set metric",
+    "policy_approval_status": "approved_subject_to_validation",
+    "validation_status": "not_performed",
+    "validation_required_before_scoring": true
+  },
+  "question_type": {
+    "prompt": "prompts/e6/10_question_type.txt",
+    "categories": [
+      "constructive",
+      "analytic",
+      "other",
+      "ambiguous"
+    ],
+    "classifier_model_and_version": {
+      "model": "gemma3:12b",
+      "digest": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1"
+    },
+    "replication_and_disagreement_policy": "one judgment per question; preserve ambiguous/other; questionless arms N/A; no automatic retry",
+    "required_distinctions": [
+      "constructive",
+      "analytic"
+    ],
+    "validation_status": "not_performed"
+  },
+  "pairwise_judging": {
+    "optional": true,
+    "maximum_judges": 1,
+    "comparison_orders": [
+      "A_then_B",
+      "B_then_A"
+    ],
+    "length_matching_required": true,
+    "output_label": "LLM judge output",
+    "prompt": "prompts/e6/11_judge_pairwise.txt",
+    "judge_model_and_version": null,
+    "comparison_schedule": null,
+    "blind_label_key_and_policy": null,
+    "length_measure": null,
+    "length_matching_policy": null,
+    "tie_and_order_aggregation": null,
+    "enabled": false
+  },
+  "paired_bootstrap": {
+    "resampling_unit": "input_set",
+    "all_seven_arm_pairwise_comparisons": true,
+    "statistic": "arithmetic_mean",
+    "interval_method": "linear_percentile",
+    "confidence_level": 0.95,
+    "replicates": 10000,
+    "seed": 2026,
+    "random_generator_and_version": "python.random.Random/MT19937; sha256(seed:replicate) streams",
+    "missing_policy": "complete_pairs",
+    "multiplicity_method": "unadjusted_marginal_intervals",
+    "analysis_scope": "descriptive",
+    "comparisons": [
+      [
+        "D",
+        "QH"
+      ],
+      [
+        "D",
+        "QH-sel"
+      ],
+      [
+        "D",
+        "QH-rand"
+      ],
+      [
+        "D",
+        "HQ"
+      ],
+      [
+        "D",
+        "D-empty"
+      ],
+      [
+        "D",
+        "D-shuffled"
+      ],
+      [
+        "QH",
+        "QH-sel"
+      ],
+      [
+        "QH",
+        "QH-rand"
+      ],
+      [
+        "QH",
+        "HQ"
+      ],
+      [
+        "QH",
+        "D-empty"
+      ],
+      [
+        "QH",
+        "D-shuffled"
+      ],
+      [
+        "QH-sel",
+        "QH-rand"
+      ],
+      [
+        "QH-sel",
+        "HQ"
+      ],
+      [
+        "QH-sel",
+        "D-empty"
+      ],
+      [
+        "QH-sel",
+        "D-shuffled"
+      ],
+      [
+        "QH-rand",
+        "HQ"
+      ],
+      [
+        "QH-rand",
+        "D-empty"
+      ],
+      [
+        "QH-rand",
+        "D-shuffled"
+      ],
+      [
+        "HQ",
+        "D-empty"
+      ],
+      [
+        "HQ",
+        "D-shuffled"
+      ],
+      [
+        "D-empty",
+        "D-shuffled"
+      ]
+    ],
+    "proposed_parameters": {
+      "status": "approved_methodology_only",
+      "replicates": 10000,
+      "seed": 2026,
+      "random_generator_and_version": "python.random.Random/MT19937; sha256(seed:replicate) streams"
+    }
+  },
+  "generator_runtime_verification": {
+    "status": "verified_local_runtime",
+    "report_path": "E6/data/gemma3_local_verification_v1.json",
+    "report_sha256": "705211d2dafd25afd7c42c52e11d8f3373efc089da313b5fb650ab4068f8783a",
+    "model": "gemma3:12b",
+    "ollama_version": "0.40.15",
+    "model_layer_digest": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+    "tokenizer_counter_id": "ollama-runner:b92b218582c521ba287f38f1d6057dcd3c6cbff036f13cac97b5d861f5e58ec3:0a5090e20207bece62fbd58e81e2d6dcc3ee529d5173f2e66e336ae90507fecb",
+    "tokenizer_metadata_fingerprint_sha256": "0a5090e20207bece62fbd58e81e2d6dcc3ee529d5173f2e66e336ae90507fecb",
+    "exact_token_counter_available": true,
+    "tokenizer_accounting_consistent_with_e6_preflight": true,
+    "output_limit_probe_passed": true,
+    "smoke_test_passed": true,
+    "protocol_generator_selection_approved": true
+  },
+  "missing_scores": {
+    "missing_score": null,
+    "imputation": "none",
+    "arm_mean_denominator": "available input sets for that metric and arm",
+    "comparison_denominator": "complete input-set pairs for that metric and contrast",
+    "planned_denominator": "all planned input sets, including failed cells; report exclusions explicitly",
+    "invalid_TEST_prediction_policy": "incorrect within fixed 501 denominator for an evaluable generated set; failed generation/metric remains null",
+    "questionless_arm_policy": "not_applicable; never infer questions or assign zero"
+  },
+  "proposed_evaluator_rubrics": {
+    "status": "pending_researcher_confirmation",
+    "model": {
+      "model": "gemma3:12b",
+      "immutable_version_or_digest": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+      "temperature": 0,
+      "top_p": 1,
+      "seed": 2026,
+      "max_output_tokens": 2048,
+      "context_limit": 32768
+    },
+    "rubrics": {
+      "similarity": {
+        "path": "prompts/e6/15_reconstruction_similarity.txt",
+        "file_sha256": "04c2dfc868e1d7054ac9cb496b0b5d8c6172965fadb37e1327047acbb33c152d"
+      },
+      "same_question": {
+        "path": "prompts/e6/08_same_question.txt",
+        "file_sha256": "ff50bc4e09ff7c97b2bc52688831fbb027df940969d6bef305c27f327dc9ca82"
+      },
+      "distinctness": {
+        "path": "prompts/e6/16_hypothesis_distinctness.txt",
+        "file_sha256": "eeca6fcbb7f8a8f7a294b0fd9c9d31c91b671fd1d395ab36139c2f9a99b217e8"
+      },
+      "question_type": {
+        "path": "prompts/e6/10_question_type.txt",
+        "file_sha256": "e0ebd66a009d84342f6ab6c781d3e0d42cc9a432a3bf0abeb29d91c47fca8503"
+      }
+    }
+  },
+  "directional_hypotheses": [
+    {
+      "id": "H1",
+      "left_arm": "QH",
+      "right_arm": "D",
+      "direction": ">",
+      "testbed": "literature",
+      "outcome": "main_hypothesis_best_similarity",
+      "expected_effect_size": "unspecified_by_researcher"
+    },
+    {
+      "id": "H2",
+      "left_arm": "QH-sel",
+      "right_arm": "QH-rand",
+      "direction": ">",
+      "testbed": "literature",
+      "outcome": "main_hypothesis_best_similarity",
+      "expected_effect_size": "unspecified_by_researcher"
+    },
+    {
+      "id": "H3",
+      "left_arm": "QH",
+      "right_arm": "D-shuffled",
+      "direction": ">",
+      "testbed": "literature",
+      "outcome": "main_hypothesis_best_similarity",
+      "expected_effect_size": "unspecified_by_researcher"
+    }
+  ],
+  "configured_rubrics": {
+    "similarity": {
+      "path": "prompts/e6/15_reconstruction_similarity.txt",
+      "file_sha256": "04c2dfc868e1d7054ac9cb496b0b5d8c6172965fadb37e1327047acbb33c152d"
+    },
+    "same_question": {
+      "path": "prompts/e6/08_same_question.txt",
+      "file_sha256": "ff50bc4e09ff7c97b2bc52688831fbb027df940969d6bef305c27f327dc9ca82"
+    },
+    "distinctness": {
+      "path": "prompts/e6/16_hypothesis_distinctness.txt",
+      "file_sha256": "eeca6fcbb7f8a8f7a294b0fd9c9d31c91b671fd1d395ab36139c2f9a99b217e8"
+    },
+    "question_type": {
+      "path": "prompts/e6/10_question_type.txt",
+      "file_sha256": "e0ebd66a009d84342f6ab6c781d3e0d42cc9a432a3bf0abeb29d91c47fca8503"
+    }
+  },
+  "configured_evaluator_interface": "E6/configured_evaluators.py:ConfiguredEvaluators; construction offline; execution/approval/runtime/Git and validation gates required before calls",
+  "active_development_runtime_verification": {
+    "path": "E6/data/development_runtime_probe_v1/report_02.json",
+    "file_sha256": "1ae723209008e9a80d20d7194d85b443ae54480e21d32b081a4b86965b4ec1e6",
+    "report_sha256": "a4e5430ff57b2c7ca626c0f0f143d0c9177d5a1d2f0f9eac6e8c80a3b1d55590",
+    "run_identity": "43490d6a3dad0e59dbc1753965ac5e6ede45c24850311f3a21951e08a274cbbd",
+    "model": "gemma3:12b",
+    "backend_version": "0.40.16",
+    "model_tag_digest": "b92b218582c521ba287f38f1d6057dcd3c6cbff036f13cac97b5d861f5e58ec3",
+    "tokenizer_metadata_sha256": "0a5090e20207bece62fbd58e81e2d6dcc3ee529d5173f2e66e336ae90507fecb",
+    "scope": "verified DEVELOPMENT-only exact-limit evidence; not confirmatory results or evaluator validation"
+  }
+}

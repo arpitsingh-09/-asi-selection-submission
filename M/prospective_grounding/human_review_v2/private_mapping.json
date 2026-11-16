@@ -1,0 +1,74 @@
+{
+  "questions": {
+    "Q-C4C5C7": {
+      "v2_question_id": "primary-video_memorability-v2",
+      "family": "video_memorability",
+      "generation_kind": "primary",
+      "seed": 4900,
+      "source_paper_ids": [
+        "2012.15650v1",
+        "2012.15641v1",
+        "2012.15635v1"
+      ]
+    },
+    "Q-6C0C74": {
+      "v2_question_id": "decoy-video_memorability-v2",
+      "family": "video_memorability",
+      "generation_kind": "decoy",
+      "seed": 4901,
+      "source_paper_ids": [
+        "2012.15650v1",
+        "2012.15641v1",
+        "2012.15635v1"
+      ]
+    },
+    "Q-75BF83": {
+      "v2_question_id": "primary-image_enhancement-v2",
+      "family": "image_enhancement",
+      "generation_kind": "primary",
+      "seed": 4910,
+      "source_paper_ids": [
+        "2012.15052v1",
+        "2012.15020v1",
+        "2412.20916v1"
+      ]
+    },
+    "Q-8BB9ED": {
+      "v2_question_id": "decoy-image_enhancement-v2",
+      "family": "image_enhancement",
+      "generation_kind": "decoy",
+      "seed": 4911,
+      "source_paper_ids": [
+        "2012.15052v1",
+        "2012.15020v1",
+        "2412.20916v1"
+      ]
+    }
+  },
+  "collections": {
+    "C-877C7D": {
+      "source_family": "video_memorability",
+      "paper_ids": [
+        "2012.15650v1",
+        "2012.15641v1",
+        "2012.15635v1"
+      ]
+    },
+    "C-E5ACD7": {
+      "source_family": "image_enhancement",
+      "paper_ids": [
+        "2012.15052v1",
+        "2012.15020v1",
+        "2412.20916v1"
+      ]
+    }
+  },
+  "documents": {
+    "D-DB4D08": "2012.15650v1",
+    "D-C9ADFA": "2012.15641v1",
+    "D-132F4C": "2012.15635v1",
+    "D-B76C01": "2012.15052v1",
+    "D-84D9A1": "2012.15020v1",
+    "D-B561B6": "2412.20916v1"
+  }
+}

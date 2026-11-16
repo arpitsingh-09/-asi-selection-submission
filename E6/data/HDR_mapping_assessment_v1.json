@@ -1,0 +1,27 @@
+{
+  "status": "not_promoted_to_HDR_scoring_denominator",
+  "proposal_file_sha256": "11d8f0beef73023e761eeb1c530c84a80777fcde919d6076530ccf4ac3e1136e",
+  "source_grouping_verified": true,
+  "literal_predicate_fields": [
+    "partisan_language",
+    "political_event_reaction",
+    "template"
+  ],
+  "reason": "Frozen PREREG requires actual grounded reference-feature mapping and relationship judgments; no rule in it identifies the three literal predicate-field groups as the HDR denominator. The proposal itself explicitly sets approved_HDR_denominator=false.",
+  "frozen_requirements": [
+    "E6/PREREG.md:138-140",
+    "E6/PREREG.md:393-394"
+  ],
+  "required_next_evidence": "Domain-supported definition and mapping of reference features; source-bound discovered-feature and relationship judgments for each evaluable cell.",
+  "HDR_values_created": 0,
+  "HDR_inputs_complete": 0,
+  "HDR_inputs_required": 125,
+  "frozen_file_hashes": {
+    "E6/PREREG.md": "00922ad1779b6bfa0c29e788092a72670a0bd276dc247b76dac42e4e0d32abfe",
+    "E6/protocol.md": "6597a58fd36b75412df1ae3f4f2d5119e29f24416342ff007eaff15d4cda76ed",
+    "E6/RESEARCHER_APPROVAL.json": "6e156c819799b973209ce8dc4db83a3e9ef6111238db3c76460f237cff420fab",
+    "E6/config.json": "43570cec362353db9218891b1fb975c5382bfbc1c233daf8db94206eb28a1b50",
+    "E6/evaluation_config.json": "c14605e340fcfe85897364f82c7a8d8a8eb2b4eaf5738f5c8dc73ff7a504e023"
+  },
+  "model_calls": 0
+}

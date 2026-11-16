@@ -1,0 +1,23 @@
+{
+  "provenance": {
+    "encoder": "allenai/specter2_base",
+    "encoder_revision": "3447645e1def9117997203454fa4495937bfbd83",
+    "adapter": "allenai/specter2",
+    "adapter_revision": "2081559630a80fc5851d8f798a05ba81e9468089",
+    "input": "abstract_only",
+    "pooling": "CLS",
+    "max_length": 512,
+    "frozen": true,
+    "normalization": "none",
+    "device": "cpu"
+  },
+  "historical_inputs": 25186,
+  "complete_vectors": 0,
+  "remaining": 25186,
+  "test_vectors": 0,
+  "partial_preparation_only": true,
+  "requested_new": 1,
+  "preparation_blocker": "PermissionError: [Errno 1] Operation not permitted",
+  "model_inference_started": false,
+  "preparation_stage": "lower_CPU_priority_before_model_load"
+}

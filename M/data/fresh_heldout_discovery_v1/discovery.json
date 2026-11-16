@@ -1,0 +1,46 @@
+{
+  "schema": "M-fresh-source-discovery-v1",
+  "retrieved_on": "2026-11-13",
+  "purpose": "Discovery only; not a verified cohort or evaluation lock",
+  "sources": [
+    {
+      "title": "SPRIG: Improving Large Language Model Performance by System Prompt Optimization",
+      "openreview_forum_id": "VdVV24KSWK",
+      "url": "https://openreview.net/forum?id=VdVV24KSWK",
+      "discovery_snippet_date": "Published 26 Jan 2026; last modified 11 Apr 2026",
+      "date_status": "search-result metadata only; primary page could not be fetched for version verification",
+      "question_text": null,
+      "original_input_paper_ids": null,
+      "status": "REJECTED_NOT_COHORT",
+      "blockers": ["Exact public version/date not independently verified from primary source", "No authentic research-question span recovered", "No explicit original input-paper links recovered"]
+    },
+    {
+      "title": "TAMP: Task-aware Multimodal Pre-Interaction for fine-grained Large Language Models",
+      "openreview_forum_id": "swSGiEu4Js",
+      "url": "https://openreview.net/forum?id=swSGiEu4Js",
+      "discovery_snippet_date": "Submitted to ICLR 2026 15 Sep 2025; modified 11 Feb 2026",
+      "date_status": "search-result metadata only; primary page could not be fetched for version verification",
+      "question_text": null,
+      "original_input_paper_ids": null,
+      "status": "REJECTED_NOT_COHORT",
+      "blockers": ["Exact public version/date not independently verified from primary source", "No authentic research-question span recovered", "No explicit original input-paper links recovered"]
+    },
+    {
+      "title": "Rethinking Legal Retrieval as Generative Article Identifier Prediction",
+      "openreview_forum_id": "SJcpGTx0Ag",
+      "url": "https://openreview.net/forum?id=SJcpGTx0Ag",
+      "discovery_snippet_date": "ACL ARR 2026 May submission 26 May 2026; modified 16 Jun 2026",
+      "date_status": "search-result metadata only; primary page could not be fetched for version verification",
+      "question_text": null,
+      "original_input_paper_ids": null,
+      "status": "REJECTED_NOT_COHORT",
+      "blockers": ["Exact public version/date not independently verified from primary source", "No authentic research-question span recovered", "No explicit original input-paper links recovered"]
+    }
+  ],
+  "verified_source_records": 0,
+  "eligible_heldout_records": 0,
+  "controls_prepared": 0,
+  "cohort_lock_commit": null,
+  "evaluation_run": false,
+  "overall_blocker": "Primary pages returned an OpenReview verification challenge. Search snippets are insufficient provenance for paper versions, exact question text, or original input links."
+}

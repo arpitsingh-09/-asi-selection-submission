@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:29:04.814371+00:00",
+  "identity": "bd41ad5798c2a8fc91fd007f2ba59f18bd614c3c406040b092773530523ab860",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:29:04.800954Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 71,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 11.399900333000005,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:29:04.800954Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2887,
+      "prompt_eval_count": 631,
+      "prompt_sha256": "4ecbb3bae8a8e82dc87051138988d56343e30340f1db39a57bbcebc062c3be02",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 702,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 631,
+    "latency_seconds": 11.399900333000005,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:29:04.800954Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 71,
+    "raw_response": "{\n  \"research_question\": \"Can a general-purpose multimodal large language model (MLLM) segment images directly, without an added segmentation head, mask decoder, or training?\",\n  \"research_question_explicit\": true,\n  \"main_hypothesis\": null,\n  \"main_hypothesis_explicit\": false\n}",
+    "total_tokens": 702
+  },
+  "reply_sha256": "ace712bba27319f82a5ed98c18f127d9bd59f7a9137233fe1eaa8a066572ef31"
+}

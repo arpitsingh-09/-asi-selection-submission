@@ -1,0 +1,97 @@
+[2403.12958] Dated Data: Tracing Knowledge Cutoffs in Large Language Models (https://arxiv.org/abs/2403.12958)
+citeturn7view5 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2403.12958","lineno":null}); Total lines: 163
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1: 
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3: 
+L4: Press Enter to search · 【4†Advanced search】
+L5: 
+L6: # Computer Science > Computation and Language
+L7: 
+L8: [Submitted on 19 Mar 2024 (【5†v1】), last revised 17 Sep 2024 (this version, v2)]
+L9: # Title:Dated Data: Tracing Knowledge Cutoffs in Large Language Models
+L10: 
+L11: Authors:【6†Jeffrey Cheng】, 【7†Marc Marone】, 【8†Orion Weller】, 【9†Dawn Lawrie】, 【10†Daniel Khashabi】, 【11†Benjamin Van Durme】
+L12: 
+L13: View a PDF of the paper titled Dated Data: Tracing Knowledge Cutoffs in Large Language Models, by Jeffrey Cheng and 5 other authors
+L14: 
+L15: 【12†View PDF】 【13†HTML (experimental)】
+L16: > Abstract:Released Large Language Models (LLMs) are often paired with a claimed knowledge cutoff date, or the dates at which training data was gathered. Such information is crucial for applications where the LLM must provide up to date information.
+L17: However, this statement only scratches the surface: do all resources in the training data share the same knowledge cutoff date? Does the model's demonstrated knowledge for these subsets closely align to their cutoff dates? In this work, we define the notion of an effective cutoff. This is distinct from the LLM designer reported cutoff and applies separately to sub-resources and topics.
+L18: We propose a simple approach to estimate effective cutoffs on the resource-level temporal alignment of an LLM by probing across versions of the data. Using this analysis, we find that effective cutoffs often differ from reported cutoffs. To understand the root cause of this observation, we conduct a direct large-scale analysis on open pre-training datasets.
+L19: Our analysis reveals two reasons for these inconsistencies: (1) temporal biases of CommonCrawl data due to non-trivial amounts of old data in new dumps and (2) complications in LLM deduplication schemes involving semantic duplicates and lexical near-duplicates. Overall, our results show that knowledge cutoffs are not as simple as they have seemed and that care must be taken both by LLM dataset curators as well as practitioners who seek to use information from these models.
+L20: Subjects:  | Computation and Language (cs.CL)
+L21: Cite as:  | 【14†arXiv:2403.12958】 [cs.CL]
+L22:    | (or 【15†arXiv:2403.12958v2】 [cs.CL] for this version)
+L23:    | 【16†https://doi.org/10.48550/arXiv.2403.12958†doi.org】 arXiv-issued DOI via DataCite
+L24: ## Submission history
+L25: 
+L26: From: Jeffrey Cheng [【17†view email】]
+L27: 【5†[v1]】 Tue, 19 Mar 2024 17:57:58 UTC (2,386 KB)
+L28: [v2] Tue, 17 Sep 2024 17:25:40 UTC (2,412 KB)
+L29: 
+L30: Full-text links:
+L31: 
+L32: ## Access Paper:
+L33: 
+L34: View a PDF of the paper titled Dated Data: Tracing Knowledge Cutoffs in Large Language Models, by Jeffrey Cheng and 5 other authors
+L35: 
+L36:   * 【12†View PDF】
+L37:   * 【13†HTML (experimental)】
+L38:   * 【18†TeX Source】
+L39: 
+L40: 【19†view license】
+L41: 
+L42: ### Additional Features
+L43: 
+L44:   * 【20†Audio Summary】
+L45: ### Current browse context:
+L46: 
+L47: cs.CL
+L48: 
+L49: 【21†< prev】   |   【22†next >】
+L50: 
+L51: 【23†new】 | 【24†recent】 | 【25†2024-03】
+L52: 
+L53: Change to browse by:
+L54: 
+L55: 【26†cs】
+L56: 
+L57: ### References & Citations
+L58: 
+L59:   * 【27†SciX†scixplorer.org】
+L60:   * 【28†Google Scholar†scholar.google.com】
+L61:   * 【29†Semantic Scholar†api.semanticscholar.org】
+L62: 
+L63: [Button: export BibTeX citation] Loading...
+L64: 
+L65: ## BibTeX formatted citation
+L66: 
+L67: [Button: ×]
+L68: 
+L69: loading...
+L70: 
+L71: Data provided by:
+L72: 
+L73: ### Bookmark
+L74: 
+L75: [Input] Bibliographic Tools
+L76: # Bibliographic and Citation Tools
+L77: 
+L78: [Input] Bibliographic Explorer Toggle
+L79: 
+L80: Bibliographic Explorer (【30†What is the Explorer?†info.arxiv.org】)
+L81: 
+L82: [Input] Connected Papers Toggle
+L83: 
+L84: Connected Papers (【31†What is Connected Papers?†www.connectedpapers.com】)
+L85: 
+L86: [Input] Litmaps Toggle
+L87: 
+L88: Litmaps (【32†What is Litmaps?†www.litmaps.co】)
+L89: 
+L90: [Input] scite.ai Toggle
+L91: 
+L92: scite Smart Citations (【33†What are Smart Citations?†www.scite.ai】)
+L93: 
+L94: [Input] Code, Data, Media

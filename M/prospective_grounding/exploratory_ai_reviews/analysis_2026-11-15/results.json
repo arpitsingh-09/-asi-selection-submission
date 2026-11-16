@@ -1,0 +1,216 @@
+{
+  "status": "exploratory_only_no_model_scoring",
+  "sources": {
+    "external_ai_csv": "/Users/arpit/asi-selection/M/prospective_grounding/exploratory_ai_reviews/assessments_imported.csv",
+    "external_ai_csv_sha256": "1536ee223df9e20276923105613ae70cca63b331b3965a632ece86a7274f1dcd",
+    "human_review_json": "/Users/arpit/Downloads/human_researcher_ai_exposed_review_2026-11-15.json",
+    "human_review_sha256": "89a9d3327f4fd89ae00c74805f00dd52795db53b70a81033d9972d3c1f2d99b9",
+    "human_reviewer_code": "HUMAN-RESEARCHER-01",
+    "human_review_date_utc": "2026-11-15",
+    "human_review_independent": false,
+    "human_provenance": {
+      "reviewer_type": "human (user-submitted; authorship not independently verified)",
+      "review_conditions": "researcher-authored, AI-exposed; not blinded or independent",
+      "disclosure": "Reviewer had previously seen AI assessments and received AI assistance interpreting the papers. Evidence notes retain original [cite: 2] placeholders; these are not verified citations.",
+      "source": "User-pasted review in ChatGPT conversation on 2026-11-15",
+      "eligible_as_independent_blinded_human_review": false
+    },
+    "v2_generation_run": "/Users/arpit/asi-selection/M/prospective_grounding/generated_v2/run_20261115T024832_535290Z/run_complete.json",
+    "private_mapping_sha256": "57a8c952b8a3d99883a8fa612b274242cf8ba090204a10ef3d69b1a8c91f9b92"
+  },
+  "validation": {
+    "external_ai_rows": 18,
+    "external_ai_unique_pairs": 18,
+    "human_rating_rows": 18,
+    "human_unique_pairs": 18,
+    "human_association_checks": 6,
+    "human_rating_evidence_notes_present": 18,
+    "human_association_evidence_notes_present": 6,
+    "ids_match_registered_v2_pairs": true
+  },
+  "external_ai_model_identity": "unknown; no locally available per-model assessment files",
+  "separate_claude_gemini_files_found": false,
+  "agreement": {
+    "n": 18,
+    "exact_agreement_n": 14,
+    "exact_agreement": 0.7777777777777778,
+    "cohen_kappa_unweighted": 0.6635514018691588,
+    "cohen_kappa_linear_weighted": 0.7372262773722627,
+    "external_ai_rating_counts": {
+      "0": 6,
+      "1": 7,
+      "2": 5
+    },
+    "researcher_rating_counts": {
+      "0": 6,
+      "1": 7,
+      "2": 5
+    },
+    "confusion_external_ai_rows_researcher_columns": {
+      "0": {
+        "0": 6,
+        "1": 0,
+        "2": 0
+      },
+      "1": {
+        "0": 0,
+        "1": 5,
+        "2": 2
+      },
+      "2": {
+        "0": 0,
+        "1": 2,
+        "2": 3
+      }
+    }
+  },
+  "groups": {
+    "primary_original": {
+      "n": 6,
+      "external_ai_mean": 1.5,
+      "researcher_mean": 1.5,
+      "external_ai_rating_counts": {
+        "0": 0,
+        "1": 3,
+        "2": 3
+      },
+      "researcher_rating_counts": {
+        "0": 0,
+        "1": 3,
+        "2": 3
+      },
+      "exact_agreement_n": 4
+    },
+    "decoy_original": {
+      "n": 6,
+      "external_ai_mean": 1.3333333333333333,
+      "researcher_mean": 1.3333333333333333,
+      "external_ai_rating_counts": {
+        "0": 0,
+        "1": 4,
+        "2": 2
+      },
+      "researcher_rating_counts": {
+        "0": 0,
+        "1": 4,
+        "2": 2
+      },
+      "exact_agreement_n": 4
+    },
+    "primary_shuffled": {
+      "n": 6,
+      "external_ai_mean": 0,
+      "researcher_mean": 0,
+      "external_ai_rating_counts": {
+        "0": 6,
+        "1": 0,
+        "2": 0
+      },
+      "researcher_rating_counts": {
+        "0": 6,
+        "1": 0,
+        "2": 0
+      },
+      "exact_agreement_n": 6
+    }
+  },
+  "paired_primary_minus_decoy_on_same_original_papers": {
+    "n": 6,
+    "external_ai_mean_difference": 0.16666666666666666,
+    "researcher_mean_difference": 0.16666666666666666,
+    "records": [
+      {
+        "family": "image_enhancement",
+        "paper_id": "2012.15052v1",
+        "external_ai_primary_minus_decoy": 0,
+        "researcher_primary_minus_decoy": 0
+      },
+      {
+        "family": "image_enhancement",
+        "paper_id": "2012.15020v1",
+        "external_ai_primary_minus_decoy": 0,
+        "researcher_primary_minus_decoy": 0
+      },
+      {
+        "family": "image_enhancement",
+        "paper_id": "2412.20916v1",
+        "external_ai_primary_minus_decoy": 0,
+        "researcher_primary_minus_decoy": 0
+      },
+      {
+        "family": "video_memorability",
+        "paper_id": "2012.15650v1",
+        "external_ai_primary_minus_decoy": 0,
+        "researcher_primary_minus_decoy": 0
+      },
+      {
+        "family": "video_memorability",
+        "paper_id": "2012.15641v1",
+        "external_ai_primary_minus_decoy": 0,
+        "researcher_primary_minus_decoy": 0
+      },
+      {
+        "family": "video_memorability",
+        "paper_id": "2012.15635v1",
+        "external_ai_primary_minus_decoy": 1,
+        "researcher_primary_minus_decoy": 1
+      }
+    ]
+  },
+  "decoy_association_checks_researcher_only": [
+    {
+      "question_id": "decoy-image_enhancement-v2",
+      "family": "image_enhancement",
+      "same_broad_topic": true,
+      "unsupported_by_supplied_papers": false
+    },
+    {
+      "question_id": "decoy-video_memorability-v2",
+      "family": "video_memorability",
+      "same_broad_topic": true,
+      "unsupported_by_supplied_papers": true
+    }
+  ],
+  "disagreements": [
+    {
+      "question_id": "decoy-image_enhancement-v2",
+      "paper_id": "2012.15020v1",
+      "comparison_group": "decoy_original",
+      "external_ai_rating": 2,
+      "researcher_ai_exposed_rating": 1,
+      "exact_agreement": false
+    },
+    {
+      "question_id": "decoy-image_enhancement-v2",
+      "paper_id": "2412.20916v1",
+      "comparison_group": "decoy_original",
+      "external_ai_rating": 1,
+      "researcher_ai_exposed_rating": 2,
+      "exact_agreement": false
+    },
+    {
+      "question_id": "primary-image_enhancement-v2",
+      "paper_id": "2012.15020v1",
+      "comparison_group": "primary_original",
+      "external_ai_rating": 2,
+      "researcher_ai_exposed_rating": 1,
+      "exact_agreement": false
+    },
+    {
+      "question_id": "primary-image_enhancement-v2",
+      "paper_id": "2412.20916v1",
+      "comparison_group": "primary_original",
+      "external_ai_rating": 1,
+      "researcher_ai_exposed_rating": 2,
+      "exact_agreement": false
+    }
+  ],
+  "researcher_notes_with_unverified_cite_placeholder": 18,
+  "interpretation_limits": [
+    "The external-AI CSV has unknown model identity and cannot be attributed to Claude or Gemini separately.",
+    "The researcher-authored review records prior AI exposure and is explicitly not independent or blinded.",
+    "There is one rating vector per source, only 18 dependent pairs across two question families, and no inferential CI is estimated.",
+    "The AI data has no association checks, so AI-versus-human decoy-validation agreement is unavailable.",
+    "The comparisons are human/AI relevance-rating diagnostics, not G/B-TF model scores or experimental results."
+  ]
+}

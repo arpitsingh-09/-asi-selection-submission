@@ -1,0 +1,96 @@
+{
+  "a": "To what extent does reaction to specific political events (e.g., government shutdowns, Supreme Court decisions) influence the predicted voting preference?",
+  "b": "To what extent does explicit criticism of political institutions (e.g., Supreme Court, government shutdowns) correlate with predicted voting preference?",
+  "calls": [
+    {
+      "model_metadata": {
+        "adapter_metadata": {
+          "backend": "ollama-local",
+          "created_at": "2026-11-12T13:01:34.396129Z",
+          "done": true,
+          "done_reason": "stop",
+          "endpoint": "http://localhost:11434/api/generate",
+          "eval_count": 8,
+          "generation_settings": {
+            "format": "json",
+            "options": {
+              "num_ctx": 32768,
+              "num_predict": 2048,
+              "seed": 2026,
+              "temperature": 0,
+              "top_p": 1
+            },
+            "stream": false
+          },
+          "http_status": 200,
+          "latency_seconds": 2.651017834000001,
+          "model": "gemma3:12b",
+          "model_identity": {
+            "reported_created_at": "2026-11-12T13:01:34.396129Z",
+            "reported_model": "gemma3:12b",
+            "requested_model": "gemma3:12b"
+          },
+          "prompt_characters": 1385,
+          "prompt_eval_count": 265,
+          "prompt_sha256": "7373c9ae2557101b9c484e633eca90ff6b8207c99e7d87671bd77117c913c9a0",
+          "requested_output_token_limit": 2048,
+          "stage": "same_question",
+          "total_tokens": 273,
+          "usage_metadata_available": true
+        },
+        "generation_settings": {
+          "format": "json",
+          "options": {
+            "num_ctx": 32768,
+            "num_predict": 2048,
+            "seed": 2026,
+            "temperature": 0,
+            "top_p": 1
+          },
+          "stream": false
+        },
+        "http_status": 200,
+        "input_tokens": 265,
+        "latency_seconds": 2.651017834000001,
+        "model": "gemma3:12b",
+        "model_identity": {
+          "reported_created_at": "2026-11-12T13:01:34.396129Z",
+          "reported_model": "gemma3:12b",
+          "requested_model": "gemma3:12b"
+        },
+        "output_tokens": 8,
+        "total_tokens": 273
+      },
+      "prompt": "ROLE\nYou are an evaluator of semantic equivalence between scientific research statements.\n\nTASK\nDetermine whether two supplied statements express substantially the same research objective.\n\nSTATEMENT A TYPE\ngenerated research question\n\nSTATEMENT A\nTo what extent does reaction to specific political events (e.g., government shutdowns, Supreme Court decisions) influence the predicted voting preference?\n\nSTATEMENT B TYPE\nTRAIN generated research question\n\nSTATEMENT B\nTo what extent does explicit criticism of political institutions (e.g., Supreme Court, government shutdowns) correlate with predicted voting preference?\n\nDECISION RULE\nReturn true only when both statements substantially concern the same:\n- phenomenon or scientific subject;\n- objective, mechanism or relationship being investigated; and\n- principal outcome or question being addressed.\n\nTreat genuine paraphrases as equivalent even when wording differs.\n\nReturn false when statements merely share a topic, keywords, broad domain or research area but investigate meaningfully different mechanisms, relationships, objectives or outcomes.\n\nDo not treat a more specific question as equivalent to a broader question unless they genuinely express the same central objective.\n\nDo not use outside knowledge. Judge only the supplied text.\n\nOUTPUT\nReturn valid JSON only:\n\n{\"same_question\": true}\n\nor\n\n{\"same_question\": false}\n",
+      "prompt_sha256": "47c3edb046752ca9a72016e10bea0ea053d80ff2564fbd79f2c13d32d5b3e2a0",
+      "raw_output": "{\"same_question\": true}",
+      "stage": "same_question"
+    }
+  ],
+  "case_id": "already_asked-04",
+  "expected": null,
+  "key": "same_question",
+  "prediction": true,
+  "reference_kind": "human_reference_required",
+  "rubric": "same_question",
+  "section": "already_asked",
+  "sources": [
+    {
+      "hypothesis": "Negative reactions to Republican-led government shutdowns increase the likelihood of a Democratic or third-party vote prediction.",
+      "hypothesis_id": "QH:H3",
+      "question": "To what extent does reaction to specific political events (e.g., government shutdowns, Supreme Court decisions) influence the predicted voting preference?",
+      "source": "E6/runs/priority10_train_batch001/b90d71ea502c100a_generation_envelope.json",
+      "source_file_sha256": "37a1f47e90f743086a5fa24a05af828ca6dbccaa04ecda57f24b973e1db0d926",
+      "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0000:4b44593d53e3"
+    },
+    {
+      "hypothesis": "Tweets explicitly criticizing political institutions are more likely to be associated with a third-party or non-voting preference.",
+      "hypothesis_id": "QH:H1",
+      "question": "To what extent does explicit criticism of political institutions (e.g., Supreme Court, government shutdowns) correlate with predicted voting preference?",
+      "source": "E6/runs/priority10_train_batch002/aa367e4423af8dc3_generation_envelope.json",
+      "source_file_sha256": "7340af8c3df91e969ef4060271247f91799584276e5b506298ae3f2162454032",
+      "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0001:f4dd50eb316a"
+    }
+  ],
+  "status": "returned_valid"
+}

@@ -1,0 +1,50 @@
+{
+  "status": "provisional_unapproved",
+  "purpose": "five-paper API feasibility diagnostic and reusable metadata adapters",
+  "diagnostic_only": true,
+  "proposed_source_roles": {
+    "OpenAlex": "primary_candidate_source; not approved as sole source",
+    "Semantic Scholar Academic Graph": "secondary_candidate_source; not approved as sole verifier",
+    "OpenCitations Index": "independent DOI-edge verifier candidate; coverage limited to indexed DOI relationships",
+    "Crossref": "independent deposited-reference verifier candidate; coverage limited to Crossref records and deposited references"
+  },
+  "diagnostic_sample": {
+    "size": 5,
+    "selection_namespace": "e6-lit-api-diagnostic-v1",
+    "method": "ascending SHA-256 of namespace plus canonical arXiv ID after focal exclusions",
+    "final_e6_sample": false,
+    "frozen": false
+  },
+  "matching": {
+    "arxiv_identifier_lookup": "attempt source-native arXiv ID or arXiv landing-page matching",
+    "openalex_title_doi_match_auto_selected": false,
+    "title_only_match_policy": null,
+    "cross_source_identity_policy": null,
+    "reference_edge_verification_policy": null
+  },
+  "acquisition": {
+    "openalex_api_version": "public REST API; unversioned endpoint",
+    "semantic_scholar_api_version": "Academic Graph API graph/v1",
+    "opencitations_api_version": "Index REST API v2.2.0",
+    "crossref_api_version": "REST API; unversioned endpoint",
+    "default_minimum_request_interval_seconds": {
+      "OpenAlex": 0.1,
+      "Semantic Scholar Academic Graph": 1.0
+    },
+    "record_retrieval_timestamp_utc": true,
+    "preserve_source_native_ids_and_raw_responses": true,
+    "retry_policy": "adapter default: bounded retries for transport errors, HTTP 429 and HTTP 5xx; Retry-After honored when supplied",
+    "cache_directory": null,
+    "persistent_cache_enabled": false,
+    "note": "Adapters support optional append-only JSON caching. No persistent diagnostic cache was created."
+  },
+  "edge_verification_constraints": {
+    "opencitations_identifier_requirement": "DOI, PMID, ISSN, ISBN, or OpenCitations OMID; arXiv ID is not accepted",
+    "crossref_identifier_requirement": "DOI for direct work lookup; query search may resolve candidates but does not establish identity",
+    "crossref_reference_coverage": "Only references deposited by Crossref members; omitted reference lists are unknown, not evidence of no edge",
+    "opencitations_reference_coverage": "Edges available only when present in OpenCitations Index; omitted edges are unknown, not evidence of no edge",
+    "diagnostic_observations_separate_from_confirmatory_data": true
+  },
+  "larger_scale_acquisition_authorized": false,
+  "note": "Diagnostic feasibility results do not select or freeze the E6 literature testbed."
+}

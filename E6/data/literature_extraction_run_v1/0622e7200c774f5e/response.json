@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:34:34.303721+00:00",
+  "identity": "699e2d77de349e2c90139a49947dd6f869a0eda0701f4e49adcc64cd094f2d28",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:34:34.278025Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 96,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 14.298508416000004,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:34:34.278025Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2861,
+      "prompt_eval_count": 585,
+      "prompt_sha256": "2dbc763907ea708fe7220681f39fef88654b1d2bf8677ac9a8f1e303910341a8",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 681,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 585,
+    "latency_seconds": 14.298508416000004,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:34:34.278025Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 96,
+    "raw_response": "{\n  \"research_question\": \"Can forensic representations in deepfake detectors be stabilized across different manipulation sources to improve generalization?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"Naively fine-tuned vision models suffer from forensic representation collapse, where extracted cues are entangled with unstable, dataset-specific artifacts, resulting in structurally fragile representations and poor cross-domain generalization.\",\n  \"main_hypothesis_explicit\": true\n}",
+    "total_tokens": 681
+  },
+  "reply_sha256": "0cb4eb9adadfebdeb6c4b6c74d75e7b19357a1e45dce49d6d43304c50de20bfc"
+}

@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "experiment": "controlled_lexical_rule_development_v1",
+  "heldout": false,
+  "sets": 200,
+  "numpy_threads": 1,
+  "committed_sha256": {
+    "E5/diversity.py": "14d1b51b72f6710ea8ce37b746ea1e16c8c07f18e297cd0d80b1a8a6f87799c6",
+    "E5/build_axioms.py": "dcdacbb227b983474b94b2bc628062b0473c89593fe3f4de7fc9dae9fa829c62",
+    "E5/known_groups.py": "50d3c4a681e358ab21fd08d66b6d64c8ad5caeafd4458ac52cb63b1fefaa8c0f",
+    "E5/evaluate.py": "65abb1587571a687443617fb8806ffa24b13853f5ed31b33cd7acd03f3549345",
+    "E5/tests/test_diversity.py": "fdcfd04294e802a9b622c89f86e5152e1ab129cf3963f3a1a33e310c3f888c15",
+    "E5/data/axiom_sets_v1.jsonl": "6761c07676986dc811c851524c32fcce84bba48c3b926a2a98aad6b2f9a35012",
+    "E5/OFFICIAL_REQUIREMENTS.txt": "0f08eb8029afdda4a14806a9bebc4166504f942f5b9762b09977a9c5e162444b"
+  }
+}

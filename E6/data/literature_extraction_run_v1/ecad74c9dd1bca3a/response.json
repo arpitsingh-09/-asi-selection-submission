@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:32:52.007404+00:00",
+  "identity": "f323c6be7ad4178f8d8704517767891ce4bf47b6f1f099320602476cba362ac0",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:32:51.955734Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 86,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 13.404389666000043,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:32:51.955734Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2715,
+      "prompt_eval_count": 530,
+      "prompt_sha256": "0e44a7c11c3da7103ac8d4d0ddc8745de21a53eb6f2d88488244611f60c68f85",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 616,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 530,
+    "latency_seconds": 13.404389666000043,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:32:51.955734Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 86,
+    "raw_response": "{\n  \"research_question\": \"How do LLM agents converge toward agreement in multi-turn conversations?\",\n  \"research_question_explicit\": true,\n  \"main_hypothesis\": \"Agreement can be predicted well with a Markov process, with agreement at each turn being a direct function of agreement at the previous turn, when aggregated across conversations.\",\n  \"main_hypothesis_explicit\": true\n}",
+    "total_tokens": 616
+  },
+  "reply_sha256": "001ea1fd323b3570d5ac1d4b64dd563e828290b18ccf8ac895205145b47d636f"
+}

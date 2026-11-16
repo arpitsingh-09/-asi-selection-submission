@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:41:26.340005+00:00",
+  "identity": "e585d2be923db6c63d4e281aad8dc31712453da13f69bd21884cb2f38c2207b1",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:41:26.325009Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 61,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 10.918975750000072,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:41:26.325009Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2328,
+      "prompt_eval_count": 477,
+      "prompt_sha256": "4142f3b6e3a9f0ad2772fb11899428495a489d96b70e864db083abbe5a9b27e3",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 538,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 477,
+    "latency_seconds": 10.918975750000072,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:41:26.325009Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 61,
+    "raw_response": "{\n  \"research_question\": \"When compressed language models produce fewer biased responses, does this reflect fairer behavior or greater abstention?\",\n  \"research_question_explicit\": true,\n  \"main_hypothesis\": null,\n  \"main_hypothesis_explicit\": false\n}",
+    "total_tokens": 538
+  },
+  "reply_sha256": "73bdff38eb0fe370e3368b35bbba0220b8f7aefae0da3b55288e550f4f22aacd"
+}

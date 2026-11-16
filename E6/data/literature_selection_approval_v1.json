@@ -1,0 +1,3862 @@
+{
+  "classification_path": "E6/DECISION_CLASSIFICATION.json",
+  "concise_checklist_path": "E6/APPROVAL_CHECKLIST.md",
+  "configuration_signoff": null,
+  "decision_sheet_path": "E6/DECISION_SHEET.md",
+  "decisions": [
+    {
+      "alternative": "Declare the study exploratory.",
+      "applied_components": {
+        "scope": "component choices only; not full row approval or configuration sign-off",
+        "source": "explicit user instruction in current session",
+        "values": {
+          "governing_protocol": {
+            "basis": "explicit user instruction: adopt current Gemma 3 12B protocol; full preregistration remains DRAFT",
+            "model": "gemma3:12b",
+            "path": "E6/protocol.md",
+            "supersedes": "E6/prior_protocol_2026-11-04.md"
+          }
+        }
+      },
+      "approved_at_utc": null,
+      "approved_by": null,
+      "approved_payload_sha256": null,
+      "approved_value": null,
+      "choice": null,
+      "classification": {
+        "A": "Predictions must precede evaluation.",
+        "B": "No row-level approval recorded.",
+        "C": "Study status, directions/magnitudes and which protocol governs.",
+        "id": 1
+      },
+      "evidence": [
+        {
+          "file_sha256": "4299566d25714c4399e489e09379c4056599e867c7d94b79732e41f1a985a819",
+          "path": "E6/protocol.md",
+          "prior_file_sha256": [
+            "725384c9575cfdc89a487386273b4433cd8e88c81814fbb38e57f61825beb2bd",
+            "b4a651d6f7d56f0e32a87649a0c66d545d8852463531d9383a44f8cbea26cbab"
+          ]
+        },
+        {
+          "file_sha256": "5669ffdea736767e963660e73e08e394e85de7a0ec17a1b880b48ae0108b95b8",
+          "path": "E6/config.json",
+          "prior_file_sha256": [
+            "749d2c58957f2e2c2174d0e75f19668c4e7ea9b5d03895513d908e770d808c3a",
+            "368ea98b1e912b41dc8b0f2d7d2e689733d12ab3ca2df5ff5aacf9203ab3c647",
+            "2ce169477e9ad0ba8735017502d98b4218640f0dc58b3abf1fb3bbe7c6335279",
+            "d264c0b277409fcd763e78fb288fa2014c91d18691e7289ba1204324d80c98fc",
+            "fd49410c13c236bfa7db04c07f46e54274e2aa2c4d21cf0098acad2f3c44cac7"
+          ]
+        },
+        {
+          "file_sha256": "2a8543e528e481c8f8a6461dbc0d5a89e2c9767686e17b356c3029a8ad8066fd",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "30e96a2ef1eb9f9cba0fd7da9c9dba43cee4ce4c2d6300efbdb49267a8d76c93",
+          "path": "E6/PREREG.md",
+          "prior_file_sha256": [
+            "4a054149efc409d49d6efbf9143634547252f916790370297a569b4711cbbdba",
+            "1fe0941d16367945fef9201223de4c4521d0e7e5bc37be414fdc78e937d9a165"
+          ]
+        },
+        {
+          "file_sha256": "53404862f4d2d0e68d18998ca2342d13a417c7d6fae1a12415059d94fec1992a",
+          "path": "E6/assignment_e6_excerpt_v1.txt"
+        },
+        {
+          "file_sha256": "21ab5039ead75a8bdfb841bdbcfa530f263ee5ad636dd3061bb0a1d5e56b8abc",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "1ea6639a1c664055e3fbd8a4131d6593d3dd9035386f14d9d2390bbc2299a635",
+          "path": "E6/prior_protocol_2026-11-04.md"
+        },
+        {
+          "file_sha256": "1c666cf6f30b43b6c1864ee83b145631eee648f38be9e76519648d99043cc8a3",
+          "path": "E6/PRIORITY9_TECHNICAL_RESOLUTION.md"
+        }
+      ],
+      "id": 1,
+      "needed_by": "Before preregistration",
+      "prior_evidence_snapshots": [
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "c85a14bf65997f48479c75b1263415418ea6d8b51a9a45b2865cd36b4cbaee80",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "320e736b5559e55334a8b7043e82d8fbbfedacb36bf37c527c3a3402c29de71c",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "5212ff6629e0d19414beb7c3dd9173a54738ab27dc4e3a4a5190b6c0255a28ec",
+          "path": "E6/PREREG.md"
+        },
+        {
+          "file_sha256": "c73b89e64370ff2b14ad1c7ac94aafbd283a0dea5d8759f0f293bc9e35082fb1",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "16e64355aee7d4fa6374639d540bcf23432f4becd7ac09c3262f7c003f387bca",
+          "path": "E6/PREREG.md"
+        },
+        {
+          "file_sha256": "b2c3a4f5b04a8dc974aeb4699c3ea4cba2d68d4470f79edf3faf8e8cd36fb538",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "6312bf83e1aa21bed4551414213ce4f5aeb5bdc8a2a4934f1f59e535d1dceef6",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "1bf70d09623ba20b6ddc08127d854fb165436c6ef4def4390b8c88c1578dd9b1",
+          "path": "E6/PRIORITY9_TECHNICAL_RESOLUTION.md"
+        },
+        {
+          "file_sha256": "b6e7193f9939a22766d35f299aa0de9e1455d75b9293f5028ab886865be153fe",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "9349a1b48d6527e1ec19716fc2b28ac57cca10e575730241a23234097b67334f",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "d0c728c81ea5b33a428911e351fe96a8b3428507ae58936913990164094b9629",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "e334323d2a3e028803a561a454326722f72bb7d5dc8f3c74d0363ac9ea7d4f51",
+          "path": "E6/PREREG.md"
+        },
+        {
+          "file_sha256": "869974735a14a4b59e1eafc37e432f06ca42a5d0706b1717469a3ba533e5a737",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "f8a62ac0a7e3cdf2c955f24751e5089161e7bd790c660f7d49c047406942909f",
+          "path": "E6/PRIORITY9_TECHNICAL_RESOLUTION.md"
+        }
+      ],
+      "proposed_value": "Ratify the current Gemma-based proposed governing draft prospectively; prior work remains development, no protocol approval is inferred. Record directional predictions and expected magnitudes before evaluation.",
+      "required_resolved_detail_keys": [
+        "directional_hypotheses",
+        "prospective_record_policy",
+        "governing_protocol"
+      ],
+      "resolved_details": {
+        "directional_hypotheses": null,
+        "governing_protocol": {
+          "basis": "explicit user instruction: adopt current Gemma 3 12B protocol; full preregistration remains DRAFT",
+          "model": "gemma3:12b",
+          "path": "E6/protocol.md",
+          "supersedes": "E6/prior_protocol_2026-11-04.md"
+        },
+        "prospective_record_policy": null
+      },
+      "separate_scientific_approval_required": true,
+      "status": "pending_researcher_approval",
+      "title": "Study status and prospective record"
+    },
+    {
+      "alternative": "Use all 216 eligible literature candidates.",
+      "approval_scope": "Documented methodological settings only; no prediction, runtime verification, evaluator validation, missing dataset, HDR mapping or completed human review is attested.",
+      "approved_at_utc": "2026-11-12T01:33:47.816416+00:00",
+      "approved_by": "researcher via explicit user instruction in this session",
+      "approved_payload_sha256": "d31afb11e7ff210f011449dd8052d75b78887c9074d350f9b14f7a5d43db0325",
+      "approved_value": "Use both testbeds: proposed 20 disjoint TRAIN evidence sets of 20 labelled observations (seed 2026), each generated set evaluated unchanged on all 501 TEST rows; proposed 100 literature targets. Sampling is unapproved.",
+      "choice": "accept_proposal",
+      "classification": {
+        "A": "Both literature and R44 data testbeds; literature minimum 100.",
+        "B": "216 eligible literature candidates and 501 TEST evaluation rows; legacy per-TEST-row generation is transductive.",
+        "C": "Approve 20 disjoint TRAIN evidence sets of 20 observations, each hypothesis set scored unchanged on all 501 TEST rows; approve 100 literature targets.",
+        "id": 2
+      },
+      "evidence": [
+        {
+          "file_sha256": "4299566d25714c4399e489e09379c4056599e867c7d94b79732e41f1a985a819",
+          "path": "E6/protocol.md",
+          "prior_file_sha256": [
+            "725384c9575cfdc89a487386273b4433cd8e88c81814fbb38e57f61825beb2bd",
+            "b4a651d6f7d56f0e32a87649a0c66d545d8852463531d9383a44f8cbea26cbab"
+          ]
+        },
+        {
+          "file_sha256": "5669ffdea736767e963660e73e08e394e85de7a0ec17a1b880b48ae0108b95b8",
+          "path": "E6/config.json",
+          "prior_file_sha256": [
+            "749d2c58957f2e2c2174d0e75f19668c4e7ea9b5d03895513d908e770d808c3a",
+            "368ea98b1e912b41dc8b0f2d7d2e689733d12ab3ca2df5ff5aacf9203ab3c647",
+            "2ce169477e9ad0ba8735017502d98b4218640f0dc58b3abf1fb3bbe7c6335279",
+            "d264c0b277409fcd763e78fb288fa2014c91d18691e7289ba1204324d80c98fc",
+            "fd49410c13c236bfa7db04c07f46e54274e2aa2c4d21cf0098acad2f3c44cac7"
+          ]
+        },
+        {
+          "file_sha256": "2a8543e528e481c8f8a6461dbc0d5a89e2c9767686e17b356c3029a8ad8066fd",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "48fbaa6560463804a6cc9e537a17fb02b8ca574b6f2f59fd849ece1928255a84",
+          "path": "E6/data/literature_sample_proposal_v1.json"
+        },
+        {
+          "file_sha256": "899c58939ce4993320750033531ce020d14e650af834db1da7ea2b0e2c5a180a",
+          "path": "E6/literature_testbed_config.json",
+          "prior_file_sha256": [
+            "2dcc2d4f9aa003df12580e0e5e5df5b4fc9298ef5b7461c0480ecc8211d65934",
+            "4cf9e9eb232c35f42c2b28409017f52e773b42ca154d7d42abad081bbf414827",
+            "a70d4ea0052076572afa3a02f6eacfe098efbde2a935da80176f6db4db5942df",
+            "62a340442b711f07cc4643313bd028930bfbd036116a952be45a0b65f06daf08"
+          ]
+        },
+        {
+          "file_sha256": "53404862f4d2d0e68d18998ca2342d13a417c7d6fae1a12415059d94fec1992a",
+          "path": "E6/assignment_e6_excerpt_v1.txt"
+        },
+        {
+          "file_sha256": "21ab5039ead75a8bdfb841bdbcfa530f263ee5ad636dd3061bb0a1d5e56b8abc",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "aa0ad20f7317ac6d9a04c9fb4b8c52caa87fea9e963090ef27f8fd4b49f61aee",
+          "path": "E6/data/hypobench_inductive_proposal_v1.json"
+        },
+        {
+          "file_sha256": "296d1ce5df21ba36f7bf7a0b52f5677e5a2b21dda6b056e603e9836728d81801",
+          "path": "E6/prepare_hypobench_inductive.py"
+        },
+        {
+          "file_sha256": "6dbfb731b06873911427334591342b1b6d3a24619da4c549db16d551b811487b",
+          "path": "E6/data/priority10_data_execution_plan_v2.json"
+        }
+      ],
+      "id": 2,
+      "needed_by": "Before dataset freeze",
+      "prior_evidence_snapshots": [
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "c85a14bf65997f48479c75b1263415418ea6d8b51a9a45b2865cd36b4cbaee80",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "320e736b5559e55334a8b7043e82d8fbbfedacb36bf37c527c3a3402c29de71c",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "c73b89e64370ff2b14ad1c7ac94aafbd283a0dea5d8759f0f293bc9e35082fb1",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "a6fec0ad3b3086d8a70196fff197baf58d82f9e45e8e0dd9bc957f4ad3a13ae9",
+          "path": "E6/literature_testbed_config.json"
+        },
+        {
+          "file_sha256": "b2c3a4f5b04a8dc974aeb4699c3ea4cba2d68d4470f79edf3faf8e8cd36fb538",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "6312bf83e1aa21bed4551414213ce4f5aeb5bdc8a2a4934f1f59e535d1dceef6",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "b6e7193f9939a22766d35f299aa0de9e1455d75b9293f5028ab886865be153fe",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "9349a1b48d6527e1ec19716fc2b28ac57cca10e575730241a23234097b67334f",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "d0c728c81ea5b33a428911e351fe96a8b3428507ae58936913990164094b9629",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "869974735a14a4b59e1eafc37e432f06ca42a5d0706b1717469a3ba533e5a737",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "80fa4cf185edc403264f4baf3a83e0940be72fed4af1b424989c3924d7d9be63",
+          "path": "E6/prepare_hypobench_inductive.py"
+        }
+      ],
+      "proposed_resolved_details": {
+        "inductive_proposal_sha256": "a59efe5d027bfad3148d583095c23fb10d83b0f57d6f33b69e1e4a82194ddef3"
+      },
+      "proposed_value": "Use both testbeds: proposed 20 disjoint TRAIN evidence sets of 20 labelled observations (seed 2026), each generated set evaluated unchanged on all 501 TEST rows; proposed 100 literature targets. Sampling is unapproved.",
+      "required_resolved_detail_keys": [],
+      "resolved_details": {},
+      "separate_scientific_approval_required": true,
+      "status": "approved",
+      "title": "Testbed scope and sample size"
+    },
+    {
+      "alternative": "Select one primary testbed and treat the other as secondary.",
+      "approval_scope": "Documented methodological settings only; no prediction, runtime verification, evaluator validation, missing dataset, HDR mapping or completed human review is attested.",
+      "approved_at_utc": "2026-11-12T01:33:47.816416+00:00",
+      "approved_by": "researcher via explicit user instruction in this session",
+      "approved_payload_sha256": "0a5738a810c9ad0baf4e18496cda04bc712769d9ef50c6c2f23e2dd07cd8882f",
+      "approved_value": "Keep testbeds separate. One experimental input set is one literature target or one fixed TRAIN evidence cohort; TEST rows are repeated evaluation items, not independent replications.",
+      "choice": "accept_proposal",
+      "classification": {
+        "A": "Bootstrap experimental input sets, not dependent item pairs.",
+        "B": "TRAIN evidence cohorts are the proposed data experimental unit; TEST observations are repeated evaluation items.",
+        "C": "Primary/secondary hierarchy and separate reporting/aggregation.",
+        "id": 3
+      },
+      "evidence": [
+        {
+          "file_sha256": "4299566d25714c4399e489e09379c4056599e867c7d94b79732e41f1a985a819",
+          "path": "E6/protocol.md",
+          "prior_file_sha256": [
+            "725384c9575cfdc89a487386273b4433cd8e88c81814fbb38e57f61825beb2bd",
+            "b4a651d6f7d56f0e32a87649a0c66d545d8852463531d9383a44f8cbea26cbab"
+          ]
+        },
+        {
+          "file_sha256": "5669ffdea736767e963660e73e08e394e85de7a0ec17a1b880b48ae0108b95b8",
+          "path": "E6/config.json",
+          "prior_file_sha256": [
+            "749d2c58957f2e2c2174d0e75f19668c4e7ea9b5d03895513d908e770d808c3a",
+            "368ea98b1e912b41dc8b0f2d7d2e689733d12ab3ca2df5ff5aacf9203ab3c647",
+            "2ce169477e9ad0ba8735017502d98b4218640f0dc58b3abf1fb3bbe7c6335279",
+            "d264c0b277409fcd763e78fb288fa2014c91d18691e7289ba1204324d80c98fc",
+            "fd49410c13c236bfa7db04c07f46e54274e2aa2c4d21cf0098acad2f3c44cac7"
+          ]
+        },
+        {
+          "file_sha256": "2a8543e528e481c8f8a6461dbc0d5a89e2c9767686e17b356c3029a8ad8066fd",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "7e9262827ca7ebbfca79aa56da2694a4c932f3c07ef396f87aea5062db696d36",
+          "path": "E6/evaluation_config.json",
+          "prior_file_sha256": [
+            "09be65ec9e804a1e1a692b82cb13811d3854ca5066e3630a15245ead3d4f0774",
+            "b255a2e367a973b387a1c2ff6e6b2f9ac87120fa73ff33c54d02694cbaceba78",
+            "d5c33ec83f4009457f810fd279bc2133d9080908232efc2bc26887483815629e",
+            "eba21ff7fcab6f2bc0e77f54503354bb1b2648af1695fc782413e04f9dea10f3"
+          ]
+        },
+        {
+          "file_sha256": "53404862f4d2d0e68d18998ca2342d13a417c7d6fae1a12415059d94fec1992a",
+          "path": "E6/assignment_e6_excerpt_v1.txt"
+        },
+        {
+          "file_sha256": "21ab5039ead75a8bdfb841bdbcfa530f263ee5ad636dd3061bb0a1d5e56b8abc",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "296d1ce5df21ba36f7bf7a0b52f5677e5a2b21dda6b056e603e9836728d81801",
+          "path": "E6/prepare_hypobench_inductive.py"
+        }
+      ],
+      "id": 3,
+      "needed_by": "Before preregistration",
+      "prior_evidence_snapshots": [
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "c9145c48acfa57d139e0fb25f29f7635ddd08df7a1441564a47c2bdcac6df1d8",
+          "path": "E6/evaluation_config.json"
+        },
+        {
+          "file_sha256": "c85a14bf65997f48479c75b1263415418ea6d8b51a9a45b2865cd36b4cbaee80",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "320e736b5559e55334a8b7043e82d8fbbfedacb36bf37c527c3a3402c29de71c",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "c73b89e64370ff2b14ad1c7ac94aafbd283a0dea5d8759f0f293bc9e35082fb1",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "c9145c48acfa57d139e0fb25f29f7635ddd08df7a1441564a47c2bdcac6df1d8",
+          "path": "E6/evaluation_config.json"
+        },
+        {
+          "file_sha256": "b2c3a4f5b04a8dc974aeb4699c3ea4cba2d68d4470f79edf3faf8e8cd36fb538",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "6312bf83e1aa21bed4551414213ce4f5aeb5bdc8a2a4934f1f59e535d1dceef6",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "b6e7193f9939a22766d35f299aa0de9e1455d75b9293f5028ab886865be153fe",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "9349a1b48d6527e1ec19716fc2b28ac57cca10e575730241a23234097b67334f",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "d0c728c81ea5b33a428911e351fe96a8b3428507ae58936913990164094b9629",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "869974735a14a4b59e1eafc37e432f06ca42a5d0706b1717469a3ba533e5a737",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "80fa4cf185edc403264f4baf3a83e0940be72fed4af1b424989c3924d7d9be63",
+          "path": "E6/prepare_hypobench_inductive.py"
+        }
+      ],
+      "proposed_value": "Keep testbeds separate. One experimental input set is one literature target or one fixed TRAIN evidence cohort; TEST rows are repeated evaluation items, not independent replications.",
+      "required_resolved_detail_keys": [],
+      "resolved_details": {},
+      "separate_scientific_approval_required": true,
+      "status": "approved",
+      "title": "Testbed/unit and outcome scope"
+    },
+    {
+      "alternative": "A predeclared task taxonomy with an explicit field mapping.",
+      "approval_scope": "Documented methodological settings only; no prediction, runtime verification, evaluator validation, missing dataset, HDR mapping or completed human review is attested.",
+      "approved_at_utc": "2026-11-12T01:33:47.816416+00:00",
+      "approved_by": "researcher via explicit user instruction in this session",
+      "approved_payload_sha256": "c62cd3dc4ec50d255c2cc28e4f80be9ce5ec99327efdea929cf620e6f56a4202",
+      "approved_value": "Lock exact tasks and source allowlists: literature receives a proposed first-ten verified reference-abstract subset; data receives TRAIN text and observed TRAIN labels. TEST rows/labels and planted ground truth are excluded from generation.",
+      "choice": "accept_proposal",
+      "classification": {
+        "A": "Reference evidence must exclude the target answer; held-out outcomes used for evaluation.",
+        "B": "Source fields and existing leakage barriers.",
+        "C": "Exact task strings, TRAIN-labelled observation allowance and first-ten-reference evidence subset.",
+        "id": 4
+      },
+      "evidence": [
+        {
+          "file_sha256": "4299566d25714c4399e489e09379c4056599e867c7d94b79732e41f1a985a819",
+          "path": "E6/protocol.md",
+          "prior_file_sha256": [
+            "725384c9575cfdc89a487386273b4433cd8e88c81814fbb38e57f61825beb2bd",
+            "b4a651d6f7d56f0e32a87649a0c66d545d8852463531d9383a44f8cbea26cbab"
+          ]
+        },
+        {
+          "file_sha256": "5669ffdea736767e963660e73e08e394e85de7a0ec17a1b880b48ae0108b95b8",
+          "path": "E6/config.json",
+          "prior_file_sha256": [
+            "749d2c58957f2e2c2174d0e75f19668c4e7ea9b5d03895513d908e770d808c3a",
+            "368ea98b1e912b41dc8b0f2d7d2e689733d12ab3ca2df5ff5aacf9203ab3c647",
+            "2ce169477e9ad0ba8735017502d98b4218640f0dc58b3abf1fb3bbe7c6335279",
+            "d264c0b277409fcd763e78fb288fa2014c91d18691e7289ba1204324d80c98fc",
+            "fd49410c13c236bfa7db04c07f46e54274e2aa2c4d21cf0098acad2f3c44cac7"
+          ]
+        },
+        {
+          "file_sha256": "2a8543e528e481c8f8a6461dbc0d5a89e2c9767686e17b356c3029a8ad8066fd",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "1e92da4c6897699144b7dab01fb949ab85c9413bb4ccd06690811727fd8e4f2b",
+          "path": "E6/prepare_literature_testbed.py"
+        },
+        {
+          "file_sha256": "d9b6468961eec2a0f2c5eec5ce6488a830ff83fe13efb14d9a4cc59f6ce8a8b5",
+          "path": "E6/prepare_hypobench_testbed.py"
+        },
+        {
+          "file_sha256": "53404862f4d2d0e68d18998ca2342d13a417c7d6fae1a12415059d94fec1992a",
+          "path": "E6/assignment_e6_excerpt_v1.txt"
+        },
+        {
+          "file_sha256": "21ab5039ead75a8bdfb841bdbcfa530f263ee5ad636dd3061bb0a1d5e56b8abc",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "2ed2727b045907a4ce3f1e3a121005609e57f931007251ad75621968ee9d85c0",
+          "path": "E6/data/literature_reference_selection_proposal_v1.json"
+        },
+        {
+          "file_sha256": "ab6b934b6f414bb92584fe1a8bf769232dc7c565f3999642407d7c45a230bedf",
+          "path": "E6/execution_preparation.py"
+        },
+        {
+          "file_sha256": "dc2b676fab7b190d8a1a9329b09e83d0a622e3344727d5e0469bc5781ba47fd7",
+          "path": "E6/inductive_execution.py",
+          "prior_file_sha256": [
+            "45916d0270d11966ca4b13ec2fa38b380725a41c68f01c9ec27224e10fffecf1"
+          ]
+        },
+        {
+          "file_sha256": "6130c3ea2f4af399ed2af49797bd53bb334e010c3a724c59f5bc1feb8b8eeb23",
+          "path": "E6/RUNTIME_INTEGRATION.md"
+        }
+      ],
+      "id": 4,
+      "needed_by": "Before dataset freeze",
+      "prior_evidence_snapshots": [
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "c85a14bf65997f48479c75b1263415418ea6d8b51a9a45b2865cd36b4cbaee80",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "320e736b5559e55334a8b7043e82d8fbbfedacb36bf37c527c3a3402c29de71c",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "c73b89e64370ff2b14ad1c7ac94aafbd283a0dea5d8759f0f293bc9e35082fb1",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "b2c3a4f5b04a8dc974aeb4699c3ea4cba2d68d4470f79edf3faf8e8cd36fb538",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "6312bf83e1aa21bed4551414213ce4f5aeb5bdc8a2a4934f1f59e535d1dceef6",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "60d7c56570d1693981e6193dc5ede09e2e2ce7c413257e9b956d0d1872a353f0",
+          "path": "E6/execution_preparation.py"
+        },
+        {
+          "file_sha256": "b6e7193f9939a22766d35f299aa0de9e1455d75b9293f5028ab886865be153fe",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "9349a1b48d6527e1ec19716fc2b28ac57cca10e575730241a23234097b67334f",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "d0c728c81ea5b33a428911e351fe96a8b3428507ae58936913990164094b9629",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "869974735a14a4b59e1eafc37e432f06ca42a5d0706b1717469a3ba533e5a737",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "83cfee24191576062e9ca8d68c90b2d8bd65a3490bbeda2aebdf74087c03290a",
+          "path": "E6/execution_preparation.py"
+        }
+      ],
+      "proposed_details": {
+        "status": "approved_methodology_only",
+        "values": {
+          "source_field_allowlist": {
+            "data": [
+              "TRAIN.text",
+              "TRAIN.label"
+            ],
+            "literature": [
+              "verified_cited_reference.abstract"
+            ]
+          },
+          "task_text_by_testbed": {
+            "data": "Given a tweet, determine the likely voting preference of the person for the 2028 U.S. presidential election. The classification should consider whether the individual is likely to vote for the Democratic candidate, the Republican candidate, a third-party candidate, or abstain from voting. The analysis should take into account explicit endorsements, political ideology, sentiment toward candidates and policies, use of partisan language, engagement with political topics, and references to past voting behavior. Additionally, indirect indicators such as reactions to major political events, stance on key social and economic issues, and alignment with party-affiliated hashtags or slogans should be factored into the prediction. The classification should aim to capture both strong political affiliations and nuanced, context-dependent voting tendencies.",
+            "literature": "Generate research questions and hypotheses supported by the supplied scientific evidence."
+          }
+        }
+      },
+      "proposed_resolved_details": {
+        "reference_selection_proposal_sha256": "d3465908ea689345da4d4523170be6f24b44e2f4e6b48c9a4582bb852f762615"
+      },
+      "proposed_value": "Lock exact tasks and source allowlists: literature receives a proposed first-ten verified reference-abstract subset; data receives TRAIN text and observed TRAIN labels. TEST rows/labels and planted ground truth are excluded from generation.",
+      "required_resolved_detail_keys": [
+        "task_text_by_testbed",
+        "source_field_allowlist"
+      ],
+      "resolved_details": {
+        "source_field_allowlist": {
+          "data": [
+            "TRAIN.text",
+            "TRAIN.label"
+          ],
+          "literature": [
+            "verified_cited_reference.abstract"
+          ]
+        },
+        "task_text_by_testbed": {
+          "data": "Given a tweet, determine the likely voting preference of the person for the 2028 U.S. presidential election. The classification should consider whether the individual is likely to vote for the Democratic candidate, the Republican candidate, a third-party candidate, or abstain from voting. The analysis should take into account explicit endorsements, political ideology, sentiment toward candidates and policies, use of partisan language, engagement with political topics, and references to past voting behavior. Additionally, indirect indicators such as reactions to major political events, stance on key social and economic issues, and alignment with party-affiliated hashtags or slogans should be factored into the prediction. The classification should aim to capture both strong political affiliations and nuanced, context-dependent voting tendencies.",
+          "literature": "Generate research questions and hypotheses supported by the supplied scientific evidence."
+        }
+      },
+      "separate_scientific_approval_required": true,
+      "status": "approved",
+      "title": "Task construction and allowed fields"
+    },
+    {
+      "alternative": "All 216, or a newly specified stratified design.",
+      "approval_scope": "Documented methodological settings only; no prediction, runtime verification, evaluator validation, missing dataset, HDR mapping or completed human review is attested.",
+      "approved_at_utc": "2026-11-12T01:33:47.816416+00:00",
+      "approved_by": "researcher via explicit user instruction in this session",
+      "approved_payload_sha256": "cc9340abad19f01d9e9b783063a525f8d087083739fa76ced33baf3d73c9fcee",
+      "approved_value": "Approve the existing SHA-256-ranked 100, seed 2026, with no strata. It is deterministic and avoids outcome-informed selection.",
+      "choice": "accept_proposal",
+      "classification": {
+        "A": "At least 100 literature input sets.",
+        "B": "Deterministic 100-ID proposal exists; not approved.",
+        "C": "Approve exact sample, seed and strata.",
+        "id": 5
+      },
+      "evidence": [
+        {
+          "file_sha256": "4299566d25714c4399e489e09379c4056599e867c7d94b79732e41f1a985a819",
+          "path": "E6/protocol.md",
+          "prior_file_sha256": [
+            "725384c9575cfdc89a487386273b4433cd8e88c81814fbb38e57f61825beb2bd",
+            "b4a651d6f7d56f0e32a87649a0c66d545d8852463531d9383a44f8cbea26cbab"
+          ]
+        },
+        {
+          "file_sha256": "5669ffdea736767e963660e73e08e394e85de7a0ec17a1b880b48ae0108b95b8",
+          "path": "E6/config.json",
+          "prior_file_sha256": [
+            "749d2c58957f2e2c2174d0e75f19668c4e7ea9b5d03895513d908e770d808c3a",
+            "368ea98b1e912b41dc8b0f2d7d2e689733d12ab3ca2df5ff5aacf9203ab3c647",
+            "2ce169477e9ad0ba8735017502d98b4218640f0dc58b3abf1fb3bbe7c6335279",
+            "d264c0b277409fcd763e78fb288fa2014c91d18691e7289ba1204324d80c98fc",
+            "fd49410c13c236bfa7db04c07f46e54274e2aa2c4d21cf0098acad2f3c44cac7"
+          ]
+        },
+        {
+          "file_sha256": "2a8543e528e481c8f8a6461dbc0d5a89e2c9767686e17b356c3029a8ad8066fd",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "48fbaa6560463804a6cc9e537a17fb02b8ca574b6f2f59fd849ece1928255a84",
+          "path": "E6/data/literature_sample_proposal_v1.json"
+        },
+        {
+          "file_sha256": "ad05503655b85a12a86e859ef314d44fbe89c4de449f51cc83ceb30ea13dcd84",
+          "path": "E6/data/literature_freeze_plan_v1.json"
+        },
+        {
+          "file_sha256": "53404862f4d2d0e68d18998ca2342d13a417c7d6fae1a12415059d94fec1992a",
+          "path": "E6/assignment_e6_excerpt_v1.txt"
+        },
+        {
+          "file_sha256": "21ab5039ead75a8bdfb841bdbcfa530f263ee5ad636dd3061bb0a1d5e56b8abc",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        }
+      ],
+      "id": 5,
+      "needed_by": "Before dataset freeze",
+      "prior_evidence_snapshots": [
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "c85a14bf65997f48479c75b1263415418ea6d8b51a9a45b2865cd36b4cbaee80",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "320e736b5559e55334a8b7043e82d8fbbfedacb36bf37c527c3a3402c29de71c",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "c73b89e64370ff2b14ad1c7ac94aafbd283a0dea5d8759f0f293bc9e35082fb1",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "b2c3a4f5b04a8dc974aeb4699c3ea4cba2d68d4470f79edf3faf8e8cd36fb538",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "6312bf83e1aa21bed4551414213ce4f5aeb5bdc8a2a4934f1f59e535d1dceef6",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "b6e7193f9939a22766d35f299aa0de9e1455d75b9293f5028ab886865be153fe",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "9349a1b48d6527e1ec19716fc2b28ac57cca10e575730241a23234097b67334f",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "d0c728c81ea5b33a428911e351fe96a8b3428507ae58936913990164094b9629",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "869974735a14a4b59e1eafc37e432f06ca42a5d0706b1717469a3ba533e5a737",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        }
+      ],
+      "proposed_details": {
+        "status": "approved_methodology_only",
+        "values": {
+          "sample_proposal_sha256": "61db8997802773b28811fd0c94f93081a40d98943407fb1e308384954318f838"
+        }
+      },
+      "proposed_value": "Approve the existing SHA-256-ranked 100, seed 2026, with no strata. It is deterministic and avoids outcome-informed selection.",
+      "required_resolved_detail_keys": [
+        "sample_proposal_sha256"
+      ],
+      "resolved_details": {
+        "sample_proposal_sha256": "61db8997802773b28811fd0c94f93081a40d98943407fb1e308384954318f838"
+      },
+      "separate_scientific_approval_required": true,
+      "status": "approved",
+      "title": "Literature sample/strata/seed"
+    },
+    {
+      "alternative": "Freeze only after selecting one primary testbed.",
+      "approved_at_utc": null,
+      "approved_by": null,
+      "approved_payload_sha256": null,
+      "approved_value": null,
+      "choice": null,
+      "classification": {
+        "A": "Reproducible records; prospective protocol.",
+        "B": "Hashes are mechanically derived from preserved artifacts.",
+        "C": "No separate scientific choice; final freeze still requires chosen sample and artifact sign-off.",
+        "id": 6
+      },
+      "evidence": [
+        {
+          "file_sha256": "4299566d25714c4399e489e09379c4056599e867c7d94b79732e41f1a985a819",
+          "path": "E6/protocol.md",
+          "prior_file_sha256": [
+            "725384c9575cfdc89a487386273b4433cd8e88c81814fbb38e57f61825beb2bd",
+            "b4a651d6f7d56f0e32a87649a0c66d545d8852463531d9383a44f8cbea26cbab"
+          ]
+        },
+        {
+          "file_sha256": "5669ffdea736767e963660e73e08e394e85de7a0ec17a1b880b48ae0108b95b8",
+          "path": "E6/config.json",
+          "prior_file_sha256": [
+            "749d2c58957f2e2c2174d0e75f19668c4e7ea9b5d03895513d908e770d808c3a",
+            "368ea98b1e912b41dc8b0f2d7d2e689733d12ab3ca2df5ff5aacf9203ab3c647",
+            "2ce169477e9ad0ba8735017502d98b4218640f0dc58b3abf1fb3bbe7c6335279",
+            "d264c0b277409fcd763e78fb288fa2014c91d18691e7289ba1204324d80c98fc",
+            "fd49410c13c236bfa7db04c07f46e54274e2aa2c4d21cf0098acad2f3c44cac7"
+          ]
+        },
+        {
+          "file_sha256": "2a8543e528e481c8f8a6461dbc0d5a89e2c9767686e17b356c3029a8ad8066fd",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "ad05503655b85a12a86e859ef314d44fbe89c4de449f51cc83ceb30ea13dcd84",
+          "path": "E6/data/literature_freeze_plan_v1.json"
+        },
+        {
+          "file_sha256": "53404862f4d2d0e68d18998ca2342d13a417c7d6fae1a12415059d94fec1992a",
+          "path": "E6/assignment_e6_excerpt_v1.txt"
+        },
+        {
+          "file_sha256": "21ab5039ead75a8bdfb841bdbcfa530f263ee5ad636dd3061bb0a1d5e56b8abc",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        }
+      ],
+      "id": 6,
+      "needed_by": "Before execution authorization",
+      "prior_evidence_snapshots": [
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "c85a14bf65997f48479c75b1263415418ea6d8b51a9a45b2865cd36b4cbaee80",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "320e736b5559e55334a8b7043e82d8fbbfedacb36bf37c527c3a3402c29de71c",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "c73b89e64370ff2b14ad1c7ac94aafbd283a0dea5d8759f0f293bc9e35082fb1",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "b2c3a4f5b04a8dc974aeb4699c3ea4cba2d68d4470f79edf3faf8e8cd36fb538",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "6312bf83e1aa21bed4551414213ce4f5aeb5bdc8a2a4934f1f59e535d1dceef6",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "b6e7193f9939a22766d35f299aa0de9e1455d75b9293f5028ab886865be153fe",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "9349a1b48d6527e1ec19716fc2b28ac57cca10e575730241a23234097b67334f",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "d0c728c81ea5b33a428911e351fe96a8b3428507ae58936913990164094b9629",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "869974735a14a4b59e1eafc37e432f06ca42a5d0706b1717469a3ba533e5a737",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        }
+      ],
+      "proposed_value": "Freeze separate per-testbed manifests and record each hash; do not combine unrelated source hashes.",
+      "required_resolved_detail_keys": [
+        "per_testbed_freeze_plan"
+      ],
+      "resolved_details": {
+        "per_testbed_freeze_plan": null
+      },
+      "separate_scientific_approval_required": false,
+      "status": "pending_researcher_approval",
+      "title": "Dataset hashes/freeze"
+    },
+    {
+      "alternative": "Preserve arXiv versions as separate units, requiring regenerated data.",
+      "approved_at_utc": null,
+      "approved_by": null,
+      "approved_payload_sha256": null,
+      "approved_value": null,
+      "choice": null,
+      "classification": {
+        "A": "No numeric ID/version rule mandated.",
+        "B": "Existing canonical IDs, stripped versions and category union are implementation facts.",
+        "C": "No new change proposed; preserve existing identifiers and cover by final artifact sign-off.",
+        "id": 7
+      },
+      "evidence": [
+        {
+          "file_sha256": "4299566d25714c4399e489e09379c4056599e867c7d94b79732e41f1a985a819",
+          "path": "E6/protocol.md",
+          "prior_file_sha256": [
+            "725384c9575cfdc89a487386273b4433cd8e88c81814fbb38e57f61825beb2bd",
+            "b4a651d6f7d56f0e32a87649a0c66d545d8852463531d9383a44f8cbea26cbab"
+          ]
+        },
+        {
+          "file_sha256": "5669ffdea736767e963660e73e08e394e85de7a0ec17a1b880b48ae0108b95b8",
+          "path": "E6/config.json",
+          "prior_file_sha256": [
+            "749d2c58957f2e2c2174d0e75f19668c4e7ea9b5d03895513d908e770d808c3a",
+            "368ea98b1e912b41dc8b0f2d7d2e689733d12ab3ca2df5ff5aacf9203ab3c647",
+            "2ce169477e9ad0ba8735017502d98b4218640f0dc58b3abf1fb3bbe7c6335279",
+            "d264c0b277409fcd763e78fb288fa2014c91d18691e7289ba1204324d80c98fc",
+            "fd49410c13c236bfa7db04c07f46e54274e2aa2c4d21cf0098acad2f3c44cac7"
+          ]
+        },
+        {
+          "file_sha256": "2a8543e528e481c8f8a6461dbc0d5a89e2c9767686e17b356c3029a8ad8066fd",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "138081887fc5aa2a896a64181bd85858960f0c40d77f8183d9760bec94bd27c3",
+          "path": "E6/prepare_dataset.py"
+        },
+        {
+          "file_sha256": "53404862f4d2d0e68d18998ca2342d13a417c7d6fae1a12415059d94fec1992a",
+          "path": "E6/assignment_e6_excerpt_v1.txt"
+        },
+        {
+          "file_sha256": "21ab5039ead75a8bdfb841bdbcfa530f263ee5ad636dd3061bb0a1d5e56b8abc",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        }
+      ],
+      "id": 7,
+      "needed_by": "Before dataset freeze",
+      "prior_evidence_snapshots": [
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "c85a14bf65997f48479c75b1263415418ea6d8b51a9a45b2865cd36b4cbaee80",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "320e736b5559e55334a8b7043e82d8fbbfedacb36bf37c527c3a3402c29de71c",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "c73b89e64370ff2b14ad1c7ac94aafbd283a0dea5d8759f0f293bc9e35082fb1",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "b2c3a4f5b04a8dc974aeb4699c3ea4cba2d68d4470f79edf3faf8e8cd36fb538",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "6312bf83e1aa21bed4551414213ce4f5aeb5bdc8a2a4934f1f59e535d1dceef6",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "b6e7193f9939a22766d35f299aa0de9e1455d75b9293f5028ab886865be153fe",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "9349a1b48d6527e1ec19716fc2b28ac57cca10e575730241a23234097b67334f",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "d0c728c81ea5b33a428911e351fe96a8b3428507ae58936913990164094b9629",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "869974735a14a4b59e1eafc37e432f06ca42a5d0706b1717469a3ba533e5a737",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        }
+      ],
+      "proposed_value": "Retain implemented canonical arXiv IDs (strip vN), stable HypoBench row IDs, and unioned category memberships; this avoids duplicate experimental units.",
+      "required_resolved_detail_keys": [],
+      "resolved_details": {},
+      "separate_scientific_approval_required": false,
+      "status": "pending_researcher_approval",
+      "title": "IDs, arXiv versions, category overlap"
+    },
+    {
+      "alternative": "Select another locally available model if desired.",
+      "applied_components": {
+        "scope": "component choices only; not full row approval or configuration sign-off",
+        "source": "explicit user instruction in current session",
+        "values": {
+          "generator": "gemma3:12b",
+          "identity": "existing saved immutable model digest"
+        }
+      },
+      "approval_scope": "Documented methodological settings only; no prediction, runtime verification, evaluator validation, missing dataset, HDR mapping or completed human review is attested.",
+      "approved_at_utc": "2026-11-12T01:33:47.816416+00:00",
+      "approved_by": "researcher via explicit user instruction in this session",
+      "approved_payload_sha256": "195dc798fe481f2a65085dcbfc8c748cdcad6937f269a5069a9fd9dd63807c15",
+      "approved_value": "Approve `gemma3:12b` using the saved runtime report and fingerprint; their provenance is now recorded in config. The choice itself remains unapproved.",
+      "choice": "accept_proposal",
+      "classification": {
+        "A": "One generator/settings across arms.",
+        "B": "Gemma local runtime, digest and tokenizer verified; not model selection approval.",
+        "C": "Choose final generator; reconcile older Qwen protocol.",
+        "id": 8
+      },
+      "evidence": [
+        {
+          "file_sha256": "4299566d25714c4399e489e09379c4056599e867c7d94b79732e41f1a985a819",
+          "path": "E6/protocol.md",
+          "prior_file_sha256": [
+            "725384c9575cfdc89a487386273b4433cd8e88c81814fbb38e57f61825beb2bd",
+            "b4a651d6f7d56f0e32a87649a0c66d545d8852463531d9383a44f8cbea26cbab"
+          ]
+        },
+        {
+          "file_sha256": "5669ffdea736767e963660e73e08e394e85de7a0ec17a1b880b48ae0108b95b8",
+          "path": "E6/config.json",
+          "prior_file_sha256": [
+            "749d2c58957f2e2c2174d0e75f19668c4e7ea9b5d03895513d908e770d808c3a",
+            "368ea98b1e912b41dc8b0f2d7d2e689733d12ab3ca2df5ff5aacf9203ab3c647",
+            "2ce169477e9ad0ba8735017502d98b4218640f0dc58b3abf1fb3bbe7c6335279",
+            "d264c0b277409fcd763e78fb288fa2014c91d18691e7289ba1204324d80c98fc",
+            "fd49410c13c236bfa7db04c07f46e54274e2aa2c4d21cf0098acad2f3c44cac7"
+          ]
+        },
+        {
+          "file_sha256": "2a8543e528e481c8f8a6461dbc0d5a89e2c9767686e17b356c3029a8ad8066fd",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "705211d2dafd25afd7c42c52e11d8f3373efc089da313b5fb650ab4068f8783a",
+          "path": "E6/data/gemma3_local_verification_v1.json"
+        },
+        {
+          "file_sha256": "53404862f4d2d0e68d18998ca2342d13a417c7d6fae1a12415059d94fec1992a",
+          "path": "E6/assignment_e6_excerpt_v1.txt"
+        },
+        {
+          "file_sha256": "21ab5039ead75a8bdfb841bdbcfa530f263ee5ad636dd3061bb0a1d5e56b8abc",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        }
+      ],
+      "id": 8,
+      "needed_by": "Before configuration freeze",
+      "prior_evidence_snapshots": [
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "c85a14bf65997f48479c75b1263415418ea6d8b51a9a45b2865cd36b4cbaee80",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "320e736b5559e55334a8b7043e82d8fbbfedacb36bf37c527c3a3402c29de71c",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "c73b89e64370ff2b14ad1c7ac94aafbd283a0dea5d8759f0f293bc9e35082fb1",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "b2c3a4f5b04a8dc974aeb4699c3ea4cba2d68d4470f79edf3faf8e8cd36fb538",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "6312bf83e1aa21bed4551414213ce4f5aeb5bdc8a2a4934f1f59e535d1dceef6",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "b6e7193f9939a22766d35f299aa0de9e1455d75b9293f5028ab886865be153fe",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "9349a1b48d6527e1ec19716fc2b28ac57cca10e575730241a23234097b67334f",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "d0c728c81ea5b33a428911e351fe96a8b3428507ae58936913990164094b9629",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "869974735a14a4b59e1eafc37e432f06ca42a5d0706b1717469a3ba533e5a737",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        }
+      ],
+      "proposed_value": "Approve `gemma3:12b` using the saved runtime report and fingerprint; their provenance is now recorded in config. The choice itself remains unapproved.",
+      "required_resolved_detail_keys": [],
+      "resolved_details": {},
+      "separate_scientific_approval_required": true,
+      "status": "approved",
+      "title": "Generator identity/evidence"
+    },
+    {
+      "alternative": "Explicitly seeded nonzero temperature.",
+      "approval_scope": "Documented methodological settings only; no prediction, runtime verification, evaluator validation, missing dataset, HDR mapping or completed human review is attested.",
+      "approved_at_utc": "2026-11-12T01:33:47.816416+00:00",
+      "approved_by": "researcher via explicit user instruction in this session",
+      "approved_payload_sha256": "da7231fc59f11b5be55626533453766a3b6b73ee6559997b726cbac4f5be4c64",
+      "approved_value": "Propose temperature 0, top_p 1, 2048 output and the same 32768 context for generation/counting. Metadata is 131072. Live DEVELOPMENT verification was blocked and is not approved or certified.",
+      "choice": "accept_proposal",
+      "classification": {
+        "A": "Common decoding settings across arms.",
+        "B": "Saved probe supports 32 output tokens; metadata context 131072, not proposed-limit validation.",
+        "C": "Approve generation/output limits; generation and count use the same 32768 context. Live verification remains blocked; 131072 is metadata only.",
+        "id": 9
+      },
+      "evidence": [
+        {
+          "file_sha256": "4299566d25714c4399e489e09379c4056599e867c7d94b79732e41f1a985a819",
+          "path": "E6/protocol.md",
+          "prior_file_sha256": [
+            "725384c9575cfdc89a487386273b4433cd8e88c81814fbb38e57f61825beb2bd",
+            "b4a651d6f7d56f0e32a87649a0c66d545d8852463531d9383a44f8cbea26cbab"
+          ]
+        },
+        {
+          "file_sha256": "5669ffdea736767e963660e73e08e394e85de7a0ec17a1b880b48ae0108b95b8",
+          "path": "E6/config.json",
+          "prior_file_sha256": [
+            "749d2c58957f2e2c2174d0e75f19668c4e7ea9b5d03895513d908e770d808c3a",
+            "368ea98b1e912b41dc8b0f2d7d2e689733d12ab3ca2df5ff5aacf9203ab3c647",
+            "2ce169477e9ad0ba8735017502d98b4218640f0dc58b3abf1fb3bbe7c6335279",
+            "d264c0b277409fcd763e78fb288fa2014c91d18691e7289ba1204324d80c98fc",
+            "fd49410c13c236bfa7db04c07f46e54274e2aa2c4d21cf0098acad2f3c44cac7"
+          ]
+        },
+        {
+          "file_sha256": "2a8543e528e481c8f8a6461dbc0d5a89e2c9767686e17b356c3029a8ad8066fd",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "9d1d60eca9206439551c43c3ae0c0829daa9e35e7c4423346e1112d79b455dc6",
+          "path": "E6/data/fixed_token_cap_proposal_v1.json"
+        },
+        {
+          "file_sha256": "53404862f4d2d0e68d18998ca2342d13a417c7d6fae1a12415059d94fec1992a",
+          "path": "E6/assignment_e6_excerpt_v1.txt"
+        },
+        {
+          "file_sha256": "21ab5039ead75a8bdfb841bdbcfa530f263ee5ad636dd3061bb0a1d5e56b8abc",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "3254a7364b7a52c57b848480d0a9a7be641711e311146371183f4b7c1be0bcbc",
+          "path": "E6/data/fixed_token_cap_proposal_v2.json"
+        },
+        {
+          "file_sha256": "d8f60bf1f133a25440e00f5a9936b17aad4f6a90c2710d6e5e7aa377859b6185",
+          "path": "E6/data/fixed_token_cap_proposal_v3.json"
+        },
+        {
+          "file_sha256": "83505600695564466be6158b8cdecda61c35323833cd793bbddd26ee344088ad",
+          "path": "E6/data/token_feasibility_v2.json"
+        },
+        {
+          "file_sha256": "1a2d83c1b33bb8dd3c9479904754ae13136ba722f52936055ab6abe71e836455",
+          "path": "E6/ollama_adapter.py"
+        },
+        {
+          "file_sha256": "2cd0585944fa5fb7d1a1d39e820664a26c2d5a7193891cad4e30caf08efd0acd",
+          "path": "E6/data/fixed_token_cap_proposal_v4.json"
+        },
+        {
+          "file_sha256": "379516bb68a626367d59b92d66f77ce8abefecd34f20397f6499207045ca0209",
+          "path": "E6/development_runtime_probe.py"
+        },
+        {
+          "file_sha256": "231fc5d6c7319650d4af9390f300f0088dabe8c85868dc80174ea6896afd198d",
+          "path": "E6/data/development_runtime_probe_v1/report_01.json"
+        }
+      ],
+      "id": 9,
+      "needed_by": "Before configuration freeze",
+      "prior_evidence_snapshots": [
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "c85a14bf65997f48479c75b1263415418ea6d8b51a9a45b2865cd36b4cbaee80",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "320e736b5559e55334a8b7043e82d8fbbfedacb36bf37c527c3a3402c29de71c",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "c73b89e64370ff2b14ad1c7ac94aafbd283a0dea5d8759f0f293bc9e35082fb1",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "b2c3a4f5b04a8dc974aeb4699c3ea4cba2d68d4470f79edf3faf8e8cd36fb538",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "6312bf83e1aa21bed4551414213ce4f5aeb5bdc8a2a4934f1f59e535d1dceef6",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "b6e7193f9939a22766d35f299aa0de9e1455d75b9293f5028ab886865be153fe",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "9349a1b48d6527e1ec19716fc2b28ac57cca10e575730241a23234097b67334f",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "d0c728c81ea5b33a428911e351fe96a8b3428507ae58936913990164094b9629",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "869974735a14a4b59e1eafc37e432f06ca42a5d0706b1717469a3ba533e5a737",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "c73237182011efe5ec71003f903ba77ff713221ce3d98ca9bc6287f6175e4e04",
+          "path": "E6/ollama_adapter.py"
+        }
+      ],
+      "proposed_details": {
+        "status": "approved_methodology_only",
+        "values": {
+          "context_limit": 32768,
+          "immutable_version_or_digest": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+          "max_output_tokens": 2048,
+          "model": "gemma3:12b",
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        }
+      },
+      "proposed_value": "Propose temperature 0, top_p 1, 2048 output and the same 32768 context for generation/counting. Metadata is 131072. Live DEVELOPMENT verification was blocked and is not approved or certified.",
+      "required_resolved_detail_keys": [],
+      "resolved_details": {
+        "context_limit": 32768,
+        "immutable_version_or_digest": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+        "max_output_tokens": 2048,
+        "model": "gemma3:12b",
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "separate_scientific_approval_required": true,
+      "status": "approved",
+      "title": "Decoding and output/context limits"
+    },
+    {
+      "alternative": "Multiple preregistered replicates.",
+      "approval_scope": "Documented methodological settings only; no prediction, runtime verification, evaluator validation, missing dataset, HDR mapping or completed human review is attested.",
+      "approved_at_utc": "2026-11-12T01:33:47.816416+00:00",
+      "approved_by": "researcher via explicit user instruction in this session",
+      "approved_payload_sha256": "dccf10a40050d4ea754855539a7413ec3977cd9a237cd68f09d109604245d4a6",
+      "approved_value": "One replicate per input-set/arm; seed 2026; deterministic seeded arm order within input set. This is the smallest paired design.",
+      "choice": "accept_proposal",
+      "classification": {
+        "A": "Same inputs across arms.",
+        "B": "Explicit generation seed and fixed/seeded arm-output order are implemented, but active values remain unapproved.",
+        "C": "Replicates, generation seed, arm run order.",
+        "id": 10
+      },
+      "evidence": [
+        {
+          "file_sha256": "4299566d25714c4399e489e09379c4056599e867c7d94b79732e41f1a985a819",
+          "path": "E6/protocol.md",
+          "prior_file_sha256": [
+            "725384c9575cfdc89a487386273b4433cd8e88c81814fbb38e57f61825beb2bd",
+            "b4a651d6f7d56f0e32a87649a0c66d545d8852463531d9383a44f8cbea26cbab"
+          ]
+        },
+        {
+          "file_sha256": "5669ffdea736767e963660e73e08e394e85de7a0ec17a1b880b48ae0108b95b8",
+          "path": "E6/config.json",
+          "prior_file_sha256": [
+            "749d2c58957f2e2c2174d0e75f19668c4e7ea9b5d03895513d908e770d808c3a",
+            "368ea98b1e912b41dc8b0f2d7d2e689733d12ab3ca2df5ff5aacf9203ab3c647",
+            "2ce169477e9ad0ba8735017502d98b4218640f0dc58b3abf1fb3bbe7c6335279",
+            "d264c0b277409fcd763e78fb288fa2014c91d18691e7289ba1204324d80c98fc",
+            "fd49410c13c236bfa7db04c07f46e54274e2aa2c4d21cf0098acad2f3c44cac7"
+          ]
+        },
+        {
+          "file_sha256": "2a8543e528e481c8f8a6461dbc0d5a89e2c9767686e17b356c3029a8ad8066fd",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "e08c9706b6c5155c93895bf89d0d85b9d158024a4a1421b0da5de5816c147dc1",
+          "path": "E6/question_pipeline_config.json",
+          "prior_file_sha256": [
+            "c7cdfc47880c3c1ae9604efc8945cb885db1847a497b8087681a91cc0526cfc5",
+            "387f1e1b6cde59af4f01226eba60f4dbb108eeffb40b6d41a94d537982657570",
+            "d9da35815b7b158ee6e18e2edefe0ba779126de75698de155041f00cda424b7f"
+          ]
+        },
+        {
+          "file_sha256": "53404862f4d2d0e68d18998ca2342d13a417c7d6fae1a12415059d94fec1992a",
+          "path": "E6/assignment_e6_excerpt_v1.txt"
+        },
+        {
+          "file_sha256": "21ab5039ead75a8bdfb841bdbcfa530f263ee5ad636dd3061bb0a1d5e56b8abc",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "dc2b676fab7b190d8a1a9329b09e83d0a622e3344727d5e0469bc5781ba47fd7",
+          "path": "E6/inductive_execution.py",
+          "prior_file_sha256": [
+            "45916d0270d11966ca4b13ec2fa38b380725a41c68f01c9ec27224e10fffecf1"
+          ]
+        },
+        {
+          "file_sha256": "6130c3ea2f4af399ed2af49797bd53bb334e010c3a724c59f5bc1feb8b8eeb23",
+          "path": "E6/RUNTIME_INTEGRATION.md"
+        }
+      ],
+      "id": 10,
+      "needed_by": "Before preregistration",
+      "prior_evidence_snapshots": [
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "c85a14bf65997f48479c75b1263415418ea6d8b51a9a45b2865cd36b4cbaee80",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "320e736b5559e55334a8b7043e82d8fbbfedacb36bf37c527c3a3402c29de71c",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "c73b89e64370ff2b14ad1c7ac94aafbd283a0dea5d8759f0f293bc9e35082fb1",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "c706ff10a780b4d40fff34b5e39fa94c28cf2c8d144cf93d162507ab8f4c3eb6",
+          "path": "E6/question_pipeline_config.json"
+        },
+        {
+          "file_sha256": "b2c3a4f5b04a8dc974aeb4699c3ea4cba2d68d4470f79edf3faf8e8cd36fb538",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "6312bf83e1aa21bed4551414213ce4f5aeb5bdc8a2a4934f1f59e535d1dceef6",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "b6e7193f9939a22766d35f299aa0de9e1455d75b9293f5028ab886865be153fe",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "9349a1b48d6527e1ec19716fc2b28ac57cca10e575730241a23234097b67334f",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "d0c728c81ea5b33a428911e351fe96a8b3428507ae58936913990164094b9629",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "869974735a14a4b59e1eafc37e432f06ca42a5d0706b1717469a3ba533e5a737",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        }
+      ],
+      "proposed_details": {
+        "status": "approved_methodology_only",
+        "values": {
+          "replicates_per_input_set_arm": 1,
+          "run_order_algorithm": "sha256_seeded_arm_order_v1",
+          "seed": 2026
+        }
+      },
+      "proposed_resolved_details": {
+        "generation_seed": 2026,
+        "run_order_algorithm": "sha256_seeded_arm_order_v1; shared preparation first, then SHA256 E6-ARM-ORDER-v1|seed|input_set_id|arm"
+      },
+      "proposed_value": "One replicate per input-set/arm; seed 2026; deterministic seeded arm order within input set. This is the smallest paired design.",
+      "required_resolved_detail_keys": [
+        "run_order_algorithm"
+      ],
+      "resolved_details": {
+        "replicates_per_input_set_arm": 1,
+        "run_order_algorithm": "sha256_seeded_arm_order_v1",
+        "seed": 2026
+      },
+      "separate_scientific_approval_required": true,
+      "status": "approved",
+      "title": "Replicates, generation seed and run order"
+    },
+    {
+      "alternative": "No retries at all, including transport retries.",
+      "approval_scope": "Documented methodological settings only; no prediction, runtime verification, evaluator validation, missing dataset, HDR mapping or completed human review is attested.",
+      "approved_at_utc": "2026-11-12T01:33:47.816416+00:00",
+      "approved_by": "researcher via explicit user instruction in this session",
+      "approved_payload_sha256": "9e9a47d66310aa0744783dec3d5e1008446df11ca93e6d8818df00025271812d",
+      "approved_value": "One content-generation attempt; no quality-based regeneration. Keep failed cells. This prevents retries from changing selection or spending unequal budget.",
+      "choice": "accept_proposal",
+      "classification": {
+        "A": "Report actual generated tokens.",
+        "B": "Retry interfaces exist.",
+        "C": "Attempts and transport/format/timeout retry policies.",
+        "id": 11
+      },
+      "evidence": [
+        {
+          "file_sha256": "4299566d25714c4399e489e09379c4056599e867c7d94b79732e41f1a985a819",
+          "path": "E6/protocol.md",
+          "prior_file_sha256": [
+            "725384c9575cfdc89a487386273b4433cd8e88c81814fbb38e57f61825beb2bd",
+            "b4a651d6f7d56f0e32a87649a0c66d545d8852463531d9383a44f8cbea26cbab"
+          ]
+        },
+        {
+          "file_sha256": "5669ffdea736767e963660e73e08e394e85de7a0ec17a1b880b48ae0108b95b8",
+          "path": "E6/config.json",
+          "prior_file_sha256": [
+            "749d2c58957f2e2c2174d0e75f19668c4e7ea9b5d03895513d908e770d808c3a",
+            "368ea98b1e912b41dc8b0f2d7d2e689733d12ab3ca2df5ff5aacf9203ab3c647",
+            "2ce169477e9ad0ba8735017502d98b4218640f0dc58b3abf1fb3bbe7c6335279",
+            "d264c0b277409fcd763e78fb288fa2014c91d18691e7289ba1204324d80c98fc",
+            "fd49410c13c236bfa7db04c07f46e54274e2aa2c4d21cf0098acad2f3c44cac7"
+          ]
+        },
+        {
+          "file_sha256": "2a8543e528e481c8f8a6461dbc0d5a89e2c9767686e17b356c3029a8ad8066fd",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "9f082f57603b1d7e0bbd624ddee513772f61f1186c2ffdcfd7e901d8399fff07",
+          "path": "E6/orchestrator.py",
+          "prior_file_sha256": [
+            "5b4b01a7e7fd0d637353df749a677fd053722263e350379ccc4b85d4af4d5d90"
+          ]
+        },
+        {
+          "file_sha256": "53404862f4d2d0e68d18998ca2342d13a417c7d6fae1a12415059d94fec1992a",
+          "path": "E6/assignment_e6_excerpt_v1.txt"
+        },
+        {
+          "file_sha256": "21ab5039ead75a8bdfb841bdbcfa530f263ee5ad636dd3061bb0a1d5e56b8abc",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        }
+      ],
+      "id": 11,
+      "needed_by": "Before configuration freeze",
+      "prior_evidence_snapshots": [
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "d4a035c7b5a4aeb9bf220ffcf0bb211e5632cfc47b200f12d272d36dbc38a733",
+          "path": "E6/orchestrator.py"
+        },
+        {
+          "file_sha256": "c85a14bf65997f48479c75b1263415418ea6d8b51a9a45b2865cd36b4cbaee80",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "320e736b5559e55334a8b7043e82d8fbbfedacb36bf37c527c3a3402c29de71c",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "c73b89e64370ff2b14ad1c7ac94aafbd283a0dea5d8759f0f293bc9e35082fb1",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "d4a035c7b5a4aeb9bf220ffcf0bb211e5632cfc47b200f12d272d36dbc38a733",
+          "path": "E6/orchestrator.py"
+        },
+        {
+          "file_sha256": "b2c3a4f5b04a8dc974aeb4699c3ea4cba2d68d4470f79edf3faf8e8cd36fb538",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "6312bf83e1aa21bed4551414213ce4f5aeb5bdc8a2a4934f1f59e535d1dceef6",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "b6e7193f9939a22766d35f299aa0de9e1455d75b9293f5028ab886865be153fe",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "9349a1b48d6527e1ec19716fc2b28ac57cca10e575730241a23234097b67334f",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "d0c728c81ea5b33a428911e351fe96a8b3428507ae58936913990164094b9629",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "effea37011b907c01e63b2fc6c0cf052bb1422d7b7c97670ae72f1af56fea1b7",
+          "path": "E6/orchestrator.py"
+        },
+        {
+          "file_sha256": "869974735a14a4b59e1eafc37e432f06ca42a5d0706b1717469a3ba533e5a737",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        }
+      ],
+      "proposed_details": {
+        "status": "approved_methodology_only",
+        "values": {
+          "content_attempts": 1,
+          "timeout_policy": {
+            "retry_count": 0,
+            "timeout_seconds": 600
+          },
+          "transport_retry_policy": "none"
+        }
+      },
+      "proposed_value": "One content-generation attempt; no quality-based regeneration. Keep failed cells. This prevents retries from changing selection or spending unequal budget.",
+      "required_resolved_detail_keys": [
+        "transport_retry_policy",
+        "timeout_policy"
+      ],
+      "resolved_details": {
+        "content_attempts": 1,
+        "timeout_policy": {
+          "retry_count": 0,
+          "timeout_seconds": 600
+        },
+        "transport_retry_policy": "none"
+      },
+      "separate_scientific_approval_required": true,
+      "status": "approved",
+      "title": "Generation retries"
+    },
+    {
+      "alternative": "Content-independent technical replacement under a frozen rule.",
+      "applied_components": {
+        "scope": "component choices only; not full row approval or configuration sign-off",
+        "source": "explicit user instruction in current session",
+        "values": {
+          "missing_scores": {
+            "arm_mean_denominator": "available input sets for that metric and arm",
+            "comparison_denominator": "complete input-set pairs for that metric and contrast",
+            "imputation": "none",
+            "invalid_TEST_prediction_policy": "incorrect within fixed 501 denominator for an evaluable generated set; failed generation/metric remains null",
+            "missing_score": null,
+            "planned_denominator": "all planned input sets, including failed cells; report exclusions explicitly",
+            "questionless_arm_policy": "not_applicable; never infer questions or assign zero"
+          }
+        }
+      },
+      "approval_scope": "Documented methodological settings only; no prediction, runtime verification, evaluator validation, missing dataset, HDR mapping or completed human review is attested.",
+      "approved_at_utc": "2026-11-12T01:33:47.816416+00:00",
+      "approved_by": "researcher via explicit user instruction in this session",
+      "approved_payload_sha256": "acc85d8392142aa087eff4add08af66819c354622c30e710f1e67e98fc34a579",
+      "approved_value": "Failed and unavailable metric scores remain JSON null with no imputation; arm means use available units and comparisons use complete pairs with explicit planned/included/excluded denominators. Invalid TEST predictions are incorrect within the fixed 501 denominator only for an evaluable generated set. No outcome-based replacement.",
+      "choice": "replacement",
+      "classification": {
+        "A": "Report actual outputs without fabricated data.",
+        "B": "Failed-output records are preserved.",
+        "C": "Failure metric values, denominators and replacement policy.",
+        "id": 12
+      },
+      "evidence": [
+        {
+          "file_sha256": "4299566d25714c4399e489e09379c4056599e867c7d94b79732e41f1a985a819",
+          "path": "E6/protocol.md",
+          "prior_file_sha256": [
+            "725384c9575cfdc89a487386273b4433cd8e88c81814fbb38e57f61825beb2bd",
+            "b4a651d6f7d56f0e32a87649a0c66d545d8852463531d9383a44f8cbea26cbab"
+          ]
+        },
+        {
+          "file_sha256": "5669ffdea736767e963660e73e08e394e85de7a0ec17a1b880b48ae0108b95b8",
+          "path": "E6/config.json",
+          "prior_file_sha256": [
+            "749d2c58957f2e2c2174d0e75f19668c4e7ea9b5d03895513d908e770d808c3a",
+            "368ea98b1e912b41dc8b0f2d7d2e689733d12ab3ca2df5ff5aacf9203ab3c647",
+            "2ce169477e9ad0ba8735017502d98b4218640f0dc58b3abf1fb3bbe7c6335279",
+            "d264c0b277409fcd763e78fb288fa2014c91d18691e7289ba1204324d80c98fc",
+            "fd49410c13c236bfa7db04c07f46e54274e2aa2c4d21cf0098acad2f3c44cac7"
+          ]
+        },
+        {
+          "file_sha256": "2a8543e528e481c8f8a6461dbc0d5a89e2c9767686e17b356c3029a8ad8066fd",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "7e9262827ca7ebbfca79aa56da2694a4c932f3c07ef396f87aea5062db696d36",
+          "path": "E6/evaluation_config.json",
+          "prior_file_sha256": [
+            "09be65ec9e804a1e1a692b82cb13811d3854ca5066e3630a15245ead3d4f0774",
+            "b255a2e367a973b387a1c2ff6e6b2f9ac87120fa73ff33c54d02694cbaceba78",
+            "d5c33ec83f4009457f810fd279bc2133d9080908232efc2bc26887483815629e",
+            "eba21ff7fcab6f2bc0e77f54503354bb1b2648af1695fc782413e04f9dea10f3"
+          ]
+        },
+        {
+          "file_sha256": "53404862f4d2d0e68d18998ca2342d13a417c7d6fae1a12415059d94fec1992a",
+          "path": "E6/assignment_e6_excerpt_v1.txt"
+        },
+        {
+          "file_sha256": "21ab5039ead75a8bdfb841bdbcfa530f263ee5ad636dd3061bb0a1d5e56b8abc",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        }
+      ],
+      "id": 12,
+      "needed_by": "Before preregistration",
+      "prior_evidence_snapshots": [
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "c9145c48acfa57d139e0fb25f29f7635ddd08df7a1441564a47c2bdcac6df1d8",
+          "path": "E6/evaluation_config.json"
+        },
+        {
+          "file_sha256": "c85a14bf65997f48479c75b1263415418ea6d8b51a9a45b2865cd36b4cbaee80",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "320e736b5559e55334a8b7043e82d8fbbfedacb36bf37c527c3a3402c29de71c",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "c73b89e64370ff2b14ad1c7ac94aafbd283a0dea5d8759f0f293bc9e35082fb1",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "c9145c48acfa57d139e0fb25f29f7635ddd08df7a1441564a47c2bdcac6df1d8",
+          "path": "E6/evaluation_config.json"
+        },
+        {
+          "file_sha256": "b2c3a4f5b04a8dc974aeb4699c3ea4cba2d68d4470f79edf3faf8e8cd36fb538",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "6312bf83e1aa21bed4551414213ce4f5aeb5bdc8a2a4934f1f59e535d1dceef6",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "b6e7193f9939a22766d35f299aa0de9e1455d75b9293f5028ab886865be153fe",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "9349a1b48d6527e1ec19716fc2b28ac57cca10e575730241a23234097b67334f",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "d0c728c81ea5b33a428911e351fe96a8b3428507ae58936913990164094b9629",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "869974735a14a4b59e1eafc37e432f06ca42a5d0706b1717469a3ba533e5a737",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        }
+      ],
+      "proposed_value": "Invalid JSON/schema and incomplete K=6 are failed cells; retain them in denominator and report missingness; no outcome-based replacement.",
+      "required_resolved_detail_keys": [
+        "failed_cell_metric_values_by_outcome"
+      ],
+      "resolved_details": {
+        "failed_cell_metric_values_by_outcome": {
+          "arm_mean_denominator": "available input sets for that metric and arm",
+          "comparison_denominator": "complete input-set pairs for that metric and contrast",
+          "imputation": "none",
+          "invalid_TEST_prediction_policy": "incorrect within fixed 501 denominator for an evaluable generated set; failed generation/metric remains null",
+          "missing_score": null,
+          "planned_denominator": "all planned input sets, including failed cells; report exclusions explicitly",
+          "questionless_arm_policy": "not_applicable; never infer questions or assign zero"
+        }
+      },
+      "separate_scientific_approval_required": true,
+      "status": "approved",
+      "title": "Invalid output, missing cells, replacement"
+    },
+    {
+      "alternative": "Approve a numeric similarity metric and threshold after development calibration.",
+      "approval_scope": "Documented methodological settings only; no prediction, runtime verification, evaluator validation, missing dataset, HDR mapping or completed human review is attested.",
+      "approved_at_utc": "2026-11-12T01:33:47.816416+00:00",
+      "approved_by": "researcher via explicit user instruction in this session",
+      "approved_payload_sha256": "b4f029a0898c8b30bc88b00138d00da16de79da607df3944afc8f58c5d615507",
+      "approved_value": "Require Boolean pair decisions under the fixed prompt; reject numeric similarity output rather than inventing a cutoff. Keep complete-link order, earliest representative, and fail-closed insufficient-question behavior.",
+      "choice": "accept_proposal",
+      "classification": {
+        "A": "QH-sel removes duplicates with same-question model, then ranks using a fixed rule.",
+        "B": "Current Boolean/complete-link/weights/random implementation.",
+        "C": "Exact selector/fallback/random processing and reconciliation with older protocol.",
+        "id": 13
+      },
+      "evidence": [
+        {
+          "file_sha256": "4299566d25714c4399e489e09379c4056599e867c7d94b79732e41f1a985a819",
+          "path": "E6/protocol.md",
+          "prior_file_sha256": [
+            "725384c9575cfdc89a487386273b4433cd8e88c81814fbb38e57f61825beb2bd",
+            "b4a651d6f7d56f0e32a87649a0c66d545d8852463531d9383a44f8cbea26cbab"
+          ]
+        },
+        {
+          "file_sha256": "5669ffdea736767e963660e73e08e394e85de7a0ec17a1b880b48ae0108b95b8",
+          "path": "E6/config.json",
+          "prior_file_sha256": [
+            "749d2c58957f2e2c2174d0e75f19668c4e7ea9b5d03895513d908e770d808c3a",
+            "368ea98b1e912b41dc8b0f2d7d2e689733d12ab3ca2df5ff5aacf9203ab3c647",
+            "2ce169477e9ad0ba8735017502d98b4218640f0dc58b3abf1fb3bbe7c6335279",
+            "d264c0b277409fcd763e78fb288fa2014c91d18691e7289ba1204324d80c98fc",
+            "fd49410c13c236bfa7db04c07f46e54274e2aa2c4d21cf0098acad2f3c44cac7"
+          ]
+        },
+        {
+          "file_sha256": "2a8543e528e481c8f8a6461dbc0d5a89e2c9767686e17b356c3029a8ad8066fd",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "e08c9706b6c5155c93895bf89d0d85b9d158024a4a1421b0da5de5816c147dc1",
+          "path": "E6/question_pipeline_config.json",
+          "prior_file_sha256": [
+            "c7cdfc47880c3c1ae9604efc8945cb885db1847a497b8087681a91cc0526cfc5",
+            "387f1e1b6cde59af4f01226eba60f4dbb108eeffb40b6d41a94d537982657570",
+            "d9da35815b7b158ee6e18e2edefe0ba779126de75698de155041f00cda424b7f"
+          ]
+        },
+        {
+          "file_sha256": "53404862f4d2d0e68d18998ca2342d13a417c7d6fae1a12415059d94fec1992a",
+          "path": "E6/assignment_e6_excerpt_v1.txt"
+        },
+        {
+          "file_sha256": "21ab5039ead75a8bdfb841bdbcfa530f263ee5ad636dd3061bb0a1d5e56b8abc",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        }
+      ],
+      "id": 13,
+      "needed_by": "Before configuration freeze",
+      "prior_evidence_snapshots": [
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "c85a14bf65997f48479c75b1263415418ea6d8b51a9a45b2865cd36b4cbaee80",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "320e736b5559e55334a8b7043e82d8fbbfedacb36bf37c527c3a3402c29de71c",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "c73b89e64370ff2b14ad1c7ac94aafbd283a0dea5d8759f0f293bc9e35082fb1",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "c706ff10a780b4d40fff34b5e39fa94c28cf2c8d144cf93d162507ab8f4c3eb6",
+          "path": "E6/question_pipeline_config.json"
+        },
+        {
+          "file_sha256": "b2c3a4f5b04a8dc974aeb4699c3ea4cba2d68d4470f79edf3faf8e8cd36fb538",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "6312bf83e1aa21bed4551414213ce4f5aeb5bdc8a2a4934f1f59e535d1dceef6",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "b6e7193f9939a22766d35f299aa0de9e1455d75b9293f5028ab886865be153fe",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "9349a1b48d6527e1ec19716fc2b28ac57cca10e575730241a23234097b67334f",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "d0c728c81ea5b33a428911e351fe96a8b3428507ae58936913990164094b9629",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "869974735a14a4b59e1eafc37e432f06ca42a5d0706b1717469a3ba533e5a737",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        }
+      ],
+      "proposed_value": "Require Boolean pair decisions under the fixed prompt; reject numeric similarity output rather than inventing a cutoff. Keep complete-link order, earliest representative, and fail-closed insufficient-question behavior.",
+      "required_resolved_detail_keys": [],
+      "resolved_details": {
+        "selector_policy": {
+          "clustering": "complete_link_candidate_generation_order_v1",
+          "insufficient_unique_questions": "block both selection arms; no replacement",
+          "random_sampler": "sha256_key_ascending_v1",
+          "random_seed": 2026,
+          "representative": "earliest_candidate_generation_order",
+          "tie_break": "weighted_score_desc_then_generation_order",
+          "weights": {
+            "evidence_grounding": 0.2,
+            "novelty": 0.3,
+            "scientific_significance": 0.25,
+            "specificity": 0.25
+          }
+        }
+      },
+      "separate_scientific_approval_required": true,
+      "status": "approved",
+      "title": "Deduplication"
+    },
+    {
+      "alternative": "Allow a named, audited metadata allowlist.",
+      "approval_scope": "Documented methodological settings only; no prediction, runtime verification, evaluator validation, missing dataset, HDR mapping or completed human review is attested.",
+      "approved_at_utc": "2026-11-12T01:33:47.816416+00:00",
+      "approved_by": "researcher via explicit user instruction in this session",
+      "approved_payload_sha256": "583ca90b69fddf75aa7d965a5e1ecaabb14513341c99404df31ec1ed5660c516",
+      "approved_value": "Remove evidence fields and require an audit that retained task text has no paper-specific evidence. This isolates the evidence-removal control.",
+      "choice": "accept_proposal",
+      "classification": {
+        "A": "D-empty has no substantive inputs.",
+        "B": "Evidence removal and audit interface implemented.",
+        "C": "Exact retained task text and audit policy.",
+        "id": 14
+      },
+      "evidence": [
+        {
+          "file_sha256": "4299566d25714c4399e489e09379c4056599e867c7d94b79732e41f1a985a819",
+          "path": "E6/protocol.md",
+          "prior_file_sha256": [
+            "725384c9575cfdc89a487386273b4433cd8e88c81814fbb38e57f61825beb2bd",
+            "b4a651d6f7d56f0e32a87649a0c66d545d8852463531d9383a44f8cbea26cbab"
+          ]
+        },
+        {
+          "file_sha256": "5669ffdea736767e963660e73e08e394e85de7a0ec17a1b880b48ae0108b95b8",
+          "path": "E6/config.json",
+          "prior_file_sha256": [
+            "749d2c58957f2e2c2174d0e75f19668c4e7ea9b5d03895513d908e770d808c3a",
+            "368ea98b1e912b41dc8b0f2d7d2e689733d12ab3ca2df5ff5aacf9203ab3c647",
+            "2ce169477e9ad0ba8735017502d98b4218640f0dc58b3abf1fb3bbe7c6335279",
+            "d264c0b277409fcd763e78fb288fa2014c91d18691e7289ba1204324d80c98fc",
+            "fd49410c13c236bfa7db04c07f46e54274e2aa2c4d21cf0098acad2f3c44cac7"
+          ]
+        },
+        {
+          "file_sha256": "2a8543e528e481c8f8a6461dbc0d5a89e2c9767686e17b356c3029a8ad8066fd",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "d68363c039c677613dfd303a9696c216bf81637a22902954ef47224dc26e1230",
+          "path": "E6/question_pipeline.py"
+        },
+        {
+          "file_sha256": "53404862f4d2d0e68d18998ca2342d13a417c7d6fae1a12415059d94fec1992a",
+          "path": "E6/assignment_e6_excerpt_v1.txt"
+        },
+        {
+          "file_sha256": "21ab5039ead75a8bdfb841bdbcfa530f263ee5ad636dd3061bb0a1d5e56b8abc",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "dc2b676fab7b190d8a1a9329b09e83d0a622e3344727d5e0469bc5781ba47fd7",
+          "path": "E6/inductive_execution.py",
+          "prior_file_sha256": [
+            "45916d0270d11966ca4b13ec2fa38b380725a41c68f01c9ec27224e10fffecf1"
+          ]
+        },
+        {
+          "file_sha256": "6130c3ea2f4af399ed2af49797bd53bb334e010c3a724c59f5bc1feb8b8eeb23",
+          "path": "E6/RUNTIME_INTEGRATION.md"
+        }
+      ],
+      "id": 14,
+      "needed_by": "Before dataset freeze",
+      "prior_evidence_snapshots": [
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "c85a14bf65997f48479c75b1263415418ea6d8b51a9a45b2865cd36b4cbaee80",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "320e736b5559e55334a8b7043e82d8fbbfedacb36bf37c527c3a3402c29de71c",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "c73b89e64370ff2b14ad1c7ac94aafbd283a0dea5d8759f0f293bc9e35082fb1",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "b2c3a4f5b04a8dc974aeb4699c3ea4cba2d68d4470f79edf3faf8e8cd36fb538",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "6312bf83e1aa21bed4551414213ce4f5aeb5bdc8a2a4934f1f59e535d1dceef6",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "b6e7193f9939a22766d35f299aa0de9e1455d75b9293f5028ab886865be153fe",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "9349a1b48d6527e1ec19716fc2b28ac57cca10e575730241a23234097b67334f",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "d0c728c81ea5b33a428911e351fe96a8b3428507ae58936913990164094b9629",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "bf20c51c7f9339f23b21adfc5ca58c56c1c87add5d7aad9dc1407c4162a52726",
+          "path": "E6/question_pipeline.py"
+        },
+        {
+          "file_sha256": "869974735a14a4b59e1eafc37e432f06ca42a5d0706b1717469a3ba533e5a737",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        }
+      ],
+      "proposed_details": {
+        "status": "approved_methodology_only",
+        "values": {
+          "task_leakage_audit_policy": "exact approved common task only; source-bound full retained-task audit; no target-specific or TEST content"
+        }
+      },
+      "proposed_value": "Remove evidence fields and require an audit that retained task text has no paper-specific evidence. This isolates the evidence-removal control.",
+      "required_resolved_detail_keys": [
+        "task_leakage_audit_policy"
+      ],
+      "resolved_details": {
+        "task_leakage_audit_policy": "exact approved common task only; source-bound full retained-task audit; no target-specific or TEST content"
+      },
+      "separate_scientific_approval_required": true,
+      "status": "approved",
+      "title": "D-empty task leakage"
+    },
+    {
+      "alternative": "Restrict donors to DEVELOPMENT, if a control with non-evaluation evidence is scientifically intended.",
+      "approval_scope": "Documented methodological settings only; no prediction, runtime verification, evaluator validation, missing dataset, HDR mapping or completed human review is attested.",
+      "approved_at_utc": "2026-11-12T01:33:47.816416+00:00",
+      "approved_by": "researcher via explicit user instruction in this session",
+      "approved_payload_sha256": "b714f51b202de2c34c6a8057005e29f0a830d19c0cbc866648ffca3989728dce",
+      "approved_value": "Use separately approved no-self/no-reuse derangements of TRAIN evidence cohorts for data and ten-reference evidence bundles for literature. Never use TEST observations as shuffled generation evidence.",
+      "choice": "accept_proposal",
+      "classification": {
+        "A": "D-shuffled receives another input set evidence, never self.",
+        "B": "Seeded derangement implementation exists.",
+        "C": "Approve donor cohorts and interpretation: same-task TRAIN swaps share the underlying mechanism; a different-mechanism negative control requires an adapted donor policy.",
+        "id": 15
+      },
+      "evidence": [
+        {
+          "file_sha256": "4299566d25714c4399e489e09379c4056599e867c7d94b79732e41f1a985a819",
+          "path": "E6/protocol.md",
+          "prior_file_sha256": [
+            "725384c9575cfdc89a487386273b4433cd8e88c81814fbb38e57f61825beb2bd",
+            "b4a651d6f7d56f0e32a87649a0c66d545d8852463531d9383a44f8cbea26cbab"
+          ]
+        },
+        {
+          "file_sha256": "5669ffdea736767e963660e73e08e394e85de7a0ec17a1b880b48ae0108b95b8",
+          "path": "E6/config.json",
+          "prior_file_sha256": [
+            "749d2c58957f2e2c2174d0e75f19668c4e7ea9b5d03895513d908e770d808c3a",
+            "368ea98b1e912b41dc8b0f2d7d2e689733d12ab3ca2df5ff5aacf9203ab3c647",
+            "2ce169477e9ad0ba8735017502d98b4218640f0dc58b3abf1fb3bbe7c6335279",
+            "d264c0b277409fcd763e78fb288fa2014c91d18691e7289ba1204324d80c98fc",
+            "fd49410c13c236bfa7db04c07f46e54274e2aa2c4d21cf0098acad2f3c44cac7"
+          ]
+        },
+        {
+          "file_sha256": "2a8543e528e481c8f8a6461dbc0d5a89e2c9767686e17b356c3029a8ad8066fd",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "e08c9706b6c5155c93895bf89d0d85b9d158024a4a1421b0da5de5816c147dc1",
+          "path": "E6/question_pipeline_config.json",
+          "prior_file_sha256": [
+            "c7cdfc47880c3c1ae9604efc8945cb885db1847a497b8087681a91cc0526cfc5",
+            "387f1e1b6cde59af4f01226eba60f4dbb108eeffb40b6d41a94d537982657570",
+            "d9da35815b7b158ee6e18e2edefe0ba779126de75698de155041f00cda424b7f"
+          ]
+        },
+        {
+          "file_sha256": "53404862f4d2d0e68d18998ca2342d13a417c7d6fae1a12415059d94fec1992a",
+          "path": "E6/assignment_e6_excerpt_v1.txt"
+        },
+        {
+          "file_sha256": "21ab5039ead75a8bdfb841bdbcfa530f263ee5ad636dd3061bb0a1d5e56b8abc",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "e6508a57bf6f8923d10b18aaa52e33d3c2bb08a4cdee2f3d8f96744727dfdea4",
+          "path": "E6/data/priority10_data_execution_plan_v1.json"
+        },
+        {
+          "file_sha256": "dc2b676fab7b190d8a1a9329b09e83d0a622e3344727d5e0469bc5781ba47fd7",
+          "path": "E6/inductive_execution.py",
+          "prior_file_sha256": [
+            "45916d0270d11966ca4b13ec2fa38b380725a41c68f01c9ec27224e10fffecf1"
+          ]
+        },
+        {
+          "file_sha256": "6130c3ea2f4af399ed2af49797bd53bb334e010c3a724c59f5bc1feb8b8eeb23",
+          "path": "E6/RUNTIME_INTEGRATION.md"
+        },
+        {
+          "file_sha256": "6dbfb731b06873911427334591342b1b6d3a24619da4c549db16d551b811487b",
+          "path": "E6/data/priority10_data_execution_plan_v2.json"
+        }
+      ],
+      "id": 15,
+      "implementation_limitations": "Within-task TRAIN donor swaps share the global mechanism and cannot be assumed to be mismatched-mechanism negative controls; approve interpretation or adapt the donor policy.",
+      "needed_by": "Before dataset freeze",
+      "prior_evidence_snapshots": [
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "c85a14bf65997f48479c75b1263415418ea6d8b51a9a45b2865cd36b4cbaee80",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "320e736b5559e55334a8b7043e82d8fbbfedacb36bf37c527c3a3402c29de71c",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "c73b89e64370ff2b14ad1c7ac94aafbd283a0dea5d8759f0f293bc9e35082fb1",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "c706ff10a780b4d40fff34b5e39fa94c28cf2c8d144cf93d162507ab8f4c3eb6",
+          "path": "E6/question_pipeline_config.json"
+        },
+        {
+          "file_sha256": "b2c3a4f5b04a8dc974aeb4699c3ea4cba2d68d4470f79edf3faf8e8cd36fb538",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "6312bf83e1aa21bed4551414213ce4f5aeb5bdc8a2a4934f1f59e535d1dceef6",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "b6e7193f9939a22766d35f299aa0de9e1455d75b9293f5028ab886865be153fe",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "9349a1b48d6527e1ec19716fc2b28ac57cca10e575730241a23234097b67334f",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "d0c728c81ea5b33a428911e351fe96a8b3428507ae58936913990164094b9629",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "869974735a14a4b59e1eafc37e432f06ca42a5d0706b1717469a3ba533e5a737",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        }
+      ],
+      "proposed_details": {
+        "status": "approved_methodology_only",
+        "values": {
+          "assignment_cohorts": {
+            "data": "all 20 proposed TRAIN evidence sets",
+            "literature": "all 100 proposed ten-reference evidence bundles"
+          },
+          "interpretation": "data swap tests evidence-draw sensitivity within the same mechanism; no guaranteed negative effect"
+        }
+      },
+      "proposed_value": "Use separately approved no-self/no-reuse derangements of TRAIN evidence cohorts for data and ten-reference evidence bundles for literature. Never use TEST observations as shuffled generation evidence.",
+      "required_resolved_detail_keys": [
+        "assignment_cohorts"
+      ],
+      "resolved_details": {
+        "assignment_cohorts": {
+          "data": "all 20 proposed TRAIN evidence sets",
+          "literature": "all 100 proposed ten-reference evidence bundles"
+        },
+        "interpretation": "data swap tests evidence-draw sensitivity within the same mechanism; no guaranteed negative effect"
+      },
+      "separate_scientific_approval_required": true,
+      "status": "approved",
+      "title": "D-shuffled donors/assignments"
+    },
+    {
+      "alternative": "A lower cap chosen for cost, accepting more incomplete arms.",
+      "approval_scope": "Documented methodological settings only; no prediction, runtime verification, evaluator validation, missing dataset, HDR mapping or completed human review is attested.",
+      "approved_at_utc": "2026-11-12T01:33:47.816416+00:00",
+      "approved_by": "researcher via explicit user instruction in this session",
+      "approved_payload_sha256": "369267a7fb1cf09dd7c438c8eaaa00424545093fda61dfef517629b152cc9251",
+      "approved_value": "Keep the proposed 8192 generated tokens per input set/arm. Intermediate/discarded/retry/probe outputs count; prompts are recorded separately. Context/output limits are independent unapproved choices; no completion guarantee.",
+      "choice": "accept_proposal",
+      "classification": {
+        "A": "Common generated-token cap; actual tokens reported.",
+        "B": "8192 generated tokens remains an unapproved cap proposal; no completion adequacy claim.",
+        "C": "Numeric generated-token cap and failure tradeoff.",
+        "id": 16
+      },
+      "evidence": [
+        {
+          "file_sha256": "4299566d25714c4399e489e09379c4056599e867c7d94b79732e41f1a985a819",
+          "path": "E6/protocol.md",
+          "prior_file_sha256": [
+            "725384c9575cfdc89a487386273b4433cd8e88c81814fbb38e57f61825beb2bd",
+            "b4a651d6f7d56f0e32a87649a0c66d545d8852463531d9383a44f8cbea26cbab"
+          ]
+        },
+        {
+          "file_sha256": "5669ffdea736767e963660e73e08e394e85de7a0ec17a1b880b48ae0108b95b8",
+          "path": "E6/config.json",
+          "prior_file_sha256": [
+            "749d2c58957f2e2c2174d0e75f19668c4e7ea9b5d03895513d908e770d808c3a",
+            "368ea98b1e912b41dc8b0f2d7d2e689733d12ab3ca2df5ff5aacf9203ab3c647",
+            "2ce169477e9ad0ba8735017502d98b4218640f0dc58b3abf1fb3bbe7c6335279",
+            "d264c0b277409fcd763e78fb288fa2014c91d18691e7289ba1204324d80c98fc",
+            "fd49410c13c236bfa7db04c07f46e54274e2aa2c4d21cf0098acad2f3c44cac7"
+          ]
+        },
+        {
+          "file_sha256": "2a8543e528e481c8f8a6461dbc0d5a89e2c9767686e17b356c3029a8ad8066fd",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "9d1d60eca9206439551c43c3ae0c0829daa9e35e7c4423346e1112d79b455dc6",
+          "path": "E6/data/fixed_token_cap_proposal_v1.json"
+        },
+        {
+          "file_sha256": "9d1e6496e783a9db3d981045add8ede2c4787bf5afa0125c2c1eec1fd0177e8f",
+          "path": "E6/token_budget.py"
+        },
+        {
+          "file_sha256": "53404862f4d2d0e68d18998ca2342d13a417c7d6fae1a12415059d94fec1992a",
+          "path": "E6/assignment_e6_excerpt_v1.txt"
+        },
+        {
+          "file_sha256": "21ab5039ead75a8bdfb841bdbcfa530f263ee5ad636dd3061bb0a1d5e56b8abc",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "3254a7364b7a52c57b848480d0a9a7be641711e311146371183f4b7c1be0bcbc",
+          "path": "E6/data/fixed_token_cap_proposal_v2.json"
+        },
+        {
+          "file_sha256": "d8f60bf1f133a25440e00f5a9936b17aad4f6a90c2710d6e5e7aa377859b6185",
+          "path": "E6/data/fixed_token_cap_proposal_v3.json"
+        },
+        {
+          "file_sha256": "2cd0585944fa5fb7d1a1d39e820664a26c2d5a7193891cad4e30caf08efd0acd",
+          "path": "E6/data/fixed_token_cap_proposal_v4.json"
+        },
+        {
+          "file_sha256": "379516bb68a626367d59b92d66f77ce8abefecd34f20397f6499207045ca0209",
+          "path": "E6/development_runtime_probe.py"
+        },
+        {
+          "file_sha256": "231fc5d6c7319650d4af9390f300f0088dabe8c85868dc80174ea6896afd198d",
+          "path": "E6/data/development_runtime_probe_v1/report_01.json"
+        }
+      ],
+      "id": 16,
+      "needed_by": "Before configuration freeze",
+      "prior_evidence_snapshots": [
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "b9dd8b54a9a16f4f324200a86d56f79caff51906bb7d7a70cfb11fd315c547f2",
+          "path": "E6/token_budget.py"
+        },
+        {
+          "file_sha256": "c85a14bf65997f48479c75b1263415418ea6d8b51a9a45b2865cd36b4cbaee80",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "320e736b5559e55334a8b7043e82d8fbbfedacb36bf37c527c3a3402c29de71c",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "b9dd8b54a9a16f4f324200a86d56f79caff51906bb7d7a70cfb11fd315c547f2",
+          "path": "E6/token_budget.py"
+        },
+        {
+          "file_sha256": "c73b89e64370ff2b14ad1c7ac94aafbd283a0dea5d8759f0f293bc9e35082fb1",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "9e90869b31497b072f25a8c2a70af0299fdbaf72ec6d4e97761dffc56c63c2ee",
+          "path": "E6/token_budget.py"
+        },
+        {
+          "file_sha256": "b2c3a4f5b04a8dc974aeb4699c3ea4cba2d68d4470f79edf3faf8e8cd36fb538",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "6312bf83e1aa21bed4551414213ce4f5aeb5bdc8a2a4934f1f59e535d1dceef6",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "b6e7193f9939a22766d35f299aa0de9e1455d75b9293f5028ab886865be153fe",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "9349a1b48d6527e1ec19716fc2b28ac57cca10e575730241a23234097b67334f",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "d0c728c81ea5b33a428911e351fe96a8b3428507ae58936913990164094b9629",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "869974735a14a4b59e1eafc37e432f06ca42a5d0706b1717469a3ba533e5a737",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        }
+      ],
+      "proposed_details": {
+        "status": "approved_methodology_only",
+        "values": {
+          "accounting_unit": "generated_tokens",
+          "tokens_per_input_set_arm": 8192
+        }
+      },
+      "proposed_value": "Keep the proposed 8192 generated tokens per input set/arm. Intermediate/discarded/retry/probe outputs count; prompts are recorded separately. Context/output limits are independent unapproved choices; no completion guarantee.",
+      "required_resolved_detail_keys": [],
+      "resolved_details": {
+        "accounting_unit": "generated_tokens",
+        "tokens_per_input_set_arm": 8192
+      },
+      "separate_scientific_approval_required": true,
+      "status": "approved",
+      "title": "Shared generation-token cap"
+    },
+    {
+      "alternative": "Revise/version the schema before approval.",
+      "approved_at_utc": null,
+      "approved_by": null,
+      "approved_payload_sha256": null,
+      "approved_value": null,
+      "choice": null,
+      "classification": {
+        "A": "Deliverable JSONL fields and external arm/testbed labels specified.",
+        "B": "Internal envelope is an implemented interface, not scientific approval.",
+        "C": "No separate research choice; implement schema compatibility and retain final artifact sign-off.",
+        "id": 17
+      },
+      "evidence": [
+        {
+          "file_sha256": "4299566d25714c4399e489e09379c4056599e867c7d94b79732e41f1a985a819",
+          "path": "E6/protocol.md",
+          "prior_file_sha256": [
+            "725384c9575cfdc89a487386273b4433cd8e88c81814fbb38e57f61825beb2bd",
+            "b4a651d6f7d56f0e32a87649a0c66d545d8852463531d9383a44f8cbea26cbab"
+          ]
+        },
+        {
+          "file_sha256": "5669ffdea736767e963660e73e08e394e85de7a0ec17a1b880b48ae0108b95b8",
+          "path": "E6/config.json",
+          "prior_file_sha256": [
+            "749d2c58957f2e2c2174d0e75f19668c4e7ea9b5d03895513d908e770d808c3a",
+            "368ea98b1e912b41dc8b0f2d7d2e689733d12ab3ca2df5ff5aacf9203ab3c647",
+            "2ce169477e9ad0ba8735017502d98b4218640f0dc58b3abf1fb3bbe7c6335279",
+            "d264c0b277409fcd763e78fb288fa2014c91d18691e7289ba1204324d80c98fc",
+            "fd49410c13c236bfa7db04c07f46e54274e2aa2c4d21cf0098acad2f3c44cac7"
+          ]
+        },
+        {
+          "file_sha256": "2a8543e528e481c8f8a6461dbc0d5a89e2c9767686e17b356c3029a8ad8066fd",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "9f082f57603b1d7e0bbd624ddee513772f61f1186c2ffdcfd7e901d8399fff07",
+          "path": "E6/orchestrator.py",
+          "prior_file_sha256": [
+            "5b4b01a7e7fd0d637353df749a677fd053722263e350379ccc4b85d4af4d5d90"
+          ]
+        },
+        {
+          "file_sha256": "53404862f4d2d0e68d18998ca2342d13a417c7d6fae1a12415059d94fec1992a",
+          "path": "E6/assignment_e6_excerpt_v1.txt"
+        },
+        {
+          "file_sha256": "21ab5039ead75a8bdfb841bdbcfa530f263ee5ad636dd3061bb0a1d5e56b8abc",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "ab6b934b6f414bb92584fe1a8bf769232dc7c565f3999642407d7c45a230bedf",
+          "path": "E6/execution_preparation.py"
+        },
+        {
+          "file_sha256": "dc2b676fab7b190d8a1a9329b09e83d0a622e3344727d5e0469bc5781ba47fd7",
+          "path": "E6/inductive_execution.py",
+          "prior_file_sha256": [
+            "45916d0270d11966ca4b13ec2fa38b380725a41c68f01c9ec27224e10fffecf1"
+          ]
+        },
+        {
+          "file_sha256": "6130c3ea2f4af399ed2af49797bd53bb334e010c3a724c59f5bc1feb8b8eeb23",
+          "path": "E6/RUNTIME_INTEGRATION.md"
+        }
+      ],
+      "id": 17,
+      "needed_by": "Before preregistration",
+      "prior_evidence_snapshots": [
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "d4a035c7b5a4aeb9bf220ffcf0bb211e5632cfc47b200f12d272d36dbc38a733",
+          "path": "E6/orchestrator.py"
+        },
+        {
+          "file_sha256": "c85a14bf65997f48479c75b1263415418ea6d8b51a9a45b2865cd36b4cbaee80",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "320e736b5559e55334a8b7043e82d8fbbfedacb36bf37c527c3a3402c29de71c",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "c73b89e64370ff2b14ad1c7ac94aafbd283a0dea5d8759f0f293bc9e35082fb1",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "d4a035c7b5a4aeb9bf220ffcf0bb211e5632cfc47b200f12d272d36dbc38a733",
+          "path": "E6/orchestrator.py"
+        },
+        {
+          "file_sha256": "b2c3a4f5b04a8dc974aeb4699c3ea4cba2d68d4470f79edf3faf8e8cd36fb538",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "6312bf83e1aa21bed4551414213ce4f5aeb5bdc8a2a4934f1f59e535d1dceef6",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "60d7c56570d1693981e6193dc5ede09e2e2ce7c413257e9b956d0d1872a353f0",
+          "path": "E6/execution_preparation.py"
+        },
+        {
+          "file_sha256": "b6e7193f9939a22766d35f299aa0de9e1455d75b9293f5028ab886865be153fe",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "9349a1b48d6527e1ec19716fc2b28ac57cca10e575730241a23234097b67334f",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "d0c728c81ea5b33a428911e351fe96a8b3428507ae58936913990164094b9629",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "effea37011b907c01e63b2fc6c0cf052bb1422d7b7c97670ae72f1af56fea1b7",
+          "path": "E6/orchestrator.py"
+        },
+        {
+          "file_sha256": "869974735a14a4b59e1eafc37e432f06ca42a5d0706b1717469a3ba533e5a737",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "83cfee24191576062e9ca8d68c90b2d8bd65a3490bbeda2aebdf74087c03290a",
+          "path": "E6/execution_preparation.py"
+        }
+      ],
+      "proposed_value": "Approve the current common envelope only after checking that it retains arm/input IDs, calls, tokens, errors, raw output/provenance, and evaluation links.",
+      "required_resolved_detail_keys": [
+        "output_schema_contract"
+      ],
+      "resolved_details": {
+        "output_schema_contract": null
+      },
+      "separate_scientific_approval_required": false,
+      "status": "pending_researcher_approval",
+      "title": "Output schema"
+    },
+    {
+      "alternative": "Name one primary testbed/outcome and make the rest secondary.",
+      "approval_scope": "Documented methodological settings only; no prediction, runtime verification, evaluator validation, missing dataset, HDR mapping or completed human review is attested.",
+      "approved_at_utc": "2026-11-12T01:33:47.816416+00:00",
+      "approved_by": "researcher via explicit user instruction in this session",
+      "approved_payload_sha256": "d9857d4f10c324c19dc4c511d019fdc8db63f750019499bd2fd42c52c6afd35f",
+      "approved_value": "Use held-out accuracy per unchanged TRAIN-generated set, literature reconstruction metrics and source-grounded paper HDR when real feature mapping/judgments exist. Keep 14-reference recall explicitly separate from HDR. Primary hierarchy and contrasts remain to be approved.",
+      "choice": "accept_proposal",
+      "classification": {
+        "A": "All arms, both testbeds, all required metric families.",
+        "B": "Metric interfaces exist.",
+        "C": "Per-evidence-set held-out accuracy, real paper HDR versus separate 14-reference recall, evaluator policy and primary contrasts.",
+        "id": 18
+      },
+      "evidence": [
+        {
+          "file_sha256": "4299566d25714c4399e489e09379c4056599e867c7d94b79732e41f1a985a819",
+          "path": "E6/protocol.md",
+          "prior_file_sha256": [
+            "725384c9575cfdc89a487386273b4433cd8e88c81814fbb38e57f61825beb2bd",
+            "b4a651d6f7d56f0e32a87649a0c66d545d8852463531d9383a44f8cbea26cbab"
+          ]
+        },
+        {
+          "file_sha256": "5669ffdea736767e963660e73e08e394e85de7a0ec17a1b880b48ae0108b95b8",
+          "path": "E6/config.json",
+          "prior_file_sha256": [
+            "749d2c58957f2e2c2174d0e75f19668c4e7ea9b5d03895513d908e770d808c3a",
+            "368ea98b1e912b41dc8b0f2d7d2e689733d12ab3ca2df5ff5aacf9203ab3c647",
+            "2ce169477e9ad0ba8735017502d98b4218640f0dc58b3abf1fb3bbe7c6335279",
+            "d264c0b277409fcd763e78fb288fa2014c91d18691e7289ba1204324d80c98fc",
+            "fd49410c13c236bfa7db04c07f46e54274e2aa2c4d21cf0098acad2f3c44cac7"
+          ]
+        },
+        {
+          "file_sha256": "2a8543e528e481c8f8a6461dbc0d5a89e2c9767686e17b356c3029a8ad8066fd",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "7e9262827ca7ebbfca79aa56da2694a4c932f3c07ef396f87aea5062db696d36",
+          "path": "E6/evaluation_config.json",
+          "prior_file_sha256": [
+            "09be65ec9e804a1e1a692b82cb13811d3854ca5066e3630a15245ead3d4f0774",
+            "b255a2e367a973b387a1c2ff6e6b2f9ac87120fa73ff33c54d02694cbaceba78",
+            "d5c33ec83f4009457f810fd279bc2133d9080908232efc2bc26887483815629e",
+            "eba21ff7fcab6f2bc0e77f54503354bb1b2648af1695fc782413e04f9dea10f3"
+          ]
+        },
+        {
+          "file_sha256": "53404862f4d2d0e68d18998ca2342d13a417c7d6fae1a12415059d94fec1992a",
+          "path": "E6/assignment_e6_excerpt_v1.txt"
+        },
+        {
+          "file_sha256": "21ab5039ead75a8bdfb841bdbcfa530f263ee5ad636dd3061bb0a1d5e56b8abc",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "296d1ce5df21ba36f7bf7a0b52f5677e5a2b21dda6b056e603e9836728d81801",
+          "path": "E6/prepare_hypobench_inductive.py"
+        },
+        {
+          "file_sha256": "dc2b676fab7b190d8a1a9329b09e83d0a622e3344727d5e0469bc5781ba47fd7",
+          "path": "E6/inductive_execution.py",
+          "prior_file_sha256": [
+            "45916d0270d11966ca4b13ec2fa38b380725a41c68f01c9ec27224e10fffecf1"
+          ]
+        },
+        {
+          "file_sha256": "6130c3ea2f4af399ed2af49797bd53bb334e010c3a724c59f5bc1feb8b8eeb23",
+          "path": "E6/RUNTIME_INTEGRATION.md"
+        }
+      ],
+      "id": 18,
+      "needed_by": "Before preregistration",
+      "prior_evidence_snapshots": [
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "c9145c48acfa57d139e0fb25f29f7635ddd08df7a1441564a47c2bdcac6df1d8",
+          "path": "E6/evaluation_config.json"
+        },
+        {
+          "file_sha256": "c85a14bf65997f48479c75b1263415418ea6d8b51a9a45b2865cd36b4cbaee80",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "320e736b5559e55334a8b7043e82d8fbbfedacb36bf37c527c3a3402c29de71c",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "c73b89e64370ff2b14ad1c7ac94aafbd283a0dea5d8759f0f293bc9e35082fb1",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "c9145c48acfa57d139e0fb25f29f7635ddd08df7a1441564a47c2bdcac6df1d8",
+          "path": "E6/evaluation_config.json"
+        },
+        {
+          "file_sha256": "b2c3a4f5b04a8dc974aeb4699c3ea4cba2d68d4470f79edf3faf8e8cd36fb538",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "6312bf83e1aa21bed4551414213ce4f5aeb5bdc8a2a4934f1f59e535d1dceef6",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "b6e7193f9939a22766d35f299aa0de9e1455d75b9293f5028ab886865be153fe",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "9349a1b48d6527e1ec19716fc2b28ac57cca10e575730241a23234097b67334f",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "d0c728c81ea5b33a428911e351fe96a8b3428507ae58936913990164094b9629",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "869974735a14a4b59e1eafc37e432f06ca42a5d0706b1717469a3ba533e5a737",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "80fa4cf185edc403264f4baf3a83e0940be72fed4af1b424989c3924d7d9be63",
+          "path": "E6/prepare_hypobench_inductive.py"
+        }
+      ],
+      "proposed_details": {
+        "status": "approved_methodology_only",
+        "values": {
+          "primary_outcomes_and_contrast_family": {
+            "data": "heldout_accuracy",
+            "focal_contrasts": [
+              [
+                "QH-sel",
+                "QH-rand"
+              ],
+              [
+                "D",
+                "D-empty"
+              ]
+            ],
+            "inference": "descriptive only; no familywise significance claims",
+            "literature": "main_hypothesis_best_similarity"
+          }
+        }
+      },
+      "proposed_value": "Use held-out accuracy per unchanged TRAIN-generated set, literature reconstruction metrics and source-grounded paper HDR when real feature mapping/judgments exist. Keep 14-reference recall explicitly separate from HDR. Primary hierarchy and contrasts remain to be approved.",
+      "required_resolved_detail_keys": [
+        "primary_outcomes_and_contrast_family"
+      ],
+      "resolved_details": {
+        "primary_outcomes_and_contrast_family": {
+          "data": "heldout_accuracy",
+          "focal_contrasts": [
+            [
+              "QH-sel",
+              "QH-rand"
+            ],
+            [
+              "D",
+              "D-empty"
+            ]
+          ],
+          "inference": "descriptive only; no familywise significance claims",
+          "literature": "main_hypothesis_best_similarity"
+        }
+      },
+      "separate_scientific_approval_required": true,
+      "status": "approved",
+      "title": "Outcomes and confirmatory contrasts"
+    },
+    {
+      "alternative": "A frozen embedding/cosine model for similarity and manual same-question adjudication.",
+      "approved_at_utc": null,
+      "approved_by": null,
+      "approved_payload_sha256": null,
+      "approved_value": null,
+      "choice": null,
+      "classification": {
+        "A": "Best reconstruction similarity and same-question judgment.",
+        "B": "Target extraction is not validated truth.",
+        "C": "Similarity scale/model/rubric, matcher, field missingness.",
+        "id": 19
+      },
+      "evidence": [
+        {
+          "file_sha256": "4299566d25714c4399e489e09379c4056599e867c7d94b79732e41f1a985a819",
+          "path": "E6/protocol.md",
+          "prior_file_sha256": [
+            "725384c9575cfdc89a487386273b4433cd8e88c81814fbb38e57f61825beb2bd",
+            "b4a651d6f7d56f0e32a87649a0c66d545d8852463531d9383a44f8cbea26cbab"
+          ]
+        },
+        {
+          "file_sha256": "5669ffdea736767e963660e73e08e394e85de7a0ec17a1b880b48ae0108b95b8",
+          "path": "E6/config.json",
+          "prior_file_sha256": [
+            "749d2c58957f2e2c2174d0e75f19668c4e7ea9b5d03895513d908e770d808c3a",
+            "368ea98b1e912b41dc8b0f2d7d2e689733d12ab3ca2df5ff5aacf9203ab3c647",
+            "2ce169477e9ad0ba8735017502d98b4218640f0dc58b3abf1fb3bbe7c6335279",
+            "d264c0b277409fcd763e78fb288fa2014c91d18691e7289ba1204324d80c98fc",
+            "fd49410c13c236bfa7db04c07f46e54274e2aa2c4d21cf0098acad2f3c44cac7"
+          ]
+        },
+        {
+          "file_sha256": "2a8543e528e481c8f8a6461dbc0d5a89e2c9767686e17b356c3029a8ad8066fd",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "7e9262827ca7ebbfca79aa56da2694a4c932f3c07ef396f87aea5062db696d36",
+          "path": "E6/evaluation_config.json",
+          "prior_file_sha256": [
+            "09be65ec9e804a1e1a692b82cb13811d3854ca5066e3630a15245ead3d4f0774",
+            "b255a2e367a973b387a1c2ff6e6b2f9ac87120fa73ff33c54d02694cbaceba78",
+            "d5c33ec83f4009457f810fd279bc2133d9080908232efc2bc26887483815629e",
+            "eba21ff7fcab6f2bc0e77f54503354bb1b2648af1695fc782413e04f9dea10f3"
+          ]
+        },
+        {
+          "file_sha256": "b9e40fa6d0682f15595cb69a9bed65c12e53154994ab00618a89f349ecaed2e4",
+          "path": "E6/evaluation.py"
+        },
+        {
+          "file_sha256": "53404862f4d2d0e68d18998ca2342d13a417c7d6fae1a12415059d94fec1992a",
+          "path": "E6/assignment_e6_excerpt_v1.txt"
+        },
+        {
+          "file_sha256": "21ab5039ead75a8bdfb841bdbcfa530f263ee5ad636dd3061bb0a1d5e56b8abc",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        }
+      ],
+      "id": 19,
+      "needed_by": "Before preregistration; annotations validated before scoring",
+      "prior_evidence_snapshots": [
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "c9145c48acfa57d139e0fb25f29f7635ddd08df7a1441564a47c2bdcac6df1d8",
+          "path": "E6/evaluation_config.json"
+        },
+        {
+          "file_sha256": "c85a14bf65997f48479c75b1263415418ea6d8b51a9a45b2865cd36b4cbaee80",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "320e736b5559e55334a8b7043e82d8fbbfedacb36bf37c527c3a3402c29de71c",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "c73b89e64370ff2b14ad1c7ac94aafbd283a0dea5d8759f0f293bc9e35082fb1",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "c9145c48acfa57d139e0fb25f29f7635ddd08df7a1441564a47c2bdcac6df1d8",
+          "path": "E6/evaluation_config.json"
+        },
+        {
+          "file_sha256": "b2c3a4f5b04a8dc974aeb4699c3ea4cba2d68d4470f79edf3faf8e8cd36fb538",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "6312bf83e1aa21bed4551414213ce4f5aeb5bdc8a2a4934f1f59e535d1dceef6",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "b6e7193f9939a22766d35f299aa0de9e1455d75b9293f5028ab886865be153fe",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "9349a1b48d6527e1ec19716fc2b28ac57cca10e575730241a23234097b67334f",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "d0c728c81ea5b33a428911e351fe96a8b3428507ae58936913990164094b9629",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "869974735a14a4b59e1eafc37e432f06ca42a5d0706b1717469a3ba533e5a737",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        }
+      ],
+      "proposed_details": {
+        "status": "pending_researcher_confirmation",
+        "values": {
+          "missing_annotation_policy": "null and explicit exclusion; never unvalidated target truth",
+          "rubric_prompt_and_hash": {
+            "same_question": {
+              "file_sha256": "ff50bc4e09ff7c97b2bc52688831fbb027df940969d6bef305c27f327dc9ca82",
+              "path": "prompts/e6/08_same_question.txt"
+            },
+            "similarity": {
+              "file_sha256": "04c2dfc868e1d7054ac9cb496b0b5d8c6172965fadb37e1327047acbb33c152d",
+              "path": "prompts/e6/15_reconstruction_similarity.txt"
+            }
+          }
+        }
+      },
+      "proposed_value": "Use the available Gemma 3 12B with temperature 0, seed 2026 and a frozen rubric prompt; score each generated item 1–5 against the target field (1 unrelated, 3 partial substantive match, 5 substantively equivalent), report the maximum per field, and separately ask a Boolean same-question judgment. Preserve raw judgments and mark the shared-model limitation. This avoids acquiring an unverified evaluator.",
+      "required_resolved_detail_keys": [
+        "rubric_prompt_and_hash",
+        "missing_annotation_policy"
+      ],
+      "resolved_details": {
+        "missing_annotation_policy": null,
+        "rubric_prompt_and_hash": null
+      },
+      "separate_scientific_approval_required": true,
+      "status": "pending_researcher_approval",
+      "title": "Literature similarity/same-question scoring"
+    },
+    {
+      "alternative": "Omit only if the assignment permits omission; otherwise locate/prepare and freeze a sourced corpus.",
+      "approved_at_utc": null,
+      "approved_by": null,
+      "approved_payload_sha256": null,
+      "approved_value": null,
+      "choice": null,
+      "classification": {
+        "A": "Already-asked rate of generated questions.",
+        "B": "Existing question-source audit has zero explicit questions.",
+        "C": "Corpus scope, valid sources and matching policy; actual corpus is an external-data dependency.",
+        "id": 20
+      },
+      "evidence": [
+        {
+          "file_sha256": "4299566d25714c4399e489e09379c4056599e867c7d94b79732e41f1a985a819",
+          "path": "E6/protocol.md",
+          "prior_file_sha256": [
+            "725384c9575cfdc89a487386273b4433cd8e88c81814fbb38e57f61825beb2bd",
+            "b4a651d6f7d56f0e32a87649a0c66d545d8852463531d9383a44f8cbea26cbab"
+          ]
+        },
+        {
+          "file_sha256": "5669ffdea736767e963660e73e08e394e85de7a0ec17a1b880b48ae0108b95b8",
+          "path": "E6/config.json",
+          "prior_file_sha256": [
+            "749d2c58957f2e2c2174d0e75f19668c4e7ea9b5d03895513d908e770d808c3a",
+            "368ea98b1e912b41dc8b0f2d7d2e689733d12ab3ca2df5ff5aacf9203ab3c647",
+            "2ce169477e9ad0ba8735017502d98b4218640f0dc58b3abf1fb3bbe7c6335279",
+            "d264c0b277409fcd763e78fb288fa2014c91d18691e7289ba1204324d80c98fc",
+            "fd49410c13c236bfa7db04c07f46e54274e2aa2c4d21cf0098acad2f3c44cac7"
+          ]
+        },
+        {
+          "file_sha256": "2a8543e528e481c8f8a6461dbc0d5a89e2c9767686e17b356c3029a8ad8066fd",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "625212b1d191e2cc6569f506501e3be5e1ce92691868f4bf73e9880747697157",
+          "path": "E6/ALREADY_ASKED_SOURCE_REQUIREMENTS.md"
+        },
+        {
+          "file_sha256": "0a4949809dd3ef6aac837a9e6de9e981fc9c698adcd5a06b97b02963fa4d3e29",
+          "path": "E6/data/already_asked_corpus_source_audit_v1.json"
+        },
+        {
+          "file_sha256": "53404862f4d2d0e68d18998ca2342d13a417c7d6fae1a12415059d94fec1992a",
+          "path": "E6/assignment_e6_excerpt_v1.txt"
+        },
+        {
+          "file_sha256": "21ab5039ead75a8bdfb841bdbcfa530f263ee5ad636dd3061bb0a1d5e56b8abc",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        }
+      ],
+      "id": 20,
+      "needed_by": "Before preregistration",
+      "prior_evidence_snapshots": [
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "c85a14bf65997f48479c75b1263415418ea6d8b51a9a45b2865cd36b4cbaee80",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "320e736b5559e55334a8b7043e82d8fbbfedacb36bf37c527c3a3402c29de71c",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "c73b89e64370ff2b14ad1c7ac94aafbd283a0dea5d8759f0f293bc9e35082fb1",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "b2c3a4f5b04a8dc974aeb4699c3ea4cba2d68d4470f79edf3faf8e8cd36fb538",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "6312bf83e1aa21bed4551414213ce4f5aeb5bdc8a2a4934f1f59e535d1dceef6",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "b6e7193f9939a22766d35f299aa0de9e1455d75b9293f5028ab886865be153fe",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "9349a1b48d6527e1ec19716fc2b28ac57cca10e575730241a23234097b67334f",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "d0c728c81ea5b33a428911e351fe96a8b3428507ae58936913990164094b9629",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "869974735a14a4b59e1eafc37e432f06ca42a5d0706b1717469a3ba533e5a737",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        }
+      ],
+      "proposed_value": "Use a versioned, deduplicated corpus of actual research questions and one fixed binary matcher; report numerator, eligible-question denominator, and missing-corpus status. Do not proxy titles or abstracts as questions. No such corpus is established in the current config, so this is a data dependency, not a value to guess.",
+      "required_resolved_detail_keys": [
+        "corpus_path_and_hash",
+        "corpus_scope",
+        "binary_matcher_and_policy"
+      ],
+      "resolved_details": {
+        "binary_matcher_and_policy": null,
+        "corpus_path_and_hash": null,
+        "corpus_scope": null
+      },
+      "separate_scientific_approval_required": true,
+      "status": "pending_researcher_approval",
+      "title": "Already-asked rate"
+    },
+    {
+      "alternative": "A frozen embedding-distance measure with a development-set threshold.",
+      "approved_at_utc": null,
+      "approved_by": null,
+      "approved_payload_sha256": null,
+      "approved_value": null,
+      "choice": null,
+      "classification": {
+        "A": "Diversity of K hypotheses.",
+        "B": "K=6 is the existing chosen contract; 6/3 is only an assignment example.",
+        "C": "Diversity definition, evaluator and aggregation.",
+        "id": 21
+      },
+      "evidence": [
+        {
+          "file_sha256": "4299566d25714c4399e489e09379c4056599e867c7d94b79732e41f1a985a819",
+          "path": "E6/protocol.md",
+          "prior_file_sha256": [
+            "725384c9575cfdc89a487386273b4433cd8e88c81814fbb38e57f61825beb2bd",
+            "b4a651d6f7d56f0e32a87649a0c66d545d8852463531d9383a44f8cbea26cbab"
+          ]
+        },
+        {
+          "file_sha256": "5669ffdea736767e963660e73e08e394e85de7a0ec17a1b880b48ae0108b95b8",
+          "path": "E6/config.json",
+          "prior_file_sha256": [
+            "749d2c58957f2e2c2174d0e75f19668c4e7ea9b5d03895513d908e770d808c3a",
+            "368ea98b1e912b41dc8b0f2d7d2e689733d12ab3ca2df5ff5aacf9203ab3c647",
+            "2ce169477e9ad0ba8735017502d98b4218640f0dc58b3abf1fb3bbe7c6335279",
+            "d264c0b277409fcd763e78fb288fa2014c91d18691e7289ba1204324d80c98fc",
+            "fd49410c13c236bfa7db04c07f46e54274e2aa2c4d21cf0098acad2f3c44cac7"
+          ]
+        },
+        {
+          "file_sha256": "2a8543e528e481c8f8a6461dbc0d5a89e2c9767686e17b356c3029a8ad8066fd",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "b9e40fa6d0682f15595cb69a9bed65c12e53154994ab00618a89f349ecaed2e4",
+          "path": "E6/evaluation.py"
+        },
+        {
+          "file_sha256": "53404862f4d2d0e68d18998ca2342d13a417c7d6fae1a12415059d94fec1992a",
+          "path": "E6/assignment_e6_excerpt_v1.txt"
+        },
+        {
+          "file_sha256": "21ab5039ead75a8bdfb841bdbcfa530f263ee5ad636dd3061bb0a1d5e56b8abc",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        }
+      ],
+      "id": 21,
+      "needed_by": "Before preregistration",
+      "prior_evidence_snapshots": [
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "c85a14bf65997f48479c75b1263415418ea6d8b51a9a45b2865cd36b4cbaee80",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "320e736b5559e55334a8b7043e82d8fbbfedacb36bf37c527c3a3402c29de71c",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "c73b89e64370ff2b14ad1c7ac94aafbd283a0dea5d8759f0f293bc9e35082fb1",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "b2c3a4f5b04a8dc974aeb4699c3ea4cba2d68d4470f79edf3faf8e8cd36fb538",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "6312bf83e1aa21bed4551414213ce4f5aeb5bdc8a2a4934f1f59e535d1dceef6",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "b6e7193f9939a22766d35f299aa0de9e1455d75b9293f5028ab886865be153fe",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "9349a1b48d6527e1ec19716fc2b28ac57cca10e575730241a23234097b67334f",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "d0c728c81ea5b33a428911e351fe96a8b3428507ae58936913990164094b9629",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "869974735a14a4b59e1eafc37e432f06ca42a5d0706b1717469a3ba533e5a737",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        }
+      ],
+      "proposed_details": {
+        "status": "pending_researcher_confirmation",
+        "values": {
+          "aggregation": "all 15 unordered pairs; distinct fraction; any failed/null pair blocks input-set metric",
+          "distinctness_prompt_and_hash": {
+            "file_sha256": "eeca6fcbb7f8a8f7a294b0fd9c9d31c91b671fd1d395ab36139c2f9a99b217e8",
+            "path": "prompts/e6/16_hypothesis_distinctness.txt"
+          }
+        }
+      },
+      "proposed_value": "Use the same Gemma judge and frozen binary distinctness rubric on all 15 unordered hypothesis pairs; report distinct-pair proportion per input set and arm. This reuses the configured model and directly matches K=6.",
+      "required_resolved_detail_keys": [
+        "distinctness_prompt_and_hash"
+      ],
+      "resolved_details": {
+        "distinctness_prompt_and_hash": null
+      },
+      "separate_scientific_approval_required": true,
+      "status": "pending_researcher_approval",
+      "title": "K=6 diversity"
+    },
+    {
+      "alternative": "Multiple judgments with a predeclared disagreement rule.",
+      "approved_at_utc": null,
+      "approved_by": null,
+      "approved_payload_sha256": null,
+      "approved_value": null,
+      "choice": null,
+      "classification": {
+        "A": "Constructive versus analytic question-type distinction.",
+        "B": "Existing prompt includes ambiguous.",
+        "C": "Classifier, repetition and proportions.",
+        "id": 22
+      },
+      "evidence": [
+        {
+          "file_sha256": "4299566d25714c4399e489e09379c4056599e867c7d94b79732e41f1a985a819",
+          "path": "E6/protocol.md",
+          "prior_file_sha256": [
+            "725384c9575cfdc89a487386273b4433cd8e88c81814fbb38e57f61825beb2bd",
+            "b4a651d6f7d56f0e32a87649a0c66d545d8852463531d9383a44f8cbea26cbab"
+          ]
+        },
+        {
+          "file_sha256": "5669ffdea736767e963660e73e08e394e85de7a0ec17a1b880b48ae0108b95b8",
+          "path": "E6/config.json",
+          "prior_file_sha256": [
+            "749d2c58957f2e2c2174d0e75f19668c4e7ea9b5d03895513d908e770d808c3a",
+            "368ea98b1e912b41dc8b0f2d7d2e689733d12ab3ca2df5ff5aacf9203ab3c647",
+            "2ce169477e9ad0ba8735017502d98b4218640f0dc58b3abf1fb3bbe7c6335279",
+            "d264c0b277409fcd763e78fb288fa2014c91d18691e7289ba1204324d80c98fc",
+            "fd49410c13c236bfa7db04c07f46e54274e2aa2c4d21cf0098acad2f3c44cac7"
+          ]
+        },
+        {
+          "file_sha256": "2a8543e528e481c8f8a6461dbc0d5a89e2c9767686e17b356c3029a8ad8066fd",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "e0ebd66a009d84342f6ab6c781d3e0d42cc9a432a3bf0abeb29d91c47fca8503",
+          "path": "prompts/e6/10_question_type.txt"
+        },
+        {
+          "file_sha256": "53404862f4d2d0e68d18998ca2342d13a417c7d6fae1a12415059d94fec1992a",
+          "path": "E6/assignment_e6_excerpt_v1.txt"
+        },
+        {
+          "file_sha256": "21ab5039ead75a8bdfb841bdbcfa530f263ee5ad636dd3061bb0a1d5e56b8abc",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        }
+      ],
+      "id": 22,
+      "needed_by": "Before preregistration",
+      "prior_evidence_snapshots": [
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "c85a14bf65997f48479c75b1263415418ea6d8b51a9a45b2865cd36b4cbaee80",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "320e736b5559e55334a8b7043e82d8fbbfedacb36bf37c527c3a3402c29de71c",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "c73b89e64370ff2b14ad1c7ac94aafbd283a0dea5d8759f0f293bc9e35082fb1",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "b2c3a4f5b04a8dc974aeb4699c3ea4cba2d68d4470f79edf3faf8e8cd36fb538",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "6312bf83e1aa21bed4551414213ce4f5aeb5bdc8a2a4934f1f59e535d1dceef6",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "b6e7193f9939a22766d35f299aa0de9e1455d75b9293f5028ab886865be153fe",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "9349a1b48d6527e1ec19716fc2b28ac57cca10e575730241a23234097b67334f",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "d0c728c81ea5b33a428911e351fe96a8b3428507ae58936913990164094b9629",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "869974735a14a4b59e1eafc37e432f06ca42a5d0706b1717469a3ba533e5a737",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        }
+      ],
+      "proposed_details": {
+        "status": "pending_researcher_confirmation",
+        "values": {
+          "aggregation": "per-input-set question proportions; questionless arms N/A",
+          "categories": [
+            "constructive",
+            "analytic",
+            "other",
+            "ambiguous"
+          ],
+          "classification_prompt_and_hash": {
+            "file_sha256": "e0ebd66a009d84342f6ab6c781d3e0d42cc9a432a3bf0abeb29d91c47fca8503",
+            "path": "prompts/e6/10_question_type.txt"
+          }
+        }
+      },
+      "proposed_value": "Use the same Gemma model with the fixed classification prompt, one judgment per generated question, and report constructive/analytic/ambiguous proportions. Questionless arms are N/A.",
+      "required_resolved_detail_keys": [
+        "classification_prompt_and_hash"
+      ],
+      "resolved_details": {
+        "classification_prompt_and_hash": null
+      },
+      "separate_scientific_approval_required": true,
+      "status": "pending_researcher_approval",
+      "title": "Question-type classification"
+    },
+    {
+      "alternative": "Approve a specific pairwise comparison schedule and enable it.",
+      "approval_scope": "Documented methodological settings only; no prediction, runtime verification, evaluator validation, missing dataset, HDR mapping or completed human review is attested.",
+      "approved_at_utc": "2026-11-12T01:33:47.816416+00:00",
+      "approved_by": "researcher via explicit user instruction in this session",
+      "approved_payload_sha256": "5d54871a06fd72ab4ad684e17bf9c8c75f51059fbf39ed291976ca5d4f901165",
+      "approved_value": "Disable it in the primary analysis to avoid extra cost and subjective multiplicity. If later enabled, use at most one named judge, blind labels, matched lengths, both orders, and a fixed order-aggregation rule; label output as judge output.",
+      "choice": "accept_proposal",
+      "classification": {
+        "A": "If pairwise judge used: at most one, both orders, length-matched, labelled judge output.",
+        "B": "Prompt and safeguards already present.",
+        "C": "Enable or explicitly disable optional judge.",
+        "id": 23
+      },
+      "evidence": [
+        {
+          "file_sha256": "4299566d25714c4399e489e09379c4056599e867c7d94b79732e41f1a985a819",
+          "path": "E6/protocol.md",
+          "prior_file_sha256": [
+            "725384c9575cfdc89a487386273b4433cd8e88c81814fbb38e57f61825beb2bd",
+            "b4a651d6f7d56f0e32a87649a0c66d545d8852463531d9383a44f8cbea26cbab"
+          ]
+        },
+        {
+          "file_sha256": "5669ffdea736767e963660e73e08e394e85de7a0ec17a1b880b48ae0108b95b8",
+          "path": "E6/config.json",
+          "prior_file_sha256": [
+            "749d2c58957f2e2c2174d0e75f19668c4e7ea9b5d03895513d908e770d808c3a",
+            "368ea98b1e912b41dc8b0f2d7d2e689733d12ab3ca2df5ff5aacf9203ab3c647",
+            "2ce169477e9ad0ba8735017502d98b4218640f0dc58b3abf1fb3bbe7c6335279",
+            "d264c0b277409fcd763e78fb288fa2014c91d18691e7289ba1204324d80c98fc",
+            "fd49410c13c236bfa7db04c07f46e54274e2aa2c4d21cf0098acad2f3c44cac7"
+          ]
+        },
+        {
+          "file_sha256": "2a8543e528e481c8f8a6461dbc0d5a89e2c9767686e17b356c3029a8ad8066fd",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "19efe999c4074a07a7284d71e98de9616c6c4c00e23b007476efaa7425fc478b",
+          "path": "prompts/e6/11_judge_pairwise.txt"
+        },
+        {
+          "file_sha256": "53404862f4d2d0e68d18998ca2342d13a417c7d6fae1a12415059d94fec1992a",
+          "path": "E6/assignment_e6_excerpt_v1.txt"
+        },
+        {
+          "file_sha256": "21ab5039ead75a8bdfb841bdbcfa530f263ee5ad636dd3061bb0a1d5e56b8abc",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        }
+      ],
+      "id": 23,
+      "needed_by": "Before preregistration if enabled; otherwise none",
+      "prior_evidence_snapshots": [
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "c85a14bf65997f48479c75b1263415418ea6d8b51a9a45b2865cd36b4cbaee80",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "320e736b5559e55334a8b7043e82d8fbbfedacb36bf37c527c3a3402c29de71c",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "c73b89e64370ff2b14ad1c7ac94aafbd283a0dea5d8759f0f293bc9e35082fb1",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "b2c3a4f5b04a8dc974aeb4699c3ea4cba2d68d4470f79edf3faf8e8cd36fb538",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "6312bf83e1aa21bed4551414213ce4f5aeb5bdc8a2a4934f1f59e535d1dceef6",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "b6e7193f9939a22766d35f299aa0de9e1455d75b9293f5028ab886865be153fe",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "9349a1b48d6527e1ec19716fc2b28ac57cca10e575730241a23234097b67334f",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "d0c728c81ea5b33a428911e351fe96a8b3428507ae58936913990164094b9629",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "869974735a14a4b59e1eafc37e432f06ca42a5d0706b1717469a3ba533e5a737",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        }
+      ],
+      "proposed_details": {
+        "status": "approved_methodology_only",
+        "values": {
+          "enabled": false
+        }
+      },
+      "proposed_value": "Disable it in the primary analysis to avoid extra cost and subjective multiplicity. If later enabled, use at most one named judge, blind labels, matched lengths, both orders, and a fixed order-aggregation rule; label output as judge output.",
+      "required_resolved_detail_keys": [],
+      "resolved_details": {
+        "enabled": false
+      },
+      "separate_scientific_approval_required": true,
+      "status": "approved",
+      "title": "Optional pairwise LLM judge"
+    },
+    {
+      "alternative": "One reviewer plus independent adjudication of disagreements.",
+      "approval_scope": "Decision 24 procedure only; no extraction or review has been performed",
+      "approved_at_utc": "2026-11-12T01:42:24.343758+00:00",
+      "approved_by": "researcher via explicit user instruction in this session",
+      "approved_payload_sha256": "621fe04cd0e0f3c440a194f8a907a6c0f6e84c500920b86a4f127fee02cc2a09",
+      "approved_value": "Review the existing 20 deterministically selected literature papers against original source evidence, including extracted problem, method and result. Record extraction errors, disagreements and corrections; retain existing independent review/adjudication procedure. Complete actual reviews before literature scoring; no completed review or evaluator validation is attested.",
+      "choice": "replacement",
+      "classification": {
+        "A": "One fixed target-extraction prompt; check 20 by hand.",
+        "B": "100-target/20-case plan exists; no extraction/review completed.",
+        "C": "Extraction model, case selection, reviewer count, guide/adjudication.",
+        "id": 24
+      },
+      "evidence": [
+        {
+          "file_sha256": "4299566d25714c4399e489e09379c4056599e867c7d94b79732e41f1a985a819",
+          "path": "E6/protocol.md",
+          "prior_file_sha256": [
+            "725384c9575cfdc89a487386273b4433cd8e88c81814fbb38e57f61825beb2bd",
+            "b4a651d6f7d56f0e32a87649a0c66d545d8852463531d9383a44f8cbea26cbab"
+          ]
+        },
+        {
+          "file_sha256": "5669ffdea736767e963660e73e08e394e85de7a0ec17a1b880b48ae0108b95b8",
+          "path": "E6/config.json",
+          "prior_file_sha256": [
+            "749d2c58957f2e2c2174d0e75f19668c4e7ea9b5d03895513d908e770d808c3a",
+            "368ea98b1e912b41dc8b0f2d7d2e689733d12ab3ca2df5ff5aacf9203ab3c647",
+            "2ce169477e9ad0ba8735017502d98b4218640f0dc58b3abf1fb3bbe7c6335279",
+            "d264c0b277409fcd763e78fb288fa2014c91d18691e7289ba1204324d80c98fc",
+            "fd49410c13c236bfa7db04c07f46e54274e2aa2c4d21cf0098acad2f3c44cac7"
+          ]
+        },
+        {
+          "file_sha256": "2a8543e528e481c8f8a6461dbc0d5a89e2c9767686e17b356c3029a8ad8066fd",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "5e86dad439efba14bb38174c8754cc5aa06382364472e8ba1d93dfb211c6d941",
+          "path": "prompts/e6/09_target_extraction.txt"
+        },
+        {
+          "file_sha256": "64df98ff7ca39d7c2afb26940f795d33811dafce5ce5eac38adb43fdf2e43953",
+          "path": "E6/LITERATURE_REVIEW_GUIDE.md",
+          "prior_file_sha256": [
+            "4108c9c4de6c9d320a6563199ee8ca1a9835860c476f21a7681b32a708520527"
+          ]
+        },
+        {
+          "file_sha256": "dadada729752c6373ebf7b2cfb2c44681264342819ee780e61ee6b0b39dbb422",
+          "path": "E6/LITERATURE_REVIEW_RECORD_SCHEMA.json",
+          "prior_file_sha256": [
+            "ad72adb7c1a0d3cf0b9afb03b41ce8da0a763252aac4e2478eaffa3147791ce9"
+          ]
+        },
+        {
+          "file_sha256": "53404862f4d2d0e68d18998ca2342d13a417c7d6fae1a12415059d94fec1992a",
+          "path": "E6/assignment_e6_excerpt_v1.txt"
+        },
+        {
+          "file_sha256": "21ab5039ead75a8bdfb841bdbcfa530f263ee5ad636dd3061bb0a1d5e56b8abc",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        }
+      ],
+      "id": 24,
+      "needed_by": "Policy before preregistration; complete checks before literature scoring",
+      "prior_evidence_snapshots": [
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "c85a14bf65997f48479c75b1263415418ea6d8b51a9a45b2865cd36b4cbaee80",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "320e736b5559e55334a8b7043e82d8fbbfedacb36bf37c527c3a3402c29de71c",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "c73b89e64370ff2b14ad1c7ac94aafbd283a0dea5d8759f0f293bc9e35082fb1",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "b2c3a4f5b04a8dc974aeb4699c3ea4cba2d68d4470f79edf3faf8e8cd36fb538",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "6312bf83e1aa21bed4551414213ce4f5aeb5bdc8a2a4934f1f59e535d1dceef6",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "b6e7193f9939a22766d35f299aa0de9e1455d75b9293f5028ab886865be153fe",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "9349a1b48d6527e1ec19716fc2b28ac57cca10e575730241a23234097b67334f",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "d0c728c81ea5b33a428911e351fe96a8b3428507ae58936913990164094b9629",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "869974735a14a4b59e1eafc37e432f06ca42a5d0706b1717469a3ba533e5a737",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        }
+      ],
+      "proposed_details": {
+        "status": "superseded_by_explicit_decision24_procedure",
+        "values": {
+          "extraction_model_configuration": {
+            "context_limit": 32768,
+            "immutable_version_or_digest": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+            "max_output_tokens": 2048,
+            "model": "gemma3:12b",
+            "seed": 2026,
+            "temperature": 0,
+            "top_p": 1
+          },
+          "review_policy": {
+            "disagreement_policy": "independent_adjudicator",
+            "guide_path": "E6/LITERATURE_REVIEW_GUIDE.md",
+            "guide_sha256": "4108c9c4de6c9d320a6563199ee8ca1a9835860c476f21a7681b32a708520527",
+            "reviewer_count": 2
+          }
+        }
+      },
+      "proposed_value": "Extract every approved target with the fixed prompt; review the proposal's first 20 hash-ranked cases using two independent reviewers and a written disagreement/adjudication rule. Do not treat extraction as gold before review.",
+      "required_resolved_detail_keys": [
+        "extraction_model_configuration",
+        "review_policy"
+      ],
+      "resolved_details": {
+        "extraction_model_configuration": {
+          "context_limit": 32768,
+          "immutable_version_or_digest": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+          "max_output_tokens": 2048,
+          "model": "gemma3:12b",
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "review_policy": {
+          "case_count": 20,
+          "check_fields": [
+            "research_question_extraction_accurate",
+            "main_hypothesis_extraction_accurate",
+            "research_question_explicitness_accurate",
+            "main_hypothesis_explicitness_accurate",
+            "problem_extraction_accurate",
+            "method_extraction_accurate",
+            "result_extraction_accurate"
+          ],
+          "completion_status": "not_performed",
+          "disagreement_policy": "independent_adjudicator",
+          "guide_path": "E6/LITERATURE_REVIEW_GUIDE.md",
+          "guide_sha256": "64df98ff7ca39d7c2afb26940f795d33811dafce5ce5eac38adb43fdf2e43953",
+          "must_complete_before": "literature_scoring",
+          "require_error_and_correction_records": true,
+          "reviewer_count": 2,
+          "selection": "existing first 20 hash-ranked literature targets, seed 2026"
+        }
+      },
+      "separate_scientific_approval_required": true,
+      "status": "approved",
+      "title": "Target extraction/manual review"
+    },
+    {
+      "alternative": "Fixed-size stratified review sample.",
+      "approval_scope": "Documented methodological settings only; no prediction, runtime verification, evaluator validation, missing dataset, HDR mapping or completed human review is attested.",
+      "approved_at_utc": "2026-11-12T01:33:47.816416+00:00",
+      "approved_by": "researcher via explicit user instruction in this session",
+      "approved_payload_sha256": "6b98df4306a5f29259803b6a8888d78d5002b832f8dde8238536d1b33e013482",
+      "approved_value": "Read 20 input sets end to end across all seven arms, selected with a fixed pre-outcome sampling rule; write error analysis with real examples. Selection/coding requires approval.",
+      "choice": "accept_proposal",
+      "classification": {
+        "A": "Read 20 input sets end to end and write real-example error analysis.",
+        "B": "No outcome inspection performed in this work.",
+        "C": "Case sampling/coding; distinct from the 20 extraction checks.",
+        "id": 25
+      },
+      "evidence": [
+        {
+          "file_sha256": "4299566d25714c4399e489e09379c4056599e867c7d94b79732e41f1a985a819",
+          "path": "E6/protocol.md",
+          "prior_file_sha256": [
+            "725384c9575cfdc89a487386273b4433cd8e88c81814fbb38e57f61825beb2bd",
+            "b4a651d6f7d56f0e32a87649a0c66d545d8852463531d9383a44f8cbea26cbab"
+          ]
+        },
+        {
+          "file_sha256": "5669ffdea736767e963660e73e08e394e85de7a0ec17a1b880b48ae0108b95b8",
+          "path": "E6/config.json",
+          "prior_file_sha256": [
+            "749d2c58957f2e2c2174d0e75f19668c4e7ea9b5d03895513d908e770d808c3a",
+            "368ea98b1e912b41dc8b0f2d7d2e689733d12ab3ca2df5ff5aacf9203ab3c647",
+            "2ce169477e9ad0ba8735017502d98b4218640f0dc58b3abf1fb3bbe7c6335279",
+            "d264c0b277409fcd763e78fb288fa2014c91d18691e7289ba1204324d80c98fc",
+            "fd49410c13c236bfa7db04c07f46e54274e2aa2c4d21cf0098acad2f3c44cac7"
+          ]
+        },
+        {
+          "file_sha256": "2a8543e528e481c8f8a6461dbc0d5a89e2c9767686e17b356c3029a8ad8066fd",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "30e96a2ef1eb9f9cba0fd7da9c9dba43cee4ce4c2d6300efbdb49267a8d76c93",
+          "path": "E6/PREREG.md",
+          "prior_file_sha256": [
+            "4a054149efc409d49d6efbf9143634547252f916790370297a569b4711cbbdba",
+            "1fe0941d16367945fef9201223de4c4521d0e7e5bc37be414fdc78e937d9a165"
+          ]
+        },
+        {
+          "file_sha256": "53404862f4d2d0e68d18998ca2342d13a417c7d6fae1a12415059d94fec1992a",
+          "path": "E6/assignment_e6_excerpt_v1.txt"
+        },
+        {
+          "file_sha256": "21ab5039ead75a8bdfb841bdbcfa530f263ee5ad636dd3061bb0a1d5e56b8abc",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        }
+      ],
+      "id": 25,
+      "needed_by": "Before opening outcome text",
+      "prior_evidence_snapshots": [
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "c85a14bf65997f48479c75b1263415418ea6d8b51a9a45b2865cd36b4cbaee80",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "320e736b5559e55334a8b7043e82d8fbbfedacb36bf37c527c3a3402c29de71c",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "5212ff6629e0d19414beb7c3dd9173a54738ab27dc4e3a4a5190b6c0255a28ec",
+          "path": "E6/PREREG.md"
+        },
+        {
+          "file_sha256": "c73b89e64370ff2b14ad1c7ac94aafbd283a0dea5d8759f0f293bc9e35082fb1",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "16e64355aee7d4fa6374639d540bcf23432f4becd7ac09c3262f7c003f387bca",
+          "path": "E6/PREREG.md"
+        },
+        {
+          "file_sha256": "b2c3a4f5b04a8dc974aeb4699c3ea4cba2d68d4470f79edf3faf8e8cd36fb538",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "6312bf83e1aa21bed4551414213ce4f5aeb5bdc8a2a4934f1f59e535d1dceef6",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "b6e7193f9939a22766d35f299aa0de9e1455d75b9293f5028ab886865be153fe",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "9349a1b48d6527e1ec19716fc2b28ac57cca10e575730241a23234097b67334f",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "d0c728c81ea5b33a428911e351fe96a8b3428507ae58936913990164094b9629",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "e334323d2a3e028803a561a454326722f72bb7d5dc8f3c74d0363ac9ea7d4f51",
+          "path": "E6/PREREG.md"
+        },
+        {
+          "file_sha256": "869974735a14a4b59e1eafc37e432f06ca42a5d0706b1717469a3ba533e5a737",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        }
+      ],
+      "proposed_details": {
+        "status": "approved_methodology_only",
+        "values": {
+          "pre_outcome_error_review_plan": {
+            "case_count": 20,
+            "cases_per_testbed": 10,
+            "reviewer_count": 1,
+            "sampling": "lowest SHA256(E6-ERROR-REVIEW-v1|2026|<testbed>|<input_set_id>) before outcomes",
+            "scope": "all seven arms; generation/schema failures, unsupported evidence, redundancy, question-hypothesis mismatch, target mismatch; real examples"
+          }
+        }
+      },
+      "proposed_value": "Read 20 input sets end to end across all seven arms, selected with a fixed pre-outcome sampling rule; write error analysis with real examples. Selection/coding requires approval.",
+      "required_resolved_detail_keys": [
+        "pre_outcome_error_review_plan"
+      ],
+      "resolved_details": {
+        "pre_outcome_error_review_plan": {
+          "case_count": 20,
+          "cases_per_testbed": 10,
+          "reviewer_count": 1,
+          "sampling": "lowest SHA256(E6-ERROR-REVIEW-v1|2026|<testbed>|<input_set_id>) before outcomes",
+          "scope": "all seven arms; generation/schema failures, unsupported evidence, redundancy, question-hypothesis mismatch, target mismatch; real examples"
+        }
+      },
+      "separate_scientific_approval_required": true,
+      "status": "approved",
+      "title": "Error-analysis sample"
+    },
+    {
+      "alternative": "Another named interval, replicate count, RNG, multiplicity correction, or missing-data rule with rationale.",
+      "applied_components": {
+        "scope": "component choices only; not full row approval or configuration sign-off",
+        "source": "explicit user instruction in current session",
+        "values": {
+          "analysis_scope": "descriptive",
+          "confidence_level": 0.95,
+          "interval_method": "linear_percentile",
+          "missingness_policy": "complete_pairs",
+          "multiplicity_method": "unadjusted_marginal_intervals",
+          "statistic": "arithmetic_mean"
+        }
+      },
+      "approval_scope": "Documented methodological settings only; no prediction, runtime verification, evaluator validation, missing dataset, HDR mapping or completed human review is attested.",
+      "approved_at_utc": "2026-11-12T01:33:47.816416+00:00",
+      "approved_by": "researcher via explicit user instruction in this session",
+      "approved_payload_sha256": "a45a8c68256346531cf88b6f351ac619855e1ab5ad942ff5d2fbb0e1aa16926b",
+      "approved_value": "Descriptive paired input-set arithmetic-mean bootstrap with linear-percentile 95% marginal intervals, complete-pair contrasts and explicit denominators; no adjusted significance claims. Proposed numerical parameters: 10000 replicates, seed 2026, SHA256-seeded Python MT19937 streams, all 21 applicable arm contrasts; exact runtime/dependency freeze timing remains pending.",
+      "choice": "accept_proposal",
+      "classification": {
+        "A": "Paired input-set bootstrap, 95% intervals for headline numbers.",
+        "B": "Bootstrap implementation exists.",
+        "C": "Statistic, replicates, RNG, intervals, multiplicity and missingness; exact versions are mechanical once environment is chosen.",
+        "id": 26
+      },
+      "evidence": [
+        {
+          "file_sha256": "4299566d25714c4399e489e09379c4056599e867c7d94b79732e41f1a985a819",
+          "path": "E6/protocol.md",
+          "prior_file_sha256": [
+            "725384c9575cfdc89a487386273b4433cd8e88c81814fbb38e57f61825beb2bd",
+            "b4a651d6f7d56f0e32a87649a0c66d545d8852463531d9383a44f8cbea26cbab"
+          ]
+        },
+        {
+          "file_sha256": "5669ffdea736767e963660e73e08e394e85de7a0ec17a1b880b48ae0108b95b8",
+          "path": "E6/config.json",
+          "prior_file_sha256": [
+            "749d2c58957f2e2c2174d0e75f19668c4e7ea9b5d03895513d908e770d808c3a",
+            "368ea98b1e912b41dc8b0f2d7d2e689733d12ab3ca2df5ff5aacf9203ab3c647",
+            "2ce169477e9ad0ba8735017502d98b4218640f0dc58b3abf1fb3bbe7c6335279",
+            "d264c0b277409fcd763e78fb288fa2014c91d18691e7289ba1204324d80c98fc",
+            "fd49410c13c236bfa7db04c07f46e54274e2aa2c4d21cf0098acad2f3c44cac7"
+          ]
+        },
+        {
+          "file_sha256": "2a8543e528e481c8f8a6461dbc0d5a89e2c9767686e17b356c3029a8ad8066fd",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "7e9262827ca7ebbfca79aa56da2694a4c932f3c07ef396f87aea5062db696d36",
+          "path": "E6/evaluation_config.json",
+          "prior_file_sha256": [
+            "09be65ec9e804a1e1a692b82cb13811d3854ca5066e3630a15245ead3d4f0774",
+            "b255a2e367a973b387a1c2ff6e6b2f9ac87120fa73ff33c54d02694cbaceba78",
+            "d5c33ec83f4009457f810fd279bc2133d9080908232efc2bc26887483815629e",
+            "eba21ff7fcab6f2bc0e77f54503354bb1b2648af1695fc782413e04f9dea10f3"
+          ]
+        },
+        {
+          "file_sha256": "b9e40fa6d0682f15595cb69a9bed65c12e53154994ab00618a89f349ecaed2e4",
+          "path": "E6/evaluation.py"
+        },
+        {
+          "file_sha256": "53404862f4d2d0e68d18998ca2342d13a417c7d6fae1a12415059d94fec1992a",
+          "path": "E6/assignment_e6_excerpt_v1.txt"
+        },
+        {
+          "file_sha256": "21ab5039ead75a8bdfb841bdbcfa530f263ee5ad636dd3061bb0a1d5e56b8abc",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        }
+      ],
+      "id": 26,
+      "needed_by": "Methods before preregistration; exact versions before analysis",
+      "prior_evidence_snapshots": [
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "c9145c48acfa57d139e0fb25f29f7635ddd08df7a1441564a47c2bdcac6df1d8",
+          "path": "E6/evaluation_config.json"
+        },
+        {
+          "file_sha256": "c85a14bf65997f48479c75b1263415418ea6d8b51a9a45b2865cd36b4cbaee80",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "320e736b5559e55334a8b7043e82d8fbbfedacb36bf37c527c3a3402c29de71c",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "c73b89e64370ff2b14ad1c7ac94aafbd283a0dea5d8759f0f293bc9e35082fb1",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "e977e6f0ce60478640e779a4c499a12e9cba312685e77def46ad5735d816b263",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "c9145c48acfa57d139e0fb25f29f7635ddd08df7a1441564a47c2bdcac6df1d8",
+          "path": "E6/evaluation_config.json"
+        },
+        {
+          "file_sha256": "b2c3a4f5b04a8dc974aeb4699c3ea4cba2d68d4470f79edf3faf8e8cd36fb538",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        },
+        {
+          "file_sha256": "6312bf83e1aa21bed4551414213ce4f5aeb5bdc8a2a4934f1f59e535d1dceef6",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "b6e7193f9939a22766d35f299aa0de9e1455d75b9293f5028ab886865be153fe",
+          "path": "E6/protocol.md"
+        },
+        {
+          "file_sha256": "9349a1b48d6527e1ec19716fc2b28ac57cca10e575730241a23234097b67334f",
+          "path": "E6/config.json"
+        },
+        {
+          "file_sha256": "d0c728c81ea5b33a428911e351fe96a8b3428507ae58936913990164094b9629",
+          "path": "E6/DECISION_SHEET.md"
+        },
+        {
+          "file_sha256": "869974735a14a4b59e1eafc37e432f06ca42a5d0706b1717469a3ba533e5a737",
+          "path": "E6/DECISION_CLASSIFICATION.json"
+        }
+      ],
+      "prior_proposed_value": "Paired input-set bootstrap, 10,000 replicates, seed 2026, percentile 95% intervals, all 21 comparisons with Holm adjustment; retain/report failures. Record exact runtime/library versions when the analysis environment is frozen.",
+      "proposed_details": {
+        "status": "approved_methodology_only",
+        "values": {
+          "analysis_settings": {
+            "analysis_dependency_versions": "Python 3.9.6; standard library only; pin executable and module hashes before analysis",
+            "comparisons": [
+              [
+                "D",
+                "QH"
+              ],
+              [
+                "D",
+                "QH-sel"
+              ],
+              [
+                "D",
+                "QH-rand"
+              ],
+              [
+                "D",
+                "HQ"
+              ],
+              [
+                "D",
+                "D-empty"
+              ],
+              [
+                "D",
+                "D-shuffled"
+              ],
+              [
+                "QH",
+                "QH-sel"
+              ],
+              [
+                "QH",
+                "QH-rand"
+              ],
+              [
+                "QH",
+                "HQ"
+              ],
+              [
+                "QH",
+                "D-empty"
+              ],
+              [
+                "QH",
+                "D-shuffled"
+              ],
+              [
+                "QH-sel",
+                "QH-rand"
+              ],
+              [
+                "QH-sel",
+                "HQ"
+              ],
+              [
+                "QH-sel",
+                "D-empty"
+              ],
+              [
+                "QH-sel",
+                "D-shuffled"
+              ],
+              [
+                "QH-rand",
+                "HQ"
+              ],
+              [
+                "QH-rand",
+                "D-empty"
+              ],
+              [
+                "QH-rand",
+                "D-shuffled"
+              ],
+              [
+                "HQ",
+                "D-empty"
+              ],
+              [
+                "HQ",
+                "D-shuffled"
+              ],
+              [
+                "D-empty",
+                "D-shuffled"
+              ]
+            ],
+            "confidence_level": 0.95,
+            "interval_method": "linear_percentile",
+            "missing_policy": "complete_pairs",
+            "multiplicity_method": "unadjusted_marginal_intervals",
+            "random_generator_and_version": "python.random.Random/MT19937; sha256(seed:replicate) streams",
+            "replicates": 10000,
+            "seed": 2026,
+            "statistic": "arithmetic_mean"
+          },
+          "bootstrap_statistic": "arithmetic_mean",
+          "dependency_freeze_timing": "before analysis; retain exact executable/runtime and stdlib implementation hashes",
+          "missingness_policy": "complete_pairs",
+          "rng_and_version": "python.random.Random/MT19937; sha256(seed:replicate) streams"
+        }
+      },
+      "proposed_value": "Descriptive paired input-set arithmetic-mean bootstrap with linear-percentile 95% marginal intervals, complete-pair contrasts and explicit denominators; no adjusted significance claims. Proposed numerical parameters: 10000 replicates, seed 2026, SHA256-seeded Python MT19937 streams, all 21 applicable arm contrasts; exact runtime/dependency freeze timing remains pending.",
+      "required_resolved_detail_keys": [
+        "bootstrap_statistic",
+        "rng_and_version",
+        "missingness_policy",
+        "dependency_freeze_timing"
+      ],
+      "resolved_details": {
+        "analysis_settings": {
+          "analysis_dependency_versions": "Python 3.9.6; standard library only; pin executable and module hashes before analysis",
+          "comparisons": [
+            [
+              "D",
+              "QH"
+            ],
+            [
+              "D",
+              "QH-sel"
+            ],
+            [
+              "D",
+              "QH-rand"
+            ],
+            [
+              "D",
+              "HQ"
+            ],
+            [
+              "D",
+              "D-empty"
+            ],
+            [
+              "D",
+              "D-shuffled"
+            ],
+            [
+              "QH",
+              "QH-sel"
+            ],
+            [
+              "QH",
+              "QH-rand"
+            ],
+            [
+              "QH",
+              "HQ"
+            ],
+            [
+              "QH",
+              "D-empty"
+            ],
+            [
+              "QH",
+              "D-shuffled"
+            ],
+            [
+              "QH-sel",
+              "QH-rand"
+            ],
+            [
+              "QH-sel",
+              "HQ"
+            ],
+            [
+              "QH-sel",
+              "D-empty"
+            ],
+            [
+              "QH-sel",
+              "D-shuffled"
+            ],
+            [
+              "QH-rand",
+              "HQ"
+            ],
+            [
+              "QH-rand",
+              "D-empty"
+            ],
+            [
+              "QH-rand",
+              "D-shuffled"
+            ],
+            [
+              "HQ",
+              "D-empty"
+            ],
+            [
+              "HQ",
+              "D-shuffled"
+            ],
+            [
+              "D-empty",
+              "D-shuffled"
+            ]
+          ],
+          "confidence_level": 0.95,
+          "interval_method": "linear_percentile",
+          "missing_policy": "complete_pairs",
+          "multiplicity_method": "unadjusted_marginal_intervals",
+          "random_generator_and_version": "python.random.Random/MT19937; sha256(seed:replicate) streams",
+          "replicates": 10000,
+          "seed": 2026,
+          "statistic": "arithmetic_mean"
+        },
+        "bootstrap_statistic": "arithmetic_mean",
+        "dependency_freeze_timing": "before analysis; retain exact executable/runtime and stdlib implementation hashes",
+        "missingness_policy": "complete_pairs",
+        "rng_and_version": "python.random.Random/MT19937; sha256(seed:replicate) streams",
+        "sensitivity_analyses": "none beyond predeclared descriptive summaries"
+      },
+      "separate_scientific_approval_required": true,
+      "status": "approved",
+      "title": "Statistics/missingness/dependencies"
+    }
+  ],
+  "governing_protocol": {
+    "basis": "explicit user instruction: adopt current Gemma 3 12B protocol; full preregistration remains DRAFT",
+    "model": "gemma3:12b",
+    "path": "E6/protocol.md",
+    "supersedes": "E6/prior_protocol_2026-11-04.md"
+  },
+  "latest_methodological_approval": {
+    "decision_ids": [
+      2,
+      3,
+      4,
+      5,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      23,
+      25,
+      26
+    ],
+    "excluded": "predictions; evaluator validation/evidence; prior-question corpus; HDR mapping; actual extraction/reviews; runtime verification; full configuration sign-off",
+    "recorded_at_utc": "2026-11-12T01:33:47.816416+00:00",
+    "source": "explicit researcher approval conveyed by current user message"
+  },
+  "note": "Assignment constraints are implemented without inventing approvals. IDs 6,7,17 are administrative implementation/sign-off items, not additional scientific choices. All original statuses and any existing approvals are preserved. Remaining scientific components are grouped in APPROVAL_CHECKLIST.md.",
+  "record_status": "pending_researcher_approval",
+  "schema_version": "e6-researcher-approval-v1"
+}

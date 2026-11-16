@@ -1,0 +1,69 @@
+{
+  "status": "unresolved",
+  "candidate_count": 6,
+  "deduplication_threshold": null,
+  "clustering_policy": "complete_link_candidate_generation_order_v1",
+  "representative_selection_policy": "earliest_candidate_generation_order",
+  "qh_sel_ranking_weights": {
+    "novelty": 0.3,
+    "specificity": 0.25,
+    "scientific_significance": 0.25,
+    "evidence_grounding": 0.2
+  },
+  "qh_sel_tie_break_policy": "weighted_score_desc_then_generation_order",
+  "random_seed": 2026,
+  "random_sampler": "sha256_key_ascending_v1",
+  "random_generator_and_version": "SHA256",
+  "per_input_seed_derivation": "E6-QH-RAND-v1|2026|<input_set_id>|<question_id>",
+  "selected_hypothesis_max_attempts": 1,
+  "selected_hypothesis_retry_policy": "none",
+  "arm_hypothesis_max_attempts": 1,
+  "arm_hypothesis_retry_policy": "none",
+  "d_empty_task_evidence_policy": "remove abstract and reference evidence; require complete retained-task leakage audit",
+  "d_empty_evidence_fields": [
+    "abstract",
+    "reference_evidence"
+  ],
+  "d_shuffled_donor_constraints": {
+    "eligible_split": "DEVELOPMENT",
+    "recipient_split": "DEVELOPMENT",
+    "self_donation": "prohibited",
+    "donor_evidence_source_verification": "required"
+  },
+  "d_shuffled_assignment_algorithm": "sha256_hash_ordered_derangement_no_reuse_v1",
+  "d_shuffled_assignment_seed": 2026,
+  "d_shuffled_within_split_only": true,
+  "d_shuffled_donor_reuse_policy": "prohibited_within_assignment_batch",
+  "selection_count": 3,
+  "orchestration": {
+    "output_schema_version": "e6-provisional-envelope-v1",
+    "output_schema_status": "technical_contract_verified_execution_gated",
+    "output_schema_approved": true,
+    "protocol_gate_required": true
+  },
+  "prompt_paths": {
+    "candidate_generation": "prompts/e6/07_question_candidate_generation.txt",
+    "pairwise_deduplication": "prompts/e6/08_question_dedup.txt",
+    "qh_sel_ranking": "prompts/e6/12_qh_sel_ranking.txt"
+  },
+  "note": "Engineering interface only. Null fields are unresolved research decisions, not defaults or approval.",
+  "d_shuffled_donor_constraints_scope": "historical DEVELOPMENT profile only; final donors must be prepared separately within approved TRAIN-cohort/literature evidence cohorts",
+  "final_donor_policy_proposal": {
+    "status": "approved_methodology_only",
+    "data": "derangement of approved TRAIN evidence sets, not TEST observations",
+    "literature": "derangement of approved ten-reference target evidence bundles"
+  },
+  "failed_cell_analysis_policy": {
+    "missing_score": null,
+    "comparison_policy": "complete_pairs",
+    "denominators": "explicit planned, included and excluded input-set counts",
+    "source": "E6/config.json failure_handling.failed_cell_analysis_policy"
+  },
+  "proposed_generation_retry_policy": {
+    "status": "approved_methodology_only",
+    "max_attempts": 1,
+    "transport_retry_count": 0,
+    "timeout_seconds": 600,
+    "quality_regeneration": false
+  }
+}

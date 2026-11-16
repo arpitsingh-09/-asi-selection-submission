@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:32:14.400691+00:00",
+  "identity": "20c7dfd1d96ca03070793805dd47eae5dadf86bdc1d0707fe14aa3c0fa37707b",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:32:14.355868Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 121,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 17.085553292000043,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:32:14.355868Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2690,
+      "prompt_eval_count": 574,
+      "prompt_sha256": "409c61cf2e071f572f4811c4cff65dd477d787134422241cf74faa7db62e8ec5",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 695,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 574,
+    "latency_seconds": 17.085553292000043,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:32:14.355868Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 121,
+    "raw_response": "{\n  \"research_question\": \"How can video anomaly detection be improved to address the limitations of existing semi-supervised approaches, particularly their computational intensity and limited receptive fields?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": \"A novel end-to-end semi-supervised predictive VAD framework (MS2CAST), utilizing a multi-scale cross-attention encoder and spatiotemporal modules without optical flow estimation, will achieve competitive performance in video anomaly detection while maintaining low GPU memory usage.\",\n  \"main_hypothesis_explicit\": false\n}",
+    "total_tokens": 695
+  },
+  "reply_sha256": "f1d1ff6167e63b540fdb35e6376d3c778500face7b6a1e79b3b80928c5def7e4"
+}

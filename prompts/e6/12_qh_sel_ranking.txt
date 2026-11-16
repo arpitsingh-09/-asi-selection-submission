@@ -1,0 +1,40 @@
+ROLE
+You are an independent evaluator scoring candidate research questions.
+
+INPUT
+
+Research domain and task:
+{{DOMAIN_AND_TASK}}
+
+Research evidence:
+{{EVIDENCE}}
+
+Questions to score:
+{{REPRESENTATIVES}}
+
+SCORING
+Score every supplied question on each dimension using an integer from 1 to 5:
+- novelty
+- specificity
+- scientific_significance
+- evidence_grounding
+
+Use higher scores for stronger performance on the named dimension. Score each
+question independently. Do not omit, add, rewrite, rank, or select questions.
+Do not calculate weighted totals. Do not use information outside the supplied
+task, evidence, and questions.
+
+OUTPUT
+Return valid JSON only, with every supplied question ID exactly once:
+
+{
+  "scores": [
+    {
+      "question_id": "CQ1",
+      "novelty": 1,
+      "specificity": 1,
+      "scientific_significance": 1,
+      "evidence_grounding": 1
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:27:21.733289+00:00",
+  "identity": "a3aa6918999216690faa765cf73dd973d47ec4658082e8289d0427aa2c0901c6",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:27:21.723291Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 71,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 8.408155249999993,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:27:21.723291Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2566,
+      "prompt_eval_count": 546,
+      "prompt_sha256": "3f73e4c8176a8bf206e694b4a0fb9bd0fd7703954c3b6539e18e7ab3772c4a5d",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 617,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 546,
+    "latency_seconds": 8.408155249999993,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:27:21.723291Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 71,
+    "raw_response": "{\n  \"research_question\": \"Which properties of a teacher help the student, how small a student can get, and how close it can come to the state of the art?\",\n  \"research_question_explicit\": true,\n  \"main_hypothesis\": null,\n  \"main_hypothesis_explicit\": false\n}",
+    "total_tokens": 617
+  },
+  "reply_sha256": "8c01f600048e80e2bd2d0d1576075eb9a20aaea01b024b5d7b1fa34baf219b51"
+}

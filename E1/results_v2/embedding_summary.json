@@ -1,0 +1,312 @@
+{
+  "e5-base-v2": {
+    "model_id": "intfloat/e5-base-v2",
+    "n": 61,
+    "scope_method": "unnormalized embedding norm; expected norm(W) < norm(A) < norm(N)",
+    "scope_order": {
+      "estimate": 0.0,
+      "ci95_item_bootstrap": [
+        0.0,
+        0.0
+      ],
+      "n": 61
+    },
+    "length_only_scope_baseline": {
+      "estimate": 0.09836065573770492,
+      "ci95_item_bootstrap": [
+        0.03278688524590164,
+        0.18032786885245902
+      ],
+      "n": 61
+    },
+    "near_miss_error": {
+      "estimate": 0.9836065573770492,
+      "ci95_item_bootstrap": [
+        0.9508196721311475,
+        1.0
+      ],
+      "n": 61
+    },
+    "overlap_shortcut": {
+      "estimate": 0.06557377049180328,
+      "ci95_item_bootstrap": [
+        0.01639344262295082,
+        0.13114754098360656
+      ],
+      "n": 61
+    },
+    "low_overlap_shortcut": {
+      "estimate": 0.4098360655737705,
+      "ci95_item_bootstrap": [
+        0.2786885245901639,
+        0.5409836065573771
+      ],
+      "n": 61
+    },
+    "length_flipped_n": 39,
+    "scope_order_length_flipped": {
+      "estimate": 0.0,
+      "ci95_item_bootstrap": [
+        0.0,
+        0.0
+      ],
+      "n": 39
+    },
+    "length_baseline_length_flipped": {
+      "estimate": 0.0,
+      "ci95_item_bootstrap": [
+        0.0,
+        0.0
+      ],
+      "n": 39
+    }
+  },
+  "bge-base-en-v1.5": {
+    "model_id": "BAAI/bge-base-en-v1.5",
+    "n": 61,
+    "scope_method": "unnormalized embedding norm; expected norm(W) < norm(A) < norm(N)",
+    "scope_order": {
+      "estimate": 0.0,
+      "ci95_item_bootstrap": [
+        0.0,
+        0.0
+      ],
+      "n": 61
+    },
+    "length_only_scope_baseline": {
+      "estimate": 0.09836065573770492,
+      "ci95_item_bootstrap": [
+        0.03278688524590164,
+        0.18032786885245902
+      ],
+      "n": 61
+    },
+    "near_miss_error": {
+      "estimate": 0.9836065573770492,
+      "ci95_item_bootstrap": [
+        0.9508196721311475,
+        1.0
+      ],
+      "n": 61
+    },
+    "overlap_shortcut": {
+      "estimate": 0.08196721311475409,
+      "ci95_item_bootstrap": [
+        0.01639344262295082,
+        0.16393442622950818
+      ],
+      "n": 61
+    },
+    "low_overlap_shortcut": {
+      "estimate": 0.3442622950819672,
+      "ci95_item_bootstrap": [
+        0.22950819672131148,
+        0.45901639344262296
+      ],
+      "n": 61
+    },
+    "length_flipped_n": 39,
+    "scope_order_length_flipped": {
+      "estimate": 0.0,
+      "ci95_item_bootstrap": [
+        0.0,
+        0.0
+      ],
+      "n": 39
+    },
+    "length_baseline_length_flipped": {
+      "estimate": 0.0,
+      "ci95_item_bootstrap": [
+        0.0,
+        0.0
+      ],
+      "n": 39
+    }
+  },
+  "all-MiniLM-L6-v2": {
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "n": 61,
+    "scope_method": "unnormalized embedding norm; expected norm(W) < norm(A) < norm(N)",
+    "scope_order": {
+      "estimate": 0.0,
+      "ci95_item_bootstrap": [
+        0.0,
+        0.0
+      ],
+      "n": 61
+    },
+    "length_only_scope_baseline": {
+      "estimate": 0.09836065573770492,
+      "ci95_item_bootstrap": [
+        0.03278688524590164,
+        0.18032786885245902
+      ],
+      "n": 61
+    },
+    "near_miss_error": {
+      "estimate": 0.9672131147540983,
+      "ci95_item_bootstrap": [
+        0.9180327868852459,
+        1.0
+      ],
+      "n": 61
+    },
+    "overlap_shortcut": {
+      "estimate": 0.16393442622950818,
+      "ci95_item_bootstrap": [
+        0.08196721311475409,
+        0.26229508196721313
+      ],
+      "n": 61
+    },
+    "low_overlap_shortcut": {
+      "estimate": 0.4262295081967213,
+      "ci95_item_bootstrap": [
+        0.3114754098360656,
+        0.5409836065573771
+      ],
+      "n": 61
+    },
+    "length_flipped_n": 39,
+    "scope_order_length_flipped": {
+      "estimate": 0.0,
+      "ci95_item_bootstrap": [
+        0.0,
+        0.0
+      ],
+      "n": 39
+    },
+    "length_baseline_length_flipped": {
+      "estimate": 0.0,
+      "ci95_item_bootstrap": [
+        0.0,
+        0.0
+      ],
+      "n": 39
+    }
+  },
+  "specter2_base": {
+    "model_id": "allenai/specter2_base",
+    "n": 61,
+    "scope_method": "unnormalized embedding norm; expected norm(W) < norm(A) < norm(N)",
+    "scope_order": {
+      "estimate": 0.3770491803278688,
+      "ci95_item_bootstrap": [
+        0.26229508196721313,
+        0.4918032786885246
+      ],
+      "n": 61
+    },
+    "length_only_scope_baseline": {
+      "estimate": 0.09836065573770492,
+      "ci95_item_bootstrap": [
+        0.03278688524590164,
+        0.18032786885245902
+      ],
+      "n": 61
+    },
+    "near_miss_error": {
+      "estimate": 0.9508196721311475,
+      "ci95_item_bootstrap": [
+        0.8852459016393442,
+        1.0
+      ],
+      "n": 61
+    },
+    "overlap_shortcut": {
+      "estimate": 0.08196721311475409,
+      "ci95_item_bootstrap": [
+        0.01639344262295082,
+        0.14754098360655737
+      ],
+      "n": 61
+    },
+    "low_overlap_shortcut": {
+      "estimate": 0.32786885245901637,
+      "ci95_item_bootstrap": [
+        0.21311475409836064,
+        0.4426229508196721
+      ],
+      "n": 61
+    },
+    "length_flipped_n": 39,
+    "scope_order_length_flipped": {
+      "estimate": 0.46153846153846156,
+      "ci95_item_bootstrap": [
+        0.3076923076923077,
+        0.6153846153846154
+      ],
+      "n": 39
+    },
+    "length_baseline_length_flipped": {
+      "estimate": 0.0,
+      "ci95_item_bootstrap": [
+        0.0,
+        0.0
+      ],
+      "n": 39
+    }
+  },
+  "Qwen3-Embedding-0.6B": {
+    "model_id": "Qwen/Qwen3-Embedding-0.6B",
+    "n": 61,
+    "scope_method": "unnormalized embedding norm; expected norm(W) < norm(A) < norm(N)",
+    "scope_order": {
+      "estimate": 0.01639344262295082,
+      "ci95_item_bootstrap": [
+        0.0,
+        0.04918032786885246
+      ],
+      "n": 61
+    },
+    "length_only_scope_baseline": {
+      "estimate": 0.09836065573770492,
+      "ci95_item_bootstrap": [
+        0.03278688524590164,
+        0.18032786885245902
+      ],
+      "n": 61
+    },
+    "near_miss_error": {
+      "estimate": 0.9672131147540983,
+      "ci95_item_bootstrap": [
+        0.9180327868852459,
+        1.0
+      ],
+      "n": 61
+    },
+    "overlap_shortcut": {
+      "estimate": 0.13114754098360656,
+      "ci95_item_bootstrap": [
+        0.04918032786885246,
+        0.22950819672131148
+      ],
+      "n": 61
+    },
+    "low_overlap_shortcut": {
+      "estimate": 0.4262295081967213,
+      "ci95_item_bootstrap": [
+        0.3114754098360656,
+        0.5409836065573771
+      ],
+      "n": 61
+    },
+    "length_flipped_n": 39,
+    "scope_order_length_flipped": {
+      "estimate": 0.02564102564102564,
+      "ci95_item_bootstrap": [
+        0.0,
+        0.07692307692307693
+      ],
+      "n": 39
+    },
+    "length_baseline_length_flipped": {
+      "estimate": 0.0,
+      "ci95_item_bootstrap": [
+        0.0,
+        0.0
+      ],
+      "n": 39
+    }
+  }
+}

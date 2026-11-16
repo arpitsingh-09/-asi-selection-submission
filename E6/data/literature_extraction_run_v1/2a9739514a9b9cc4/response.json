@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:25:46.856919+00:00",
+  "identity": "4c6cd87ad32674018113621cd56939b4c5bf5fd19e59b1d3188af7f8e2caa3f5",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:25:46.845503Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 69,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 8.299214667000001,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:25:46.845503Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2936,
+      "prompt_eval_count": 602,
+      "prompt_sha256": "359640a004b0934bc9ab19a3008e363efa3b132aaca362c0e1e822f113b9762b",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 671,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 602,
+    "latency_seconds": 8.299214667000001,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:25:46.845503Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 69,
+    "raw_response": "{\n  \"research_question\": \"How can Large Language Models (LLMs) be effectively applied to architecture generation in computer vision, particularly regarding prompt engineering and validation strategies?\",\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": null,\n  \"main_hypothesis_explicit\": false\n}",
+    "total_tokens": 671
+  },
+  "reply_sha256": "bfc8731fb7f4302391568063704d23a9177e0065162f5170394770370f63a395"
+}

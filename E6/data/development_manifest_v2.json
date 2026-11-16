@@ -1,0 +1,371 @@
+{
+  "schema_version": "e6-development-manifest-v2",
+  "status": "development_only_prepared_not_frozen",
+  "purpose": "10-input engineering/development pilot for E6 seven-arm paper-and-abstract workflow",
+  "split": "DEVELOPMENT",
+  "final_evaluation_inputs_selected": false,
+  "final_evaluation_inputs_frozen": false,
+  "source_files": {
+    "raw_corpus": {
+      "path": "E2/data/raw_papers.jsonl",
+      "sha256": "98036e1d99139a7fa4938362ab45f97fc12f21a91182c0ce5d22ee5be7d0c662",
+      "raw_rows": 3000,
+      "unique_canonical_ids": 2680
+    },
+    "focal_exclusions": {
+      "path": "E2/data/focal_papers.csv",
+      "sha256": "5f4bae1f48b2ee30f88273dfe297dd3c93faa934434b730cc5e17f99b76304a6",
+      "unique_canonical_ids": 300
+    },
+    "pool_manifest": {
+      "path": "E2/data/pool_manifest.csv",
+      "sha256": "e36009be0e3d8991175cc91ac93f661633b82a9f4d1959a425eb6b513991f104"
+    }
+  },
+  "eligibility_rule": "Canonical unique paper ID outside focal exclusions, with nonempty abstract and no conflicting core metadata; preserve cross-pool membership.",
+  "selection_rule": {
+    "method": "ascending SHA256 rank, then canonical ID as tie breaker",
+    "key_expression": "SHA256 of UTF-8 bytes of E6-DEV-PILOT-v1|<canonical_paper_id>",
+    "eligible_candidate_count": 2380,
+    "selected_count": 10
+  },
+  "reserved_development_ids": {
+    "purpose": "IDs excluded from every future final evaluation candidate pool before evaluation sampling.",
+    "paper_ids": [
+      "2512.24016",
+      "2512.23260",
+      "2012.15779",
+      "2512.24810",
+      "2212.14128",
+      "2610.29477",
+      "2401.00885",
+      "2610.29159",
+      "2412.20725",
+      "2610.29907"
+    ]
+  },
+  "future_evaluation_disjointness": {
+    "required_check": "intersection(reserved_development_ids.paper_ids, future_evaluation_candidate_ids) == empty",
+    "future_evaluation_candidates_selected": false,
+    "eligible_count_after_reserving_development_ids": 2370,
+    "status": "NOT_ESTABLISHED"
+  },
+  "inputs": [
+    {
+      "paper_id": "2512.24016",
+      "source_version_ids": [
+        "2512.24016v2"
+      ],
+      "split": "DEVELOPMENT",
+      "pool_memberships": [
+        "computer_vision"
+      ],
+      "primary_pool_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "title": "FitControler: Toward Fit-Aware Virtual Try-On",
+      "abstract": "Realistic virtual try-on (VTON) concerns not only faithful rendering of garment details but also coordination of the style. Prior art typically pursues the former, but neglects a key factor that shapes the holistic style -- garment fit. Garment fit delineates how a garment aligns with the body of a wearer and is a fundamental element in fashion design. In this work, we introduce fit-aware VTON and present FitControler, a learnable plug-in that can seamlessly integrate into modern VTON models to enable customized fit control. To achieve this, we highlight two challenges: i) how to delineate layouts of different fits and ii) how to render the garment that matches the layout. FitControler first features a fit-aware layout generator to redraw the body-garment layout conditioned on a set of delicately processed garment-agnostic representations, and a multi-scale fit injector is then used to deliver layout cues to enable layout-driven VTON. In particular, we build a fit-aware VTON dataset termed Fit4Men, including 13,000 body-garment pairs of different fits, covering both tops and bottoms, and featuring varying camera distances and body poses. Two fit consistency metrics are also introduced to assess the fitness of generations. Extensive experiments show that FitControler can work with various VTON models and achieve accurate fit control. Code and data will be released.",
+      "published": "2025-12-30T06:31:19Z",
+      "updated": "2026-09-02T09:20:25Z",
+      "paper_url": "https://arxiv.org/abs/2512.24016v2",
+      "source": "arXiv API",
+      "retrieved_at_utc": "2026-10-22T17:10:10.179092+00:00",
+      "selection_rank": 1,
+      "selection_key_sha256": "000471d537fb554a65432ff2627984148be20313a32075d5a569644e9cb314c6",
+      "source_record_sha256": "9c137bff2669765d8da885d679979266cf2e36292888e4c2f66b62a26c97c68b",
+      "abstract_sha256": "d375d5f2e13e00d1e341b294d11098e783a696dc8d627639a3fb933aac91a720",
+      "eligibility": {
+        "nonempty_abstract": true,
+        "metadata_conflict": false,
+        "in_focal_exclusion_set": false
+      }
+    },
+    {
+      "paper_id": "2512.23260",
+      "source_version_ids": [
+        "2512.23260v2"
+      ],
+      "split": "DEVELOPMENT",
+      "pool_memberships": [
+        "computation_language"
+      ],
+      "primary_pool_category": "cs.CL",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "title": "Interpretable Safety Alignment via SAE-Constructed Low-Rank Subspace Adaptation",
+      "abstract": "Safety alignment -- training large language models (LLMs) to refuse harmful requests while remaining helpful -- is critical for responsible deployment. Prior work established that safety behaviors are governed by low-rank structures, suggesting parameter-efficient fine-tuning (PEFT) should be well-suited for alignment. However, Low-Rank Adaptation (LoRA) consistently underperforms full fine-tuning and reinforcement learning on safety benchmarks. We attribute this gap to semantic entanglement: safety-relevant directions are intertwined with unrelated concepts due to polysemanticity, impeding implicit subspace identification. To address this, we propose SAILS (Safety Alignment via Interpretable Low-rank Subspace), which leverages Sparse Autoencoders (SAEs) to disentangle representations into monosemantic features, constructs an interpretable safety subspace from SAE decoder directions, and uses it to initialize LoRA adapters. Theoretically, we prove that SAE-based identification achieves arbitrarily small recovery error under monosemanticity assumptions, while direct identification suffers an irreducible error floor. Empirically, SAILS achieves up to 99.6% safety rate on Gemma-2-9B -- exceeding full fine-tuning by 7.4 points and matching RLHF-based models -- while updating only 0.19% of parameters and providing interpretability.",
+      "published": "2025-12-29T07:39:49Z",
+      "updated": "2026-01-05T13:39:39Z",
+      "paper_url": "https://arxiv.org/abs/2512.23260v2",
+      "source": "arXiv API",
+      "retrieved_at_utc": "2026-10-22T17:10:10.179092+00:00",
+      "selection_rank": 2,
+      "selection_key_sha256": "00166403cda179ed80630eaa0e824daec9b3c42489898c6efe5cdf8ebff1dc1c",
+      "source_record_sha256": "395c2530e3d2161ebf8ac70a50e78e30d4804b08c6d135506806804b7111397c",
+      "abstract_sha256": "c69547e18b3dab53de17731505814f766cb6848accc36441efb73e796b76f364",
+      "eligibility": {
+        "nonempty_abstract": true,
+        "metadata_conflict": false,
+        "in_focal_exclusion_set": false
+      }
+    },
+    {
+      "paper_id": "2012.15779",
+      "source_version_ids": [
+        "2012.15779v1"
+      ],
+      "split": "DEVELOPMENT",
+      "pool_memberships": [
+        "computer_vision"
+      ],
+      "primary_pool_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "title": "Illumination Estimation Challenge: experience of past two years",
+      "abstract": "Illumination estimation is the essential step of computational color constancy, one of the core parts of various image processing pipelines of modern digital cameras. Having an accurate and reliable illumination estimation is important for reducing the illumination influence on the image colors. To motivate the generation of new ideas and the development of new algorithms in this field, the 2nd Illumination estimation challenge~(IEC\\#2) was conducted. The main advantage of testing a method on a challenge over testing in on some of the known datasets is the fact that the ground-truth illuminations for the challenge test images are unknown up until the results have been submitted, which prevents any potential hyperparameter tuning that may be biased. The challenge had several tracks: general, indoor, and two-illuminant with each of them focusing on different parameters of the scenes. Other main features of it are a new large dataset of images (about 5000) taken with the same camera sensor model, a manual markup accompanying each image, diverse content with scenes taken in numerous countries under a huge variety of illuminations extracted by using the SpyderCube calibration object, and a contest-like markup for the images from the Cube+ dataset that was used in IEC\\#1. This paper focuses on the description of the past two challenges, algorithms which won in each track, and the conclusions that were drawn based on the results obtained during the 1st and 2nd challenge that can be useful for similar future developments.",
+      "published": "2020-12-31T17:59:19Z",
+      "updated": "2020-12-31T17:59:19Z",
+      "paper_url": "https://arxiv.org/abs/2012.15779v1",
+      "source": "arXiv API",
+      "retrieved_at_utc": "2026-10-22T17:10:10.179092+00:00",
+      "selection_rank": 3,
+      "selection_key_sha256": "0051f12cc5e73a0705a9c761473d45f4d93c6ec7ee11f5bc28f5a2f8f8bc5279",
+      "source_record_sha256": "a992cff1be6fddabbe7406346fc62b3e33898db45933ca5adad669c5bc8ef5f7",
+      "abstract_sha256": "a820e3bb8a1cd80821bcf2c3fa34f5139395e4edc1497de9f361269abcb25f4a",
+      "eligibility": {
+        "nonempty_abstract": true,
+        "metadata_conflict": false,
+        "in_focal_exclusion_set": false
+      }
+    },
+    {
+      "paper_id": "2512.24810",
+      "source_version_ids": [
+        "2512.24810v1"
+      ],
+      "split": "DEVELOPMENT",
+      "pool_memberships": [
+        "machine_learning"
+      ],
+      "primary_pool_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "title": "DTI-GP: Bayesian operations for drug-target interactions using deep kernel Gaussian processes",
+      "abstract": "Precise probabilistic information about drug-target interaction (DTI) predictions is vital for understanding limitations and boosting predictive performance. Gaussian processes (GP) offer a scalable framework to integrate state-of-the-art DTI representations and Bayesian inference, enabling novel operations, such as Bayesian classification with rejection, top-$K$ selection, and ranking. We propose a deep kernel learning-based GP architecture (DTI-GP), which incorporates a combined neural embedding module for chemical compounds and protein targets, and a GP module. The workflow continues with sampling from the predictive distribution to estimate a Bayesian precedence matrix, which is used in fast and accurate selection and ranking operations. DTI-GP outperforms state-of-the-art solutions, and it allows (1) the construction of a Bayesian accuracy-confidence enrichment score, (2) rejection schemes for improved enrichment, and (3) estimation and search for top-$K$ selections and ranking with high expected utility.",
+      "published": "2025-12-31T11:55:09Z",
+      "updated": "2025-12-31T11:55:09Z",
+      "paper_url": "https://arxiv.org/abs/2512.24810v1",
+      "source": "arXiv API",
+      "retrieved_at_utc": "2026-10-22T17:10:10.179092+00:00",
+      "selection_rank": 4,
+      "selection_key_sha256": "007c41e74155b77a268faa278843c14d13a3743e2f9f57b89ef874050aa3657f",
+      "source_record_sha256": "7f6e91f4f746c745b805c9814bb4202a1bbe5db76527c40a0f155fd9a7e2c622",
+      "abstract_sha256": "94395f52f4df8b8c494b58509ca8db098920642ee2569d1805050e9488df5f0a",
+      "eligibility": {
+        "nonempty_abstract": true,
+        "metadata_conflict": false,
+        "in_focal_exclusion_set": false
+      }
+    },
+    {
+      "paper_id": "2212.14128",
+      "source_version_ids": [
+        "2212.14128v1"
+      ],
+      "split": "DEVELOPMENT",
+      "pool_memberships": [
+        "computer_vision"
+      ],
+      "primary_pool_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "title": "Joint Engagement Classification using Video Augmentation Techniques for Multi-person Human-robot Interaction",
+      "abstract": "Affect understanding capability is essential for social robots to autonomously interact with a group of users in an intuitive and reciprocal way. However, the challenge of multi-person affect understanding comes from not only the accurate perception of each user's affective state (e.g., engagement) but also the recognition of the affect interplay between the members (e.g., joint engagement) that presents as complex, but subtle, nonverbal exchanges between them. Here we present a novel hybrid framework for identifying a parent-child dyad's joint engagement by combining a deep learning framework with various video augmentation techniques. Using a dataset of parent-child dyads reading storybooks together with a social robot at home, we first train RGB frame- and skeleton-based joint engagement recognition models with four video augmentation techniques (General Aug, DeepFake, CutOut, and Mixed) applied datasets to improve joint engagement classification performance. Second, we demonstrate experimental results on the use of trained models in the robot-parent-child interaction context. Third, we introduce a behavior-based metric for evaluating the learned representation of the models to investigate the model interpretability when recognizing joint engagement. This work serves as the first step toward fully unlocking the potential of end-to-end video understanding models pre-trained on large public datasets and augmented with data augmentation and visualization techniques for affect recognition in the multi-person human-robot interaction in the wild.",
+      "published": "2022-12-28T23:52:55Z",
+      "updated": "2022-12-28T23:52:55Z",
+      "paper_url": "https://arxiv.org/abs/2212.14128v1",
+      "source": "arXiv API",
+      "retrieved_at_utc": "2026-10-22T17:10:10.179092+00:00",
+      "selection_rank": 5,
+      "selection_key_sha256": "009de9ef4893d3d6350f4cb08575c8c3a02274e86890d6443f234ab71b3074b8",
+      "source_record_sha256": "51557f2b577b738225d3acc03d87f33771b7c0404f57e83b8a0658f1d15e7079",
+      "abstract_sha256": "8c7ab6cf844596179b3d942260e8ea76d5dbc2df5069389626fbf0f81da9288d",
+      "eligibility": {
+        "nonempty_abstract": true,
+        "metadata_conflict": false,
+        "in_focal_exclusion_set": false
+      }
+    },
+    {
+      "paper_id": "2610.29477",
+      "source_version_ids": [
+        "2610.29477v1"
+      ],
+      "split": "DEVELOPMENT",
+      "pool_memberships": [
+        "computation_language"
+      ],
+      "primary_pool_category": "cs.CL",
+      "categories": [
+        "cs.CL"
+      ],
+      "title": "TenetBench: A Clause-Anchored Russian Corpus for Evaluating Language Models against Professional Codes of Ethics",
+      "abstract": "Codes of professional ethics guide and restrict specialists, who increasingly work with assistants built on large language models. Such an assistant can breach the user's code, or help the user breach it, without the user noticing. Evaluations reporting broad categories of harm cannot show how often this happens or which provision is breached. TenetBench pairs 3,433 requests conflicting with clauses of fifteen Russian-language professional codes with benign twins that differ only in the legitimacy of what is asked. An automated pipeline generates the tasks from the text of a code, so the corpus grows with every code added and a provision yields new tasks on every run. It also produced tasks and human-validated verdicts from two English codes of other jurisdictions. In human validation of the frozen pipeline, specialists rated 0.995 of the conflicting tasks plausible, and the model judge agreed with the adjudicated label at Gwet's AC1 of at least 0.894 on 1,860 elements. We evaluated fourteen model and reasoning-mode combinations on whether they produce the conflicting text, decline or warn. Eleven of the fourteen produce conflicting content on most such requests, mostly without a warning, and nearly three warnings in four accompany conflicting content. The models that conform more do so by declining while still serving the legitimate twin, and enabling reasoning halved the refusals of two models. We hope the dataset and pipeline will help evaluate how language models observe professional norms and let diagnostic datasets be built for particular professions and organisations.",
+      "published": "2026-10-21T09:32:23Z",
+      "updated": "2026-10-21T09:32:23Z",
+      "paper_url": "https://arxiv.org/abs/2610.29477v1",
+      "source": "arXiv API",
+      "retrieved_at_utc": "2026-10-22T17:10:10.179092+00:00",
+      "selection_rank": 6,
+      "selection_key_sha256": "00da3291d4f2c57054461ce94f8567d392dab1286d5e0df977678f9c972788bb",
+      "source_record_sha256": "7d7fb91076377fb654e1da63f083f0748ed9ae7a21c5d5bc82e0e05947142562",
+      "abstract_sha256": "72b1d11cb74ae3d3591f842d0c1880a4f06cbd5b2013bdd0ef564f68f8870511",
+      "eligibility": {
+        "nonempty_abstract": true,
+        "metadata_conflict": false,
+        "in_focal_exclusion_set": false
+      }
+    },
+    {
+      "paper_id": "2401.00885",
+      "source_version_ids": [
+        "2401.00885v2"
+      ],
+      "split": "DEVELOPMENT",
+      "pool_memberships": [
+        "machine_learning"
+      ],
+      "primary_pool_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "nlin.CD"
+      ],
+      "title": "Attractor reconstruction with reservoir computers: The effect of the reservoir's conditional Lyapunov exponents on faithful attractor reconstruction",
+      "abstract": "Reservoir computing is a machine learning framework that has been shown to be able to replicate the chaotic attractor, including the fractal dimension and the entire Lyapunov spectrum, of the dynamical system on which it is trained. We quantitatively relate the generalized synchronization dynamics of a driven reservoir during the training stage to the performance of the trained reservoir computer at the attractor reconstruction task. We show that, in order to obtain successful attractor reconstruction and Lyapunov spectrum estimation, the largest conditional Lyapunov exponent of the driven reservoir must be significantly more negative than the most negative Lyapunov exponent of the target system. We also find that the maximal conditional Lyapunov exponent of the reservoir depends strongly on the spectral radius of the reservoir adjacency matrix, and therefore, for attractor reconstruction and Lyapunov spectrum estimation, small spectral radius reservoir computers perform better in general. Our arguments are supported by numerical examples on well-known chaotic systems.",
+      "published": "2023-12-30T15:58:32Z",
+      "updated": "2024-03-22T16:57:37Z",
+      "paper_url": "https://arxiv.org/abs/2401.00885v2",
+      "source": "arXiv API",
+      "retrieved_at_utc": "2026-10-22T17:10:10.179092+00:00",
+      "selection_rank": 7,
+      "selection_key_sha256": "01122c453c1747cb59365f721481c84216a304a8ce39df529b639da0d9c0c497",
+      "source_record_sha256": "fb01ad544e454562f767aa30dc84ec884bab6c72a95b8282ed3e605baab1b728",
+      "abstract_sha256": "1c57c907889c7374aab37cad1b44eccd109ea6875b6cf595841cba85afebfd79",
+      "eligibility": {
+        "nonempty_abstract": true,
+        "metadata_conflict": false,
+        "in_focal_exclusion_set": false
+      }
+    },
+    {
+      "paper_id": "2610.29159",
+      "source_version_ids": [
+        "2610.29159v1"
+      ],
+      "split": "DEVELOPMENT",
+      "pool_memberships": [
+        "computer_vision"
+      ],
+      "primary_pool_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "title": "RiO-DETRv2: Geometry-Aware Uncertainty Modeling Meets Real-Time Oriented Object Detection Transformer",
+      "abstract": "RiO-DETR is the first real-time end-to-end transformer for oriented object detection, yet further localization gains require a more expressive box representation. Although distributional regression has succeeded in horizontal DETRs, extending it to oriented detection introduces geometry-misaligned boundary modeling and topology-inconsistent orientation refinement. We present RiO-DETRv2, a geometry-aware uncertainty modeling framework for real-time oriented object detection. To resolve the geometry mismatch, Object-Aligned Boundary Distribution Refinement represents box boundaries as probability distributions in an object-aligned coordinate system and progressively refines them across decoder layers. For better orientation topology consistency, we introduce Circular-to-Local Angular Residual Refinement that transitions from global periodic search to local fine-grained estimation. Unified OBB Quality-Aligned Learning further aligns classification, boundary and angular refinement with complete-OBB localization quality. Together, these designs improve localization without compromising efficiency, achieving a better balance between speed and accuracy. Specifically, RiO-DETRv2-l/x achieves 53.7/54.1 mAP50-95 on DOTA, outperforming RiO-DETR-l/x by 1.2/1.5 points with nearly unchanged computational cost. Code is available at https://github.com/RicePasteM/RiO-DETRv2.",
+      "published": "2026-10-21T03:48:13Z",
+      "updated": "2026-10-21T03:48:13Z",
+      "paper_url": "https://arxiv.org/abs/2610.29159v1",
+      "source": "arXiv API",
+      "retrieved_at_utc": "2026-10-22T17:10:10.179092+00:00",
+      "selection_rank": 8,
+      "selection_key_sha256": "012f27d0c5cfe1b12fdfc87315b77edda23f48de624d82ed49c668dc619d0274",
+      "source_record_sha256": "3c9149a9089462923a2ffa87f969b2f9f47c50fb07a8d6ffa34bcc6c7295723e",
+      "abstract_sha256": "e59fb6a22e7483f8692b58cbf56b6638c68fa73f018a7e765266cfd7e88b39a7",
+      "eligibility": {
+        "nonempty_abstract": true,
+        "metadata_conflict": false,
+        "in_focal_exclusion_set": false
+      }
+    },
+    {
+      "paper_id": "2412.20725",
+      "source_version_ids": [
+        "2412.20725v1"
+      ],
+      "split": "DEVELOPMENT",
+      "pool_memberships": [
+        "computer_vision"
+      ],
+      "primary_pool_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "title": "Dialogue Director: Bridging the Gap in Dialogue Visualization for Multimodal Storytelling",
+      "abstract": "Recent advances in AI-driven storytelling have enhanced video generation and story visualization. However, translating dialogue-centric scripts into coherent storyboards remains a significant challenge due to limited script detail, inadequate physical context understanding, and the complexity of integrating cinematic principles. To address these challenges, we propose Dialogue Visualization, a novel task that transforms dialogue scripts into dynamic, multi-view storyboards. We introduce Dialogue Director, a training-free multimodal framework comprising a Script Director, Cinematographer, and Storyboard Maker. This framework leverages large multimodal models and diffusion-based architectures, employing techniques such as Chain-of-Thought reasoning, Retrieval-Augmented Generation, and multi-view synthesis to improve script understanding, physical context comprehension, and cinematic knowledge integration. Experimental results demonstrate that Dialogue Director outperforms state-of-the-art methods in script interpretation, physical world understanding, and cinematic principle application, significantly advancing the quality and controllability of dialogue-based story visualization.",
+      "published": "2024-12-30T05:54:23Z",
+      "updated": "2024-12-30T05:54:23Z",
+      "paper_url": "https://arxiv.org/abs/2412.20725v1",
+      "source": "arXiv API",
+      "retrieved_at_utc": "2026-10-22T17:10:10.179092+00:00",
+      "selection_rank": 9,
+      "selection_key_sha256": "013c19e70744cff62432f0b71c6b70ef5048c325003e2bc77e1a1bf99ef86198",
+      "source_record_sha256": "be5ac13475c127ff08efe411ee96f62784a007c43534d4f3c1987644e31c30af",
+      "abstract_sha256": "bb74cd6fea6db1d443175f87ae10566b9a22b9a57caa97e43219ae5a40db0b09",
+      "eligibility": {
+        "nonempty_abstract": true,
+        "metadata_conflict": false,
+        "in_focal_exclusion_set": false
+      }
+    },
+    {
+      "paper_id": "2610.29907",
+      "source_version_ids": [
+        "2610.29907v1"
+      ],
+      "split": "DEVELOPMENT",
+      "pool_memberships": [
+        "computation_language"
+      ],
+      "primary_pool_category": "cs.CL",
+      "categories": [
+        "cs.CL"
+      ],
+      "title": "Benchmarking Large Language Models for Detecting Satirical Code-Mixed Sentences",
+      "abstract": "Code-switching is a natural linguistic phenomenon, yet its impact on high-level reasoning tasks remains largely unexplored in under-resourced languages like Romanian. Natural language processing tasks, such as satire detection, rely heavily on nuanced cultural and syntactic cues that large language models struggle to capture. In this paper, we investigate four methods (i.e., random replacement, phrase translation, dependency parsing, and large language models) for generating synthetic code-mixed Romanian sentences with English, German, French, and Italian. We start with an existing dataset for satire detection, compiled from Romanian news articles and annotated at the sentence level by humans, and augment it with over 600k samples, namely CS-SeLeRoSa. We provide an in-depth analysis of the dataset generation process. Then, we evaluate several multilingual large language models across zero-shot, chain-of-thought, and fine-tuning regimes on both the synthetic corpus and a human-adjudicated gold benchmark, namely CS-SeLeRoSa-Gold. While older open models suffer substantial degradation (dropping to 37%-55% macro-F1), newer models like Gemma 4 31B achieve 68.1% zero-shot, rivaling frontier models like GPT-5 mini (69.5%). Furthermore, fine-tuning significantly reduces formatting errors and improves the results, increasing Gemma 4 31B to 77.5% on CS-SeLeRoSa and 72.6% on the gold standard, outperforming frontier zero-shot baselines.",
+      "published": "2026-10-21T15:48:28Z",
+      "updated": "2026-10-21T15:48:28Z",
+      "paper_url": "https://arxiv.org/abs/2610.29907v1",
+      "source": "arXiv API",
+      "retrieved_at_utc": "2026-10-22T17:10:10.179092+00:00",
+      "selection_rank": 10,
+      "selection_key_sha256": "01417821565111d85537af1df38bb072cbafd6abc2d6d87d3d8a249d0f0c5d0a",
+      "source_record_sha256": "14a7bcfc2b6286afea011e154117720cdcb2e4748470fe691a1cd7ed9ba9a795",
+      "abstract_sha256": "d5f72555b1824f7d26192df4286405c6e18181afc59656fa6e4ae2fb5c8f6f0c",
+      "eligibility": {
+        "nonempty_abstract": true,
+        "metadata_conflict": false,
+        "in_focal_exclusion_set": false
+      }
+    }
+  ],
+  "eligible_candidate_pool": {
+    "eligible_candidate_count": 2380,
+    "sha256": "8893a6f39cb02a52f677f3109d83afcfe30fe1c1ce80304444949a3d80cc3110",
+    "hash_specification": {
+      "algorithm": "SHA256",
+      "input": "newline-joined eligible canonical arXiv IDs",
+      "canonicalization": "Apply E6/prepare_dataset.py canonicalize_arxiv_id to source IDs; retain unique IDs outside the focal exclusion set with a nonconflicting canonical record and nonempty abstract.",
+      "sorting": "Lexicographically ascending canonical ID order",
+      "delimiter": "LF (U+000A) between IDs",
+      "encoding": "UTF-8",
+      "trailing_newline": "none"
+    }
+  }
+}

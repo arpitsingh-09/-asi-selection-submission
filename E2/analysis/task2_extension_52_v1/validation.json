@@ -1,0 +1,21 @@
+{
+  "new_records": 52,
+  "unique_new_focals": 52,
+  "score_values": 416,
+  "primary_paired_contrasts": 208,
+  "all_scores_finite": true,
+  "targeted_synthetic_tests_passed": 6,
+  "missing_claim_requests_verified": 93,
+  "all_frozen_and_protected_source_hashes_unchanged": true,
+  "embedding_cache_hash_unchanged": true,
+  "new_embeddings_generated": 0,
+  "E6_write_or_control_operations": 0,
+  "preregistration_commit": "588d15bda62861b6ab4d7e1dc4820fcf46020588",
+  "result_files_sha256": {
+    "results.jsonl": "353f29e6f478728bc4e22ab6ee48d325e00b21c447a57a4e7cafbab7d224dea0",
+    "pool_plan.jsonl": "fff8a5a5336448f65e478e7bc842986ab426d1d6837140c32d396d5c338bac24",
+    "summary.json": "6f8dd3a6fd4fd0ce82a509a99642fa79a9eb9ed6de95fce504708e365d68f3d7",
+    "missing_claim_vectors.jsonl": "0b595cc10d020ecb757b36762d834c7d4cef1ffc45f6131884efd039fe4acb43",
+    "claim_vector_execution_plan.json": "57ebb059d5cbadaa55b8dd84fcf7b31f0e17fec18ac4e4f277449c507be35da3"
+  }
+}

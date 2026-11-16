@@ -1,0 +1,96 @@
+{
+  "a": "Negative reactions to Republican-led government shutdowns increase the likelihood of a Democratic or third-party vote prediction.",
+  "b": "Tweets explicitly criticizing political institutions are more likely to be associated with a third-party or non-voting preference.",
+  "calls": [
+    {
+      "model_metadata": {
+        "adapter_metadata": {
+          "backend": "ollama-local",
+          "created_at": "2026-11-12T13:01:31.723364Z",
+          "done": true,
+          "done_reason": "stop",
+          "endpoint": "http://localhost:11434/api/generate",
+          "eval_count": 7,
+          "generation_settings": {
+            "format": "json",
+            "options": {
+              "num_ctx": 32768,
+              "num_predict": 2048,
+              "seed": 2026,
+              "temperature": 0,
+              "top_p": 1
+            },
+            "stream": false
+          },
+          "http_status": 200,
+          "latency_seconds": 3.2744803329999996,
+          "model": "gemma3:12b",
+          "model_identity": {
+            "reported_created_at": "2026-11-12T13:01:31.723364Z",
+            "reported_model": "gemma3:12b",
+            "requested_model": "gemma3:12b"
+          },
+          "prompt_characters": 1177,
+          "prompt_eval_count": 236,
+          "prompt_sha256": "739ff13d59067f1c71e3b79552e57fb87cb69e6105c33c0e2f6a0930461d2625",
+          "requested_output_token_limit": 2048,
+          "stage": "similarity",
+          "total_tokens": 243,
+          "usage_metadata_available": true
+        },
+        "generation_settings": {
+          "format": "json",
+          "options": {
+            "num_ctx": 32768,
+            "num_predict": 2048,
+            "seed": 2026,
+            "temperature": 0,
+            "top_p": 1
+          },
+          "stream": false
+        },
+        "http_status": 200,
+        "input_tokens": 236,
+        "latency_seconds": 3.2744803329999996,
+        "model": "gemma3:12b",
+        "model_identity": {
+          "reported_created_at": "2026-11-12T13:01:31.723364Z",
+          "reported_model": "gemma3:12b",
+          "requested_model": "gemma3:12b"
+        },
+        "output_tokens": 7,
+        "total_tokens": 243
+      },
+      "prompt": "ROLE\nEvaluate substantive reconstruction of a scientific research question or hypothesis.\nThis is a proposed rubric requiring researcher approval before use.\n\nFIELD\nmain hypothesis\n\nGENERATED ITEM\nNegative reactions to Republican-led government shutdowns increase the likelihood of a Democratic or third-party vote prediction.\n\nSOURCE TARGET\nTweets explicitly criticizing political institutions are more likely to be associated with a third-party or non-voting preference.\n\nJudge only these texts. Ignore writing quality, arm identity and outside knowledge.\nScore the match in scientific objective, predictor/condition, outcome, scope and,\nwhere stated, direction. Shared topic alone is not substantive equivalence.\n\nInteger scale:\n1: unrelated scientific objective or relationship.\n2: shared topic only; substantive objective or relationship differs.\n3: partial substantive match with important components missing or different.\n4: close substantive match with a material difference in scope or relationship.\n5: substantively equivalent; wording may differ.\n\nReturn exactly one JSON object, without explanation:\n{\"similarity\": 1}\nThe value must be an integer from 1 through 5.\n",
+      "prompt_sha256": "c48c742cc05529d9ab137d3a55d6f484c0f4092cefe8b48312f83a4333405ea3",
+      "raw_output": "{\"similarity\": 1}",
+      "stage": "similarity"
+    }
+  ],
+  "case_id": "reconstruction-04",
+  "expected": null,
+  "key": "similarity",
+  "prediction": 1,
+  "reference_kind": "human_reference_required",
+  "rubric": "similarity",
+  "section": "reconstruction",
+  "sources": [
+    {
+      "hypothesis": "Negative reactions to Republican-led government shutdowns increase the likelihood of a Democratic or third-party vote prediction.",
+      "hypothesis_id": "QH:H3",
+      "question": "To what extent does reaction to specific political events (e.g., government shutdowns, Supreme Court decisions) influence the predicted voting preference?",
+      "source": "E6/runs/priority10_train_batch001/b90d71ea502c100a_generation_envelope.json",
+      "source_file_sha256": "37a1f47e90f743086a5fa24a05af828ca6dbccaa04ecda57f24b973e1db0d926",
+      "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0000:4b44593d53e3"
+    },
+    {
+      "hypothesis": "Tweets explicitly criticizing political institutions are more likely to be associated with a third-party or non-voting preference.",
+      "hypothesis_id": "QH:H1",
+      "question": "To what extent does explicit criticism of political institutions (e.g., Supreme Court, government shutdowns) correlate with predicted voting preference?",
+      "source": "E6/runs/priority10_train_batch002/aa367e4423af8dc3_generation_envelope.json",
+      "source_file_sha256": "7340af8c3df91e969ef4060271247f91799584276e5b506298ae3f2162454032",
+      "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0001:f4dd50eb316a"
+    }
+  ],
+  "status": "returned_valid"
+}

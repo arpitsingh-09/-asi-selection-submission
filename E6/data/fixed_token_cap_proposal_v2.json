@@ -1,0 +1,48 @@
+{
+  "schema_version": "e6-fixed-token-cap-proposal-v2",
+  "status": "pending_researcher_approval",
+  "configured_e6_cap_changed": false,
+  "confirmatory_execution_authorized": false,
+  "proposed_total_tokens_per_input_set_arm": null,
+  "accounting_unit": "generated_tokens; prompt tokens recorded separately",
+  "proposal_basis": "Unapproved cost limit under the assignment generated-token unit. Historical 8192 prompt-plus-output development ceiling is not a directly comparable usage estimate.",
+  "full_ten_record_profile_required": false,
+  "saved_complete_workflow_usage_profiles_found": 0,
+  "runtime_evidence": {
+    "path": "E6/data/gemma3_local_verification_v1.json",
+    "file_sha256": "705211d2dafd25afd7c42c52e11d8f3373efc089da313b5fb650ab4068f8783a",
+    "verified_output_probe_tokens": 32,
+    "verified_context_metadata_tokens": 131072
+  },
+  "development_settings_evidence": {
+    "path": "E6/development_profile_config.json",
+    "file_sha256": "4910ba907c4e044a82a16a22ea2d179b713c4dc5c6904e11dabbfe228243f8ec",
+    "temporary_ceiling": 8192,
+    "per_call_output_limit": 512,
+    "is_successful_usage_evidence": false
+  },
+  "proposed_related_limits": {
+    "max_output_tokens_per_call": 2048,
+    "context_limit": 8192,
+    "status": "unapproved design choices; 2048-token output and 8192-token context not runtime-probed by saved 32-token verification"
+  },
+  "rationale": [
+    "Assignment p.39 explicitly caps generated tokens; prompts are reported separately.",
+    "8192 generated tokens is a proposed cost limit, not a measured completion guarantee.",
+    "Context must be checked independently against rendered prompts; a generated-token cap does not bound prompt length."
+  ],
+  "required_approval_terms": [
+    "Accept budget-exhaustion and invalid/incomplete outputs as retained failures under an approved denominator rule.",
+    "Accept that repeated evidence prompts charge selection arms more and may exhaust their budget.",
+    "Approve decoding, retry, missingness and related limits together; no silent adoption from this artifact."
+  ],
+  "optional_development_check": "One checkpointed DEVELOPMENT row can test these exact proposed settings if desired; no ten-row completion prerequisite. Existing runner remains at its historical 512 output tokens and is not evidence for the proposed 2048 setting.",
+  "alternatives": [
+    "Choose a different cost ceiling prospectively with rationale.",
+    "Use saved uncensored complete DEVELOPMENT envelopes if supplied; report censored cells separately."
+  ],
+  "proposed_generated_tokens_per_input_set_arm": 8192,
+  "supersedes": "E6/data/fixed_token_cap_proposal_v1.json",
+  "historical_profile_budget_unit": "prompt_plus_generation_tokens",
+  "proposal_sha256": "67d693c3dc5493579733eb1c1a593c9b6b3f11605892a0408100c168fd09ccc8"
+}

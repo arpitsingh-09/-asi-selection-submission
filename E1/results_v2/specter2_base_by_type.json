@@ -1,0 +1,177 @@
+{
+  "constraint_flip": {
+    "n": 16,
+    "near_miss_error": {
+      "estimate": 0.9375,
+      "ci95_item_bootstrap": [
+        0.8125,
+        1.0
+      ],
+      "n": 16
+    },
+    "overlap_shortcut": {
+      "estimate": 0.125,
+      "ci95_item_bootstrap": [
+        0.0,
+        0.3125
+      ],
+      "n": 16
+    },
+    "low_overlap_shortcut": {
+      "estimate": 0.625,
+      "ci95_item_bootstrap": [
+        0.375,
+        0.875
+      ],
+      "n": 16
+    },
+    "scope_order": {
+      "estimate": 0.375,
+      "ci95_item_bootstrap": [
+        0.1859375000000001,
+        0.625
+      ],
+      "n": 16
+    }
+  },
+  "direction_flip": {
+    "n": 14,
+    "near_miss_error": {
+      "estimate": 1.0,
+      "ci95_item_bootstrap": [
+        1.0,
+        1.0
+      ],
+      "n": 14
+    },
+    "overlap_shortcut": {
+      "estimate": 0.07142857142857142,
+      "ci95_item_bootstrap": [
+        0.0,
+        0.21428571428571427
+      ],
+      "n": 14
+    },
+    "low_overlap_shortcut": {
+      "estimate": 0.21428571428571427,
+      "ci95_item_bootstrap": [
+        0.0,
+        0.42857142857142855
+      ],
+      "n": 14
+    },
+    "scope_order": {
+      "estimate": 0.35714285714285715,
+      "ci95_item_bootstrap": [
+        0.14285714285714285,
+        0.6428571428571429
+      ],
+      "n": 14
+    }
+  },
+  "goal_swap": {
+    "n": 10,
+    "near_miss_error": {
+      "estimate": 0.8,
+      "ci95_item_bootstrap": [
+        0.5,
+        1.0
+      ],
+      "n": 10
+    },
+    "overlap_shortcut": {
+      "estimate": 0.0,
+      "ci95_item_bootstrap": [
+        0.0,
+        0.0
+      ],
+      "n": 10
+    },
+    "low_overlap_shortcut": {
+      "estimate": 0.2,
+      "ci95_item_bootstrap": [
+        0.0,
+        0.5
+      ],
+      "n": 10
+    },
+    "scope_order": {
+      "estimate": 0.5,
+      "ci95_item_bootstrap": [
+        0.2,
+        0.8
+      ],
+      "n": 10
+    }
+  },
+  "inquiry_change": {
+    "n": 11,
+    "near_miss_error": {
+      "estimate": 1.0,
+      "ci95_item_bootstrap": [
+        1.0,
+        1.0
+      ],
+      "n": 11
+    },
+    "overlap_shortcut": {
+      "estimate": 0.18181818181818182,
+      "ci95_item_bootstrap": [
+        0.0,
+        0.45454545454545453
+      ],
+      "n": 11
+    },
+    "low_overlap_shortcut": {
+      "estimate": 0.36363636363636365,
+      "ci95_item_bootstrap": [
+        0.09090909090909091,
+        0.6363636363636364
+      ],
+      "n": 11
+    },
+    "scope_order": {
+      "estimate": 0.45454545454545453,
+      "ci95_item_bootstrap": [
+        0.18181818181818182,
+        0.7272727272727273
+      ],
+      "n": 11
+    }
+  },
+  "role_swap": {
+    "n": 10,
+    "near_miss_error": {
+      "estimate": 1.0,
+      "ci95_item_bootstrap": [
+        1.0,
+        1.0
+      ],
+      "n": 10
+    },
+    "overlap_shortcut": {
+      "estimate": 0.0,
+      "ci95_item_bootstrap": [
+        0.0,
+        0.0
+      ],
+      "n": 10
+    },
+    "low_overlap_shortcut": {
+      "estimate": 0.1,
+      "ci95_item_bootstrap": [
+        0.0,
+        0.3
+      ],
+      "n": 10
+    },
+    "scope_order": {
+      "estimate": 0.2,
+      "ci95_item_bootstrap": [
+        0.0,
+        0.5
+      ],
+      "n": 10
+    }
+  }
+}

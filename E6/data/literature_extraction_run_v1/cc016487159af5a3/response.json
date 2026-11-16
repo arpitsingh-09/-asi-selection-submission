@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:42:01.842771+00:00",
+  "identity": "dc17b96390071c4c17333a0679505b7b58f9f5f62cc846201afbded4c2aa7067",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:42:01.796381Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 84,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 16.62585862500009,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:42:01.796381Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2452,
+      "prompt_eval_count": 517,
+      "prompt_sha256": "06dece492b301fa4cf6a19f1f7f13f277783b8858c08af1e26f2cdba9552b60d",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 601,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 517,
+    "latency_seconds": 16.62585862500009,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:42:01.796381Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 84,
+    "raw_response": "{\n  \"research_question\": \"Does semantic leakage persist even after removing the attribution of a concept to a specific entity, and is it a flawed heuristic or a broader associative tendency?\",\n  \"research_question_explicit\": true,\n  \"main_hypothesis\": \"Semantic leakage drives a form of bias that is overlooked by current evaluations.\",\n  \"main_hypothesis_explicit\": true\n}",
+    "total_tokens": 601
+  },
+  "reply_sha256": "423dab9a55aa0531e9fe1ffed2cec3cb48fe44c417e5ac4f209e260e744f4ec2"
+}

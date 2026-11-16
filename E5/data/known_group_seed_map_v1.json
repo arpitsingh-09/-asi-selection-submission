@@ -1,0 +1,29 @@
+[
+  {
+    "semantic_scholar_id": "659bf9ce7175e1ec266ff54359e2bd76e0b7ff31",
+    "kind": "arxiv",
+    "value": "2005.11401",
+    "evidence_url": "https://www.semanticscholar.org/paper/659bf9ce7175e1ec266ff54359e2bd76e0b7ff31",
+    "evidence_kind": "user-verified Semantic Scholar paper page; page bytes not retrieved in this environment",
+    "mapping_verified_by_user": true,
+    "mapping_record_sha256": "f34aa5f1e82fb55806216d2f1a40b78ce95afa0367b03a44fd721f4827e66cd6"
+  },
+  {
+    "semantic_scholar_id": "b26f2037f769d5ffc5f7bdcec2de8da28ec14bee",
+    "kind": "arxiv",
+    "value": "2004.04906",
+    "evidence_url": "https://www.semanticscholar.org/paper/b26f2037f769d5ffc5f7bdcec2de8da28ec14bee",
+    "evidence_kind": "user-verified Semantic Scholar paper page; page bytes not retrieved in this environment",
+    "mapping_verified_by_user": true,
+    "mapping_record_sha256": "6ad6670a596b0eb132bc0eacb61496c789add7254a81edde78f53db4278c7aca"
+  },
+  {
+    "semantic_scholar_id": "ea8c46e193d5121e440daf96edfd15a47151c293",
+    "kind": "arxiv",
+    "value": "2007.01282",
+    "evidence_url": "https://www.semanticscholar.org/paper/ea8c46e193d5121e440daf96edfd15a47151c293",
+    "evidence_kind": "user-verified Semantic Scholar paper page; page bytes not retrieved in this environment",
+    "mapping_verified_by_user": true,
+    "mapping_record_sha256": "6c7a5fd3922e0df6baf968518671d27945ba8c8c3989255978400315df9c9be9"
+  }
+]

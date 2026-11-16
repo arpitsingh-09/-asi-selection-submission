@@ -1,0 +1,63 @@
+{
+  "alpha_grid": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "bootstrap_draws": 2000,
+  "controls": [
+    "original",
+    "empty",
+    "shuffled",
+    "decoy"
+  ],
+  "encoder": "E5 fixed 512-bin lexical hashing",
+  "feature_schema": "shared-phi-v1; q/meanR/residual/four-facets/seven-scalars",
+  "file_hashes": {
+    "E2/novelty.py": "30276aee4718359840fe72b143ccfccc7c166c74f5dcb5c0953fdd48fbd5215c",
+    "E2/task3_novelty.py": "84de784fce12c2f5b560ec70a9a29dbcfc29b4d6fc30498eeaf213eaae97c0c1",
+    "E5/diversity.py": "14d1b51b72f6710ea8ce37b746ea1e16c8c07f18e297cd0d80b1a8a6f87799c6",
+    "M/PREREG.md": "d996104d87f35435f25f1160e38ba1e7f335a35b84234dd1f43aa37b87c82bdd",
+    "M/__init__.py": "b665aca86eebd0862c9b1d8f6a6fd0949abba43afdd73cb12ae3bf2c34c2f55d",
+    "M/__main__.py": "bbccd5541a12592e3fbb19ff5170c75fa0f831ae8e82e43c44fa80e0442e8f61",
+    "M/baselines.py": "c82589223f3b101e0889814da8b3f6911414b64a9cb12e2fe8dbf3089133675d",
+    "M/controls.py": "313e9fc067be80db26105b5804823df5dcb6da899e07a6affca693b1776eac91",
+    "M/encoders.py": "e24306ec9a7662e2915ae7f58c6591dde9b5359b5b84cecc8c9e64e8dace35f5",
+    "M/engine.py": "8312503384ccb495125b0dee33a7fdf7db981ccb46de08a34b4a8bba6bed4aec",
+    "M/evaluation.py": "f2a1c1c7909aa87e7f2cb1e4d19be710969567e3e45a9fdc3f2fc2dc01b7d125",
+    "M/freeze.py": "b754042844ed5e64972aadb3522876205cb100a81f0b6c6e6c4efa4e1b378afc",
+    "M/quality.py": "44101b2de21ebe9ca362e875ac1ac5c3e552f8042256a8ddc084a88645fdf812",
+    "M/readouts.py": "e0f2efa46c57b4551135353dd83e08faf234878d747ce254fde4941f7141b354",
+    "M/schema.py": "a43671d8cb7ec871c2fe11a8b73d70d87b3c7c27c653383b79572be9a35fbc11",
+    "M/store.py": "6cd266ea094518c895f091b4054e82e8dcbe569d55ddd74eece5c60cc15223ec",
+    "M/temporal.py": "87039b2810b9215461c111e958db7b5a3d9dff123cb651bcb92170b1b976b186",
+    "M/training.py": "58a581e43b5b1575f04e56bbb3d0172e77ba6f58bf7971690ef2004ac91f9be1"
+  },
+  "identity_threshold": 0.65,
+  "improvement_margin": 0.02,
+  "max_literature": 128,
+  "partition_hashes": {
+    "test": "a6a81b671d8fdef0427df2f425e43fb6df54825eeecbac77ff467911a9b4734d",
+    "train": "ba18f9b3cd2c781379ac4a98c71c66359a2940c78163388b392ced125af34329",
+    "validation": "a4854b7144724bc28b3b6c2ca0fd0c3b1d57ac6373d029c0dcec40c25f76f842"
+  },
+  "quality_fit_cap": 128,
+  "quality_models": null,
+  "readouts": [
+    "I",
+    "N",
+    "G",
+    "Q_peer_review",
+    "Q_later_community_use",
+    "D",
+    "T"
+  ],
+  "real_execution_enabled": false,
+  "retrieval_k": 3,
+  "schema": "M-core-lock-v1",
+  "seed": 20261113,
+  "semantic_baseline_cache": null,
+  "test_start": "2025-07-01",
+  "train_end_exclusive": "2024-01-01",
+  "validation_end_exclusive": "2025-01-01"
+}

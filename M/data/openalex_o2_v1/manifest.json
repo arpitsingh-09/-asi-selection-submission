@@ -1,0 +1,27 @@
+{
+  "candidate_pairs_matching_identical_seed_and_365_day_rules": 0,
+  "dated_outcomes_sha256": null,
+  "exact_openalex_identity_matches": 72,
+  "frozen_o2_test_list_sha256": "02f171b74158dd8af466f0646b24b3d1f490e0ee5d3e14e0762cd73736e3a0d9",
+  "frozen_question_ids": 80,
+  "non_tied_dated_outcome_pairs": 0,
+  "note": "No O2 pair met the identical-seed/date rule; pair and outcome files are omitted rather than emitted empty.",
+  "paper_evidence_sha256": "6a1fcb32bd10c7a2048ac41380242bdc5f14a21cf05f16a78827d231e723434b",
+  "raw_responses": [
+    {
+      "acquired_at_utc": "2026-11-14T05:44:49Z",
+      "path": "/Users/arpit/asi-selection/M/data/openalex_o2_v1/raw/works_batch_001.json",
+      "sha256": "5493467ccfea3306afb8bb169263f3dcd6621146ef33e37540a1c58f4942be36",
+      "url": "https://api.openalex.org/works?filter=doi:10.48550%2Farxiv.2507.23341|10.48550%2Farxiv.2510.20039|10.48550%2Farxiv.2512.23206|10.48550%2Farxiv.2512.25023|10.48550%2Farxiv.2601.00092|10.48550%2Farxiv.2601.00860|10.48550%2Farxiv.2602.16315|10.48550%2Farxiv.2602.17445|10.48550%2Farxiv.2604.19764|10.48550%2Farxiv.2604.25096|10.48550%2Farxiv.2604.25256|10.48550%2Farxiv.2605.08323|10.48550%2Farxiv.2605.19881|10.48550%2Farxiv.2605.29278|10.48550%2Farxiv.2606.07591|10.48550%2Farxiv.2606.12736|10.48550%2Farxiv.2606.13662|10.48550%2Farxiv.2606.13675|10.48550%2Farxiv.2606.15497|10.48550%2Farxiv.2606.21406|10.48550%2Farxiv.2606.31166|10.48550%2Farxiv.2607.13192|10.48550%2Farxiv.2607.28631|10.48550%2Farxiv.2608.05464|10.48550%2Farxiv.2608.06422|10.48550%2Farxiv.2608.16951|10.48550%2Farxiv.2608.17271|10.48550%2Farxiv.2608.22701|10.48550%2Farxiv.2608.25286|10.48550%2Farxiv.2608.27394|10.48550%2Farxiv.2609.02653|10.48550%2Farxiv.2609.02811|10.48550%2Farxiv.2609.05079|10.48550%2Farxiv.2609.05279|10.48550%2Farxiv.2609.09203|10.48550%2Farxiv.2609.10221|10.48550%2Farxiv.2609.15014|10.48550%2Farxiv.2609.17863|10.48550%2Farxiv.2609.23525|10.48550%2Farxiv.2609.32874|10.48550%2Farxiv.2609.33357|10.48550%2Farxiv.2609.35479|10.48550%2Farxiv.2609.36855|10.48550%2Farxiv.2609.37631|10.48550%2Farxiv.2610.00084|10.48550%2Farxiv.2610.08680|10.48550%2Farxiv.2610.08927|10.48550%2Farxiv.2610.14238|10.48550%2Farxiv.2610.18449|10.48550%2Farxiv.2610.18933|10.48550%2Farxiv.2610.19159|10.48550%2Farxiv.2610.19712|10.48550%2Farxiv.2610.20288|10.48550%2Farxiv.2610.21082|10.48550%2Farxiv.2610.22599|10.48550%2Farxiv.2610.26817|10.48550%2Farxiv.2610.26847|10.48550%2Farxiv.2610.26863|10.48550%2Farxiv.2610.26974|10.48550%2Farxiv.2610.27030|10.48550%2Farxiv.2610.27140|10.48550%2Farxiv.2610.27214|10.48550%2Farxiv.2610.27280|10.48550%2Farxiv.2610.27773|10.48550%2Farxiv.2610.28626|10.48550%2Farxiv.2610.28957|10.48550%2Farxiv.2610.29172|10.48550%2Farxiv.2610.29272|10.48550%2Farxiv.2610.29289|10.48550%2Farxiv.2610.29348|10.48550%2Farxiv.2610.29409|10.48550%2Farxiv.2610.29473|10.48550%2Farxiv.2610.29657|10.48550%2Farxiv.2610.29854|10.48550%2Farxiv.2610.29932|10.48550%2Farxiv.2610.30068|10.48550%2Farxiv.2610.30076|10.48550%2Farxiv.2610.30108|10.48550%2Farxiv.2610.30116&select=id,doi,title,publication_date,ids,referenced_works,cited_by_count,cited_by_api_url,updated_date&per-page=100"
+    }
+  ],
+  "registered_evaluation_run": false,
+  "remaining_registered_gates": [
+    "M frozen configuration has no quality/outcome model predictions or frozen semantic baseline artifacts.",
+    "Question identity, input-control validity, and independently verified same-topic controls remain separately mandatory under M/EVALUATION.md."
+  ],
+  "schema": "M-openalex-o2-evidence-v1",
+  "seed_pairs_sha256": null,
+  "status": "EVIDENCE_ONLY_NOT_SCORED",
+  "unique_frozen_paper_ids": 79
+}

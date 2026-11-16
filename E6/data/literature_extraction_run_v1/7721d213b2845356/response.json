@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:28:53.348494+00:00",
+  "identity": "6c74824e640270898fb98826095042d32a325355172bd674fa0391aeda01ac40",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:28:53.3368Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 64,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 9.771327417000009,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:28:53.3368Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2604,
+      "prompt_eval_count": 544,
+      "prompt_sha256": "b5f350ce3ec962a3e729c3972bdb006763fbd7593fafd3f4d2b4d6e9cc3f0da8",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 608,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 544,
+    "latency_seconds": 9.771327417000009,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:28:53.3368Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 64,
+    "raw_response": "{\n  \"research_question\": \"Does scanning every passage in a long document preserve more useful evidence or produce better answers compared to other retrieval configurations?\",\n  \"research_question_explicit\": true,\n  \"main_hypothesis\": null,\n  \"main_hypothesis_explicit\": false\n}",
+    "total_tokens": 608
+  },
+  "reply_sha256": "fdc2d4499d99bfbad788a6dfbc3b3e69c8c8c29732ec4ce03bcd9dd4850b29fa"
+}

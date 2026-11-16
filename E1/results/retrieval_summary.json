@@ -1,0 +1,16 @@
+{
+  "cross_encoder": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+  "embedding_model_for_retrieval": "e5-base-v2",
+  "candidate_pool_size": 427,
+  "labelled_retrieval_candidates": 204,
+  "hindsight_threshold_metrics": {
+    "threshold_hindsight": -10.383200645446777,
+    "precision": 0.504950495049505,
+    "recall": 1.0,
+    "f1": 0.6710526315789473,
+    "tp": 102,
+    "fp": 100,
+    "fn": 0
+  },
+  "note": "Threshold selected with hindsight on the same development data; optimistic and not a held-out estimate."
+}

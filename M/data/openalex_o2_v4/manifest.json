@@ -1,0 +1,222 @@
+{
+  "candidate_pairs_matching_identical_seed_and_365_day_rules": 0,
+  "citing_papers_sha256": "691c63d1c5663cfe03b2f9e4d834b600d6a0e08aee0fe86b2013dd23a0da3e1b",
+  "citing_works_with_dates": 150,
+  "dated_outcomes_sha256": null,
+  "exact_openalex_identity_matches": 72,
+  "frozen_o2_test_list_sha256": "02f171b74158dd8af466f0646b24b3d1f490e0ee5d3e14e0762cd73736e3a0d9",
+  "frozen_question_ids": 80,
+  "non_tied_dated_outcome_pairs": 0,
+  "paper_evidence_sha256": "6a1fcb32bd10c7a2048ac41380242bdc5f14a21cf05f16a78827d231e723434b",
+  "paper_outcomes_sha256": "74d00d49e0178dce43c3032dfb9965b7b182999ae0602bb3d5a779de6570b4d9",
+  "papers_with_later_citing_work_dates": 31,
+  "raw_responses": [
+    {
+      "acquired_at_utc": "2026-11-14T05:52:57Z",
+      "path": "/Users/arpit/asi-selection/M/data/openalex_o2_v4/raw/works_batch_001.json",
+      "sha256": "06b121a0b0564934d7a0e2291db2bce872db2daa527d8638d927f15ff6b77f80",
+      "url": "https://api.openalex.org/works?filter=doi:10.48550%2Farxiv.2507.23341|10.48550%2Farxiv.2510.20039|10.48550%2Farxiv.2512.23206|10.48550%2Farxiv.2512.25023|10.48550%2Farxiv.2601.00092|10.48550%2Farxiv.2601.00860|10.48550%2Farxiv.2602.16315|10.48550%2Farxiv.2602.17445|10.48550%2Farxiv.2604.19764|10.48550%2Farxiv.2604.25096|10.48550%2Farxiv.2604.25256|10.48550%2Farxiv.2605.08323|10.48550%2Farxiv.2605.19881|10.48550%2Farxiv.2605.29278|10.48550%2Farxiv.2606.07591|10.48550%2Farxiv.2606.12736|10.48550%2Farxiv.2606.13662|10.48550%2Farxiv.2606.13675|10.48550%2Farxiv.2606.15497|10.48550%2Farxiv.2606.21406|10.48550%2Farxiv.2606.31166|10.48550%2Farxiv.2607.13192|10.48550%2Farxiv.2607.28631|10.48550%2Farxiv.2608.05464|10.48550%2Farxiv.2608.06422|10.48550%2Farxiv.2608.16951|10.48550%2Farxiv.2608.17271|10.48550%2Farxiv.2608.22701|10.48550%2Farxiv.2608.25286|10.48550%2Farxiv.2608.27394|10.48550%2Farxiv.2609.02653|10.48550%2Farxiv.2609.02811|10.48550%2Farxiv.2609.05079|10.48550%2Farxiv.2609.05279|10.48550%2Farxiv.2609.09203|10.48550%2Farxiv.2609.10221|10.48550%2Farxiv.2609.15014|10.48550%2Farxiv.2609.17863|10.48550%2Farxiv.2609.23525|10.48550%2Farxiv.2609.32874|10.48550%2Farxiv.2609.33357|10.48550%2Farxiv.2609.35479|10.48550%2Farxiv.2609.36855|10.48550%2Farxiv.2609.37631|10.48550%2Farxiv.2610.00084|10.48550%2Farxiv.2610.08680|10.48550%2Farxiv.2610.08927|10.48550%2Farxiv.2610.14238|10.48550%2Farxiv.2610.18449|10.48550%2Farxiv.2610.18933|10.48550%2Farxiv.2610.19159|10.48550%2Farxiv.2610.19712|10.48550%2Farxiv.2610.20288|10.48550%2Farxiv.2610.21082|10.48550%2Farxiv.2610.22599|10.48550%2Farxiv.2610.26817|10.48550%2Farxiv.2610.26847|10.48550%2Farxiv.2610.26863|10.48550%2Farxiv.2610.26974|10.48550%2Farxiv.2610.27030|10.48550%2Farxiv.2610.27140|10.48550%2Farxiv.2610.27214|10.48550%2Farxiv.2610.27280|10.48550%2Farxiv.2610.27773|10.48550%2Farxiv.2610.28626|10.48550%2Farxiv.2610.28957|10.48550%2Farxiv.2610.29172|10.48550%2Farxiv.2610.29272|10.48550%2Farxiv.2610.29289|10.48550%2Farxiv.2610.29348|10.48550%2Farxiv.2610.29409|10.48550%2Farxiv.2610.29473|10.48550%2Farxiv.2610.29657|10.48550%2Farxiv.2610.29854|10.48550%2Farxiv.2610.29932|10.48550%2Farxiv.2610.30068|10.48550%2Farxiv.2610.30076|10.48550%2Farxiv.2610.30108|10.48550%2Farxiv.2610.30116&select=id,doi,title,publication_date,ids,referenced_works,cited_by_count,cited_by_api_url,updated_date&per-page=100"
+    },
+    {
+      "acquired_at_utc": "2026-11-14T05:52:58Z",
+      "path": "/Users/arpit/asi-selection/M/data/openalex_o2_v4/raw/citing_W4416617180_001.json",
+      "sha256": "a901799cc892a08df2a953603396b629ee2f87f29b37c4ce16c58a1b5a060e0a",
+      "url": "https://api.openalex.org/works?filter=referenced_works:W4416617180,from_publication_date:2025-10-22&select=id,doi,title,publication_date,ids,referenced_works,updated_date&per-page=100&cursor=*"
+    },
+    {
+      "acquired_at_utc": "2026-11-14T05:52:58Z",
+      "path": "/Users/arpit/asi-selection/M/data/openalex_o2_v4/raw/citing_W7119064031_001.json",
+      "sha256": "45a66a80639a9efa0ecd927f6f98a86e90c08458710ef09e14fdf7552c6e3cb9",
+      "url": "https://api.openalex.org/works?filter=referenced_works:W7119064031,from_publication_date:2025-12-31&select=id,doi,title,publication_date,ids,referenced_works,updated_date&per-page=100&cursor=*"
+    },
+    {
+      "acquired_at_utc": "2026-11-14T05:52:59Z",
+      "path": "/Users/arpit/asi-selection/M/data/openalex_o2_v4/raw/citing_W7119143058_001.json",
+      "sha256": "0e9ce1a0da0cef808dc6fc65f5201332e98143fe870dcaf508c643de634a34b9",
+      "url": "https://api.openalex.org/works?filter=referenced_works:W7119143058,from_publication_date:2025-12-30&select=id,doi,title,publication_date,ids,referenced_works,updated_date&per-page=100&cursor=*"
+    },
+    {
+      "acquired_at_utc": "2026-11-14T05:53:00Z",
+      "path": "/Users/arpit/asi-selection/M/data/openalex_o2_v4/raw/citing_W7130544004_001.json",
+      "sha256": "59d54513fdc80cb21a6dac8e7089305788b5ce7cd03a6b9b581c9f2bf3aca67a",
+      "url": "https://api.openalex.org/works?filter=referenced_works:W7130544004,from_publication_date:2026-02-18&select=id,doi,title,publication_date,ids,referenced_works,updated_date&per-page=100&cursor=*"
+    },
+    {
+      "acquired_at_utc": "2026-11-14T05:53:01Z",
+      "path": "/Users/arpit/asi-selection/M/data/openalex_o2_v4/raw/citing_W7130724978_001.json",
+      "sha256": "50118f78a173dc0022af316944693ca70cb82e121798e28bac2542de34739a49",
+      "url": "https://api.openalex.org/works?filter=referenced_works:W7130724978,from_publication_date:2026-02-19&select=id,doi,title,publication_date,ids,referenced_works,updated_date&per-page=100&cursor=*"
+    },
+    {
+      "acquired_at_utc": "2026-11-14T05:53:01Z",
+      "path": "/Users/arpit/asi-selection/M/data/openalex_o2_v4/raw/citing_W7158257849_001.json",
+      "sha256": "3bc02d539aa812d311463cf9abedc3c5d9bd2cca7d0ae97b49a936f39aad823d",
+      "url": "https://api.openalex.org/works?filter=referenced_works:W7158257849,from_publication_date:2026-04-28&select=id,doi,title,publication_date,ids,referenced_works,updated_date&per-page=100&cursor=*"
+    },
+    {
+      "acquired_at_utc": "2026-11-14T05:53:03Z",
+      "path": "/Users/arpit/asi-selection/M/data/openalex_o2_v4/raw/citing_W7158365662_001.json",
+      "sha256": "4e8eaca314c0651bf3717fb1a5057f3858b5b7eafa5c9cd45f6622d8416efa1d",
+      "url": "https://api.openalex.org/works?filter=referenced_works:W7158365662,from_publication_date:2026-04-28&select=id,doi,title,publication_date,ids,referenced_works,updated_date&per-page=100&cursor=*"
+    },
+    {
+      "acquired_at_utc": "2026-11-14T05:53:03Z",
+      "path": "/Users/arpit/asi-selection/M/data/openalex_o2_v4/raw/citing_W7162777732_001.json",
+      "sha256": "cb64e4890c5ee0be3fd0eece47cbb1c68f75dc789c6d26790232f70e335fc6dd",
+      "url": "https://api.openalex.org/works?filter=referenced_works:W7162777732,from_publication_date:2026-05-28&select=id,doi,title,publication_date,ids,referenced_works,updated_date&per-page=100&cursor=*"
+    },
+    {
+      "acquired_at_utc": "2026-11-14T05:53:04Z",
+      "path": "/Users/arpit/asi-selection/M/data/openalex_o2_v4/raw/citing_W7164023999_001.json",
+      "sha256": "f95c6820e956aa4fc49caa0f37549a3d612a70f62f0fa73514533a59548714f4",
+      "url": "https://api.openalex.org/works?filter=referenced_works:W7164023999,from_publication_date:2026-05-28&select=id,doi,title,publication_date,ids,referenced_works,updated_date&per-page=100&cursor=*"
+    },
+    {
+      "acquired_at_utc": "2026-11-14T05:53:05Z",
+      "path": "/Users/arpit/asi-selection/M/data/openalex_o2_v4/raw/citing_W7164577541_001.json",
+      "sha256": "40d49083544468895c40c49e98eadb14509f7457af310e20537b7016c4d8d717",
+      "url": "https://api.openalex.org/works?filter=referenced_works:W7164577541,from_publication_date:2026-06-10&select=id,doi,title,publication_date,ids,referenced_works,updated_date&per-page=100&cursor=*"
+    },
+    {
+      "acquired_at_utc": "2026-11-14T05:53:06Z",
+      "path": "/Users/arpit/asi-selection/M/data/openalex_o2_v4/raw/citing_W7164525570_001.json",
+      "sha256": "5ea5a4357922d5708ad7db2264d5d50ce561d41bc0f831a060eec7b6caaef266",
+      "url": "https://api.openalex.org/works?filter=referenced_works:W7164525570,from_publication_date:2026-06-11&select=id,doi,title,publication_date,ids,referenced_works,updated_date&per-page=100&cursor=*"
+    },
+    {
+      "acquired_at_utc": "2026-11-14T05:53:07Z",
+      "path": "/Users/arpit/asi-selection/M/data/openalex_o2_v4/raw/citing_W7164586757_001.json",
+      "sha256": "48c00c1654329e49cebe51d81e14beb819a8d01d591e2951b05e2f5c4690c3dc",
+      "url": "https://api.openalex.org/works?filter=referenced_works:W7164586757,from_publication_date:2026-06-11&select=id,doi,title,publication_date,ids,referenced_works,updated_date&per-page=100&cursor=*"
+    },
+    {
+      "acquired_at_utc": "2026-11-14T05:53:08Z",
+      "path": "/Users/arpit/asi-selection/M/data/openalex_o2_v4/raw/citing_W7165624495_001.json",
+      "sha256": "280989274c2e1ee4fc77fd1a0344d005fc2598b56d97960c2c6fe69ea88f503c",
+      "url": "https://api.openalex.org/works?filter=referenced_works:W7165624495,from_publication_date:2026-06-19&select=id,doi,title,publication_date,ids,referenced_works,updated_date&per-page=100&cursor=*"
+    },
+    {
+      "acquired_at_utc": "2026-11-14T05:53:09Z",
+      "path": "/Users/arpit/asi-selection/M/data/openalex_o2_v4/raw/citing_W7166888040_001.json",
+      "sha256": "ff3f9c1327e4dc80332ff592b9f4dfd4d0e67ca1844d355e1c88499988d09e93",
+      "url": "https://api.openalex.org/works?filter=referenced_works:W7166888040,from_publication_date:2026-06-30&select=id,doi,title,publication_date,ids,referenced_works,updated_date&per-page=100&cursor=*"
+    },
+    {
+      "acquired_at_utc": "2026-11-14T05:53:10Z",
+      "path": "/Users/arpit/asi-selection/M/data/openalex_o2_v4/raw/citing_W7202134864_001.json",
+      "sha256": "884f746fd957abe9b8d32816869681885d5285a7f35a49b412467f5c5b5ea003",
+      "url": "https://api.openalex.org/works?filter=referenced_works:W7202134864,from_publication_date:2026-08-05&select=id,doi,title,publication_date,ids,referenced_works,updated_date&per-page=100&cursor=*"
+    },
+    {
+      "acquired_at_utc": "2026-11-14T05:53:11Z",
+      "path": "/Users/arpit/asi-selection/M/data/openalex_o2_v4/raw/citing_W7203736377_001.json",
+      "sha256": "d6e1c2c923111c04d0ba292803dac9ce622b565f81c10b834545e64e657341a0",
+      "url": "https://api.openalex.org/works?filter=referenced_works:W7203736377,from_publication_date:2026-08-18&select=id,doi,title,publication_date,ids,referenced_works,updated_date&per-page=100&cursor=*"
+    },
+    {
+      "acquired_at_utc": "2026-11-14T05:53:13Z",
+      "path": "/Users/arpit/asi-selection/M/data/openalex_o2_v4/raw/citing_W7204493988_001.json",
+      "sha256": "b12969d81c5cba3ad45924bffb4d1bd2cf006d4c1a6c8762562bfe05066e91df",
+      "url": "https://api.openalex.org/works?filter=referenced_works:W7204493988,from_publication_date:2026-08-26&select=id,doi,title,publication_date,ids,referenced_works,updated_date&per-page=100&cursor=*"
+    },
+    {
+      "acquired_at_utc": "2026-11-14T05:53:14Z",
+      "path": "/Users/arpit/asi-selection/M/data/openalex_o2_v4/raw/citing_W7207724161_001.json",
+      "sha256": "73764a6d31a3842947d02127d40fb524a3a2e316a7718804c01815383c23af07",
+      "url": "https://api.openalex.org/works?filter=referenced_works:W7207724161,from_publication_date:2026-09-02&select=id,doi,title,publication_date,ids,referenced_works,updated_date&per-page=100&cursor=*"
+    },
+    {
+      "acquired_at_utc": "2026-11-14T05:53:15Z",
+      "path": "/Users/arpit/asi-selection/M/data/openalex_o2_v4/raw/citing_W7207641338_001.json",
+      "sha256": "d7bd5dacbce5f4fe839931e2afc4db03f08e24a68a0f8c4911f48e132832c7b3",
+      "url": "https://api.openalex.org/works?filter=referenced_works:W7207641338,from_publication_date:2026-09-02&select=id,doi,title,publication_date,ids,referenced_works,updated_date&per-page=100&cursor=*"
+    },
+    {
+      "acquired_at_utc": "2026-11-14T05:53:17Z",
+      "path": "/Users/arpit/asi-selection/M/data/openalex_o2_v4/raw/citing_W7211874068_001.json",
+      "sha256": "a072b089d58bbbf434d010f33f53b1232093fed5a8ecb9d6b24cdb67192beca6",
+      "url": "https://api.openalex.org/works?filter=referenced_works:W7211874068,from_publication_date:2026-09-04&select=id,doi,title,publication_date,ids,referenced_works,updated_date&per-page=100&cursor=*"
+    },
+    {
+      "acquired_at_utc": "2026-11-14T05:53:18Z",
+      "path": "/Users/arpit/asi-selection/M/data/openalex_o2_v4/raw/citing_W7211912235_001.json",
+      "sha256": "c041bcf5947f10045f34b77988ba238a21a6b2b66704e513ad80a35dc2b6a383",
+      "url": "https://api.openalex.org/works?filter=referenced_works:W7211912235,from_publication_date:2026-09-04&select=id,doi,title,publication_date,ids,referenced_works,updated_date&per-page=100&cursor=*"
+    },
+    {
+      "acquired_at_utc": "2026-11-14T05:53:19Z",
+      "path": "/Users/arpit/asi-selection/M/data/openalex_o2_v4/raw/citing_W7212133344_001.json",
+      "sha256": "12a6180ee2ed32f8fdb3fa0fc9da59c8b0bbcc54dd62951dcea0526f9461d8a4",
+      "url": "https://api.openalex.org/works?filter=referenced_works:W7212133344,from_publication_date:2026-09-05&select=id,doi,title,publication_date,ids,referenced_works,updated_date&per-page=100&cursor=*"
+    },
+    {
+      "acquired_at_utc": "2026-11-14T05:53:20Z",
+      "path": "/Users/arpit/asi-selection/M/data/openalex_o2_v4/raw/citing_W7213357326_001.json",
+      "sha256": "c3f26a76385d150c6a869f0273d0b0e00d9eb349afd566886d29f47892be70bd",
+      "url": "https://api.openalex.org/works?filter=referenced_works:W7213357326,from_publication_date:2026-09-14&select=id,doi,title,publication_date,ids,referenced_works,updated_date&per-page=100&cursor=*"
+    },
+    {
+      "acquired_at_utc": "2026-11-14T05:53:21Z",
+      "path": "/Users/arpit/asi-selection/M/data/openalex_o2_v4/raw/citing_W7214974066_001.json",
+      "sha256": "ce48063c5a5da59090bd587f37a7af9b1d34427a904f86a23b01e6a38805cd1e",
+      "url": "https://api.openalex.org/works?filter=referenced_works:W7214974066,from_publication_date:2026-09-29&select=id,doi,title,publication_date,ids,referenced_works,updated_date&per-page=100&cursor=*"
+    },
+    {
+      "acquired_at_utc": "2026-11-14T05:53:22Z",
+      "path": "/Users/arpit/asi-selection/M/data/openalex_o2_v4/raw/citing_W7214965471_001.json",
+      "sha256": "35eb2ef3e51efacfbb770eee820b508658bb74a064cf69ef4d2962a42b8e0bb0",
+      "url": "https://api.openalex.org/works?filter=referenced_works:W7214965471,from_publication_date:2026-09-29&select=id,doi,title,publication_date,ids,referenced_works,updated_date&per-page=100&cursor=*"
+    },
+    {
+      "acquired_at_utc": "2026-11-14T05:53:23Z",
+      "path": "/Users/arpit/asi-selection/M/data/openalex_o2_v4/raw/citing_W7221804992_001.json",
+      "sha256": "f446285a4c39afe0a685a58c67c790dfd14196255385795857eadb355b0ddb87",
+      "url": "https://api.openalex.org/works?filter=referenced_works:W7221804992,from_publication_date:2026-10-13&select=id,doi,title,publication_date,ids,referenced_works,updated_date&per-page=100&cursor=*"
+    },
+    {
+      "acquired_at_utc": "2026-11-14T05:53:24Z",
+      "path": "/Users/arpit/asi-selection/M/data/openalex_o2_v4/raw/citing_W7222129459_001.json",
+      "sha256": "49ac1a46518bf63f4775757715d157b79150610f9cde8f0595c785de7163a99b",
+      "url": "https://api.openalex.org/works?filter=referenced_works:W7222129459,from_publication_date:2026-10-13&select=id,doi,title,publication_date,ids,referenced_works,updated_date&per-page=100&cursor=*"
+    },
+    {
+      "acquired_at_utc": "2026-11-14T05:53:25Z",
+      "path": "/Users/arpit/asi-selection/M/data/openalex_o2_v4/raw/citing_W7221987330_001.json",
+      "sha256": "35ff126d3c66b316b4314255ae376fad3f4fd547424682ef6e26cfe90c15e435",
+      "url": "https://api.openalex.org/works?filter=referenced_works:W7221987330,from_publication_date:2026-10-13&select=id,doi,title,publication_date,ids,referenced_works,updated_date&per-page=100&cursor=*"
+    },
+    {
+      "acquired_at_utc": "2026-11-14T05:53:26Z",
+      "path": "/Users/arpit/asi-selection/M/data/openalex_o2_v4/raw/citing_W7223206690_001.json",
+      "sha256": "7fadf47269ecacb0f66f130a43c9d3dae7503fa9b898b2179fb6ffeba3e13b80",
+      "url": "https://api.openalex.org/works?filter=referenced_works:W7223206690,from_publication_date:2026-10-20&select=id,doi,title,publication_date,ids,referenced_works,updated_date&per-page=100&cursor=*"
+    },
+    {
+      "acquired_at_utc": "2026-11-14T05:53:27Z",
+      "path": "/Users/arpit/asi-selection/M/data/openalex_o2_v4/raw/citing_W7223218380_001.json",
+      "sha256": "13fe7232ee0debc69a13d4e40e515ca83c61dd0e2ad9ca6fb080268d97fb5d05",
+      "url": "https://api.openalex.org/works?filter=referenced_works:W7223218380,from_publication_date:2026-10-21&select=id,doi,title,publication_date,ids,referenced_works,updated_date&per-page=100&cursor=*"
+    },
+    {
+      "acquired_at_utc": "2026-11-14T05:53:28Z",
+      "path": "/Users/arpit/asi-selection/M/data/openalex_o2_v4/raw/citing_W7223221842_001.json",
+      "sha256": "04cf29b1d7241e9268354bf0efbb827e7295ad51db153125d12d173f38ac96ff",
+      "url": "https://api.openalex.org/works?filter=referenced_works:W7223221842,from_publication_date:2026-10-21&select=id,doi,title,publication_date,ids,referenced_works,updated_date&per-page=100&cursor=*"
+    },
+    {
+      "acquired_at_utc": "2026-11-14T05:53:29Z",
+      "path": "/Users/arpit/asi-selection/M/data/openalex_o2_v4/raw/citing_W7223231442_001.json",
+      "sha256": "1d7ae3eb1017184bf163484775ca22f66503d5f92fa794ca1cae69539f5188c1",
+      "url": "https://api.openalex.org/works?filter=referenced_works:W7223231442,from_publication_date:2026-10-21&select=id,doi,title,publication_date,ids,referenced_works,updated_date&per-page=100&cursor=*"
+    }
+  ],
+  "registered_evaluation_run": false,
+  "remaining_registered_gates": [
+    "M frozen configuration has no quality/outcome model predictions or frozen semantic baseline artifacts.",
+    "Question identity, input-control validity, and independently verified same-topic controls remain separately mandatory under M/EVALUATION.md."
+  ],
+  "schema": "M-openalex-o2-evidence-v1",
+  "seed_pairs_sha256": null,
+  "status": "EVIDENCE_ONLY_NOT_SCORED",
+  "unique_frozen_paper_ids": 79
+}

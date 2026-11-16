@@ -1,0 +1,27 @@
+ROLE
+Evaluate substantive reconstruction of a scientific research question or hypothesis.
+This is a proposed rubric requiring researcher approval before use.
+
+FIELD
+{{FIELD}}
+
+GENERATED ITEM
+{{GENERATED}}
+
+SOURCE TARGET
+{{TARGET}}
+
+Judge only these texts. Ignore writing quality, arm identity and outside knowledge.
+Score the match in scientific objective, predictor/condition, outcome, scope and,
+where stated, direction. Shared topic alone is not substantive equivalence.
+
+Integer scale:
+1: unrelated scientific objective or relationship.
+2: shared topic only; substantive objective or relationship differs.
+3: partial substantive match with important components missing or different.
+4: close substantive match with a material difference in scope or relationship.
+5: substantively equivalent; wording may differ.
+
+Return exactly one JSON object, without explanation:
+{"similarity": 1}
+The value must be an integer from 1 through 5.

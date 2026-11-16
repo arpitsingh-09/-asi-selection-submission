@@ -1,0 +1,15 @@
+{
+  "schema": "M-core-readiness-v2",
+  "test": "S1",
+  "status": "BLOCKED",
+  "eligible_records": 0,
+  "heldout_evaluated": false,
+  "metrics": null,
+  "ci95": null,
+  "baseline_comparisons": null,
+  "missing_dependencies": [
+    "E1 source-alignment/second-reader annotations are unverified.",
+    "Question creation dates and original input/control links unavailable.",
+    "No verified cache model training cutoff."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "benchmark_records_verified": 299,
+  "historical_records_verified": 25186,
+  "benchmark_sha256": "5a93effb0066be6046387e7fd7a37c030a2ef7bf908e6fd18f20300cddde3968",
+  "reference_sha256": "608130ed0691727bb00aeebb530e80001741b5b0559695d7e573afe9f983680b",
+  "model_inventory_sha256": "7df5697f992503c49aa8642f1e7f8e3ab0fcdc1acc682ba091aec790a4da55d1",
+  "earliest_test_openreview_date": "2025-10-08T04:11:45.795000+00:00",
+  "latest_history_openreview_date": "2024-10-05T05:26:21.204000+00:00",
+  "date_rule": "Earliest positive odate/pdate; never creation/modification timestamps or venue-year dates. History strictly before earliest benchmark OpenReview date.",
+  "source_date_and_abstract_bindings_verified": true,
+  "local_model_evidence": {
+    "type": "official_revision_commit_dates",
+    "commit_date": "2024-12-04",
+    "sources": [
+      "https://huggingface.co/allenai/specter2_base/commit/3447645e1def9117997203454fa4495937bfbd83",
+      "https://huggingface.co/allenai/specter2/commit/2081559630a80fc5851d8f798a05ba81e9468089"
+    ],
+    "conservative_weights_existence_bound": "2024-12-31T23:59:59.999999+00:00",
+    "exact_training_data_cutoff_known": false,
+    "first_global_test_publication_verified": false,
+    "interpretation": "Pinned weights existed by these commits; not an exact training-data cutoff or proof against earlier preprints."
+  },
+  "exact_training_cutoff_established": false,
+  "first_global_publication_verified": false,
+  "version_caveat": "Archived abstracts are hash-bound, but availability of that exact text at first publication is unverified.",
+  "next_step": "Collect item-level first global publication/preprint evidence for all 299 papers, bound to original abstract hashes; do not infer it from October 2025 OpenReview dates.",
+  "inference_executed": false,
+  "evaluation_executed": false
+}

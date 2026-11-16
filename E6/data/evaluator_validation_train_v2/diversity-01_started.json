@@ -1,0 +1,20 @@
+{
+  "a": "Tweets explicitly criticizing political institutions are more likely to be associated with a third-party or non-voting preference.",
+  "b": "Tweets explicitly criticizing political institutions are more likely to be associated with a third-party or non-voting preference.",
+  "case_id": "diversity-01",
+  "expected": false,
+  "key": "distinct",
+  "reference_kind": "logical_identity_control",
+  "rubric": "distinctness",
+  "section": "diversity",
+  "sources": [
+    {
+      "hypothesis": "Tweets explicitly criticizing political institutions are more likely to be associated with a third-party or non-voting preference.",
+      "hypothesis_id": "QH:H1",
+      "question": "To what extent does explicit criticism of political institutions (e.g., Supreme Court, government shutdowns) correlate with predicted voting preference?",
+      "source": "E6/runs/priority10_train_batch002/aa367e4423af8dc3_generation_envelope.json",
+      "source_file_sha256": "7340af8c3df91e969ef4060271247f91799584276e5b506298ae3f2162454032",
+      "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0001:f4dd50eb316a"
+    }
+  ]
+}

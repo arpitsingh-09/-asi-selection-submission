@@ -1,0 +1,41 @@
+{
+  "seed_description": "sha256:E2-manipulations-v1",
+  "focal_records_read": 300,
+  "cases_generated": 2400,
+  "synthetic_records_generated": 3312,
+  "condition_counts": {
+    "baseline": 300,
+    "concentrated": 300,
+    "coverage_100": 300,
+    "coverage_25": 300,
+    "coverage_50": 300,
+    "coverage_75": 300,
+    "distributed": 300,
+    "exact_copy": 300
+  },
+  "claim_count_distribution": {
+    "1": 2,
+    "2": 13,
+    "3": 43,
+    "4": 83,
+    "5": 57,
+    "6": 40,
+    "7": 22,
+    "8": 21,
+    "9": 14,
+    "10": 5
+  },
+  "skipped": {},
+  "source_pool_manifest_rows": 3000,
+  "source_raw_papers": 3000,
+  "strict_prior_date_validation": "passed",
+  "focal_self_exclusion_validation": "passed",
+  "scoring_performed": false,
+  "limitations": [
+    "Synthetic papers are experimental interventions, not real publications.",
+    "Paraphrase, near/far pool, older/newer pool, and R2 benchmark evaluation are not generated here.",
+    "Coverage uses the first N claims in the audited extraction order; claim order is not a relevance ranking.",
+    "For focal papers with few claims, 25/50/75/100 percent may map to identical integer claim counts.",
+    "Automated claim audits do not establish semantic correctness."
+  ]
+}

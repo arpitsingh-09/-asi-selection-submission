@@ -1,0 +1,35 @@
+{
+  "approval_required": true,
+  "corpus_frozen": false,
+  "forbidden_substitutions": [
+    "title",
+    "abstract",
+    "claims",
+    "generated_extraction"
+  ],
+  "manifest_sha256": "c73e49b2196b2d8f246e679992416a633236bdb2874147e0f0b39e7f93a956d2",
+  "note": "Only explicit research_question(s) fields are admitted; no question is inferred from other text.",
+  "question_count": 0,
+  "question_fields_accepted": [
+    "research_question",
+    "research_questions"
+  ],
+  "questions": [],
+  "schema_version": "e6-already-asked-question-corpus-v1",
+  "source_record_count": 0,
+  "sources": [
+    {
+      "path": "E2/data/raw_papers.jsonl",
+      "sha256": "98036e1d99139a7fa4938362ab45f97fc12f21a91182c0ce5d22ee5be7d0c662"
+    },
+    {
+      "path": "E2/data/manipulation_papers.jsonl",
+      "sha256": "a0afbaea393a6eddacec2df295a545f2fb6d25373b4de289024f1d8a6cddc162"
+    },
+    {
+      "path": "E6/data/development_manifest_v2.json",
+      "sha256": "020d9f8cec74396394b929b4baef168787f03ecc022cf2279cc36589e5b03dec"
+    }
+  ],
+  "status": "blocked_no_explicit_research_questions"
+}

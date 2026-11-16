@@ -1,0 +1,153 @@
+pool,paper_id,published,title,paper_url
+computation_language,2212.10750v2,2022-12-21T04:03:33Z,PropSegmEnt: A Large-Scale Corpus for Proposition-Level Segmentation and Entailment Recognition,https://arxiv.org/abs/2212.10750v2
+computation_language,2312.17080v4,2023-12-28T15:49:43Z,MR-GSM8K: A Meta-Reasoning Benchmark for Large Language Model Evaluation,https://arxiv.org/abs/2312.17080v4
+computation_language,2401.00158v1,2023-12-30T07:18:54Z,ReasoningLM: Enabling Structural Subgraph Reasoning in Pre-trained Language Models for Question Answering over Knowledge Graph,https://arxiv.org/abs/2401.00158v1
+computation_language,2312.16682v2,2023-12-27T18:53:09Z,Some things are more CRINGE than others: Iterative Preference Optimization with the Pairwise Cringe Loss,https://arxiv.org/abs/2312.16682v2
+computation_language,2312.15842v3,2023-12-26T01:24:25Z,Knowledge Distillation of LLM for Automatic Scoring of Science Education Assessments,https://arxiv.org/abs/2312.15842v3
+computation_language,2401.00095v1,2023-12-29T23:05:18Z,Automatic Essay Scoring in a Brazilian Scenario,https://arxiv.org/abs/2401.00095v1
+computation_language,2401.02978v1,2023-12-31T03:29:16Z,Learning from a Generative AI Predecessor -- The Many Motivations for Interacting with Conversational Agents,https://arxiv.org/abs/2401.02978v1
+computation_language,2401.00907v1,2023-12-31T21:18:16Z,LaFFi: Leveraging Hybrid Natural Language Feedback for Fine-tuning Language Models,https://arxiv.org/abs/2401.00907v1
+computation_language,2312.17710v1,2023-12-29T18:00:56Z,Principled Gradient-based Markov Chain Monte Carlo for Text Generation,https://arxiv.org/abs/2312.17710v1
+computation_language,2312.15869v1,2023-12-26T03:33:48Z,Medical Report Generation based on Segment-Enhanced Contrastive Representation Learning,https://arxiv.org/abs/2312.15869v1
+computation_language,2412.20741v1,2024-12-30T06:33:39Z,Depression and Anxiety Prediction Using Deep Language Models and Transfer Learning,https://arxiv.org/abs/2412.20741v1
+computation_language,2412.21140v1,2024-12-30T18:15:45Z,Facilitating large language model Russian adaptation with Learned Embedding Propagation,https://arxiv.org/abs/2412.21140v1
+computation_language,2412.20846v2,2024-12-30T10:29:18Z,Are LLMs Really Not Knowledgeable? Mining the Submerged Knowledge in LLMs' Memory,https://arxiv.org/abs/2412.20846v2
+computation_language,2501.00581v2,2024-12-31T18:12:05Z,Are the Values of LLMs Structurally Aligned with Humans? A Causal Perspective,https://arxiv.org/abs/2501.00581v2
+computation_language,2412.21139v2,2024-12-30T18:15:39Z,Training Software Engineering Agents and Verifiers with SWE-Gym,https://arxiv.org/abs/2412.21139v2
+computation_language,2412.20993v2,2024-12-30T14:57:53Z,Efficiently Scaling LLM Reasoning with Certaindex,https://arxiv.org/abs/2412.20993v2
+computation_language,2501.00244v1,2024-12-31T03:20:22Z,Have We Designed Generalizable Structural Knowledge Promptings? Systematic Evaluation and Rethinking,https://arxiv.org/abs/2501.00244v1
+computation_language,2412.20213v1,2024-12-28T16:54:25Z,Decoding Emotion: Speech Perception Patterns in Individuals with Self-reported Depression,https://arxiv.org/abs/2412.20213v1
+computation_language,2501.00274v1,2024-12-31T04:57:01Z,"LLM-Rubric: A Multidimensional, Calibrated Approach to Automated Evaluation of Natural Language Texts",https://arxiv.org/abs/2501.00274v1
+computation_language,2501.00192v2,2024-12-31T00:06:04Z,MLLM-as-a-Judge for Image Safety without Human Labeling,https://arxiv.org/abs/2501.00192v2
+computation_language,2412.20821v1,2024-12-30T09:30:41Z,Enhancing Multimodal Emotion Recognition through Multi-Granularity Cross-Modal Alignment,https://arxiv.org/abs/2412.20821v1
+computation_language,2412.19994v1,2024-12-28T03:40:25Z,From Generalist to Specialist: A Survey of Large Language Models for Chemistry,https://arxiv.org/abs/2412.19994v1
+computation_language,2412.21187v2,2024-12-30T18:55:12Z,Do NOT Think That Much for 2+3=? On the Overthinking of o1-Like LLMs,https://arxiv.org/abs/2412.21187v2
+computation_language,2501.00539v2,2024-12-31T16:49:27Z,MCP-Solver: Integrating Language Models with Constraint Programming Systems,https://arxiv.org/abs/2501.00539v2
+computation_language,2601.11579v1,2025-12-30T18:35:15Z,Bielik 11B v3: Multilingual Large Language Model for European Languages,https://arxiv.org/abs/2601.11579v1
+computation_language,2512.24459v1,2025-12-30T20:45:50Z,Cleaning English Abstracts of Scientific Publications,https://arxiv.org/abs/2512.24459v1
+computation_language,2601.00894v2,2025-12-31T14:49:54Z,When to Ponder: Adaptive Compute Allocation for Code Generation via Test-Time Training,https://arxiv.org/abs/2601.00894v2
+computation_language,2601.09732v1,2025-12-29T14:32:57Z,Benchmarking Cross-Lingual Semantic Alignment in Multilingual Embeddings,https://arxiv.org/abs/2601.09732v1
+computation_language,2512.23280v1,2025-12-29T08:04:48Z,Chinese Morph Resolution in E-commerce Live Streaming Scenarios,https://arxiv.org/abs/2512.23280v1
+computation_language,2602.11161v3,2025-12-29T18:23:35Z,Althea: The Fact-Checking--Metalearning Tradeoff in AI-Assisted Verification,https://arxiv.org/abs/2602.11161v3
+computation_language,2512.24157v1,2025-12-30T11:42:14Z,Training Report of TeleChat3-MoE,https://arxiv.org/abs/2512.24157v1
+computation_language,2512.23808v1,2025-12-29T19:06:05Z,MiMo-Audio: Audio Language Models are Few-Shot Learners,https://arxiv.org/abs/2512.23808v1
+computation_language,2512.24460v1,2025-12-30T20:49:43Z,IELTS Writing Revision Platform with Automated Essay Scoring and Adaptive Feedback,https://arxiv.org/abs/2512.24460v1
+computation_language,2601.09733v1,2025-12-30T17:46:38Z,Closing the Data Loop: Using OpenDataArena to Engineer Superior Training Datasets,https://arxiv.org/abs/2601.09733v1
+computation_language,2602.23374v1,2025-12-30T05:28:05Z,"Higress-RAG: A Holistic Optimization Framework for Enterprise Retrieval-Augmented Generation via Dual Hybrid Retrieval, Adaptive Routing, and CRAG",https://arxiv.org/abs/2602.23374v1
+computation_language,2512.23440v1,2025-12-29T12:58:58Z,ClinDEF: A Dynamic Evaluation Framework for Large Language Models in Clinical Reasoning,https://arxiv.org/abs/2512.23440v1
+computation_language,2601.11575v1,2025-12-30T11:53:49Z,Concept Attractors in LLMs and their Applications,https://arxiv.org/abs/2601.11575v1
+computation_language,2512.23032v2,2025-12-28T18:18:02Z,Is Chain-of-Thought Really Not Explainability? Chain-of-Thought Can Be Faithful without Hint Verbalization,https://arxiv.org/abs/2512.23032v2
+computation_language,2610.28886v1,2026-10-20T20:04:40Z,SANE: Automated Scorer-Specific Metamorphic Testing for LLM Judges,https://arxiv.org/abs/2610.28886v1
+computation_language,2610.30066v1,2026-10-21T17:24:35Z,Looped Uniform Diffusion Language Models,https://arxiv.org/abs/2610.30066v1
+computation_language,2610.29926v1,2026-10-21T16:02:34Z,Task-Preserving Multilingual Instruction Tuning for Open-Ended QA in WMT 2026 MIST,https://arxiv.org/abs/2610.29926v1
+computation_language,2610.29933v1,2026-10-21T16:05:44Z,Graph Topology Meets Energy-Driven Pathfinding: Preserving Contextual Consistency in Retrieval-Augmented Generation,https://arxiv.org/abs/2610.29933v1
+computation_language,2610.29345v1,2026-10-21T07:38:25Z,Decodability Is Not Controllability: Local and Anisotropic Speaker Control in Continuous-Latent TTS,https://arxiv.org/abs/2610.29345v1
+computation_language,2610.29410v1,2026-10-21T08:35:39Z,ECHO: Emergent Common-Mode Hidden Offsets Drive Vocabulary Collapse in Preference Optimization,https://arxiv.org/abs/2610.29410v1
+computation_language,2610.30014v1,2026-10-21T16:44:02Z,"Agent Behavior Maps: Locating Agents by What They Would Do, Without Running Them",https://arxiv.org/abs/2610.30014v1
+computation_language,2610.28992v1,2026-10-20T23:42:36Z,Language Impairment as a Lens onto Large Language Models,https://arxiv.org/abs/2610.28992v1
+computation_language,2610.28838v1,2026-10-20T19:07:04Z,How to Use Parallel Data for Multilingual Pretraining,https://arxiv.org/abs/2610.28838v1
+computation_language,2610.30132v1,2026-10-21T17:59:14Z,LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data,https://arxiv.org/abs/2610.30132v1
+computation_language,2610.29934v1,2026-10-21T16:05:54Z,ToM2Vec: Continuous Theory-of-Mind Tokens for Multi-Agent Coordination,https://arxiv.org/abs/2610.29934v1
+computation_language,2610.28787v1,2026-10-20T18:18:10Z,Is Anyone Enforcing the Cartel? What Reinforcement Learning Teaches LLM Agents in Markets,https://arxiv.org/abs/2610.28787v1
+computation_language,2610.29216v1,2026-10-21T05:15:31Z,Preference Is Not Permission: Personalizing the Auto-Purchase Line in Agentic Commerce,https://arxiv.org/abs/2610.29216v1
+computation_language,2610.30116v1,2026-10-21T17:55:31Z,Environment Duels: A Microcosm of LLM Co-Evolution,https://arxiv.org/abs/2610.30116v1
+machine_learning,2012.15781v2,2020-12-31T18:02:34Z,FastIF: Scalable Influence Functions for Efficient Model Interpretation and Debugging,https://arxiv.org/abs/2012.15781v2
+machine_learning,2101.00082v1,2020-12-31T21:40:40Z,Bosonic Random Walk Networks for Graph Learning,https://arxiv.org/abs/2101.00082v1
+machine_learning,2012.15000v1,2020-12-30T01:35:27Z,DeepSphere: a graph-based spherical CNN,https://arxiv.org/abs/2012.15000v1
+machine_learning,2012.15495v1,2020-12-31T08:16:29Z,Towards Zero-Shot Knowledge Distillation for Natural Language Processing,https://arxiv.org/abs/2012.15495v1
+machine_learning,2012.15821v2,2020-12-31T18:47:51Z,Neural Network Approximations for Calabi-Yau Metrics,https://arxiv.org/abs/2012.15821v2
+machine_learning,2012.15764v6,2020-12-31T17:39:02Z,Divergence Regulated Encoder Network for Joint Dimensionality Reduction and Classification,https://arxiv.org/abs/2012.15764v6
+machine_learning,2101.00054v1,2020-12-31T19:46:46Z,Psychoacoustic Calibration of Loss Functions for Efficient End-to-End Neural Audio Coding,https://arxiv.org/abs/2101.00054v1
+machine_learning,2012.15391v1,2020-12-31T01:37:56Z,Generalized Operating Procedure for Deep Learning: an Unconstrained Optimal Design Perspective,https://arxiv.org/abs/2012.15391v1
+machine_learning,2012.15294v1,2020-12-30T19:28:53Z,MRI brain tumor segmentation and uncertainty estimation using 3D-UNet architectures,https://arxiv.org/abs/2012.15294v1
+machine_learning,2012.15484v2,2020-12-31T07:24:55Z,Seeing is Knowing! Fact-based Visual Question Answering using Knowledge Graph Embeddings,https://arxiv.org/abs/2012.15484v2
+machine_learning,2012.15505v1,2020-12-31T08:49:43Z,Flexible model composition in machine learning and its implementation in MLJ,https://arxiv.org/abs/2012.15505v1
+machine_learning,2101.01667v1,2020-12-30T03:54:35Z,Incremental learning with online SVMs on LiDAR sensory data,https://arxiv.org/abs/2101.01667v1
+machine_learning,2012.14961v1,2020-12-29T22:34:45Z,Towards Fair Deep Anomaly Detection,https://arxiv.org/abs/2012.14961v1
+machine_learning,2101.01668v1,2020-12-30T17:17:47Z,Radio Frequency Fingerprint Identification for LoRa Using Spectrogram and CNN,https://arxiv.org/abs/2101.01668v1
+machine_learning,2012.15413v2,2020-12-31T02:57:02Z,New Bag of Deep Visual Words based features to classify chest x-ray images for COVID-19 diagnosis,https://arxiv.org/abs/2012.15413v2
+machine_learning,2112.14718v2,2021-12-29T18:22:28Z,Shallow decision trees for explainable $k$-means clustering,https://arxiv.org/abs/2112.14718v2
+machine_learning,2201.00848v1,2021-12-30T03:15:45Z,Runway Extraction and Improved Mapping from Space Imagery,https://arxiv.org/abs/2201.00848v1
+machine_learning,2112.15383v3,2021-12-31T10:49:55Z,Separation of Scales and a Thermodynamic Description of Feature Learning in Some CNNs,https://arxiv.org/abs/2112.15383v3
+machine_learning,2112.15595v1,2021-12-31T18:57:37Z,"Triangular Flows for Generative Modeling: Statistical Consistency, Smoothness Classes, and Fast Rates",https://arxiv.org/abs/2112.15595v1
+machine_learning,2201.00649v2,2021-12-30T12:47:27Z,SAE: Sequential Anchored Ensembles,https://arxiv.org/abs/2201.00649v2
+machine_learning,2112.15036v2,2021-12-30T12:44:50Z,Dimensionality reduction for prediction: Application to Bitcoin and Ethereum,https://arxiv.org/abs/2112.15036v2
+machine_learning,2112.14983v1,2021-12-30T09:35:05Z,Exploring the pattern of Emotion in children with ASD as an early biomarker through Recurring-Convolution Neural Network (R-CNN),https://arxiv.org/abs/2112.14983v1
+machine_learning,2112.15336v1,2021-12-31T07:52:14Z,Improved Algorithm for the Network Alignment Problem with Application to Binary Diffing,https://arxiv.org/abs/2112.15336v1
+machine_learning,2112.15579v1,2021-12-31T18:10:02Z,Single-Shot Pruning for Offline Reinforcement Learning,https://arxiv.org/abs/2112.15579v1
+machine_learning,2112.15367v1,2021-12-31T10:03:47Z,Weakly Supervised Change Detection Using Guided Anisotropic Difusion,https://arxiv.org/abs/2112.15367v1
+machine_learning,2112.15188v1,2021-12-30T19:41:10Z,Towards Robustness of Neural Networks,https://arxiv.org/abs/2112.15188v1
+machine_learning,2112.15271v1,2021-12-31T02:34:39Z,"BP-Net: Cuff-less, Calibration-free, and Non-invasive Blood Pressure Estimation via a Generic Deep Convolutional Architecture",https://arxiv.org/abs/2112.15271v1
+machine_learning,2112.15568v1,2021-12-31T17:42:45Z,Actor Loss of Soft Actor Critic Explained,https://arxiv.org/abs/2112.15568v1
+machine_learning,2112.15311v1,2021-12-31T05:35:21Z,Bayesian Optimization of Function Networks,https://arxiv.org/abs/2112.15311v1
+machine_learning,2201.00719v2,2021-12-29T19:06:29Z,PowerGraph: Using neural networks and principal components to determine multivariate statistical power trade-offs,https://arxiv.org/abs/2201.00719v2
+machine_learning,2301.00139v1,2022-12-31T06:58:42Z,On High dimensional Poisson models with measurement error: hypothesis testing for nonlinear nonconvex optimization,https://arxiv.org/abs/2301.00139v1
+machine_learning,2212.14882v1,2022-12-30T18:55:16Z,ChatGPT Makes Medicine Easy to Swallow: An Exploratory Case Study on Simplified Radiology Reports,https://arxiv.org/abs/2212.14882v1
+machine_learning,2212.14319v4,2022-12-29T14:28:32Z,Gaussian Process Priors for Systems of Linear Partial Differential Equations with Constant Coefficients,https://arxiv.org/abs/2212.14319v4
+machine_learning,2301.00719v2,2022-12-30T10:50:02Z,Detection of Groups with Biased Representation in Ranking,https://arxiv.org/abs/2301.00719v2
+machine_learning,2212.14743v1,2022-12-30T14:37:28Z,Risk-Sensitive Policy with Distributional Reinforcement Learning,https://arxiv.org/abs/2212.14743v1
+machine_learning,2212.14268v2,2022-12-29T11:42:46Z,Detection of out-of-distribution samples using binary neuron activation patterns,https://arxiv.org/abs/2212.14268v2
+machine_learning,2301.00693v2,2022-12-30T10:35:25Z,Deep Recurrent Learning Through Long Short Term Memory and TOPSIS,https://arxiv.org/abs/2301.00693v2
+machine_learning,2212.14278v1,2022-12-29T12:01:06Z,Industrial Scene Change Detection using Deep Convolutional Neural Networks,https://arxiv.org/abs/2212.14278v1
+machine_learning,2301.00008v1,2022-12-29T17:32:05Z,Effects of Data Geometry in Early Deep Learning,https://arxiv.org/abs/2301.00008v1
+machine_learning,2301.00032v1,2022-12-30T19:16:23Z,Bayesian Learning for Dynamic Inference,https://arxiv.org/abs/2301.00032v1
+machine_learning,2212.14272v1,2022-12-29T11:48:01Z,Do Bayesian Variational Autoencoders Know What They Don't Know?,https://arxiv.org/abs/2212.14272v1
+machine_learning,2212.14468v2,2022-12-29T22:06:51Z,An Instrumental Variable Approach to Confounded Off-Policy Evaluation,https://arxiv.org/abs/2212.14468v2
+machine_learning,2212.14437v3,2022-12-29T19:21:33Z,An algorithm for clustering with confidence-based must-link and cannot-link constraints,https://arxiv.org/abs/2212.14437v3
+machine_learning,2301.00012v1,2022-12-30T23:11:24Z,GANExplainer: GAN-based Graph Neural Networks Explainer,https://arxiv.org/abs/2301.00012v1
+machine_learning,2401.04119v1,2023-12-30T03:53:58Z,Why is the User Interface a Dark Pattern? : Explainable Auto-Detection and its Analysis,https://arxiv.org/abs/2401.04119v1
+machine_learning,2312.17361v1,2023-12-28T20:58:14Z,Graph Learning in 4D: a Quaternion-valued Laplacian to Enhance Spectral GCNs,https://arxiv.org/abs/2312.17361v1
+machine_learning,2312.17429v2,2023-12-29T01:42:43Z,Commonsense for Zero-Shot Natural Language Video Localization,https://arxiv.org/abs/2312.17429v2
+machine_learning,2401.00532v1,2023-12-31T16:24:03Z,On the Necessity of Metalearning: Learning Suitable Parameterizations for Learning Processes,https://arxiv.org/abs/2401.00532v1
+machine_learning,2401.00445v1,2023-12-31T10:16:59Z,Energy-Efficient Power Control for Multiple-Task Split Inference in UAVs: A Tiny Learning-Based Approach,https://arxiv.org/abs/2401.00445v1
+machine_learning,2401.00876v1,2023-12-30T06:50:52Z,Balanced Graph Structure Information for Brain Disease Detection,https://arxiv.org/abs/2401.00876v1
+machine_learning,2401.00529v3,2023-12-31T16:19:30Z,GraphGPT: Generative Pre-trained Graph Eulerian Transformer,https://arxiv.org/abs/2401.00529v3
+machine_learning,2401.05416v1,2023-12-29T07:44:06Z,Wavelet Dynamic Selection Network for Inertial Sensor Signal Enhancement,https://arxiv.org/abs/2401.05416v1
+machine_learning,2312.17525v1,2023-12-29T09:10:40Z,Design Space Exploration of Approximate Computing Techniques with a Reinforcement Learning Approach,https://arxiv.org/abs/2312.17525v1
+machine_learning,2401.01375v2,2023-12-30T02:58:45Z,Mapping Walnut Water Stress with High Resolution Multispectral UAV Imagery and Machine Learning,https://arxiv.org/abs/2401.01375v2
+machine_learning,2401.00072v2,2023-12-29T20:47:04Z,Machine-learned models for magnetic materials,https://arxiv.org/abs/2401.00072v2
+machine_learning,2312.17348v1,2023-12-28T20:29:59Z,A randomized algorithm to solve reduced rank operator regression,https://arxiv.org/abs/2312.17348v1
+machine_learning,2401.00320v2,2023-12-30T20:52:20Z,DXAI: Explaining Classification by Image Decomposition,https://arxiv.org/abs/2401.00320v2
+machine_learning,2401.00403v2,2023-12-31T05:37:27Z,Overcome Modal Bias in Multi-modal Federated Learning via Balanced Modality Selection,https://arxiv.org/abs/2401.00403v2
+machine_learning,2501.00136v1,2024-12-30T20:26:11Z,Detection-Fusion for Knowledge Graph Extraction from Videos,https://arxiv.org/abs/2501.00136v1
+machine_learning,2501.00124v1,2024-12-30T19:55:59Z,PQD: Post-training Quantization for Efficient Diffusion Models,https://arxiv.org/abs/2501.00124v1
+machine_learning,2412.21124v2,2024-12-30T17:55:28Z,Adaptive Batch Size Schedules for Distributed Training of Language Models with Data and Model Parallelism,https://arxiv.org/abs/2412.21124v2
+machine_learning,2501.00467v2,2024-12-31T14:34:27Z,Score-Based Metropolis-Hastings Algorithms,https://arxiv.org/abs/2501.00467v2
+machine_learning,2501.00642v1,2024-12-31T20:37:20Z,Enabling New HDLs with Agents,https://arxiv.org/abs/2501.00642v1
+machine_learning,2501.00162v1,2024-12-30T22:14:24Z,Class-based Subset Selection for Transfer Learning under Extreme Label Shift,https://arxiv.org/abs/2501.00162v1
+machine_learning,2501.00677v2,2024-12-31T23:22:12Z,Deeply Learned Robust Matrix Completion for Large-scale Low-rank Data Recovery,https://arxiv.org/abs/2501.00677v2
+machine_learning,2501.01463v1,2024-12-31T16:44:20Z,Goal Recognition using Actor-Critic Optimization,https://arxiv.org/abs/2501.01463v1
+machine_learning,2501.00305v1,2024-12-31T06:45:47Z,diffIRM: A Diffusion-Augmented Invariant Risk Minimization Framework for Spatiotemporal Prediction over Graphs,https://arxiv.org/abs/2501.00305v1
+machine_learning,2412.21082v1,2024-12-30T17:00:54Z,Quantum Diffusion Model for Quark and Gluon Jet Generation,https://arxiv.org/abs/2412.21082v1
+machine_learning,2501.00537v1,2024-12-31T16:45:03Z,Extending XReason: Formal Explanations for Adversarial Detection,https://arxiv.org/abs/2501.00537v1
+machine_learning,2412.21164v1,2024-12-30T18:43:21Z,Adversarial Attack and Defense for LoRa Device Identification and Authentication via Deep Learning,https://arxiv.org/abs/2412.21164v1
+machine_learning,2501.00623v1,2024-12-31T19:49:32Z,Global dense vector representations for words or items using shared parameter alternating Tweedie model,https://arxiv.org/abs/2501.00623v1
+machine_learning,2501.00636v1,2024-12-31T20:22:10Z,Applying Graph Explanation to Operator Fusion,https://arxiv.org/abs/2501.00636v1
+machine_learning,2601.00871v1,2025-12-30T15:29:39Z,Deep versus Broad Technology Search and the Timing of Innovation Impact,https://arxiv.org/abs/2601.00871v1
+machine_learning,2601.00090v2,2025-12-31T19:47:49Z,It's Never Too Late: Noise Optimization for Collapse Recovery in Trained Diffusion Models,https://arxiv.org/abs/2601.00090v2
+machine_learning,2512.25014v1,2025-12-31T18:03:05Z,Diffusion Language Models are Provably Optimal Parallel Samplers,https://arxiv.org/abs/2512.25014v1
+machine_learning,2512.24138v1,2025-12-30T10:55:45Z,GARDO: Reinforcing Diffusion Models without Reward Hacking,https://arxiv.org/abs/2512.24138v1
+machine_learning,2601.00042v2,2025-12-31T03:38:38Z,Large Empirical Case Study: Go-Explore adapted for AI Red Team Testing,https://arxiv.org/abs/2601.00042v2
+machine_learning,2512.24587v1,2025-12-31T03:25:30Z,MultiRisk: Multiple Risk Control via Iterative Score Thresholding,https://arxiv.org/abs/2512.24587v1
+machine_learning,2602.22226v1,2025-12-31T09:05:59Z,SEGB: Self-Evolved Generative Bidding with Local Autoregressive Diffusion,https://arxiv.org/abs/2602.22226v1
+machine_learning,2512.24792v1,2025-12-31T11:30:03Z,Projection-based Adversarial Attack using Physics-in-the-Loop Optimization for Monocular Depth Estimation,https://arxiv.org/abs/2512.24792v1
+machine_learning,2512.24564v1,2025-12-31T02:08:34Z,CPR: Causal Physiological Representation Learning for Robust ECG Analysis under Distribution Shifts,https://arxiv.org/abs/2512.24564v1
+machine_learning,2512.24617v2,2025-12-31T04:19:33Z,Dynamic Large Concept Models: Latent Reasoning in an Adaptive Semantic Space,https://arxiv.org/abs/2512.24617v2
+machine_learning,2512.24901v1,2025-12-31T14:54:06Z,Spectral Graph Neural Networks for Cognitive Task Classification in fMRI Connectomes,https://arxiv.org/abs/2512.24901v1
+machine_learning,2601.00896v1,2025-12-31T16:00:34Z,Investigation into U.S. Citizen and Non-Citizen Worker Health Insurance and Employment,https://arxiv.org/abs/2601.00896v1
+machine_learning,2512.24446v1,2025-12-30T20:00:09Z,Generative forecasting with joint probability models,https://arxiv.org/abs/2512.24446v1
+machine_learning,2512.24767v1,2025-12-31T10:27:53Z,From Trial to Deployment: A SEM Analysis of Traveler Adoptions to Fully Operational Autonomous Taxis,https://arxiv.org/abs/2512.24767v1
+machine_learning,2610.29220v1,2026-10-21T05:24:40Z,Delay-Guided Attention for Quality Prediction in Multistage Manufacturing,https://arxiv.org/abs/2610.29220v1
+machine_learning,2610.29662v1,2026-10-21T12:40:00Z,SPARE: Sparsity Allocation via Routing Entropy for Efficient MoEs,https://arxiv.org/abs/2610.29662v1
+machine_learning,2610.29195v1,2026-10-21T04:35:40Z,Truncated Out-of-Bag Probability Gain: A Noise-Robust Criterion for Random-Forest Wrapper Feature Selection,https://arxiv.org/abs/2610.29195v1
+machine_learning,2610.29281v1,2026-10-21T06:35:19Z,Flat-RLVR: Sharpness-Aware Reinforcement Learning with Verifiable Rewards for Reasoning Capacity in LLMs,https://arxiv.org/abs/2610.29281v1
+machine_learning,2610.29152v1,2026-10-21T03:39:28Z,From Augmentation to Synthetic Evidence: Evaluating Generated Chest Radiographs at Dataset Intake,https://arxiv.org/abs/2610.29152v1
+machine_learning,2610.29555v1,2026-10-21T10:42:25Z,WRDO: Weighted Refusal Direction Optimization in Aligned Language Models,https://arxiv.org/abs/2610.29555v1
+machine_learning,2610.30118v1,2026-10-21T17:56:22Z,The role of locality and weight sharing in convolutional neural networks,https://arxiv.org/abs/2610.30118v1
+machine_learning,2610.30018v1,2026-10-21T16:47:20Z,ExGrad: Beyond Suppression - Explicit Clean-Gradient Subtraction in Adversarial Training,https://arxiv.org/abs/2610.30018v1
+machine_learning,2610.29965v1,2026-10-21T16:19:22Z,CORD: Conflict-Aware Optimization for Joint RL and Distillation in Agents,https://arxiv.org/abs/2610.29965v1
+machine_learning,2610.29506v1,2026-10-21T09:57:20Z,"Asynchronous, Generation-Free ABC: Streaming AMIS Reweighting for Heterogeneous Simulator Workloads on HPC",https://arxiv.org/abs/2610.29506v1
+machine_learning,2610.29510v1,2026-10-21T10:01:25Z,A unified approach for estimation of unnormalized models via Stein operators,https://arxiv.org/abs/2610.29510v1
+machine_learning,2610.29982v1,2026-10-21T16:26:48Z,The Price of Current-Effect Inference in Nonstationary Multi-Armed Bandits,https://arxiv.org/abs/2610.29982v1
+machine_learning,2610.29523v1,2026-10-21T10:10:26Z,pplx-embed-v2-late Technical Report,https://arxiv.org/abs/2610.29523v1
+machine_learning,2610.29533v1,2026-10-21T10:23:34Z,"Block Diffusion for Longitudinal EHR: Accuracy, Efficiency, and Representation Trade-offs",https://arxiv.org/abs/2610.29533v1

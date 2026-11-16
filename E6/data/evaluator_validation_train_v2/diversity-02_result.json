@@ -1,0 +1,88 @@
+{
+  "a": "Tweets endorsing both gun rights and universal healthcare are more likely to be associated with a Republican or third-party voting preference.",
+  "b": "Tweets endorsing both gun rights and universal healthcare are more likely to be associated with a Republican or third-party voting preference.",
+  "calls": [
+    {
+      "model_metadata": {
+        "adapter_metadata": {
+          "backend": "ollama-local",
+          "created_at": "2026-11-12T13:01:16.686144Z",
+          "done": true,
+          "done_reason": "stop",
+          "endpoint": "http://localhost:11434/api/generate",
+          "eval_count": 6,
+          "generation_settings": {
+            "format": "json",
+            "options": {
+              "num_ctx": 32768,
+              "num_predict": 2048,
+              "seed": 2026,
+              "temperature": 0,
+              "top_p": 1
+            },
+            "stream": false
+          },
+          "http_status": 200,
+          "latency_seconds": 2.0231009170000007,
+          "model": "gemma3:12b",
+          "model_identity": {
+            "reported_created_at": "2026-11-12T13:01:16.686144Z",
+            "reported_model": "gemma3:12b",
+            "requested_model": "gemma3:12b"
+          },
+          "prompt_characters": 1220,
+          "prompt_eval_count": 246,
+          "prompt_sha256": "bc965c24f150c2c0d71c1f3e73df411fa8bd5489cb88df1fd5a245500cc9d48c",
+          "requested_output_token_limit": 2048,
+          "stage": "distinctness",
+          "total_tokens": 252,
+          "usage_metadata_available": true
+        },
+        "generation_settings": {
+          "format": "json",
+          "options": {
+            "num_ctx": 32768,
+            "num_predict": 2048,
+            "seed": 2026,
+            "temperature": 0,
+            "top_p": 1
+          },
+          "stream": false
+        },
+        "http_status": 200,
+        "input_tokens": 246,
+        "latency_seconds": 2.0231009170000007,
+        "model": "gemma3:12b",
+        "model_identity": {
+          "reported_created_at": "2026-11-12T13:01:16.686144Z",
+          "reported_model": "gemma3:12b",
+          "requested_model": "gemma3:12b"
+        },
+        "output_tokens": 6,
+        "total_tokens": 252
+      },
+      "prompt": "ROLE\nJudge whether two scientific hypotheses make substantively distinct claims.\nThis is a proposed rubric requiring researcher approval before use.\n\nHYPOTHESIS A\nTweets endorsing both gun rights and universal healthcare are more likely to be associated with a Republican or third-party voting preference.\n\nHYPOTHESIS B\nTweets endorsing both gun rights and universal healthcare are more likely to be associated with a Republican or third-party voting preference.\n\nUse only the supplied texts. Return false for paraphrases of the same substantive\npredictor/condition, outcome, relationship and direction. Return true when at\nleast one of those components makes the central scientific claim materially\ndifferent. Wording differences alone are insufficient. A broad claim and its\nnarrow restatement are not distinct unless the narrower claim adds a materially\ndifferent testable condition or relationship. Judge scientific content, not quality.\nIf the texts do not permit a reliable Boolean judgment, return null; the input-set\ndiversity metric must then remain unavailable rather than treating null as false.\n\nReturn exactly one JSON object, without explanation:\n{\"distinct\": true}\nThe value must be true, false, or null.\n",
+      "prompt_sha256": "9c45a2c939abca6d084fe5d9e9371a563de328e813eef99a625c1e1ced7bd882",
+      "raw_output": "{\"distinct\": false}",
+      "stage": "distinctness"
+    }
+  ],
+  "case_id": "diversity-02",
+  "expected": false,
+  "key": "distinct",
+  "prediction": false,
+  "reference_kind": "logical_identity_control",
+  "rubric": "distinctness",
+  "section": "diversity",
+  "sources": [
+    {
+      "hypothesis": "Tweets endorsing both gun rights and universal healthcare are more likely to be associated with a Republican or third-party voting preference.",
+      "hypothesis_id": "QH:H3",
+      "question": "How do endorsements of specific policies (e.g., gun rights, universal healthcare, climate change initiatives) influence the predicted voting preference, considering potential ideological contradictions?",
+      "source": "E6/runs/priority10_train_batch002/aa367e4423af8dc3_generation_envelope.json",
+      "source_file_sha256": "7340af8c3df91e969ef4060271247f91799584276e5b506298ae3f2162454032",
+      "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0001:f4dd50eb316a"
+    }
+  ],
+  "status": "returned_valid"
+}

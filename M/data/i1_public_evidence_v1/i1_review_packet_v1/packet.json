@@ -1,0 +1,289 @@
+{
+  "schema": "M-I1-independent-review-packet-v1",
+  "purpose": "independent source/question/contrast/control review only; not an evaluation cohort or result",
+  "source_evidence_manifest": "M/data/i1_public_evidence_v1/manifest.json",
+  "source_evidence_manifest_sha256": "e28d02e988e7a797676fc9e3b09ee4f047e74f4109e31e959c02830466293eea",
+  "protocol": "M/PREREG.md",
+  "candidate_count": 2,
+  "reviewer_slots": 2,
+  "reviewer_fields": [
+    "reviewer_code",
+    "review_date_utc",
+    "question_input_relationship_valid",
+    "paraphrase_equivalent",
+    "near_miss_distinct",
+    "same_topic_decoy_valid",
+    "evidence_references_json",
+    "rationale"
+  ],
+  "decision_values": [
+    "YES",
+    "NO",
+    "UNCERTAIN"
+  ],
+  "review_instructions": [
+    "Review independently; do not coordinate or copy another reviewer.",
+    "The paraphrase and near-miss are unreviewed text proposals, not labels or claims.",
+    "Cite exact source URLs and a locator plus supporting excerpt for each decision.",
+    "Use UNCERTAIN when source evidence does not support a definite decision.",
+    "A completed packet alone does not satisfy Q-head, normalization, cohort-lock, or evaluation authorization gates."
+  ],
+  "candidates": [
+    {
+      "candidate_id": "mgen-v1-01",
+      "question_id": "mgen-v1-01",
+      "candidate_status": "REJECTED_FOR_CURRENT_I1_EVALUATION_PENDING_REVIEW_AND_MODEL_EVIDENCE",
+      "original_question": "How do the approaches in TiG-BEV: Multi-view BEV 3D Object Detection via Target Inner-Geometry Learning and TiGDistill-BEV: Multi-view BEV 3D Object Detection via Target Inner-Geometry Learning Distillation differ in their treatment of computer vision?",
+      "question_generated_at": "2026-11-13T14:01:40Z",
+      "question_input_relationship": {
+        "status": "GENERATOR_INPUT_LINK_RECORDED_NOT_INDEPENDENTLY_VALIDATED",
+        "input_papers": [
+          {
+            "paper_id": "2212.13979v1",
+            "title": "TiG-BEV: Multi-view BEV 3D Object Detection via Target Inner-Geometry Learning",
+            "published_at": "2022-12-28T17:53:43Z",
+            "version_updated_at": "2022-12-28T17:53:43Z",
+            "status": "VERIFIED",
+            "url": "https://arxiv.org/abs/2212.13979v1",
+            "exact_source_id": "2212.13979v1"
+          },
+          {
+            "paper_id": "2412.20911v1",
+            "title": "TiGDistill-BEV: Multi-view BEV 3D Object Detection via Target Inner-Geometry Learning Distillation",
+            "published_at": "2024-12-30T12:44:20Z",
+            "version_updated_at": "2024-12-30T12:44:20Z",
+            "status": "VERIFIED",
+            "url": "https://arxiv.org/abs/2412.20911v1",
+            "exact_source_id": "2412.20911v1"
+          }
+        ]
+      },
+      "question_input_papers": [
+        {
+          "paper_id": "2212.13979v1",
+          "title": "TiG-BEV: Multi-view BEV 3D Object Detection via Target Inner-Geometry Learning",
+          "published_at": "2022-12-28T17:53:43Z",
+          "version_updated_at": "2022-12-28T17:53:43Z",
+          "status": "VERIFIED",
+          "url": "https://arxiv.org/abs/2212.13979v1",
+          "exact_source_id": "2212.13979v1"
+        },
+        {
+          "paper_id": "2412.20911v1",
+          "title": "TiGDistill-BEV: Multi-view BEV 3D Object Detection via Target Inner-Geometry Learning Distillation",
+          "published_at": "2024-12-30T12:44:20Z",
+          "version_updated_at": "2024-12-30T12:44:20Z",
+          "status": "VERIFIED",
+          "url": "https://arxiv.org/abs/2412.20911v1",
+          "exact_source_id": "2412.20911v1"
+        }
+      ],
+      "paraphrase": {
+        "text": "In what ways do TiG-BEV and TiGDistill-BEV differ in how they address computer vision?",
+        "status": "UNREVIEWED_TEXT_PROPOSAL"
+      },
+      "near_miss": {
+        "text": "Which of TiG-BEV and TiGDistill-BEV achieves stronger 3D object-detection performance on nuScenes?",
+        "status": "UNREVIEWED_TEXT_PROPOSAL"
+      },
+      "shuffled_control_papers": [
+        {
+          "paper_id": "2012.14128v1",
+          "title": "Cascaded Convolutional Neural Network for Automatic Myocardial Infarction Segmentation from Delayed-Enhancement Cardiac MRI",
+          "published_at": "2020-12-28T07:41:10Z",
+          "version_updated_at": "2020-12-28T07:41:10Z",
+          "status": "VERIFIED",
+          "url": "https://arxiv.org/abs/2012.14128v1",
+          "exact_source_id": "2012.14128v1"
+        },
+        {
+          "paper_id": "2012.14556v1",
+          "title": "Cascaded Framework for Automatic Evaluation of Myocardial Infarction from Delayed-Enhancement Cardiac MRI",
+          "published_at": "2020-12-29T01:35:02Z",
+          "version_updated_at": "2020-12-29T01:35:02Z",
+          "status": "VERIFIED",
+          "url": "https://arxiv.org/abs/2012.14556v1",
+          "exact_source_id": "2012.14556v1"
+        }
+      ],
+      "same_topic_decoy": {
+        "question": "How do the approaches in Towards Unsupervised Deep Image Enhancement with Generative Adversarial Network and Unpaired Image Enhancement with Quality-Attention Generative Adversarial Network differ in their treatment of computer vision?",
+        "status": "CATEGORY_MATCH_ONLY_PENDING_INDEPENDENT_SEMANTIC_REVIEW",
+        "papers": [
+          {
+            "paper_id": "2012.15020v1",
+            "title": "Towards Unsupervised Deep Image Enhancement with Generative Adversarial Network",
+            "published_at": "2020-12-30T03:22:46Z",
+            "version_updated_at": "2020-12-30T03:22:46Z",
+            "status": "VERIFIED",
+            "url": "https://arxiv.org/abs/2012.15020v1",
+            "exact_source_id": "2012.15020v1"
+          },
+          {
+            "paper_id": "2012.15052v1",
+            "title": "Unpaired Image Enhancement with Quality-Attention Generative Adversarial Network",
+            "published_at": "2020-12-30T05:57:20Z",
+            "version_updated_at": "2020-12-30T05:57:20Z",
+            "status": "VERIFIED",
+            "url": "https://arxiv.org/abs/2012.15052v1",
+            "exact_source_id": "2012.15052v1"
+          }
+        ],
+        "additional_existing_proposal": null,
+        "additional_existing_proposal_status": "UNRESOLVED"
+      },
+      "input_evidence_file": "M/data/generated_questions_v1/generated_questions.jsonl",
+      "input_evidence_sha256": "3f81a9f462e6003fc7ac1b555ee291adc46f952b4d917986eb01b1ea6c040f65",
+      "human_judgments": null
+    },
+    {
+      "candidate_id": "mgen-v1-02",
+      "question_id": "mgen-v1-02",
+      "candidate_status": "REJECTED_FOR_CURRENT_I1_EVALUATION_PENDING_REVIEW_AND_MODEL_EVIDENCE",
+      "original_question": "How do the approaches in Cascaded Convolutional Neural Network for Automatic Myocardial Infarction Segmentation from Delayed-Enhancement Cardiac MRI and Cascaded Framework for Automatic Evaluation of Myocardial Infarction from Delayed-Enhancement Cardiac MRI differ in their treatment of computer vision?",
+      "question_generated_at": "2026-11-13T14:01:40Z",
+      "question_input_relationship": {
+        "status": "GENERATOR_INPUT_LINK_RECORDED_NOT_INDEPENDENTLY_VALIDATED",
+        "input_papers": [
+          {
+            "paper_id": "2012.14128v1",
+            "title": "Cascaded Convolutional Neural Network for Automatic Myocardial Infarction Segmentation from Delayed-Enhancement Cardiac MRI",
+            "published_at": "2020-12-28T07:41:10Z",
+            "version_updated_at": "2020-12-28T07:41:10Z",
+            "status": "VERIFIED",
+            "url": "https://arxiv.org/abs/2012.14128v1",
+            "exact_source_id": "2012.14128v1"
+          },
+          {
+            "paper_id": "2012.14556v1",
+            "title": "Cascaded Framework for Automatic Evaluation of Myocardial Infarction from Delayed-Enhancement Cardiac MRI",
+            "published_at": "2020-12-29T01:35:02Z",
+            "version_updated_at": "2020-12-29T01:35:02Z",
+            "status": "VERIFIED",
+            "url": "https://arxiv.org/abs/2012.14556v1",
+            "exact_source_id": "2012.14556v1"
+          }
+        ]
+      },
+      "question_input_papers": [
+        {
+          "paper_id": "2012.14128v1",
+          "title": "Cascaded Convolutional Neural Network for Automatic Myocardial Infarction Segmentation from Delayed-Enhancement Cardiac MRI",
+          "published_at": "2020-12-28T07:41:10Z",
+          "version_updated_at": "2020-12-28T07:41:10Z",
+          "status": "VERIFIED",
+          "url": "https://arxiv.org/abs/2012.14128v1",
+          "exact_source_id": "2012.14128v1"
+        },
+        {
+          "paper_id": "2012.14556v1",
+          "title": "Cascaded Framework for Automatic Evaluation of Myocardial Infarction from Delayed-Enhancement Cardiac MRI",
+          "published_at": "2020-12-29T01:35:02Z",
+          "version_updated_at": "2020-12-29T01:35:02Z",
+          "status": "VERIFIED",
+          "url": "https://arxiv.org/abs/2012.14556v1",
+          "exact_source_id": "2012.14556v1"
+        }
+      ],
+      "paraphrase": {
+        "text": "In what ways do the two cited approaches differ in their computer-vision treatment of myocardial infarction?",
+        "status": "UNREVIEWED_TEXT_PROPOSAL"
+      },
+      "near_miss": {
+        "text": "Which method more accurately identifies myocardial infarction in delayed-enhancement cardiac MRI?",
+        "status": "UNREVIEWED_TEXT_PROPOSAL"
+      },
+      "shuffled_control_papers": [
+        {
+          "paper_id": "2012.15020v1",
+          "title": "Towards Unsupervised Deep Image Enhancement with Generative Adversarial Network",
+          "published_at": "2020-12-30T03:22:46Z",
+          "version_updated_at": "2020-12-30T03:22:46Z",
+          "status": "VERIFIED",
+          "url": "https://arxiv.org/abs/2012.15020v1",
+          "exact_source_id": "2012.15020v1"
+        },
+        {
+          "paper_id": "2012.15052v1",
+          "title": "Unpaired Image Enhancement with Quality-Attention Generative Adversarial Network",
+          "published_at": "2020-12-30T05:57:20Z",
+          "version_updated_at": "2020-12-30T05:57:20Z",
+          "status": "VERIFIED",
+          "url": "https://arxiv.org/abs/2012.15052v1",
+          "exact_source_id": "2012.15052v1"
+        }
+      ],
+      "same_topic_decoy": {
+        "question": "How do the approaches in TiG-BEV: Multi-view BEV 3D Object Detection via Target Inner-Geometry Learning and TiGDistill-BEV: Multi-view BEV 3D Object Detection via Target Inner-Geometry Learning Distillation differ in their treatment of computer vision?",
+        "status": "CATEGORY_MATCH_ONLY_PENDING_INDEPENDENT_SEMANTIC_REVIEW",
+        "papers": [
+          {
+            "paper_id": "2212.13979v1",
+            "title": "TiG-BEV: Multi-view BEV 3D Object Detection via Target Inner-Geometry Learning",
+            "published_at": "2022-12-28T17:53:43Z",
+            "version_updated_at": "2022-12-28T17:53:43Z",
+            "status": "VERIFIED",
+            "url": "https://arxiv.org/abs/2212.13979v1",
+            "exact_source_id": "2212.13979v1"
+          },
+          {
+            "paper_id": "2412.20911v1",
+            "title": "TiGDistill-BEV: Multi-view BEV 3D Object Detection via Target Inner-Geometry Learning Distillation",
+            "published_at": "2024-12-30T12:44:20Z",
+            "version_updated_at": "2024-12-30T12:44:20Z",
+            "status": "VERIFIED",
+            "url": "https://arxiv.org/abs/2412.20911v1",
+            "exact_source_id": "2412.20911v1"
+          }
+        ],
+        "additional_existing_proposal": {
+          "evaluation_R": [
+            "2012.14128v1",
+            "2012.14556v1"
+          ],
+          "generated_at": "2026-11-13T14:31:04Z",
+          "generation_source_pair": [
+            {
+              "paper_id": "2212.13715v1",
+              "provenance": {
+                "length": 2243,
+                "line": 406,
+                "line_sha256": "5578ef3de8e0faf7ad6abb8479e5207189762067a561a356c9ed8e704a3c12e7",
+                "offset": 731323,
+                "path": "E2/data/raw_papers.jsonl"
+              },
+              "published": "2022-12-28T06:34:38Z",
+              "title": "MyI-Net: Fully Automatic Detection and Quantification of Myocardial Infarction from Cardiovascular MRI Images",
+              "updated": "2022-12-28T06:34:38Z",
+              "url": "https://arxiv.org/abs/2212.13715v1"
+            },
+            {
+              "paper_id": "2012.14564v1",
+              "provenance": {
+                "length": 1781,
+                "line": 100,
+                "line_sha256": "498ea31e758db5b55b58504716e3ba9a6c32d01d84f06e8816ce51b7ee6d17a5",
+                "offset": 175774,
+                "path": "E2/data/raw_papers.jsonl"
+              },
+              "published": "2020-12-29T01:54:09Z",
+              "title": "Myocardial Segmentation of Cardiac MRI Sequences with Temporal Consistency for Coronary Artery Disease Diagnosis",
+              "updated": "2020-12-29T01:54:09Z",
+              "url": "https://arxiv.org/abs/2012.14564v1"
+            }
+          ],
+          "question": "How do the approaches in MyI-Net: Fully Automatic Detection and Quantification of Myocardial Infarction from Cardiovascular MRI Images and Myocardial Segmentation of Cardiac MRI Sequences with Temporal Consistency for Coronary Artery Disease Diagnosis differ in their treatment of computer vision?",
+          "question_kind": "generated",
+          "same_topic_status": "PENDING_HUMAN_REVIEW",
+          "template": "m_generated_question_v1",
+          "topic_label": "computer vision",
+          "topic_rationale": "Both source papers explicitly address myocardial infarction analysis from MRI; their segmentation/detection outputs differ but the clinical-imaging problem is closely matched."
+        },
+        "additional_existing_proposal_status": "GENERATED_DEC0Y_PENDING_HUMAN_REVIEW"
+      },
+      "input_evidence_file": "M/data/generated_questions_v1/generated_questions.jsonl",
+      "input_evidence_sha256": "3f81a9f462e6003fc7ac1b555ee291adc46f952b4d917986eb01b1ea6c040f65",
+      "human_judgments": null
+    }
+  ]
+}

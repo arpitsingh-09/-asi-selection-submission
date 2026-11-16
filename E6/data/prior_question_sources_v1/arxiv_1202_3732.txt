@@ -1,0 +1,104 @@
+[1202.3732] Sum-Product Networks: A New Deep Architecture (https://arxiv.org/abs/1202.3732)
+citeturn5view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/1202.3732","lineno":null}); Total lines: 178
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1: 
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3: 
+L4: Press Enter to search · 【4†Advanced search】
+L5: 
+L6: # Computer Science > Machine Learning
+L7: 
+L8: [Submitted on 14 Feb 2012]
+L9: # Title:Sum-Product Networks: A New Deep Architecture
+L10: 
+L11: Authors:【5†Hoifung Poon】, 【6†Pedro Domingos】
+L12: 
+L13: View a PDF of the paper titled Sum-Product Networks: A New Deep Architecture, by Hoifung Poon and 1 other authors
+L14: 
+L15: 【7†View PDF】
+L16: > Abstract:The key limiting factor in graphical model inference and learning is the complexity of the partition function. We thus ask the question: what are general conditions under which the partition function is tractable? The answer leads to a new kind of deep architecture, which we call sum-product networks (SPNs). SPNs are directed acyclic graphs with variables as leaves, sums and products as internal nodes, and weighted edges.
+L17: We show that if an SPN is complete and consistent it represents the partition function and all marginals of some graphical model, and give semantics to its nodes. Essentially all tractable graphical models can be cast as SPNs, but SPNs are also strictly more general. We then propose learning algorithms for SPNs, based on backpropagation and EM. Experiments show that inference and learning with SPNs can be both faster and more accurate than with standard deep networks.
+L18: For example, SPNs perform image completion better than state-of-the-art deep networks for this task. SPNs also have intriguing potential connections to the architecture of the cortex.
+L19: Subjects:  | Machine Learning (cs.LG); Artificial Intelligence (cs.AI); Machine Learning (stat.ML)
+L20: Report number:  | UAI-P-2011-PG-337-346
+L21: Cite as:  | 【8†arXiv:1202.3732】 [cs.LG]
+L22:    | (or 【9†arXiv:1202.3732v1】 [cs.LG] for this version)
+L23:    | 【10†https://doi.org/10.48550/arXiv.1202.3732†doi.org】 arXiv-issued DOI via DataCite
+L24: ## Submission history
+L25: 
+L26: From: Hoifung Poon [【11†view email】] [via AUAI proxy]
+L27: [v1] Tue, 14 Feb 2012 16:41:17 UTC (253 KB)
+L28: 
+L29: Full-text links:
+L30: 
+L31: ## Access Paper:
+L32: 
+L33: View a PDF of the paper titled Sum-Product Networks: A New Deep Architecture, by Hoifung Poon and 1 other authors
+L34: 
+L35:   * 【7†View PDF】
+L36: 
+L37: 【12†view license】
+L38: 
+L39: ### Additional Features
+L40: 
+L41:   * 【13†Audio Summary】
+L42: ### Current browse context:
+L43: 
+L44: cs.LG
+L45: 
+L46: 【14†< prev】   |   【15†next >】
+L47: 
+L48: 【16†new】 | 【17†recent】 | 【18†2012-02】
+L49: 
+L50: Change to browse by:
+L51: 
+L52: 【19†cs】
+L53: 【20†cs.AI】
+L54: 【21†stat】
+L55: 【22†stat.ML】
+L56: 
+L57: ### References & Citations
+L58: 
+L59:   * 【23†SciX†scixplorer.org】
+L60:   * 【24†Google Scholar†scholar.google.com】
+L61:   * 【25†Semantic Scholar†api.semanticscholar.org】
+L62: ### 【26†DBLP†dblp.uni-trier.de】 - CS Bibliography
+L63: 
+L64: 【27†listing†dblp.uni-trier.de】 | 【28†bibtex†dblp.uni-trier.de】
+L65: 
+L66: 【29†Hoifung Poon†dblp.uni-trier.de】
+L67: 【30†Pedro Domingos†dblp.uni-trier.de】
+L68: 【31†Pedro M. Domingos†dblp.uni-trier.de】
+L69: 
+L70: [Button: export BibTeX citation] Loading...
+L71: 
+L72: ## BibTeX formatted citation
+L73: 
+L74: [Button: ×]
+L75: 
+L76: loading...
+L77: 
+L78: Data provided by:
+L79: 
+L80: ### Bookmark
+L81: 
+L82: [Input] Bibliographic Tools
+L83: # Bibliographic and Citation Tools
+L84: 
+L85: [Input] Bibliographic Explorer Toggle
+L86: 
+L87: Bibliographic Explorer (【32†What is the Explorer?†info.arxiv.org】)
+L88: 
+L89: [Input] Connected Papers Toggle
+L90: 
+L91: Connected Papers (【33†What is Connected Papers?†www.connectedpapers.com】)
+L92: 
+L93: [Input] Litmaps Toggle
+L94: 
+L95: Litmaps (【34†What is Litmaps?†www.litmaps.co】)
+L96: 
+L97: [Input] scite.ai Toggle
+L98: 
+L99: scite Smart Citations (【35†What are Smart Citations?†www.scite.ai】)
+L100: 
+L101: [Input] Code, Data, Media

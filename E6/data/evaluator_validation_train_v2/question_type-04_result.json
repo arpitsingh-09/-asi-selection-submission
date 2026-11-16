@@ -1,0 +1,190 @@
+{
+  "a": "To what extent does reaction to specific political events (e.g., government shutdowns, Supreme Court decisions) influence the predicted voting preference?",
+  "b": null,
+  "calls": [
+    {
+      "model_metadata": {
+        "adapter_metadata": {
+          "backend": "ollama-local",
+          "created_at": "2026-11-12T13:01:38.403166Z",
+          "done": true,
+          "done_reason": "stop",
+          "endpoint": "http://localhost:11434/api/generate",
+          "eval_count": 7,
+          "generation_settings": {
+            "format": "json",
+            "options": {
+              "num_ctx": 32768,
+              "num_predict": 2048,
+              "seed": 2026,
+              "temperature": 0,
+              "top_p": 1
+            },
+            "stream": false
+          },
+          "http_status": 200,
+          "latency_seconds": 2.1403923750000047,
+          "model": "gemma3:12b",
+          "model_identity": {
+            "reported_created_at": "2026-11-12T13:01:38.403166Z",
+            "reported_model": "gemma3:12b",
+            "requested_model": "gemma3:12b"
+          },
+          "prompt_characters": 1185,
+          "prompt_eval_count": 258,
+          "prompt_sha256": "9cd6d5759bb8999d808e4a6c4171dc5b29f3dbeca7aff599e4e5fe900c7d85f6",
+          "requested_output_token_limit": 2048,
+          "stage": "question_type_classification",
+          "total_tokens": 265,
+          "usage_metadata_available": true
+        },
+        "generation_settings": {
+          "format": "json",
+          "options": {
+            "num_ctx": 32768,
+            "num_predict": 2048,
+            "seed": 2026,
+            "temperature": 0,
+            "top_p": 1
+          },
+          "stream": false
+        },
+        "http_status": 200,
+        "input_tokens": 258,
+        "latency_seconds": 2.1403923750000047,
+        "model": "gemma3:12b",
+        "model_identity": {
+          "reported_created_at": "2026-11-12T13:01:38.403166Z",
+          "reported_model": "gemma3:12b",
+          "requested_model": "gemma3:12b"
+        },
+        "output_tokens": 7,
+        "total_tokens": 265
+      },
+      "prompt": "ROLE\nYou are a classifier of scientific research questions.\n\nTASK\nClassify the supplied research question into exactly one category.\n\nRESEARCH QUESTION\nTo what extent does reaction to specific political events (e.g., government shutdowns, Supreme Court decisions) influence the predicted voting preference?\n\nCATEGORIES\n\nconstructive:\nThe question primarily asks how to build, design, develop, create, improve, optimize or enable a system, method, intervention or capability.\n\nanalytic:\nThe question primarily investigates the extent, cause, mechanism, relationship, comparison, effect or explanation of an existing or observed phenomenon.\n\nother:\nThe question does not clearly fit either constructive or analytic.\n\nambiguous:\nThe supplied question is too vague, underspecified or internally mixed to assign a reliable primary category.\n\nRULES\n1. Classify the central research objective, not isolated keywords.\n2. Choose exactly one category.\n3. Do not provide explanations or additional categories.\n4. Do not use outside information.\n\nOUTPUT\nReturn valid JSON only:\n\n{\"type\": \"constructive\"}\n\nThe value of type must be exactly one of:\n\"constructive\", \"analytic\", \"other\", \"ambiguous\".\n",
+      "prompt_sha256": "004b09964a0f1a340b4a89feca7c6b5be50fb7a32fed6f27597fd3ff402cdbce",
+      "raw_output": "{\"type\": \"analytic\"}",
+      "stage": "question_type_classification"
+    }
+  ],
+  "case_id": "question_type-04",
+  "evaluation_record": {
+    "attempts": [
+      {
+        "attempt": 1,
+        "raw": "{\"type\": \"analytic\"}",
+        "status": "returned"
+      }
+    ],
+    "error": null,
+    "evaluation_input": {
+      "question": "To what extent does reaction to specific political events (e.g., government shutdowns, Supreme Court decisions) influence the predicted voting preference?",
+      "question_id": "question_type-04",
+      "rendered_prompt": "ROLE\nYou are a classifier of scientific research questions.\n\nTASK\nClassify the supplied research question into exactly one category.\n\nRESEARCH QUESTION\nTo what extent does reaction to specific political events (e.g., government shutdowns, Supreme Court decisions) influence the predicted voting preference?\n\nCATEGORIES\n\nconstructive:\nThe question primarily asks how to build, design, develop, create, improve, optimize or enable a system, method, intervention or capability.\n\nanalytic:\nThe question primarily investigates the extent, cause, mechanism, relationship, comparison, effect or explanation of an existing or observed phenomenon.\n\nother:\nThe question does not clearly fit either constructive or analytic.\n\nambiguous:\nThe supplied question is too vague, underspecified or internally mixed to assign a reliable primary category.\n\nRULES\n1. Classify the central research objective, not isolated keywords.\n2. Choose exactly one category.\n3. Do not provide explanations or additional categories.\n4. Do not use outside information.\n\nOUTPUT\nReturn valid JSON only:\n\n{\"type\": \"constructive\"}\n\nThe value of type must be exactly one of:\n\"constructive\", \"analytic\", \"other\", \"ambiguous\".\n"
+    },
+    "evaluation_input_sha256": "ea16aff1984638a512c4869130a13c28eb0dc15b753e9961697fd99094680ed5",
+    "input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0000:4b44593d53e3",
+    "model_response_metadata": {
+      "adapter_metadata": {
+        "backend": "ollama-local",
+        "created_at": "2026-11-12T13:01:38.403166Z",
+        "done": true,
+        "done_reason": "stop",
+        "endpoint": "http://localhost:11434/api/generate",
+        "eval_count": 7,
+        "generation_settings": {
+          "format": "json",
+          "options": {
+            "num_ctx": 32768,
+            "num_predict": 2048,
+            "seed": 2026,
+            "temperature": 0,
+            "top_p": 1
+          },
+          "stream": false
+        },
+        "http_status": 200,
+        "latency_seconds": 2.1403923750000047,
+        "model": "gemma3:12b",
+        "model_identity": {
+          "reported_created_at": "2026-11-12T13:01:38.403166Z",
+          "reported_model": "gemma3:12b",
+          "requested_model": "gemma3:12b"
+        },
+        "prompt_characters": 1185,
+        "prompt_eval_count": 258,
+        "prompt_sha256": "9cd6d5759bb8999d808e4a6c4171dc5b29f3dbeca7aff599e4e5fe900c7d85f6",
+        "requested_output_token_limit": 2048,
+        "stage": "question_type_classification",
+        "total_tokens": 265,
+        "usage_metadata_available": true
+      },
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "input_tokens": 258,
+      "latency_seconds": 2.1403923750000047,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:01:38.403166Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "output_tokens": 7,
+      "total_tokens": 265
+    },
+    "parsed_output": {
+      "type": "analytic"
+    },
+    "provenance": {
+      "model_configuration": {
+        "backend": "ollama-local",
+        "endpoint": "http://localhost:11434/api/generate",
+        "format": "json",
+        "generation_options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "model": "gemma3:12b",
+        "stream": false,
+        "timeout_seconds": 600.0
+      },
+      "prompt_path": "prompts/e6/10_question_type.txt",
+      "prompt_sha256": "e0ebd66a009d84342f6ab6c781d3e0d42cc9a432a3bf0abeb29d91c47fca8503"
+    },
+    "raw_output": "{\"type\": \"analytic\"}",
+    "schema_status": "provisional_unapproved",
+    "schema_version": "e6-evaluation-provisional-v1",
+    "stage": "question_type_classification",
+    "status": "succeeded"
+  },
+  "expected": null,
+  "key": "type",
+  "prediction": "analytic",
+  "reference_kind": "human_reference_required",
+  "rubric": "question_type",
+  "section": "question_type",
+  "sources": [
+    {
+      "hypothesis": "Negative reactions to Republican-led government shutdowns increase the likelihood of a Democratic or third-party vote prediction.",
+      "hypothesis_id": "QH:H3",
+      "question": "To what extent does reaction to specific political events (e.g., government shutdowns, Supreme Court decisions) influence the predicted voting preference?",
+      "source": "E6/runs/priority10_train_batch001/b90d71ea502c100a_generation_envelope.json",
+      "source_file_sha256": "37a1f47e90f743086a5fa24a05af828ca6dbccaa04ecda57f24b973e1db0d926",
+      "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0000:4b44593d53e3"
+    }
+  ],
+  "status": "returned_valid"
+}

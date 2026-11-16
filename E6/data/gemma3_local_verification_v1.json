@@ -1,0 +1,119 @@
+{
+  "configured_arm_token_cap": null,
+  "digest_verification": {
+    "api_tags_compared_artifact_type": "sha256_of_ollama_selected_tag_manifest_bytes",
+    "api_tags_digest_match_kind": "ollama_selected_tag_manifest_bytes",
+    "api_tags_digest_raw": "b92b218582c521ba287f38f1d6057dcd3c6cbff036f13cac97b5d861f5e58ec3",
+    "api_tags_digest_sha256": "b92b218582c521ba287f38f1d6057dcd3c6cbff036f13cac97b5d861f5e58ec3",
+    "api_tags_digest_source": "GET /api/tags models[].digest",
+    "api_tags_digest_type": "ollama_model_tag_manifest_digest_bare_sha256_hex",
+    "api_tags_matches_embedded_source_manifest": true,
+    "api_tags_matches_legacy_named_manifest": false,
+    "api_tags_matches_ollama_selected_tag_manifest": true,
+    "api_tags_matches_verified_manifest_artifact": true,
+    "embedded_source_manifest_blob_sha256": "b92b218582c521ba287f38f1d6057dcd3c6cbff036f13cac97b5d861f5e58ec3",
+    "embedded_source_manifest_layer_digest": "sha256:b92b218582c521ba287f38f1d6057dcd3c6cbff036f13cac97b5d861f5e58ec3",
+    "installed_manifest_matches_recorded_inventory": true,
+    "installed_model_layer_digest": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+    "installed_model_layer_matches_recorded_inventory": true,
+    "legacy_named_manifest_path": "/Users/arpit/.ollama/models/manifests/registry.ollama.ai/library/gemma3/12b",
+    "legacy_named_manifest_sha256": "c0b76384be40635ad28390e0fd2386390838ead3e95ac5dbfcec1be652057ffa",
+    "ollama_selected_tag_manifest_path": "/Users/arpit/.ollama/models/manifests-v2/ollama.com/library/gemma3/12b",
+    "ollama_selected_tag_manifest_sha256": "b92b218582c521ba287f38f1d6057dcd3c6cbff036f13cac97b5d861f5e58ec3",
+    "recorded_inventory_manifest_sha256": "c0b76384be40635ad28390e0fd2386390838ead3e95ac5dbfcec1be652057ffa",
+    "recorded_inventory_model_layer_digest": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1"
+  },
+  "e6_ready_for_budgeted_execution": false,
+  "exact_token_counter_available": true,
+  "installed_manifest": {
+    "api_manifest_path": "/Users/arpit/.ollama/models/manifests-v2/ollama.com/library/gemma3/12b",
+    "api_manifest_representation": "ollama_manifests_v2_tag_target_bytes",
+    "api_manifest_sha256": "b92b218582c521ba287f38f1d6057dcd3c6cbff036f13cac97b5d861f5e58ec3",
+    "api_manifest_symlink_blob_sha256": "b92b218582c521ba287f38f1d6057dcd3c6cbff036f13cac97b5d861f5e58ec3",
+    "embedded_source_manifest": {
+      "blob_path": "/Users/arpit/.ollama/models/blobs/sha256-b92b218582c521ba287f38f1d6057dcd3c6cbff036f13cac97b5d861f5e58ec3",
+      "blob_sha256": "b92b218582c521ba287f38f1d6057dcd3c6cbff036f13cac97b5d861f5e58ec3",
+      "blob_size_bytes": 1287,
+      "layer_digest": "sha256:b92b218582c521ba287f38f1d6057dcd3c6cbff036f13cac97b5d861f5e58ec3"
+    },
+    "manifest_hash_method": "SHA-256 over exact local manifest-file bytes",
+    "manifest_path": "/Users/arpit/.ollama/models/manifests/registry.ollama.ai/library/gemma3/12b",
+    "manifest_sha256": "c0b76384be40635ad28390e0fd2386390838ead3e95ac5dbfcec1be652057ffa",
+    "model_layer_digest": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+    "model_layer_media_type": "application/vnd.ollama.image.model"
+  },
+  "model": "gemma3:12b",
+  "model_details": {
+    "context_length": 131072,
+    "embedding_length": 3840,
+    "families": [
+      "gemma3",
+      "clip"
+    ],
+    "family": "gemma3",
+    "format": "gguf",
+    "parameter_size": "11.8B",
+    "parent_model": "dhiltgen/gemma3:12b-it-q4_K_M-llamacpp",
+    "quantization_level": "Q4_K_M",
+    "runner": "llamacpp"
+  },
+  "ollama_model_size_bytes": 8164039732,
+  "ollama_version": "0.40.15",
+  "output_limit_probe": {
+    "backend_eval_count": 32,
+    "done_reason": "length",
+    "honored_under_limit_pressure": true,
+    "requested_num_predict": 32
+  },
+  "probe_output_limit": 32,
+  "prompt_token_count_preflight": {
+    "bounded_probe_confirmed": true,
+    "input_tokens": 28,
+    "method": "ollama_prompt_eval_count_with_num_predict_one",
+    "output_tokens": 1,
+    "rendering": "same Ollama /api/generate JSON-mode model template, tokenizer, and special-token path as generation; one-token probe completion is discarded",
+    "requested_num_predict": 1
+  },
+  "protocol_execution_gate_open": false,
+  "report_path": "E6/data/gemma3_local_verification_v1.json",
+  "scope": "development_only_no_experiment",
+  "smoke": {
+    "done_reason": "stop",
+    "eval_count": 9,
+    "passed": true,
+    "prompt_eval_count": 28,
+    "result": "E6 READY"
+  },
+  "tokenizer": {
+    "merge_count": 514906,
+    "metadata_fields": [
+      "tokenizer.ggml.add_bos_token",
+      "tokenizer.ggml.add_eos_token",
+      "tokenizer.ggml.add_padding_token",
+      "tokenizer.ggml.add_unknown_token",
+      "tokenizer.ggml.bos_token_id",
+      "tokenizer.ggml.eos_token_id",
+      "tokenizer.ggml.eos_token_ids",
+      "tokenizer.ggml.merges",
+      "tokenizer.ggml.model",
+      "tokenizer.ggml.padding_token_id",
+      "tokenizer.ggml.pre",
+      "tokenizer.ggml.scores",
+      "tokenizer.ggml.token_type",
+      "tokenizer.ggml.tokens",
+      "tokenizer.ggml.unknown_token_id"
+    ],
+    "metadata_fingerprint_is_not_a_token_count": true,
+    "metadata_sha256": "0a5090e20207bece62fbd58e81e2d6dcc3ee529d5173f2e66e336ae90507fecb",
+    "model": "llama",
+    "pre": "default",
+    "tokenization_delegated_to": "installed Ollama llama.cpp runner for this GGUF model",
+    "vocabulary_size": 262145
+  },
+  "tokenizer_accounting_consistent_with_e6_preflight": true,
+  "tokenizer_accounting_note": "PerArmTokenBudget charges the bounded one-token prompt-evaluation probe (including its actual eval_count) and the generation prompt_eval_count/eval_count separately; prompt counts must agree.",
+  "tokenizer_counter_id": "ollama-runner:b92b218582c521ba287f38f1d6057dcd3c6cbff036f13cac97b5d861f5e58ec3:0a5090e20207bece62fbd58e81e2d6dcc3ee529d5173f2e66e336ae90507fecb",
+  "tokenizer_metadata_fingerprint_sha256": "0a5090e20207bece62fbd58e81e2d6dcc3ee529d5173f2e66e336ae90507fecb",
+  "verification_status": "verified_local_runtime",
+  "verification_timestamp_utc": "2026-11-11T12:58:40.236926Z"
+}

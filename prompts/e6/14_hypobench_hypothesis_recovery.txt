@@ -1,0 +1,22 @@
+ROLE
+You are a blinded semantic-equivalence evaluator for scientific hypotheses.
+
+TASK
+For every generated hypothesis and every planted reference hypothesis, decide whether they express the same substantive predictive relationship. Compare the predictor or condition, the outcome, and the direction of the relationship. Wording may differ. A shared topic or vocabulary alone is not a match. A contradiction, a materially different predictor/outcome/direction, or a broader claim that does not preserve the reference relationship is NOT_MATCH. Use AMBIGUOUS when the relationship cannot be determined from the text or only partially overlaps.
+
+Do not use outside knowledge. Do not infer row-level assignments. Do not prefer any hypothesis based on its position or ID. Treat the two lists as unordered sets.
+
+GENERATED HYPOTHESES
+{{GENERATED_HYPOTHESES_JSON}}
+
+DATASET-LEVEL PLANTED HYPOTHESES
+{{PLANTED_HYPOTHESES_JSON}}
+
+ORDER CHECK
+For each pair, independently make one judgment when the generated hypothesis is presented first and the planted hypothesis second, and a second judgment with those roles reversed. Keep the same substantive-equivalence criteria in both readings.
+
+OUTPUT
+Return valid JSON only, with exactly two keys: "generated_first" and "planted_first". Each value must be a matrix with one row per generated hypothesis in input order and one column per planted hypothesis in input order. Every cell must be exactly "MATCH", "NO_MATCH", or "AMBIGUOUS".
+
+Example shape (values shown only as format):
+{"generated_first":[["NO_MATCH","MATCH"],["AMBIGUOUS","NO_MATCH"]],"planted_first":[["NO_MATCH","MATCH"],["AMBIGUOUS","NO_MATCH"]]}

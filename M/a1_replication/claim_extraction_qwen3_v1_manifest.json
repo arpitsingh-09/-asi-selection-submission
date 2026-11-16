@@ -1,0 +1,37 @@
+{
+  "schema": "M-A1-qwen3-extraction-v1",
+  "status": "completed",
+  "run_started_at_utc": "2026-11-14T12:42:32.944745Z",
+  "registration_commit": "281595fac1280a855cd67d71cf7f357e0a440d0e",
+  "amendment_commit": "c7be68dbf12566083cffc5cad8697121aeb581cc",
+  "cohort_manifest_sha256": "2577e78a37f951785c577a0a045cc69a264d575ea1c82dc20f310c2fa2bd7702",
+  "selected_count": 50,
+  "attempted_count": 50,
+  "returned_count": 50,
+  "exception_count": 0,
+  "valid_4_to_10_count": 43,
+  "total_valid_claims": 238,
+  "model": {
+    "tag": "qwen3:8b",
+    "ollama_id": "sha256:500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+    "model_layer_digest": "sha256:a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+    "config_digest": "sha256:05a61d37b08453e59290add468e3bb2f688e23a01e967fecb0e2fa41218cea76",
+    "manifest_sha256": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7"
+  },
+  "extractor": {
+    "path": "E2/extract_claims_v8.py",
+    "sha256": "032835cc770217ae6024c5e6784275675ce80421cfd18f35c1f13ebb48b778ba",
+    "prompt_version": "atomic-claims-v8",
+    "temperature": 0,
+    "num_predict": 2800,
+    "format": "json",
+    "think": false,
+    "stream": false,
+    "max_attempts": 2
+  },
+  "source_file": "E2/data/raw_papers.jsonl",
+  "source_file_sha256": "98036e1d99139a7fa4938362ab45f97fc12f21a91182c0ce5d22ee5be7d0c662",
+  "output_jsonl": "M/a1_replication/claim_extraction_qwen3_v1.jsonl",
+  "inference_or_scoring": "claim extraction only",
+  "run_completed_at_utc": "2026-11-14T13:08:57.922172Z"
+}

@@ -1,0 +1,102 @@
+[2604.23765] Necessary and sufficient conditions for universality of Kolmogorov-Arnold networks (https://arxiv.org/abs/2604.23765)
+citeturn9view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2604.23765","lineno":null}); Total lines: 176
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1: 
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3: 
+L4: Press Enter to search · 【4†Advanced search】
+L5: 
+L6: # Computer Science > Machine Learning
+L7: 
+L8: [Submitted on 26 Apr 2026 (【5†v1】), last revised 31 May 2026 (this version, v3)]
+L9: # Title:Necessary and sufficient conditions for universality of Kolmogorov-Arnold networks
+L10: 
+L11: Authors:【6†Vugar Ismailov】
+L12: 
+L13: View a PDF of the paper titled Necessary and sufficient conditions for universality of Kolmogorov-Arnold networks, by Vugar Ismailov
+L14: 
+L15: 【7†View PDF】 【8†HTML (experimental)】
+L16: > Abstract:We analyze the universal approximation property of Kolmogorov-Arnold Networks (KANs) in terms of their edge functions. If these functions are all affine, then universality clearly fails. How many non-affine functions are needed, in addition to affine ones, to ensure universality? We show that a single one suffices.
+L17: More precisely, we prove that deep KANs in which all edge functions are either affine or equal to a fixed continuous function $\sigma$ are dense in $C(K)$ for every compact set $K\subset\mathbb{R}^n$ if and only if $\sigma$ is non-affine. In contrast, for KANs with exactly two hidden layers, universality holds if and only if $\sigma$ is nonpolynomial. We further show that the full class of affine functions is not required; it can be replaced by a finite set without affecting universality.
+L18: In particular, in the nonpolynomial case, a fixed family of five affine functions suffices when the depth is arbitrary. More generally, for every continuous non-affine function $\sigma$, there exists a finite affine family $A_\sigma$ such that deep KANs with edge functions in $A_\sigma\cup\{\sigma\}$ remain universal.
+L19: We also prove that KANs with the spline-based edge parameterization introduced by Liu et al.~\cite{Liu2024} are universal approximators in the classical sense, even when the spline degree and knot sequence are fixed in advance.
+L20: Comments:  | 19 pages; two corollaries from Section 6 removed and generalized in 【9†arXiv:2605.26550】
+L21: Subjects:  | Machine Learning (cs.LG); Neural and Evolutionary Computing (cs.NE); Functional Analysis (math.FA)
+L22: Cite as:  | 【10†arXiv:2604.23765】 [cs.LG]
+L23:    | (or 【11†arXiv:2604.23765v3】 [cs.LG] for this version)
+L24:    | 【12†https://doi.org/10.48550/arXiv.2604.23765†doi.org】 arXiv-issued DOI via DataCite
+L25: ## Submission history
+L26: 
+L27: From: Vugar Ismailov [【13†view email】]
+L28: 【5†[v1]】 Sun, 26 Apr 2026 15:31:51 UTC (15 KB)
+L29: 【14†[v2]】 Mon, 18 May 2026 14:08:32 UTC (17 KB)
+L30: [v3] Sun, 31 May 2026 18:12:31 UTC (15 KB)
+L31: 
+L32: Full-text links:
+L33: 
+L34: ## Access Paper:
+L35: 
+L36: View a PDF of the paper titled Necessary and sufficient conditions for universality of Kolmogorov-Arnold networks, by Vugar Ismailov
+L37: 
+L38:   * 【7†View PDF】
+L39:   * 【8†HTML (experimental)】
+L40:   * 【15†TeX Source】
+L41: 
+L42: 【16†view license】
+L43: 
+L44: ### Additional Features
+L45: 
+L46:   * 【17†Audio Summary】
+L47: ### Current browse context:
+L48: 
+L49: cs.LG
+L50: 
+L51: 【18†< prev】   |   【19†next >】
+L52: 
+L53: 【20†new】 | 【21†recent】 | 【22†2026-04】
+L54: 
+L55: Change to browse by:
+L56: 
+L57: 【23†cs】
+L58: 【24†cs.NE】
+L59: 【25†math】
+L60: 【26†math.FA】
+L61: 
+L62: ### References & Citations
+L63: 
+L64:   * 【27†SciX†scixplorer.org】
+L65:   * 【28†Google Scholar†scholar.google.com】
+L66:   * 【29†Semantic Scholar†api.semanticscholar.org】
+L67: 
+L68: [Button: export BibTeX citation] Loading...
+L69: 
+L70: ## BibTeX formatted citation
+L71: 
+L72: [Button: ×]
+L73: 
+L74: loading...
+L75: 
+L76: Data provided by:
+L77: 
+L78: ### Bookmark
+L79: 
+L80: [Input] Bibliographic Tools
+L81: # Bibliographic and Citation Tools
+L82: 
+L83: [Input] Bibliographic Explorer Toggle
+L84: 
+L85: Bibliographic Explorer (【30†What is the Explorer?†info.arxiv.org】)
+L86: 
+L87: [Input] Connected Papers Toggle
+L88: 
+L89: Connected Papers (【31†What is Connected Papers?†www.connectedpapers.com】)
+L90: 
+L91: [Input] Litmaps Toggle
+L92: 
+L93: Litmaps (【32†What is Litmaps?†www.litmaps.co】)
+L94: 
+L95: [Input] scite.ai Toggle
+L96: 
+L97: scite Smart Citations (【33†What are Smart Citations?†www.scite.ai】)
+L98: 
+L99: [Input] Code, Data, Media

@@ -1,0 +1,24 @@
+{
+  "preregistration_commit": "77a409191e345b612a933c745583a0a2213a064f",
+  "targeted_synthetic_tests_passed": 16,
+  "readiness": {
+    "cohort_focals": 52,
+    "required_claim_vectors": 93,
+    "complete_claim_vectors": 0,
+    "missing_claim_vectors": 93,
+    "authorize_evaluation": false,
+    "real_scores_computed": 0,
+    "model_loaded": false
+  },
+  "real_evaluation_executed": false,
+  "Y_density_recomputed": false,
+  "old_241_recomputed": false,
+  "new_embeddings_generated": 0,
+  "old_experiment_and_protected_source_hashes_unchanged": true,
+  "additional_mandatory_progress": {
+    "new_paraphrase_drafts": 3,
+    "total_candidate_papers": 8,
+    "independently_approved_new_drafts": 0,
+    "real_scores": 0
+  }
+}

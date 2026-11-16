@@ -1,0 +1,25 @@
+{
+  "test_dates_recovered": 299,
+  "original_test_abstracts_recovered": 299,
+  "benchmark_labels_available": 299,
+  "historical_quality_training_papers": 25186,
+  "references_with_abstract_and_public_date": 25186,
+  "references_before_every_test_public_date": 25186,
+  "references_missing_date_or_abstract": [],
+  "references_not_before_earliest_test": 0,
+  "earliest_test_public_date": "2025-10-08T04:11:45.795000+00:00",
+  "latest_reference_public_date": "2024-10-05T05:26:21.204000+00:00",
+  "original_vs_edited_abstract_exact_agreement": 14,
+  "nearest_plans_checked": 964,
+  "nearest_plans_with_all_modified_embeddings": 0,
+  "missing_unique_nearest_modified_embeddings": 1304,
+  "reference_manifest_sha256": "608130ed0691727bb00aeebb530e80001741b5b0559695d7e573afe9f983680b",
+  "benchmark_inputs_sha256": "5a93effb0066be6046387e7fd7a37c030a2ef7bf908e6fd18f20300cddde3968",
+  "evaluation_executed": false,
+  "remaining_blockers": [
+    "Documented encoder cutoff or defensible release-bound evidence for the pinned weights",
+    "Raw abstract-only historical/test embeddings are unavailable; new inference is prohibited",
+    "Benchmark claim sets and four novelty prediction vectors are unavailable"
+  ],
+  "protocol_note": "Input preparation only. Original abstracts differ from edited R2 ideas; representation choice must be frozen before evaluation. Prior label exposure remains disclosed."
+}

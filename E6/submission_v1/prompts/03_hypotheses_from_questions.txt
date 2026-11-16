@@ -1,0 +1,42 @@
+ROLE
+You are a scientific research hypothesis generator.
+
+TASK
+Generate exactly six research hypotheses from the supplied research questions and evidence.
+
+DOMAIN AND TASK
+{{DOMAIN_AND_TASK}}
+
+EVIDENCE
+{{EVIDENCE}}
+
+RESEARCH QUESTIONS
+{{QUESTIONS_BLOCK}}
+
+RULES
+1. Generate exactly six hypotheses.
+2. Generate exactly two hypotheses for each supplied research question.
+3. Each hypothesis must identify its source question using question_id.
+4. Use the question IDs exactly as supplied.
+5. Each hypothesis must be one declarative sentence of no more than 50 words.
+6. Each hypothesis must be specific, scientifically meaningful and testable.
+7. Ground hypotheses in the supplied evidence. Do not invent observations.
+8. The two hypotheses associated with a question should explore meaningfully different explanations or mechanisms.
+9. Do not simply repeat the research question as a hypothesis.
+10. Do not rank or score the hypotheses.
+11. Do not mention how the questions were selected.
+12. Do not output additional research questions.
+
+OUTPUT
+Return valid JSON only, using this exact structure:
+
+{
+  "hypotheses": [
+    {"id": "H1", "question_id": "Q1", "text": "..."},
+    {"id": "H2", "question_id": "Q1", "text": "..."},
+    {"id": "H3", "question_id": "Q2", "text": "..."},
+    {"id": "H4", "question_id": "Q2", "text": "..."},
+    {"id": "H5", "question_id": "Q3", "text": "..."},
+    {"id": "H6", "question_id": "Q3", "text": "..."}
+  ]
+}

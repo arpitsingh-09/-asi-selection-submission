@@ -1,0 +1,32 @@
+{
+  "client_configuration": {
+    "backend": "ollama-local",
+    "endpoint": "http://localhost:11434/api/generate",
+    "format": "json",
+    "generation_options": {
+      "num_ctx": 32768,
+      "num_predict": 2048,
+      "seed": 2026,
+      "temperature": 0,
+      "top_p": 1
+    },
+    "model": "gemma3:12b",
+    "stream": false,
+    "timeout_seconds": 600.0
+  },
+  "content_attempt": 1,
+  "identity": "20c7dfd1d96ca03070793805dd47eae5dadf86bdc1d0707fe14aa3c0fa37707b",
+  "model_configuration": {
+    "context_limit": 32768,
+    "immutable_version_or_digest": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+    "max_output_tokens": 2048,
+    "model": "gemma3:12b",
+    "seed": 2026,
+    "temperature": 0,
+    "top_p": 1
+  },
+  "prompt": "ROLE\nYou are a scientific paper information extractor.\n\nTASK\nExtract the target paper's research question and main hypothesis using only the supplied paper text.\n\nTARGET PAPER TEXT\nVideo anomaly detection (VAD) is a challenging task for surveillance systems due to the scarcity and diversity of anomalous events. While semi-supervised VAD approaches have advanced the field, many rely on computationally intensive optical flow networks to capture motion dynamics. Convolutional neural networks (CNNs) are also widely used for spatial encoding, but their effective receptive field is highly local. To address these limitations, we introduce MS2CAST, an end-to-end semi-supervised predictive VAD framework. For spatial encoding, we employ a multi-scale cross-attention encoder that fuses the hierarchical feature representations from a vision transformer (MViTv2-S) and a CNN (ConvNeXt-T) to exploit their distinct receptive fields. To model spatiotemporal dynamics without optical flow estimation, we integrate two interchangeable spatiotemporal modules in the latent space. One module (SwinLSTM) incorporates a Swin Transformer, while the other (VMRNN) integrates Vision Mamba blocks. Our objective function combines L1 loss, Gradient Difference Loss (GDL), and Multi-Scale Structural Similarity Index Measure (MS-SSIM) to ensure pixel-wise accuracy, sharpness, and structural integrity. Evaluations across the UCSD Ped2, CUHK Avenue, and ShanghaiTech datasets demonstrate frame-level Receiver Operating Characteristic (ROC) Area Under the Curve (AUC) scores that are competitive with top-tier techniques while maintaining a peak GPU memory usage of under 1 GB.\n\nRULES\n1. Use only the supplied text.\n2. Do not use outside knowledge or infer information unsupported by the text.\n3. Prefer an explicitly stated research question or hypothesis.\n4. If the research question is not explicitly stated but is clearly supported by the text, provide a concise faithful formulation and set research_question_explicit to false.\n5. If no research question can be reliably identified, return null.\n6. Apply the same explicitness rule to the main hypothesis.\n7. Do not confuse the paper's general topic, method or objective with its research question.\n8. Do not invent a hypothesis merely because the paper reports results.\n9. Keep extracted statements concise and faithful to the authors' meaning.\n\nOUTPUT\nReturn valid JSON only:\n\n{\n  \"research_question\": null,\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": null,\n  \"main_hypothesis_explicit\": false\n}\n\nUse strings instead of null when a statement can be reliably extracted or formulated. Explicitness fields must always be JSON booleans.\n",
+  "prompt_sha256": "409c61cf2e071f572f4811c4cff65dd477d787134422241cf74faa7db62e8ec5",
+  "stage": "reference_target_extraction",
+  "started_at_utc": "2026-11-12T13:31:57.305383+00:00"
+}

@@ -1,0 +1,5982 @@
+[
+  {
+    "paper_id": "qImzresc4C",
+    "value": 2.67,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 0,
+        "length": 2254,
+        "line": 1,
+        "record_sha256": "2bf91231860c7702f5b7b27b663c5f40f3ceb4d21f073bfe453f2eac2a047c1e"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.67
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "10Iiew095e",
+    "value": 6.67,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 2254,
+        "length": 2250,
+        "line": 2,
+        "record_sha256": "e38b1799caadbc6d1edfeef40d1eb3f80b2ecd549ffdb32df6f691ccfd4df0ee"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.67
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "3FQV4JHPpY",
+    "value": 6.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 4504,
+        "length": 2083,
+        "line": 3,
+        "record_sha256": "f978a2c0c041004379ab5944fda2fc27874e90160fe3f8ca907334d56fb76134"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "Uft46u0GRx",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 6587,
+        "length": 1697,
+        "line": 4,
+        "record_sha256": "d68cdf96aec70a9f2306200f1f6bd866b4906f875dcafcf89da089e10e6d8605"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "8gk7qmKSRv",
+    "value": 3.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 8284,
+        "length": 1957,
+        "line": 5,
+        "record_sha256": "5f4d49ec141f1a99842b0cf4dea2dc811031e3ee67dd127f0aeeb6f23820ae52"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 3.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "GMlZt4fZSY",
+    "value": 7.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 10241,
+        "length": 2396,
+        "line": 6,
+        "record_sha256": "a0b2ee2ab6e1a78aeb00afb1b0f43e5525838a6b48a698044a10653e3ea51f36"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "rajioNWfRs",
+    "value": 6.67,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 12637,
+        "length": 2246,
+        "line": 7,
+        "record_sha256": "758498c6a63890c6b25e03cad93e91b827f52e53c2bb7160a511b49048a4e30f"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.67
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "QlueaQClYw",
+    "value": 2.67,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 14883,
+        "length": 2308,
+        "line": 8,
+        "record_sha256": "6fd09cdba92acb7f1fcc30ff2d05cfe4a749caac643eaee23e0402ab1931b928"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.67
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "vI56m4Iu4e",
+    "value": 7.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 17191,
+        "length": 2080,
+        "line": 9,
+        "record_sha256": "bfc5fa975fb5742bb2d528dc4b4a2b772f106c9d6c917a1bdc1de2d051c15d61"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "ksxocXsFVh",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 19271,
+        "length": 1445,
+        "line": 10,
+        "record_sha256": "56b0e35815585fe3df029be6e868bd9a7a0cd6aa9a81b88fc8213dfe79585d8d"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "GVVNG2EMQv",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 20716,
+        "length": 2003,
+        "line": 11,
+        "record_sha256": "0452b51fc629ea35386bb76985a686d323287b76ec778308c69f70c46bae3c79"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "WytruI9uM3",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 22719,
+        "length": 2522,
+        "line": 12,
+        "record_sha256": "d738026b1e6a0475ba0321e5381666ad57b051a945b327fe9aad0d5deaa8c498"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "wTGcb3DxOn",
+    "value": 7.33,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 25241,
+        "length": 1629,
+        "line": 13,
+        "record_sha256": "0f569b20dea190e1f903cfea2bdf8cf9eeeac6e738ec44ca5d03fe3b00746ba3"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.33
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "SboD1FBYdy",
+    "value": 3.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 26870,
+        "length": 2269,
+        "line": 14,
+        "record_sha256": "bc6e6d996b5d57b616fcf87ed70ea6236469ad37b2e716def4bd4cfea3ef25c1"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 3.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "2PjBGzP7mw",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 29139,
+        "length": 2459,
+        "line": 15,
+        "record_sha256": "bfe1286e72e52f131492aee34fd3b426b99953707d41b1187b11d93188fbe247"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "zeqCjGQB4U",
+    "value": 6.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 31598,
+        "length": 1825,
+        "line": 16,
+        "record_sha256": "00392f80aab09969e6285bfacd0053b855023eae99107298a76aa48101d0ac57"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "pfw176o1YJ",
+    "value": 7.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 33423,
+        "length": 2655,
+        "line": 17,
+        "record_sha256": "55a2ce540d11ccafc8547da57b880f900211a0b9095a735201a1b47fa2eadb67"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "Zt5Tu3Xdvw",
+    "value": 2.67,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 36078,
+        "length": 1601,
+        "line": 18,
+        "record_sha256": "dbfe121e521a3309549d40d5e8dd91187393d8cfe550d939046c020a4ea6be24"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.67
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "ZRO79e2BHI",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 37679,
+        "length": 1961,
+        "line": 19,
+        "record_sha256": "d04faa1c0455eca53294e7f91c4b4fdb9976ba06000a45bc468f2aa1d6fd352a"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "0BD2dCM4Ig",
+    "value": 3.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 39640,
+        "length": 2668,
+        "line": 20,
+        "record_sha256": "7bf0a8b7440b90e8ba1fe10670ecce0c0ec337399b7c0698c4b7f39bdeb20c35"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 3.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "o29E01Q6bv",
+    "value": 6.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 42308,
+        "length": 2090,
+        "line": 21,
+        "record_sha256": "e283ec2ea3156ac07a5d5591a1e7917b054d155ce52778022858c82caac6ba64"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "DPdev1Gg1o",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 44398,
+        "length": 2051,
+        "line": 22,
+        "record_sha256": "c225dedc10ecb86768e96d73163f0b4c457574ff534383e274a0c726d583addb"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "M4RKeHIAxw",
+    "value": 7.33,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 46449,
+        "length": 1748,
+        "line": 23,
+        "record_sha256": "8f05f20674a1062f3e588174545c094b17e31c4a702168dbd00e0592c9ede869"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.33
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "6vIc5PdqQV",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 48197,
+        "length": 2128,
+        "line": 24,
+        "record_sha256": "7949b13da97d014ba9ada1f79ba83c5ed8747b44402073061cc0cf54215d522c"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "zc1ezBrr5m",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 50325,
+        "length": 2257,
+        "line": 25,
+        "record_sha256": "84f4cfe01cf02a9173967e7bed11db4333e74c9ded0c04e9a6bc249b775c100e"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "zbNWwHLJFw",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 52582,
+        "length": 1960,
+        "line": 26,
+        "record_sha256": "843d2dfc1cd5ffd8ccdc239302cfa898c09be0782eb7e7dedf31e8a39ce56e85"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "EQ3TwO84Cs",
+    "value": 3.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 54542,
+        "length": 1661,
+        "line": 27,
+        "record_sha256": "ab6d4dd3b7735e875c43922e2c3a19b2b3a4e911c13f2904099c60ee7e65b958"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 3.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "Ch0MxMvNHz",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 56203,
+        "length": 1629,
+        "line": 28,
+        "record_sha256": "cb6c9f9c68b4592dfcd5312038c83bccde38a756615dd9f0b98a7d980e086217"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "8RV6H50OSf",
+    "value": 6.67,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 57832,
+        "length": 1913,
+        "line": 29,
+        "record_sha256": "1fd125a905c8f4295fba16f508f60928f9c2fc4cf7f98c3f0acfdf662349d022"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.67
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "kXaKh8HJsN",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 59745,
+        "length": 2401,
+        "line": 30,
+        "record_sha256": "a6910c254620d7b952d61a0edede095696fb01d9f360660da8139032ce895ff8"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "Ii4HBlERix",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 62146,
+        "length": 1829,
+        "line": 31,
+        "record_sha256": "7c86d0a010bf2f6544450f653f4b9b910a154ed29793c721fac07a670f07ecc7"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "4UPTS9eA5E",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 63975,
+        "length": 2173,
+        "line": 32,
+        "record_sha256": "aff952dac6bedaa0d75aced4ea125c60860e3ebfcbfa079566c900913acba5dc"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "l6uUFUKWHw",
+    "value": 3.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 66148,
+        "length": 2043,
+        "line": 33,
+        "record_sha256": "7d067e98cd1ccf822f27fbfa2c62f704615a088cfee2236efcbecad48cd785ef"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 3.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "FnSgecCEwg",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 68191,
+        "length": 2125,
+        "line": 34,
+        "record_sha256": "042b702483c68dcdaa41dd8d83acbca3c36cad8a5d3b98110a3b5d20218f7395"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "cMEnMVvMw9",
+    "value": 6.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 70316,
+        "length": 1777,
+        "line": 35,
+        "record_sha256": "bea0e9de2032b7cca29e56a1d44dcb37f535b8b6a926b93e989a98aa44b30421"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "GiI6tPrPAG",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 72093,
+        "length": 1915,
+        "line": 36,
+        "record_sha256": "4186b6e3279940fd0c800cd119103134596850d197d0a6bd3f21c5decc7b2431"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "JC8xYAADHL",
+    "value": 7.33,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 74008,
+        "length": 1303,
+        "line": 37,
+        "record_sha256": "40071db3131b04feb3df05fef04e761c8e4f8d91336d0af5a1dff75dd62ff325"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.33
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "E4RYoWcbl2",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 75311,
+        "length": 2047,
+        "line": 38,
+        "record_sha256": "b12c6be52b9cc4c351faddc0732c3359d1dbf099075c10fac537f2610acf50ec"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "Ybv4qufmuG",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 77358,
+        "length": 1816,
+        "line": 39,
+        "record_sha256": "0bee3ead3f8feb59ab234262f59d782946f4b33dc6b84be77beeb2837b5e5d07"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "dfoN64vP4Q",
+    "value": 6.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 79174,
+        "length": 1590,
+        "line": 40,
+        "record_sha256": "a51f7aede413c5d9e78362e2efce3e7fe363cf07b0eb1e839eeedd63048c5246"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "drOy5wi6Qq",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 80764,
+        "length": 1857,
+        "line": 41,
+        "record_sha256": "a727feb3b1eaf21388d4f8d05a4d9e882dbb792d2f377960761e5cc7cad41cca"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "yDDmqLyS8F",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 82621,
+        "length": 1962,
+        "line": 42,
+        "record_sha256": "e78c50f4bac2656e7af56197d40b94f0b59b7e9aab20d9d389c1da22d761e820"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "m5byThUSNE",
+    "value": 6.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 84583,
+        "length": 1690,
+        "line": 43,
+        "record_sha256": "eb052f549e1d4241535191ff826edf1b4b209e0ba61eda245c1d4ef80ddfea3b"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "kxVHb58g3J",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 86273,
+        "length": 2019,
+        "line": 44,
+        "record_sha256": "1ccf30a38d33417d8838b0a4ab3f4e9caf89f125d19c1a55e3a3fe4a4e0574e2"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "Wr1IDzjttB",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 88292,
+        "length": 1940,
+        "line": 45,
+        "record_sha256": "d50de138106476de57309953b9de68e481f9cf5347ec99253817579601d899a3"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "gHPRSPxIsk",
+    "value": 7.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 90232,
+        "length": 1750,
+        "line": 46,
+        "record_sha256": "e068a0f18cefe78d5434046d381d8330b4335e864d51e93d47694d66cae286b0"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "pUEAy4Ibjh",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 91982,
+        "length": 1408,
+        "line": 47,
+        "record_sha256": "877ea03e3d677b58903d68007ceb9ad22f6d46a0cf3f843be67afb2182812460"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "vFfujX5Ygn",
+    "value": 7.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 93390,
+        "length": 1662,
+        "line": 48,
+        "record_sha256": "6073c478d8238ccfdf76895ca7fbfe54996a8068e3271857067e75dc75d00153"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "xAvqHtLVgz",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 95052,
+        "length": 1618,
+        "line": 49,
+        "record_sha256": "ae5b9fd571847c63cc3187d69e4858450f1d0328274c344d48cbf6742b6a138e"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "uP6RDWHcs7",
+    "value": 1.33,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 96670,
+        "length": 1992,
+        "line": 50,
+        "record_sha256": "bb197420d1d6c1aaa7ee99bfdafe3f3d926a7daf66c16d8af40fa45f82317e20"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 1.33
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "PuA3aQAMIo",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 98662,
+        "length": 1928,
+        "line": 51,
+        "record_sha256": "10cc16a8cb4e53082d35165b51e72e683e1a8ad030886e779f5092deba26fcfc"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "11kPIEkj75",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 100590,
+        "length": 1919,
+        "line": 52,
+        "record_sha256": "9505b1952b6639887d91079061e087ecea60b3b8622551e1129a8f0aa67f4ca4"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "jsPQFNmnln",
+    "value": 6.67,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 102509,
+        "length": 1738,
+        "line": 53,
+        "record_sha256": "e82c063428ac1430a2df57d7bb83528b9558e520286c4c2356f9d76025ff94fb"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.67
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "G4I23g5Ugh",
+    "value": 6.8,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 104247,
+        "length": 1623,
+        "line": 54,
+        "record_sha256": "e75bc29e9191d01261045b45989ff50951538c502067093eb07db6e7b0f85ddb"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.8
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "Ahdsg2nkNH",
+    "value": 8.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 105870,
+        "length": 1453,
+        "line": 55,
+        "record_sha256": "dfdf9789497df1caa1fe0a2ed2662884acccb5423bb13a3d9a789cb0cb1f89e6"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 8.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "YrX77XRgku",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 107323,
+        "length": 1798,
+        "line": 56,
+        "record_sha256": "2789b6a9318f58e25585b33a067fb4fd40cfebe867391f933d0f3de9d8fe612a"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "zUbBaWAM1Q",
+    "value": 7.33,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 109121,
+        "length": 1249,
+        "line": 57,
+        "record_sha256": "5762f9a3a226239505a3fc6b7ed6c2ce7c447cc5c6af270ab11937d726a6ddee"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.33
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "whRAOJiyHM",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 110370,
+        "length": 2360,
+        "line": 58,
+        "record_sha256": "f94e745e3527329032a2d62bacd911751c7d3e721b07e232a1cc109c75931118"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "NhO6iEUISf",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 112730,
+        "length": 2196,
+        "line": 59,
+        "record_sha256": "20f8325fd4c4b05d7dd55e2b89aeb6b2ffa98e60397026e0fdecf230895191f2"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "FcGQVshxMP",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 114926,
+        "length": 2356,
+        "line": 60,
+        "record_sha256": "75cce6b0c9f30dc0a40c8b71dbfa3a10734d7a332fcceed12495379418509707"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "YgeeVE75TJ",
+    "value": 3.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 117282,
+        "length": 1499,
+        "line": 61,
+        "record_sha256": "0924740a63778f3785ffdb57c65f85889b8b6e4df016651084876767428aeebf"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 3.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "i0cjbEuezL",
+    "value": 3.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 118781,
+        "length": 1784,
+        "line": 62,
+        "record_sha256": "44672500ddaadbaaacc4edaefccb05ee193810581d1a2902986ea7ce8c36d017"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 3.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "D9cnZNZfxX",
+    "value": 6.67,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 120565,
+        "length": 2297,
+        "line": 63,
+        "record_sha256": "3358b56361e6694ec24d7d0a3c703ad04bfae6ba9e231aa895056d686114101f"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.67
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "jPFjUehx4i",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 122862,
+        "length": 1446,
+        "line": 64,
+        "record_sha256": "42dfe893735cf67d3803fdca8e34290e1a8b50a928b423500ab850f525f52906"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "FHTt9ipAra",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 124308,
+        "length": 1913,
+        "line": 65,
+        "record_sha256": "85608fd0516c408b157c6c19581870cb90bf877644b4efd991e68a420b288183"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "5BS1VPlzBR",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 126221,
+        "length": 1740,
+        "line": 66,
+        "record_sha256": "c0f004b4d752b6c610df79d65f7f761c9528fe87201e2f4958071569aaedb406"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "XJXZXuTj11",
+    "value": 6.8,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 127961,
+        "length": 2271,
+        "line": 67,
+        "record_sha256": "363a33a36c4817f4eb1ca890f33d144762eb7aeb54432df01210fe8c2f5fe698"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.8
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "DEWB8yCoOu",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 130232,
+        "length": 2045,
+        "line": 68,
+        "record_sha256": "ca0c632428e6aaa41d1dd90db7efa4a279419d59ce6f68ce002d0fa911a69328"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "iiBjaiikJG",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 132277,
+        "length": 2089,
+        "line": 69,
+        "record_sha256": "79a883c5ee7e3ef98d1c14e294a97328c8e0c86b7e186c853ae4dd61de96c781"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "KuwPZXdHQi",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 134366,
+        "length": 1505,
+        "line": 70,
+        "record_sha256": "3960c7188d600fde32a50c97175a18eb8c78cfd69fda78b966b92dce7a33c62c"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "IVjs6vNDhV",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 135871,
+        "length": 2319,
+        "line": 71,
+        "record_sha256": "c612683b66e68d246392ec271f6cecd1fe547407045ec5fa16e2e1c886cccb54"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "lFn1Bb1ZMD",
+    "value": 3.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 138190,
+        "length": 1553,
+        "line": 72,
+        "record_sha256": "11a0f7ad0d7d2acf39cab7751bae430153d096738bbe1778ebd16d287fd90131"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 3.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "aTP1IM6alo",
+    "value": 7.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 139743,
+        "length": 1738,
+        "line": 73,
+        "record_sha256": "f5d8a254cd7348a9897d594b8c870d2ca1a9066ab1e1536ba14e58d631332ae8"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "wjjqurlXvg",
+    "value": 3.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 141481,
+        "length": 1489,
+        "line": 74,
+        "record_sha256": "620b91872f48ea15ee6b4bf813d693e2ef7fe4091e2fa8f17a7f67a7aa399024"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 3.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "aJJppqAm6r",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 142970,
+        "length": 1818,
+        "line": 75,
+        "record_sha256": "f49d76b18f6df916fafd5f00549ab5d718a65a14d93ee606e8b55b97f9a49172"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "vKVzihkbQo",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 144788,
+        "length": 2100,
+        "line": 76,
+        "record_sha256": "9eaf902402896f92a11f91f268a756d55f32f57d2f50ab6a2697628de16176e3"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "VPju7xAxb1",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 146888,
+        "length": 2676,
+        "line": 77,
+        "record_sha256": "47402c97133b5435799cf0cbdb303fcd495d825dd98a246161f9c00c3d41bc20"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "htKfC79soD",
+    "value": 2.67,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 149564,
+        "length": 2064,
+        "line": 78,
+        "record_sha256": "803689b47533ca1dd214ce7b898d1a03ef817e5305228af913ff964b08d9eb8f"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.67
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "02mgFnnfqG",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 151628,
+        "length": 1849,
+        "line": 79,
+        "record_sha256": "69da8772eaf8e9525a85058036cb089885c169aaaccef02e9dff9e0cadfcf653"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "5THcDkGGjt",
+    "value": 7.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 153477,
+        "length": 1867,
+        "line": 80,
+        "record_sha256": "4ee76574428acc07d89bed446f142749dbee22e8469a058a602d416321e82051"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "FLXZOIDrli",
+    "value": 3.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 155344,
+        "length": 2288,
+        "line": 81,
+        "record_sha256": "b4a0fc0420b94fd5c97e477f66f72e46690458898f59f88bc02d79904ed31213"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 3.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "pMpCOjzwI1",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 157632,
+        "length": 1851,
+        "line": 82,
+        "record_sha256": "e5a319e9f3d6dc69a152ea9063966af36e1681d5c04c182e986437e35c4961dc"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "Omo8RAEqSS",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 159483,
+        "length": 1823,
+        "line": 83,
+        "record_sha256": "a883a800aef04906c76a47a8fe5ecd57cd9f4d14358891f4a77bb86f43bd170b"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "nwjy9BeorI",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 161306,
+        "length": 1830,
+        "line": 84,
+        "record_sha256": "3f1b7d4b14e8af6e38985bd6e529b928d1be5498016c06ec5479086e57bb6ccc"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "4Lop9ReXBP",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 163136,
+        "length": 1766,
+        "line": 85,
+        "record_sha256": "5d8d004368d7cf66a086fd53e2fd6496872d883cffc9531096fd7c55bcf80d42"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "2xEvtVALpg",
+    "value": 2.67,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 164902,
+        "length": 1762,
+        "line": 86,
+        "record_sha256": "7d322adf2dd3a81c016e060de864384c1645875f9422ac5d9a897c84e5dec929"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.67
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "v2skNLbrfF",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 166664,
+        "length": 1874,
+        "line": 87,
+        "record_sha256": "b538d59b6ffdd01f310077f1e4b5760d26908f52c55b946c19bb047516625022"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "hit3hGBheP",
+    "value": 6.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 168538,
+        "length": 1834,
+        "line": 88,
+        "record_sha256": "677531ec9d9f347abc5a0091dd57ac60dcccf8f3a9bc71307ea8c157aa5ceb7e"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "yX1Nn63DwQ",
+    "value": 0.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 170372,
+        "length": 960,
+        "line": 89,
+        "record_sha256": "c5adbfb4a11a38345b15e4bd47ca3df5ca9f4167bc00e2e2ce27053cc15a0b92"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 0.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "wnIanx0r0w",
+    "value": 7.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 171332,
+        "length": 2027,
+        "line": 90,
+        "record_sha256": "24106e0106d5c9d02c58fcd0e002079b265a4e49d5d5c9c77ad34d93f4366e18"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "EjH5I9ziug",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 173359,
+        "length": 2166,
+        "line": 91,
+        "record_sha256": "deb06e00875dc3b36eb2c18f60c2d47ee370d9283341abcf25ff3973505e2b43"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "yRtgZ1K8hO",
+    "value": 8.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 175525,
+        "length": 1903,
+        "line": 92,
+        "record_sha256": "706c837f3216a25b4b6f64c951808b4d96360ed71897241ee422858bfff1724e"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 8.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "Y74tGjpsjq",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 177428,
+        "length": 2634,
+        "line": 93,
+        "record_sha256": "24a12db2585fd999169301cdfcb19d2c0e4c216cbe3c998c18289b024cfda942"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "1nbTSuIdQ7",
+    "value": 2.4,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 180062,
+        "length": 1826,
+        "line": 94,
+        "record_sha256": "ef829fb8caeb3018e2646ccb9a7ead2de8f7150bed29463b8c2f740a26124b40"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.4
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "EOV1q1U23N",
+    "value": 7.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 181888,
+        "length": 2428,
+        "line": 95,
+        "record_sha256": "aeba1ffdb0de87f6975a2b5c2e86d1200b88765ac0c7951902b043bc31c02afd"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "XIAta0WOJ6",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 184316,
+        "length": 1817,
+        "line": 96,
+        "record_sha256": "0ffd51a63919ff511fd2f8f796c936ef52ab53025e35e43dd1004514d4960c99"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "e5sTFYhtqK",
+    "value": 1.2,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 186133,
+        "length": 1571,
+        "line": 97,
+        "record_sha256": "8ec6d6628cf7763754c5c6b12cc553628faefa364e1e5458ad007c1d0589d879"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 1.2
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "VDIH6L8ANo",
+    "value": 6.67,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 187704,
+        "length": 2665,
+        "line": 98,
+        "record_sha256": "d1fa6f228b386742210755e7a302297b2de29ad2f991425e10ede72c0dc4fbe3"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.67
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "b36drMoKir",
+    "value": 0.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 190369,
+        "length": 1546,
+        "line": 99,
+        "record_sha256": "31af77a55b82873aa24f765d18ab696eede64a5bf84e0edf9d077db9119a835d"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 0.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "lXSrulux48",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 191915,
+        "length": 1704,
+        "line": 100,
+        "record_sha256": "e463c1bad03e4f60b8fc29d93a91f754b45ba146c52a9e261802ba0266771879"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "ab4wG3EjnQ",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 193619,
+        "length": 2461,
+        "line": 101,
+        "record_sha256": "65a140a9735e8f420101ffd7326148973627a28eb0dd09c2fd244df36b100890"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "azj53PLJRL",
+    "value": 7.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 196080,
+        "length": 1798,
+        "line": 102,
+        "record_sha256": "c9a8445523bb8a729cbe12f2c5c2e33be2087723b729448dcd6986fa4e488edb"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "vm8lNKLfuo",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 197878,
+        "length": 2186,
+        "line": 103,
+        "record_sha256": "8c30119cb52cdf9860075711d435c5a47a11ae0398fba9bdde2d24d18ea7697c"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "SB8xCvNFp7",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 200064,
+        "length": 1641,
+        "line": 104,
+        "record_sha256": "d1152106ff455df6df08da79b9de3cc5f658bc4d7d5b50c16812010794dead1f"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "nHrYBGujps",
+    "value": 7.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 201705,
+        "length": 2814,
+        "line": 105,
+        "record_sha256": "ae2ac2072ca8aeee1213c8934f3940805c3c384ce3a53a7b62d4d4e4c7837941"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "oFRbiaib5Q",
+    "value": 6.67,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 204519,
+        "length": 2050,
+        "line": 106,
+        "record_sha256": "b633dae2f9a0a55fbf45aac641d02f7bb82fcd68ddb654f683dc6b4214d660a8"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.67
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "gtc8URMymz",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 206569,
+        "length": 2000,
+        "line": 107,
+        "record_sha256": "a5434565f78f85962b12d388a5720851d1e232b1071d583b65f199a7e98afffa"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "AlgRVfd1z7",
+    "value": 6.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 208569,
+        "length": 2162,
+        "line": 108,
+        "record_sha256": "7a1e4fb8bd563fc7143c9705d54f89513defe8fcfe605d7727bb0580dfe7ff97"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "CkrqfhD4fV",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 210731,
+        "length": 1743,
+        "line": 109,
+        "record_sha256": "a34c746ca586adc7a055228bbf3b5ef5a721fed0af5d10f9e1ef68105bfa61e8"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "bpD4wXVFXV",
+    "value": 2.67,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 212474,
+        "length": 2129,
+        "line": 110,
+        "record_sha256": "65015813b989a57b6ac1bf8be4f1167f47d50e2c72264431511b263b0fddcdee"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.67
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "SyQqXAdWUq",
+    "value": 7.33,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 214603,
+        "length": 2599,
+        "line": 111,
+        "record_sha256": "557ff9e29eed5d42c935f9155ff2e2d47e2a1b405495fbe3ee5511ff77bbb0f9"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.33
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "CX35pnGzht",
+    "value": 2.67,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 217202,
+        "length": 2122,
+        "line": 112,
+        "record_sha256": "79537be4bb94f2e85a6b9b71c0a8e55a93afd2eeec7245ee1cefff1413a1753c"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.67
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "QSmwRnw8GP",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 219324,
+        "length": 1567,
+        "line": 113,
+        "record_sha256": "4413e1486e0ab8bbae5095c8d9c4d5544168b72ae34a152665ac3f3b6916eb31"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "ph9Pq45KLN",
+    "value": 1.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 220891,
+        "length": 1467,
+        "line": 114,
+        "record_sha256": "15c767226bebad7badbe37fcd7ef4d5af15d427124ebfab7b6c2a67c548eaab6"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 1.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "XOPH34Extq",
+    "value": 7.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 222358,
+        "length": 2081,
+        "line": 115,
+        "record_sha256": "705f9039ebfbcadf0d3999051c88dd6a0f37b9cebf3c693f2bb8f97e2dad70bc"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "jOxfpsnDFo",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 224439,
+        "length": 1816,
+        "line": 116,
+        "record_sha256": "db84f372563022f4ea0376643b5c554740f874cfd1abb77a45e282187efef217"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "aH7eyx64pC",
+    "value": 6.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 226255,
+        "length": 2030,
+        "line": 117,
+        "record_sha256": "cebbeda5361447b86d73132908365c282d02902e04f4b603b943ecf6dba39ea6"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "VKGTGGcwl6",
+    "value": 8.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 228285,
+        "length": 1786,
+        "line": 118,
+        "record_sha256": "23b7d7afb60c5ae544cfba49b6e926866b8ed287e2c2221ce6f4cc2a7417883d"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 8.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "FkTEc3XEL6",
+    "value": 0.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 230071,
+        "length": 1611,
+        "line": 119,
+        "record_sha256": "bee56f111cfa453c26e1976484f2953f6542f1339a5a9ec67aad462e1894357a"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 0.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "aw3UYrrt3X",
+    "value": 2.67,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 231682,
+        "length": 1770,
+        "line": 120,
+        "record_sha256": "46fb2f8e9f9a7314eb3c0c0d6d4f09885b6c0b2d36999ba9752ae08291954e92"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.67
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "8MBYRZHVWT",
+    "value": 6.67,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 233452,
+        "length": 2344,
+        "line": 121,
+        "record_sha256": "44879fdc98f8ff04f14065402bffe755fba3505931c8b38f1a2762f476c126c0"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.67
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "CSIo4D7xBG",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 235796,
+        "length": 2091,
+        "line": 122,
+        "record_sha256": "8012abdc785f3726a4c44107fade9c42ca4aae6db6d3b359212515f7c0747b74"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "lBXJexaC8a",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 237887,
+        "length": 1762,
+        "line": 123,
+        "record_sha256": "c84fa695b5bde3213e0321ac9c5d2ac2c3860258fe3ab68b82ba48f25da69fa6"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "fOmX9aaQD3",
+    "value": 2.67,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 239649,
+        "length": 1755,
+        "line": 124,
+        "record_sha256": "0bc885acb268974828b8ac1954eeb5ee209749088afc096d51d869541f561949"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.67
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "GMR9BUsPbq",
+    "value": 7.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 241404,
+        "length": 2272,
+        "line": 125,
+        "record_sha256": "01038ce239d4994792734510b9d7c6458ebd64ec8a6350d9be0f166494d0ea3e"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "8LAc5kzjhz",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 243676,
+        "length": 1899,
+        "line": 126,
+        "record_sha256": "44f6f3440b2866cc4933bfae80f43191f78da90b4230e380469bd20c2a5db9db"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "eqyyvNT7eS",
+    "value": 2.67,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 245575,
+        "length": 1796,
+        "line": 127,
+        "record_sha256": "e6889899709a5e3c8b98f1d991f0241f2341aac015b621d722ee924129159a7c"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.67
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "0oxkxG9cCo",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 247371,
+        "length": 1783,
+        "line": 128,
+        "record_sha256": "d92f7c097e6b168a99a54b5e6493b94887b6a4222d217a77cc1b4e9812b63ca7"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "E823AY0taq",
+    "value": 6.8,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 249154,
+        "length": 2207,
+        "line": 129,
+        "record_sha256": "28eebb88fa8c3ceb771be19a7d662c1d3731c59a55ca2be5632eee6521daf78d"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.8
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "azcQJtcYTE",
+    "value": 6.67,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 251361,
+        "length": 2092,
+        "line": 130,
+        "record_sha256": "ebe75543404cda033e9a5c0f95d2efc2bcd29ad42e21299e3130e81ff1e371af"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.67
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "oCkPzCR4f4",
+    "value": 2.67,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 253453,
+        "length": 2031,
+        "line": 131,
+        "record_sha256": "d8b65f1b6af7af693fc408a94b150fde189df03de976427b4ab6de1b7b90f378"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.67
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "hFixHMwX1D",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 255484,
+        "length": 1738,
+        "line": 132,
+        "record_sha256": "3724e86e98765f3a4a4590bee3e44c2342a1d1d85f238bb153426091df0bd596"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "9gw03JpKK4",
+    "value": 8.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 257222,
+        "length": 1968,
+        "line": 133,
+        "record_sha256": "6d1c631e92d7a7e84fc7409b93aa1ae020e3b49b0362c51900b789b356f6d167"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 8.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "Qo0OZZoTLh",
+    "value": 7.33,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 259190,
+        "length": 2063,
+        "line": 134,
+        "record_sha256": "f19cbc1c54c7e48400689e0fee5a99dce975bfd0db67c59eeb69ca167228fef7"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.33
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "aY6RcnTH4v",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 261253,
+        "length": 2060,
+        "line": 135,
+        "record_sha256": "f7cc85900f16b8bae3807ebf0a9d63bbc98df3bb71a21f2f1df1a7428ab0709f"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "3JPAkwSVc4",
+    "value": 7.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 263313,
+        "length": 1706,
+        "line": 136,
+        "record_sha256": "6c4a064431136c6c9f00f2ce17bb353fe03b66dffe9628b8f117e3b1fd807062"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "zQqeMZEveG",
+    "value": 3.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 265019,
+        "length": 2010,
+        "line": 137,
+        "record_sha256": "e22e3bbbd6b34d389dfd7a2aa6434c873f3826059a1576e2515cf49a00b83ce6"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 3.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "Bf6C60cqYU",
+    "value": 3.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 267029,
+        "length": 1563,
+        "line": 138,
+        "record_sha256": "548fa29b2138cb5bff5d22d35747cdb17712951357f4b2239bf6feff1f134c0d"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 3.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "1taAXRcm21",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 268592,
+        "length": 2308,
+        "line": 139,
+        "record_sha256": "ee84a1201b093c984fa3e06b758a417f2e26e011b3c5bf19a78512ebaa2e4d78"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "TLXp0scq3x",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 270900,
+        "length": 2349,
+        "line": 140,
+        "record_sha256": "6cd2da1153c89926881279acc2475466b29e77f67cbe55000c0a8ccd917bd63c"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "34V0IZytle",
+    "value": 6.67,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 273249,
+        "length": 2036,
+        "line": 141,
+        "record_sha256": "7eebb4d060415ba314337babc94a7852931dc5d13e5b6bdc2f695f9860765736"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.67
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "U1ttMrMhig",
+    "value": 3.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 275285,
+        "length": 1905,
+        "line": 142,
+        "record_sha256": "8ef6f50d7d7f291c0e3a2d4af7e78afcb87762db792d2fb9333aa873bc7d67f7"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 3.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "pwVSmK71cS",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 277190,
+        "length": 2009,
+        "line": 143,
+        "record_sha256": "65a376fdbfb8a97332b9b5da410a9726faefa701832a5864389f953cb86225e9"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "z9MlGsQbzR",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 279199,
+        "length": 2149,
+        "line": 144,
+        "record_sha256": "895b73b1f0d8d291076ca55eab25d9b11bed2860b3c160fdf061b4168992f75e"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "YiV2rJOIUJ",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 281348,
+        "length": 1875,
+        "line": 145,
+        "record_sha256": "206e674fe87865d4a1222a30b1e333e14efdb606be37fa00d88f893a14813bdb"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "AZ6lqcvHLX",
+    "value": 6.67,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 283223,
+        "length": 1918,
+        "line": 146,
+        "record_sha256": "b0acb23e2ad3fe2823931e869308a1a549db0bffb5f68c1f72cf498c2acf2a67"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.67
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "1T1SE9xxAB",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 285141,
+        "length": 1838,
+        "line": 147,
+        "record_sha256": "9cdffcdbe0cfea9906b185a3f8c786d35e95aaa709ebff894c7ba342663c0c95"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "M2DXbwO8le",
+    "value": 6.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 286979,
+        "length": 2083,
+        "line": 148,
+        "record_sha256": "abc53235a6a715ff542116a3e916c26c71a370ba0be18705120b353c92adb9f9"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "PMCD5pKglt",
+    "value": 3.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 289062,
+        "length": 1728,
+        "line": 149,
+        "record_sha256": "a5751db63901066d37a739eb6361a7be5d61abaa7a850982d99013ed20c0cbba"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 3.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "1vAte8dsap",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 290790,
+        "length": 1863,
+        "line": 150,
+        "record_sha256": "e2dd1df1f4963741161ad56b9fd81c8b6696db018ba980b13015cb27499c2261"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "OPFE1zPYbU",
+    "value": 1.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 292653,
+        "length": 1539,
+        "line": 151,
+        "record_sha256": "662d5e4874a1d14bfd4f4a372054449f95922715d7d22ba46ede5abecbb66e1d"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 1.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "tOOAWDRjrb",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 294192,
+        "length": 1943,
+        "line": 152,
+        "record_sha256": "a08fcb297fd519f28e73ded282bfbcdf0f685841aec9c7efe785fcb6d5e7c643"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "dR0M7PEyA6",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 296135,
+        "length": 1544,
+        "line": 153,
+        "record_sha256": "de745756ecc8b49c303506ab4f1b1f4ba0a7c0f05be4d3f514d096e89ebf5308"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "nCAODkpsPJ",
+    "value": 6.67,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 297679,
+        "length": 2257,
+        "line": 154,
+        "record_sha256": "619c19ce9d0529813e5c948c74082be0224ab999da15af49bb99a503148a387b"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.67
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "Hxzjxu4y6A",
+    "value": 3.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 299936,
+        "length": 1754,
+        "line": 155,
+        "record_sha256": "65675db55b9992a995302aa400cc8abe49e2ea49f2c0375da12f52e61754c759"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 3.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "GtxAu3AogM",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 301690,
+        "length": 1217,
+        "line": 156,
+        "record_sha256": "d86143af76a74509bed77072039145b807dc141e676b97a7815272d98c998f86"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "OHqZ61ZqNO",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 302907,
+        "length": 2010,
+        "line": 157,
+        "record_sha256": "d55150aaaf953705cc7919f3798ea363e2155dcd9e7a289231da8fb3951e9f70"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "gkGLiuDFeB",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 304917,
+        "length": 2710,
+        "line": 158,
+        "record_sha256": "3db7649912c1b3b2c4ca547b4984e22472e80f060391594b7ba19afcd62e6d7a"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "mtdyZsa47V",
+    "value": 6.67,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 307627,
+        "length": 2078,
+        "line": 159,
+        "record_sha256": "dea395e15109c74a7093ff62119c479069154635ccbdeafe29dcbd1f993e85cf"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.67
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "JNAZ3e7Bwt",
+    "value": 6.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 309705,
+        "length": 1912,
+        "line": 160,
+        "record_sha256": "2e138507e91bc6ed5ed128db7357388ec8ccc4f2cf8a23defca60975e166931e"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "brRjG5G9Qu",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 311617,
+        "length": 1837,
+        "line": 161,
+        "record_sha256": "8ed70805623faeb1897c5a175acb783416ddf1454da2e809ebf8e13bb16c0a9c"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "ruh9H1Nwvr",
+    "value": 3.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 313454,
+        "length": 2715,
+        "line": 162,
+        "record_sha256": "7145cd56e241cfbea472d011987f1c4aca70eae3b6a736f61d4aa9549e0f9163"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 3.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "BDOldEjwCE",
+    "value": 6.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 316169,
+        "length": 1994,
+        "line": 163,
+        "record_sha256": "11dccadd5e69c59c6840276d6f133ec1a5601b8b704de7d509be169388690fb2"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "qCsbYJZRA5",
+    "value": 6.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 318163,
+        "length": 1984,
+        "line": 164,
+        "record_sha256": "20f5ecdd83dd0529b5c7d76aa01a318253a272ddfdfe81ed4fb1c02d4451d57e"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "dYW9MJyyK3",
+    "value": 3.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 320147,
+        "length": 1709,
+        "line": 165,
+        "record_sha256": "6274c98c73a61e3403aff73d36d4cb36cadf58f9dd78564d33b7847b78a66b90"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 3.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "qIbGpiNHhs",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 321856,
+        "length": 2238,
+        "line": 166,
+        "record_sha256": "ca4f08edef36492617074cc8d7c98640fce6cfa860298f35a09000694c37b1cc"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "QFJkvv3zMi",
+    "value": 7.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 324094,
+        "length": 1943,
+        "line": 167,
+        "record_sha256": "ebccdb97a2374ddfb03e8a831d27a851450a1c18949f6e0a9f5c2aefa18126ba"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "wSUysJXv07",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 326037,
+        "length": 2402,
+        "line": 168,
+        "record_sha256": "63f2d0d6ed660a5614b13b3919e6683394ceaa3baa921618fca5922b371ca99e"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "vpO8n9AqEG",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 328439,
+        "length": 1823,
+        "line": 169,
+        "record_sha256": "0a94141565e7ed25d4703008ae18364783a68094bad69a66ac73542116226fb7"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "2QmiKXfsIr",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 330262,
+        "length": 1585,
+        "line": 170,
+        "record_sha256": "f35c1e8443e536251013bc3ef323f805fd0e1472102b7ef167cf2f4510c53b95"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "QihJMqm2aX",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 331847,
+        "length": 1996,
+        "line": 171,
+        "record_sha256": "47f68e1fcd44bdacc009630fe366e637b084c304dd6273920904f05dea594fed"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "fdjGPp1KPR",
+    "value": 1.33,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 333843,
+        "length": 1588,
+        "line": 172,
+        "record_sha256": "ff048b16c10444a939e1cc9de299203e7b8a6270d2af48b33474e07759056b23"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 1.33
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "RDerF20JYT",
+    "value": 8.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 335431,
+        "length": 1987,
+        "line": 173,
+        "record_sha256": "1654433fe40f4c534f02f6ca983a96e08508d2ea63f99cb508098306849f339d"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 8.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "DgnsohAUMn",
+    "value": 6.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 337418,
+        "length": 1827,
+        "line": 174,
+        "record_sha256": "0e10e3946f9ff072a20f2cc9291973d606c0a67dd3cb81b9076e3c3c75488244"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "Kmbtv3gMuM",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 339245,
+        "length": 1979,
+        "line": 175,
+        "record_sha256": "991da20b722ef1c41e522b92f03ec1fcd1374a9ccbb34383cd9dbc32741285ae"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "jGXTx64gal",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 341224,
+        "length": 2493,
+        "line": 176,
+        "record_sha256": "f270247be974b4de7f03632db98776195ffa31942455562e743353304ca552bd"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "rFmEPL6svs",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 343717,
+        "length": 1620,
+        "line": 177,
+        "record_sha256": "7482443d374f521e65d47d2a65bc45cd81e68ba7c54085b19f47ffabb2e3fee7"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "FLmgVrgJo6",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 345337,
+        "length": 2444,
+        "line": 178,
+        "record_sha256": "35d753d17202583f00f8e12ae01e7ecbf71e9d43cac697915d412807f97b2d17"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "IdW0d0mRnG",
+    "value": 7.33,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 347781,
+        "length": 1780,
+        "line": 179,
+        "record_sha256": "840bfb5ba3e01553d1f066fb6281d39722185cd530ecc79a97acd9d4905e3d90"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.33
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "AGWa8whf92",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 349561,
+        "length": 1995,
+        "line": 180,
+        "record_sha256": "386fe05f859c9da526aee908438226ff5241e1a8a0710c93d84345220e78a2b1"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "6zcXThQIoR",
+    "value": 1.33,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 351556,
+        "length": 2139,
+        "line": 181,
+        "record_sha256": "d487f55917e0dc4e5a2079bb32a90589cbe2511bd8885385d2fe63cf8f8499d0"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 1.33
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "4eVpczyaNx",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 353695,
+        "length": 1676,
+        "line": 182,
+        "record_sha256": "522ff5107c221d933830ccc15e2bc201dd93cf62e4b9b7d9fc51382ee34d304d"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "4NtoAVqfhA",
+    "value": 6.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 355371,
+        "length": 2074,
+        "line": 183,
+        "record_sha256": "b03db295b1b649edd34eb6cb48b84c74ab593a7da1db53f8fdf509193e1cb6dd"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "JTX0iqxBjk",
+    "value": 7.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 357445,
+        "length": 1604,
+        "line": 184,
+        "record_sha256": "41b28a1cda57f5f7c671401fc2e405628dfa3defef0131c221ba424115f3ffd5"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "J9qGnGOfuY",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 359049,
+        "length": 2180,
+        "line": 185,
+        "record_sha256": "5927d80ad98682c4e5a644ccbe6bf45570a043e4f7d5b86253132804a88ff92d"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "GW9sp1g9qh",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 361229,
+        "length": 1281,
+        "line": 186,
+        "record_sha256": "21dfa3af5aa39070191cf37380ca30e1428446525b2770796930ca73e9c6eef3"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "zmYx32SSOR",
+    "value": 1.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 362510,
+        "length": 2107,
+        "line": 187,
+        "record_sha256": "0f3b9403c1bbb2c2254650d92a2810bc1e51de68fe6fbb058cb60455a869e36c"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 1.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "0FJYicpOj0",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 364617,
+        "length": 2396,
+        "line": 188,
+        "record_sha256": "652531688375d7d4eeaf2579ec3413ab480068a00deb934ddc62325706e32d36"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "60RXHBGag4",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 367013,
+        "length": 1725,
+        "line": 189,
+        "record_sha256": "91d50371a810403b18f303547671ee38aef7fce35c47204f2149881a4214d839"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "Wf0tGnQOIh",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 368738,
+        "length": 1698,
+        "line": 190,
+        "record_sha256": "a71269919f6ff38184c6ff8032385aca53ed27e5c7f97830c8f0b199f30ef405"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "AuzSDvSUzg",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 370436,
+        "length": 1581,
+        "line": 191,
+        "record_sha256": "fe5cbe4e2ac54c86e574b9307420a14f49fc87c07ac4bf4d522e2097ac36995d"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "y8dVmQxKgb",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 372017,
+        "length": 1854,
+        "line": 192,
+        "record_sha256": "813d8dd0039245ccd6e579155b364a780d9f9e33a4b530104ac2fbc73abc7fff"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "vkTl53bXMs",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 373871,
+        "length": 1795,
+        "line": 193,
+        "record_sha256": "fcdf9ceec3c2966b74a312452946e63d65a93f6a1df4f1b6369820f1567403b3"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "9C4gVbPqSy",
+    "value": 6.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 375666,
+        "length": 1750,
+        "line": 194,
+        "record_sha256": "6f52f4e562abab21fd207c81b7bf9cde6ddb80cdeded3972778dd971fc783709"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "GdcDEvh90X",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 377416,
+        "length": 2107,
+        "line": 195,
+        "record_sha256": "8686d599a302bb09422b923465f2153d4e7ace6c6285519ef098fc43a8c4100d"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "Us00XndbVi",
+    "value": 6.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 379523,
+        "length": 1714,
+        "line": 196,
+        "record_sha256": "ba42577b92de306340459f6ae750a4e343c8265d4971a0d27caa619652231d6a"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "VgNs9dzyp6",
+    "value": 1.33,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 381237,
+        "length": 2120,
+        "line": 197,
+        "record_sha256": "fcb350078db455b28eede5c629e36b27f232626114419833b68af868064e3c42"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 1.33
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "qBfeoNi3Ja",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 383357,
+        "length": 2032,
+        "line": 198,
+        "record_sha256": "c69243855f281fe912d84e810ea6ff128a593e0c44fa6a6d3106a86cc2a1ff79"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "hqq6GyYISN",
+    "value": 7.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 385389,
+        "length": 2578,
+        "line": 199,
+        "record_sha256": "37fccb7e493f8459792222e3066d02d15a27521c2f01080526d94900abe4cf64"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "lL6htAaolp",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 387967,
+        "length": 2071,
+        "line": 200,
+        "record_sha256": "abc42326b593a2a952490ced6217e43faacbf0b56bb5814db0584c6b6aebe626"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "ibM9ZjUCiu",
+    "value": 1.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 390038,
+        "length": 1921,
+        "line": 201,
+        "record_sha256": "6f0d58b72e09fe861262e1fd4d975c102e0e7ebbc18cb356d24805fa11c37ea3"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 1.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "ZozCeC9rD4",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 391959,
+        "length": 2525,
+        "line": 202,
+        "record_sha256": "daebc3f2e5f8a596ebbe24adfd4a7d1f25ffafdb9056fdbcf50efbc4a186ceba"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "wyucYNGPiW",
+    "value": 6.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 394484,
+        "length": 2029,
+        "line": 203,
+        "record_sha256": "3694a2ae3b6518f53a40fb8c99d7965f9341599c97d4c70448e8f4c659b2a37e"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "AMIb7RWnBI",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 396513,
+        "length": 1720,
+        "line": 204,
+        "record_sha256": "6de5f0b32bf88dd56c9d21bc671424c022d1f2d28ddd128fcc6070d27f645ffa"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "BpyR6Wkl1c",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 398233,
+        "length": 1815,
+        "line": 205,
+        "record_sha256": "5d131e39503ddfdea5a6455fbf154bb07ddd13411e04dd73ea4917f18955190a"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "jk7PL8GAV8",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 400048,
+        "length": 2014,
+        "line": 206,
+        "record_sha256": "ed0a33cfa0e73a7398326298383d8db5e7179230402ab6709b35c99c7da85987"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "wGFD7ITicm",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 402062,
+        "length": 1648,
+        "line": 207,
+        "record_sha256": "cffd3e4544886d56f7d84994e180aca65abf04a29a6d21202995cf474561d96d"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "s79tJrxDmt",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 403710,
+        "length": 1903,
+        "line": 208,
+        "record_sha256": "0e3c95e6b566543359b743c2de4af94a4402deaaeba067ad1f718c4c3b5b9228"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "VlTHxRcP3A",
+    "value": 1.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 405613,
+        "length": 1679,
+        "line": 209,
+        "record_sha256": "157b55cc844a2355425ca6fa94f49523ab916824cc2082788fe73a85f25593fe"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 1.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "7dvYWzOiEu",
+    "value": 7.2,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 407292,
+        "length": 2111,
+        "line": 210,
+        "record_sha256": "da47de5bcf1f3f5fe36ce7e1157b72abe2f6d061a7abcf97a4f78f1850374dc0"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.2
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "qD4N15aL2W",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 409403,
+        "length": 3080,
+        "line": 211,
+        "record_sha256": "5b3ecbc3327190c142f988ee79b231d3b3009cef78fc97ba84ea72493f323149"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "81iTOKJbzZ",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 412483,
+        "length": 1999,
+        "line": 212,
+        "record_sha256": "2a6f6b3e4eef1ff88381f0cf148a3625d841c1c00faf31052aa8af62dfdb52a5"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "8OgJ2uhiu8",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 414482,
+        "length": 1878,
+        "line": 213,
+        "record_sha256": "8261c4d5b4665d17aa934571c6bab2fff2357dd98d21a2dd05fce7bb7cdaffb5"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "1CR1MTIgmq",
+    "value": 0.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 416360,
+        "length": 954,
+        "line": 214,
+        "record_sha256": "033fb8a4efef492c0991541e8e331c7b36fcaf977c4d7363a26c236b53262bca"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 0.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "8fViWZ0yZJ",
+    "value": 7.33,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 417314,
+        "length": 2016,
+        "line": 215,
+        "record_sha256": "56cb4cde1389ee456fc1615342c33889dc29a8e1b9ca4cd195081680ab9921e8"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.33
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "v8lXG3Z1PB",
+    "value": 0.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 419330,
+        "length": 2028,
+        "line": 216,
+        "record_sha256": "b81d035793ad23caf51df935f7d9a78aba4c64930f95b777387a79e677799293"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 0.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "uAkexWJ7dW",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 421358,
+        "length": 2209,
+        "line": 217,
+        "record_sha256": "97330ccd5c2ec9a4978d038873410b73ce93e17dd4d5656a65ad8034e196e1e8"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "ZVlTIyRe35",
+    "value": 6.67,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 423567,
+        "length": 1791,
+        "line": 218,
+        "record_sha256": "963b69353e773e98f0bed78d7d237f4b4d2a9fd3d0ab244e44bc44aa50784f5c"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.67
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "aMciux4VKg",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 425358,
+        "length": 1995,
+        "line": 219,
+        "record_sha256": "f85d2125e639e719d80b1bede5521d66c91327a0d06b6127b73b2be7e7914836"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "twq5A3zdrH",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 427353,
+        "length": 2211,
+        "line": 220,
+        "record_sha256": "89e45c6c3f116fefd3b07d69dca0897e9fb9d6160c65b8359f28014b42ab9951"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "dUgq4bLY4X",
+    "value": 6.67,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 429564,
+        "length": 2030,
+        "line": 221,
+        "record_sha256": "d77223ab6b847a1f03e46b6a78121dcc00d14e84d711d66087abbe1d2963cb8d"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.67
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "ojVcsWXPpU",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 431594,
+        "length": 2136,
+        "line": 222,
+        "record_sha256": "46f957e91107ca6de566c72ad291b837eef0de7853ccb53eb17e19342f9f4bfb"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "HHNQSXaLkF",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 433730,
+        "length": 2287,
+        "line": 223,
+        "record_sha256": "45d2b7c44dc18a2a2449d2b939b0cf533701cb0dfd28067a26eb8545c01a4504"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "G3uNHQpP7J",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 436017,
+        "length": 1966,
+        "line": 224,
+        "record_sha256": "3ec8158744d0c0daa0aa99e1bd9acc86a2f0740958af7cc21d687d555d867c96"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "4eZqQ0Qs8u",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 437983,
+        "length": 1853,
+        "line": 225,
+        "record_sha256": "aeaf71c3eb19d566131e1a1e95cbff7c1941090721304539a326325116ea581c"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "B6t4qcdmM0",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 439836,
+        "length": 2064,
+        "line": 226,
+        "record_sha256": "d8981605db861a9b96b2ab8494dc84fd42370ba83ac7e30d9faee8a9e1f777da"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "92fliNrbxY",
+    "value": 6.4,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 441900,
+        "length": 2048,
+        "line": 227,
+        "record_sha256": "9c899c67617e3678b261ed3e2c2b118ec5d3355e28a946792bc460dd79071fa1"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.4
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "4twbqwV4br",
+    "value": 7.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 443948,
+        "length": 1506,
+        "line": 228,
+        "record_sha256": "6cda05b43f80e7f1f17a77fc41c6c20e6aa33cb2451b8ca84da2f9bff30231ca"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "col1qqZUAk",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 445454,
+        "length": 1774,
+        "line": 229,
+        "record_sha256": "6fd77791a0c54cc82e410d7a9e869676ce0c4168b27631e7ffca141fbb17cc00"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "HlQtHRjh5O",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 447228,
+        "length": 2317,
+        "line": 230,
+        "record_sha256": "1b5e0644387ab5b2a9a3fee68975b1968c8651afd67822154350dd0db420ce08"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "e439wJl5sT",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 449545,
+        "length": 2268,
+        "line": 231,
+        "record_sha256": "6283ad63ceab4acf1a9b7e26468ddcc625bbbd055741b583021a4546ae752c7f"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "084SvT55yk",
+    "value": 6.67,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 451813,
+        "length": 2513,
+        "line": 232,
+        "record_sha256": "d6e9147c9b8f1bf2c16cdc03b6eeb7f874567762f5c2d2062c15e706545bf3dc"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.67
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "QYtmqCoilk",
+    "value": 6.8,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 454326,
+        "length": 1866,
+        "line": 233,
+        "record_sha256": "bf241c0bbe4853ce9f0724294d472b832628be2eb83383f378f612dc1c4f7c9b"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.8
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "VAv1rrPR1A",
+    "value": 7.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 456192,
+        "length": 2036,
+        "line": 234,
+        "record_sha256": "96e1e231156b3009b289c1586c2dd1a4939e1fd8119fdf5bf4dcd521f1dc6dec"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "nF7ORZfCLi",
+    "value": 1.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 458228,
+        "length": 1861,
+        "line": 235,
+        "record_sha256": "c4c6c3febe42129d8b884b0db5087124da90d0d14e3ca3bb6b4395c2eabce322"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 1.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "5Y3GYuRWsi",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 460089,
+        "length": 1812,
+        "line": 236,
+        "record_sha256": "b84b477ddd6760584ad12faad99d63926803b9451d8dc561cc62c66491a6e491"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "DSOTgzeH3w",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 461901,
+        "length": 1764,
+        "line": 237,
+        "record_sha256": "a60c220aa5e0d36b1a476cf251148582e1a7652d1c9402b1993cb42a61760e71"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "iD6ZD5wE1n",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 463665,
+        "length": 1409,
+        "line": 238,
+        "record_sha256": "6914ddfefa81d48489e434e0cf69844ddf493d939cb9f33590fcb383ccaea1dc"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "mGtEoLYr9j",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 465074,
+        "length": 1901,
+        "line": 239,
+        "record_sha256": "a79bce93803394cc142011418d7d111a6b054d415d6b475b1220678297f2f84f"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "Ml8t8kQMUP",
+    "value": 7.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 466975,
+        "length": 1526,
+        "line": 240,
+        "record_sha256": "4659999e1e774e421c6e86fc3076483fad445c00cfc8cb8ddda13d05e540bb13"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "9HxITL2Xlo",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 468501,
+        "length": 1998,
+        "line": 241,
+        "record_sha256": "4a8f9a51a6fc7dd5b10265a22e2bc819eca9735d6c180b9d965aeb7c8b0594da"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "Timsb74vIY",
+    "value": 7.33,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 470499,
+        "length": 1919,
+        "line": 242,
+        "record_sha256": "313278b41904e550d014da115e826c329df4ceca64cf4f5ef822bf4cec28ef3d"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.33
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "pFTfTJitMb",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 472418,
+        "length": 1833,
+        "line": 243,
+        "record_sha256": "16fb8dd6fa954eadc3088cca50f0fd4ff2f529932018dd879e0ff3f84b18d3f4"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "4i66VARUHD",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 474251,
+        "length": 2043,
+        "line": 244,
+        "record_sha256": "2a7f69787b60a8bb2d2073e61bb8a07d59ef1ad4de0d10199af44b25131851fb"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "6As4wfTB77",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 476294,
+        "length": 1629,
+        "line": 245,
+        "record_sha256": "ff18af5dbeb12f026decdc43c61d48ce0f542aa5648be3d4ca68af487c579ceb"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "J4GYMiE3JT",
+    "value": 6.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 477923,
+        "length": 1265,
+        "line": 246,
+        "record_sha256": "2bd4dfafac8511307082cdeb76e73245d9ea507bff53818f603810b7b98b02d3"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "tWe5owhOyU",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 479188,
+        "length": 1809,
+        "line": 247,
+        "record_sha256": "72386ba367beb72edf4da0decb345002af6e408d2c0a5c9f2d0442dc39dafd41"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "9A2etpDFIB",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 480997,
+        "length": 1923,
+        "line": 248,
+        "record_sha256": "b387de6517e828b2be7c46ceeff281ee006c9ede56ae3ccbaa00fbc970cc8f9a"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "jHPCXOi9LU",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 482920,
+        "length": 2114,
+        "line": 249,
+        "record_sha256": "35ebb52da8ff84569411d218506588832c8e9343328c411ba952197e8835dc20"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "Af16P0ODP6",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 485034,
+        "length": 2361,
+        "line": 250,
+        "record_sha256": "e5293578d532698d62d69793ea2b3cadcfcbe9ad026a989651c3555b1d95a490"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "uusTA1rBhR",
+    "value": 6.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 487395,
+        "length": 2379,
+        "line": 251,
+        "record_sha256": "aecdda0d71894b515be480fc9a91d5fc8b5256467a259ed2e3ff0150a7b98a06"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "f2nxdOv1Uh",
+    "value": 2.67,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 489774,
+        "length": 1819,
+        "line": 252,
+        "record_sha256": "4df1d4366ddcf0e7c5347c3e780dacebca0894bec92eb2dc84a5a2b2a9bdd871"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.67
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "IKy24F8tGn",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 491593,
+        "length": 2058,
+        "line": 253,
+        "record_sha256": "59c706086bc4663ece6b05bef2be65a702162bf4d3374dc066f289273850f44c"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "gdZ6J5hZzF",
+    "value": 7.33,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 493651,
+        "length": 1584,
+        "line": 254,
+        "record_sha256": "cb413173dd90481abb28299e95fed1f837b7091d57d95383c11afcdb2f3d7967"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.33
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "TeDkzf34hs",
+    "value": 7.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 495235,
+        "length": 1560,
+        "line": 255,
+        "record_sha256": "251ea8a3b8aab380c23e2c679a50bd4d46964aafc6e01095aa7518cb39d2ff2d"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "UkiGZBRZmg",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 496795,
+        "length": 1848,
+        "line": 256,
+        "record_sha256": "7cee00651e7327f922034b1e8a8e6cdd7ecb4088b3ed4392f5f39f5887336908"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "ARWB0SNmFR",
+    "value": 1.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 498643,
+        "length": 2280,
+        "line": 257,
+        "record_sha256": "0fada60f5867c3afc43b8a4b5bd640af96286b8f6560caac027c389100c2026c"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 1.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "xIycolc5Xw",
+    "value": 7.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 500923,
+        "length": 1642,
+        "line": 258,
+        "record_sha256": "8678d0ac4d74e3d7e5eb7d545a6a20a855af7a6daad2f07a96b5560f80bddb92"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "Oox4QOhmi9",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 502565,
+        "length": 1694,
+        "line": 259,
+        "record_sha256": "17129a983e7afb94af8f0d9160389e7630b1cde7b3dc45f52ddd882df354d72e"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "Oe5Min0Na2",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 504259,
+        "length": 1955,
+        "line": 260,
+        "record_sha256": "484f3feff92a08309a6ce9eca506d2787498539758593b14f3a7a83668457916"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "rAjHUNXybH",
+    "value": 7.33,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 506214,
+        "length": 2134,
+        "line": 261,
+        "record_sha256": "6dbc2f25b769613820c70258fdf082bbeb160244c91ebff503cd76d6c402dc02"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.33
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "P0rW0xr3mT",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 508348,
+        "length": 1691,
+        "line": 262,
+        "record_sha256": "6a712db07afb70058796bf4687d6453020841a4fd10893a0a2bd6d39fd27a4ba"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "bo6cliXvPQ",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 510039,
+        "length": 1107,
+        "line": 263,
+        "record_sha256": "cb34fef5aca442f6d6ebcfc89a84a4cdd508bdf8161fb1bc2e96c2bdc76c0fc7"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "utSqpxQHXq",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 511146,
+        "length": 2082,
+        "line": 264,
+        "record_sha256": "2f6270d13678bba9564b56023fa48d89fd2405f1b8d9a9168d06948310f02d6a"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "Q3yLIIkt7z",
+    "value": 7.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 513228,
+        "length": 1620,
+        "line": 265,
+        "record_sha256": "9d33ca52128ff43ee7f9425979e1698861aebf91f217014549bf66a55daf74e2"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "9eBYO45Fcx",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 514848,
+        "length": 1854,
+        "line": 266,
+        "record_sha256": "3b914f33df54ef7d754c0fee3292fee286c403ddaba81a785a22920cf73fd878"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "6UpstNltZ4",
+    "value": 6.4,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 516702,
+        "length": 1324,
+        "line": 267,
+        "record_sha256": "777ca4e644ae61d653722a671d1fee8499cdf0e24594559ab757f54718b81b66"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.4
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "kbxjkoF42x",
+    "value": 3.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 518026,
+        "length": 1811,
+        "line": 268,
+        "record_sha256": "f8bfdcff7c913c4eea60f04894a2155eb20f6dc8eb88051b6747be50d6e51688"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 3.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "Vp9lqAzWok",
+    "value": 2.67,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 519837,
+        "length": 2479,
+        "line": 269,
+        "record_sha256": "9f5dabad785d8fded40d4ce81b1d9dfb58e90314d13fcd9db86996c9bc12bec5"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.67
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "DUXG9E8dEO",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 522316,
+        "length": 1767,
+        "line": 270,
+        "record_sha256": "3e1129b872345e42a7b7c8aac1d5a8119e331e2654db633e319d34abde8d6804"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "L5jYWeycAx",
+    "value": 6.8,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 524083,
+        "length": 1596,
+        "line": 271,
+        "record_sha256": "49b92c0221bbb5450f2398d6c320ba245196ae46f84998625ad5f124fe20a3bc"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.8
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "SkmkGKEZ1U",
+    "value": 0.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 525679,
+        "length": 2003,
+        "line": 272,
+        "record_sha256": "f660b7fcc7b9e797609d8a2690501d3473fa3e5da98fd787cb994df11c938407"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 0.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "s9t2FJVsBH",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 527682,
+        "length": 2084,
+        "line": 273,
+        "record_sha256": "cd130dfe2e900fcb681de579f4c0935468af584a58917990d62063ab1c98df50"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "a5aRjldX9l",
+    "value": 6.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 529766,
+        "length": 2325,
+        "line": 274,
+        "record_sha256": "b90a8506e08c0cb068b85c376bdd7ab12c99da166a85d10557e2e814d8d6a9a2"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "62nHvQRfaw",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 532091,
+        "length": 1800,
+        "line": 275,
+        "record_sha256": "5448edfefec992233268c9811619b5aad4639abaa586b3293b9ded3febfdd150"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "sZ3tjtN8AW",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 533891,
+        "length": 1597,
+        "line": 276,
+        "record_sha256": "55ccaea7b3ae80997996293a19c4ba7230709f42ae927478db8bc9e487617102"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "FwKFjBX0PK",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 535488,
+        "length": 1998,
+        "line": 277,
+        "record_sha256": "c619e131d5549fd9032b708f26693909b75bcd50fa9412d952f71485cd5891e9"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "NWXUpwHPP7",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 537486,
+        "length": 1749,
+        "line": 278,
+        "record_sha256": "47f0c2a5b3362171e8165906f1e47c034887e7856136e5930c5cc7888467a6ad"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "wSGle6ag5I",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 539235,
+        "length": 1775,
+        "line": 279,
+        "record_sha256": "d888413cc7ca1084f2718573948b5756dc0465adda4c577a527f87f77bfd88d8"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "TA4R2GYA50",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 541010,
+        "length": 1629,
+        "line": 280,
+        "record_sha256": "4d41dfea919844df3ab118de86d5dfd1d202bbd140487a87807fe0633bb438c8"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "JkKkquv5lw",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 542639,
+        "length": 1939,
+        "line": 281,
+        "record_sha256": "0a5c79db094d50be5a6eea113e89c8c81f41c35d3dd0b1870df7c24e77001325"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "4ozxLQHt5F",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 544578,
+        "length": 1919,
+        "line": 282,
+        "record_sha256": "9022e005ec03987ea326b7ca22cdb054c9f456c9b9c20fe274a703451ce82aaf"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "Bp3I456do5",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 546497,
+        "length": 1962,
+        "line": 283,
+        "record_sha256": "8a08f269980e629fdb42be99b062ac515fa3c48d245cb4f0d3c7b4865201b52d"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "bzhCJQz35M",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 548459,
+        "length": 1717,
+        "line": 284,
+        "record_sha256": "3c01374e24acced089a19ea08c5bddcd61dfd9fc29f71b377bc9ff129fb71d87"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "GbXKPo9QfH",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 550176,
+        "length": 1689,
+        "line": 285,
+        "record_sha256": "a7eadbe52201288bf12fbfba5f012b9e5846e4a176a0b716b56d6a292c3ccbc8"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "XGODWn7HeJ",
+    "value": 6.67,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 551865,
+        "length": 2032,
+        "line": 286,
+        "record_sha256": "690bd49c5d4c50393038a6eaeb8241142a0d37183bf1fa3e54b168d0fb4fef63"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.67
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "NMz8o7MZ56",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 553897,
+        "length": 2874,
+        "line": 287,
+        "record_sha256": "df279403c91adb42ab5e276ea71c45b9a5efbe171de98a28bc0128df1287707a"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "yACLq4HoKi",
+    "value": 1.33,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 556771,
+        "length": 1980,
+        "line": 288,
+        "record_sha256": "7049741cb9e803579ff7527ef5a58b8ba7bd911e371958933ffbafd322344296"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 1.33
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "mytIKuRsSE",
+    "value": 7.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 558751,
+        "length": 2093,
+        "line": 289,
+        "record_sha256": "e44d7cdca3a051b66582f95384c8875f4e2e9a043d9823b77012098968f259a9"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "OJupg4mDjS",
+    "value": 7.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 560844,
+        "length": 1295,
+        "line": 290,
+        "record_sha256": "6b1866ad8733b406ebc347a6bb3e85312f9f723044a63d8d95c2c1e2006d7fa8"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "0K4jNe8ik9",
+    "value": 1.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 562139,
+        "length": 2031,
+        "line": 291,
+        "record_sha256": "4db541f382c547117067064fc9355b87722090812e2f10a6c8ee59c1ef8310f2"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 1.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "e7pAjJZJWb",
+    "value": 6.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 564170,
+        "length": 2312,
+        "line": 292,
+        "record_sha256": "59b871747d8da9734a4cd99f05a0fbdde4691bf05fd5244881d0efd1439cd5cc"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "OOebHJcqgR",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 566482,
+        "length": 2048,
+        "line": 293,
+        "record_sha256": "3fce745cbd1f2f252dd69c069e5793d75711fcaee5fef5ff06665de06d99f63e"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "8dLexnao2h",
+    "value": 6.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 568530,
+        "length": 1772,
+        "line": 294,
+        "record_sha256": "4952128d424e25d3b30bdc5d2dfc2190a037f4528ab3316ae47a8b337ac11df5"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "3eoCXVxvbZ",
+    "value": 2.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 570302,
+        "length": 1976,
+        "line": 295,
+        "record_sha256": "46559eda636973712382af31fa3317bd918f9289569f3168d13132b4c824166d"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "qclNnbjxNJ",
+    "value": 7.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 572278,
+        "length": 2483,
+        "line": 296,
+        "record_sha256": "ad333c5586f3168b126444556415a444fa4de104c899df38bd581d08e458ec00"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 7.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "pEtQaGUZVB",
+    "value": 2.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 574761,
+        "length": 1238,
+        "line": 297,
+        "record_sha256": "878681be27519a7f19f26ab8719941fddfd45c6cc43d3fbe0cf99d39fbec5c1f"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 2.5
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "4bnCXOtHTm",
+    "value": 6.0,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 575999,
+        "length": 1794,
+        "line": 298,
+        "record_sha256": "e7261d241e56a5038960912811718b9139f307fd326dc4c32de997d505d81ef6"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 6.0
+    },
+    "usable": false
+  },
+  {
+    "paper_id": "1GoQe3r0Lv",
+    "value": 1.5,
+    "observed_at": null,
+    "status": "undated_aggregate_not_individual_review",
+    "evidence": {
+      "binding": {
+        "path": "/Users/arpit/asi-selection/E2/analysis/openreview_archive_v1/benchmark_records.jsonl",
+        "offset": 577793,
+        "length": 2139,
+        "line": 299,
+        "record_sha256": "81569e118cfe7d9f4f6bdb1b4e5d17ad92778f76b3bae0bdbbd99d4027c1ca8c"
+      },
+      "field_path": [
+        "rating"
+      ],
+      "value": 1.5
+    },
+    "usable": false
+  }
+]

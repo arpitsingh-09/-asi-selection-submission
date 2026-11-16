@@ -1,0 +1,69 @@
+{
+  "checkpoint_sha256": "7daf6817ea73303b95aea0ac85b44d91ffe61a0fc65f8a3701b3cae7202fcfc4",
+  "result": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T03:27:59.211911Z",
+      "done": true,
+      "done_reason": "length",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 1,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 1,
+          "seed": 2026,
+          "temperature": 0.0,
+          "top_p": 1.0
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 120.730951291,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T03:27:59.211911Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 58876,
+      "prompt_eval_count": 28871,
+      "prompt_sha256": "9d443d10602063d46cff3edcc3f1f9b9689699802a9ab4078f95176f5e9799e5",
+      "requested_output_token_limit": 1,
+      "stage": "DEVELOPMENT_runtime_token_count",
+      "total_tokens": 28872,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 1,
+        "seed": 2026,
+        "temperature": 0.0,
+        "top_p": 1.0
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 28871,
+    "latency_seconds": 120.730951291,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T03:27:59.211911Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 1,
+    "raw_response": "{",
+    "token_count_preflight": {
+      "bounded_probe_confirmed": true,
+      "method": "ollama_prompt_eval_count_with_num_predict_one",
+      "requested_num_predict": 1
+    },
+    "total_tokens": 28872
+  },
+  "run_identity": "43490d6a3dad0e59dbc1753965ac5e6ede45c24850311f3a21951e08a274cbbd",
+  "step": "03_long_context_count"
+}

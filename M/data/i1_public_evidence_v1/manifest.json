@@ -1,0 +1,99 @@
+{
+  "schema": "M-I1-public-source-evidence-v1",
+  "created_at_utc": "2026-11-14T03:49:42Z",
+  "registered_test_target": "I1",
+  "cohort_selection": {
+    "candidate_count": 2,
+    "candidate_ids": [
+      "mgen-v1-01",
+      "mgen-v1-02"
+    ],
+    "basis": "minimum two independent focal-question clusters for the preregistered cluster bootstrap; candidate set only, not an eligible/frozen test cohort"
+  },
+  "protocol_status": "BLOCKED_NO_EVALUATION",
+  "evaluation_executed": false,
+  "public_source_checks": {
+    "verified_source_records": 6,
+    "verified_fields": [
+      "arXiv versioned identifier",
+      "title",
+      "published/submission timestamp",
+      "requested version timestamp"
+    ],
+    "source_domain": "arxiv.org",
+    "retrieved_at_utc": "2026-11-14",
+    "sources_file": "verified_sources.jsonl",
+    "sources_sha256": "38e7c96386a554ad803760d121fa16426bef0391322ad397a1d2d5c2e246078c"
+  },
+  "candidate_records_file": "candidate_records.jsonl",
+  "candidate_records_sha256": "bc293948ab9921ce271dd25d94d59d8ddc7659a94fc205c0d77dc3f55c431731",
+  "frozen_input_hashes": {
+    "M/PREREG.md": "d996104d87f35435f25f1160e38ba1e7f335a35b84234dd1f43aa37b87c82bdd",
+    "M/amendments/2026-11-13-generated-question-cohort.md": "0c792c8dc5ff5e49d1ba5de8f665b07bc32d074168532869cdf86e304af41a51",
+    "M/frozen/I1_test_list.json": "b8573551e13b6e855ff55f0fc0135e69d406898b2f3444e7c925b63c4e5070d8",
+    "M/frozen/config.json": "9fb1a8e94b08d99167d54cb12cb86357eadf073ef6d0c3d5cea3e5dbd5d19a36",
+    "M/frozen/SHA256SUMS.json": "e7ec110b355e9107f65a02e63c371d0342c24d3c1798c40c126bdd385cc06178",
+    "M/data/generated_questions_v1/generated_questions.jsonl": "3f81a9f462e6003fc7ac1b555ee291adc46f952b4d917986eb01b1ea6c040f65",
+    "M/data/generated_questions_v1/manifest.json": "80879043905d43965716d905daf771d62821dc03e37b84329e9774988ba741b0",
+    "M/data/generated_questions_v1/validation.json": "cb8d4cbec2ba63b94abf83efde1117e5dfdb3619a1a01046afd36f2c0622be9e"
+  },
+  "eligibility_decision": {
+    "eligible_candidates": 0,
+    "reason": "Verified bibliographic dates and candidate-to-input links do not satisfy missing independent human judgments, I1 contrast labels, semantic decoy verification, fitted Q heads/normalization or prospective cohort lock.",
+    "unresolved_requirements": [
+      "No human-authored or independently human-validated focal question/contrast labels; the registered I1 paraphrase and near-miss pairs are absent.",
+      "No independently verified semantic same-topic decoy judgment; category match is metadata only.",
+      "Both registered Q heads and frozen normalization are unavailable (quality eligibility report: 0 train, 0 validation).",
+      "The generated R set records the generator input, not an author-disclosed original input source or independently validated question-input relation.",
+      "No prospectively committed eligible I1 cohort/model lock; the frozen candidate list remains candidates-only."
+    ]
+  },
+  "rejected_record_count": 2,
+  "verified_record_count": 6,
+  "unresolved_candidate_count": 2,
+  "no_frozen_artifact_changed": true,
+  "no_predictions_or_metrics_created": true,
+  "not_selected_record_count": 4,
+  "unresolved_evidence": [
+    {
+      "blocker": "No human-authored or independently human-validated focal question/contrast labels; the registered I1 paraphrase and near-miss pairs are absent.",
+      "affected_candidate_ids": [
+        "mgen-v1-01",
+        "mgen-v1-02"
+      ],
+      "required_to_resolve": true
+    },
+    {
+      "blocker": "No independently verified semantic same-topic decoy judgment; category match is metadata only.",
+      "affected_candidate_ids": [
+        "mgen-v1-01",
+        "mgen-v1-02"
+      ],
+      "required_to_resolve": true
+    },
+    {
+      "blocker": "Both registered Q heads and frozen normalization are unavailable (quality eligibility report: 0 train, 0 validation).",
+      "affected_candidate_ids": [
+        "mgen-v1-01",
+        "mgen-v1-02"
+      ],
+      "required_to_resolve": true
+    },
+    {
+      "blocker": "The generated R set records the generator input, not an author-disclosed original input source or independently validated question-input relation.",
+      "affected_candidate_ids": [
+        "mgen-v1-01",
+        "mgen-v1-02"
+      ],
+      "required_to_resolve": true
+    },
+    {
+      "blocker": "No prospectively committed eligible I1 cohort/model lock; the frozen candidate list remains candidates-only.",
+      "affected_candidate_ids": [
+        "mgen-v1-01",
+        "mgen-v1-02"
+      ],
+      "required_to_resolve": true
+    }
+  ]
+}

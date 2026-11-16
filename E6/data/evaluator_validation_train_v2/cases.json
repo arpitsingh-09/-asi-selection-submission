@@ -1,0 +1,370 @@
+[
+  {
+    "a": "Tweets explicitly criticizing political institutions are more likely to be associated with a third-party or non-voting preference.",
+    "b": "Tweets explicitly criticizing political institutions are more likely to be associated with a third-party or non-voting preference.",
+    "case_id": "reconstruction-01",
+    "expected": 5,
+    "key": "similarity",
+    "reference_kind": "logical_identity_control",
+    "rubric": "similarity",
+    "section": "reconstruction",
+    "sources": [
+      {
+        "hypothesis": "Tweets explicitly criticizing political institutions are more likely to be associated with a third-party or non-voting preference.",
+        "hypothesis_id": "QH:H1",
+        "question": "To what extent does explicit criticism of political institutions (e.g., Supreme Court, government shutdowns) correlate with predicted voting preference?",
+        "source": "E6/runs/priority10_train_batch002/aa367e4423af8dc3_generation_envelope.json",
+        "source_file_sha256": "7340af8c3df91e969ef4060271247f91799584276e5b506298ae3f2162454032",
+        "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0001:f4dd50eb316a"
+      }
+    ]
+  },
+  {
+    "a": "To what extent does explicit criticism of political institutions (e.g., Supreme Court, government shutdowns) correlate with predicted voting preference?",
+    "b": "To what extent does explicit criticism of political institutions (e.g., Supreme Court, government shutdowns) correlate with predicted voting preference?",
+    "case_id": "already_asked-01",
+    "expected": true,
+    "key": "same_question",
+    "reference_kind": "logical_identity_control",
+    "rubric": "same_question",
+    "section": "already_asked",
+    "sources": [
+      {
+        "hypothesis": "Tweets explicitly criticizing political institutions are more likely to be associated with a third-party or non-voting preference.",
+        "hypothesis_id": "QH:H1",
+        "question": "To what extent does explicit criticism of political institutions (e.g., Supreme Court, government shutdowns) correlate with predicted voting preference?",
+        "source": "E6/runs/priority10_train_batch002/aa367e4423af8dc3_generation_envelope.json",
+        "source_file_sha256": "7340af8c3df91e969ef4060271247f91799584276e5b506298ae3f2162454032",
+        "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0001:f4dd50eb316a"
+      }
+    ]
+  },
+  {
+    "a": "Tweets explicitly criticizing political institutions are more likely to be associated with a third-party or non-voting preference.",
+    "b": "Tweets explicitly criticizing political institutions are more likely to be associated with a third-party or non-voting preference.",
+    "case_id": "diversity-01",
+    "expected": false,
+    "key": "distinct",
+    "reference_kind": "logical_identity_control",
+    "rubric": "distinctness",
+    "section": "diversity",
+    "sources": [
+      {
+        "hypothesis": "Tweets explicitly criticizing political institutions are more likely to be associated with a third-party or non-voting preference.",
+        "hypothesis_id": "QH:H1",
+        "question": "To what extent does explicit criticism of political institutions (e.g., Supreme Court, government shutdowns) correlate with predicted voting preference?",
+        "source": "E6/runs/priority10_train_batch002/aa367e4423af8dc3_generation_envelope.json",
+        "source_file_sha256": "7340af8c3df91e969ef4060271247f91799584276e5b506298ae3f2162454032",
+        "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0001:f4dd50eb316a"
+      }
+    ]
+  },
+  {
+    "a": "To what extent does explicit criticism of political institutions (e.g., Supreme Court, government shutdowns) correlate with predicted voting preference?",
+    "b": null,
+    "case_id": "question_type-01",
+    "expected": null,
+    "key": "type",
+    "reference_kind": "human_reference_required",
+    "rubric": "question_type",
+    "section": "question_type",
+    "sources": [
+      {
+        "hypothesis": "Tweets explicitly criticizing political institutions are more likely to be associated with a third-party or non-voting preference.",
+        "hypothesis_id": "QH:H1",
+        "question": "To what extent does explicit criticism of political institutions (e.g., Supreme Court, government shutdowns) correlate with predicted voting preference?",
+        "source": "E6/runs/priority10_train_batch002/aa367e4423af8dc3_generation_envelope.json",
+        "source_file_sha256": "7340af8c3df91e969ef4060271247f91799584276e5b506298ae3f2162454032",
+        "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0001:f4dd50eb316a"
+      }
+    ]
+  },
+  {
+    "a": "Tweets endorsing both gun rights and universal healthcare are more likely to be associated with a Republican or third-party voting preference.",
+    "b": "Tweets endorsing both gun rights and universal healthcare are more likely to be associated with a Republican or third-party voting preference.",
+    "case_id": "reconstruction-02",
+    "expected": 5,
+    "key": "similarity",
+    "reference_kind": "logical_identity_control",
+    "rubric": "similarity",
+    "section": "reconstruction",
+    "sources": [
+      {
+        "hypothesis": "Tweets endorsing both gun rights and universal healthcare are more likely to be associated with a Republican or third-party voting preference.",
+        "hypothesis_id": "QH:H3",
+        "question": "How do endorsements of specific policies (e.g., gun rights, universal healthcare, climate change initiatives) influence the predicted voting preference, considering potential ideological contradictions?",
+        "source": "E6/runs/priority10_train_batch002/aa367e4423af8dc3_generation_envelope.json",
+        "source_file_sha256": "7340af8c3df91e969ef4060271247f91799584276e5b506298ae3f2162454032",
+        "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0001:f4dd50eb316a"
+      }
+    ]
+  },
+  {
+    "a": "How do endorsements of specific policies (e.g., gun rights, universal healthcare, climate change initiatives) influence the predicted voting preference, considering potential ideological contradictions?",
+    "b": "How do endorsements of specific policies (e.g., gun rights, universal healthcare, climate change initiatives) influence the predicted voting preference, considering potential ideological contradictions?",
+    "case_id": "already_asked-02",
+    "expected": true,
+    "key": "same_question",
+    "reference_kind": "logical_identity_control",
+    "rubric": "same_question",
+    "section": "already_asked",
+    "sources": [
+      {
+        "hypothesis": "Tweets endorsing both gun rights and universal healthcare are more likely to be associated with a Republican or third-party voting preference.",
+        "hypothesis_id": "QH:H3",
+        "question": "How do endorsements of specific policies (e.g., gun rights, universal healthcare, climate change initiatives) influence the predicted voting preference, considering potential ideological contradictions?",
+        "source": "E6/runs/priority10_train_batch002/aa367e4423af8dc3_generation_envelope.json",
+        "source_file_sha256": "7340af8c3df91e969ef4060271247f91799584276e5b506298ae3f2162454032",
+        "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0001:f4dd50eb316a"
+      }
+    ]
+  },
+  {
+    "a": "Tweets endorsing both gun rights and universal healthcare are more likely to be associated with a Republican or third-party voting preference.",
+    "b": "Tweets endorsing both gun rights and universal healthcare are more likely to be associated with a Republican or third-party voting preference.",
+    "case_id": "diversity-02",
+    "expected": false,
+    "key": "distinct",
+    "reference_kind": "logical_identity_control",
+    "rubric": "distinctness",
+    "section": "diversity",
+    "sources": [
+      {
+        "hypothesis": "Tweets endorsing both gun rights and universal healthcare are more likely to be associated with a Republican or third-party voting preference.",
+        "hypothesis_id": "QH:H3",
+        "question": "How do endorsements of specific policies (e.g., gun rights, universal healthcare, climate change initiatives) influence the predicted voting preference, considering potential ideological contradictions?",
+        "source": "E6/runs/priority10_train_batch002/aa367e4423af8dc3_generation_envelope.json",
+        "source_file_sha256": "7340af8c3df91e969ef4060271247f91799584276e5b506298ae3f2162454032",
+        "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0001:f4dd50eb316a"
+      }
+    ]
+  },
+  {
+    "a": "How do endorsements of specific policies (e.g., gun rights, universal healthcare, climate change initiatives) influence the predicted voting preference, considering potential ideological contradictions?",
+    "b": null,
+    "case_id": "question_type-02",
+    "expected": null,
+    "key": "type",
+    "reference_kind": "human_reference_required",
+    "rubric": "question_type",
+    "section": "question_type",
+    "sources": [
+      {
+        "hypothesis": "Tweets endorsing both gun rights and universal healthcare are more likely to be associated with a Republican or third-party voting preference.",
+        "hypothesis_id": "QH:H3",
+        "question": "How do endorsements of specific policies (e.g., gun rights, universal healthcare, climate change initiatives) influence the predicted voting preference, considering potential ideological contradictions?",
+        "source": "E6/runs/priority10_train_batch002/aa367e4423af8dc3_generation_envelope.json",
+        "source_file_sha256": "7340af8c3df91e969ef4060271247f91799584276e5b506298ae3f2162454032",
+        "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0001:f4dd50eb316a"
+      }
+    ]
+  },
+  {
+    "a": "Expressing frustration over the lack of third-party debate presence is more likely to correlate with a Democratic voting preference.",
+    "b": "Negative reactions to Republican-led government shutdowns increase the likelihood of a Democratic or third-party vote prediction.",
+    "case_id": "reconstruction-03",
+    "expected": null,
+    "key": "similarity",
+    "reference_kind": "human_reference_required",
+    "rubric": "similarity",
+    "section": "reconstruction",
+    "sources": [
+      {
+        "hypothesis": "Expressing frustration over the lack of third-party debate presence is more likely to correlate with a Democratic voting preference.",
+        "hypothesis_id": "QH:H5",
+        "question": "Does the expression of frustration regarding the lack of third-party debate presence correlate with a specific predicted voting preference?",
+        "source": "E6/runs/priority10_train_batch001/b90d71ea502c100a_generation_envelope.json",
+        "source_file_sha256": "37a1f47e90f743086a5fa24a05af828ca6dbccaa04ecda57f24b973e1db0d926",
+        "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0000:4b44593d53e3"
+      },
+      {
+        "hypothesis": "Negative reactions to Republican-led government shutdowns increase the likelihood of a Democratic or third-party vote prediction.",
+        "hypothesis_id": "QH:H3",
+        "question": "To what extent does reaction to specific political events (e.g., government shutdowns, Supreme Court decisions) influence the predicted voting preference?",
+        "source": "E6/runs/priority10_train_batch001/b90d71ea502c100a_generation_envelope.json",
+        "source_file_sha256": "37a1f47e90f743086a5fa24a05af828ca6dbccaa04ecda57f24b973e1db0d926",
+        "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0000:4b44593d53e3"
+      }
+    ]
+  },
+  {
+    "a": "Does the expression of frustration regarding the lack of third-party debate presence correlate with a specific predicted voting preference?",
+    "b": "To what extent does reaction to specific political events (e.g., government shutdowns, Supreme Court decisions) influence the predicted voting preference?",
+    "case_id": "already_asked-03",
+    "expected": null,
+    "key": "same_question",
+    "reference_kind": "human_reference_required",
+    "rubric": "same_question",
+    "section": "already_asked",
+    "sources": [
+      {
+        "hypothesis": "Expressing frustration over the lack of third-party debate presence is more likely to correlate with a Democratic voting preference.",
+        "hypothesis_id": "QH:H5",
+        "question": "Does the expression of frustration regarding the lack of third-party debate presence correlate with a specific predicted voting preference?",
+        "source": "E6/runs/priority10_train_batch001/b90d71ea502c100a_generation_envelope.json",
+        "source_file_sha256": "37a1f47e90f743086a5fa24a05af828ca6dbccaa04ecda57f24b973e1db0d926",
+        "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0000:4b44593d53e3"
+      },
+      {
+        "hypothesis": "Negative reactions to Republican-led government shutdowns increase the likelihood of a Democratic or third-party vote prediction.",
+        "hypothesis_id": "QH:H3",
+        "question": "To what extent does reaction to specific political events (e.g., government shutdowns, Supreme Court decisions) influence the predicted voting preference?",
+        "source": "E6/runs/priority10_train_batch001/b90d71ea502c100a_generation_envelope.json",
+        "source_file_sha256": "37a1f47e90f743086a5fa24a05af828ca6dbccaa04ecda57f24b973e1db0d926",
+        "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0000:4b44593d53e3"
+      }
+    ]
+  },
+  {
+    "a": "Expressing frustration over the lack of third-party debate presence is more likely to correlate with a Democratic voting preference.",
+    "b": "Negative reactions to Republican-led government shutdowns increase the likelihood of a Democratic or third-party vote prediction.",
+    "case_id": "diversity-03",
+    "expected": null,
+    "key": "distinct",
+    "reference_kind": "human_reference_required",
+    "rubric": "distinctness",
+    "section": "diversity",
+    "sources": [
+      {
+        "hypothesis": "Expressing frustration over the lack of third-party debate presence is more likely to correlate with a Democratic voting preference.",
+        "hypothesis_id": "QH:H5",
+        "question": "Does the expression of frustration regarding the lack of third-party debate presence correlate with a specific predicted voting preference?",
+        "source": "E6/runs/priority10_train_batch001/b90d71ea502c100a_generation_envelope.json",
+        "source_file_sha256": "37a1f47e90f743086a5fa24a05af828ca6dbccaa04ecda57f24b973e1db0d926",
+        "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0000:4b44593d53e3"
+      },
+      {
+        "hypothesis": "Negative reactions to Republican-led government shutdowns increase the likelihood of a Democratic or third-party vote prediction.",
+        "hypothesis_id": "QH:H3",
+        "question": "To what extent does reaction to specific political events (e.g., government shutdowns, Supreme Court decisions) influence the predicted voting preference?",
+        "source": "E6/runs/priority10_train_batch001/b90d71ea502c100a_generation_envelope.json",
+        "source_file_sha256": "37a1f47e90f743086a5fa24a05af828ca6dbccaa04ecda57f24b973e1db0d926",
+        "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0000:4b44593d53e3"
+      }
+    ]
+  },
+  {
+    "a": "Does the expression of frustration regarding the lack of third-party debate presence correlate with a specific predicted voting preference?",
+    "b": null,
+    "case_id": "question_type-03",
+    "expected": null,
+    "key": "type",
+    "reference_kind": "human_reference_required",
+    "rubric": "question_type",
+    "section": "question_type",
+    "sources": [
+      {
+        "hypothesis": "Expressing frustration over the lack of third-party debate presence is more likely to correlate with a Democratic voting preference.",
+        "hypothesis_id": "QH:H5",
+        "question": "Does the expression of frustration regarding the lack of third-party debate presence correlate with a specific predicted voting preference?",
+        "source": "E6/runs/priority10_train_batch001/b90d71ea502c100a_generation_envelope.json",
+        "source_file_sha256": "37a1f47e90f743086a5fa24a05af828ca6dbccaa04ecda57f24b973e1db0d926",
+        "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0000:4b44593d53e3"
+      }
+    ]
+  },
+  {
+    "a": "Negative reactions to Republican-led government shutdowns increase the likelihood of a Democratic or third-party vote prediction.",
+    "b": "Tweets explicitly criticizing political institutions are more likely to be associated with a third-party or non-voting preference.",
+    "case_id": "reconstruction-04",
+    "expected": null,
+    "key": "similarity",
+    "reference_kind": "human_reference_required",
+    "rubric": "similarity",
+    "section": "reconstruction",
+    "sources": [
+      {
+        "hypothesis": "Negative reactions to Republican-led government shutdowns increase the likelihood of a Democratic or third-party vote prediction.",
+        "hypothesis_id": "QH:H3",
+        "question": "To what extent does reaction to specific political events (e.g., government shutdowns, Supreme Court decisions) influence the predicted voting preference?",
+        "source": "E6/runs/priority10_train_batch001/b90d71ea502c100a_generation_envelope.json",
+        "source_file_sha256": "37a1f47e90f743086a5fa24a05af828ca6dbccaa04ecda57f24b973e1db0d926",
+        "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0000:4b44593d53e3"
+      },
+      {
+        "hypothesis": "Tweets explicitly criticizing political institutions are more likely to be associated with a third-party or non-voting preference.",
+        "hypothesis_id": "QH:H1",
+        "question": "To what extent does explicit criticism of political institutions (e.g., Supreme Court, government shutdowns) correlate with predicted voting preference?",
+        "source": "E6/runs/priority10_train_batch002/aa367e4423af8dc3_generation_envelope.json",
+        "source_file_sha256": "7340af8c3df91e969ef4060271247f91799584276e5b506298ae3f2162454032",
+        "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0001:f4dd50eb316a"
+      }
+    ]
+  },
+  {
+    "a": "To what extent does reaction to specific political events (e.g., government shutdowns, Supreme Court decisions) influence the predicted voting preference?",
+    "b": "To what extent does explicit criticism of political institutions (e.g., Supreme Court, government shutdowns) correlate with predicted voting preference?",
+    "case_id": "already_asked-04",
+    "expected": null,
+    "key": "same_question",
+    "reference_kind": "human_reference_required",
+    "rubric": "same_question",
+    "section": "already_asked",
+    "sources": [
+      {
+        "hypothesis": "Negative reactions to Republican-led government shutdowns increase the likelihood of a Democratic or third-party vote prediction.",
+        "hypothesis_id": "QH:H3",
+        "question": "To what extent does reaction to specific political events (e.g., government shutdowns, Supreme Court decisions) influence the predicted voting preference?",
+        "source": "E6/runs/priority10_train_batch001/b90d71ea502c100a_generation_envelope.json",
+        "source_file_sha256": "37a1f47e90f743086a5fa24a05af828ca6dbccaa04ecda57f24b973e1db0d926",
+        "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0000:4b44593d53e3"
+      },
+      {
+        "hypothesis": "Tweets explicitly criticizing political institutions are more likely to be associated with a third-party or non-voting preference.",
+        "hypothesis_id": "QH:H1",
+        "question": "To what extent does explicit criticism of political institutions (e.g., Supreme Court, government shutdowns) correlate with predicted voting preference?",
+        "source": "E6/runs/priority10_train_batch002/aa367e4423af8dc3_generation_envelope.json",
+        "source_file_sha256": "7340af8c3df91e969ef4060271247f91799584276e5b506298ae3f2162454032",
+        "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0001:f4dd50eb316a"
+      }
+    ]
+  },
+  {
+    "a": "Negative reactions to Republican-led government shutdowns increase the likelihood of a Democratic or third-party vote prediction.",
+    "b": "Tweets explicitly criticizing political institutions are more likely to be associated with a third-party or non-voting preference.",
+    "case_id": "diversity-04",
+    "expected": null,
+    "key": "distinct",
+    "reference_kind": "human_reference_required",
+    "rubric": "distinctness",
+    "section": "diversity",
+    "sources": [
+      {
+        "hypothesis": "Negative reactions to Republican-led government shutdowns increase the likelihood of a Democratic or third-party vote prediction.",
+        "hypothesis_id": "QH:H3",
+        "question": "To what extent does reaction to specific political events (e.g., government shutdowns, Supreme Court decisions) influence the predicted voting preference?",
+        "source": "E6/runs/priority10_train_batch001/b90d71ea502c100a_generation_envelope.json",
+        "source_file_sha256": "37a1f47e90f743086a5fa24a05af828ca6dbccaa04ecda57f24b973e1db0d926",
+        "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0000:4b44593d53e3"
+      },
+      {
+        "hypothesis": "Tweets explicitly criticizing political institutions are more likely to be associated with a third-party or non-voting preference.",
+        "hypothesis_id": "QH:H1",
+        "question": "To what extent does explicit criticism of political institutions (e.g., Supreme Court, government shutdowns) correlate with predicted voting preference?",
+        "source": "E6/runs/priority10_train_batch002/aa367e4423af8dc3_generation_envelope.json",
+        "source_file_sha256": "7340af8c3df91e969ef4060271247f91799584276e5b506298ae3f2162454032",
+        "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0001:f4dd50eb316a"
+      }
+    ]
+  },
+  {
+    "a": "To what extent does reaction to specific political events (e.g., government shutdowns, Supreme Court decisions) influence the predicted voting preference?",
+    "b": null,
+    "case_id": "question_type-04",
+    "expected": null,
+    "key": "type",
+    "reference_kind": "human_reference_required",
+    "rubric": "question_type",
+    "section": "question_type",
+    "sources": [
+      {
+        "hypothesis": "Negative reactions to Republican-led government shutdowns increase the likelihood of a Democratic or third-party vote prediction.",
+        "hypothesis_id": "QH:H3",
+        "question": "To what extent does reaction to specific political events (e.g., government shutdowns, Supreme Court decisions) influence the predicted voting preference?",
+        "source": "E6/runs/priority10_train_batch001/b90d71ea502c100a_generation_envelope.json",
+        "source_file_sha256": "37a1f47e90f743086a5fa24a05af828ca6dbccaa04ecda57f24b973e1db0d926",
+        "unit": "hypobench-synthetic-election-level2:TRAIN-SET:0000:4b44593d53e3"
+      }
+    ]
+  }
+]

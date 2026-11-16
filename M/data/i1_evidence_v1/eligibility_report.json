@@ -1,0 +1,14 @@
+{
+  "schema": "M-I1-evidence-v1",
+  "candidates_examined": 61,
+  "exact_source_identity_and_metadata_recovered": 61,
+  "independently_verified_labels": 0,
+  "eligible_candidates": 0,
+  "heldout_evaluation_run": false,
+  "blockers_summary": [
+    "E1 alignment audit is pending manual confirmation for candidates.",
+    "Question creation/availability dates and original input IDs are absent.",
+    "Required original, shuffled, and independently verified same-topic controls are incomplete.",
+    "Q readouts and frozen normalization are unavailable."
+  ]
+}

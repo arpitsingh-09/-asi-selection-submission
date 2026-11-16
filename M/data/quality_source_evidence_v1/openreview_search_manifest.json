@@ -1,0 +1,390 @@
+{
+  "schema": "M-frozen-quality-targeted-openreview-search-v1",
+  "searches": [
+    {
+      "exact_title_matches": [],
+      "http_status": 200,
+      "paper_id": "2012.15470v1",
+      "query_url": "https://api2.openreview.net/notes/search?term=Audio-Visual+Floorplan+Reconstruction&content=title&type=exact&limit=20&count=true",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2012.15470v1.json",
+      "raw_sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "result_count": 0,
+      "retrieval_started_utc": "2026-11-14T06:24:28.585953+00:00",
+      "retrieved_at_utc": "2026-11-14T06:24:29.305792+00:00",
+      "splits": [
+        "train"
+      ],
+      "title": "Audio-Visual Floorplan Reconstruction"
+    },
+    {
+      "exact_title_matches": [],
+      "http_status": 200,
+      "paper_id": "2112.15571v1",
+      "query_url": "https://api2.openreview.net/notes/search?term=PCACE%3A+A+Statistical+Approach+to+Ranking+Neurons+for+CNN+Interpretability&content=title&type=exact&limit=20&count=true",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2112.15571v1.json",
+      "raw_sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "result_count": 0,
+      "retrieval_started_utc": "2026-11-14T06:24:28.586190+00:00",
+      "retrieved_at_utc": "2026-11-14T06:24:29.301899+00:00",
+      "splits": [
+        "train"
+      ],
+      "title": "PCACE: A Statistical Approach to Ranking Neurons for CNN Interpretability"
+    },
+    {
+      "exact_title_matches": [],
+      "http_status": 200,
+      "paper_id": "2112.14921v1",
+      "query_url": "https://api2.openreview.net/notes/search?term=Retrieving+Black-box+Optimal+Images+from+External+Databases&content=title&type=exact&limit=20&count=true",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2112.14921v1.json",
+      "raw_sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "result_count": 0,
+      "retrieval_started_utc": "2026-11-14T06:24:28.586292+00:00",
+      "retrieved_at_utc": "2026-11-14T06:24:29.307010+00:00",
+      "splits": [
+        "train"
+      ],
+      "title": "Retrieving Black-box Optimal Images from External Databases"
+    },
+    {
+      "exact_title_matches": [
+        {
+          "forum": "eFcK7SU3s4",
+          "invitation": null,
+          "note_id": "eFcK7SU3s4",
+          "title": "Super-Efficient Super Resolution for Fast Adversarial Defense at the Edge"
+        }
+      ],
+      "http_status": 200,
+      "paper_id": "2112.14340v1",
+      "query_url": "https://api2.openreview.net/notes/search?term=Super-Efficient+Super+Resolution+for+Fast+Adversarial+Defense+at+the+Edge&content=title&type=exact&limit=20&count=true",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2112.14340v1.json",
+      "raw_sha256": "28083a568f1515e1c390d6c7f66afa5c262abcb9e6c1a6183aa5ecf006e32f24",
+      "result_count": 1,
+      "retrieval_started_utc": "2026-11-14T06:24:28.586421+00:00",
+      "retrieved_at_utc": "2026-11-14T06:24:29.304313+00:00",
+      "splits": [
+        "train"
+      ],
+      "title": "Super-Efficient Super Resolution for Fast Adversarial Defense at the Edge"
+    },
+    {
+      "exact_title_matches": [
+        {
+          "forum": "iVj6KjsLGh",
+          "invitation": null,
+          "note_id": "iVj6KjsLGh",
+          "title": "Cap4Video: What Can Auxiliary Captions Do for Text-Video Retrieval?"
+        }
+      ],
+      "http_status": 200,
+      "paper_id": "2301.00184v3",
+      "query_url": "https://api2.openreview.net/notes/search?term=Cap4Video%3A+What+Can+Auxiliary+Captions+Do+for+Text-Video+Retrieval%3F&content=title&type=exact&limit=20&count=true",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2301.00184v3.json",
+      "raw_sha256": "c571b6ee708b5cc4c35bfa14ff09a15730e27db07ced068f353535d3bd913d95",
+      "result_count": 1,
+      "retrieval_started_utc": "2026-11-14T06:24:29.307472+00:00",
+      "retrieved_at_utc": "2026-11-14T06:24:30.120020+00:00",
+      "splits": [
+        "train"
+      ],
+      "title": "Cap4Video: What Can Auxiliary Captions Do for Text-Video Retrieval?"
+    },
+    {
+      "exact_title_matches": [],
+      "http_status": 200,
+      "paper_id": "2212.14746v1",
+      "query_url": "https://api2.openreview.net/notes/search?term=MindBigData+2022+A+Large+Dataset+of+Brain+Signals&content=title&type=exact&limit=20&count=true",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2212.14746v1.json",
+      "raw_sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "result_count": 0,
+      "retrieval_started_utc": "2026-11-14T06:24:29.307846+00:00",
+      "retrieved_at_utc": "2026-11-14T06:24:30.152728+00:00",
+      "splits": [
+        "train"
+      ],
+      "title": "MindBigData 2022 A Large Dataset of Brain Signals"
+    },
+    {
+      "exact_title_matches": [],
+      "http_status": 200,
+      "paper_id": "2012.15859v5",
+      "query_url": "https://api2.openreview.net/notes/search?term=Intrinsic+Bias+Metrics+Do+Not+Correlate+with+Application+Bias&content=title&type=exact&limit=20&count=true",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2012.15859v5.json",
+      "raw_sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "result_count": 0,
+      "retrieval_started_utc": "2026-11-14T06:24:29.319526+00:00",
+      "retrieved_at_utc": "2026-11-14T06:24:30.117050+00:00",
+      "splits": [
+        "train"
+      ],
+      "title": "Intrinsic Bias Metrics Do Not Correlate with Application Bias"
+    },
+    {
+      "exact_title_matches": [
+        {
+          "forum": "xefzWNBJlL",
+          "invitation": null,
+          "note_id": "xefzWNBJlL",
+          "title": "Out of Order: How important is the sequential order of words in a sentence in Natural Language Understanding tasks?"
+        }
+      ],
+      "http_status": 200,
+      "paper_id": "2012.15180v2",
+      "query_url": "https://api2.openreview.net/notes/search?term=Out+of+Order%3A+How+Important+Is+The+Sequential+Order+of+Words+in+a+Sentence+in+Natural+Language+Understanding+Tasks%3F&content=title&type=exact&limit=20&count=true",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2012.15180v2.json",
+      "raw_sha256": "52074b44f70ef4df5dac4ff6a5d4ef53cc3542bf5d1192f6aa346ed5fe8ae7a6",
+      "result_count": 1,
+      "retrieval_started_utc": "2026-11-14T06:24:29.319712+00:00",
+      "retrieved_at_utc": "2026-11-14T06:24:30.118574+00:00",
+      "splits": [
+        "train"
+      ],
+      "title": "Out of Order: How Important Is The Sequential Order of Words in a Sentence in Natural Language Understanding Tasks?"
+    },
+    {
+      "exact_title_matches": [],
+      "http_status": 200,
+      "paper_id": "2012.14312v1",
+      "query_url": "https://api2.openreview.net/notes/search?term=Panarchy%3A+ripples+of+a+boundary+concept&content=title&type=exact&limit=20&count=true",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2012.14312v1.json",
+      "raw_sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "result_count": 0,
+      "retrieval_started_utc": "2026-11-14T06:24:30.120556+00:00",
+      "retrieved_at_utc": "2026-11-14T06:24:30.840194+00:00",
+      "splits": [
+        "train"
+      ],
+      "title": "Panarchy: ripples of a boundary concept"
+    },
+    {
+      "exact_title_matches": [],
+      "http_status": 200,
+      "paper_id": "2112.13320v1",
+      "query_url": "https://api2.openreview.net/notes/search?term=Budget+Sensitive+Reannotation+of+Noisy+Relation+Classification+Data+Using+Label+Hierarchy&content=title&type=exact&limit=20&count=true",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2112.13320v1.json",
+      "raw_sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "result_count": 0,
+      "retrieval_started_utc": "2026-11-14T06:24:30.120890+00:00",
+      "retrieved_at_utc": "2026-11-14T06:24:31.073135+00:00",
+      "splits": [
+        "train"
+      ],
+      "title": "Budget Sensitive Reannotation of Noisy Relation Classification Data Using Label Hierarchy"
+    },
+    {
+      "exact_title_matches": [],
+      "http_status": 200,
+      "paper_id": "2112.10508v1",
+      "query_url": "https://api2.openreview.net/notes/search?term=Between+words+and+characters%3A+A+Brief+History+of+Open-Vocabulary+Modeling+and+Tokenization+in+NLP&content=title&type=exact&limit=20&count=true",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2112.10508v1.json",
+      "raw_sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "result_count": 0,
+      "retrieval_started_utc": "2026-11-14T06:24:30.134434+00:00",
+      "retrieved_at_utc": "2026-11-14T06:24:30.837352+00:00",
+      "splits": [
+        "train"
+      ],
+      "title": "Between words and characters: A Brief History of Open-Vocabulary Modeling and Tokenization in NLP"
+    },
+    {
+      "exact_title_matches": [],
+      "http_status": 200,
+      "paper_id": "2212.14402v1",
+      "query_url": "https://api2.openreview.net/notes/search?term=GPT+Takes+the+Bar+Exam&content=title&type=exact&limit=20&count=true",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2212.14402v1.json",
+      "raw_sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "result_count": 0,
+      "retrieval_started_utc": "2026-11-14T06:24:30.153451+00:00",
+      "retrieved_at_utc": "2026-11-14T06:24:30.838816+00:00",
+      "splits": [
+        "train"
+      ],
+      "title": "GPT Takes the Bar Exam"
+    },
+    {
+      "exact_title_matches": [
+        {
+          "forum": "v2kCeW31DW",
+          "invitation": null,
+          "note_id": "v2kCeW31DW",
+          "title": "Cramming: Training a Language Model on a Single GPU in One Day"
+        },
+        {
+          "forum": "E66gR8hTJD",
+          "invitation": null,
+          "note_id": "E66gR8hTJD",
+          "title": "Cramming: Training a Language Model on a single GPU in one day"
+        },
+        {
+          "forum": "zjKKxDz0PW",
+          "invitation": null,
+          "note_id": "zjKKxDz0PW",
+          "title": "Cramming: Training a Language Model on a single GPU in one day"
+        },
+        {
+          "forum": "2snzoozOWH",
+          "invitation": null,
+          "note_id": "2snzoozOWH",
+          "title": "Cramming: Training a Language Model on a single GPU in one day."
+        }
+      ],
+      "http_status": 200,
+      "paper_id": "2212.14034v1",
+      "query_url": "https://api2.openreview.net/notes/search?term=Cramming%3A+Training+a+Language+Model+on+a+Single+GPU+in+One+Day&content=title&type=exact&limit=20&count=true",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2212.14034v1.json",
+      "raw_sha256": "0c7697139acfe2a886a4c28436d64299d65df6a5a1ea067b7cce4109d72324da",
+      "result_count": 4,
+      "retrieval_started_utc": "2026-11-14T06:24:30.840870+00:00",
+      "retrieved_at_utc": "2026-11-14T06:24:31.502376+00:00",
+      "splits": [
+        "train"
+      ],
+      "title": "Cramming: Training a Language Model on a Single GPU in One Day"
+    },
+    {
+      "exact_title_matches": [],
+      "http_status": 200,
+      "paper_id": "2212.10933v2",
+      "query_url": "https://api2.openreview.net/notes/search?term=Resolving+Indirect+Referring+Expressions+for+Entity+Selection&content=title&type=exact&limit=20&count=true",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2212.10933v2.json",
+      "raw_sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "result_count": 0,
+      "retrieval_started_utc": "2026-11-14T06:24:30.848146+00:00",
+      "retrieved_at_utc": "2026-11-14T06:24:32.574413+00:00",
+      "splits": [
+        "train"
+      ],
+      "title": "Resolving Indirect Referring Expressions for Entity Selection"
+    },
+    {
+      "exact_title_matches": [],
+      "http_status": 200,
+      "paper_id": "2212.10728v1",
+      "query_url": "https://api2.openreview.net/notes/search?term=Spoken+Language+Understanding+for+Conversational+AI%3A+Recent+Advances+and+Future+Direction&content=title&type=exact&limit=20&count=true",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2212.10728v1.json",
+      "raw_sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "result_count": 0,
+      "retrieval_started_utc": "2026-11-14T06:24:30.848355+00:00",
+      "retrieved_at_utc": "2026-11-14T06:24:31.500720+00:00",
+      "splits": [
+        "train"
+      ],
+      "title": "Spoken Language Understanding for Conversational AI: Recent Advances and Future Direction"
+    },
+    {
+      "exact_title_matches": [],
+      "http_status": 200,
+      "paper_id": "2401.02978v1",
+      "query_url": "https://api2.openreview.net/notes/search?term=Learning+from+a+Generative+AI+Predecessor+--+The+Many+Motivations+for+Interacting+with+Conversational+Agents&content=title&type=exact&limit=20&count=true",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2401.02978v1.json",
+      "raw_sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "result_count": 0,
+      "retrieval_started_utc": "2026-11-14T06:24:31.074319+00:00",
+      "retrieved_at_utc": "2026-11-14T06:24:31.691785+00:00",
+      "splits": [
+        "train"
+      ],
+      "title": "Learning from a Generative AI Predecessor -- The Many Motivations for Interacting with Conversational Agents"
+    },
+    {
+      "exact_title_matches": [
+        {
+          "forum": "Nv9XHneCfu",
+          "invitation": null,
+          "note_id": "Nv9XHneCfu",
+          "title": "OmniDialog: An Omnipotent Pre-training Model for Task-Oriented Dialogue System"
+        }
+      ],
+      "http_status": 200,
+      "paper_id": "2312.16864v1",
+      "query_url": "https://api2.openreview.net/notes/search?term=OmniDialog%3A+An+Omnipotent+Pre-training+Model+for+Task-Oriented+Dialogue+System&content=title&type=exact&limit=20&count=true",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2312.16864v1.json",
+      "raw_sha256": "3c62950cbed031af32cab86a5711c0ebac89c26a14e25d9c8719f141807195c2",
+      "result_count": 1,
+      "retrieval_started_utc": "2026-11-14T06:24:31.503032+00:00",
+      "retrieved_at_utc": "2026-11-14T06:24:32.492251+00:00",
+      "splits": [
+        "train"
+      ],
+      "title": "OmniDialog: An Omnipotent Pre-training Model for Task-Oriented Dialogue System"
+    },
+    {
+      "exact_title_matches": [],
+      "http_status": 200,
+      "paper_id": "2012.15006v4",
+      "query_url": "https://api2.openreview.net/notes/search?term=Dynamic+Graph-Based+Anomaly+Detection+in+the+Electrical+Grid&content=title&type=exact&limit=20&count=true",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2012.15006v4.json",
+      "raw_sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "result_count": 0,
+      "retrieval_started_utc": "2026-11-14T06:24:31.510586+00:00",
+      "retrieved_at_utc": "2026-11-14T06:24:32.372897+00:00",
+      "splits": [
+        "train"
+      ],
+      "title": "Dynamic Graph-Based Anomaly Detection in the Electrical Grid"
+    },
+    {
+      "exact_title_matches": [],
+      "http_status": 200,
+      "paper_id": "2112.15110v2",
+      "query_url": "https://api2.openreview.net/notes/search?term=Audio-to-symbolic+Arrangement+via+Cross-modal+Music+Representation+Learning&content=title&type=exact&limit=20&count=true",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2112.15110v2.json",
+      "raw_sha256": "510dfc73c624069b8624346bfdd7eabf8ca8e5a165bba0c8309144ce5a958205",
+      "result_count": 0,
+      "retrieval_started_utc": "2026-11-14T06:24:31.692864+00:00",
+      "retrieved_at_utc": "2026-11-14T06:24:32.374793+00:00",
+      "splits": [
+        "train"
+      ],
+      "title": "Audio-to-symbolic Arrangement via Cross-modal Music Representation Learning"
+    },
+    {
+      "exact_title_matches": [
+        {
+          "forum": "fWoKMBxGOR",
+          "invitation": null,
+          "note_id": "fWoKMBxGOR",
+          "title": "Mapping Knowledge Representations to Concepts: A Review and New Perspectives"
+        }
+      ],
+      "http_status": 200,
+      "paper_id": "2301.00189v1",
+      "query_url": "https://api2.openreview.net/notes/search?term=Mapping+Knowledge+Representations+to+Concepts%3A+A+Review+and+New+Perspectives&content=title&type=exact&limit=20&count=true",
+      "raw_path": "M/data/quality_source_evidence_v1/openreview_search_raw/2301.00189v1.json",
+      "raw_sha256": "824d194b10040df1c0574c92428191631066c2f690e6d029466eb41662f0d827",
+      "result_count": 1,
+      "retrieval_started_utc": "2026-11-14T06:24:32.375440+00:00",
+      "retrieved_at_utc": "2026-11-14T06:24:33.021683+00:00",
+      "splits": [
+        "train"
+      ],
+      "title": "Mapping Knowledge Representations to Concepts: A Review and New Perspectives"
+    },
+    {
+      "error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "paper_id": "2501.00457v1",
+      "query_url": "https://api2.openreview.net/notes/search?term=Differentiable+Prompt+Learning+for+Vision+Language+Models&content=title&type=exact&limit=20&count=true",
+      "retrieval_started_utc": "2026-11-14T06:24:32.383894+00:00",
+      "retrieved_at_utc": "2026-11-14T06:24:33.152803+00:00",
+      "splits": [
+        "validation"
+      ],
+      "title": "Differentiable Prompt Learning for Vision Language Models"
+    },
+    {
+      "error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "paper_id": "2412.20895v1",
+      "query_url": "https://api2.openreview.net/notes/search?term=Towards+Compatible+Fine-tuning+for+Vision-Language+Model+Updates&content=title&type=exact&limit=20&count=true",
+      "retrieval_started_utc": "2026-11-14T06:24:32.493439+00:00",
+      "retrieved_at_utc": "2026-11-14T06:24:33.173962+00:00",
+      "splits": [
+        "validation"
+      ],
+      "title": "Towards Compatible Fine-tuning for Vision-Language Model Updates"
+    }
+  ],
+  "target_paper_count": 22,
+  "train_manifest_sha256": "ba18f9b3cd2c781379ac4a98c71c66359a2940c78163388b392ced125af34329",
+  "validation_manifest_sha256": "a4854b7144724bc28b3b6c2ca0fd0c3b1d57ac6373d029c0dcec40c25f76f842"
+}

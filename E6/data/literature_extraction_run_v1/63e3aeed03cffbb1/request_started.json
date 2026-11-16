@@ -1,0 +1,32 @@
+{
+  "client_configuration": {
+    "backend": "ollama-local",
+    "endpoint": "http://localhost:11434/api/generate",
+    "format": "json",
+    "generation_options": {
+      "num_ctx": 32768,
+      "num_predict": 2048,
+      "seed": 2026,
+      "temperature": 0,
+      "top_p": 1
+    },
+    "model": "gemma3:12b",
+    "stream": false,
+    "timeout_seconds": 600.0
+  },
+  "content_attempt": 1,
+  "identity": "1f8e158c14ce680e037ba51a9acb19ed5d7ce26bf9b27f7e6d0c17c19987dfac",
+  "model_configuration": {
+    "context_limit": 32768,
+    "immutable_version_or_digest": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+    "max_output_tokens": 2048,
+    "model": "gemma3:12b",
+    "seed": 2026,
+    "temperature": 0,
+    "top_p": 1
+  },
+  "prompt": "ROLE\nYou are a scientific paper information extractor.\n\nTASK\nExtract the target paper's research question and main hypothesis using only the supplied paper text.\n\nTARGET PAPER TEXT\nTokenizer transplant in cross-vocabulary model composition reconstructs donor-only embedding rows as weighted combinations over shared lexical anchors and reuses those coefficients on the base. We identify a structural geometric property of this reconstruction: the same coefficient vector reaches different sets in the donor and base anchor spans, an \\emph{asymmetric realizability} gap. Across 65 donor-base pairs under OMP, with cross-operator validation on CLP, WECHSEL, and FOCUS, we construct \\textit{breaker tokens}: single coefficient vectors that remain statistically inert in the donor anchor span while producing a high-salience reconstruction in the base. The same Gemma-2-2B donor checkpoint admits this construction against 13 different downstream bases drawn from five model families. The planted direction passes weight-merging with a clean reference unchanged. In a deployer case study, standard LoRA fine-tuning suppresses the breaker primarily on prompts whose distribution matches the training corpus and is not a sufficient mitigation against this attack family in our setting. The tested spectral filters miss the asymmetry. We discuss potential misuse in the open-weight composition supply chain.\n\nRULES\n1. Use only the supplied text.\n2. Do not use outside knowledge or infer information unsupported by the text.\n3. Prefer an explicitly stated research question or hypothesis.\n4. If the research question is not explicitly stated but is clearly supported by the text, provide a concise faithful formulation and set research_question_explicit to false.\n5. If no research question can be reliably identified, return null.\n6. Apply the same explicitness rule to the main hypothesis.\n7. Do not confuse the paper's general topic, method or objective with its research question.\n8. Do not invent a hypothesis merely because the paper reports results.\n9. Keep extracted statements concise and faithful to the authors' meaning.\n\nOUTPUT\nReturn valid JSON only:\n\n{\n  \"research_question\": null,\n  \"research_question_explicit\": false,\n  \"main_hypothesis\": null,\n  \"main_hypothesis_explicit\": false\n}\n\nUse strings instead of null when a statement can be reliably extracted or formulated. Explicitness fields must always be JSON booleans.\n",
+  "prompt_sha256": "d23076f89dde6a72aa7ce6fc5d1cbd5819871be785a4388e831d6ca9f9388e6e",
+  "stage": "reference_target_extraction",
+  "started_at_utc": "2026-11-12T13:30:46.262989+00:00"
+}

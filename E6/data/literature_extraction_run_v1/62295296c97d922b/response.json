@@ -1,0 +1,64 @@
+{
+  "finished_at_utc": "2026-11-12T13:42:15.563708+00:00",
+  "identity": "b1682af5d909a09cecfcfff7dbae4bc525e2eea484b11b0fec8af92a2f242b76",
+  "reply": {
+    "adapter_metadata": {
+      "backend": "ollama-local",
+      "created_at": "2026-11-12T13:42:15.546138Z",
+      "done": true,
+      "done_reason": "stop",
+      "endpoint": "http://localhost:11434/api/generate",
+      "eval_count": 77,
+      "generation_settings": {
+        "format": "json",
+        "options": {
+          "num_ctx": 32768,
+          "num_predict": 2048,
+          "seed": 2026,
+          "temperature": 0,
+          "top_p": 1
+        },
+        "stream": false
+      },
+      "http_status": 200,
+      "latency_seconds": 13.670459416000085,
+      "model": "gemma3:12b",
+      "model_identity": {
+        "reported_created_at": "2026-11-12T13:42:15.546138Z",
+        "reported_model": "gemma3:12b",
+        "requested_model": "gemma3:12b"
+      },
+      "prompt_characters": 2400,
+      "prompt_eval_count": 528,
+      "prompt_sha256": "50359dfae0bc833f58575315aed8204518e8ddf450829dd958a3c9c0fce86f63",
+      "requested_output_token_limit": 2048,
+      "stage": "reference_target_extraction",
+      "total_tokens": 605,
+      "usage_metadata_available": true
+    },
+    "generation_settings": {
+      "format": "json",
+      "options": {
+        "num_ctx": 32768,
+        "num_predict": 2048,
+        "seed": 2026,
+        "temperature": 0,
+        "top_p": 1
+      },
+      "stream": false
+    },
+    "http_status": 200,
+    "input_tokens": 528,
+    "latency_seconds": 13.670459416000085,
+    "model": "gemma3:12b",
+    "model_identity": {
+      "reported_created_at": "2026-11-12T13:42:15.546138Z",
+      "reported_model": "gemma3:12b",
+      "requested_model": "gemma3:12b"
+    },
+    "output_tokens": 77,
+    "raw_response": "{\n  \"research_question\": \"Does the difficulty large audio-language models (LALMs) have in locating described moments in music reflect missing temporal information or a bottleneck in how the time span is extracted?\",\n  \"research_question_explicit\": true,\n  \"main_hypothesis\": null,\n  \"main_hypothesis_explicit\": false\n}",
+    "total_tokens": 605
+  },
+  "reply_sha256": "4f0984417f75ddcf19f8ebab12cb566b2aef25b9ee9482dd42314e95ca3ecfca"
+}

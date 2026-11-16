@@ -1,0 +1,77 @@
+{
+  "TEST_calls": 0,
+  "TRAIN_generation_retries": 0,
+  "human_action": "Label the 10 entries in human_labels_required.json using the frozen rubrics, record reviewer identity and rationale; independently define/authorize acceptance criteria and assess missing category coverage. Literature extraction/reviews remain separately required.",
+  "model_call_attempts": 0,
+  "preserved_sources_and_settings_unchanged": true,
+  "sections": {
+    "already_asked": {
+      "acceptance_threshold": null,
+      "attempted_calls": 0,
+      "human_agreement": null,
+      "human_reference_labels_required": [
+        "already_asked-03",
+        "already_asked-04"
+      ],
+      "logical_control_correct": 0,
+      "logical_control_count": 0,
+      "missing_acceptance_rule": "Frozen protocol supplies no numerical validation acceptance threshold; do not infer a pass from this pilot.",
+      "planned_calls": 4,
+      "status": "incomplete_validation",
+      "valid_response_count": 0,
+      "valid_response_rate": 0.0
+    },
+    "diversity": {
+      "acceptance_threshold": null,
+      "attempted_calls": 0,
+      "human_agreement": null,
+      "human_reference_labels_required": [
+        "diversity-03",
+        "diversity-04"
+      ],
+      "logical_control_correct": 0,
+      "logical_control_count": 0,
+      "missing_acceptance_rule": "Frozen protocol supplies no numerical validation acceptance threshold; do not infer a pass from this pilot.",
+      "planned_calls": 4,
+      "status": "incomplete_validation",
+      "valid_response_count": 0,
+      "valid_response_rate": 0.0
+    },
+    "question_type": {
+      "acceptance_threshold": null,
+      "attempted_calls": 0,
+      "human_agreement": null,
+      "human_reference_labels_required": [
+        "question_type-01",
+        "question_type-02",
+        "question_type-03",
+        "question_type-04"
+      ],
+      "logical_control_correct": 0,
+      "logical_control_count": 0,
+      "missing_acceptance_rule": "Frozen protocol supplies no numerical validation acceptance threshold; do not infer a pass from this pilot.",
+      "planned_calls": 4,
+      "status": "incomplete_validation",
+      "valid_response_count": 0,
+      "valid_response_rate": 0.0
+    },
+    "reconstruction": {
+      "acceptance_threshold": null,
+      "attempted_calls": 0,
+      "human_agreement": null,
+      "human_reference_labels_required": [
+        "reconstruction-03",
+        "reconstruction-04"
+      ],
+      "logical_control_correct": 0,
+      "logical_control_count": 0,
+      "missing_acceptance_rule": "Frozen protocol supplies no numerical validation acceptance threshold; do not infer a pass from this pilot.",
+      "planned_calls": 4,
+      "status": "incomplete_validation",
+      "valid_response_count": 0,
+      "valid_response_rate": 0.0
+    }
+  },
+  "total_validations": 4,
+  "validations_completed": 0
+}

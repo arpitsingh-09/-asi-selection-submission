@@ -1,0 +1,77 @@
+[2603.08640] PostTrainBench: Can LLM Agents Automate LLM Post-Training? (https://arxiv.org/abs/2603.08640)
+citeturn9view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2603.08640","lineno":null}); Total lines: 164
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1: 
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3: 
+L4: Press Enter to search · 【4†Advanced search】
+L5: 
+L6: # Computer Science > Software Engineering
+L7: 
+L8: [Submitted on 9 Mar 2026 (【5†v1】), last revised 10 Mar 2026 (this version, v2)]
+L9: # Title:PostTrainBench: Can LLM Agents Automate LLM Post-Training?
+L10: 
+L11: Authors:【6†Ben Rank】, 【7†Hardik Bhatnagar】, 【8†Ameya Prabhu】, 【9†Shira Eisenberg】, 【10†Karina Nguyen】, 【11†Matthias Bethge】, 【12†Maksym Andriushchenko】
+L12: 
+L13: View a PDF of the paper titled PostTrainBench: Can LLM Agents Automate LLM Post-Training?, by Ben Rank and 6 other authors
+L14: 
+L15: 【13†View PDF】 【14†HTML (experimental)】
+L16: > Abstract:AI agents have become surprisingly proficient at software engineering over the past year, largely due to improvements in reasoning capabilities. This raises a deeper question: can these systems extend their capabilities to automate AI research itself? In this paper, we explore post-training, the critical phase that turns base LLMs into useful assistants.
+L17: We introduce PostTrainBench to benchmark how well LLM agents can perform post-training autonomously under bounded compute constraints (10 hours on one H100 GPU). We ask frontier agents (e.g., Claude Code with Opus 4.6) to optimize the performance of a base LLM on a particular benchmark (e.g., Qwen3-4B on AIME). Importantly, we do not provide any predefined strategies to the agents and instead give them full autonomy to find necessary information on the web, run experiments, and curate data.
+L18: We find that frontier agents make substantial progress but generally lag behind instruction-tuned LLMs from leading providers: 23.2% for the best agent vs. 51.1% for official instruction-tuned models. However, agents can exceed instruction-tuned models in targeted scenarios: GPT-5.1 Codex Max achieves 89% on BFCL with Gemma-3-4B vs. 67% for the official model. We also observe several failure modes worth flagging.
+L19: Agents sometimes engage in reward hacking: training on the test set, downloading existing instruction-tuned checkpoints instead of training their own, and using API keys they find to generate synthetic data without authorization. These behaviors are concerning and highlight the importance of careful sandboxing as these systems become more capable. Overall, we hope PostTrainBench will be useful for tracking progress in AI R&D automation and for studying the risks that come with it.
+L20: Website and code are available at 【15†this https URL†posttrainbench.com】.
+L21: Subjects:  | Software Engineering (cs.SE); Artificial Intelligence (cs.AI); Machine Learning (cs.LG)
+L22: Cite as:  | 【16†arXiv:2603.08640】 [cs.SE]
+L23:    | (or 【17†arXiv:2603.08640v2】 [cs.SE] for this version)
+L24:    | 【18†https://doi.org/10.48550/arXiv.2603.08640†doi.org】 arXiv-issued DOI via DataCite
+L25: ## Submission history
+L26: 
+L27: From: Ben Rank [【19†view email】]
+L28: 【5†[v1]】 Mon, 9 Mar 2026 17:18:00 UTC (1,338 KB)
+L29: [v2] Tue, 10 Mar 2026 15:55:40 UTC (1,346 KB)
+L30: 
+L31: Full-text links:
+L32: 
+L33: ## Access Paper:
+L34: 
+L35: View a PDF of the paper titled PostTrainBench: Can LLM Agents Automate LLM Post-Training?, by Ben Rank and 6 other authors
+L36: 
+L37:   * 【13†View PDF】
+L38:   * 【14†HTML (experimental)】
+L39:   * 【20†TeX Source】
+L40: 
+L41: 【21†view license†creativecommons.org】
+L42: ### Current browse context:
+L43: 
+L44: cs.SE
+L45: 
+L46: 【22†< prev】   |   【23†next >】
+L47: 
+L48: 【24†new】 | 【25†recent】 | 【26†2026-03】
+L49: 
+L50: Change to browse by:
+L51: 
+L52: 【27†cs】
+L53: 【28†cs.AI】
+L54: 【29†cs.LG】
+L55: 
+L56: ### References & Citations
+L57: 
+L58:   * 【30†NASA ADS†ui.adsabs.harvard.edu】
+L59:   * 【31†Google Scholar†scholar.google.com】
+L60:   * 【32†Semantic Scholar†api.semanticscholar.org】
+L61: 
+L62: [Button: export BibTeX citation] Loading...
+L63: 
+L64: ## BibTeX formatted citation
+L65: 
+L66: [Button: ×]
+L67: 
+L68: loading...
+L69: 
+L70: Data provided by:
+L71: 
+L72: ### Bookmark
+L73: 
+L74: [Input] Bibliographic Tools
