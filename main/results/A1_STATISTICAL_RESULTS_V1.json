@@ -1,0 +1,833 @@
+{
+  "schema": "M-A1-statistical-results-v1",
+  "source_results_schema": "M-A1-scoring-results-v1",
+  "authorization_commit": "42770a2db1d6978c52b8c95e288fa769df7bc10c",
+  "sample": {
+    "focal_paper_ids": [
+      "2512.23709v3",
+      "2610.29385v1"
+    ],
+    "independent_focal_clusters_n": 2,
+    "scored_targets_n": 16,
+    "coordinates": [
+      "Y",
+      "density",
+      "N",
+      "yours"
+    ],
+    "conditions_per_focal": 8,
+    "complete_paired_comparisons": true
+  },
+  "bootstrap": {
+    "method": "paired percentile cluster bootstrap",
+    "cluster_unit": "focal paper",
+    "draws": 2000,
+    "bit_generator": "NumPy PCG64",
+    "seed": 20261113,
+    "sampling": "For each draw, sample n=2 focal papers with replacement; retain all their conditions and comparisons together.",
+    "ci": "two-sided 95% percentile interval (2.5th and 97.5th percentiles)",
+    "shared_draws_across_comparisons": true,
+    "undefined_replicates": 0,
+    "undefined_replicate_fraction": 0.0,
+    "undefinedness_blocks_analysis": false
+  },
+  "partial_coverage": {
+    "comparisons": [
+      "baseline→25%",
+      "25%→50%",
+      "50%→75%",
+      "75%→100%"
+    ],
+    "effect_sign": "left score minus right score; positive is strict novelty decrease",
+    "coordinate_results": {
+      "Y": {
+        "partial_coverage_steps": [
+          {
+            "comparison": "baseline_minus_coverage_25",
+            "direction": "positive means strict novelty decrease; ties fail",
+            "per_paper_delta": {
+              "2512.23709v3": 0.0352630615234375,
+              "2610.29385v1": 0.014988422393798828
+            },
+            "mean_paired_delta": {
+              "estimate": 0.025125741958618164,
+              "ci_95_percentile": [
+                0.014988422393798828,
+                0.0352630615234375
+              ],
+              "valid_replicates": 2000,
+              "undefined_replicates": 0
+            },
+            "strict_pass_fraction": {
+              "estimate": 1.0,
+              "ci_95_percentile": [
+                1.0,
+                1.0
+              ],
+              "valid_replicates": 2000,
+              "undefined_replicates": 0
+            }
+          },
+          {
+            "comparison": "coverage_25_minus_coverage_50",
+            "direction": "positive means strict novelty decrease; ties fail",
+            "per_paper_delta": {
+              "2512.23709v3": 0.003227055072784424,
+              "2610.29385v1": -0.001747727394104004
+            },
+            "mean_paired_delta": {
+              "estimate": 0.00073966383934021,
+              "ci_95_percentile": [
+                -0.001747727394104004,
+                0.003227055072784424
+              ],
+              "valid_replicates": 2000,
+              "undefined_replicates": 0
+            },
+            "strict_pass_fraction": {
+              "estimate": 0.5,
+              "ci_95_percentile": [
+                0.0,
+                1.0
+              ],
+              "valid_replicates": 2000,
+              "undefined_replicates": 0
+            }
+          },
+          {
+            "comparison": "coverage_50_minus_coverage_75",
+            "direction": "positive means strict novelty decrease; ties fail",
+            "per_paper_delta": {
+              "2512.23709v3": 0.009264886379241943,
+              "2610.29385v1": 0.004943788051605225
+            },
+            "mean_paired_delta": {
+              "estimate": 0.007104337215423584,
+              "ci_95_percentile": [
+                0.004943788051605225,
+                0.009264886379241943
+              ],
+              "valid_replicates": 2000,
+              "undefined_replicates": 0
+            },
+            "strict_pass_fraction": {
+              "estimate": 1.0,
+              "ci_95_percentile": [
+                1.0,
+                1.0
+              ],
+              "valid_replicates": 2000,
+              "undefined_replicates": 0
+            }
+          },
+          {
+            "comparison": "coverage_75_minus_coverage_100",
+            "direction": "positive means strict novelty decrease; ties fail",
+            "per_paper_delta": {
+              "2512.23709v3": 0.0028252005577087402,
+              "2610.29385v1": -0.0012518763542175293
+            },
+            "mean_paired_delta": {
+              "estimate": 0.0007866621017456055,
+              "ci_95_percentile": [
+                -0.0012518763542175293,
+                0.0028252005577087402
+              ],
+              "valid_replicates": 2000,
+              "undefined_replicates": 0
+            },
+            "strict_pass_fraction": {
+              "estimate": 0.5,
+              "ci_95_percentile": [
+                0.0,
+                1.0
+              ],
+              "valid_replicates": 2000,
+              "undefined_replicates": 0
+            }
+          }
+        ]
+      },
+      "density": {
+        "partial_coverage_steps": [
+          {
+            "comparison": "baseline_minus_coverage_25",
+            "direction": "positive means strict novelty decrease; ties fail",
+            "per_paper_delta": {
+              "2512.23709v3": 1.0,
+              "2610.29385v1": 4.000000000000007
+            },
+            "mean_paired_delta": {
+              "estimate": 2.5000000000000036,
+              "ci_95_percentile": [
+                1.0,
+                4.000000000000007
+              ],
+              "valid_replicates": 2000,
+              "undefined_replicates": 0
+            },
+            "strict_pass_fraction": {
+              "estimate": 1.0,
+              "ci_95_percentile": [
+                1.0,
+                1.0
+              ],
+              "valid_replicates": 2000,
+              "undefined_replicates": 0
+            }
+          },
+          {
+            "comparison": "coverage_25_minus_coverage_50",
+            "direction": "positive means strict novelty decrease; ties fail",
+            "per_paper_delta": {
+              "2512.23709v3": 0.0,
+              "2610.29385v1": 1.0
+            },
+            "mean_paired_delta": {
+              "estimate": 0.5,
+              "ci_95_percentile": [
+                0.0,
+                1.0
+              ],
+              "valid_replicates": 2000,
+              "undefined_replicates": 0
+            },
+            "strict_pass_fraction": {
+              "estimate": 0.5,
+              "ci_95_percentile": [
+                0.0,
+                1.0
+              ],
+              "valid_replicates": 2000,
+              "undefined_replicates": 0
+            }
+          },
+          {
+            "comparison": "coverage_50_minus_coverage_75",
+            "direction": "positive means strict novelty decrease; ties fail",
+            "per_paper_delta": {
+              "2512.23709v3": 0.0,
+              "2610.29385v1": 0.0
+            },
+            "mean_paired_delta": {
+              "estimate": 0.0,
+              "ci_95_percentile": [
+                0.0,
+                0.0
+              ],
+              "valid_replicates": 2000,
+              "undefined_replicates": 0
+            },
+            "strict_pass_fraction": {
+              "estimate": 0.0,
+              "ci_95_percentile": [
+                0.0,
+                0.0
+              ],
+              "valid_replicates": 2000,
+              "undefined_replicates": 0
+            }
+          },
+          {
+            "comparison": "coverage_75_minus_coverage_100",
+            "direction": "positive means strict novelty decrease; ties fail",
+            "per_paper_delta": {
+              "2512.23709v3": 0.0,
+              "2610.29385v1": 0.0
+            },
+            "mean_paired_delta": {
+              "estimate": 0.0,
+              "ci_95_percentile": [
+                0.0,
+                0.0
+              ],
+              "valid_replicates": 2000,
+              "undefined_replicates": 0
+            },
+            "strict_pass_fraction": {
+              "estimate": 0.0,
+              "ci_95_percentile": [
+                0.0,
+                0.0
+              ],
+              "valid_replicates": 2000,
+              "undefined_replicates": 0
+            }
+          }
+        ]
+      },
+      "N": {
+        "partial_coverage_steps": [
+          {
+            "comparison": "baseline_minus_coverage_25",
+            "direction": "positive means strict novelty decrease; ties fail",
+            "per_paper_delta": {
+              "2512.23709v3": 0.01163637638092041,
+              "2610.29385v1": 0.008484840393066406
+            },
+            "mean_paired_delta": {
+              "estimate": 0.010060608386993408,
+              "ci_95_percentile": [
+                0.008484840393066406,
+                0.01163637638092041
+              ],
+              "valid_replicates": 2000,
+              "undefined_replicates": 0
+            },
+            "strict_pass_fraction": {
+              "estimate": 1.0,
+              "ci_95_percentile": [
+                1.0,
+                1.0
+              ],
+              "valid_replicates": 2000,
+              "undefined_replicates": 0
+            }
+          },
+          {
+            "comparison": "coverage_25_minus_coverage_50",
+            "direction": "positive means strict novelty decrease; ties fail",
+            "per_paper_delta": {
+              "2512.23709v3": 0.0025120973587036133,
+              "2610.29385v1": -0.0030459165573120117
+            },
+            "mean_paired_delta": {
+              "estimate": -0.0002669095993041992,
+              "ci_95_percentile": [
+                -0.0030459165573120117,
+                0.0025120973587036133
+              ],
+              "valid_replicates": 2000,
+              "undefined_replicates": 0
+            },
+            "strict_pass_fraction": {
+              "estimate": 0.5,
+              "ci_95_percentile": [
+                0.0,
+                1.0
+              ],
+              "valid_replicates": 2000,
+              "undefined_replicates": 0
+            }
+          },
+          {
+            "comparison": "coverage_50_minus_coverage_75",
+            "direction": "positive means strict novelty decrease; ties fail",
+            "per_paper_delta": {
+              "2512.23709v3": 0.0037937164306640625,
+              "2610.29385v1": -0.0015298128128051758
+            },
+            "mean_paired_delta": {
+              "estimate": 0.0011319518089294434,
+              "ci_95_percentile": [
+                -0.0015298128128051758,
+                0.0037937164306640625
+              ],
+              "valid_replicates": 2000,
+              "undefined_replicates": 0
+            },
+            "strict_pass_fraction": {
+              "estimate": 0.5,
+              "ci_95_percentile": [
+                0.0,
+                1.0
+              ],
+              "valid_replicates": 2000,
+              "undefined_replicates": 0
+            }
+          },
+          {
+            "comparison": "coverage_75_minus_coverage_100",
+            "direction": "positive means strict novelty decrease; ties fail",
+            "per_paper_delta": {
+              "2512.23709v3": 0.002684473991394043,
+              "2610.29385v1": -0.0011748075485229492
+            },
+            "mean_paired_delta": {
+              "estimate": 0.0007548332214355469,
+              "ci_95_percentile": [
+                -0.0011748075485229492,
+                0.002684473991394043
+              ],
+              "valid_replicates": 2000,
+              "undefined_replicates": 0
+            },
+            "strict_pass_fraction": {
+              "estimate": 0.5,
+              "ci_95_percentile": [
+                0.0,
+                1.0
+              ],
+              "valid_replicates": 2000,
+              "undefined_replicates": 0
+            }
+          }
+        ]
+      },
+      "yours": {
+        "partial_coverage_steps": [
+          {
+            "comparison": "baseline_minus_coverage_25",
+            "direction": "positive means strict novelty decrease; ties fail",
+            "per_paper_delta": {
+              "2512.23709v3": 0.029356390237808228,
+              "2610.29385v1": 0.013362526893615723
+            },
+            "mean_paired_delta": {
+              "estimate": 0.021359458565711975,
+              "ci_95_percentile": [
+                0.013362526893615723,
+                0.029356390237808228
+              ],
+              "valid_replicates": 2000,
+              "undefined_replicates": 0
+            },
+            "strict_pass_fraction": {
+              "estimate": 1.0,
+              "ci_95_percentile": [
+                1.0,
+                1.0
+              ],
+              "valid_replicates": 2000,
+              "undefined_replicates": 0
+            }
+          },
+          {
+            "comparison": "coverage_25_minus_coverage_50",
+            "direction": "positive means strict novelty decrease; ties fail",
+            "per_paper_delta": {
+              "2512.23709v3": 0.003048315644264221,
+              "2610.29385v1": -0.002072274684906006
+            },
+            "mean_paired_delta": {
+              "estimate": 0.00048802047967910767,
+              "ci_95_percentile": [
+                -0.002072274684906006,
+                0.003048315644264221
+              ],
+              "valid_replicates": 2000,
+              "undefined_replicates": 0
+            },
+            "strict_pass_fraction": {
+              "estimate": 0.5,
+              "ci_95_percentile": [
+                0.0,
+                1.0
+              ],
+              "valid_replicates": 2000,
+              "undefined_replicates": 0
+            }
+          },
+          {
+            "comparison": "coverage_50_minus_coverage_75",
+            "direction": "positive means strict novelty decrease; ties fail",
+            "per_paper_delta": {
+              "2512.23709v3": 0.007897093892097473,
+              "2610.29385v1": 0.0033253878355026245
+            },
+            "mean_paired_delta": {
+              "estimate": 0.005611240863800049,
+              "ci_95_percentile": [
+                0.0033253878355026245,
+                0.007897093892097473
+              ],
+              "valid_replicates": 2000,
+              "undefined_replicates": 0
+            },
+            "strict_pass_fraction": {
+              "estimate": 1.0,
+              "ci_95_percentile": [
+                1.0,
+                1.0
+              ],
+              "valid_replicates": 2000,
+              "undefined_replicates": 0
+            }
+          },
+          {
+            "comparison": "coverage_75_minus_coverage_100",
+            "direction": "positive means strict novelty decrease; ties fail",
+            "per_paper_delta": {
+              "2512.23709v3": 0.002790018916130066,
+              "2610.29385v1": -0.0012326091527938843
+            },
+            "mean_paired_delta": {
+              "estimate": 0.0007787048816680908,
+              "ci_95_percentile": [
+                -0.0012326091527938843,
+                0.002790018916130066
+              ],
+              "valid_replicates": 2000,
+              "undefined_replicates": 0
+            },
+            "strict_pass_fraction": {
+              "estimate": 0.5,
+              "ci_95_percentile": [
+                0.0,
+                1.0
+              ],
+              "valid_replicates": 2000,
+              "undefined_replicates": 0
+            }
+          }
+        ]
+      }
+    },
+    "registered_axiom_pass_fraction": {
+      "Y": {
+        "definition": "Per-focal pass iff baseline>25%>50%>75%>100% strictly for this coordinate.",
+        "per_paper_signed_deltas": {
+          "2512.23709v3": [
+            0.0352630615234375,
+            0.003227055072784424,
+            0.009264886379241943,
+            0.0028252005577087402
+          ],
+          "2610.29385v1": [
+            0.014988422393798828,
+            -0.001747727394104004,
+            0.004943788051605225,
+            -0.0012518763542175293
+          ]
+        },
+        "per_paper_pass": {
+          "2512.23709v3": true,
+          "2610.29385v1": false
+        },
+        "strict_axiom_pass_fraction": {
+          "estimate": 0.5,
+          "ci_95_percentile": [
+            0.0,
+            1.0
+          ],
+          "valid_replicates": 2000,
+          "undefined_replicates": 0
+        }
+      },
+      "density": {
+        "definition": "Per-focal pass iff baseline>25%>50%>75%>100% strictly for this coordinate.",
+        "per_paper_signed_deltas": {
+          "2512.23709v3": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "2610.29385v1": [
+            4.000000000000007,
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "per_paper_pass": {
+          "2512.23709v3": false,
+          "2610.29385v1": false
+        },
+        "strict_axiom_pass_fraction": {
+          "estimate": 0.0,
+          "ci_95_percentile": [
+            0.0,
+            0.0
+          ],
+          "valid_replicates": 2000,
+          "undefined_replicates": 0
+        }
+      },
+      "N": {
+        "definition": "Per-focal pass iff baseline>25%>50%>75%>100% strictly for this coordinate.",
+        "per_paper_signed_deltas": {
+          "2512.23709v3": [
+            0.01163637638092041,
+            0.0025120973587036133,
+            0.0037937164306640625,
+            0.002684473991394043
+          ],
+          "2610.29385v1": [
+            0.008484840393066406,
+            -0.0030459165573120117,
+            -0.0015298128128051758,
+            -0.0011748075485229492
+          ]
+        },
+        "per_paper_pass": {
+          "2512.23709v3": true,
+          "2610.29385v1": false
+        },
+        "strict_axiom_pass_fraction": {
+          "estimate": 0.5,
+          "ci_95_percentile": [
+            0.0,
+            1.0
+          ],
+          "valid_replicates": 2000,
+          "undefined_replicates": 0
+        }
+      },
+      "yours": {
+        "definition": "Per-focal pass iff baseline>25%>50%>75%>100% strictly for this coordinate.",
+        "per_paper_signed_deltas": {
+          "2512.23709v3": [
+            0.029356390237808228,
+            0.003048315644264221,
+            0.007897093892097473,
+            0.002790018916130066
+          ],
+          "2610.29385v1": [
+            0.013362526893615723,
+            -0.002072274684906006,
+            0.0033253878355026245,
+            -0.0012326091527938843
+          ]
+        },
+        "per_paper_pass": {
+          "2512.23709v3": true,
+          "2610.29385v1": false
+        },
+        "strict_axiom_pass_fraction": {
+          "estimate": 0.5,
+          "ci_95_percentile": [
+            0.0,
+            1.0
+          ],
+          "valid_replicates": 2000,
+          "undefined_replicates": 0
+        }
+      }
+    }
+  },
+  "concentration": {
+    "comparison": "distributed minus concentrated",
+    "effect_sign": "positive means concentrated < distributed",
+    "coordinate_results": {
+      "Y": {
+        "definition": "Per-focal pass iff distributed score minus concentrated score is strictly positive.",
+        "direction": "distributed_minus_concentrated; positive is preregistered direction",
+        "per_paper_signed_deltas": {
+          "2512.23709v3": 0.01403743028640747,
+          "2610.29385v1": 0.007569253444671631
+        },
+        "per_paper_pass": {
+          "2512.23709v3": true,
+          "2610.29385v1": true
+        },
+        "mean_paired_delta": {
+          "estimate": 0.01080334186553955,
+          "ci_95_percentile": [
+            0.007569253444671631,
+            0.01403743028640747
+          ],
+          "valid_replicates": 2000,
+          "undefined_replicates": 0
+        },
+        "strict_axiom_pass_fraction": {
+          "estimate": 1.0,
+          "ci_95_percentile": [
+            1.0,
+            1.0
+          ],
+          "valid_replicates": 2000,
+          "undefined_replicates": 0
+        }
+      },
+      "density": {
+        "definition": "Per-focal pass iff distributed score minus concentrated score is strictly positive.",
+        "direction": "distributed_minus_concentrated; positive is preregistered direction",
+        "per_paper_signed_deltas": {
+          "2512.23709v3": -19.0,
+          "2610.29385v1": -7.999999999999993
+        },
+        "per_paper_pass": {
+          "2512.23709v3": false,
+          "2610.29385v1": false
+        },
+        "mean_paired_delta": {
+          "estimate": -13.499999999999996,
+          "ci_95_percentile": [
+            -19.0,
+            -7.999999999999993
+          ],
+          "valid_replicates": 2000,
+          "undefined_replicates": 0
+        },
+        "strict_axiom_pass_fraction": {
+          "estimate": 0.0,
+          "ci_95_percentile": [
+            0.0,
+            0.0
+          ],
+          "valid_replicates": 2000,
+          "undefined_replicates": 0
+        }
+      },
+      "N": {
+        "definition": "Per-focal pass iff distributed score minus concentrated score is strictly positive.",
+        "direction": "distributed_minus_concentrated; positive is preregistered direction",
+        "per_paper_signed_deltas": {
+          "2512.23709v3": -0.055555641651153564,
+          "2610.29385v1": -0.05944347381591797
+        },
+        "per_paper_pass": {
+          "2512.23709v3": false,
+          "2610.29385v1": false
+        },
+        "mean_paired_delta": {
+          "estimate": -0.05749955773353577,
+          "ci_95_percentile": [
+            -0.05944347381591797,
+            -0.055555641651153564
+          ],
+          "valid_replicates": 2000,
+          "undefined_replicates": 0
+        },
+        "strict_axiom_pass_fraction": {
+          "estimate": 0.0,
+          "ci_95_percentile": [
+            0.0,
+            0.0
+          ],
+          "valid_replicates": 2000,
+          "undefined_replicates": 0
+        }
+      },
+      "yours": {
+        "definition": "Per-focal pass iff distributed score minus concentrated score is strictly positive.",
+        "direction": "distributed_minus_concentrated; positive is preregistered direction",
+        "per_paper_signed_deltas": {
+          "2512.23709v3": -0.003360837697982788,
+          "2610.29385v1": -0.009183928370475769
+        },
+        "per_paper_pass": {
+          "2512.23709v3": false,
+          "2610.29385v1": false
+        },
+        "mean_paired_delta": {
+          "estimate": -0.0062723830342292786,
+          "ci_95_percentile": [
+            -0.009183928370475769,
+            -0.003360837697982788
+          ],
+          "valid_replicates": 2000,
+          "undefined_replicates": 0
+        },
+        "strict_axiom_pass_fraction": {
+          "estimate": 0.0,
+          "ci_95_percentile": [
+            0.0,
+            0.0
+          ],
+          "valid_replicates": 2000,
+          "undefined_replicates": 0
+        }
+      }
+    }
+  },
+  "diagnostic_controls": {
+    "original_vs_shuffled": {
+      "Y": {
+        "comparison": "shuffled_minus_original",
+        "interpretation": "diagnostic only; no directional pass criterion",
+        "per_paper_delta": {
+          "2512.23709v3": 0.03228485584259033,
+          "2610.29385v1": 0.0355226993560791
+        },
+        "mean_paired_delta": {
+          "estimate": 0.03390377759933472,
+          "ci_95_percentile": [
+            0.03228485584259033,
+            0.0355226993560791
+          ],
+          "valid_replicates": 2000,
+          "undefined_replicates": 0
+        }
+      },
+      "density": {
+        "comparison": "shuffled_minus_original",
+        "interpretation": "diagnostic only; no directional pass criterion",
+        "per_paper_delta": {
+          "2512.23709v3": 9.0,
+          "2610.29385v1": 36.0
+        },
+        "mean_paired_delta": {
+          "estimate": 22.5,
+          "ci_95_percentile": [
+            9.0,
+            36.0
+          ],
+          "valid_replicates": 2000,
+          "undefined_replicates": 0
+        }
+      },
+      "N": {
+        "comparison": "shuffled_minus_original",
+        "interpretation": "diagnostic only; no directional pass criterion",
+        "per_paper_delta": {
+          "2512.23709v3": 0.010698020458221436,
+          "2610.29385v1": 0.012706160545349121
+        },
+        "mean_paired_delta": {
+          "estimate": 0.011702090501785278,
+          "ci_95_percentile": [
+            0.010698020458221436,
+            0.012706160545349121
+          ],
+          "valid_replicates": 2000,
+          "undefined_replicates": 0
+        }
+      },
+      "yours": {
+        "comparison": "shuffled_minus_original",
+        "interpretation": "diagnostic only; no directional pass criterion",
+        "per_paper_delta": {
+          "2512.23709v3": 0.026888146996498108,
+          "2610.29385v1": 0.029818564653396606
+        },
+        "mean_paired_delta": {
+          "estimate": 0.028353355824947357,
+          "ci_95_percentile": [
+            0.026888146996498108,
+            0.029818564653396606
+          ],
+          "valid_replicates": 2000,
+          "undefined_replicates": 0
+        }
+      }
+    },
+    "empty_pool": {
+      "status": "undefined",
+      "numeric_score": null,
+      "included_in_numeric_analysis": false
+    },
+    "same_topic_decoy": {
+      "status": "unavailable",
+      "numeric_score": null,
+      "included_in_numeric_analysis": false
+    }
+  },
+  "registered_pass_assessment": {
+    "rule": "At least one same coordinate must have a lower 95% CI bound >=0.80 for both partial-coverage and concentration strict axiom pass fractions.",
+    "qualifying_coordinates": [],
+    "criterion_met": false,
+    "interpretation": "A numerical criterion result with only two clusters is not confirmatory evidence."
+  },
+  "limitations": [
+    "This is an exposed supplementary partial replication, not the original registered A1 evaluation.",
+    "The same-topic decoy condition is unavailable; no decoy effect is estimable.",
+    "Empty-pool scores are undefined and were not imputed.",
+    "n=2 independent focal-paper clusters makes inferential conclusions extremely limited."
+  ],
+  "provenance": {
+    "input_results_file": "A1_SCORING_RESULTS_V1.json",
+    "input_results_sha256": "40f564c94801395fd327b1849d457515dab6e7d4f0901fb3960d91c9f358b4ff",
+    "input_result_target_count": 16,
+    "replication_registration": "PREREG_REPLICATION.md",
+    "replication_registration_sha256": "5dce5382210f1544385b15b9e142d990849b4e7af3b80375d5a4df534d530bd1",
+    "amendment": "AMENDMENT_003_PARTIAL_CONTROLS.md",
+    "amendment_sha256": "aa56ac1ba6a2d27b66a9df7ac80b25e5b4471dfbcc63b9e348bdc2efa9ea8683",
+    "analysis_code": "analyze_a1_results.py",
+    "analysis_code_sha256": "04842ccd679ba19bc63cd6d52a3c9956a9c6da7dc8f93aaaf5d9db6daba7506b",
+    "generated_at": "2026-11-14T16:51:23Z",
+    "model_inference_run": false,
+    "novelty_scoring_run": false
+  }
+}

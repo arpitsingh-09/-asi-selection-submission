@@ -1,0 +1,160 @@
+{
+  "status": "exploratory_only_no_preregistered_v2_scoring",
+  "source_provenance": {
+    "reviewer_1": {
+      "source_file": "M/prospective_grounding/exploratory_evidence/review_responses/reviewer_1_completed_review_form.json",
+      "original_download_path": "/Users/arpit/Downloads/completed_review_form.json",
+      "sha256": "79e051b36f552f8f1c7f64c291346bef0b6e0e4a0928cdeabe5441cdac9b14c4",
+      "reviewer_code": "reviewer_1",
+      "review_date_utc": "2026-11-15",
+      "independent_review_confirmed": "yes",
+      "review_provenance": "independence self-declared; no external identity/independence verification is in the supplied file",
+      "embedded_provenance_field": false,
+      "validated_rating_rows": 18,
+      "validated_association_checks": 6
+    },
+    "reviewer_2": {
+      "source_file": "M/prospective_grounding/exploratory_evidence/review_responses/reviewer_2_AI_assisted_review.json",
+      "original_download_path": "/Users/arpit/Downloads/reviewer_2_AI_assisted_review.json",
+      "sha256": "c55f2fb6f80d31b0e781aa4c213c1622e8c3e3d6068dfd71b5031bcd3dbfc212",
+      "reviewer_code": "reviewer_2",
+      "review_date_utc": "2026-11-15",
+      "independent_review_confirmed": "no",
+      "review_provenance": "file designation and explicit declaration identify AI assistance; reviewer declares independence=false",
+      "embedded_provenance_field": false,
+      "validated_rating_rows": 18,
+      "validated_association_checks": 6
+    }
+  },
+  "validation": {
+    "reviewer_1_rating_rows": 18,
+    "reviewer_2_rating_rows": 18,
+    "reviewer_1_association_checks": 6,
+    "reviewer_2_association_checks": 6,
+    "all_question_paper_ids_valid": true,
+    "all_association_ids_valid": true,
+    "all_evidence_notes_nonempty": true,
+    "dates_valid": true,
+    "reviewer_1_independence_verified_externally": false,
+    "reviewer_2_independence_confirmed": false
+  },
+  "rating_agreement": {
+    "n": 18,
+    "exact_agreement_n": 17,
+    "exact_agreement": 0.9444444444444444,
+    "cohen_kappa_unweighted": 0.9117647058823529,
+    "cohen_kappa_linear_weighted": 0.926829268292683,
+    "disagreement_count": 1
+  },
+  "association_agreement": {
+    "n": 6,
+    "same_broad_topic_agreement_n": 6,
+    "unsupported_by_supplied_papers_agreement_n": 6,
+    "joint_decision_agreement_n": 6,
+    "field_disagreement_count": 0,
+    "record_disagreements": 0
+  },
+  "rating_disagreements": [
+    {
+      "question_id": "primary-image_enhancement-v2",
+      "paper_id": "2412.20916v1",
+      "reviewer_1_rating": 2,
+      "reviewer_2_rating": 1,
+      "exact_agreement": false
+    }
+  ],
+  "association_comparisons": [
+    {
+      "question_id": "decoy-image_enhancement-v2",
+      "family": "image_enhancement",
+      "same_broad_topic": {
+        "reviewer_1": true,
+        "reviewer_2": true,
+        "agreement": true
+      },
+      "unsupported_by_supplied_papers": {
+        "reviewer_1": false,
+        "reviewer_2": false,
+        "agreement": true
+      }
+    },
+    {
+      "question_id": "decoy-video_memorability-v2",
+      "family": "video_memorability",
+      "same_broad_topic": {
+        "reviewer_1": true,
+        "reviewer_2": true,
+        "agreement": true
+      },
+      "unsupported_by_supplied_papers": {
+        "reviewer_1": true,
+        "reviewer_2": true,
+        "agreement": true
+      }
+    },
+    {
+      "question_id": "primary-image_enhancement-v2",
+      "family": "image_enhancement",
+      "same_broad_topic": {
+        "reviewer_1": true,
+        "reviewer_2": true,
+        "agreement": true
+      },
+      "unsupported_by_supplied_papers": {
+        "reviewer_1": false,
+        "reviewer_2": false,
+        "agreement": true
+      }
+    },
+    {
+      "question_id": "primary-image_enhancement-v2",
+      "family": "video_memorability",
+      "same_broad_topic": {
+        "reviewer_1": false,
+        "reviewer_2": false,
+        "agreement": true
+      },
+      "unsupported_by_supplied_papers": {
+        "reviewer_1": true,
+        "reviewer_2": true,
+        "agreement": true
+      }
+    },
+    {
+      "question_id": "primary-video_memorability-v2",
+      "family": "image_enhancement",
+      "same_broad_topic": {
+        "reviewer_1": false,
+        "reviewer_2": false,
+        "agreement": true
+      },
+      "unsupported_by_supplied_papers": {
+        "reviewer_1": true,
+        "reviewer_2": true,
+        "agreement": true
+      }
+    },
+    {
+      "question_id": "primary-video_memorability-v2",
+      "family": "video_memorability",
+      "same_broad_topic": {
+        "reviewer_1": true,
+        "reviewer_2": true,
+        "agreement": true
+      },
+      "unsupported_by_supplied_papers": {
+        "reviewer_1": false,
+        "reviewer_2": false,
+        "agreement": true
+      }
+    }
+  ],
+  "association_disagreements": [],
+  "limitations": [
+    "Reviewer 1's independence is self-declared and was not externally verified.",
+    "Reviewer 2 explicitly declares independence=false; the supplied file is identified as AI-assisted.",
+    "The responses are not two independent reviews and do not pass the V2 review gate.",
+    "Kappa and agreement are descriptive only for 18 repeated question-paper pairs; they do not establish validity or reviewer correctness.",
+    "No preregistered V2 scores were calculated."
+  ]
+}

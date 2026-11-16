@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "M core result v1",
+  "type": "object",
+  "required": ["schema", "test", "status", "dataset_kind", "heldout_evaluated", "seed", "bootstrap_draws", "margin"],
+  "properties": {
+    "schema": {"const": "M-core-result-v1"},
+    "test": {"enum": ["I1", "I3", "S1", "A1", "H1", "H3", "O1", "O2", "T1"]},
+    "status": {"enum": ["BLOCKED", "SYNTHETIC_ONLY"]},
+    "dataset_kind": {"enum": ["synthetic", "real"]},
+    "heldout_evaluated": {"const": false},
+    "reason": {"type": "string"},
+    "pass_criteria_met": {"type": "boolean"},
+    "controls": {
+      "type": "object", "required": ["original", "empty", "shuffled", "decoy"],
+      "additionalProperties": {"type": "object", "additionalProperties": {"type": "object", "required": ["estimate", "ci95", "bootstrap_valid", "bootstrap_requested"], "properties": {"estimate": {"type": "number"}, "ci95": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"type": "number"}}}}
+    }
+  },
+  "allOf": [
+    {"if": {"properties": {"status": {"const": "BLOCKED"}}}, "then": {"required": ["reason"]}},
+    {"if": {"properties": {"status": {"const": "SYNTHETIC_ONLY"}}}, "then": {"required": ["controls", "records", "resampling_units", "pass_criteria_met"]}}
+  ]
+}
