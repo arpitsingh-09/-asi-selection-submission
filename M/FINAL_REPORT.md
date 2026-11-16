@@ -100,12 +100,15 @@ input pool comes from the E2 pool manifest, not recovered author-supplied
 references. The analysis retained two independently reviewed focal-paper
 clusters (`2512.23709v3`, `2610.29385v1`) and 16 scored nonempty targets.
 
-Per focal paper, the scored conditions were the original-pool reference,
-25/50/75/100% claim coverage, concentrated claims, distributed claims, and a
-shuffled pool. The empty-pool output remained undefined and was not imputed.
-The same-topic decoy was unavailable and was excluded under approved
-Amendment 003; no decoy effect is estimated. Scoring used paired focal-paper
-cluster bootstrap intervals (2,000 draws, PCG64 seed `20261113`).
+Per focal paper, scored conditions were the original-pool reference,
+25/50/75/100% coverage, concentrated, distributed, and shuffled. The original
+pool is an internal manipulation reference, not an external model baseline;
+no B-Q/B-ABS/B-TF comparator was used. Original and shuffled targets were
+scored; shuffled is diagnostic only. Empty-pool outputs remain undefined. The
+same-topic decoy was unavailable and excluded under approved Amendment 003,
+so the full mandatory four-condition suite is absent. The operational pool
+came from the E2 manifest, not recovered author-supplied references. Analysis
+used paired focal-paper cluster bootstrap (2,000 draws, PCG64 seed `20261113`).
 
 | Coordinate | Partial-coverage strict pass fraction (95% CI) | Concentration strict pass fraction (95% CI) |
 |---|---:|---:|
@@ -133,6 +136,14 @@ coverage are both exactly 0.000 [0.000, 0.000], and strict coverage passes in
 concentrated = -13.5, 95% CI [-19, -8]). `Y` passes concentration in both
 clusters, but coverage in only one of two. No coordinate passes the joint rule.
 
+Concentration mean paired deltas (distributed minus concentrated, 95% CI) were
+Y +0.0108 [0.0076, 0.0140], density -13.5 [-19, -8], N -0.0575
+[-0.0594, -0.0556], and `yours` -0.0063 [-0.0092, -0.0034]. These describe
+the two observed focal papers, not population-level effects. Shuffled-minus-
+original diagnostic effects were positive on all four coordinates (Y +0.0339,
+density +22.5, N +0.0117, `yours` +0.0284); this has no registered directional
+criterion and cannot replace the missing decoy.
+
 The scoring record identifies `specter2_base` revision
 `3447645e1def9117997203454fa4495937bfbd83` with the `allenai/specter2`
 proximity adapter revision `2081559630a80fc5851d8f798a05ba81e9468089`, CLS
@@ -142,8 +153,11 @@ claim is made. Full model and input hashes are in the saved scoring JSON.
 
 ## Supplementary S1 exploratory analysis (not original S1)
 
-The separate exploratory S1 analysis used 60 source questions, each with a
-minimal-paraphrase and near-miss decision. Against unverified E1
+The separate exploratory S1 analysis used 60 source questions, giving 60
+minimal-paraphrase and 60 near-miss pairs. E1 creator-intended labels have no
+independent second-reader confirmation. Candidate h004 was excluded because
+its source-publication date was 2025-01-22, before the supplementary cutoff of
+2025-07-01; this does not establish question-posing time. Against unverified E1
 author-intended labels, identity accuracy was 1.00 (60/60) for minimal
 paraphrases and 0.15 (9/60) for near misses; `B-Q` accuracy was 1.00 (60/60)
 and 0.00 (0/60), respectively. The paired identity-minus-`B-Q` accuracy
@@ -157,9 +171,10 @@ remains incomplete and is not replaced by this analysis. Its saved result is
 [`supplementary_s1_e1_exploratory/results/run_001/results.json`](supplementary_s1_e1_exploratory/results/run_001/results.json).
 Original A1 also remains incomplete: all 80 frozen candidates are ineligible.
 
-One illustrative near-miss error is `h001`: M identity similarity is 0.7509
-and E5 cosine is 0.9736, both above the fixed 0.65 “same” threshold, against
-the unverified creator-intended “different” label. Across the 60 near-misses,
+For h001, M identity similarity was 0.7509 and E5 cosine 0.9736, both above
+the fixed 0.65 “same” threshold, against an unverified creator-intended
+“different” label. h003 shows the same error pattern (0.7593 and 0.9935).
+Across the 60 near-misses,
 M produced 51 false positives and E5 classified all 60 as same. This is
 observed threshold behavior against unverified labels, not verified semantic
 error. E5 was `intfloat/e5-base-v2`, revision
@@ -169,34 +184,26 @@ that original S1 passed.
 
 ## Prospective grounding pilot: generation and exploratory reviews
 
-This pilot is separate from the nine tests and A1. V1's first local `qwen3:8b`
-call used all 512 generated tokens in thinking and returned an empty answer;
-its [raw V1 attempt](prospective_grounding/generated_v1/run_20261115T023429_468521Z/attempts/01_video_memorability_primary.json)
-and was not retried. V2 was separately registered before generation, set
-`think=false`, and produced two primary and two decoy
-questions. Raw prompts, responses and provenance are in
+Separate from the nine tests and A1, V1's first Qwen3 call returned an empty
+answer after its 512-token thinking budget was exhausted; it was preserved and
+not retried. Separately preregistered V2 completed four generations: two
+primaries and two same-family decoys, using `qwen3:8b`, `think=false`, and
+seeds 4900/4901/4910/4911. Raw calls and source provenance are in
 [`prospective_grounding/generated_v2/`](prospective_grounding/generated_v2/).
-V2 used Qwen3 digest
-`sha256:500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41`,
-`temperature=0.7`,
-`top_p=0.8`, `num_predict=512`, and seeds 4900/4901/4910/4911. Hardware and
-energy use were not recorded.
+Hardware/energy use was not recorded.
 
-V2's registered endpoint is `MAE(B-TF) - MAE(G)` on independent ratings for
-original, shuffled, and decoy pairs; empty scores are undefined. Its paired
-family-cluster bootstrap uses 2,000 draws and seed `20261113`. Passing requires
-a positive estimate, lower bound above zero, both decoy checks, ≥90% finite
-scores, and temporal/provenance validity. No scores were calculated; review and
-authorization gates remain unmet.
-
-V2 scoring was not authorized or run; it still requires two independent dated
-ratings for each of 18 pairs, independently validated decoys, condition
-validation, and explicit authorization. Exploratory response agreement was
-17/18 ratings (κ=.912 unweighted, .927 linear weighted) and 6/6 association
-records. Reviewer 2 disclosed AI assistance and non-independence; reviewer 1's
-independence is unverified. This pair fails the independent-review gate. No
-model metric, interval, or grounding conclusion is claimed. Details and
-byte-preserved responses are in
+The registered blinded review forms remain blank. Separate exploratory response
+files contain 18 ratings and six association checks each: six primary/original
+pairs, six cross-family shuffled pairs, six decoy pairs; empty has no score or
+rating. These are not two independent human reviews: reviewer 1's independence
+is unverified and reviewer 2 disclosed AI assistance/non-independence. Their
+17/18 rating agreement (κ=.912 unweighted, .927 weighted) and 6/6 association
+agreement are descriptive only. Both marked both decoys same-topic, but only
+the video decoy unsupported; the image decoy was marked supported by its papers.
+V2's planned `MAE(B-TF)-MAE(G)` endpoint, 2,000-family-bootstrap interval, and
+pass rule were never computed. No registered V2 evaluation was completed; it
+still needs independent dated ratings, valid decoys/conditions, and scoring
+authorization. Sources are preserved in
 [`prospective_grounding/exploratory_evidence/`](prospective_grounding/exploratory_evidence/).
 
 ## Scientific interpretation and limitations
