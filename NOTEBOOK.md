@@ -1,4 +1,9 @@
-# Notebook (dated; one line per abandoned idea and why)
+# Notebook of dated design decisions, abandoned drafts, and follow-up items
+
+Dates below are preserved as recorded; none are inferred from a paper's
+publication date. The note dated 2026-10-20 corrects the first two entries:
+they were written on October 20, not October 19. Keep the original correction
+visible as part of the record.
 - 2026-10-19: Smoke test, Qwen3-Embedding-0.6B (mps), paper's Fig.1 example: cos(A,C role swap)=0.986 > cos(A,B paraphrase)=0.803. Near-miss error visible on a single item; to be measured properly in E1. (Exploratory, not a test evaluation.)
 - 2026-10-19: LM route works: Qwen3-1.7B on a free GPU notebook. The original record does not establish whether Kaggle or Colab was used. The model's training cutoff has not been verified against its model card; do not treat an assumed cutoff as established (rule R4).
 - 2026-10-19: LM route works: Qwen3-1.7B on a free GPU notebook. Sample output was a generic constructive question ("How can contrastive learning be used to improve..."). The model-card training cutoff remains unverified.

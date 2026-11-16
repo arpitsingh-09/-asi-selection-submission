@@ -49,6 +49,15 @@ also requires source-linked inputs, dated annotations or outcomes as
 applicable, compatible frozen model/baseline artifacts, and verified temporal
 eligibility before prediction and scoring.
 
+These gates require an original primary condition, an explicitly empty
+condition whose score remains undefined, inputs shuffled from another instance,
+and an independently verified same-topic decoy that is unsupported by its
+supplied papers. Conditions are reported separately, never averaged. Question
+and input versions must be available when posed; labels cannot predate the
+question. Publication dates alone do not establish those times. No heldout
+tuning, post-test normalization, or use of later outcomes as features is
+permitted.
+
 | Test | Registered endpoint and pass criterion | Status and decisive blocker |
 |---|---|---|
 | I1 | Near-miss minus paraphrase drift; lower CI >0.02 for every head. | BLOCKED: original input links and independently checked controls are missing; fitted Q heads and frozen normalization are unavailable. |
@@ -105,22 +114,31 @@ cluster bootstrap intervals (2,000 draws, PCG64 seed `20261113`).
 | N | 0.500 [0.000, 1.000] | 0.000 [0.000, 0.000] |
 | yours | 0.500 [0.000, 1.000] | 0.000 [0.000, 0.000] |
 
-The registered supplementary rule required the same coordinate’s lower
-confidence bound to be at least 0.80 for both manipulation families. None
-qualified. Y passed the concentration ordering in both focal clusters, but
-its partial-coverage pass fraction was 0.5 with a [0, 1] interval. Density,
-N, and `yours` failed concentration; density also failed every strict
-coverage ordering. The effects therefore show a limited, coordinate-specific
-response, not consistent novelty behavior across manipulations. With only two
-clusters, intervals are highly discrete and unstable; this negative threshold
-result does not establish broad model failure or success. The analysis and
-source artifacts are in [`a1_replication/`](a1_replication/): the
+The supplementary rule required a lower 95% CI bound ≥0.80 for the same
+coordinate under both manipulations; none qualified. With two clusters, the
+intervals are discrete and unstable. This exposed negative threshold result
+does not establish broad model failure or success. Source artifacts are in
+[`a1_replication/`](a1_replication/): the
 [supplementary registration](a1_replication/PREREG_REPLICATION.md),
 [approved partial-controls amendment](a1_replication/AMENDMENT_003_PARTIAL_CONTROLS.md),
 [cohort manifest](a1_replication/cohort_manifest.json),
 [saved scores](a1_replication/A1_SCORING_RESULTS_V1.json),
 [statistical findings](a1_replication/A1_STATISTICAL_FINDINGS_V1.md), and
 [saved statistics](a1_replication/A1_STATISTICAL_RESULTS_V1.json).
+
+The failure is not only sample size: coverage requires four ordered decreases.
+For `density`, saved mean deltas for 50-to-75% and 75-to-100%
+coverage are both exactly 0.000 [0.000, 0.000], and strict coverage passes in
+0/2 clusters. Its concentration direction is reversed (distributed minus
+concentrated = -13.5, 95% CI [-19, -8]). `Y` passes concentration in both
+clusters, but coverage in only one of two. No coordinate passes the joint rule.
+
+The scoring record identifies `specter2_base` revision
+`3447645e1def9117997203454fa4495937bfbd83` with the `allenai/specter2`
+proximity adapter revision `2081559630a80fc5851d8f798a05ba81e9468089`, CLS
+pooling, and offline local weights. It records inference from 16:42:20Z to
+16:44:52Z on 2026-11-14, but no hardware or accelerator; no compute-cost or GPU
+claim is made. Full model and input hashes are in the saved scoring JSON.
 
 ## Supplementary S1 exploratory analysis (not original S1)
 
@@ -139,81 +157,77 @@ remains incomplete and is not replaced by this analysis. Its saved result is
 [`supplementary_s1_e1_exploratory/results/run_001/results.json`](supplementary_s1_e1_exploratory/results/run_001/results.json).
 Original A1 also remains incomplete: all 80 frozen candidates are ineligible.
 
+One illustrative near-miss error is `h001`: M identity similarity is 0.7509
+and E5 cosine is 0.9736, both above the fixed 0.65 “same” threshold, against
+the unverified creator-intended “different” label. Across the 60 near-misses,
+M produced 51 false positives and E5 classified all 60 as same. This is
+observed threshold behavior against unverified labels, not verified semantic
+error. E5 was `intfloat/e5-base-v2`, revision
+`f52bf8ec8c7124536f0efb74aca902b2995e5bcd`; the saved run used CPU, the fixed
+`query: ` prefix, and L2 normalization. It remains exploratory, not evidence
+that original S1 passed.
+
 ## Prospective grounding pilot: generation and exploratory reviews
 
-The grounding pilot is supplementary and separate from the nine tests and A1.
-V1’s first qwen3:8b call exhausted the 512-token budget in its `thinking`
-field and returned an empty response (`done_reason="length"`,
-`eval_count=512`). The one-shot stopped and the raw failure was preserved; V1
-was not retried. The raw attempt is
-[`01_video_memorability_primary.json`](prospective_grounding/generated_v1/run_20261115T023429_468521Z/attempts/01_video_memorability_primary.json).
-
-V2 was separately preregistered before inference and sent `think=false` to
-address that failure. It retained the locked qwen3:8b digest and settings
-(`temperature=0.7`, `top_p=0.8`, `num_predict=512`). All four calls succeeded:
-two primary and two same-family decoy questions across the video-memorability
-and image-enhancement families. Prompts, responses, inputs, timestamps, and
-model provenance are preserved in
+This pilot is separate from the nine tests and A1. V1's first local `qwen3:8b`
+call used all 512 generated tokens in thinking and returned an empty answer;
+its [raw V1 attempt](prospective_grounding/generated_v1/run_20261115T023429_468521Z/attempts/01_video_memorability_primary.json)
+and was not retried. V2 was separately registered before generation, set
+`think=false`, and produced two primary and two decoy
+questions. Raw prompts, responses and provenance are in
 [`prospective_grounding/generated_v2/`](prospective_grounding/generated_v2/).
+V2 used Qwen3 digest
+`sha256:500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41`,
+`temperature=0.7`,
+`top_p=0.8`, `num_predict=512`, and seeds 4900/4901/4910/4911. Hardware and
+energy use were not recorded.
 
-V2’s registered evaluation would compare groundedness proxy `G` with frozen
-train-only TF-IDF baseline `B-TF` against the independent human relevance
-ratings on original, shuffled, and decoy question-paper pairs; empty-pool
-scores remain undefined. The primary endpoint is `MAE(B-TF) - MAE(G)`, with a
-paired family-cluster bootstrap (2,000 draws, seed `20261113`). Passing also
-requires a positive estimate, a lower interval
-bound above zero, both decoy checks passing, at least 90% finite required
-scores, and no temporal/provenance violation. No such scores were calculated:
-the preregistered review and explicit authorization gates remain unmet.
+V2's registered endpoint is `MAE(B-TF) - MAE(G)` on independent ratings for
+original, shuffled, and decoy pairs; empty scores are undefined. Its paired
+family-cluster bootstrap uses 2,000 draws and seed `20261113`. Passing requires
+a positive estimate, lower bound above zero, both decoy checks, ≥90% finite
+scores, and temporal/provenance validity. No scores were calculated; review and
+authorization gates remain unmet.
 
-Two response files were compared for exploratory purposes only. Both cover 18
-paper ratings and six association checks. Exact rating agreement is 17/18
-(94.4%); unweighted nominal Cohen’s κ is 0.912 and linear-weighted κ is 0.927.
-The one rating difference is for `primary-image_enhancement-v2` /
-`2412.20916v1` (2 versus 1). The two responses agree on both decisions for all
-six association records. Cohen’s κ is chance-corrected agreement, not a
-validity measure. Here it is descriptive only: reviewer 2 used AI assistance
-and declares non-independence, and reviewer 1’s independence is unverified.
-It cannot be presented as agreement between two independent human reviewers.
-Reviewer 1 declares independence, but identity and independence were not
-externally verified. Reviewer 2 declares `independent_review_confirmed=no`
-and the response is identified as AI-assisted. Therefore this pair is not two
-independent human reviews and does not pass V2’s review gate. No G/B-TF metric,
-baseline comparison, interval, or grounding conclusion is claimed. Details
-and byte-preserved responses are in
+V2 scoring was not authorized or run; it still requires two independent dated
+ratings for each of 18 pairs, independently validated decoys, condition
+validation, and explicit authorization. Exploratory response agreement was
+17/18 ratings (κ=.912 unweighted, .927 linear weighted) and 6/6 association
+records. Reviewer 2 disclosed AI assistance and non-independence; reviewer 1's
+independence is unverified. This pair fails the independent-review gate. No
+model metric, interval, or grounding conclusion is claimed. Details and
+byte-preserved responses are in
 [`prospective_grounding/exploratory_evidence/`](prospective_grounding/exploratory_evidence/).
 
 ## Scientific interpretation and limitations
 
-The implementation and fail-closed evaluation machinery are software outputs;
-tests do not validate the scientific hypotheses. The core battery supplies no
-eligible empirical result. The supplementary A1 analysis meets one Y
-concentration ordering in two cases but misses its combined threshold, while
-the other coordinates do not show consistent expected behavior. V2 shows that
-the registered generation change yielded four preserved questions after
-V1’s generation failure; it has not tested whether `G` outperforms `B-TF`.
-The review agreement is exploratory and ineligible as independent validation.
-
-Temporal conclusions are also limited: publication and cached review dates do
-not substitute for verified question-posing, source-availability, and
-outcome-observation dates. No test result can be recovered by imputing these
-dates, filling absent labels, or reusing exposed E2 evidence as the original
-prospective A1 cohort. The two-family V2 design and two-cluster A1 sample are
-too small for broad generalization even if their gates were otherwise met.
+Software tests validate implementation, not the hypotheses. The core battery
+has no eligible results. Supplementary A1 misses its joint threshold;
+exploratory S1 fails its joint criterion on minimal paraphrases; V2 has no
+outcome comparison. Publication dates cannot replace question, input-version,
+or outcome-observation dates. No dates or labels were imputed, and exposed E2
+was not promoted into original A1. The two-cluster A1 and two-family V2 samples
+limit generalization.
 
 ## Reproducibility
 
-The original evaluation ledger and all statistical claims above refer to
-saved artifacts; no experiment or inference was rerun for this report. From
-the repository root, the following commands reproduce saved calculations or
+The ledger and reported statistics refer to saved artifacts; this report work
+reran no experiment or inference. Key SHA-256s: stage-5 ledger
+`3e169c4179b7a786fd1e2a0da919184e76a4d0fb4426dd29b23f9caafc681474`; A1
+scores `40f564c94801395fd327b1849d457515dab6e7d4f0901fb3960d91c9f358b4ff`;
+A1 statistics `7aff25e53986a78145610b3bc0e9a352364987adccac1cf9003b48310a991c4c`;
+exploratory S1 result `edd827ff7dd8cfebde154ac156834e50a2e9a0e40f9d5357d8caa181b86d71e5`.
+Frozen-file checksums are in `frozen/SHA256SUMS.json` (file SHA-256
+`e7ec110b355e9107f65a02e63c371d0342c24d3c1798c40c126bdd385cc06178`).
+From the repository root, these commands reproduce saved calculations or
 check offline materials:
 
 ```sh
 # Reproduce the saved supplementary A1 statistics in memory; writes no files.
 python3 -B -c 'import json,pathlib; from M.a1_replication.analyze_a1_results import analyze; p=pathlib.Path("M/a1_replication"); r=json.loads((p/"A1_SCORING_RESULTS_V1.json").read_text()); s=json.loads((p/"A1_STATISTICAL_RESULTS_V1.json").read_text()); assert {k:v for k,v in s.items() if k!="provenance"} == analyze(r)'
 
-# Reproduce the exploratory V2 review comparison in its exploratory output directory.
-python3 -m M.prospective_grounding.exploratory_evidence.compare_review_responses
+# Recompute the V2 exploratory comparison in memory; writes no files.
+python3 -B -c 'from M.prospective_grounding.exploratory_evidence.compare_review_responses import validate_and_compare; r, _, _ = validate_and_compare(); a=r["rating_agreement"]; b=r["association_agreement"]; assert (a["exact_agreement_n"],b["joint_decision_agreement_n"])==(17,6) and abs(a["cohen_kappa_unweighted"]-0.912)<0.0005 and abs(a["cohen_kappa_linear_weighted"]-0.927)<0.0005'
 
 # Focused offline validation of the exploratory comparison.
 python3 -B -m unittest M.prospective_grounding.tests.test_exploratory_review_pair -v
@@ -227,24 +241,19 @@ The original nine-test protocol is [`PREREG.md`](PREREG.md); the separate V2
 generation and scoring protocol is
 [`prospective_grounding/PREREG_V2.md`](prospective_grounding/PREREG_V2.md).
 The full CPU suite’s previously recorded 92 passing tests validate
-implementation behavior and fixtures, not scientific performance.
+implementation behavior and fixtures, not scientific performance. The frozen
+M implementation has no trained Q head. S1 records CPU execution and E5
+revision/file hashes; A1 records local model revisions and weight hashes but
+not hardware. V2 records its Qwen3 digest/settings but not hardware or energy.
+No compute use is inferred where the artifacts do not report it.
 
 ## AI use and submission status
 
-Codex assisted with implementation, documentation, and blinded packet
-preparation. The local qwen3:8b model generated the V2 questions under the
-registered settings. Reviewer 2’s exploratory response is explicitly
-AI-assisted; its ratings are not treated as independent human evidence. The
-V1 empty-response failure is reported with its raw record, and no question,
-label, score, date, or interval has been substituted or fabricated. Additional
-AI-use details are recorded in [`AI_LOG.md`](AI_LOG.md) and
-[`AI_USAGE.md`](AI_USAGE.md).
+AI assistance, caught errors, Qwen3 use, and the AI-assisted review are
+disclosed in [`AI_LOG.md`](AI_LOG.md) and [`AI_USAGE.md`](AI_USAGE.md). The V1
+empty response is preserved; no question, label, date, or result was invented.
 
-The submission currently contains implemented software, nine blocked core
-evaluations, a small supplementary A1 negative threshold result, and a V2
-generation cohort without an evaluation result. To claim a core result,
-complete each test’s source, temporal, label, control, model, and baseline
-requirements under the frozen protocol. For V2, obtain two eligible
-independent blinded reviews for all registered pairs and decoy checks, validate
-conditions, then obtain explicit scoring authorization. Do not pool A1 or V2
-with the original nine-test battery.
+The submission contains nine blocked core evaluations, the limited A1 negative
+threshold result, and V2 generations without a scored result. These supplements
+remain separate from the original battery. The table above gives each original
+test's remaining source, time, label, control, model, or baseline blocker.

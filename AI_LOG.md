@@ -1,7 +1,7 @@
 # AI log
 | Date | Tool | Task | What I checked | Outcome |
 |------|------|------|----------------|---------|
-| <today> | Claude | Read the problem set, planned phases | Compared against the paper's own rules | Plan adopted |
+| Date not recorded in the contemporaneous note | Claude | Read the problem set and plan phases | Compared the proposed plan with the assignment rules | Plan adopted; no date inferred |
 ## At least one AI error I caught
 The initial SPECTER2 evaluation used automatically created mean pooling
 instead of the intended proximity adapter with CLS-token embeddings.
@@ -86,3 +86,26 @@ execution flags remain false. No inference, model loading or actual human-check
 evaluation occurred. Prior scheduling denial and unknown E6 resource headroom
 remain constraints. 87 offline tests passed; current source/scoring artifacts,
 E6 and Ollama preserved. No push. See E2/TASK3_EXECUTION.md.
+
+## 2026-11-16 — Main Problem assistance and supplements
+
+- Codex helped implement and document the Main Problem representation, gates,
+  and evidence audit; scope is in `M/AI_USAGE.md`. A real implementation error
+  caught was assigning a future paper an arrival time before publication. A
+  separate leakage issue left unavailable answers in the representation after
+  hiding them from the groundedness readout. Both were corrected and checked
+  with synthetic tests, which validate software only.
+- Supplementary A1 claim extraction used local `qwen3:8b`
+  (`sha256:500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41`);
+  reviewer `AS-01` reviewed two focal-paper claim/source sets. A1 is an exposed
+  two-cluster supplement, not original A1. Exploratory S1 used exposed E1
+  contrasts and unverified creator-intended labels; its joint criterion failure
+  is not original S1 evidence.
+- Grounding V1's first Qwen3 call returned an empty answer after thinking used
+  the 512-token budget; it was preserved and not retried. Separately registered
+  V2 set `think=false` and generated four questions. Exploratory reviewer 2
+  disclosed AI assistance and non-independence; reviewer 1's independence is
+  unverified. No V2 scoring or grounding conclusion exists. See `M/FINAL_REPORT.md`.
+- Codex made documentation-only edits to this log, `NOTEBOOK.md`, and
+  `M/FINAL_REPORT.md`; no inference, scoring, training, protocol, result, or
+  dataset was changed.
