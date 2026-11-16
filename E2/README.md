@@ -1,5 +1,12 @@
 # E2 — Novelty axioms, rebuilt
 
+Current task-by-task evidence status and saved-result summary: see
+[COMPLETION_REPORT.md](COMPLETION_REPORT.md). The historical status notes below
+describe the original saved-score cohort; cache-only near/far and temporal
+extensions are reported separately and do not complete the original missing
+conditions. Task 1 and Task 2 remain partial, Task 3 remains blocked at
+evaluation, and Task 4's interpretation is complete.
+
 Task 3 execution preparation: see [TASK3_EXECUTION.md](TASK3_EXECUTION.md) for
 the frozen CPU workflow, pinned encoder evidence, authorization gates, resource
 estimates and exact remaining blockers. No inference or evaluation ran.
@@ -14,7 +21,7 @@ claim recovery, newly computed cache-only near/far and temporal comparisons,
 and the exact remaining Task 3 blockers. The sections below describe the
 b784a39 baseline; continuation results supersede the corresponding gap counts.
 
-Status on 2026-11-13: **not submission-ready**. Tasks 1–2 are partial,
+Status on 2026-11-16: **not submission-ready**. Tasks 1–2 are partial,
 Task 3 is blocked at evaluation, and Task 4 is complete. The authoritative
 rubric was read directly from pages 30–31 of the local original
 `~/Downloads/ASI_Intern_Recruitment_Form.pdf`; its text agrees with
@@ -70,9 +77,11 @@ rules are retrospective, not newly preregistered experimental outcomes.
 
 The concentration row is a descriptive direction count. In particular, the
 old N equality prediction conflicts with its T2 derivation; density had no
-fixed concentration direction. Do not call all columns axiom passes. No
-empirical pass rates exist for paraphrased copy, near/far or older/newer.
-Results for these missing conditions require separately authorized scoring;
+fixed concentration direction. Do not call all columns axiom passes. Cache-only
+near/far and newer/older results on subsets are reported in
+`CONTINUATION_RESULTS.md` and `analysis/task2_extension_52_v1/REPORT.md`; they
+do not provide complete original-condition coverage for all four measures.
+Paraphrased copy and nearest-paper planting still have no scored results.
 `run_scoring.py` was not run and must not be used to overwrite existing work.
 
 ## Task 3: blocked; offline implementation complete
@@ -160,9 +169,14 @@ Validation on 2026-11-13: **44 tests passed**. Tests use mocked embeddings or
 tiny arrays; they do not run experiments. The existing urllib3/LibreSSL warning
 is nonfatal. Local Parquet reading also emits sandbox sysctl warnings; metadata
 loading completed successfully.
-`complete_offline.py --benchmark PATH.parquet --history PATH/data` regenerates
-only the new analysis reports from existing scores and local metadata. It
-verifies saved scoring hashes before and after. It never imports `novelty`.
+`python3 -B E2/complete_offline.py --benchmark PATH.parquet --history PATH/data`
+regenerates analysis reports from existing scores and local metadata. It
+requires NumPy and PyArrow, which are not version-pinned in this repository.
+The benchmark Parquet and historical data are external inputs. The script
+verifies saved scoring hashes before and after and never imports `novelty`, but
+it writes to `E2/analysis/` and overwrites several report JSON files. Preserve
+or copy those report files before invoking it if the current reports must
+remain unchanged.
 
 The saved score hashes are in `analysis/saved_results_report.json`. No E6
 file, lock, process, supervisor or Ollama service was modified or controlled.

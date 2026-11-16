@@ -1,0 +1,2199 @@
+{
+  "analysis_date": "2026-11-16",
+  "method": "Read-only recomputation from existing per-item outputs; percentile bootstrap resamples source-paper clusters (arXiv IDs). There is exactly one item per source paper, so item and source clusters coincide for item-level metrics.",
+  "n_items": 61,
+  "n_source_clusters": 61,
+  "bootstrap_replicates": 5000,
+  "seed": 20261116,
+  "models": {
+    "e5-base-v2": {
+      "model_id": "intfloat/e5-base-v2",
+      "file": "E1/results_v2/e5-base-v2_items.json",
+      "n_items": 61,
+      "metrics": {
+        "near_miss_error": {
+          "estimate": 0.9836065573770492,
+          "ci95_source_cluster_bootstrap": [
+            0.9508196721311475,
+            1.0
+          ],
+          "n_source_clusters": 61,
+          "bootstrap_replicates": 5000
+        },
+        "overlap_shortcut": {
+          "estimate": 0.06557377049180328,
+          "ci95_source_cluster_bootstrap": [
+            0.01639344262295082,
+            0.1311475409836066
+          ],
+          "n_source_clusters": 61,
+          "bootstrap_replicates": 5000
+        },
+        "low_overlap_shortcut": {
+          "estimate": 0.4098360655737705,
+          "ci95_source_cluster_bootstrap": [
+            0.29508196721311475,
+            0.5409836065573771
+          ],
+          "n_source_clusters": 61,
+          "bootstrap_replicates": 5000
+        },
+        "scope_order_correct": {
+          "estimate": 0.0,
+          "ci95_source_cluster_bootstrap": [
+            0.0,
+            0.0
+          ],
+          "n_source_clusters": 61,
+          "bootstrap_replicates": 5000
+        },
+        "length_only_order_correct": {
+          "estimate": 0.09836065573770492,
+          "ci95_source_cluster_bootstrap": [
+            0.03278688524590164,
+            0.18032786885245902
+          ],
+          "n_source_clusters": 61,
+          "bootstrap_replicates": 5000
+        }
+      },
+      "length_flipped_scope_order": {
+        "estimate": 0.0,
+        "ci95_source_cluster_bootstrap": [
+          0.0,
+          0.0
+        ],
+        "n_source_clusters": 39,
+        "bootstrap_replicates": 5000
+      },
+      "length_flipped_n": 39,
+      "by_near_miss_type": {
+        "constraint_flip": {
+          "n_items": 16,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 1.0,
+              "ci95_source_cluster_bootstrap": [
+                1.0,
+                1.0
+              ],
+              "n_source_clusters": 16,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.0625,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.1875
+              ],
+              "n_source_clusters": 16,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.4375,
+              "ci95_source_cluster_bootstrap": [
+                0.1875,
+                0.6875
+              ],
+              "n_source_clusters": 16,
+              "bootstrap_replicates": 5000
+            },
+            "scope_order_correct": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 16,
+              "bootstrap_replicates": 5000
+            },
+            "length_only_order_correct": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 16,
+              "bootstrap_replicates": 5000
+            }
+          }
+        },
+        "direction_flip": {
+          "n_items": 14,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 1.0,
+              "ci95_source_cluster_bootstrap": [
+                1.0,
+                1.0
+              ],
+              "n_source_clusters": 14,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 14,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.35714285714285715,
+              "ci95_source_cluster_bootstrap": [
+                0.14285714285714285,
+                0.5714285714285714
+              ],
+              "n_source_clusters": 14,
+              "bootstrap_replicates": 5000
+            },
+            "scope_order_correct": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 14,
+              "bootstrap_replicates": 5000
+            },
+            "length_only_order_correct": {
+              "estimate": 0.07142857142857142,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.21428571428571427
+              ],
+              "n_source_clusters": 14,
+              "bootstrap_replicates": 5000
+            }
+          }
+        },
+        "goal_swap": {
+          "n_items": 10,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 0.9,
+              "ci95_source_cluster_bootstrap": [
+                0.7,
+                1.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.4,
+              "ci95_source_cluster_bootstrap": [
+                0.1,
+                0.7
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "scope_order_correct": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "length_only_order_correct": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            }
+          }
+        },
+        "inquiry_change": {
+          "n_items": 11,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 1.0,
+              "ci95_source_cluster_bootstrap": [
+                1.0,
+                1.0
+              ],
+              "n_source_clusters": 11,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.09090909090909091,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.2727272727272727
+              ],
+              "n_source_clusters": 11,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.36363636363636365,
+              "ci95_source_cluster_bootstrap": [
+                0.09090909090909091,
+                0.6363636363636364
+              ],
+              "n_source_clusters": 11,
+              "bootstrap_replicates": 5000
+            },
+            "scope_order_correct": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 11,
+              "bootstrap_replicates": 5000
+            },
+            "length_only_order_correct": {
+              "estimate": 0.36363636363636365,
+              "ci95_source_cluster_bootstrap": [
+                0.09090909090909091,
+                0.6363636363636364
+              ],
+              "n_source_clusters": 11,
+              "bootstrap_replicates": 5000
+            }
+          }
+        },
+        "role_swap": {
+          "n_items": 10,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 1.0,
+              "ci95_source_cluster_bootstrap": [
+                1.0,
+                1.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.2,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.5
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.5,
+              "ci95_source_cluster_bootstrap": [
+                0.2,
+                0.8
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "scope_order_correct": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "length_only_order_correct": {
+              "estimate": 0.1,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.3
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            }
+          }
+        }
+      }
+    },
+    "bge-base-en-v1.5": {
+      "model_id": "BAAI/bge-base-en-v1.5",
+      "file": "E1/results_v2/bge-base-en-v1.5_items.json",
+      "n_items": 61,
+      "metrics": {
+        "near_miss_error": {
+          "estimate": 0.9836065573770492,
+          "ci95_source_cluster_bootstrap": [
+            0.9508196721311475,
+            1.0
+          ],
+          "n_source_clusters": 61,
+          "bootstrap_replicates": 5000
+        },
+        "overlap_shortcut": {
+          "estimate": 0.08196721311475409,
+          "ci95_source_cluster_bootstrap": [
+            0.01639344262295082,
+            0.14754098360655737
+          ],
+          "n_source_clusters": 61,
+          "bootstrap_replicates": 5000
+        },
+        "low_overlap_shortcut": {
+          "estimate": 0.3442622950819672,
+          "ci95_source_cluster_bootstrap": [
+            0.22950819672131148,
+            0.45901639344262296
+          ],
+          "n_source_clusters": 61,
+          "bootstrap_replicates": 5000
+        },
+        "scope_order_correct": {
+          "estimate": 0.0,
+          "ci95_source_cluster_bootstrap": [
+            0.0,
+            0.0
+          ],
+          "n_source_clusters": 61,
+          "bootstrap_replicates": 5000
+        },
+        "length_only_order_correct": {
+          "estimate": 0.09836065573770492,
+          "ci95_source_cluster_bootstrap": [
+            0.03278688524590164,
+            0.18032786885245902
+          ],
+          "n_source_clusters": 61,
+          "bootstrap_replicates": 5000
+        }
+      },
+      "length_flipped_scope_order": {
+        "estimate": 0.0,
+        "ci95_source_cluster_bootstrap": [
+          0.0,
+          0.0
+        ],
+        "n_source_clusters": 39,
+        "bootstrap_replicates": 5000
+      },
+      "length_flipped_n": 39,
+      "by_near_miss_type": {
+        "constraint_flip": {
+          "n_items": 16,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 1.0,
+              "ci95_source_cluster_bootstrap": [
+                1.0,
+                1.0
+              ],
+              "n_source_clusters": 16,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.125,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.3125
+              ],
+              "n_source_clusters": 16,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.5625,
+              "ci95_source_cluster_bootstrap": [
+                0.3125,
+                0.8125
+              ],
+              "n_source_clusters": 16,
+              "bootstrap_replicates": 5000
+            },
+            "scope_order_correct": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 16,
+              "bootstrap_replicates": 5000
+            },
+            "length_only_order_correct": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 16,
+              "bootstrap_replicates": 5000
+            }
+          }
+        },
+        "direction_flip": {
+          "n_items": 14,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 1.0,
+              "ci95_source_cluster_bootstrap": [
+                1.0,
+                1.0
+              ],
+              "n_source_clusters": 14,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.07142857142857142,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.21428571428571427
+              ],
+              "n_source_clusters": 14,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.14285714285714285,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.35714285714285715
+              ],
+              "n_source_clusters": 14,
+              "bootstrap_replicates": 5000
+            },
+            "scope_order_correct": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 14,
+              "bootstrap_replicates": 5000
+            },
+            "length_only_order_correct": {
+              "estimate": 0.07142857142857142,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.21428571428571427
+              ],
+              "n_source_clusters": 14,
+              "bootstrap_replicates": 5000
+            }
+          }
+        },
+        "goal_swap": {
+          "n_items": 10,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 0.9,
+              "ci95_source_cluster_bootstrap": [
+                0.7,
+                1.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.4,
+              "ci95_source_cluster_bootstrap": [
+                0.1,
+                0.7
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "scope_order_correct": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "length_only_order_correct": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            }
+          }
+        },
+        "inquiry_change": {
+          "n_items": 11,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 1.0,
+              "ci95_source_cluster_bootstrap": [
+                1.0,
+                1.0
+              ],
+              "n_source_clusters": 11,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.18181818181818182,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.45454545454545453
+              ],
+              "n_source_clusters": 11,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.36363636363636365,
+              "ci95_source_cluster_bootstrap": [
+                0.09090909090909091,
+                0.6363636363636364
+              ],
+              "n_source_clusters": 11,
+              "bootstrap_replicates": 5000
+            },
+            "scope_order_correct": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 11,
+              "bootstrap_replicates": 5000
+            },
+            "length_only_order_correct": {
+              "estimate": 0.36363636363636365,
+              "ci95_source_cluster_bootstrap": [
+                0.09090909090909091,
+                0.6363636363636364
+              ],
+              "n_source_clusters": 11,
+              "bootstrap_replicates": 5000
+            }
+          }
+        },
+        "role_swap": {
+          "n_items": 10,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 1.0,
+              "ci95_source_cluster_bootstrap": [
+                1.0,
+                1.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.2,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.5
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "scope_order_correct": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "length_only_order_correct": {
+              "estimate": 0.1,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.3
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            }
+          }
+        }
+      }
+    },
+    "all-MiniLM-L6-v2": {
+      "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+      "file": "E1/results_v2/all-MiniLM-L6-v2_items.json",
+      "n_items": 61,
+      "metrics": {
+        "near_miss_error": {
+          "estimate": 0.9672131147540983,
+          "ci95_source_cluster_bootstrap": [
+            0.9180327868852459,
+            1.0
+          ],
+          "n_source_clusters": 61,
+          "bootstrap_replicates": 5000
+        },
+        "overlap_shortcut": {
+          "estimate": 0.16393442622950818,
+          "ci95_source_cluster_bootstrap": [
+            0.08196721311475409,
+            0.2622950819672132
+          ],
+          "n_source_clusters": 61,
+          "bootstrap_replicates": 5000
+        },
+        "low_overlap_shortcut": {
+          "estimate": 0.4262295081967213,
+          "ci95_source_cluster_bootstrap": [
+            0.3114754098360656,
+            0.5409836065573771
+          ],
+          "n_source_clusters": 61,
+          "bootstrap_replicates": 5000
+        },
+        "scope_order_correct": {
+          "estimate": 0.0,
+          "ci95_source_cluster_bootstrap": [
+            0.0,
+            0.0
+          ],
+          "n_source_clusters": 61,
+          "bootstrap_replicates": 5000
+        },
+        "length_only_order_correct": {
+          "estimate": 0.09836065573770492,
+          "ci95_source_cluster_bootstrap": [
+            0.03278688524590164,
+            0.18032786885245902
+          ],
+          "n_source_clusters": 61,
+          "bootstrap_replicates": 5000
+        }
+      },
+      "length_flipped_scope_order": {
+        "estimate": 0.0,
+        "ci95_source_cluster_bootstrap": [
+          0.0,
+          0.0
+        ],
+        "n_source_clusters": 39,
+        "bootstrap_replicates": 5000
+      },
+      "length_flipped_n": 39,
+      "by_near_miss_type": {
+        "constraint_flip": {
+          "n_items": 16,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 0.9375,
+              "ci95_source_cluster_bootstrap": [
+                0.8125,
+                1.0
+              ],
+              "n_source_clusters": 16,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.25,
+              "ci95_source_cluster_bootstrap": [
+                0.0625,
+                0.5
+              ],
+              "n_source_clusters": 16,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.5,
+              "ci95_source_cluster_bootstrap": [
+                0.25,
+                0.75
+              ],
+              "n_source_clusters": 16,
+              "bootstrap_replicates": 5000
+            },
+            "scope_order_correct": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 16,
+              "bootstrap_replicates": 5000
+            },
+            "length_only_order_correct": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 16,
+              "bootstrap_replicates": 5000
+            }
+          }
+        },
+        "direction_flip": {
+          "n_items": 14,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 1.0,
+              "ci95_source_cluster_bootstrap": [
+                1.0,
+                1.0
+              ],
+              "n_source_clusters": 14,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.21428571428571427,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.42857142857142855
+              ],
+              "n_source_clusters": 14,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.42857142857142855,
+              "ci95_source_cluster_bootstrap": [
+                0.21428571428571427,
+                0.6428571428571429
+              ],
+              "n_source_clusters": 14,
+              "bootstrap_replicates": 5000
+            },
+            "scope_order_correct": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 14,
+              "bootstrap_replicates": 5000
+            },
+            "length_only_order_correct": {
+              "estimate": 0.07142857142857142,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.21428571428571427
+              ],
+              "n_source_clusters": 14,
+              "bootstrap_replicates": 5000
+            }
+          }
+        },
+        "goal_swap": {
+          "n_items": 10,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 0.9,
+              "ci95_source_cluster_bootstrap": [
+                0.7,
+                1.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.5,
+              "ci95_source_cluster_bootstrap": [
+                0.2,
+                0.8
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "scope_order_correct": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "length_only_order_correct": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            }
+          }
+        },
+        "inquiry_change": {
+          "n_items": 11,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 1.0,
+              "ci95_source_cluster_bootstrap": [
+                1.0,
+                1.0
+              ],
+              "n_source_clusters": 11,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.09090909090909091,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.2727272727272727
+              ],
+              "n_source_clusters": 11,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.2727272727272727,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.5454545454545454
+              ],
+              "n_source_clusters": 11,
+              "bootstrap_replicates": 5000
+            },
+            "scope_order_correct": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 11,
+              "bootstrap_replicates": 5000
+            },
+            "length_only_order_correct": {
+              "estimate": 0.36363636363636365,
+              "ci95_source_cluster_bootstrap": [
+                0.09090909090909091,
+                0.6363636363636364
+              ],
+              "n_source_clusters": 11,
+              "bootstrap_replicates": 5000
+            }
+          }
+        },
+        "role_swap": {
+          "n_items": 10,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 1.0,
+              "ci95_source_cluster_bootstrap": [
+                1.0,
+                1.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.2,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.5
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.4,
+              "ci95_source_cluster_bootstrap": [
+                0.1,
+                0.7
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "scope_order_correct": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "length_only_order_correct": {
+              "estimate": 0.1,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.3
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            }
+          }
+        }
+      }
+    },
+    "specter2_base": {
+      "model_id": "allenai/specter2_base",
+      "file": "E1/results_v2/specter2_base_items.json",
+      "n_items": 61,
+      "metrics": {
+        "near_miss_error": {
+          "estimate": 0.9508196721311475,
+          "ci95_source_cluster_bootstrap": [
+            0.8852459016393444,
+            1.0
+          ],
+          "n_source_clusters": 61,
+          "bootstrap_replicates": 5000
+        },
+        "overlap_shortcut": {
+          "estimate": 0.08196721311475409,
+          "ci95_source_cluster_bootstrap": [
+            0.01639344262295082,
+            0.14754098360655737
+          ],
+          "n_source_clusters": 61,
+          "bootstrap_replicates": 5000
+        },
+        "low_overlap_shortcut": {
+          "estimate": 0.32786885245901637,
+          "ci95_source_cluster_bootstrap": [
+            0.21311475409836064,
+            0.4426229508196721
+          ],
+          "n_source_clusters": 61,
+          "bootstrap_replicates": 5000
+        },
+        "scope_order_correct": {
+          "estimate": 0.3770491803278688,
+          "ci95_source_cluster_bootstrap": [
+            0.26229508196721313,
+            0.5081967213114754
+          ],
+          "n_source_clusters": 61,
+          "bootstrap_replicates": 5000
+        },
+        "length_only_order_correct": {
+          "estimate": 0.09836065573770492,
+          "ci95_source_cluster_bootstrap": [
+            0.03278688524590164,
+            0.18032786885245902
+          ],
+          "n_source_clusters": 61,
+          "bootstrap_replicates": 5000
+        }
+      },
+      "length_flipped_scope_order": {
+        "estimate": 0.46153846153846156,
+        "ci95_source_cluster_bootstrap": [
+          0.3076923076923077,
+          0.6153846153846154
+        ],
+        "n_source_clusters": 39,
+        "bootstrap_replicates": 5000
+      },
+      "length_flipped_n": 39,
+      "by_near_miss_type": {
+        "constraint_flip": {
+          "n_items": 16,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 0.9375,
+              "ci95_source_cluster_bootstrap": [
+                0.8125,
+                1.0
+              ],
+              "n_source_clusters": 16,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.125,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.3125
+              ],
+              "n_source_clusters": 16,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.625,
+              "ci95_source_cluster_bootstrap": [
+                0.375,
+                0.875
+              ],
+              "n_source_clusters": 16,
+              "bootstrap_replicates": 5000
+            },
+            "scope_order_correct": {
+              "estimate": 0.375,
+              "ci95_source_cluster_bootstrap": [
+                0.125,
+                0.625
+              ],
+              "n_source_clusters": 16,
+              "bootstrap_replicates": 5000
+            },
+            "length_only_order_correct": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 16,
+              "bootstrap_replicates": 5000
+            }
+          }
+        },
+        "direction_flip": {
+          "n_items": 14,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 1.0,
+              "ci95_source_cluster_bootstrap": [
+                1.0,
+                1.0
+              ],
+              "n_source_clusters": 14,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.07142857142857142,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.21428571428571427
+              ],
+              "n_source_clusters": 14,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.21428571428571427,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.42857142857142855
+              ],
+              "n_source_clusters": 14,
+              "bootstrap_replicates": 5000
+            },
+            "scope_order_correct": {
+              "estimate": 0.35714285714285715,
+              "ci95_source_cluster_bootstrap": [
+                0.14285714285714285,
+                0.6428571428571429
+              ],
+              "n_source_clusters": 14,
+              "bootstrap_replicates": 5000
+            },
+            "length_only_order_correct": {
+              "estimate": 0.07142857142857142,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.21428571428571427
+              ],
+              "n_source_clusters": 14,
+              "bootstrap_replicates": 5000
+            }
+          }
+        },
+        "goal_swap": {
+          "n_items": 10,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 0.8,
+              "ci95_source_cluster_bootstrap": [
+                0.5,
+                1.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.2,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.5
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "scope_order_correct": {
+              "estimate": 0.5,
+              "ci95_source_cluster_bootstrap": [
+                0.2,
+                0.8
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "length_only_order_correct": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            }
+          }
+        },
+        "inquiry_change": {
+          "n_items": 11,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 1.0,
+              "ci95_source_cluster_bootstrap": [
+                1.0,
+                1.0
+              ],
+              "n_source_clusters": 11,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.18181818181818182,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.45454545454545453
+              ],
+              "n_source_clusters": 11,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.36363636363636365,
+              "ci95_source_cluster_bootstrap": [
+                0.09090909090909091,
+                0.6363636363636364
+              ],
+              "n_source_clusters": 11,
+              "bootstrap_replicates": 5000
+            },
+            "scope_order_correct": {
+              "estimate": 0.45454545454545453,
+              "ci95_source_cluster_bootstrap": [
+                0.18181818181818182,
+                0.7272727272727273
+              ],
+              "n_source_clusters": 11,
+              "bootstrap_replicates": 5000
+            },
+            "length_only_order_correct": {
+              "estimate": 0.36363636363636365,
+              "ci95_source_cluster_bootstrap": [
+                0.09090909090909091,
+                0.6363636363636364
+              ],
+              "n_source_clusters": 11,
+              "bootstrap_replicates": 5000
+            }
+          }
+        },
+        "role_swap": {
+          "n_items": 10,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 1.0,
+              "ci95_source_cluster_bootstrap": [
+                1.0,
+                1.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.1,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.3
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "scope_order_correct": {
+              "estimate": 0.2,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.5
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "length_only_order_correct": {
+              "estimate": 0.1,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.3
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            }
+          }
+        }
+      }
+    },
+    "Qwen3-Embedding-0.6B": {
+      "model_id": "Qwen/Qwen3-Embedding-0.6B",
+      "file": "E1/results_v2/Qwen3-Embedding-0.6B_items.json",
+      "n_items": 61,
+      "metrics": {
+        "near_miss_error": {
+          "estimate": 0.9672131147540983,
+          "ci95_source_cluster_bootstrap": [
+            0.9180327868852459,
+            1.0
+          ],
+          "n_source_clusters": 61,
+          "bootstrap_replicates": 5000
+        },
+        "overlap_shortcut": {
+          "estimate": 0.13114754098360656,
+          "ci95_source_cluster_bootstrap": [
+            0.04918032786885246,
+            0.21311475409836064
+          ],
+          "n_source_clusters": 61,
+          "bootstrap_replicates": 5000
+        },
+        "low_overlap_shortcut": {
+          "estimate": 0.4262295081967213,
+          "ci95_source_cluster_bootstrap": [
+            0.3114754098360656,
+            0.5573770491803278
+          ],
+          "n_source_clusters": 61,
+          "bootstrap_replicates": 5000
+        },
+        "scope_order_correct": {
+          "estimate": 0.01639344262295082,
+          "ci95_source_cluster_bootstrap": [
+            0.0,
+            0.04918032786885246
+          ],
+          "n_source_clusters": 61,
+          "bootstrap_replicates": 5000
+        },
+        "length_only_order_correct": {
+          "estimate": 0.09836065573770492,
+          "ci95_source_cluster_bootstrap": [
+            0.03278688524590164,
+            0.18032786885245902
+          ],
+          "n_source_clusters": 61,
+          "bootstrap_replicates": 5000
+        }
+      },
+      "length_flipped_scope_order": {
+        "estimate": 0.02564102564102564,
+        "ci95_source_cluster_bootstrap": [
+          0.0,
+          0.07692307692307693
+        ],
+        "n_source_clusters": 39,
+        "bootstrap_replicates": 5000
+      },
+      "length_flipped_n": 39,
+      "by_near_miss_type": {
+        "constraint_flip": {
+          "n_items": 16,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 0.9375,
+              "ci95_source_cluster_bootstrap": [
+                0.8125,
+                1.0
+              ],
+              "n_source_clusters": 16,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.25,
+              "ci95_source_cluster_bootstrap": [
+                0.0625,
+                0.5
+              ],
+              "n_source_clusters": 16,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.625,
+              "ci95_source_cluster_bootstrap": [
+                0.375,
+                0.875
+              ],
+              "n_source_clusters": 16,
+              "bootstrap_replicates": 5000
+            },
+            "scope_order_correct": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 16,
+              "bootstrap_replicates": 5000
+            },
+            "length_only_order_correct": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 16,
+              "bootstrap_replicates": 5000
+            }
+          }
+        },
+        "direction_flip": {
+          "n_items": 14,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 1.0,
+              "ci95_source_cluster_bootstrap": [
+                1.0,
+                1.0
+              ],
+              "n_source_clusters": 14,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.2857142857142857,
+              "ci95_source_cluster_bootstrap": [
+                0.07142857142857142,
+                0.5
+              ],
+              "n_source_clusters": 14,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.35714285714285715,
+              "ci95_source_cluster_bootstrap": [
+                0.14285714285714285,
+                0.6428571428571429
+              ],
+              "n_source_clusters": 14,
+              "bootstrap_replicates": 5000
+            },
+            "scope_order_correct": {
+              "estimate": 0.07142857142857142,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.21428571428571427
+              ],
+              "n_source_clusters": 14,
+              "bootstrap_replicates": 5000
+            },
+            "length_only_order_correct": {
+              "estimate": 0.07142857142857142,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.21428571428571427
+              ],
+              "n_source_clusters": 14,
+              "bootstrap_replicates": 5000
+            }
+          }
+        },
+        "goal_swap": {
+          "n_items": 10,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 0.9,
+              "ci95_source_cluster_bootstrap": [
+                0.7,
+                1.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.5,
+              "ci95_source_cluster_bootstrap": [
+                0.2,
+                0.8
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "scope_order_correct": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "length_only_order_correct": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            }
+          }
+        },
+        "inquiry_change": {
+          "n_items": 11,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 1.0,
+              "ci95_source_cluster_bootstrap": [
+                1.0,
+                1.0
+              ],
+              "n_source_clusters": 11,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 11,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.2727272727272727,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.5454545454545454
+              ],
+              "n_source_clusters": 11,
+              "bootstrap_replicates": 5000
+            },
+            "scope_order_correct": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 11,
+              "bootstrap_replicates": 5000
+            },
+            "length_only_order_correct": {
+              "estimate": 0.36363636363636365,
+              "ci95_source_cluster_bootstrap": [
+                0.09090909090909091,
+                0.6363636363636364
+              ],
+              "n_source_clusters": 11,
+              "bootstrap_replicates": 5000
+            }
+          }
+        },
+        "role_swap": {
+          "n_items": 10,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 1.0,
+              "ci95_source_cluster_bootstrap": [
+                1.0,
+                1.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.3,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.6
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "scope_order_correct": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "length_only_order_correct": {
+              "estimate": 0.1,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.3
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            }
+          }
+        }
+      }
+    },
+    "specter2_corrected": {
+      "model_id": "allenai/specter2_base",
+      "adapter": "allenai/specter2",
+      "embedding_method": "last_hidden_state[:, 0, :] (CLS token)",
+      "file": "E1/results_specter2_corrected/specter2_corrected_items.json",
+      "n_items": 61,
+      "metrics": {
+        "near_miss_error": {
+          "estimate": 0.9508196721311475,
+          "ci95_source_cluster_bootstrap": [
+            0.8852459016393444,
+            1.0
+          ],
+          "n_source_clusters": 61,
+          "bootstrap_replicates": 5000
+        },
+        "overlap_shortcut": {
+          "estimate": 0.11475409836065574,
+          "ci95_source_cluster_bootstrap": [
+            0.04918032786885246,
+            0.19672131147540983
+          ],
+          "n_source_clusters": 61,
+          "bootstrap_replicates": 5000
+        },
+        "low_overlap_shortcut": {
+          "estimate": 0.39344262295081966,
+          "ci95_source_cluster_bootstrap": [
+            0.2786885245901639,
+            0.5245901639344264
+          ],
+          "n_source_clusters": 61,
+          "bootstrap_replicates": 5000
+        },
+        "scope_order_correct": {
+          "estimate": 0.18032786885245902,
+          "ci95_source_cluster_bootstrap": [
+            0.08196721311475409,
+            0.2786885245901639
+          ],
+          "n_source_clusters": 61,
+          "bootstrap_replicates": 5000
+        },
+        "length_only_order_correct": {
+          "estimate": 0.09836065573770492,
+          "ci95_source_cluster_bootstrap": [
+            0.03278688524590164,
+            0.18032786885245902
+          ],
+          "n_source_clusters": 61,
+          "bootstrap_replicates": 5000
+        }
+      },
+      "length_flipped_scope_order": {
+        "estimate": 0.20512820512820512,
+        "ci95_source_cluster_bootstrap": [
+          0.07692307692307693,
+          0.3333333333333333
+        ],
+        "n_source_clusters": 39,
+        "bootstrap_replicates": 5000
+      },
+      "length_flipped_n": 39,
+      "by_near_miss_type": {
+        "constraint_flip": {
+          "n_items": 16,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 0.9375,
+              "ci95_source_cluster_bootstrap": [
+                0.8125,
+                1.0
+              ],
+              "n_source_clusters": 16,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.25,
+              "ci95_source_cluster_bootstrap": [
+                0.0625,
+                0.5
+              ],
+              "n_source_clusters": 16,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.4375,
+              "ci95_source_cluster_bootstrap": [
+                0.1875,
+                0.6875
+              ],
+              "n_source_clusters": 16,
+              "bootstrap_replicates": 5000
+            },
+            "scope_order_correct": {
+              "estimate": 0.1875,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.375
+              ],
+              "n_source_clusters": 16,
+              "bootstrap_replicates": 5000
+            },
+            "length_only_order_correct": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 16,
+              "bootstrap_replicates": 5000
+            }
+          }
+        },
+        "direction_flip": {
+          "n_items": 14,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 1.0,
+              "ci95_source_cluster_bootstrap": [
+                1.0,
+                1.0
+              ],
+              "n_source_clusters": 14,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.14285714285714285,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.35714285714285715
+              ],
+              "n_source_clusters": 14,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.42857142857142855,
+              "ci95_source_cluster_bootstrap": [
+                0.14285714285714285,
+                0.7142857142857143
+              ],
+              "n_source_clusters": 14,
+              "bootstrap_replicates": 5000
+            },
+            "scope_order_correct": {
+              "estimate": 0.14285714285714285,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.35714285714285715
+              ],
+              "n_source_clusters": 14,
+              "bootstrap_replicates": 5000
+            },
+            "length_only_order_correct": {
+              "estimate": 0.07142857142857142,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.21428571428571427
+              ],
+              "n_source_clusters": 14,
+              "bootstrap_replicates": 5000
+            }
+          }
+        },
+        "goal_swap": {
+          "n_items": 10,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 0.8,
+              "ci95_source_cluster_bootstrap": [
+                0.5,
+                1.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.3,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.6
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "scope_order_correct": {
+              "estimate": 0.2,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.5
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "length_only_order_correct": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            }
+          }
+        },
+        "inquiry_change": {
+          "n_items": 11,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 1.0,
+              "ci95_source_cluster_bootstrap": [
+                1.0,
+                1.0
+              ],
+              "n_source_clusters": 11,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.09090909090909091,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.2727272727272727
+              ],
+              "n_source_clusters": 11,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.45454545454545453,
+              "ci95_source_cluster_bootstrap": [
+                0.18181818181818182,
+                0.7272727272727273
+              ],
+              "n_source_clusters": 11,
+              "bootstrap_replicates": 5000
+            },
+            "scope_order_correct": {
+              "estimate": 0.18181818181818182,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.45454545454545453
+              ],
+              "n_source_clusters": 11,
+              "bootstrap_replicates": 5000
+            },
+            "length_only_order_correct": {
+              "estimate": 0.36363636363636365,
+              "ci95_source_cluster_bootstrap": [
+                0.09090909090909091,
+                0.6363636363636364
+              ],
+              "n_source_clusters": 11,
+              "bootstrap_replicates": 5000
+            }
+          }
+        },
+        "role_swap": {
+          "n_items": 10,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 1.0,
+              "ci95_source_cluster_bootstrap": [
+                1.0,
+                1.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.3,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.6
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "scope_order_correct": {
+              "estimate": 0.2,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.5
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "length_only_order_correct": {
+              "estimate": 0.1,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.3
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            }
+          }
+        }
+      }
+    },
+    "cross_encoder_ms_marco": {
+      "model_id": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+      "interpretation": "Passage-relevance baseline; not a purpose-trained or instruction-following research-question identity judge.",
+      "n_items": 61,
+      "metrics": {
+        "near_miss_error": {
+          "estimate": 0.9836065573770492,
+          "ci95_source_cluster_bootstrap": [
+            0.9508196721311475,
+            1.0
+          ],
+          "n_source_clusters": 61,
+          "bootstrap_replicates": 5000
+        },
+        "overlap_shortcut": {
+          "estimate": 0.09836065573770492,
+          "ci95_source_cluster_bootstrap": [
+            0.03278688524590164,
+            0.18032786885245902
+          ],
+          "n_source_clusters": 61,
+          "bootstrap_replicates": 5000
+        },
+        "low_overlap_shortcut": {
+          "estimate": 0.47540983606557374,
+          "ci95_source_cluster_bootstrap": [
+            0.36065573770491804,
+            0.6065573770491803
+          ],
+          "n_source_clusters": 61,
+          "bootstrap_replicates": 5000
+        }
+      },
+      "by_near_miss_type": {
+        "constraint_flip": {
+          "n_items": 16,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 1.0,
+              "ci95_source_cluster_bootstrap": [
+                1.0,
+                1.0
+              ],
+              "n_source_clusters": 16,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.25,
+              "ci95_source_cluster_bootstrap": [
+                0.0625,
+                0.5
+              ],
+              "n_source_clusters": 16,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.625,
+              "ci95_source_cluster_bootstrap": [
+                0.375,
+                0.875
+              ],
+              "n_source_clusters": 16,
+              "bootstrap_replicates": 5000
+            }
+          }
+        },
+        "direction_flip": {
+          "n_items": 14,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 1.0,
+              "ci95_source_cluster_bootstrap": [
+                1.0,
+                1.0
+              ],
+              "n_source_clusters": 14,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.07142857142857142,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.21428571428571427
+              ],
+              "n_source_clusters": 14,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.42857142857142855,
+              "ci95_source_cluster_bootstrap": [
+                0.14285714285714285,
+                0.7142857142857143
+              ],
+              "n_source_clusters": 14,
+              "bootstrap_replicates": 5000
+            }
+          }
+        },
+        "goal_swap": {
+          "n_items": 10,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 0.9,
+              "ci95_source_cluster_bootstrap": [
+                0.7,
+                1.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.7,
+              "ci95_source_cluster_bootstrap": [
+                0.4,
+                1.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            }
+          }
+        },
+        "inquiry_change": {
+          "n_items": 11,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 1.0,
+              "ci95_source_cluster_bootstrap": [
+                1.0,
+                1.0
+              ],
+              "n_source_clusters": 11,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.0,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.0
+              ],
+              "n_source_clusters": 11,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.36363636363636365,
+              "ci95_source_cluster_bootstrap": [
+                0.09090909090909091,
+                0.6363636363636364
+              ],
+              "n_source_clusters": 11,
+              "bootstrap_replicates": 5000
+            }
+          }
+        },
+        "role_swap": {
+          "n_items": 10,
+          "metrics": {
+            "near_miss_error": {
+              "estimate": 1.0,
+              "ci95_source_cluster_bootstrap": [
+                1.0,
+                1.0
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "overlap_shortcut": {
+              "estimate": 0.1,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.3
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            },
+            "low_overlap_shortcut": {
+              "estimate": 0.2,
+              "ci95_source_cluster_bootstrap": [
+                0.0,
+                0.5
+              ],
+              "n_source_clusters": 10,
+              "bootstrap_replicates": 5000
+            }
+          }
+        }
+      }
+    }
+  },
+  "deduplication": {
+    "source_clusters": 61,
+    "known_target_variants": 244,
+    "positive_retrieval_recall_top10": {
+      "estimate": 0.8360655737704918,
+      "ci95_source_cluster_bootstrap": [
+        0.7786885245901639,
+        0.8934426229508197
+      ],
+      "n_source_clusters": 61,
+      "bootstrap_replicates": 5000
+    },
+    "cross_encoder_top10_threshold_fixed": {
+      "threshold": -10.400358200073242,
+      "precision": {
+        "estimate": 0.504950495049505,
+        "ci95_source_cluster_bootstrap": [
+          0.4852941176470588,
+          0.525
+        ],
+        "n_source_clusters": 61,
+        "bootstrap_replicates": 5000
+      },
+      "recall": {
+        "estimate": 0.8360655737704918,
+        "ci95_source_cluster_bootstrap": [
+          0.7786885245901639,
+          0.8934426229508197
+        ],
+        "n_source_clusters": 61,
+        "bootstrap_replicates": 5000
+      },
+      "f1": {
+        "estimate": 0.6296296296296297,
+        "ci95_source_cluster_bootstrap": [
+          0.6006389776357828,
+          0.656441717791411
+        ],
+        "n_source_clusters": 61,
+        "bootstrap_replicates": 5000
+      },
+      "confusion_counts": {
+        "precision": 0.504950495049505,
+        "recall": 0.8360655737704918,
+        "f1": 0.6296296296296297,
+        "tp": 102,
+        "fp": 100,
+        "fn": 20,
+        "tn": 22
+      },
+      "threshold_interpretation": "Hindsight-selected on these same development examples; CI is conditional on the fixed reported threshold and does not remove optimism."
+    },
+    "cosine_hindsight_threshold_fixed": {
+      "threshold": 0.16765598118799052,
+      "precision": {
+        "estimate": 0.5104602510460251,
+        "ci95_source_cluster_bootstrap": [
+          0.5020576131687243,
+          0.5213675213675214
+        ],
+        "n_source_clusters": 61,
+        "bootstrap_replicates": 5000
+      },
+      "recall": {
+        "estimate": 1.0,
+        "ci95_source_cluster_bootstrap": [
+          1.0,
+          1.0
+        ],
+        "n_source_clusters": 61,
+        "bootstrap_replicates": 5000
+      },
+      "f1": {
+        "estimate": 0.6759002770083103,
+        "ci95_source_cluster_bootstrap": [
+          0.6684931506849315,
+          0.6853932584269664
+        ],
+        "n_source_clusters": 61,
+        "bootstrap_replicates": 5000
+      },
+      "confusion_counts": {
+        "precision": 0.5104602510460251,
+        "recall": 1.0,
+        "f1": 0.6759002770083103,
+        "tp": 122,
+        "fp": 117,
+        "fn": 0,
+        "tn": 5
+      },
+      "threshold_interpretation": "Hindsight-selected on these same development examples; CI is conditional on the fixed reported threshold and does not remove optimism."
+    }
+  },
+  "sha256": {
+    "E1/contrast.jsonl": "57f95f7690746d3b22670434410c4ce80894b42f0f8dc504cac58f7d9cdaedcc",
+    "E1/eval_contrast_v2.py": "42839da93e1d2b128bda200754ed72d5d1d046ed9889a0902c8bb9eb5389a701",
+    "E1/results_v2/embedding_summary.json": "796844ddbc443c630b29aaf7ff91821dc33c080a692f4469fbaa77d22ae9663c",
+    "E1/results_v2/cross_encoder_summary.json": "c54b0230edc915ffc230427ab53de402eb51f5a78bb4a25266440cf9803f73e4",
+    "E1/results_v2/retrieval_summary.json": "41d903624385eca92cec1b1f95875b91ebad27e800d790d69b2301235b7c3a67",
+    "E1/results_v2/retrieval_target_pairs.json": "56246a5ae852fcd3f83f2f84b57693f6ea73bfa85b4f0b244e32f0d92fdc64e4"
+  },
+  "limitations": [
+    "All model scores are exploratory development outputs, not confirmatory held-out results.",
+    "The saved MS MARCO cross-encoder is a generic passage-relevance scorer, not the instructed same-research-question classifier required by the assignment.",
+    "Deduplication labels cover only B/B_min positives and C/C_tilde negatives for each query, not every candidate in the retrieval pool.",
+    "Hindsight-threshold confidence intervals condition on thresholds selected on these same examples and therefore do not remove selection optimism."
+  ]
+}

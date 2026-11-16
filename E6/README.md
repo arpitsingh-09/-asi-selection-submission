@@ -7,21 +7,28 @@ Use this directory with the repository root. The original requirements are in
 Older PRIORITY9/DRAFT notes are historical; the final preregistration record
 supersedes them. This snapshot does not claim the full assignment is complete.
 
+Current task mapping: see [`COMPLETION_REPORT.md`](COMPLETION_REPORT.md). The
+locked HypoBench held-out accuracy phase is complete in the original
+repository. Its 19 saved per-set evaluation files are byte-identically copied
+under `runs/heldout_accuracy_optimized_v1/`; never restart the runner. Recreate
+the accuracy tables from those saved files with
+`python3 E6/reproduce_saved_heldout_accuracy.py`.
+
 ## Deliverables and verified status
 
 | Requirement | Included evidence | Status |
 |---|---|---|
 | Prompts, protocols, frozen settings, scripts | `submission_v1/prompts/`, root `prompts/e6/`, E6 scripts/configurations/tests | Included; preserve root paths for execution |
-| All available completed TRAIN generations | `submission_v1/generations.jsonl`; original envelopes and call histories under `runs/priority10_train*` | 750 hypotheses, 125 successful arm cells from 19 sets |
+| All available completed TRAIN generations | `submission_v1/generations.jsonl` | 750 hypothesis rows, 125 successful arm cells from 19 data sets; source call envelopes remain in the original repository |
 | Failures and missing cells | `submission_v1/failed_generation_cells.jsonl`, `terminal_missing_cells.jsonl` | 8 failed cells plus 7 unresolved set-0007 cells; never zero-imputed |
-| Existing evaluation outputs | Original files indexed with SHA-256 in `submission_v1/manifest.json` | Stable evidence included by reference; active TEST deliberately excluded |
+| Existing evaluation outputs | `runs/heldout_accuracy_optimized_v1/` and `PACKAGING_MANIFEST.json` | 19 completed per-set outputs copied byte-for-byte; request cache and lock not copied |
 | Literature reference extraction | `data/literature_evidence_finalized_v1/` | 100 verified extractions, 20 review packets; not seven-arm experiments |
 | Independent source review | `data/literature_reviewer_documents_v1/` | 40 reviews / 280 checks pending; source-component annotations missing |
 | Evaluator validation | `data/evaluator_validation_train_v2_finalized/` | 16 responses verified; 6 identity controls correct; 0/10 independent labels; 0/4 validations complete |
-| Held-out accuracy | Separate active run; do not rerun or package while active | Pending final results |
+| Held-out accuracy | `HELDOUT_ACCURACY_REPORT.md`, `runs/heldout_accuracy_optimized_v1/` | Complete for saved data accuracy only: 125 cells, 501 TEST rows each; 15 cells missing |
 | HDR | `data/hdr_scoring_v3/`, `HDR_SCORING.md` | 0/125; denominator/mapping and actual judgments unresolved |
 | Twenty-set error analysis | `data/error_analysis_memo_v2/packets/`, review sheet and pending forms | Fixed 10 data + 10 literature cases prepared; 0/20 actual reviews |
-| One-page memo | `submission_v1/memo_one_page.md` | Verified cost summaries; outcome conclusions explicitly pending |
+| One-page memo | `submission_v1/memo_one_page.md` | Updated with saved data findings, baselines/controls, failures, limits, and next test |
 
 The submission manifest indexes stable originals rather than duplicating raw
 responses or replacing them. Keep those indexed files, original TRAIN call
@@ -61,8 +68,8 @@ schema. After final stable evaluations and genuine reviews exist, supply that
 index and reviews to `error_analysis_memo.py` in a new output directory.
 
 The inference launcher is `run_confirmatory_test.py`, documented in
-`TEST_PHASE_REQUIREMENTS.md`; the heldout_accuracy phase is already running.
-Do not invoke it again. No inference command is part of snapshot reproduction.
+`TEST_PHASE_REQUIREMENTS.md`. The heldout_accuracy phase is complete and locked;
+do not invoke it again. No inference command is part of snapshot reproduction.
 
 ## Evaluation methodology and limitations
 
@@ -87,7 +94,8 @@ control success, most-common semantic error, or deployment recommendation can be
 claimed yet. Literature seven-arm generations/evaluations and actual end-to-end
 human error analysis remain required deliverables; templates are not reviews.
 
-Next: obtain the pending independent reviews while TEST runs. When TEST has
-finished, reconcile its stable outputs and missing cells, then build the completed
-evaluation index and regenerate the memo/statistics. Literature generation and
-scoring still require their applicable gates; no restart or retry is implied.
+Next: complete the pending literature target/source reviews and evaluator
+validation, then obtain authorization for a separately frozen literature-only
+execution if time permits. Do not retry the locked data run or impute its missing
+cells. No conclusion about selection or decomposition on literature outcomes is
+supported yet.

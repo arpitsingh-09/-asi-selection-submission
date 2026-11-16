@@ -22,6 +22,37 @@ facet locality and exact-string stability outcomes, but cannot determine
 semantic facet reliability or rank a least reliable facet. These limits are
 not repaired by the controlled results.
 
+## Task 1: API implemented; semantic requirements partial
+
+`diversity(rqs: list[str], facets: bool = True) -> dict` is implemented in
+`diversity.py`, and `data/axiom_sets_v1.jsonl` supplies the frozen axiom sets.
+The callable returns mean pairwise cosine distance, Vendi score, equivalence
+class count and entropy, per-facet dispersion, and a joint quality–diversity
+count. The saved run exercises these fields on 200 sets. Its actual backend is
+fixed hash-lexical embeddings, a controlled-language regex facet extractor,
+and operational clarity/specificity gates. Those are explicit baselines, not
+the official semantic instruments. The strict cache-only backend accepts
+exact-text embeddings, bidirectional same-question cross-encoder decisions,
+facet answers, and quality judgments with provenance, but no complete genuine
+cache for the frozen sets exists. Thus the Task 1 API and numerical forms are
+implemented; validated semantic cross-encoder classes, semantic facet
+dispersion, and scientifically meaningful quality gates remain unverified.
+
+## Task 3: blocked; no real/generated comparison
+
+No protocol-eligible known groups were evaluated. The saved Semantic Scholar
+candidate-verification record has zero verified records and zero groups; its
+bounded lookup stopped at HTTP 429. The ten OpenAlex candidates are explicitly
+supplementary under the frozen protocol and cannot substitute for required
+Semantic Scholar citation evidence. There are also no source-bound question
+texts for the five real papers and no five generated questions with provenance
+from the same seeds. Therefore there is no Task 3 measure/facet comparison or
+confidence interval to report. If such groups were eventually compared,
+generator attribution would still be confounded by publication date, venue and
+field, authors, question extraction, length, source evidence, and quality-gate
+selection; a difference would be descriptive rather than a causal generator
+effect without additional controls.
+
 ## Task 2: anti-gaming axioms
 
 The preregistered decision is whether more than half of the 200 sets pass an

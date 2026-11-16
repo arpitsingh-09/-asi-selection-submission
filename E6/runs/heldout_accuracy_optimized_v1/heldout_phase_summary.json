@@ -1,0 +1,468 @@
+{
+  "cache_hits_this_invocation": 0,
+  "cache_usage_note": "Backend usage on cache hits is historical provenance, not additional token expenditure.",
+  "evaluation_phase": "heldout_accuracy",
+  "exact_request_reuse": true,
+  "full_evaluation_complete": true,
+  "generation_sets": [
+    {
+      "evaluated_arms": [
+        "D",
+        "D-empty",
+        "D-shuffled",
+        "HQ",
+        "QH"
+      ],
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0000:4b44593d53e3"
+    },
+    {
+      "evaluated_arms": [
+        "D",
+        "QH",
+        "QH-sel",
+        "QH-rand",
+        "HQ",
+        "D-empty",
+        "D-shuffled"
+      ],
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0001:f4dd50eb316a"
+    },
+    {
+      "evaluated_arms": [
+        "QH",
+        "QH-sel",
+        "QH-rand",
+        "HQ",
+        "D-empty",
+        "D-shuffled"
+      ],
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0002:157cd742897d"
+    },
+    {
+      "evaluated_arms": [
+        "D",
+        "QH",
+        "QH-sel",
+        "QH-rand",
+        "HQ",
+        "D-empty",
+        "D-shuffled"
+      ],
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0003:2dd885278cb2"
+    },
+    {
+      "evaluated_arms": [
+        "D",
+        "QH",
+        "QH-sel",
+        "QH-rand",
+        "HQ",
+        "D-empty",
+        "D-shuffled"
+      ],
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0004:56bffd79f9b2"
+    },
+    {
+      "evaluated_arms": [
+        "D",
+        "QH",
+        "QH-sel",
+        "QH-rand",
+        "HQ",
+        "D-empty",
+        "D-shuffled"
+      ],
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0005:713a53afc564"
+    },
+    {
+      "evaluated_arms": [
+        "QH",
+        "QH-sel",
+        "QH-rand",
+        "HQ",
+        "D-empty",
+        "D-shuffled"
+      ],
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0006:d2196c978877"
+    },
+    {
+      "evaluated_arms": [
+        "D",
+        "QH",
+        "QH-sel",
+        "QH-rand",
+        "HQ",
+        "D-empty",
+        "D-shuffled"
+      ],
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0008:3ac85a345990"
+    },
+    {
+      "evaluated_arms": [
+        "QH",
+        "QH-sel",
+        "QH-rand",
+        "HQ",
+        "D-empty",
+        "D-shuffled"
+      ],
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0009:f87672ddc715"
+    },
+    {
+      "evaluated_arms": [
+        "D",
+        "QH",
+        "QH-sel",
+        "QH-rand",
+        "HQ",
+        "D-empty",
+        "D-shuffled"
+      ],
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0010:2bb41ec842c2"
+    },
+    {
+      "evaluated_arms": [
+        "D",
+        "QH",
+        "QH-sel",
+        "QH-rand",
+        "HQ",
+        "D-empty",
+        "D-shuffled"
+      ],
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0011:a26c8c80a830"
+    },
+    {
+      "evaluated_arms": [
+        "D",
+        "QH",
+        "QH-sel",
+        "QH-rand",
+        "HQ",
+        "D-empty",
+        "D-shuffled"
+      ],
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0012:389f9702d175"
+    },
+    {
+      "evaluated_arms": [
+        "D",
+        "QH",
+        "QH-sel",
+        "QH-rand",
+        "HQ",
+        "D-empty",
+        "D-shuffled"
+      ],
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0013:cdb388bd85ad"
+    },
+    {
+      "evaluated_arms": [
+        "D",
+        "QH",
+        "QH-sel",
+        "QH-rand",
+        "HQ",
+        "D-empty",
+        "D-shuffled"
+      ],
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0014:c98fd1f5b397"
+    },
+    {
+      "evaluated_arms": [
+        "D",
+        "QH",
+        "QH-sel",
+        "QH-rand",
+        "HQ",
+        "D-empty",
+        "D-shuffled"
+      ],
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0015:6949369dd111"
+    },
+    {
+      "evaluated_arms": [
+        "D",
+        "QH",
+        "HQ",
+        "D-empty",
+        "D-shuffled"
+      ],
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0016:fe31c77d0598"
+    },
+    {
+      "evaluated_arms": [
+        "D",
+        "QH",
+        "QH-sel",
+        "QH-rand",
+        "HQ",
+        "D-empty",
+        "D-shuffled"
+      ],
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0017:1dec51397785"
+    },
+    {
+      "evaluated_arms": [
+        "D",
+        "QH",
+        "QH-sel",
+        "QH-rand",
+        "HQ",
+        "D-empty",
+        "D-shuffled"
+      ],
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0018:b494f9ac8f33"
+    },
+    {
+      "evaluated_arms": [
+        "D",
+        "QH",
+        "QH-rand",
+        "HQ",
+        "D-empty",
+        "D-shuffled"
+      ],
+      "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0019:e7f02a62e08f"
+    }
+  ],
+  "imported_attempts": 1259,
+  "new_requests_this_invocation": 0,
+  "note": "All 501 rows remain in each evaluable denominator. Retained invalid prior attempts are incorrect, never retried. No claim that observations were historically unseen.",
+  "progress_history": [
+    {
+      "cache_hits_this_invocation": 9002,
+      "cache_usage_note": "Backend usage on cache hits is historical provenance, not additional token expenditure.",
+      "evaluation_phase": "heldout_accuracy",
+      "exact_request_reuse": true,
+      "full_evaluation_complete": false,
+      "generation_sets": [
+        {
+          "evaluated_arms": [
+            "D",
+            "D-empty",
+            "D-shuffled",
+            "HQ",
+            "QH"
+          ],
+          "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0000:4b44593d53e3"
+        },
+        {
+          "evaluated_arms": [
+            "D",
+            "QH",
+            "QH-sel",
+            "QH-rand",
+            "HQ",
+            "D-empty",
+            "D-shuffled"
+          ],
+          "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0001:f4dd50eb316a"
+        },
+        {
+          "evaluated_arms": [
+            "QH",
+            "QH-sel",
+            "QH-rand",
+            "HQ",
+            "D-empty",
+            "D-shuffled"
+          ],
+          "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0002:157cd742897d"
+        },
+        {
+          "evaluated_arms": [
+            "D",
+            "QH",
+            "QH-sel",
+            "QH-rand",
+            "HQ",
+            "D-empty",
+            "D-shuffled"
+          ],
+          "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0003:2dd885278cb2"
+        },
+        {
+          "evaluated_arms": [
+            "D",
+            "QH",
+            "QH-sel",
+            "QH-rand",
+            "HQ",
+            "D-empty",
+            "D-shuffled"
+          ],
+          "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0004:56bffd79f9b2"
+        },
+        {
+          "evaluated_arms": [
+            "D",
+            "QH",
+            "QH-sel",
+            "QH-rand",
+            "HQ",
+            "D-empty",
+            "D-shuffled"
+          ],
+          "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0005:713a53afc564"
+        },
+        {
+          "evaluated_arms": [
+            "QH",
+            "QH-sel",
+            "QH-rand",
+            "HQ",
+            "D-empty",
+            "D-shuffled"
+          ],
+          "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0006:d2196c978877"
+        },
+        {
+          "evaluated_arms": [
+            "D",
+            "QH",
+            "QH-sel",
+            "QH-rand",
+            "HQ",
+            "D-empty",
+            "D-shuffled"
+          ],
+          "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0008:3ac85a345990"
+        },
+        {
+          "evaluated_arms": [
+            "QH",
+            "QH-sel",
+            "QH-rand",
+            "HQ",
+            "D-empty",
+            "D-shuffled"
+          ],
+          "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0009:f87672ddc715"
+        },
+        {
+          "evaluated_arms": [
+            "D",
+            "QH",
+            "QH-sel",
+            "QH-rand",
+            "HQ",
+            "D-empty",
+            "D-shuffled"
+          ],
+          "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0010:2bb41ec842c2"
+        },
+        {
+          "evaluated_arms": [
+            "D",
+            "QH",
+            "QH-sel",
+            "QH-rand",
+            "HQ",
+            "D-empty",
+            "D-shuffled"
+          ],
+          "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0011:a26c8c80a830"
+        },
+        {
+          "evaluated_arms": [
+            "D",
+            "QH",
+            "QH-sel",
+            "QH-rand",
+            "HQ",
+            "D-empty",
+            "D-shuffled"
+          ],
+          "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0012:389f9702d175"
+        },
+        {
+          "evaluated_arms": [
+            "D",
+            "QH",
+            "QH-sel",
+            "QH-rand",
+            "HQ",
+            "D-empty",
+            "D-shuffled"
+          ],
+          "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0013:cdb388bd85ad"
+        },
+        {
+          "evaluated_arms": [
+            "D",
+            "QH",
+            "QH-sel",
+            "QH-rand",
+            "HQ",
+            "D-empty",
+            "D-shuffled"
+          ],
+          "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0014:c98fd1f5b397"
+        },
+        {
+          "evaluated_arms": [
+            "D",
+            "QH",
+            "QH-sel",
+            "QH-rand",
+            "HQ",
+            "D-empty",
+            "D-shuffled"
+          ],
+          "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0015:6949369dd111"
+        },
+        {
+          "evaluated_arms": [
+            "D",
+            "QH",
+            "HQ",
+            "D-empty",
+            "D-shuffled"
+          ],
+          "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0016:fe31c77d0598"
+        },
+        {
+          "evaluated_arms": [
+            "D",
+            "QH",
+            "QH-sel",
+            "QH-rand",
+            "HQ",
+            "D-empty",
+            "D-shuffled"
+          ],
+          "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0017:1dec51397785"
+        },
+        {
+          "evaluated_arms": [
+            "D",
+            "QH",
+            "QH-sel",
+            "QH-rand",
+            "HQ",
+            "D-empty",
+            "D-shuffled"
+          ],
+          "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0018:b494f9ac8f33"
+        },
+        {
+          "evaluated_arms": [
+            "D",
+            "QH",
+            "QH-rand",
+            "HQ",
+            "D-empty",
+            "D-shuffled"
+          ],
+          "generation_input_set_id": "hypobench-synthetic-election-level2:TRAIN-SET:0019:e7f02a62e08f"
+        }
+      ],
+      "imported_attempts": 1259,
+      "new_requests_this_invocation": 50187,
+      "note": "All 501 rows remain in each evaluable denominator. Retained invalid prior attempts are incorrect, never retried. No claim that observations were historically unseen.",
+      "retained_invalid_assignments_this_invocation": 18
+    }
+  ],
+  "retained_invalid_assignments_this_invocation": 0
+}

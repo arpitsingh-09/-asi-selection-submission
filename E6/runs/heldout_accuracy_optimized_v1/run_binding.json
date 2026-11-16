@@ -1,0 +1,36 @@
+{
+  "plan": {
+    "context_sha256": "e38c52271dc89e94b8c6b01fcef3bf33530dd209fa63ae096f204c1d9cc5420d",
+    "evaluable_cells": 125,
+    "exact_reuse_assignments": 9018,
+    "excluded_generation_cells": 15,
+    "heldout_scope": "TRAIN/TEST text overlap rejected; TEST labels stripped from prediction input. Historical researcher TEST-label exposure remains disclosed in PREREG.",
+    "ideal_request_count_speedup": 1.1682242990654206,
+    "maximum_unique_requests": 53607,
+    "new_inference_calls_this_preparation": 0,
+    "plan_sha256": "555d5b80d562dae097388b15b9c7c1909bae66c7869ef029d3d54e2114a2b8ad",
+    "planned_cells": 140,
+    "policy": "identical model, rendered prompt, options and output cap only; no semantic cache",
+    "prediction_assignments": 62625,
+    "schema_version": "e6-exact-request-heldout-v1",
+    "source_hashes": {
+      "E6/PREREG.md": "00922ad1779b6bfa0c29e788092a72670a0bd276dc247b76dac42e4e0d32abfe",
+      "E6/config.json": "43570cec362353db9218891b1fb975c5382bfbc1c233daf8db94206eb28a1b50",
+      "E6/evaluation_config.json": "c14605e340fcfe85897364f82c7a8d8a8eb2b4eaf5738f5c8dc73ff7a504e023",
+      "E6/hypobench_policies.py": "d2d92eb4963735c09b047833e83b381b91af215df71e685fd1e1df1fc5a102ee",
+      "E6/inductive_execution.py": "dc2b676fab7b190d8a1a9329b09e83d0a622e3344727d5e0469bc5781ba47fd7",
+      "E6/ollama_adapter.py": "1a2d83c1b33bb8dd3c9479904754ae13136ba722f52936055ab6abe71e836455",
+      "E6/prepare_hypobench_inductive.py": "296d1ce5df21ba36f7bf7a0b52f5677e5a2b21dda6b056e603e9836728d81801",
+      "E6/run_heldout_optimized.py": "f3cd84edc49fd1197800bc0a579cfb2b5ad9721ac3d6e414e338a42e28bb50b8",
+      "prompts/e6/13_hypobench_heldout_prediction.txt": "ffece8aa1fb663297c788551c5433e4d89c534cb9be4d928162d87eda3a318e4"
+    },
+    "test_manifest_sha256": "b4a7c6da1ef9f0bf9bb27c160c850ab4a2b8cd3a7082e4ee48d82223f7ea6cc0",
+    "test_rows": 501,
+    "training_source_sha256": "b8b51f4cc1324309b107d994af3001b6af99a8b8f8ca9aa6122317f6a438462f",
+    "unique_hypothesis_sets": 107,
+    "unique_test_observations": 501
+  },
+  "source": "/Users/arpit/asi-selection/E6/runs/heldout_accuracy_v1",
+  "unresolved_policy": "retain-invalid",
+  "workers": 1
+}

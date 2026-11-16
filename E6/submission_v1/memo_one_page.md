@@ -1,32 +1,49 @@
-# E6 research-agent memo — provisional submission snapshot
+# E6 memo for research-agent designers
 
-**Decision: pending verified outcome evaluation.** Whether questions-first decomposition helps, selection beats random choice, or controls degrade cannot be concluded from generation alone.
+**Recommendation:** Do not adopt questions-first decomposition or question
+selection on these results alone. The saved HypoBench experiment is incomplete,
+and the required literature reconstruction comparison has no generated arms.
 
-| Arm | Data accuracy | Literature hypothesis similarity | Data generated-token cost |
-|---|---|---|---|
-| D | pending | pending | 206 [202, 209] (n=19) |
-| QH | pending | pending | 410 [402, 419] (n=19) |
-| QH-sel | pending | pending | 2.05e+03 [2.02e+03, 2.08e+03] (n=19) |
-| QH-rand | pending | pending | 1.71e+03 [1.68e+03, 1.74e+03] (n=19) |
-| HQ | pending | pending | 460 [451, 469] (n=19) |
-| D-empty | pending | pending | 259 [259, 259] (n=19) |
-| D-shuffled | pending | pending | 226 [222, 229] (n=19) |
+On the data testbed, exact-match accuracy (mean across available TRAIN
+generation sets; 95% input-set bootstrap interval) was:
 
-Entries are arithmetic means with descriptive 95% bootstrap intervals and available input-set counts; unavailable outcomes are pending. Costs include charged failed-arm work and shared preparation under the frozen per-arm accounting; do not sum shared costs across arms.
+| Arm | Sets | Accuracy, 95% CI |
+|---|---:|---:|
+| D | 16 | 5.00% [0.00, 10.94] |
+| QH | 19 | 2.96% [0.00, 7.15] |
+| QH-sel | 16 | 1.31% [0.00, 3.16] |
+| QH-rand | 17 | 1.49% [0.00, 3.71] |
+| HQ | 19 | 2.27% [0.00, 4.75] |
+| D-empty | 19 | 27.74% [27.74, 27.74] |
+| D-shuffled | 19 | 8.09% [0.00, 16.36] |
 
-**Conditions and controls.** Paired differences (left minus right):
+Paired differences do not show a clear decomposition benefit: D−QH was
++2.32 percentage points (n=16; 95% CI [0.00, 5.70]). Selection did not beat
+random selection: QH-sel−QH-rand was −0.27 pp (n=16; [−0.79, 0.00]). Neither
+comparison is the registered literature primary outcome.
 
-| Contrast | Data accuracy | Literature hypothesis similarity |
-|---|---|---|
-| QH − D | pending | pending |
-| QH-sel − QH-rand | pending | pending |
-| QH − D-shuffled | pending | pending |
-| D − D-empty | pending | pending |
+**Controls and failure.** Both controls scored above D by point estimate:
+D-empty was 27.74% and D-shuffled 8.09%, versus D at 5.00%. This is not
+evidence that removing or shuffling evidence helps: 0.20% of D-empty
+predictions were invalid, versus 84–88% for other arms. Overall, 45,354 of
+62,625 TEST predictions were invalid; 45,324 were local Ollama connection
+refusals. Preserve transport errors separately from semantic errors and detect
+them before output parsing. In a saved TRAIN example, D asserted that
+third-party-debate frustration was more frequent among Republican-labelled
+users, while the four matching records split evenly (two Republican, two
+Democratic). This is one AI-assisted example, not a human annotation.
 
-**Error analysis.** 0/20 fixed cases have attributed end-to-end reviews. Saved examples and failure records are provided for all seven arms; semantic error judgments remain pending. No most-common failure is claimed without completed coding.
+**Cost, limits, next test.** The shared generation cap was 8,192 tokens per
+set/arm. The saved runtime is Gemma 3 12B Q4_K_M, temperature 0, seed 2026.
+Completed cells account for 90,833 generated tokens; failed-attempt charges
+are not complete. Fifteen of 140 data cells are missing, and the fixed
+20-case review has no completed human review; only nine sampled data sets have
+any arm outputs. Literature reconstruction, HDR, already-asked rate, diversity
+and question-type outcomes are unavailable. After evaluator validation and
+the required source/target reviews, test literature reconstruction under a
+separately approved protocol. Do not restart the locked HypoBench run.
 
-**Scope and limits.** Testbeds remain separate. Failed generation and unresolved TRAIN set 0007 are missing, not zero. Literature reference extraction is not seven-arm experimental output. HDR, historical-question rates, diversity and question types remain pending where genuine scoring is unavailable.
-
-**Method and cost.** One frozen model/decoding configuration, 8192 generated-token cap per set/arm, six hypotheses. Bootstrap: 10,000 input-set resamples, seed 2026, SHA256-seeded MT19937 streams, linear-percentile intervals; complete pairs for contrasts. Intervals are unadjusted and descriptive. See analysis.json and error review packets for provenance and denominators.
-
-**Submission status.** Literature extraction: 100/100 verified, with 40 independent source reviews still pending. Evaluator pilot: 16/16 responses verified, 0/10 independent judgments. HDR: 0/125 scored. Held-out accuracy is running separately; its partial outputs are excluded. Literature seven-arm experiments and 20-case end-to-end human coding are incomplete. These gaps prevent a defensible benefit or deployment recommendation.
+Reproduce saved data accuracy and paired intervals, without generation or
+model scoring: `python3 E6/reproduce_saved_heldout_accuracy.py`. See
+`E6/COMPLETION_REPORT.md` for model, missingness, full comparisons, hashes and
+limitations.

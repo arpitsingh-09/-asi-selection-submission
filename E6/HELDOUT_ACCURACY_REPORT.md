@@ -158,106 +158,20 @@ not E6 Task 2 as a whole.
 
 ## Read-only reproduction
 
-Run from the repository root. This command validates each completed evaluation
-hash, the exact 501-row manifest order and stored accuracy counts, reconstructs
-the 20-unit source list from the readiness ledger (including the entirely
-missing set), and recomputes arm means and all 21 paired intervals from saved
-summary records. It performs no inference, writes no files, and does not touch
-the locked source run.
+The original run's 19 per-input-set evaluation files are copied byte-for-byte
+under `E6/runs/heldout_accuracy_optimized_v1/`. Each copy is listed with size
+and SHA-256 in `PACKAGING_MANIFEST.json`; the complete request cache and run
+lock were not copied. To verify those copied outputs, reconstruct the 501-row
+TEST alignment and recompute arm means, all 21 paired intervals, invalid
+counts, and successful generation-token totals, run from the submission root:
 
 ```sh
-python3 - <<'PY'
-import json, sys
-from pathlib import Path
-sys.path.insert(0, 'E6')
-from evaluation import ARMS, _hash_json
-from statistical_analysis import analyze_evaluations
-
-root = Path('.')
-run = root / 'E6/runs/heldout_accuracy_optimized_v1'
-manifest = json.loads((root / 'E6/data/hypobench_election_level2_test_manifest_v1.json').read_text())
-test_ids = [r['input_set_id'] for r in manifest['records']]
-assert len(test_ids) == 501 and len(set(test_ids)) == 501
-sources, seen = [], set()
-from collections import Counter
-arm_totals = Counter()
-for path in sorted(run.glob('*/*_evaluation.json')):
-    row = json.loads(path.read_text())
-    assert row['result_sha256'] == _hash_json({k:v for k,v in row.items() if k != 'result_sha256'})
-    unit = row['generation_input_set_id']; seen.add(unit)
-    for arm, cell in row['evaluations'].items():
-        if cell.get('status') != 'evaluated': continue
-        record = cell['heldout']['heldout_accuracy']
-        assert record['status'] == 'succeeded'
-        assert record['evaluation_input']['input_set_ids'] == test_ids
-        scored = record['parsed_output']
-        assert scored['denominator'] == 501
-        assert scored['correct'] == sum(a == b for a,b in zip(record['evaluation_input']['true_labels'], record['evaluation_input']['predicted_labels']))
-        arm_totals[(arm,'sets')] += 1
-        arm_totals[(arm,'correct')] += scored['correct']
-        arm_totals[(arm,'rows')] += scored['denominator']
-        arm_totals[(arm,'invalid')] += scored['invalid_prediction_count']
-    sources.append({'generation_input_set_id':unit, 'evaluations':row['evaluations']})
-readiness = json.loads((root / 'E6/data/heldout_accuracy_readiness_v1.json').read_text())
-planned = sorted({j['input_set_id'] for j in readiness['jobs'] if ':TRAIN-SET:' in j.get('input_set_id','')})
-for unit in planned:
-    if unit not in seen:
-        sources.append({'generation_input_set_id':unit, 'evaluations':{a:{'status':'missing'} for a in ARMS}})
-config = json.loads((root / 'E6/evaluation_config.json').read_text())['paired_bootstrap']
-result = analyze_evaluations(sources, testbed='data', metric='heldout_accuracy',
-    value_path=['heldout','heldout_accuracy','parsed_output','accuracy'],
-    comparisons=[tuple(p) for p in config['comparisons']],
-    replicates=config['replicates'], seed=config['seed'], missing_policy='complete_pairs')
-print('arm means / 95% CIs')
-for arm, value in result['arm_estimates'].items():
-    print(arm, 'sets', value['included_count'], 'accuracy', value['point_estimate'], 'CI', value['interval'],
-          'correct', arm_totals[(arm,'correct')], 'rows', arm_totals[(arm,'rows')],
-          'invalid', arm_totals[(arm,'invalid')])
-print('paired contrasts / 95% CIs')
-for name, value in result['comparisons'].items():
-    print(name, value['included_count'], value['point_estimate'], value['interval'])
-PY
+python3 E6/reproduce_saved_heldout_accuracy.py
 ```
 
-This second read-only command verifies the unique request-cache entry/reply
-hashes, totals known prompt/output tokens from finished replies, and deduplicates
-the saved generation-token rows by their registered accounting IDs. It never
-calls the model or writes files:
-
-```sh
-python3 - <<'PY'
-import json
-from collections import Counter
-from pathlib import Path
-import sys
-sys.path.insert(0, 'E6')
-from evaluation import _hash_json
-
-run = Path('E6/runs/heldout_accuracy_optimized_v1')
-cache_counts = Counter(); prompt = output = total = 0
-for path in (run/'request_cache').glob('*.json'):
-    if path.name.endswith('.started.json'): continue
-    row = json.loads(path.read_text()); assert row['entry_sha256'] == _hash_json({k:v for k,v in row.items() if k != 'entry_sha256'})
-    terminal = row['terminal']; cache_counts[terminal['status']] += 1
-    if terminal['status'] == 'finished':
-        reply = terminal['reply']; assert terminal['reply_sha256'] == _hash_json(reply)
-        prompt += reply.get('input_tokens', 0); output += reply.get('output_tokens', 0); total += reply.get('total_tokens', 0)
-generation_cost = {}
-for path in run.glob('*/*_evaluation.json'):
-    row = json.loads(path.read_text())
-    for item in row.get('generation_records', []):
-        key = item.get('token_accounting_id'); value = item.get('tokens_generated')
-        if key and isinstance(value, int):
-            assert key not in generation_cost or generation_cost[key] == value
-            generation_cost[key] = value
-assert cache_counts == {'finished':8279, 'failed':45325, 'unresolved_retained_invalid':3}
-assert (prompt, output, total) == (4907623, 195806, 5103429)
-assert len(generation_cost) == 125 and sum(generation_cost.values()) == 90833
-print('unique request keys:', sum(cache_counts.values()), dict(cache_counts))
-print('finished-reply prompt/output/total tokens:', prompt, output, total)
-print('successful-generation workflow token total:', sum(generation_cost.values()))
-PY
-```
-
-Request-cache `*.started.json` intent markers are not terminal responses and
-must not be counted as completed calls.
+This command reads saved files only. It does not invoke the held-out runner,
+generate hypotheses, call a model/evaluator, impute missing cells, or write
+files. The original request-cache token totals above are preserved as reported
+source evidence but cannot be regenerated from this submission copy because the
+large request cache was intentionally not duplicated. The locked evaluation
+must not be restarted.

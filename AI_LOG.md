@@ -109,3 +109,110 @@ E6 and Ollama preserved. No push. See E2/TASK3_EXECUTION.md.
 - Codex made documentation-only edits to this log, `NOTEBOOK.md`, and
   `M/FINAL_REPORT.md`; no inference, scoring, training, protocol, result, or
   dataset was changed.
+
+## 2026-11-16 — T1 theory answer
+
+- Codex read T1 on official PDF pages 8–11 and checked the relation and
+  near-miss definitions on pages 4–5. It drafted the derivations, examples,
+  controls, geometry proposal, and answer-sheet entries in `theory/T1.md`.
+- Threshold-vector dot products, box volumes/intersection, and answer-set
+  inclusion were checked against the PDF. The length-shortcut argument
+  distinguishes a mean association from pairwise ordering. No experiments,
+  model runs, or empirical results were added.
+
+
+## 2026-11-16 — Theory T1–T5 completion
+
+- Codex checked the official assignment’s theory questions and answer-sheet fields (T1–T5, PDF pp. 8–25) against `theory/T1.md`–`theory/T5.md`, independently recalculated the displayed numeric results, and edited theory explanations and consolidated answer sheets. T3’s two-generator leaderboard and T2–T4 answer-sheet coverage were added; proposed checks remain explicitly designs, not empirical findings.
+- Arithmetic checks included T2 reliability/partial correlation, T3 Bayes/power/interval, T4 attenuation angle, and T5 entropy/mutual information. No Main Problem protocols, data, results, inference, training, or experiments were touched.
+
+## 2026-11-16 — E1 saved-evidence completion analysis
+
+- Codex read official E1 requirements (PDF pp. 28–29), the frozen E1 protocol,
+  item validators, saved model outputs, source-date inventory, and review notes.
+  It added a read-only standard-library analysis script and supplemental report
+  using existing outputs only. The script recomputes overall/per-type metrics
+  and 95% source-paper-cluster bootstrap intervals (5,000 resamples), plus
+  deduplication intervals that keep each query's four variants together.
+- The saved MS MARCO cross-encoder was identified as a generic passage-relevance
+  scorer, not the assignment's instructed identity judge. No inference or model
+  training was run; no held-out test file was opened; no existing outputs,
+  frozen data, or preregistration were changed. Task 3 is described as
+  retrospective because the numeric predictions cannot be verified as
+  pre-evaluation under the conservative frozen chronology.
+
+## 2026-11-16 — E1 source alignment review and protocol check
+
+- Codex inspected official E1 pages 28–29, the frozen E1 model/configuration
+  entries, evaluator, and saved source metadata. It performed a new retrospective
+  AI-assisted comparison of each of the 61 A questions with its locally saved
+  arXiv abstract and recorded item-level evidence locators and review dates in
+  `E1/source_question_review_2026-11-16.csv`. This verifies semantic support from
+  the saved abstract only; exact author-question provenance, the fixed prompt,
+  manual-edit history, independent human review, and historical 24-hour rereads
+  are not claimed.
+- The only frozen cross-encoder is explicitly a generic MS MARCO passage-
+  relevance scorer, whereas the assignment requires an instructed same-question
+  judge. No compliant alternative model/prompt configuration is recorded, so no
+  new model inference was run. Existing model outputs and frozen files were
+  preserved; no held-out file was opened.
+
+## 2026-11-16 — E2 saved-evidence completion report
+
+- Codex read the official E2 instructions and consolidated existing saved
+  Task 1/2 reports, cache-only extension summaries, Task 3 provenance evidence,
+  and the Task 4 interpretation into `E2/COMPLETION_REPORT.md`. It added a
+  current-status pointer to the E2 README while retaining earlier reports.
+- Codex created a blank 299-row first-publication source-review form from
+  existing forum IDs, titles, abstract hashes, and observed OpenReview dates.
+  Reviewer fields, first-publication dates, eligibility decisions, novelty
+  judgments, and results remain blank. This form is for retrospective source
+  provenance review, not independent human labeling.
+- Existing protected score-file hashes were checked against the saved report.
+  No scoring, inference, training, experiment, or test suite was run; protected
+  results and frozen datasets were not modified.
+
+## 2026-11-16 — E5 task completion review
+
+- Codex read the official E5 pages 36–37 and reviewed the frozen E5
+  preregistration, diversity API, controlled dataset, saved baseline outputs,
+  cluster-bootstrap code, and Semantic Scholar candidate verification.
+  It added an explicit Task 1 and Task 3 accounting to `E5/RESULTS.md`,
+  distinguishing implemented lexical/rule baselines from missing semantic
+  evidence and documenting why the OpenAlex candidates do not meet the frozen
+  Semantic Scholar requirement.
+- Codex executed the existing read-only saved-results consistency command
+  logic: 200 per-set rows, Task 2/4 interval summaries, controls, and frozen
+  input hashes matched. No scorer, inference, training, or experiment was run;
+  existing results, datasets, and preregistration were not changed.
+
+
+## 2026-11-16 — E6 finalization from locked saved outputs
+
+- Codex read official E6 Tasks 1–4 (PDF pp. 38–40), the E6 preregistration,
+  protocol, seven-arm implementation, saved development artifacts, and the
+  completed held-out accuracy report. It found the raw held-out result files
+  were absent from the submission copy but present in the original repository.
+  It copied the 19 saved per-set evaluation JSON files and five run-provenance
+  files byte-for-byte into a new submission path and recorded SHA-256 hashes;
+  the original run, request cache, execution lock, generations, and labels were
+  not modified.
+- Codex created a read-only summary reproducer, updated the one-page E6 memo,
+  and documented the preregistration, coverage, control, error-analysis, and
+  missing-literature limitations. It checked one saved TRAIN example: a D-arm
+  directional claim said third-party-debate frustration was more frequent
+  among Republican-labelled users, while the four matching source examples
+  split two per label. This is AI-assisted review, not a human judgment.
+- The saved accuracy summary and all paired intervals were recomputed from the
+  copied records; hashes, 501-row alignment, and per-cell counts matched. No
+  held-out run, generation, inference, training, or human review was performed.
+
+## 2026-11-16 — E6 frozen-sample error evidence inventory
+
+- Codex joined all 20 frozen Task 3 sample IDs to the saved source packets,
+  generation rows, and existing per-set held-out evaluation JSONs, then wrote
+  `E6/TASK3_ERROR_ANALYSIS.md` and updated the Task 3 section of
+  `E6/COMPLETION_REPORT.md`. It distinguished saved-output/schema inspection
+  from independent human review, which remains 0/20, and did not change the
+  sample, protocols, generations, labels, or results. No inference, generation,
+  scoring, or human judgments were performed.
