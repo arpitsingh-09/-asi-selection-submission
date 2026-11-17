@@ -38,10 +38,12 @@ set/arm. The saved runtime is Gemma 3 12B Q4_K_M, temperature 0, seed 2026.
 Completed cells account for 90,833 generated tokens; failed-attempt charges
 are not complete. Fifteen of 140 data cells are missing, and the fixed
 20-case review has no completed human review; only nine sampled data sets have
-any arm outputs. Literature reconstruction, HDR, already-asked rate, diversity
-and question-type outcomes are unavailable. After evaluator validation and
-the required source/target reviews, test literature reconstruction under a
-separately approved protocol. Do not restart the locked HypoBench run.
+any arm outputs. Literature reconstruction, HDR and already-asked rate remain
+unavailable. Exploratory post-hoc lexical diversity and rule-based question-type
+summaries now exist in `E6/POST_HOC_ANALYSIS_2026-11-17.md`; they are not validated
+semantic or human-reviewed outcomes. After evaluator validation and required
+source/target reviews, test literature reconstruction under a separately
+approved protocol. Do not restart the locked HypoBench run.
 
 Reproduce saved data accuracy and paired intervals, without generation or
 model scoring: `python3 E6/reproduce_saved_heldout_accuracy.py`. See
