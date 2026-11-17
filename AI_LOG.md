@@ -236,3 +236,18 @@ E6 and Ollama preserved. No push. See E2/TASK3_EXECUTION.md.
   submission status. No data, result, protocol, frozen file, or AI-workflow
   source was changed. No inference, scoring, training, experiment, or test
   suite was run; no commit or push was made.
+
+## 2026-11-17 — Main Problem final evidence audit
+
+- Codex checked `M/FINAL_REPORT.md` against the official Main Problem rubric
+  (assignment pages 42–46), `M/PREREG.md`, the stage-5 ledger, saved
+  supplementary A1/S1 results, the V2 generation and exploratory review
+  records, and the Main Problem AI-use disclosures. The stage-5 ledger
+  confirms 0/9 original evaluations completed and all nine blocked.
+- Offline recomputation matched the saved supplementary A1 statistics and V2
+  exploratory agreement values. The report's local artifact links resolve and
+  available frozen-file hashes match. Its Markdown source is 2,276 words
+  (18,004 characters); no Markdown-to-PDF renderer was available for an exact
+  rendered-page count. No report correction was supported by the inspected
+  evidence.
+- No inference, scoring, training, protocol change, or experiment was run.
