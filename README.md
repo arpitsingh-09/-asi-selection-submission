@@ -54,7 +54,7 @@ The supplementary S1 result is retained as [`main/results/S1_exploratory_results
 
 ### Packaging and provenance notes
 
-- `main/REPORT.md` renders to **4 pages** in the local Letter-size print check (RDoc Markdown conversion to text followed by the system PDF text printer; 612 × 792 pt). The assignment specifies an eight-page maximum but no font or margin settings; this is a reproducible local pagination check, not a guarantee of an identical organizer-side renderer.
+- `main/REPORT.md` renders to **7 pages** in the local Letter-size print check (RDoc Markdown conversion to text followed by the system PDF text printer; 612 × 792 pt), within the eight-page maximum. The assignment does not fix font or margins, so organizer-side pagination may differ.
 - The root preregistration records E1/E2/E4, while tracked experiment deliverables include E1/E2/E5 and no E4 folder. E5 has a dated experiment preregistration, but no dated amendment changing the selected experiment set was found. Treat this selection discrepancy as unresolved; see the [dated retrospective clarification](PROVENANCE/experiment-selection-clarification-2026-11-16.md).
-- No completed T1 answer was found in the submitted theory files or the original repository’s working tree/history. No replacement answer is supplied.
+- Theory answer files for T1–T5 are present under `theory/`; `theory/T1.md` includes the T1 answer-sheet entries.
 - Original Main Problem Git commit objects and the preregistration tree binding are preserved in `PROVENANCE/`; verify them with `python3 -B PROVENANCE/verify_original_git_history.py`. The commit timestamps are preserved as authored/committed fields, not independently trusted wall-clock attestations.
