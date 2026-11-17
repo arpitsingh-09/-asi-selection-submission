@@ -216,3 +216,23 @@ E6 and Ollama preserved. No push. See E2/TASK3_EXECUTION.md.
   from independent human review, which remains 0/20, and did not change the
   sample, protocols, generations, labels, or results. No inference, generation,
   scoring, or human judgments were performed.
+
+## 2026-11-17 — Main Problem report evidence audit
+
+- Codex compared `main/REPORT.md` with the saved Main Problem ledger, frozen
+  protocol, supplementary A1/S1 and grounding artifacts, implementation
+  contracts, and prior AI-use disclosures. It clarified which results belong
+  to the original frozen battery, a supplementary registered run, or
+  exploratory analysis; added evidence-linked failure examples and a
+  design-to-evidence table; and added read-only reproduction commands.
+- The report continues to identify the original nine evaluations as blocked.
+  It does not treat the two-cluster A1 supplement, exposed E1-based S1 analysis,
+  or exploratory V2 review agreement as completion of an original test.
+  Hashes for the five cited report-package result snapshots were checked
+  against their canonical artifacts. Existing disclosures about the future-arrival and
+  future-answer implementation errors were retained and linked to synthetic
+  checks.
+- Codex updated `main/README.md` to state the package/provenance boundary and
+  submission status. No data, result, protocol, frozen file, or AI-workflow
+  source was changed. No inference, scoring, training, experiment, or test
+  suite was run; no commit or push was made.
