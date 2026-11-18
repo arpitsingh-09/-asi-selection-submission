@@ -144,13 +144,17 @@ E2 offline validation: 44 tests passed; no scoring files changed.
   fabricated.
 - Read-only checks: Git provenance verified (138 commit objects); E1 dataset
   validator passes (61 items, all minimum type quotas, 43 length-flipped); all
-  36 E5 unit tests pass. The Main Problem suite cannot fully run here because
-  `torch` is absent; two tests import the E2 scorer and enforce its frozen
-  implementation hash. Its code was restored unchanged after diagnosing this.
+  36 E5 unit tests pass. The Main Problem suite passes 123 software tests when
+  run with import-only sentinels; real inference remains untested because
+  `torch` is absent, and its preregistered scorer remains unchanged.
 - Added `SUBMISSION_STATUS.md` to summarize existing evidence, unresolved
   requirements, and the disclosed historical E4/E5 selection mismatch.
 - Attempted isolated installation of pinned `torch`, `transformers`, and
   `adapters`; DNS/network restrictions prevented package-index access. Added
   `tools/test_main_without_model_deps.py`, an import-only sentinel test runner;
   all 123 software tests pass without invoking inference.
+- Ollama has a local Gemma 3 12B model asset, but sandbox policy forbids the
+  localhost bind needed to run it. Direct Semantic Scholar page/API retrieval
+  is unavailable through the current web tool. No missing model generation or
+  citation record was simulated.
 

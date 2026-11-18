@@ -27,6 +27,23 @@ official evaluations.
   edit to the frozen E2 scorer was reverted because its registered hash check
   correctly rejected the changed file.
 
+## Remaining execution blockers
+
+- Pinned `torch==2.8.0`, `transformers==4.57.6`, and `adapters==1.3.0` could
+  not be installed in an isolated Python 3.12 environment because PyPI
+  resolution/network access is unavailable. The available Python 3.9 has no
+  inference packages.
+- Local Ollama model assets exist, including `gemma3:12b`, but starting the
+  local inference service fails with `bind: operation not permitted`; the
+  sandbox also blocks direct localhost connections. No generation was run.
+- Direct Semantic Scholar API and paper pages are inaccessible from the
+  available web tool. Existing E5 attempts therefore do not establish the
+  required citation groups.
+- Candidate/manual-review fields remain incomplete where the assignment
+  requires the candidate's own 24-hour item review, source decisions, signed
+  researcher approvals, or human-coded error review. They are not backfilled
+  by AI.
+
 ## Scope history
 
 The current requested set is T1–T5, E1, E2, E5, E6, and M. The original root

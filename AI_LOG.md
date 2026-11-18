@@ -277,7 +277,7 @@ E6 and Ollama preserved. No push. See E2/TASK3_EXECUTION.md.
   preserve that frozen implementation. It corrected E1's integrity checker to
   use the active Python interpreter and recognize the validator's actual READY
   output; this is mechanical-check tooling only and does not alter frozen data
-  or results. The Main suite remains unverified in this environment.
+  or results. Model inference remains unverified in this environment.
 - Codex created `SUBMISSION_STATUS.md` by summarizing the existing task
   completion reports; no new evaluation or result was produced.
 - Codex attempted to install the pinned CPU/model packages into an isolated
@@ -286,4 +286,9 @@ E6 and Ollama preserved. No push. See E2/TASK3_EXECUTION.md.
   sentinels for the 123 Main Problem software tests; all pass. The runner raises
   if model loading is attempted and is explicitly not an inference/evaluation
   result. The frozen E2 scorer remained unchanged.
+- Codex attempted `ollama serve` for the locally cached Gemma 3 12B model; the
+  sandbox rejected localhost binding (`operation not permitted`), so no model
+  generation ran. It also tried the official Semantic Scholar API/citation
+  endpoint through the web tool; documentation was searchable but direct API
+  and paper pages were inaccessible. No citation records were inferred.
 
