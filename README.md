@@ -39,6 +39,10 @@ Run commands from the repository root with the required Python dependencies inst
 4. Project integrity checks:
    python3 E1/verify_e1.py
 
+5. Main Problem unit tests without installing inference dependencies:
+   python3 tools/test_main_without_model_deps.py
+   This runner uses import-only sentinels; it does not run inference or scoring.
+
 ## Dataset boundary
 
 The evaluation scripts use E1/contrast.jsonl, the development dataset. Keep the frozen dataset unchanged. Do not use the held-out test file for development evaluation.

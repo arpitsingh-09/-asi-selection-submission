@@ -19,10 +19,13 @@ official evaluations.
 - E1 mechanical data/integrity checks: 25 checks pass after updating the
   validator wrapper to invoke the active Python interpreter.
 - E5 unit tests: 36 pass.
-- Main Problem software tests: 121 pass; 2 cannot import because PyTorch is
-  absent. An attempted lazy-import edit to the frozen E2 scorer was reverted
-  because a preregistered integrity check correctly rejected the changed file
-  hash. No model scoring or experiment was run during this consolidation.
+- Main Problem software tests: all 123 pass with
+  `python3 tools/test_main_without_model_deps.py`. That runner provides
+  import-only sentinels for unavailable PyTorch/Transformers/Adapters and
+  raises if inference is attempted; it validates software logic only. Model
+  inference and registered experiments remain unrun. An attempted lazy-import
+  edit to the frozen E2 scorer was reverted because its registered hash check
+  correctly rejected the changed file.
 
 ## Scope history
 

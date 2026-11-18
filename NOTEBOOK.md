@@ -149,4 +149,8 @@ E2 offline validation: 44 tests passed; no scoring files changed.
   implementation hash. Its code was restored unchanged after diagnosing this.
 - Added `SUBMISSION_STATUS.md` to summarize existing evidence, unresolved
   requirements, and the disclosed historical E4/E5 selection mismatch.
+- Attempted isolated installation of pinned `torch`, `transformers`, and
+  `adapters`; DNS/network restrictions prevented package-index access. Added
+  `tools/test_main_without_model_deps.py`, an import-only sentinel test runner;
+  all 123 software tests pass without invoking inference.
 

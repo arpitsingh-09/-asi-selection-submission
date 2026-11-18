@@ -280,4 +280,10 @@ E6 and Ollama preserved. No push. See E2/TASK3_EXECUTION.md.
   or results. The Main suite remains unverified in this environment.
 - Codex created `SUBMISSION_STATUS.md` by summarizing the existing task
   completion reports; no new evaluation or result was produced.
+- Codex attempted to install the pinned CPU/model packages into an isolated
+  temporary Python 3.12 venv; the package index was unreachable due DNS/network
+  restrictions, so no package was installed. It then used import-only dependency
+  sentinels for the 123 Main Problem software tests; all pass. The runner raises
+  if model loading is attempted and is explicitly not an inference/evaluation
+  result. The frozen E2 scorer remained unchanged.
 
