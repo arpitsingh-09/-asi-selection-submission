@@ -269,4 +269,13 @@ E6 and Ollama preserved. No push. See E2/TASK3_EXECUTION.md.
   post-cutoff label evaluations; E5 lacks valid semantic Task 1/3 results; E6
   lacks literature arms and independent error review; Main Problem reports
   0/9 registered core tests complete. Those gaps remain disclosed.
+- Ran the existing Git-provenance verifier and E1 mechanical dataset validator;
+  both passed their recorded checks. E5's 36 unit tests passed. The Main
+  Problem suite exposed two import errors: PyTorch is not installed, and E2's
+  scoring adapter correctly rejects any change to its preregistered novelty
+  implementation hash. Codex reverted a temporary dependency-laziness edit to
+  preserve that frozen implementation. It corrected E1's integrity checker to
+  use the active Python interpreter and recognize the validator's actual READY
+  output; this is mechanical-check tooling only and does not alter frozen data
+  or results. The Main suite remains unverified in this environment.
 

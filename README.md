@@ -23,19 +23,19 @@ The exact compute tier used for the original evaluation is not established by th
 Run commands from the repository root with the required Python dependencies installed.
 
 1. Corrected development evaluation:
-   python E1/eval_contrast_v2.py
+   python3 E1/eval_contrast_v2.py
    Reads E1/contrast.jsonl and writes corrected results under E1/results_v2/.
 
 2. Corrected SPECTER2 evaluation:
-   python E1/evaluate_specter2_corrected.py
+   python3 E1/evaluate_specter2_corrected.py
    Uses the separate corrected SPECTER2 evaluation implementation and writes outputs under E1/results_specter2_corrected/.
 
 3. Earlier evaluation pipeline:
-   python E1/eval_contrast.py
+   python3 E1/eval_contrast.py
    Writes outputs under E1/results/. Treat these as earlier results, not replacements for the corrected results.
 
 4. Project integrity checks:
-   python E1/verify_e1.py
+   python3 E1/verify_e1.py
 
 ## Dataset boundary
 

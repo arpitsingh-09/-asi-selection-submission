@@ -142,4 +142,9 @@ E2 offline validation: 44 tests passed; no scoring files changed.
   evidence or candidate human review. No data/model service or independent
   human reviewer is available in this environment, so those results were not
   fabricated.
+- Read-only checks: Git provenance verified (138 commit objects); E1 dataset
+  validator passes (61 items, all minimum type quotas, 43 length-flipped); all
+  36 E5 unit tests pass. The Main Problem suite cannot fully run here because
+  `torch` is absent; two tests import the E2 scorer and enforce its frozen
+  implementation hash. Its code was restored unchanged after diagnosing this.
 

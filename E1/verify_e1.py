@@ -1,4 +1,4 @@
-import json, re, subprocess, hashlib, os
+import json, re, subprocess, hashlib, os, sys
 from collections import Counter
 
 def sh(cmd):
@@ -18,8 +18,9 @@ for f in ["E1/contrast.jsonl", "E1/eval_contrast.py", "E1/eval_contrast_v2.py",
     chk(f"exists: {f}", os.path.exists(f))
 
 # 2. dataset validator
-v = sh("python E1/validate_all.py").stdout
-chk("validator says READY", "READY FOR EVALUATION: YES" in v, v.strip().splitlines()[-1] if v.strip() else "no output")
+v = subprocess.run([sys.executable, "E1/validate_all.py"], capture_output=True, text=True).stdout
+ready = "READY FOR EVALUATION: YES" in v
+chk("validator passes mechanical checks", ready, v.strip().splitlines()[-1] if v.strip() else "no output")
 
 # 3. freeze hash and no edits since the freeze commit
 prereg = read("PREREG.md")
