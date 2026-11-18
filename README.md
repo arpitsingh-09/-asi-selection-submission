@@ -13,6 +13,8 @@ The assignment PDF and extracted text are included at the repository root.
 See each task’s `COMPLETION_REPORT.md`/`FINAL_REPORT.md`, where present, for
 what is complete, partial, blocked, or exploratory. This is an evidence-led
 working submission, not a claim that every rubric item is complete.
+See [`SUBMISSION_STATUS.md`](SUBMISSION_STATUS.md) for the task-by-task evidence
+and remaining gaps.
 
 ## Compute environment
 

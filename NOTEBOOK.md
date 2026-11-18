@@ -147,4 +147,6 @@ E2 offline validation: 44 tests passed; no scoring files changed.
   36 E5 unit tests pass. The Main Problem suite cannot fully run here because
   `torch` is absent; two tests import the E2 scorer and enforce its frozen
   implementation hash. Its code was restored unchanged after diagnosing this.
+- Added `SUBMISSION_STATUS.md` to summarize existing evidence, unresolved
+  requirements, and the disclosed historical E4/E5 selection mismatch.
 
