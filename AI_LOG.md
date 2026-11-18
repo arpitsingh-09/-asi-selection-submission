@@ -251,3 +251,22 @@ E6 and Ollama preserved. No push. See E2/TASK3_EXECUTION.md.
   rendered-page count. No report correction was supported by the inspected
   evidence.
 - No inference, scoring, training, protocol change, or experiment was run.
+# 2026-11-18 — Submission-folder consolidation and scope record
+
+- OpenAI Codex inspected the existing `/Users/arpit/asi-selection-submission`
+  workspace after finding it in the current home directory. It copied the
+  selected task artifacts (T1–T5, E1, E2, E5, E6, M, and supporting provenance,
+  data, and reports) into `/Users/arpit/ASI_Intern_Submission`; preserved the
+  source Git history; and included the recruitment PDF. No experiment, model
+  inference, scoring, human annotation, or test-set evaluation was performed.
+- Codex recorded the user's current selected scope in a dated amendment and
+  README. The original root preregistration named E4; E5 had a separate scoped
+  preregistration. The amendment explicitly identifies the selection timing as
+  retrospective and does not recast saved baseline results as confirmatory.
+- Checked the existing completion reports before consolidation. They report
+  substantial gaps: E1 lacks a compliant instructed same-question cross-encoder
+  run and historical provenance checks; E2 lacks complete manipulation and
+  post-cutoff label evaluations; E5 lacks valid semantic Task 1/3 results; E6
+  lacks literature arms and independent error review; Main Problem reports
+  0/9 registered core tests complete. Those gaps remain disclosed.
+

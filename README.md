@@ -1,5 +1,19 @@
 # ASI Selection Round: Submission
 
+## Current requested scope (2026-11-18)
+
+This package is consolidated in `/Users/arpit/ASI_Intern_Submission` at the
+candidate’s request and contains T1–T5, E1, E2, E5, E6, and Main Problem M.
+The scope amendment is retrospective and candidly records that the original
+root preregistration selected E4 rather than E5. The E5 work has a separate
+scoped preregistration and controlled-baseline run; the selection mismatch is
+not hidden or represented as a timely original amendment.
+
+The assignment PDF and extracted text are included at the repository root.
+See each task’s `COMPLETION_REPORT.md`/`FINAL_REPORT.md`, where present, for
+what is complete, partial, blocked, or exploratory. This is an evidence-led
+working submission, not a claim that every rubric item is complete.
+
 ## Compute environment
 
 The exact compute tier used for the original evaluation is not established by the available project records. The evaluation scripts select Apple MPS, CUDA, or CPU when available. Device selection does not establish the machine memory tier.

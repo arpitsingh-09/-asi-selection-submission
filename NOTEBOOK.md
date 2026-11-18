@@ -128,3 +128,18 @@ E2 offline validation: 44 tests passed; no scoring files changed.
   benchmark metrics computed. 87 tests passed. Current inference prohibition,
   missing claims/vectors, first-publication eligibility review and resource/
   scheduling conditions still block execution. E6/Ollama unchanged.
+# 2026-11-18 — Consolidated requested submission scope
+
+- Found the pre-existing `asi-selection-submission` workspace with the detailed
+  task artifacts, saved analyses, and audit trail; consolidated its selected
+  deliverables into `ASI_Intern_Submission` rather than continuing with the
+  empty scaffold created earlier in this conversation.
+- Preserved the source repository Git history and kept its original reports and
+  provenance. Added a retrospective scope amendment because the root
+  preregistration historically selected E4 while E5 was separately
+  preregistered and explored. No old result was edited or reclassified.
+- The existing completion reports document blockers that require valid new
+  evidence or candidate human review. No data/model service or independent
+  human reviewer is available in this environment, so those results were not
+  fabricated.
+

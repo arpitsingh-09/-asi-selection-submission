@@ -1,0 +1,2062 @@
+  Artificial Scientific
+   Intelligence Lab
+         National University of Singapore
+               Selection Round, AI Scientist Theme
+
+
+
+
+Paper           Problems    Points    What you must do
+Theory          T1–T5            50   all five
+Experiment      E1–E5            30   any three, 10 points each
+Experiment      E6               20   required
+Main Problem    M               100   required; decides admission
+
+
+
+
+               Take-home · open book · 30 days
+
+                           October 2026
+Contents
+General instructions                                  3
+
+
+I    Theory paper                                     7
+
+T1 Identity, scope and limits of 1 vector             8
+
+T2 What does “novel” mean?                           12
+
+T3 Traps in evaluation                               16
+
+T4 The geometry of grounding                         20
+
+T5 The value of a question                           23
+
+
+II   Experiment paper                                26
+
+Instructions for the Experiment paper                27
+
+E1 A hand-made test of identity and scope            28
+
+E2 Novelty axioms, rebuilt                           30
+
+E3 Same question?                                    32
+
+E4 Where does quality live?                          34
+
+E5 Diversity that cannot be gamed                    36
+
+E6 Should an AI scientist ask its questions first?   38
+
+
+III Main Problem                                     41
+
+M Build the space of research questions              42
+
+
+IV Appendices                                        47
+
+A Reading list                                       48
+
+B Data, models and tools                             52
+
+C Submission and marking                             53
+
+
+
+
+                                            2
+General instructions
+  This competition asks you to build a space of research questions, in
+  which one can read off whether a question is new, whether it is well
+  grounded in what it builds on, whether it is likely to be good, how varied
+  a set of questions is and how all of this changes as science moves on.
+  Theory paper hands you the tools and shows you the traps. Experiment
+  paper makes you measure. Main Problem asks you to put it together.
+
+
+How you are assessed
+
+  • Admission is decided by the Main Problem. Theory and Experiment papers
+    lead you to it step by step: each problem builds a tool, a dataset or an insight that
+    the Main Problem needs.
+  • Full marks in Theory and Experiment do not guarantee admission; several tasks are
+    easy on purpose. A strong Main Problem with a patchy Theory and Experiment
+    record can be admitted.
+  • Theory and Experiment marks break ties and help match you to a project.
+  • Required work: all of T1–T5, any three of E1–E5, E6 and the Main Problem.
+    (Starting the Main Problem early is encouraged.)
+
+
+Rules
+
+R1. AI assistants are allowed for code, reading and brainstorming. Log every
+    substantive use in AI_LOG.md: the tool, the task and what you checked. Include at
+    least one case where the assistant was wrong and how you caught it. Undisclosed
+    use disqualifies the submission while honest reporting would be rewarded points.
+R2. Pre-register before you test. Before evaluating anything on a test set, commit
+    PREREG.md with your hypotheses, metrics, test sets and pass criteria. The git history
+    is the timestamp. Results that contradict your pre-registration are welcome; silent
+    edits to it are not.
+R3. Report failures. A well-measured negative result scores as well as a positive
+    one. Every abandoned idea gets one dated line in NOTEBOOK.md saying why it was
+    dropped.
+R4. Respect time. “Novelty at time t” may use only literature dated strictly before t.
+    Any claim that rests on a language model reading papers must be confirmed on
+    papers posted after that model’s training cutoff. State the cutoff you assume and
+    why.
+R5. Compute. Everything is designed for one GPU with 24 GB of memory. A small
+    tier (embedding models of about 0.6B parameters, language models up to about
+    2B, free notebook GPUs) is acceptable everywhere; say which tier you used. Paid
+
+
+                                           3
+General instructions                                           ASI Intern Recruitment 2026    4
+
+      APIs are allowed if disclosed. Scale is not scored.
+R6. Individual work. You may discuss ideas with others. You may not share code,
+    labels or results.
+R7. Licences. Some datasets are non-commercial. Release derived scores, never copies
+    of the data.
+
+
+How to read this paper
+
+   • Blue rounded boxes are definitions and facts you may use.
+   • Salmon boxes are worked examples. They are illustrations only.
+   • Grey boxes with a black bar are tasks; the label and points are on the first line.
+   • Green bars are hints and remarks; orange bars ask you to predict before you
+     measure (write the prediction in PREREG.md); blue bars specify deliverables.
+   • Green frames state the point of a problem.
+   • Difficulty: ⋆ routine, ⋆⋆ needs care, ⋆⋆⋆ open-ended or easy to get subtly
+     wrong.
+   • References such as [R1] point to the reading list (Appendix A); datasets and tools
+     are in Appendix B; submission instructions are in Appendix C.
+   • Theory problems end with an answer sheet. Copy final results there; full working
+     goes in your answer file.
+
+
+Notation and definitions
+
+   Definition (Research question, inputs, time)
+   A research question q is the one-sentence question that a paper or an AI system,
+   sets out to answer. Its inputs R = {r1 , . . . , rk } are the papers it is built from: a
+   paper’s references or the papers given to a generator. The time t is when q is
+   posed; “the literature at t” means the papers dated strictly before t.
+
+
+   Definition (Relations between questions)
+
+      • Identity q1 ≡ q2 : a complete answer to either question is a complete answer
+        to the other.
+      • Subsumption q1 ⪰ q2 (“q1 is broader”): every complete answer to q1 yields
+        a complete answer to q2 .
+      • Paraphrase: an identical question in other words. A minimal-edit paraphrase
+        keeps at least 75 % of the words.
+      • Near-miss: a small edit that changes what is asked. Types: role swap (“how
+General instructions                                                         ASI Intern Recruitment 2026        5
+
+
+          does X affect Y ” → “how does Y affect X”), constraint flip (“without labels”
+          → “with labels”), goal swap (accuracy → speed), inquiry change (“how does”
+          → “why does” or “can we”), direction flip (“improve” → “harm”).
+      • Facets: purpose (what problem), mechanism (how), evaluation (how success
+        is judged), domain (where).
+
+
+                                    W How do transformations of
+                                    training examples change what self-
+                                    supervised models learn, across data             broader
+                                    modalities, architectures and learn-
+                                    ing objectives?
+
+
+                                                        W ⪰A
+B Without any annota-
+                                                                                   C How does contrastive
+tions, what difference do           A How does data augmentation
+                                                                              ̸≡   pre-training of image en-
+random transformations of       ≡   affect contrastive pre-training of
+                                                                                   coders affect data augmen-
+training pictures make to           image encoders without labelled
+                                                                                   tation without labelled
+encoders that learn by con-         data?
+                                                                                   data?
+trasting views?
+                                                                                         near-miss (role
+paraphrase: few shared words,                           A⪰N
+                                                                                       swap): same words,
+       same question                                                                    different question
+                                    N How does colour-jitter augmen-
+                                    tation affect contrastive pre-training
+                                                                                     narrower
+                                    of ResNet image encoders on Ima-
+                                    geNet without labelled data?
+
+Figure 1: The relations between questions on one example. Word overlap points the wrong way:
+          C shares every word with A but asks a different question, while B shares almost none
+          but asks the same one.
+
+
+   Definition (Time and outcomes)
+
+      • Already asked at t: some paper dated before t asks a question identical to
+        q.
+      • Addressed by the inputs: the evidence contained in R already answers q.
+      • Realised later: a paper dated after t asks a question identical to q. Net-
+        new realisation additionally requires that q was not already asked at t and
+        that the later paper neither cites nor shares an author with the source of q.
+      • Uptake: a claim that is new at t and is later taken up by author-disjoint
+        work.
+      • Provenance: who wrote q, a person or a language model.
+      • Lockbox: a test set that is evaluated exactly once, after every choice has
+        been frozen.
+General instructions                                                 ASI Intern Recruitment 2026   6
+
+            (a) Published work                              (b) Generated work
+
+
+           r1      r2     r3      r4                        r1       r2       r3         r4
+
+
+
+
+                                                                 language model
+                  a paper and
+                 its question q
+                                                                 generated ques-
+                                                                 tions q1 , q2 , . . .
+        R = the paper’s own references
+                                                      R = the papers given to the generator
+
+Figure 2: In both settings a question is judged relative to the papers R it is built from, at a time
+          t.
+
+
+Two settings
+
+Object of this competition
+
+Throughout the paper you work towards a representation
+
+                                            Φ(q, R, t)
+
+of a research question q, the inputs R it is built from and the time t at which it is posed.
+From Φ one should be able to read: whether two questions are the same and which one
+is broader; how novel q is at time t, in every sense of “novel” that matters; whether q is
+grounded in R; how good q is likely to be judged; how diverse a set of questions is; and
+how all of these readings change as later literature arrives. A good Φ is
+
+   • invariant to what should not matter: paraphrase, writing style, who or what wrote
+     the question, its length, the order of R;
+   • sensitive to what should: near-miss edits, edits of a single facet, a change of scope,
+     a change of R and the passage of time;
+   • stable where science is stable: a model of how good questions are formed, learned
+     on one period or field, should transfer to another.
+     I
+Theory paper
+
+
+
+
+     7
+T1 Identity, scope and limits of 1 vector
+10 points                                                                 Difficulty: ⋆⋆
+
+Recommended Read first: [R5], [R16].
+
+A sentence embedding f maps a text to a unit vector in Rd and two texts are compared
+by the cosine of their vectors. Research questions need more than “similar or not”. We
+must decide whether two questions are the same, whether one is broader than the other
+and whether a small edit has changed what is asked. This problem asks what a single
+vector can and cannot do.
+
+
+§T1.A Relations between questions                                              (2.0 points)
+
+
+   Definition (Answer sets)
+  Model a question q by the set A(q) of its complete answers and assume this set is
+  closed upwards under entailment: any statement that entails a complete answer to
+  q is itself a complete answer to q.
+
+
+  Task A.1                                                                      1.0 pt
+
+     (i) Show that q1 ⪰ q2 holds if and only if A(q1 ) ⊆ A(q2 ).
+    (ii) Deduce that ≡ is an equivalence relation, that ⪰ is a preorder and that the
+         symmetric part of ⪰ is ≡.
+   (iii) Give two realistic machine-learning research questions with q1 ⪰ q2 but not
+         q2 ⪰ q1 .
+   (iv) Questions of the form “Can X improve Y ?” are completely answered by
+        a single positive example. Using q1 = “Can data augmentation improve
+        contrastive pre-training?” and q2 = “Can colour jitter improve contrastive
+        pre-training?”, explain what goes wrong with the intuition “the broader
+        question subsumes the narrower one”.
+
+
+  Task A.2                                                                      1.0 pt
+  Fix τ = 0.8. Construct unit vectors u, v, w ∈ R2 with cos(u, v) ≥ τ and cos(v, w) ≥ τ
+  but cos(u, w) < τ . A pool of 5 000 generated questions is to be deduplicated by
+  declaring two questions “the same” whenever their cosine is at least τ . Compare
+  two ways of forming groups from these pairwise decisions: connected components of
+  the “same” graph and cliques of it. What goes wrong in each case and what would
+  you do instead?
+
+
+
+
+                                            8
+T1 Identity, scope and limits of 1 vector                                ASI Intern Recruitment 2026   9
+
+§T1.B Word order                                                                            (3.0 points)
+
+
+              How does X affect Y ?                                How does Y affect X?
+
+
+
+                                           multiset of tokens
+                                      {how, does, X, affect, Y, ?}
+                                ∑︁
+                                  i
+                                      h(wi ) depends only on this multiset
+
+               Figure T1.1: A role swap leaves the multiset of tokens unchanged.
+
+
+   Task B.1                                                                                  1.5 pt
+                                                                     (︁ ∑︁      )︁
+   Call an encoder permutation-invariant if f (q) = g           i h(wi ) over the tokens
+   w1 , . . . , wn of q, for some functions g and h. Prove that no permutation-invariant
+   encoder can separate the two questions in the figure. Which of the other near-miss
+   types in the definitions are also invisible to such an encoder and which are not?
+   Justify each.
+
+
+   Task B.2                                                                                  1.5 pt
+   Transformer encoders followed by mean pooling are not permutation-invariant.
+     (i) Would you nevertheless expect them to separate role swaps reliably? Argue
+         from what dominates a mean of token vectors and from what typical contrastive
+         training rewards.
+     (ii) A cross-encoder reads both questions in a single input and outputs a score.
+          What can it represent that the cosine of two separately pooled vectors cannot?
+    (iii) Argue that one cosine must trade topical similarity, which literature search
+          needs, against sensitivity to near-miss edits. Design an experiment whose
+          output is this trade-off drawn as a curve.
+
+
+   Hint - For (iii), think about which training pairs pull a pair of vectors together and which
+   push the same pair apart.
+
+
+
+§T1.C Encoding scope                                                                        (5.0 points)
+
+
+   Task C.1                                                                                  1.0 pt
+   Write an unnormalised embedding as z = s u with ∥u∥ = 1 and s = ∥z∥ and encode
+   scope in s as in the figure: whenever q1 ≻ q2 (q1 strictly broader), training asks
+   for s(q1 ) < s(q2 ). Suppose that in your training pairs the broader question is, on
+   average, shorter. Show that a model can satisfy every training constraint while
+   knowing nothing about scope. Design a control set and a single statistic that would
+   expose such a model.
+T1 Identity, scope and limits of 1 vector                       ASI Intern Recruitment 2026   10
+
+
+
+
+       another question                     N
+                                        A
+                                                     direction u = z/∥z∥: which question
+                                    W
+                                                     length s = ∥z∥: how specific
+                                0
+                                                     broader ⇒ closer to 0
+
+
+
+
+        Figure T1.2: One proposal for encoding scope: same direction, different length.
+
+                                                B
+
+                                    A∩B                            Vol(A ∩ B)
+                                                     P (B ⊆ A) =
+                                                                     Vol(B)
+
+                    A
+
+                        Figure T1.3: Two box embeddings and their overlap.
+
+
+   Task C.2                                                                          2.0 pt
+   In a box embedding each question is an axis-aligned box in Rd , its breadth is log Vol
+   and containment is scored as in the figure, where Vol is ordinary volume. Assume
+   Vol(A ∩ B) > 0.
+                    P (B ⊆ A)     Vol(A)
+     (i) Prove that           =           .
+                    P (A ⊆ B)     Vol(B)
+     (ii) What, therefore, decides the direction of containment and what extra infor-
+          mation does the magnitude P (B ⊆ A) carry?
+    (iii) Give two boxes with Vol(A) ≥ 10 Vol(B) and Vol(A ∩ B) > 0 for which
+          P (B ⊆ A) ≤ 0.1. Interpret.
+
+
+   Task C.3                                                                          2.0 pt
+   Propose a geometry that represents topic, identity and scope at the same time.
+   You may combine directions on a sphere, a scalar, boxes or hyperbolic space. State
+   precisely what each component encodes and which relation each operation answers.
+   Then state one falsifiable prediction of your geometry and the experiment that
+   would test it.
+
+   A single cosine cannot express “same question”, “broader” and “same
+   topic” at once. Every later problem needs all three.
+T1 Identity, scope and limits of 1 vector                         ASI Intern Recruitment 2026   11
+
+Answer sheet for T1
+
+Write only final results here; full working goes in your answer file.
+
+A.1         (iii) Your pair q1 ⪰ q2 .       (iv) One sentence.
+
+
+
+
+A.2         Your vectors u, v, w (angles or coordinates) and the three cosines.
+
+
+
+
+B.1         Near-miss types invisible to a permutation-invariant encoder.
+
+
+
+
+C.1         Your control set and statistic, one sentence each.
+
+
+
+
+C.2         (ii) Direction decided by:          (iii) Your two boxes.
+T2 What does “novel” mean?
+10 points                                                                     Difficulty: ⋆⋆
+
+Recommended Read first: [R1], [R5], [R4], [R8], [R2].
+
+“Novelty” is measured in dozens of ways and published claims about it often seem to
+contradict one another. You will first sort the measures, then study one of them exactly
+in a toy model and finally ask how well any measure could agree with human reviewers.
+
+
+§T2.A A zoo of measures                                                           (2.0 points)
+
+Consider these ten measures of the novelty of an idea x at time t:
+
+   1. One minus the largest cosine between x and any earlier paper;
+   2. Percentile of x’s neighbourhood density among the densities of its neighbours [R7];
+   3. Share of x’s embedding that lies outside the linear span of its topic’s literature [R4];
+   4. Length of the shortest tour through x’s concepts in a historical co-occurrence
+      network [R10];
+   5. Rule “x is not novel if and only if one earlier paper matches it on every core facet”
+      [R5];
+   6. Per-feature dissimilarity of x to an explicitly chosen population of documents [R8];
+   7. Whether papers published after t do something similar to x [R26];
+   8. Novelty score produced by a language-model judge;
+   9. Share of x’s word pairs (bigrams) never seen in the literature before t;
+ 10. Uptake, as defined in the General Instructions.
+
+  Task A.1                                                                          1.5 pt
+  Group the ten measures by the question about the world that each one answers.
+  You decide how many groups there are; name each group by a question in plain
+  words and justify the grouping. For each measure, say in one sentence what it
+  would wrongly reward.
+
+
+  Task A.2                                                                          0.5 pt
+   Use your grouping to explain how two published claims, “distance from prior work
+   measures novelty” and “distance from prior work does not predict reviewers’ novelty
+   scores”, can both be true.
+
+
+
+
+                                              12
+T2 What does “novel” mean?                                                ASI Intern Recruitment 2026    13
+
+§T2.B A toy model of claim coverage                                                           (5.0 points)
+
+An idea x consists of m ≥ 2 atomic claims with orthonormal embeddings c1 , . . . , cm (unit
+vectors, pairwise orthogonal) and the whole idea is embedded as x = m−1/2 (c1 + · · · + cm ),
+so ∥x∥ = 1. A pool P of earlier papers is a finite set of unit vectors. Define
+                                                                          m
+                                                                       1 ∑︂
+              Y (x; P ) = 1 − max cos(x, p),         N (x; P ) = 1 −         max cos(ci , p).
+                                p∈P                                    m i=1 p∈P
+
+
+   Distributed coverage (j = 2)                                   Concentrated coverage (j = 2)
+
+    c1           c2        c3         c4                             c1         c2       c3        c4
+
+
+
+  p1 = c 1     p2 = c 2                                            p = √12 (c1 + c2 )
+
+             an idea with m = 4 claims; each earlier paper is drawn below the claims it contains
+
+         Figure T2.1: The two pool manipulations of Part B, drawn for m = 4 and j = 2.
+
+
+   Definition (Two axioms)
+   Gradient: under distributed coverage, novelty strictly decreases as the number
+   j of covered claims grows. Concentration: for every 1 < j ≤ m, novelty under
+   concentrated coverage of j claims is strictly lower than under distributed coverage
+   of the same j claims.
+
+
+  Task B.1                                                                                      1.0 pt
+  Distributed coverage. Let P = {c1 , . . . , cj } with 1 ≤ j ≤ m. Compute Y and N as
+  functions of j. Which of the two satisfies the gradient axiom?
+
+
+  Task B.2                                                                                      1.0 pt
+  Concentrated coverage. Let P             contain the single paper p = j −1/2 (c1 + · · · + cj ).
+  Compute Y and N .
+
+
+  Task B.3                                                                                      1.0 pt
+  For 1 < j ≤ m, decide which of Y and N satisfies the concentration axiom and
+  which violates it. Prove your answer.
+
+
+  Task B.4                                                                                      2.0 pt
+   Design a measure that satisfies both axioms in this model for all 1 < j ≤ m and
+   that is invariant to paraphrase whenever the embedding of each claim is. Prove that
+   adding papers to P can never increase your measure. Where would your measure
+   break on a real corpus?
+T2 What does “novel” mean?                                            ASI Intern Recruitment 2026   14
+
+
+  Hint - A measure can have more than one term. Ask separately “how much of the idea is
+  covered?” and “how much of it does a single paper cover?”.
+
+
+
+§T2.C Agreement with reviewers                                                            (3.0 points)
+
+
+                                 paper i and its four reviewers
+
+
+                        s1     s2                                 s3      s4
+
+                                    (1)                                        (2)
+                    half 1: mean s̄i                         half 2: mean s̄i
+                                 correlation across all papers i: r
+
+Figure T2.2: Split-half reliability: each paper’s reviewers are split at random into two halves.
+
+
+  Task C.1                                                                                 1.0 pt
+  Across papers, the two half-panel mean novelty scores correlate at r = 0.36. Assume
+  the classical parallel-measurement model: each half-panel mean equals the paper’s
+  true score plus independent noise of equal variance and the full-panel mean is the
+  average of the two halves. Derive the reliability of the full-panel mean and the
+  largest correlation that any predictor can reach with it.
+
+
+  Task C.2                                                                                 1.0 pt
+  Reviewers’ novelty scores correlate 0.70 with their overall recommendation. A pre-
+  dictor correlates 0.30 with novelty and 0.25 with the recommendation. Compute the
+  (Pearson) partial correlation of the predictor with novelty given the recommendation
+  and say in one sentence what it means.
+
+
+  Task C.3                                                                                 1.0 pt
+  A benchmark contrasts papers that every reviewer called novel (all rated highly)
+  with papers that every reviewer called not novel (all rated poorly). Explain why no
+  score can separate novelty from quality on this contrast. Design a contrast that
+  can.
+
+  “Novel” is several different questions and some of them cannot be asked
+  of reviewers’ scores without first removing quality.
+T2 What does “novel” mean?                                        ASI Intern Recruitment 2026   15
+
+Answer sheet for T2
+
+Write only final results here; full working goes in your answer file.
+
+A.1        Your groups, each named by a question (one line each).
+
+
+
+
+B.1        Y (j) =             N (j) =             satisfies the gradient axiom:
+
+
+
+
+B.2        Y =              N=
+
+
+
+
+B.3        Satisfies:            Violates:
+
+
+
+
+B.4        Your measure (formula).
+
+
+
+
+C.1        Reliability =             Largest correlation =
+
+
+
+
+C.2        Partial correlation =
+T3 Traps in evaluation
+10 points                                                                             Difficulty: ⋆⋆
+
+Recommended Read first: [R3], [R16], [R17], [R24].
+
+Many surprising results about research ideas turn out to be measurement artefacts. Each
+part below is a trap that has caught published work. Learn to see them before you build
+anything.
+
+
+§T3.A Length                                                                              (1.5 points)
+
+
+  Task A                                                                                   1.5 pt
+  In a set of pairwise expert battles between research proposals, the longer proposal
+  wins 65 % of the time. A scorer is S = L + ε, where L is the proposal’s length and
+  ε is independent continuous noise; the scorer picks the proposal with the higher S.
+  Show that S agrees with the experts more than half of the time while carrying no
+  information beyond length. Give two remedies and say what each can miss.
+
+
+§T3.B Systems versus ideas                                                                (2.0 points)
+
+
+                               cross-system battles: 60 % of all battles
+                               experts prefer A’s idea in 80 % of them
+                   system A                                                system B
+
+                                        within-system battles:
+                                          40 % of all battles
+                    within A                                               within B
+
+                               Figure T3.1: The battles of Part B.
+
+
+  Task B                                                                                   2.0 pt
+  Ideas come from two systems, A and B, with battles distributed as in the figure.
+  A scorer s outputs an indicator of the generating system (1 for A, 0 for B) plus
+  independent noise drawn uniformly from (−0.4, 0.4) and picks the idea with the
+  higher score. Compute s’s agreement with the experts over all battles and within
+  systems. Define a system-demeaned accuracy and say which number answers “can
+  s pick the better of two ideas from comparable systems?”.
+
+
+
+
+                                                  16
+T3 Traps in evaluation                                          ASI Intern Recruitment 2026    17
+
+                                         cutoff T0 :
+         an earlier paper asks q      q is generated        a later paper asks q
+           (“already asked”)                                 (“realised later”)
+                                                                                    time
+
+                 window before T0                       window after T0
+
+     Figure T3.2: A generated question can be matched before its cutoff, after it, or both.
+
+
+§T3.C Re-asking                                                                     (2.0 points)
+
+
+  Task C                                                                              2.0 pt
+   Of the questions a generator produces, 30 % had already been asked before the cutoff.
+   P (realised later | already asked) = 0.10 and P (realised later | not already asked) =
+   0.004.
+     (i) What share of the realised questions had already been asked?
+    (ii) A leaderboard ranks generators by the share of their questions that are realised
+         later. Give numbers for a generator that tops it while producing no net-new
+         question.
+   (iii) Define a corrected metric. A different correction compares the matches found
+         in the window after T0 with those found in the window before T0 [R24]. What
+         does each correction control that the other does not?
+
+
+§T3.D Who wrote it?                                                                 (2.0 points)
+
+
+  Task D                                                                              2.0 pt
+  A scorer prefers human-written research questions to questions written by a language
+  model from the same inputs in 85 % of pairs. Propose at least three experiments
+  that would decide whether the scorer measures quality or merely authorship. For
+  each, say which outcome would convince you of which.
+
+
+   Hint - Consider rewriting both sides through the same model, swapping model families,
+   comparing generators of different capability and human labels where both sides of a pair
+   have the same kind of author.
+
+
+
+§T3.E Contamination and power                                                       (2.5 points)
+
+
+  Task E                                                                              2.5 pt
+
+     (i) A scorer built on a language model trained on data up to date T predicts
+         which papers were accepted at a conference. Design two tests of whether it
+         remembers rather than judges.                                     (1.0 pt)
+T3 Traps in evaluation                                     ASI Intern Recruitment 2026    18
+
+
+    (ii) A scorer is right on 54 % of independent pairs, against a null of 50 %. Using
+         the normal approximation for a one-sample test of a proportion, how many
+         pairs give 80 % power at two-sided α = 0.05? What is the 95 % confidence
+         half-width of the accuracy with 400 pairs? Name two ways to gain power
+         without new labels, and one way each can mislead.                     (1.5 pt)
+
+
+   Before believing a result, ask: is it length, system, authorship, re-asking,
+   memory, or chance?
+T3 Traps in evaluation                                            ASI Intern Recruitment 2026   19
+
+Answer sheet for T3
+
+Write only final results here; full working goes in your answer file.
+
+A          Two remedies.
+
+
+
+
+B          Over all battles =              Within systems =
+
+
+
+
+C(i)       Share already asked =
+
+
+
+
+C(ii)      Your leaderboard example (two generators and their rates).
+
+
+
+
+D          Your three experiments, one line each.
+
+
+
+
+E(ii)      Pairs needed =               Half-width with 400 pairs =
+T4 The geometry of grounding
+10 points                                                                        Difficulty: ⋆⋆⋆
+
+Recommended Read first: [R4], [R10], [R45].
+
+A research question is built from earlier papers. Geometrically, place the question q and
+its k inputs r1 , . . . , rk in one embedding space and ask where q lies relative to them: inside
+their “polygon”, near one vertex, or far away. This problem shows which of these notions
+can carry information in high dimension and how measurement noise and confounds
+distort them.
+                                                               q
+
+
+                                                         δ      off-plane part
+                                         r3
+
+
+
+                                              c
+                                 r1                           r2
+                                                  affine span of R
+
+Figure T4.1: A question q, its inputs ri , their centroid c and the deviation δ = q − c. The grey
+             segment is the in-plane part of δ; the dotted segment is the off-plane part.
+
+Throughout, vectors live in Rd with d = 768, there are k = 30 inputs and the inputs are
+affinely independent (so their affine span has dimension k − 1).
+
+
+§T4.A Inside or outside?                                                              (3.5 points)
+
+
+  Task A.1                                                                              2.5 pt
+   Suppose δ = q − c is an isotropic Gaussian vector in Rd . Show that the expected
+   share of ∥δ∥2 lying in the direction space of the affine span (the in-plane part)
+   is (k − 1)/d and evaluate it. What does this imply for in-plane notions such as
+   depth, barycentric coordinates or membership in the convex hull? Why does a real
+   q essentially never lie inside the convex hull of its inputs?
+
+
+  Task A.2                                                                              1.0 pt
+  You measure the in-plane share for real papers and find it close to the isotropic
+  prediction. What would you measure instead and against which baseline would you
+  compare it?
+
+
+
+
+                                                    20
+T4 The geometry of grounding                               ASI Intern Recruitment 2026   21
+
+§T4.B Noise                                                                    (2.5 points)
+
+
+  Task B                                                                        2.5 pt
+  Questions are usually extracted from text by a language model. Extracting the same
+  text twice with two differently worded prompts gives two vectors whose cosine r we
+  call the text’s self-agreement. For one research project, the question written early
+  in the project and the final question are 50◦ apart. The self-agreements correspond
+  to angles of 28◦ for the early text and 35◦ for the final text. Use the attenuation
+  correction
+                                               cos θobs
+                                 cos θtrue ≈ √
+                                               rearly rfinal
+  to estimate the true angle. State the assumption behind the correction and one way
+  it can fail.
+
+
+§T4.C Confounds and incentives                                                 (4.0 points)
+
+
+  Task C                                                                        2.0 pt
+  A grounding score separates a paper’s real question from a random same-topic
+  question scored against the same inputs. It also appears to separate papers at
+  strong venues from papers at workshops. Name at least two confounds that could
+  produce the second result without any link to how the question is built and design
+  a control for each.
+
+
+  Task D                                                                        2.0 pt
+  Suppose you find that, among papers built on the same inputs, the one whose
+  question is closer to its inputs tends to be cited more.
+     (i) Show how a generator could maximise a proximity-based score without asking
+         anything new.
+    (ii) Specify a guard against this and say what the guard costs.
+   (iii) Argue why an evaluator should then report impact and novelty on separate
+         axes rather than as one score.
+
+  In high dimension, where a question lies off the plane of its inputs says
+  more than where it lies in it and every geometric signal must be checked
+  against noise, confounds and gaming.
+T4 The geometry of grounding                                      ASI Intern Recruitment 2026   22
+
+Answer sheet for T4
+
+Write only final results here; full working goes in your answer file.
+
+A.1        Expected in-plane share =
+
+
+
+
+B          Estimated true angle =
+
+
+
+
+C          Two confounds and their controls.
+
+
+
+
+D(ii)      Your guard.
+T5 The value of a question
+10 points                                                              Difficulty: ⋆⋆⋆
+
+Recommended Read first: [R44], [R45], [R32].
+
+A question is worth asking if its answer would change what we believe. Information theory
+makes this precise in a toy world and the toy world already shows that “unpredictable”
+and “far from what is known” are not the same as “valuable”.
+
+                                                     a
+                         prior π H=1                            Y =1
+                                        1−a
+                                          b
+
+                          1 − π H=0                             Y =0
+                                                 1−b
+
+                             the measurement specified by question q
+
+ Figure T5.1: The toy world: a hidden hypothesis H and a binary measurement outcome Y .
+
+A hidden hypothesis H ∈ {0, 1} has prior π = P (H = 1). A question q specifies a
+measurement with binary outcome Y , where P (Y = 1 | H = 1) = a and P (Y = 1 |
+H = 0) = b. The value of q is the mutual information v(q) = I(H; Y ), in bits. Write
+h(p) = −p log2 p − (1 − p) log2 (1 − p) for the binary entropy, with h(0) = h(1) = 0.
+
+
+§T5.A Computing value                                                         (5.5 points)
+
+
+  Task A.1                                                                     2.0 pt
+                    (︁             )︁
+  Show that v = h πa + (1 − π)b − π h(a) − (1 − π) h(b).
+
+
+  Task A.2                                                                     2.0 pt
+  Compute v and the outcome entropy H(Y ), to three decimals, for three questions:
+
+                                          a          b    π
+                                   Q1     0.9    0.1      0.5
+                                   Q2     0.5    0.5      0.5
+                                   Q3     0.9    0.1     0.99
+
+
+  Task A.3                                                                     1.5 pt
+  Prove that v ≤ min{H(H), H(Y )}. Interpret Q2 and Q3 : which one is an “unpre-
+  dictable” question, which one is “already answered” and why does neither have
+  much value?
+
+
+                                                23
+T5 The value of a question                                  ASI Intern Recruitment 2026    24
+
+§T5.B From the toy world to texts                                               (4.5 points)
+
+
+  Task B.1                                                                       1.5 pt
+  Someone proposes to score a question by the embedding distance between its text
+  and the texts of the existing reports. Construct a pair of questions in this model,
+  with their parameters and their wording, for which the distance ranking and the
+  value ranking disagree. Explain why this can always happen.
+
+
+  Task B.2                                                                       1.5 pt
+  You train a model to predict v from the text of the existing reports together with
+  the question. Design an evaluation that detects shortcut learning. Include at least:
+  a control that hides the reports, a test on pairs whose question text is identical but
+  whose reports differ and a test on a family of measurement mechanisms never seen
+  in training.
+
+
+  Task B.3                                                                       1.5 pt
+  Generalise v to K hypotheses and a continuous outcome. In your general form,
+  what does it mean for a question to be “already addressed by the inputs”? What
+  would a language model need to output for you to estimate v for a real research
+  question?
+
+
+  Value is information about what we do not yet know: neither surprise
+  alone nor distance alone measures it.
+T5 The value of a question                                        ASI Intern Recruitment 2026   25
+
+Answer sheet for T5
+
+Write only final results here; full working goes in your answer file.
+
+A.2        Q1 :    v=              H(Y ) =
+
+
+
+
+           Q2 :    v=              H(Y ) =
+
+
+
+
+           Q3 :    v=              H(Y ) =
+
+
+
+
+B.1        Your pair of questions (parameters and wording).
+
+
+
+
+B.2        Your three shortcut tests, one line each.
+      II
+Experiment paper
+
+
+
+
+       26
+Instructions for the Experiment paper
+ Do any three of E1–E5 (10 points each) and E6 (20 points, required). A
+ fourth problem among E1–E5 is not marked. Every problem produces a
+ dataset or a tool that the Main Problem needs, so choose the three you
+ will build on.
+
+ • Schemas are mandatory. Each problem specifies the format of its deliverable.
+   Follow it exactly: your outputs must run with someone else’s code.
+ • Predict first. Before each evaluation, write your predictions in PREREG.md. Marks
+   are given for comparing them honestly with what happened, not for being right.
+ • Confidence intervals. Report a 95 % bootstrap interval for every headline number.
+   Resample the right unit: the paper, the group of inputs, or the generating system,
+   not the individual pair, whenever pairs share these.
+ • Controls. Wherever inputs are involved, also run an empty-input control (no
+   inputs) and a shuffled-input control (another instance’s inputs). A method that
+   does as well without its inputs is not using them.
+ • Tiers. Every problem can be done in the small tier (rule R5). Say which tier you
+   used.
+
+
+
+
+                                        27
+E1 A hand-made test of identity and
+                scope
+10 points                                                                       Difficulty: ⋆⋆
+
+Recommended Read first: [R16], [R13]; your answers to T1.
+
+Do sentence embeddings know when two research questions are the same? Answering
+this needs a test set in which word overlap and meaning are pulled apart on purpose.
+You will write it by hand, so that no language model’s blind spots are built into it.
+
+   Example (One complete test item)
+   Field      Text                                                           Check
+   A          How does data augmentation affect contrastive pre-training real question
+              of image encoders without labelled data?
+   B          Without any annotations, what difference do random           Jaccard with A:
+              transformations of training pictures make to encoders that   0.11
+              learn by contrasting views?
+   Bmin       How does data augmentation influence contrastive             keeps 92 % of
+              pre-training of image encoders without labelled data?        A’s words
+   C          How does contrastive pre-training of image encoders affect   role swap
+              data augmentation without labelled data?
+   C̃         Without any annotations, what difference do networks that Jaccard with A:
+              learn by contrasting views make to how training pictures are 0.07
+              transformed?
+   N          How does colour-jitter augmentation affect contrastive       narrower,    16
+              pre-training of ResNet image encoders on ImageNet without words
+              labelled data?
+   W          How do transformations of training examples change what      broader,     18
+              self-supervised models learn, across data modalities,        words: length-
+              architectures and learning objectives?                       flipped
+   Jaccard is computed on sets of lower-cased word tokens. Other near-miss types for the
+   same A: constraint flip “. . . with labelled data?”; inquiry change “Can data augmentation
+   be designed automatically for . . . ?”.
+
+
+
+  Task 1                                                                              3.0 pt
+  Write at least 60 items like the example, from real research questions of papers
+  posted from 2025 onward. Extract each question with one fixed prompt and edit
+  it by hand until it is faithful to the paper. Each item has the seven fields of the
+  example, with these constraints checked by a script: Jaccard(A, B) ≤ 0.3; Bmin
+  keeps at least 75 % of A’s words; Jaccard(A, C̃) ≤ 0.3; at least 10 items for each of
+  the five near-miss types; at least 10 items in which W is longer than N . Re-check
+  every item yourself after at least 24 hours. A second reader for 20 items is welcome
+  (no extra points); report agreement if you have one.
+
+
+
+
+                                              28
+E1 A hand-made test of identity and scope                       ASI Intern Recruitment 2026    29
+
+
+  Predict first - For each model you will test, write down the share of items on which you
+  expect it to place C closer to A than B.
+
+
+  Task 2                                                                             3.0 pt
+  Evaluate at least four sentence embedders (include one trained for scientific docu-
+  ments and one general-purpose model) and at least one cross-encoder instructed to
+  decide “Do these two texts ask the same research question?”. Write d for cosine
+  distance (for the cross-encoder, one minus its score). Report, overall and per
+  near-miss type:
+
+  Quantity                    Share of items with       What a high value means
+  near-miss error             d(A, C) < d(A, B)         word overlap beats meaning
+  overlap shortcut            d(A, C) < d(A, Bmin )     cannot tell a light rewording from a
+                                                        changed question
+  low-overlap shortcut        d(A, C̃) < d(A, B)        treats “few shared words” as “same
+                                                        question”
+  scope order                 score orders W , A, N     compare with a length-only baseline,
+                              correctly                 on length-flipped items separately
+
+
+
+  Task 3                                                                             1.5 pt
+  Compare the results with your predictions. Where were you wrong and what does
+  that teach you about these models?
+
+
+  Task 4                                                                             2.5 pt
+  Deduplication. Pool all texts of all items. For each A, retrieve its 10 nearest
+  texts by embedding and decide “same question?” with the cross-encoder. Report
+  precision and recall of finding B and Bmin while rejecting C and C̃. Compare with
+  the best cosine threshold chosen with hindsight on the same data and explain the
+  difference.
+
+
+  Deliverable - E1/contrast.jsonl (one item per line) and E1/eval_contrast.py.
+  {"id": "h001", "source_arxiv": "2503.01234",
+   "A": "...", "B": "...", "B_min": "...", "C": "...",
+   "C_type": "role_swap|constraint_flip|goal_swap|inquiry_change|direction_flip",
+   "C_tilde": "...", "narrower": "...", "broader": "...",
+   "length_flipped": true, "author": "initials", "second_reader_agrees": null}
+E2 Novelty axioms, rebuilt
+10 points                                                                       Difficulty: ⋆⋆⋆
+
+Recommended Read first: [R1] (the protocol), [R7], [R5], [R2]; your answers to T2.
+
+A novelty score should move in a known direction when the literature pool is manipulated
+in a known way. Such tests need no human labels and so they cannot be confounded by
+quality.
+
+                   original pool     exact copy           partial 50 %           concentrated
+
+
+focal idea x
+with claims
+ c1 , . . . , c4                          x
+
+
+
+                                     idea inserted      2 of 4 claims planted   2 claims in one paper
+
+
+Figure E2.1: Pool manipulations (orange marks a pool paper that now contains claims of x).
+             Also build a far pool and a near pool and an older and a newer pool.
+
+
+   Task 1                                                                                 3.0 pt
+   Build at least three pools of at least 1 000 papers each (for example task-labelled
+   pools or arXiv subfields; Appendix B). For 100 focal papers per pool, extract 4–10
+   atomic claims with a language model. Implement these manipulations, keeping the
+   focal paper itself out of its pool: exact copy; paraphrased copy; partial coverage
+   at 25, 50, 75 and 100 % (plant claims into the pool papers nearest to each claim);
+   concentrated versus distributed coverage; a far and a near pool; and an older versus
+   a newer pool. For each manipulation, write down the direction in which a correct
+   score must move.
+
+
+   Predict first - For each measure in Task 2 and each manipulation, predict whether it will
+   pass.
+
+
+   Task 2                                                                                 3.0 pt
+   Implement four measures: Y = 1 − max cos; neighbourhood-density novelty [R7];
+   the claim-coverage measure N of T2; and your own measure from T2, Task B.4.
+   Report each measure’s pass rate on each manipulation.
+
+
+   Task 3                                                                                 3.0 pt
+   Human check. Use the post-cutoff novelty labels of [R2] (papers that reviewers
+   unanimously called novel versus not novel). Report the AUROC of each measure
+   and of a quality-only baseline: a ridge probe of the mean review rating on frozen
+   abstract embeddings, trained on earlier reviews from the same venue that exclude
+
+
+                                                30
+E2 Novelty axioms, rebuilt                                         ASI Intern Recruitment 2026   31
+
+
+   every test paper. Report every novelty measure minus the quality baseline, with
+   intervals.
+
+
+  Task 4                                                                                1.0 pt
+   In one paragraph: what does it mean when a measure passes every axiom but fails
+   the human check, or the other way round?
+
+
+   Deliverable - E2/ with the pool manifest (paper identifiers and dates), the manipulation
+   generator, results as JSON, and novelty.py exposing
+   def score(idea_text: str, claims: list[str],
+             pool_ids: list[str], t: str) -> dict:
+       """Return {’Y’:..., ’density’:..., ’N’:..., ’yours’:...}.
+       Use only pool papers dated before t."""
+E3 Same question?
+10 points                                                                         Difficulty: ⋆⋆
+
+Recommended Read first: [R24], [R25], [R26], [R27]; your answers to T3, Part C.
+
+Many evaluations of generated research ideas look forward: did a later paper ask the
+same thing? Every such evaluation rests on one judgement, “is q ′ the same research
+question as q?” and on knowing whether q had already been asked before. How reliable
+is that judgement and how much do conclusions depend on it?
+
+                                                           candidates above a cosine threshold,
+                      five seed papers
+                                                        each judged by two judges, in both orders
+                  (the newest references)
+                                                T0
+                                                                                              time
+
+  24 months before: already asked?                             24 months after: realised?
+                                     generated question q
+
+Figure E3.1: The design of E3. Each generated question is compared with earlier and later
+             questions.
+
+
+  Task 1                                                                                    2.0 pt
+  Pick a cutoff T0 in 2023–2024. Build at least 100 seed sets, each the five most
+  recent references of a real paper posted just after T0 . Generate at least 500 research
+  questions from them with a small open language model. Record the model, prompt,
+  temperature and random seed.
+
+
+  Task 2                                                                                    2.5 pt
+  Extract research questions, with one fixed prompt, from arXiv abstracts in the 24
+  months before and after T0 (the small tier may restrict to one subfield). For each
+  generated question, retrieve earlier and later candidates above a cosine threshold
+  you fix in advance. Judge “same research question?” with two judges from different
+  model families, each in both orders.
+
+
+  Predict first - How often will the two judges agree? Which one will be stricter? What
+  share of later matches will turn out to have an earlier match as well?
+
+
+  Task 3                                                                                    3.0 pt
+  Hand-label at least 200 candidate pairs, stratified by cosine band and by whether the
+  judges agree, without seeing the judges’ outputs. Labels: same, narrower, broader,
+  related, different. Report each judge’s precision and recall against your labels,
+  Cohen’s κ between the judges and with you and your own test–retest agreement on
+  40 pairs relabelled a week later.
+
+
+
+                                                32
+E3 Same question?                                      ASI Intern Recruitment 2026   33
+
+
+  Task 4                                                                    2.5 pt
+  With your best judge, compute the already-asked rate, the realisation rate, the
+  net-new realisation rate and the before/after contrast of [R24]. Then recompute
+  everything with the other judge. Which conclusions survive the change of judge
+  and which flip?
+
+
+  Deliverable - E3/sameq_labels.csv with columns pair_id, q, q_prime, cosine,
+  date_q, date_q_prime, label, notes; all generations and judge outputs as JSONL.
+E4 Where does quality live?
+10 points                                                                          Difficulty: ⋆⋆⋆
+
+Recommended Read first: [R9], [R2], [R19], [R6], [R29]; your answers to T2, Part C and T3, Part
+E.
+
+Can one tell a strong research question from a weak one and from what? From the
+question sentence alone, from a short structured summary of the idea, or only from the
+full abstract? Is a sentence embedding the right instrument, or does a language model
+that reads the text know more? Before answering, find out how well human reviewers
+agree with each other.
+
+
+                                    (ii) question card
+                                    problem; gap and whose limi-
+                                    tation; insight; why now; evi-     (iii) title and abstract
+  (i) question
+                                    dence plan; contribution type;     full motivation, method, re-
+  one sentence
+                                    scope                              sults
+                                    results stripped
+
+
+
+      more information −→, but only (i) and (ii) exist for an idea that has not been carried out
+
+                          Figure E4.1: Three views of the same paper.
+
+
+   Example (A question card for an invented paper)
+  Problem: contrastive pre-training of image encoders collapses when augmentations are too
+  weak. Gap (whose limitation): existing augmentation policies are tuned by hand per
+  dataset (earlier augmentation-search papers). Insight: learn the augmentation strength
+  online from the contrastive loss itself. Why now: cheap differentiable augmentation
+  libraries. Evidence plan: experiments on three datasets plus an analysis of collapse.
+  Contribution type: method. Scope: image encoders, unlabelled data. No numbers, no
+  “we show that”.
+
+
+Data. ICLR 2024–2026 submissions and reviews from the OpenReview API (Appendix
+B). Train on 2024, choose settings on 2025, test once on 2026. If you use a language
+model, choose one whose training cutoff precedes the release of the 2026 reviews and say
+why you believe it does.
+
+  Task 1                                                                                     2.0 pt
+  Ceiling. Split each paper’s reviewers into two random halves (as in T2, Part C).
+  Among pairs of same-topic papers whose half-1 means differ by more than a gap
+  you fix in advance, how often does half 2 order the pair the same way? Report this
+  for the contribution, soundness and overall scores.
+
+
+
+
+                                                 34
+E4 Where does quality live?                                      ASI Intern Recruitment 2026      35
+
+
+   Predict first - Rank the three views by how well you expect them to predict reviewers’
+   contribution scores and guess the gaps between them.
+
+
+  Task 2                                                                                3.0 pt
+  The unit. Build the three views for every paper, using one extractor for (i) and
+  (ii). Fit the same linear probe on the same frozen embedder to each view, plus a
+  TF-IDF and a length-only baseline. Report within-topic pair accuracy on 2026.
+
+
+  Task 3                                                                                3.0 pt
+  The instrument. Replace the sentence embedder by a reading state: the hidden
+  state of a small open language model after it has read a view followed by one
+  fixed question about the contribution [R9]. Fit a linear probe. Then test for
+  contamination in two ways: compare the gain over the embedder on a year the
+  model may have seen with the gain on 2026 and check whether the model can name
+  a paper’s title from the first sentence of its abstract.
+
+
+  Task 4                                                                                2.0 pt
+   How much of the gap between view (i) and view (iii) does the card recover? Report
+   every result also as a share of the explainable signal, (accuracy − 0.5)/(ceiling − 0.5)
+   and discuss whether the ceiling of Task 1 is the right one to divide by.
+
+
+   Deliverable - E4/cards.jsonl and E4/evalkit.py. The kit computes all within-stratum
+   pair accuracies, a paper-cluster bootstrap and the ceilings and is meant to be reused in the
+   Main Problem.
+   {"paper_id": "openreview_forum_id", "year": 2026, "rq": "...",
+    "card": {"problem": "...", "gap": "...", "gap_owner": "...",
+             "insight": "...", "why_now": "...",
+             "evidence_plan": "theory|experiments|both",
+             "contribution_type":
+                 "method|theory|empirical|dataset|system|analysis",
+             "scope": "..."}}
+E5 Diversity that cannot be gamed
+10 points                                                                       Difficulty: ⋆⋆
+
+Recommended Read first: [R8], [R36], [R37], [R33].
+
+A generator can look diverse by paraphrasing itself, or by writing vague questions that
+collide with nothing. Build diversity measures for a set of research questions that cannot
+be inflated cheaply and prove it with tests.
+
+(a) add a paraphrase (b) add a facet edit             (c) clone set         (d) vague rewrite
+
+
+
+
+        must give:               must give:              must give:              must give:
+        no change              one more dis-         at most two distinct     quality–diversity
+                               tinct question                                   count drops
+
+Figure E5.1: The four anti-gaming axioms. Blue: original members; orange: added or rewritten
+             members; dashed: vague rewrites.
+
+
+  Task 1                                                                               3.0 pt
+   Implement, for a set of research questions:
+      • the mean pairwise cosine distance and the Vendi score;
+      • equivalence classes from a same-question cross-encoder: the number of distinct
+        questions and the entropy over classes [R37];
+      • per-facet dispersion in the style of [R8]: answer facet questions (purpose,
+        mechanism, evaluation, domain) for each research question and compare the
+        answers;
+      • a joint quality–diversity count in the style of [R36]: the size of the largest
+        subset that passes your quality gates and is pairwise distinct. Fix the gates
+        before scoring.
+
+
+   Predict first - For each measure and each axiom of Task 2, predict pass or fail.
+
+
+  Task 2                                                                               3.0 pt
+  Anti-gaming axioms. On at least 200 sets of five same-topic questions, test the
+  four axioms of the figure: (a) adding a paraphrase of a member changes nothing;
+  (b) adding a one-facet edit of a member adds one distinct question; (c) a clone set,
+  one question plus four deep paraphrases, counts as at most two distinct questions;
+  (d) rewriting every member vaguely lowers the quality–diversity count. Report pass
+
+
+                                                36
+E5 Diversity that cannot be gamed                          ASI Intern Recruitment 2026    37
+
+
+  rates per measure.
+
+
+  Task 3                                                                        2.5 pt
+  Known groups. Build groups of five real papers that cite the same three or more
+  seed papers within 12 months (Semantic Scholar) and five generated questions from
+  the same seeds. Which measures and which facets, separate real from generated
+  sets? Discuss what else, besides the generator, differs between the two kinds of set.
+
+
+  Task 4                                                                        1.5 pt
+  Which facet does a one-facet edit actually move? Is each facet stable under
+  paraphrase? Which facet is the least reliable to extract and why might that be?
+
+
+  Deliverable - E5/diversity.py with diversity(rqs:      list[str], facets:     bool =
+  True) -> dict and the axiom sets as JSONL.
+E6 Should an AI scientist ask its
+                 questions first?
+20 points                                                       Difficulty: ⋆⋆⋆     (required)
+
+Recommended Read first: [R44], [R45], [R35], [R41], [R33], [R27].
+
+Most automated-science pipelines go straight from papers to hypotheses. A decomposed
+pipeline first writes research questions, selects among them and only then writes a
+hypothesis for each. Decomposition might help: the gap becomes explicit, mechanisms
+may diversify and there is a natural place to apply a question space Φ. It might also
+hurt: errors compound and the questions themselves may be the weak link. Sp, you will
+measure this now against outcome-based targets.
+
+                       D: direct
+                         write K
+                        hypotheses
+                                                                            same evaluation
+input papers R         QH: questions first                                     reconstruction
+                        write M        K/M hypotheses                         data-based score
+  same papers,
+                        questions         per question                         already asked
+   model and
+                                                                                  diversity
+  token budget
+                       QH-sel / QH-rand: more questions, then a choice         question type
+                                                           write             one labelled judge
+                        write 2M          keep M :
+                        questions     rule or random    hypotheses
+
+                       HQ: hypotheses first
+                         write K         state the
+                        hypotheses       question
+
+Figure E6.1: The arms of E6 (controls not drawn). Every arm returns K hypotheses under the
+             same budget. The orange step is where your question space chooses which questions
+             to pursue.
+
+Arms. Use one model and one set of decoding settings throughout.
+
+
+
+
+                                              38
+E6 Should an AI scientist ask its questions first?               ASI Intern Recruitment 2026       39
+
+Arm                      Pipeline                             What it isolates
+D                        inputs → K hypotheses                the usual direct pipeline
+QH                       inputs → M questions → K/M           decomposition
+                         hypotheses per question
+QH-sel                   inputs → 2M questions → keep M       decomposition plus selection
+                         by a rule fixed in advance (remove
+                         duplicates with a same-question
+                         model, then rank with your own
+                         scores) → K/M hypotheses per
+                         question
+QH-rand                  as QH-sel, but keep M questions at   whether selection adds anything
+                         random
+HQ                       inputs → K hypotheses → state        the reverse order
+                         the question each one answers
+D-empty, D-shuffled      D with no inputs, or with another    controls that must do worse
+                         input set’s papers
+
+Budget. Choose M dividing K (for example K = 6, M = 3). Every arm returns exactly
+K final hypotheses under the same cap on generated tokens per input set. Report the
+tokens actually used.
+
+   Example (One input set, two arms)
+   Inputs: the references of a 2026 paper on contrastive pre-training. D writes six hypotheses
+   directly, e.g. “Stronger crops improve linear-probe accuracy on small datasets.” QH
+   first writes three questions, e.g. “How does augmentation strength interact with batch
+   size in contrastive pre-training?” and then two hypotheses per question, e.g. “Optimal
+   augmentation strength decreases as batch size grows.” Both arms are then scored by the
+   same evaluation.
+
+
+Two testbeds.
+
+   1. Literature. At least 100 input sets, each the references (at least 10 with abstracts)
+      of a paper posted after your generator’s training cutoff. The target is that paper’s
+      own research question and main hypothesis; extract them with one fixed prompt
+      and check 20 by hand.
+   2. Data. Tasks from [R44], where a hypothesis is scored by how well it explains held-out
+      data and, on synthetic tasks, by whether it recovers the planted hypothesis.
+
+   Predict first - Which arm wins on each testbed and on each metric of Task 2 and by how
+   much? Will selection beat random choice?
+
+
+   Task 1                                                                                 3.0 pt
+   Pre-register your hypotheses, the primary metric for each testbed, the budget rule,
+   the selection rule for QH-sel, and the analyses you will run whatever the outcome.
+
+
+   Task 2                                                                                 8.0 pt
+   Run every arm on both testbeds. Report, with paired bootstrap intervals over input
+   sets:
+E6 Should an AI scientist ask its questions first?              ASI Intern Recruitment 2026     40
+
+
+     (a) reconstruction: the best similarity and a same-question judgement, between
+         the generated items and the real question and hypothesis;
+     (b) the data-based scores of [R44];
+     (c) the already-asked rate of the generated questions (reuse E3 if you did it);
+     (d) the diversity of the K hypotheses (reuse E5 if you did it);
+     (e) the type of question produced: constructive (“how can we achieve . . . ?”)
+         versus analytic (“to what extent does . . . compare with . . . ?”) and any other
+         distinction you find useful;
+     (f) at most one language-model judge, run in both orders on length-matched
+         pairs and labelled as a judge.
+
+
+   Task 3                                                                             6.0 pt
+   Where did decomposition help and where did it hurt? Read 20 input sets end to
+   end and write an error analysis with real examples. Does selection add anything
+   beyond decomposition? Do the controls behave as they must? Which failure of the
+   language model did you see most often and how would you detect it automatically?
+
+
+   Task 4                                                                             3.0 pt
+   Write a one-page memo for someone designing a research agent: should an AI
+   scientist ask its questions first? Under which conditions and at what cost?
+
+
+   Deliverable - E6/ with prompts, all generations and all evaluation outputs, one generation
+   per line:
+   {"input_set_id": "...", "testbed": "literature|data",
+    "arm": "D|QH|QH_sel|QH_rand|HQ|D_empty|D_shuffled",
+    "rq": "... or null", "hypothesis": "...",
+    "tokens_generated": 812, "model": "...", "seed": 0}
+   III
+Main Problem
+
+
+
+
+     41
+M Build the space of research questions
+100 points                                                                    Difficulty: ⋆⋆⋆
+
+   Construct a representation Φ(q, R, t) of a research question q, its inputs
+   R and a time t, from which the six readings below can be made and run
+   it through the test battery that follows. Then tell us exactly where it
+   fails. A complete solution would be a research contribution; a rigorous,
+   honest partial solution is what we are looking for.
+
+
+
+    q: research question                                    I identity and scope
+    sentence or card
+                                                            N novelty at t, several coordi-
+    R: input papers                                         nates
+    references or retrieved
+                                      Φ(q, R, t)            G groundedness in R
+    t: time                             one shared
+    literature before t               representation        Q quality, two separate factors
+
+    a set of questions                                      D diversity of a set
+    for diversity
+
+                                                            T change as literature arrives
+
+                                              tested by
+   Test battery (Section M.C)
+
+
+              Invariance               Sensitivity                 Axioms
+
+
+          Human labels                 Outcomes               Structure and time
+
+
+
+Figure M.1: Inputs, the representation, its six readouts and the battery every readout must face.
+
+
+
+§M.A Requirements
+
+   • One space. Every readout must come from the same representation. Several heads
+     on one space are fine; a collection of unrelated language-model prompts is not.
+   • Cheap. Aim for about one second per question on one GPU, excluding retrieval.
+   • Both settings. It must work for (a) a published paper with its references and (b)
+     generated questions with the inputs they were generated from. When R is missing,
+     retrieve it and say how.
+
+
+
+                                                42
+M Build the space of research questions                              ASI Intern Recruitment 2026       43
+
+
+Readout                   The question it answers                 Minimum requirement
+I. Identity and scope    Are two questions the same?              a same-question decision and a
+                         Which is broader?                        signed scope comparison
+N. Novelty at t          In what senses and how much, is q        several coordinates, each tied to
+                         new at t?                                one of the questions you identified
+                                                                  in T2, computed only from
+                                                                  literature dated before t
+G. Groundedness           Is q built from R, rather than          a score, plus the input or inputs it
+                          off-topic or a copy of one input?       rests on
+                          Do the inputs already answer it?
+Q. Quality                Will q be judged good and by            at least two separate factors, for
+                          whom?                                   example peer review and later
+                                                                  community use
+D. Diversity              How varied is a set of questions?       per facet, with the guarantees of E5
+T. Time                   How do the readouts change as           an update rule from Φ at t to Φ at
+                          later literature arrives?               t+∆
+
+
+                        train                     choose                   test, once
+                  up to end of 2023                2024        gap      from July 2025
+                                                                                                time
+                                                              hash the test list in PREREG.md first
+
+Figure M.2: Splits for the Main Problem. Every choice is made on the selection year; the test
+            set is opened once.
+
+Controls carried by every result: empty inputs; shuffled inputs (another instance’s
+R); and a decoy question (a random same-topic question scored against the true R).
+
+
+§M.B Baselines you must compute
+
+On the same data as each test:
+
+   • B-Q: a frozen sentence embedding of the question, with a linear probe for scores
+     or cosine for relations;
+   • B-ABS: the same on the abstract (setting (a) only; a reference point, not a target);
+   • B-TF: TF-IDF on the same text;
+   • B-LEN: length alone;
+   • B-JUDGE: one language-model judge, both orders (optional, recommended).
+
+
+§M.C The test battery
+
+Core tests are required. Extended tests earn the remaining battery marks. A test you
+cannot run must be listed with the reason; a faked test forfeits the Main Problem. Unless
+stated otherwise, “beats” means that the paired 95 % interval of the difference lies above
+the margin you pre-registered.
+M Build the space of research questions                               ASI Intern Recruitment 2026        44
+
+
+Test                   Tier      What it checks                        Pass if
+
+Invariance
+I1 Paraphrase          core     readouts move less under               true for every readout
+                                paraphrase than under near-miss
+                                edits (E1 or equivalent)
+I2 Authorship          ext.     how much of each readout is just      reported per readout; a readout
+                                who wrote the text (T3, Part D)       whose signal disappears once
+                                                                      authorship is controlled is
+                                                                      relabelled
+I3 Length              core      every quality and novelty claim      beats B-LEN on matched pairs
+                                 also holds on length-matched
+                                 pairs
+I4 Order and format    ext.      permuting R; titles versus            readouts stable across variants
+                                 abstracts
+Sensitivity
+S1 Near-miss           core      identity readout on near-misses       beats B-Q on both
+                                 and minimal-edit paraphrases
+S2 Facet edits         ext.      a one-facet edit moves that facet     matched facet moves most, above
+                                 most (E5)                             chance
+S3 Time                ext.      an equivalent earlier paper lowers    both hold on nearly all items
+                                 N; a later one leaves it unchanged
+Axioms
+A1 Novelty axioms      core      the manipulations of E2               at least one N coordinate passes
+                                                                       partial coverage and
+                                                                       concentration; all others reported
+Human labels
+H1 Expert battles      core      expert preference between            report raw and system-demeaned
+                                 generated ideas [R3],                (T3, Part B); pass on demeaned
+                                 length-matched
+H2 Reviewer novelty    ext.      novelty beyond quality [R2]           an N readout adds to a
+                                                                       quality-only model
+H3 Review scores       core      post-cutoff reviewer scores (E4)      Q beats B-Q; reported as a share
+                                                                       of the ceiling
+H4 Facet similarity    ext.      human facet-overlap labels [R12]      reported against B-ABS
+Outcomes, forward in time
+O1 Post-cutoff qual- core       both Q factors on papers from          Q beats B-Q
+ity                             July 2025 onward, within topic
+O2 Same inputs         core     among real papers citing the           beats B-TF on the question text
+                                same seed papers within a year,
+                                which did better
+O3 Generated ques-     ext.     N and Q do not reward questions        already-asked questions are not
+tions                           that were already asked (E3)           preferred
+Structure and time
+K1 Clustering          ext.     within topic, are the neighbours       nearest neighbours in Φ beat
+                                of a good question good beyond         nearest neighbours in B-Q
+                                the topic’s rate?
+T1 Time invariance     core     trained up to year Y − 1 versus        difference within your
+                                up to Y , same later test              pre-registered tolerance
+T2 Updating            ext.     Φ updated with later papers            updated beats frozen
+                                versus frozen Φ, forecasting
+                                which questions are
+                                independently re-asked
+R1 No regression       ext.     finding related papers                 not worse than B-Q
+M Build the space of research questions                            ASI Intern Recruitment 2026   45
+
+§M.D Marking scheme
+
+Criterion                     Points      Full marks look like
+Design                             15     every choice justified by what you derived or measured in
+                                          T1–T5 and E1–E6; a clear unit of representation; one
+                                          space
+Battery, correctly run             25     time cutoffs respected; leakage checked; controls present;
+                                          correct resampling unit; core battery complete; extended
+                                          tests attempted
+Results                            20     beats the baselines on post-cutoff tests, or a decisive,
+                                          well-powered negative result
+Insight                            20     what the space captures and what it misses; features of
+                                          good questions, named in words and validated on
+                                          held-out years; error analysis with real examples
+Reproducibility and reuse          10     one command per table; the schemas of the Experiment
+                                          paper; a README another person could follow
+Integrity                          10     pre-registration followed or every deviation declared; AI
+                                          log; failure notebook
+
+
+Any undeclared tuning on a test set sets Results to zero. Admission: at least 45 points
+on the Main Problem and at least 6 for Integrity. At least 75 points is exceptional and is
+fast-tracked.
+
+
+§M.E What would count as a success
+
+Each of these is challenging. Any 3, done cleanly, is a strong result.
+
+   1. A quality readout under which good questions cluster: within a topic, a question’s
+      nearest neighbours in Φ predict whether it is good, with length and team size
+      controlled.
+   2. Choosing, among questions built on the same inputs, the one that will do better,
+      clearly above a text-only baseline.
+   3. A notion of genuine novelty that forecasts uptake beyond what content novelty and
+      quality already predict.
+   4. A same-question judgement that agrees with careful human labels about as well as
+      two careful humans agree with each other.
+   5. Features of good questions, stated in words, that keep their direction on years the
+      model never saw.
+   6. A representation that agrees with experts on generated ideas within a generating
+      system.
+M Build the space of research questions                     ASI Intern Recruitment 2026   46
+
+§M.F Questions to ask yourself
+
+   • Is a one-sentence question enough to judge it? Measure what each unit of text
+     carries before you choose an encoder.
+   • For each novelty coordinate: which question about the world does it answer (T2)?
+     Does any coordinate try to answer two?
+   • For each positive result: does it rank systems or ideas? Topics or questions? Writers
+     or contents? Recent fields or good work?
+   • Do your quality and novelty readouts pull in opposite directions? If so, keep them
+     on separate axes and say how an agent should trade them off.
+   • When a result looks too good, look first for information leaking across time.
+  IV
+Appendices
+
+
+
+
+    47
+A Reading list
+You are not expected to read everything. Start with R1–R6, then follow the “Read first”
+lines of the problems you choose. Read critically: for every paper, ask which of your T2
+groups its measure belongs to and which trap of T3 it does or does not control.
+
+
+Start here
+
+ [R1] An Axiomatic Benchmark for Evaluation of Scientific Novelty Metrics
+       Label-free tests that a novelty score should pass under controlled changes of the
+       literature pool.
+
+ [R2] Old Ideas, Novel Problems: The Instability of LLM-Based Novelty Evaluation
+       How stable language-model novelty judges are; novelty labels mined from recent reviews.
+
+ [R3] Ideation Arena: Evaluating LLM Generated Research Ideas with Battle-style
+      Human Expert Assessment
+       Thousands of expert pairwise judgements between generated ideas built from the same
+       papers.
+
+ [R4] Large Language Models Extend Known Research But Do Not Create New
+      Research Directions
+       Distance novelty versus direction novelty, at the scale of millions of papers.
+
+ [R5] Literature-Grounded Novelty Assessment of Scientific Ideas
+       Novelty defined through facets: an idea is new if it differs from every prior paper in at
+       least one.
+
+ [R6] ResearchStudio-Idea: An Evidence-Grounded Research-Ideation Skill Suite from
+      ML Conference Outcomes
+       Ideation strategies mined from accepted, highly cited and rejected papers.
+
+
+Measuring novelty
+
+ [R7] Enabling AI Scientists to Recognize Innovation: A Domain-Agnostic Algorithm
+      for Assessing Novelty
+       Relative neighbour density: novelty normalised by the density of the neighbourhood.
+
+ [R8] GENIE: A Fine-Grained Measure for Novelty
+       Novelty as a vector of features relative to an explicit population; validated by
+       interventions versus paraphrases.
+
+ [R9] Think-Probe-Respond: Improving Large Language Models as Judges of Research
+      Idea Novelty
+       Linear probes on a model’s hidden states as judges.
+
+[R10] Beyond Pairwise Distance: Cognitive Traversal Distance as a Holistic Measure of
+
+                                               48
+A Reading list                                                  ASI Intern Recruitment 2026   49
+
+       Scientific Novelty
+       Novelty as the effort needed to connect a paper’s concepts.
+
+[R11] Beyond “Not Novel Enough”: Enriching Scholarly Critique with LLM-Assisted
+      Feedback
+       Human-annotated novelty statements in reviews.
+
+[R12] NovGauge: A Fine-Grained Benchmark for Diagnosing LLMs’ Capability in
+      Paper Novelty Assessment
+       Human-verified task, problem and method overlap between papers.
+
+[R13] Are We Truly Innovating? A Qualitative and Quantitative Study of LLM-Based
+      Scientific Novelty Evaluation
+       Reviewer novelty at scale; detecting paraphrased prior work.
+
+[R14] NovBench: Evaluating Large Language Models on Academic Paper Novelty
+      Assessment
+       Generating novelty assessments of papers.
+
+[R15] GraphMind: Interactive Novelty Assessment System for Accelerating Scientific
+      Discovery
+       An interactive system for assessing novelty against related work.
+
+
+Judges and evaluation
+
+[R16] A Diagnosis of LLM-as-Judge in Idea Generation
+       Style-only versus substance edits as a test of judges.
+
+[R17] A Comprehensive Survey on LLM-based Evaluation Methods
+       A catalogue of judge biases and their mitigations.
+
+[R18] PRISM: A Multi-Dimensional Benchmark for Evaluating LLM Peer Reviewers
+       Checking reviewers’ novelty claims against retrieved literature.
+
+[R19] SoundnessBench: Can Your AI Scientist Really Tell Good Research Ideas from
+      Bad Ones?
+       Soundness labels for research proposals, including recent ones.
+
+[R20] LigBench: A Unified and Human-Aligned Benchmark for LLM-based Research
+      Idea Generation
+       Scoring new ideas against real papers with known review scores.
+
+[R21] ScholarEval: Research Idea Evaluation Grounded in Literature
+       Evaluation of soundness and contribution with retrieved literature.
+
+[R22] InnoEval: On Research Idea Evaluation as a Knowledge-Grounded,
+      Multi-Perspective Reasoning Problem
+       Knowledge-grounded, multi-perspective idea evaluation.
+
+[R23] DeepScholar-Bench: A Live Benchmark and Automated Evaluation Framework
+      for Scientific Research Synthesis
+A Reading list                                                  ASI Intern Recruitment 2026   50
+
+       A continually refreshed benchmark; which references matter.
+
+
+Time and forecasting
+
+[R24] LiveIdeaBench: Forecasting Emerging Research Ideas Against Future Literature
+       Comparing matches with future literature against matches with past literature.
+
+[R25] Can Large Language Models Forecast What Researchers Study Next?
+       Forecasting research topics; human checks of idea–paper matches.
+
+[R26] HindSight: Evaluating LLM-Generated Research Ideas via Future Impact
+       Scoring ideas by the impact of later papers that resemble them.
+
+[R27] Learning to Predict Future-Aligned Research Proposals with Language Models
+       From a question and inspiring papers to a proposal aligned with later work.
+
+[R28] RAP: Research Attention Prediction Reveals Target-Conditioned Evidence
+      Acquisition Biases
+       Forecasting where a field’s attention goes next.
+
+[R29] Proof of Time: A Benchmark for Evaluating Scientific Idea Judgments
+       Judgements that can be checked once time has passed.
+
+[R30] Teaching Language Models to Forecast Research Success Through Comparative
+      Idea Evaluation
+       Pairs of ideas with measured benchmark outcomes.
+
+[R31] ForeSci: Evaluating LLM Agents for Forward-Looking AI Research Judgment
+       Agents judging research directions before the outcome is known.
+
+[R32] SciPredict: Can LLMs Predict the Outcomes of Scientific Research?
+       Predicting experimental outcomes; calibration of models and experts.
+
+
+Ideation systems and human versus machine ideas
+
+[R33] Measuring the Gap Between Human and LLM Research Ideas
+       Distributions of human and model ideas from the same prior work.
+
+[R34] Thinking Like a Scientist? A Structural Study of LLM Research Ideation
+       What models propose as methods for a given question.
+
+[R35] IdeaScientist: Orchestrating Agents for Grounded Scientific Ideation
+       Grounded ideation agents; a very large corpus of idea decompositions.
+
+[R36] IDEAgent: Agentic Quality-Diversity Search for Research Idea Generation
+       Quality-diversity search; counting high-quality, mutually distinct ideas.
+
+[R37] Automated Creativity Evaluation of Language Models Across Open-Ended Tasks
+       Diversity as entropy over equivalence classes.
+A Reading list                                                    ASI Intern Recruitment 2026   51
+
+[R38] Measuring the Creativity of Frontier LLMs in Automated Research
+       Novelty at different granularities inside an automated research loop.
+
+[R39] Can LLM Agents Discover? Evaluating Creativity on ML Engineering Tasks
+       Novelty relative to oneself versus relative to people; novelty versus usefulness.
+
+[R40] Tree-of-Ideas: Automated Research Ideation via Cross-Trajectory Reasoning over
+      Scholarly Evolution
+       Ideation from how lines of work evolve.
+
+[R41] More Than Can Be Said: A Benchmark and Framework for Pre-Question
+      Scientific Ideation
+       Ideation before a question exists; breaking assumptions.
+
+[R42] LiveIdeaBench: Evaluating LLMs’ Divergent Thinking for Scientific Idea
+      Generation with Minimal Context
+       Divergent thinking from a single keyword.
+
+[R43] DISCERN: Can AI Agents Work Like Scientists and Guide Discovery?
+       Whether agents carry what they notice into their conclusions.
+
+
+Hypotheses and execution
+
+[R44] HypoBench: Towards Systematic and Principled Benchmarking for Hypothesis
+      Generation
+       Hypotheses scored by how well they explain data.
+
+[R45] From Scientific Observations to Mechanisms: Benchmarking Hypothesis
+      Generation by AI Scientists
+       Mechanistic hypotheses scored by their consequences; empty and shuffled controls.
+
+[R46] IdeaAMBIG: Benchmarking Implementation-Critical Gaps in Research-Idea
+      Specifications
+       What an idea must specify before it can be implemented.
+B Data, models and tools
+All resources below are public. Check each licence before use.
+
+
+Resource                        What you get                                          Useful for
+
+OpenReview API                  submissions, reviews and decisions of                 E2, E4, M
+                                open-review venues
+Semantic Scholar API            references, citations with dates, authors (free key   E3, E5, M
+                                on request)
+arXiv metadata                  titles, abstracts and dates of all arXiv papers       E1, E3, E6,
+                                                                                      M
+Qwen3-Embedding        (0.6B,   open sentence-embedding models                        all
+4B)
+Qwen3-Reranker                  an open cross-encoder you can instruct                E1, E3, E5
+Ideation Arena data [R3]        expert battles between generated ideas, with          M
+                                input papers
+novelty-judge-bench [R2]        recent papers that reviewers called novel or not      E2, M
+                                novel
+NovGauge [R12]                  human facet-overlap labels between papers             M
+SoundnessBench [R19]            proposals with soundness labels                       E4
+IdeaSeed [R33]                  human ideas with their influencing prior work         E5, E6
+idea-forecast-bench [R25]       monthly arXiv slices for forecasting                  E3
+RAP data [R28]                  field-attention forecasting episodes                  M
+Svalbard Idea Vault [R35]       papers decomposed into problem, gap, intuition,       E4, E6
+                                proposal
+HypoBench [R44]                 hypothesis-generation tasks with data                 E6
+PapersWithCode archive          task-labelled paper pools                             E2
+Novelty statements [R11]        reviews with annotated novelty sentences              E3, M
+Reference code:   GENIE,        implementations of related methods                    E2, E4, E5
+TPR, Idea Novelty Checker,
+IDEAgent
+
+
+
+
+                                               52
+C Submission and marking
+Submit one Git repository, shared with the organisers within 28 days of receiving this
+paper. Commits after the deadline are not read.
+
+
+Repository layout
+
+ README.md      how to reproduce every table (one command each); your compute tier
+ PREREG.md      committed before any test evaluation; deviations appended, never edited
+ NOTEBOOK.md    dated log, including every abandoned idea and why
+ AI_LOG.md      every substantive AI use, including at least one AI error you caught
+ theory/        answers (Markdown or PDF) and the filled-in answer sheets
+ E1/ ... E5/    the three problems you chose, with the stated schemas
+ E6/            required
+ main/          code, configs, results/*.json, REPORT.md (at most 8 pages plus appendix)
+ data/          small files and schemas; links for anything large
+
+
+
+
+Checklist
+
+  □ PREREG.md was committed before the first test evaluation, with hashes of the test
+    lists.
+  □ Every “novelty at t” uses only literature dated before t.
+  □ Every claim resting on a language model is confirmed on papers posted after its
+    training cutoff.
+  □ Every quality or novelty claim is also reported on length-matched pairs.
+  □ Every result on expert battles is reported both raw and system-demeaned.
+  □ Every result carries the empty-input, shuffled-input and decoy-question controls.
+  □ Confidence intervals resample the right unit.
+  □ Experiment deliverables follow their schemas exactly.
+  □ AI_LOG.md and NOTEBOOK.md are complete.
+  □ One command reproduces each table of main/REPORT.md.
+
+
+
+
+                                          53
+C Submission and marking                                    ASI Intern Recruitment 2026   54
+
+Marking
+
+ Paper           Problems             Points   Notes
+ Theory          T1, T2, T3, T4, T5   5 × 10   full working required for numerical answers
+ Experiment      three of E1–E5       3 × 10   a fourth is not marked
+ Experiment      E6                       20   required
+ Theory and Experiment                  100    ties and project placement
+ Main Problem M                         100    decides admission (rubric in Chapter M)
+
+
+Partial credit. A correct method with a wrong number earns more than a right
+number with no method. A wrong prediction, honestly analysed, earns the comparison
+marks in full. A negative result earns full marks if it is well powered, controlled and
+clearly reported. A result that uses future information, or that was tuned on a test set
+without saying so, earns zero.
+Questions. Questions about the wording of a problem are answered for all candidates
+at once. Questions of the form “is this the right approach?” are not answered: deciding
+that is part of the task.
+
+
+
+
+                   End of the paper. Good luck and enjoy being stuck.
+

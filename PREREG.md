@@ -261,3 +261,17 @@ runtime/tokenizer evidence. Source TEST rows are evaluation items, not generatio
 units; bootstrap TRAIN evidence sets for data utility. Proposed context 32768 and
 output 2048 remain unapproved, alongside the unchanged 8192-generated-token cap.
 See E6/PRIORITY9_TECHNICAL_RESOLUTION.md. No E6 protocol is finalized or authorized.
+# Submission-scope amendment — 2026-11-18
+
+The candidate’s current requested submission scope is T1–T5, E1, E2, E5, E6,
+and Main Problem M. This amendment records that selection as of 2026-11-18.
+It is retrospective to the historical root preregistration and the saved E5
+development run: the original root file selected E4, while E5 has its own
+scoped preregistration and controlled-baseline results. This amendment does
+not backdate authorization, change any frozen protocol, or convert exploratory
+and baseline results into confirmatory results. See
+`PROVENANCE/experiment-selection-clarification-2026-11-16.md`,
+`E5/PREREG.md`, and the per-experiment completion reports for the exact
+status and limitations. No additional test data were opened or evaluated as
+part of this amendment.
+
