@@ -1,0 +1,34 @@
+Traceback (most recent call last):
+  File "/Users/arpit/ASI_Intern_Submission/E2/claim_sidecar_calibration_only.py", line 219, in _execute
+    encoder = sidecar.cpu_factory(inv)
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/arpit/ASI_Intern_Submission/E2/claim_sidecar_adapter_diagnostic.py", line 215, in tracked_factory
+    encoder = original_instrumented_factory(inventory)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/arpit/ASI_Intern_Submission/E2/claim_sidecar_adapter_diagnostic.py", line 151, in factory
+    encoder = batched_cpu_encoder({'model_inventory': inventory})
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/arpit/ASI_Intern_Submission/E2/task3_execution.py", line 113, in batched_cpu_encoder
+    model.load_adapter(adapter,load_as='proximity',set_active=True)
+  File "/Users/arpit/ASI_Intern_Submission/.venv/lib/python3.12/site-packages/adapters/model_mixin.py", line 2393, in load_adapter
+    return super().load_adapter(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/arpit/ASI_Intern_Submission/.venv/lib/python3.12/site-packages/adapters/model_mixin.py", line 1113, in load_adapter
+    load_dir, load_name = loader.load(
+                          ^^^^^^^^^^^^
+  File "/Users/arpit/ASI_Intern_Submission/.venv/lib/python3.12/site-packages/adapters/loading.py", line 636, in load
+    self.model.add_adapter(adapter_name, config=config["config"], set_active=set_active)
+  File "/Users/arpit/ASI_Intern_Submission/.venv/lib/python3.12/site-packages/adapters/model_mixin.py", line 2153, in add_adapter
+    self.base_model.add_adapter(
+  File "/Users/arpit/ASI_Intern_Submission/.venv/lib/python3.12/site-packages/adapters/model_mixin.py", line 714, in add_adapter
+    self.set_active_adapters(adapter_name)
+  File "/Users/arpit/ASI_Intern_Submission/.venv/lib/python3.12/site-packages/adapters/model_mixin.py", line 672, in set_active_adapters
+    self.reset_adapter()
+  File "/Users/arpit/ASI_Intern_Submission/.venv/lib/python3.12/site-packages/adapters/model_mixin.py", line 1850, in reset_adapter
+    with ForwardContext(self, torch.empty(0, 1)):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/arpit/ASI_Intern_Submission/.venv/lib/python3.12/site-packages/adapters/context.py", line 101, in __init__
+    model.forward_context(self, *args, **kwargs)
+  File "/Users/arpit/ASI_Intern_Submission/E2/claim_sidecar_adapter_diagnostic.py", line 143, in audited_forward_context
+    raise RuntimeError(
+RuntimeError: adapter activation check failed before model forward: {"effective_active_adapters": [], "forward_index": 1, "inputs": null, "passed": false}

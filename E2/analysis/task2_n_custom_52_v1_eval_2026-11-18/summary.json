@@ -1,0 +1,117 @@
+{
+  "protocol_commit": "a1dececb3929909bfc92de0e8b2b1defd3070917",
+  "protocol_sha256": "f4508814d42cd39efada12b4760347f5b0397cf7fa6cee6d395b0942e5cc480f",
+  "manifest_sha256": "c20ac0335d018290b65409b7d051f4931e46a7e593f99b93ec78db136ce37b38",
+  "sidecar_sha256": "f5e80503979bdf38b537cb8ed8d291da258fde3c8401526b5349a680e4d2f46a",
+  "source_sha256": {
+    "/Users/arpit/asi-selection/E2/analysis/task2_extension_52_cohort_v1.json": "c2323e060f1d8f8166ac353e078658ff82aec85ebe11ce10b4773922284a1bcb",
+    "/Users/arpit/asi-selection/E2/analysis/task2_extension_52_v1/pool_plan.jsonl": "fff8a5a5336448f65e478e7bc842986ab426d1d6837140c32d396d5c338bac24",
+    "/Users/arpit/asi-selection/E2/analysis/task2_extension_52_v1/results.jsonl": "353f29e6f478728bc4e22ab6ee48d325e00b21c447a57a4e7cafbab7d224dea0",
+    "/Users/arpit/asi-selection/E2/analysis/claim_completion_v2/claims_future.jsonl": "98a4244c8389284b87f171372eafe58326ea444256226f089e429d165d3f8410",
+    "/Users/arpit/asi-selection/E2/data/raw_papers.jsonl": "98036e1d99139a7fa4938362ab45f97fc12f21a91182c0ce5d22ee5be7d0c662",
+    "/Users/arpit/asi-selection/E2/data/pool_manifest.csv": "e36009be0e3d8991175cc91ac93f661633b82a9f4d1959a425eb6b513991f104",
+    "/Users/arpit/asi-selection/E2/analysis/cached_extensions_v1/results.jsonl": "0895f8e4520359d4b4c3c78658ef915a7daa8cc53476df422e549be1ac319da0",
+    "/Users/arpit/asi-selection/E2/analysis/claim_sidecar_v1/manifest.json": "a33e042bc0defaa72f658e421dc3e2ad8f0ad3fbcdf4c04b250604353d50998f",
+    "/Users/arpit/asi-selection/E2/analysis/task2_extension_52_v1/summary.json": "6f8dd3a6fd4fd0ce82a509a99642fa79a9eb9ed6de95fce504708e365d68f3d7",
+    "/Users/arpit/asi-selection/E2/data/scoring_results.jsonl": "8aa38111b3dbdf5e4a24534486bb55aa081d6b4bdd32a56244a00e0b2fa99bdc",
+    "/Users/arpit/asi-selection/E2/data/scoring_results.matmul_pilot.jsonl": "9ded2fd37ce365fb13a4621497367315027d54ff2a41608c55cfa04bd7840b1f",
+    "/Users/arpit/asi-selection/E2/data/claims_v8_selected.jsonl": "2266fe8e086ebd1ca2bdea1db0e4eccd241a2fc8f1d1282b9e9c5fcb37ec723d",
+    "/Users/arpit/asi-selection/E2/CONTINUATION_PROTOCOL.md": "836296a7bc8a42131f589b1ea69b2c335355ae29b54f5325824393a087e8d587",
+    "/Users/arpit/asi-selection/E2/TASK2_EXTENSION_52_PROTOCOL.md": "bf13ca18a478801ca6aeac1d08f03f1c2986294c3fa0b059af4f94886661c2ae",
+    "/Users/arpit/asi-selection/PREREG.md": "0f8fe4695029f6f5e0289bdb1c75ff50d5f4712d6991d25f7f61b34e3de656e6",
+    "/Users/arpit/asi-selection/E2/analysis/task3_execution_v1/plan.json": "9e885471009da8adfa91bfb710606834b63c7045542ce2604a43438f18e8c424"
+  },
+  "new_focals": 52,
+  "new_per_pool": {
+    "computation_language": 20,
+    "computer_vision": 13,
+    "machine_learning": 19
+  },
+  "new_rates": [
+    {
+      "left": "near",
+      "right": "far",
+      "measure": "N",
+      "valid": 52,
+      "passes": 52,
+      "ties": 0,
+      "pass_rate": 1.0,
+      "pass_rate_ci95": [
+        1.0,
+        1.0
+      ],
+      "mean_difference": -0.04670606438930218,
+      "difference_ci95": [
+        -0.0518072943847913,
+        -0.04169806451178514
+      ]
+    },
+    {
+      "left": "near",
+      "right": "far",
+      "measure": "yours",
+      "valid": 52,
+      "passes": 52,
+      "ties": 0,
+      "pass_rate": 1.0,
+      "pass_rate_ci95": [
+        1.0,
+        1.0
+      ],
+      "mean_difference": -0.08856633935983364,
+      "difference_ci95": [
+        -0.09463740583652487,
+        -0.08228703809615512
+      ]
+    },
+    {
+      "left": "newer",
+      "right": "older",
+      "measure": "N",
+      "valid": 52,
+      "passes": 34,
+      "ties": 0,
+      "pass_rate": 0.6538461538461539,
+      "pass_rate_ci95": [
+        0.5192307692307693,
+        0.7692307692307693
+      ],
+      "mean_difference": -0.00298766906444843,
+      "difference_ci95": [
+        -0.00586050169972273,
+        -0.00023668574599119358
+      ]
+    },
+    {
+      "left": "newer",
+      "right": "older",
+      "measure": "yours",
+      "valid": 52,
+      "passes": 37,
+      "ties": 0,
+      "pass_rate": 0.7115384615384616,
+      "pass_rate_ci95": [
+        0.5961538461538461,
+        0.8269230769230769
+      ],
+      "mean_difference": -0.0068138900857705334,
+      "difference_ci95": [
+        -0.010861972432870131,
+        -0.0029745837530264487
+      ]
+    }
+  ],
+  "previous_N_custom_focals": 241,
+  "N_custom_focals_after_this_run": 293,
+  "previous_results_recomputed": false,
+  "Y_density_recomputed": false,
+  "new_embeddings_generated": 0,
+  "bootstrap": {
+    "unit": "distinct focal paper",
+    "replicates": 10000,
+    "seed": 20261113,
+    "interval": "95% percentile"
+  },
+  "scope": "New N/yours stage only; no pooled numerical N/custom estimate across claim-extraction stages.",
+  "authorization_source": "User instruction in this conversation (2026-11-18): restore the frozen N/yours inputs and sidecar at the paths bound by its manifest, then provide a separate evaluation authorization bound to the current protocol, manifest, and sidecar hashes."
+}

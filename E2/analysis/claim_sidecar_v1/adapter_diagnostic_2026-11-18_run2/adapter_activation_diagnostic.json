@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "run_type": "adapter_activation_diagnostic_only",
+  "status": "failed",
+  "error": "RuntimeError: adapter activation check failed before model forward: {\"effective_active_adapters\": [], \"forward_index\": 1, \"inputs\": null, \"passed\": false}",
+  "manifest_sha256": "a33e042bc0defaa72f658e421dc3e2ad8f0ad3fbcdf4c04b250604353d50998f",
+  "amendment_path": "/Users/arpit/ASI_Intern_Submission/E2/analysis/claim_sidecar_v1/ADAPTER_ACTIVATION_DIAGNOSTIC_ADDENDUM_2026-11-18.md",
+  "amendment_sha256": "caa333d1e718be62cd93be0f739151c568acd2089cb21fa495efb28d637edef3",
+  "diagnostic_driver_path": "/Users/arpit/ASI_Intern_Submission/E2/claim_sidecar_adapter_diagnostic.py",
+  "diagnostic_driver_sha256": "f6c7a95008d39c9d3a3a4a77ef4ae5369ee190c0f8541340ac6e9647285023ed",
+  "calibration_driver_sha256": "e5e3aeaf53a9505be05eb0fec8b305a0eba54c7c684c3e4f4c1383158ae564a0",
+  "authorization_path": "/Users/arpit/ASI_Intern_Submission/E2/analysis/claim_sidecar_v1/adapter_diagnostic_authorization_retry1.json",
+  "authorization_sha256": "8bebd348ad947458d9db46c35256f991c44f3e9f119cd1c404cb28f9171c8c6e",
+  "calibration_report_path": "/Users/arpit/ASI_Intern_Submission/E2/analysis/claim_sidecar_v1/adapter_diagnostic_2026-11-18_run2/calibration_report.json",
+  "calibration_report_sha256": null,
+  "sidecar_sha256": "161f6dde297a53ff8cd688eddd01f12a35e9982ff0add77c4624d93e47e382e0",
+  "expected_forward_contexts": 7,
+  "observed_forward_contexts": 1,
+  "forward_contexts": [
+    {
+      "forward_index": 1,
+      "inputs": null,
+      "effective_active_adapters": [],
+      "passed": false
+    }
+  ],
+  "all_contexts_used_proximity": false,
+  "human_accepted": false
+}

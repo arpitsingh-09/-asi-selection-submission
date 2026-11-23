@@ -29,7 +29,7 @@ not a negative outcome.
 Run the summary generator (reads existing receipts/results; does not score):
 
 ```sh
-python3 -m M.consolidate_results --out M/results/consolidated_v1/summary.json
+python3 -m M.consolidate_results --out /tmp/M-consolidated-reproduction.json
 ```
 
 Run focused CPU software tests (not experimental evaluations):
@@ -44,7 +44,11 @@ comparison can be reproduced with
 `python3 -m M.prospective_grounding.exploratory_evidence.compare_review_responses`;
 it writes only under the exploratory evidence directory and does not score V2.
 
-No heldout evaluation or model inference is recorded by this notebook. Consult [FINAL_REPORT.md](FINAL_REPORT.md), [README.md](README.md), and [PREREG.md](PREREG.md) for methods, implementation scope, and frozen requirements.
+No original registered held-out evaluation or core-battery scoring is recorded.
+Separate supplementary inference/scoring is described with its own scope and
+limitations in [FINAL_REPORT.md](FINAL_REPORT.md); none is promoted to a
+registered result. Consult [README.md](README.md) and [PREREG.md](PREREG.md) for
+implementation scope and frozen requirements.
 
 ## Supplementary prospective grounding status — 2026-11-15
 
@@ -88,3 +92,22 @@ Offline packet checks:
 python3 -m unittest M.prospective_grounding.tests.test_human_review_v2 -v
 python3 -m M.prospective_grounding.human_review_v2.validate_packet
 ```
+
+## Quality-label recovery — 2026-11-19
+
+Searched the current frozen-v2 quality questions against local official ICLR
+2022–2025 paper exports and joined exact text/title/forum matches only. One
+TRAIN candidate (Cramming) has three review-note values unchanged before the
+official ICLR 2023 release event and a fourth review modified afterward.
+Because the OpenReview submission snapshot was modified years after its
+first-public date and its edit history is unavailable, the exact historical
+abstract version could not be verified; the candidate labels were not
+imported. One direct note-edit API request failed with DNS error `[Errno 8]`;
+it was not retried. The negative result is recorded in
+`data/quality_recovery_2026-11-19/OPENREVIEW_EDITS_FETCH_NEGATIVE_2026-11-19.json`.
+Focused indexed searches also returned no exact OpenReview revision/review
+records for these IDs. Neither frozen VALIDATION question has an exact
+matching review record. No later-community-use labels were recovered. See
+`data/quality_recovery_2026-11-19/RECOVERY_AUDIT.md`. Existing manifests,
+protocols, labels, and results were left unchanged; no training or evaluation
+ran.

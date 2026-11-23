@@ -1,0 +1,3 @@
+# Minimal dependency for the shared-space core, metadata CLI, and offline analysis.
+# Python standard library is otherwise sufficient for these paths.
+numpy==2.0.2

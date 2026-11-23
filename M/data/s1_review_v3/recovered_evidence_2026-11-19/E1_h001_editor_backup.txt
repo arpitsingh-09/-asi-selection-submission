@@ -1,0 +1,16 @@
+cd ~/asi-selection && source .venv/bin/activate
+cat > E1/contrast.jsonl <<'EOF'
+{"id":"h001","source_arxiv":"2610.26863","A":"Is language pretraining necessary for strong text-to-image generation?","B":"Must a model undergo language pretraining before it can generate high-quality images from text?","B_min":"Is language pretraining required for strong text-to-image generation?","C":"Is language pretraining harmful to strong text-to-image generation?","C_type":"direction_flip","C_tilde":"Can linguistic preparation be detrimental to the quality of pictures produced by a generative model?","narrower":"Is language pretraining necessary for autoregressive text-to-image models trained on 100 million image-text pairs?","broader":"Is learning from one type of data necessary for generating high-quality outputs in another domain?","length_flipped":true,"author":"AC","second_reader_agrees":null}
+EOF
+python E1/check_items.py E1/contrast.jsonl
+cd ~/asi-selection && source .venv/bin/activate
+cat > E1/contrast.jsonl <<'EOF'
+{"id":"h001","source_arxiv":"2610.26863","A":"Is language pretraining necessary for strong text-to-image generation?","B":"Must a model undergo language pretraining before it can generate high-quality images from text?","B_min":"Is language pretraining required for strong text-to-image generation?","C":"Is language pretraining harmful to strong text-to-image generation?","C_type":"direction_flip","C_tilde":"Can linguistic preparation be detrimental to the quality of pictures produced by a generative model?","narrower":"Is language pretraining necessary for autoregressive text-to-image models trained on 100 million image-text pairs?","broader":"Is learning from one type of data necessary for generating high-quality outputs in another domain?","length_flipped":true,"author":"AC","second_reader_agrees":null}
+EOF
+python E1/check_items.py E1/contrast.jsoncd ~/asi-selection
+source .venv/bin/activate
+pwd
+ls
+git status
+
+

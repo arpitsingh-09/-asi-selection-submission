@@ -1,0 +1,14 @@
+{
+  "scope": "adapter_diagnostic_only",
+  "authorize_adapter_diagnostic_only": true,
+  "amendment_approved": true,
+  "e6_inactive_verified": true,
+  "resource_headroom_verified": true,
+  "manifest_sha256": "a33e042bc0defaa72f658e421dc3e2ad8f0ad3fbcdf4c04b250604353d50998f",
+  "amendment_sha256": "caa333d1e718be62cd93be0f739151c568acd2089cb21fa495efb28d637edef3",
+  "calibration_driver_sha256": "e5e3aeaf53a9505be05eb0fec8b305a0eba54c7c684c3e4f4c1383158ae564a0",
+  "diagnostic_driver_sha256": "f6c7a95008d39c9d3a3a4a77ef4ae5369ee190c0f8541340ac6e9647285023ed",
+  "authorization_source": "User approved the adapter-activation diagnostic recommendation on 2026-11-18. Fresh read-only E6 checks at 2026-11-18T15:21:50+00:00: no E6 execution.lock files; no E6 files changed in the preceding ten minutes; heldout completion marker and summary both report full_evaluation_complete=true; last Ollama /api/generate or /api/chat request in server log was 2026/11/15 - 08:19:07. Process enumeration is restricted by the managed sandbox; inactivity is corroborated by locks, output activity, completion records, and model-server request logs. Fresh resource check at 2026-11-18T15:21:50+00:00: memory_pressure free=68% of 16 GiB; df available=343577508 KiB.",
+  "e6_check_utc": "2026-11-18T15:21:50+00:00",
+  "resource_check_utc": "2026-11-18T15:21:50+00:00"
+}

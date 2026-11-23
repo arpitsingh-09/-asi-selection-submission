@@ -17,11 +17,20 @@ These are hypotheses, not findings. The frozen implementation uses a shared
 512-bin lexical hash representation and rule-based facets, not a trained
 semantic encoder. Readouts include identity, novelty, groundedness/relevance,
 quality, diversity, and temporal components. `B-TF` is train-only TF-IDF;
-`B-LEN` is token count. Semantic `B-Q`/`B-ABS` artifacts are unavailable. The
+`B-LEN` is token count. The exploratory S1 analysis has saved E5 question-baseline outputs. Original S1 has cached MiniLM vectors, but its encoder cutoff and cohort eligibility remain unresolved. The
 two quality targets—peer-review quality and later community use—have no
 eligible dated, question-linked labels, so their heads remain untrained and
 unavailable. A missing baseline or head blocks its comparison; it is not
 replaced by the lexical proxy.
+
+## Measured supplementary outcomes
+
+| Comparison | Observed outcome | Interpretation |
+|---|---|---|
+| S1-style identity versus E5, 60 focal questions | Both classified all 60 minimal paraphrases as intended. On near misses, identity classified 9/60 as intended and E5 classified 0/60. The paired improvement was 15 percentage points (95% interval 6.7 to 25). | The paraphrase tie left the joint criterion unmet. The labels reflect creator intent on previously inspected questions. [Saved comparisons](supplementary_s1_e1_exploratory/results/run_001/results.json) |
+| A1-style coverage and concentration, 16 targets grouped under two focal papers | Zero of four coordinates cleared the joint criterion. Y passed the concentration ordering for both papers and the coverage ordering for one. | The effective sample for uncertainty is two papers. These measurements identify a failed ordering within the sample and leave population performance uncertain. [Saved paired statistics](a1_replication/A1_STATISTICAL_RESULTS_V1.json) |
+
+The original battery remains 0/9 complete.
 
 ## Frozen evaluation design
 
@@ -62,13 +71,44 @@ permitted.
 |---|---|---|
 | I1 | Near-miss minus paraphrase drift; lower CI >0.02 for every head. | BLOCKED: original input links and independently checked controls are missing; fitted Q heads and frozen normalization are unavailable. |
 | I3 | Preference-ranking improvement over B-LEN; lower CI >0.02 for each claimed Q/N coordinate. | BLOCKED: no eligible dated, length-matched preference labels linked to the frozen questions; Q heads unavailable. |
-| S1 | Accuracy improvement over B-Q for near-miss and minimal-paraphrase decisions; both lower CIs >0.02. | BLOCKED: alignments lack independent confirmation; question dates, original input/control links, and verified model cutoff are missing. |
+| S1 | Accuracy improvement over B-Q for near-miss and minimal-paraphrase decisions; both lower CIs >0.02. | Blocked before scoring. Of 122 candidate pairs across 61 questions, zero qualified. Question timing and original inputs remain unverified, zero questions have all four verified conditions, reviewer independence is unresolved, and the pinned encoder lacks a verified training cutoff. No accuracy difference or confidence interval was estimated. [Eligibility evidence](data/s1_review_v3/recovered_evidence_2026-11-19/S1_FINAL_EVIDENCE_HANDOFF_MANIFEST_2026-11-19.json) |
 | A1 | Strict novelty-axiom pass fraction; one coordinate must have lower CI ≥0.80 for both partial coverage and concentration. | BLOCKED: existing E2 work is not a prospective M cohort; no eligible new heldout cohort with verified original inputs and required controls. |
 | H1 | Length-matched preference concordance over B-Q after system demeaning; lower CI >0.02. | BLOCKED: no eligible dated, source-bound battles with seed/system links; Q heads and compatible B-Q predictions are unavailable. |
 | H3 | Q–review-score correlation improvement over B-Q; lower CI >0.02, with independent human-ceiling share. | BLOCKED: no post-cutoff question/review/date links, numeric reviewer outcomes, independent ceiling, Q heads, or semantic baseline. |
 | O1 | Within-topic concordance over B-Q for both quality factors; both lower CIs >0.02. | BLOCKED: no eligible dated peer-review and community-use outcomes linked to questions; both Q heads unavailable. |
 | O2 | Within-identical-seed outcome ranking improvement over question-text B-TF; lower CI >0.02. | BLOCKED: no verified identical supplied seed sets of at least three papers and dated outcome links; zero eligible pairs. |
 | T1 | Difference between frozen ≤2022 and ≤2023 model head scores; upper CI ≤0.02 for every head. | BLOCKED: separately trained, prospectively frozen year-specific models, normalized predictions, and input controls are absent. |
+
+## Design variables, controls, and threats
+
+The registered design treats the question and its supplied literature at time
+`t` as the unit of representation. The prespecified contrasts and cohort
+dimensions are test-specific: paraphrase versus near-miss edits (I1/S1),
+length-matched pairs (I3), novelty coverage and concentration manipulations
+(A1), expert pair preferences (H1), dated reviewer outcomes (H3), later
+quality/community-use outcomes (O1), shared input-paper sets (O2), and adjacent
+training cutoffs (T1). Outcomes are the
+readout-specific score, relation decision, ranking/concordance, axiom pass, or
+time difference defined in the frozen protocol. Quality factors are separate;
+they are not collapsed into a single target.
+
+For input-bearing registered rows, original, empty, cross-instance shuffled,
+and independently verified same-topic decoy conditions are separate
+diagnostics; the empty score is undefined and conditions are never averaged.
+Registered baselines are B-Q/B-ABS where applicable, B-TF, and B-LEN; unavailable
+semantic vectors are a blocker, not permission to substitute lexical scores.
+Uncertainty is paired percentile 95% cluster bootstrap with 2,000 draws and
+PCG64 seed `20261113`, resampling the preregistered independent unit while
+keeping associated conditions together. The small supplementary A1 uses two
+focal-paper clusters, so its intervals are highly discrete and weakly
+generalizable.
+
+The principal threats are construct validity of lexical identity/facet proxies,
+exposure and unverified creator-intended labels in S1, the two-cluster A1
+sample, incomplete input/decoy controls, missing question and label observation
+dates, and absent semantic/quality heads. These threats explain why the saved
+supplements are descriptive/exploratory and why no positive core claim is
+reported.
 
 **Original registered result: 0/9 complete, all blocked.** This is an absence
 of eligible evaluations, not a negative result about the hypotheses. The O2
@@ -208,13 +248,92 @@ authorization. Sources are preserved in
 
 ## Scientific interpretation and limitations
 
-Software tests validate implementation, not the hypotheses. The core battery
-has no eligible results. Supplementary A1 misses its joint threshold;
-exploratory S1 fails its joint criterion on minimal paraphrases; V2 has no
-outcome comparison. Publication dates cannot replace question, input-version,
-or outcome-observation dates. No dates or labels were imputed, and exposed E2
-was not promoted into original A1. The two-cluster A1 and two-family V2 samples
-limit generalization.
+The evidence supports narrow conclusions about the measured artifacts, not a
+general claim that the representation identifies good research questions:
+
+* In the exposed S1-style sample, identity matched the creator-intended labels
+  on near-misses more often than `B-Q` (difference +0.15, 95% CI [0.0667,
+  0.25]), but tied `B-Q` on minimal paraphrases (difference 0.00, [0.00,
+  0.00]). The registered-style two-category rule therefore failed. Since the
+  labels are unverified and the examples were exposed, this is a diagnostic of
+  threshold behavior, not verified semantic performance.
+* In the two-paper A1 partial replication, no novelty coordinate met the joint
+  coverage-and-concentration criterion. `Y` passed concentration on both
+  papers but coverage on only one; density had two zero late-coverage changes
+  and a concentration effect opposite the expected direction. This suggests
+  different coordinates respond differently to pool construction in these
+  examples; it does not establish population behavior.
+* The grounding pilot has no eligible model-versus-baseline outcome comparison.
+  The exploratory review responses agree descriptively, but one reviewer was
+  AI-assisted and declared non-independence; both also judged the image decoy
+  supported by its supplied papers. The review evidence therefore does not
+  validate that decoy or satisfy the independent-review gate.
+* In the six-question development readout, mean pairwise cosine distance,
+  Vendi, and class entropy were identical across the saved original, empty,
+  and shuffled-input conditions (0.64548, 4.69981, and 1.79176,
+  respectively). This is a warning that these lexical diversity statistics
+  did not respond to those input changes in that small fixture; there was no
+  same-topic decoy or human validation. See
+  [`results/generated_development_v4/summary.md`](results/generated_development_v4/summary.md).
+
+No feature of a “good question” has been validated on held-out years. The
+registered battery has no eligible results, so it cannot establish either
+success or failure of the six readouts. Software tests validate implementation
+paths, not the hypotheses. Paper publication dates cannot substitute for
+question, input-version, or outcome-observation dates. No dates or labels were
+imputed, and exposed E2 evidence was not promoted into original A1. The
+two-cluster A1 and two-family grounding sample sharply limit generalization.
+
+### Cross-experiment interpretation of the saved diagnostics
+
+The supplementary artifacts suggest specific failure checks for a future
+eligible study. These are post hoc lessons from exposed or small samples; they
+do not revise the frozen hypotheses or count as held-out validation.
+
+| Observed evidence | Narrow inference | What it does not establish |
+|---|---|---|
+| In exploratory S1, M tied `B-Q` on the 60 minimal paraphrases and exceeded it by 0.15 on the 60 near-misses, against exposed, unverified E1 intent labels. | Keep paraphrase stability and near-miss discrimination as separate outcomes; a good near-miss contrast cannot compensate for a failed paraphrase criterion. | Verified semantic accuracy, prospective generalization, or original S1 completion. Source: [`supplementary_s1_e1_exploratory/results/run_001/results.json`](supplementary_s1_e1_exploratory/results/run_001/results.json). |
+| In A1, `density` had zero change in the final two coverage steps and a reverse concentration effect; `Y` passed concentration on both papers but coverage on one. | Report novelty coordinates separately and inspect saturation and direction reversals instead of pooling coordinates. | Population-level coordinate behavior; there are only two focal-paper clusters and the full control suite is incomplete. Source: [`a1_replication/A1_STATISTICAL_RESULTS_V1.json`](a1_replication/A1_STATISTICAL_RESULTS_V1.json). |
+| The six-question development fixture had identical saved diversity values across original, empty, and shuffled conditions. | Test explicitly whether each diversity readout responds to input changes; identical values are a sensitivity warning in this fixture. | General input insensitivity or a registered negative result. Source: [`results/generated_development_v4/results.json`](results/generated_development_v4/results.json). |
+| In exploratory grounding review, both reviewers marked the image decoy as same-topic and supported by its supplied papers. Reviewer independence was not established for both. | Same-topic relevance and unsupportedness must be checked as separate control properties. | Valid independent human confirmation or satisfaction of the registered decoy gate. Source: [`prospective_grounding/exploratory_evidence/analysis_2026-11-15/results.json`](prospective_grounding/exploratory_evidence/analysis_2026-11-15/results.json). |
+
+These diagnostics make the limitations concrete, but none validates a named
+feature of “good questions” on held-out years—the rubric’s stronger insight
+criterion remains unmet.
+
+## Rubric coverage and evidence boundary
+
+The assignment rubric awards marks across six categories. This table maps the
+submission evidence to those requirements; it is not a prediction of the
+marker’s score.
+
+| Rubric category | Requirements supported by this submission | Status and material gap |
+|---|---|---|
+| Research design (15) | A clear question and directional hypotheses; one shared, time-bounded `Φ(q,R,t)`; separate readout contracts; temporal splits, controls, baselines, cluster units, bootstrap method, and frozen thresholds are specified in [`PREREG.md`](PREREG.md) and [`EVALUATION.md`](EVALUATION.md). | Documented, but the report does not trace every design choice to findings from T1–T5/E1–E6; most readouts lack eligible held-out validation. The current implementation is a lexical/rule prototype rather than a validated semantic representation. |
+| Evaluation battery (25) | All nine required core tests are individually listed with their criteria and blockers; time, leakage, controls, and resampling requirements are documented. | **0/9 complete.** No extended test was completed. Each blocker is reported rather than replaced with a proxy. |
+| Experimental results (20) | Saved supplementary A1 and exposed S1-style analyses include observed outcomes, baselines where applicable, paired confidence intervals, and failure cases; the exploratory grounding review comparison is labeled non-independent. | No registered core result or well-powered held-out result exists. The supplements do not meet the rubric’s demand for eligible held-out post-cutoff results or a decisive, well-powered negative result. |
+| Research insights (20) | The report names where identity and `B-Q` agree or differ, where novelty coordinates fail their joint rule, and where the decoy review exposed a control weakness. | These are limited, exposed examples. No good-question feature is validated on held-out years, and no broad system-quality conclusion is supported. |
+| Reproducibility and reuse (10) | The README describes setup, interfaces, schemas, frozen files, and offline checks; this report links saved outputs, hashes, and analysis scripts. | Reproduction is strongest for software and saved supplementary statistics. Missing eligible cohorts and model artifacts prevent reproducing any registered evaluation; hardware/energy metadata are incomplete for some supplementary runs. |
+| Integrity (10) | The preregistration and amendments are identified; AI assistance and a caught implementation error are disclosed in [`AI_USAGE.md`](AI_USAGE.md); the failed V1 generation and unresolved review evidence are retained in [`NOTEBOOK.md`](NOTEBOOK.md). Deviations and non-independent judgments are labeled. | The report cannot claim every rubric item is satisfied: human reviews and historical links remain missing, and the core battery was not run. No score or admission outcome is inferred. |
+
+The strongest supported submission is therefore the implementation, its
+reproducible software checks, transparent failure accounting, and narrowly
+bounded supplementary findings. The evidence does not establish the Main
+Problem’s required core empirical claims or guarantee the 45-point admission
+threshold.
+
+## R1–R5 integrity crosswalk
+
+| Requirement | Evidence in `M/` | Assessment |
+|---|---|---|
+| R1 — log AI use and a genuine error caught | The submission-level [`AI_LOG.md`](../AI_LOG.md) incorporates Main Problem assistance and errors. The scoped [`AI_USAGE.md`](AI_USAGE.md) records the future-paper availability error and future-annotation leak; it links the latter to `test_future_answer_annotation_is_removed_not_just_hidden_by_head`. [`NOTEBOOK.md`](NOTEBOOK.md) records execution failures and recovery attempts. | Documented across linked records. The exact earlier-arrival crash has no dedicated regression test, and the cited 92-test suite was not rerun during this report work. The errors are not represented as scientific validation. |
+| R2 — preregister before evaluation; preserve prior Git evidence | [`GIT_HISTORY_EVIDENCE.md`](GIT_HISTORY_EVIDENCE.md) records the original M preregistration commit, amendment commits, parent links, and bundle verification. The original nine-test battery was not executed. The supplementary A1 commit timestamp precedes its saved inference start by about 4 hours 16 minutes. | Internally supported, with caveats: the A1 registration retains a contradictory status sentence. The dated [A1 status clarification](a1_replication/A1_PREREG_STATUS_CLARIFICATION_2026-11-19.md) reconciles it with the committed authorization and run record without changing them. Git timestamps and author identity are not externally attested. The bundle supports commit-object chronology, not public availability or scientific adherence. |
+| R3 — report negative results honestly | The original battery is reported as 0/9; supplementary S1 and A1 fail their joint criteria; V2 has no scored outcome comparison; the development diversity measures are identical across recorded input conditions. | Documented. No blocked outcome is recast as a negative registered test. |
+| R4 — respect temporal cutoffs | [`PREREG.md`](PREREG.md) specifies TRAIN through 2023, VALIDATION in 2024, the first-half 2025 gap, and TEST from 2025-07-01. Unknown question, version, and label dates remain blockers. | Rules are explicit and unknown dates were not imputed. Since no original held-out evaluation ran, empirical temporal validity is not demonstrated; supplements are separately labeled. |
+| R5 — respect and report small-compute use | The default M representation and cached MiniLM preparation use recorded CPU paths; the MiniLM cache records one thread, batch size 4, PyTorch 2.8.0, and 0.8069 seconds for its encoding loop. The exploratory E5 run records CPU execution. | Partial. The MiniLM timing is vector preparation, not a full question evaluation or the assignment’s one-GPU target. A1 hardware details are absent; V2 hardware and energy were not recorded. No tier is inferred for those runs. |
+
+These requirements are reported separately because a transparent limitation is
+not evidence that the corresponding requirement was fully satisfied.
 
 ## Reproducibility
 
@@ -236,6 +355,9 @@ python3 -B -c 'import json,pathlib; from M.a1_replication.analyze_a1_results imp
 # Recompute the V2 exploratory comparison in memory; writes no files.
 python3 -B -c 'from M.prospective_grounding.exploratory_evidence.compare_review_responses import validate_and_compare; r, _, _ = validate_and_compare(); a=r["rating_agreement"]; b=r["association_agreement"]; assert (a["exact_agreement_n"],b["joint_decision_agreement_n"])==(17,6) and abs(a["cohen_kappa_unweighted"]-0.912)<0.0005 and abs(a["cohen_kappa_linear_weighted"]-0.927)<0.0005'
 
+# Display the exact saved S1-style metrics; this reads results and does no inference.
+python3 -B -c 'import json; from pathlib import Path; p=Path("M/supplementary_s1_e1_exploratory/results/run_001/results.json"); print(json.dumps(json.loads(p.read_text())["metrics"], indent=2))'
+
 # Focused offline validation of the exploratory comparison.
 python3 -B -m unittest M.prospective_grounding.tests.test_exploratory_review_pair -v
 
@@ -254,13 +376,40 @@ revision/file hashes; A1 records local model revisions and weight hashes but
 not hardware. V2 records its Qwen3 digest/settings but not hardware or energy.
 No compute use is inferred where the artifacts do not report it.
 
+During this submission audit on 2026-11-19 the available environment was CPython
+3.9.6, macOS arm64, and NumPy 2.0.2. [`requirements-core.txt`](requirements-core.txt)
+pins NumPy for the standard-library/NumPy core paths; it does not recreate the
+historical model-run environments. The 11 entries in
+[`frozen/SHA256SUMS.json`](frozen/SHA256SUMS.json) were checked against their
+current files and all matched. The saved B-Q preparation record
+[`data/s1_review_v3/minilm_vectors.json`](data/s1_review_v3/minilm_vectors.json)
+binds 183 384-dimensional vectors to model revision
+`1110a243fdf4706b3f48f1d95db1a4f5529b4d41` and model-file hashes; it explicitly
+marks the model training cutoff unverified, so these vectors do not unlock S1.
+The dated manifest summary is
+[`data/manifests_v2/manifest_report.json`](data/manifests_v2/manifest_report.json)
+(25 TRAIN, 2 VALIDATION, 80 metadata-only TEST candidates; SHA-256
+`b2fb0bb6aa4f69118465306f117e2ecde7456d2acc3660d20ede26d3a87572cf`). Its
+zero eligible label counts are consistent with the frozen quality-readiness
+report. The supplied checkout does not contain the historical commit objects
+referenced by its amendments; content hashes establish present-byte integrity,
+not commit chronology.
+
 ## AI use and submission status
 
-AI assistance, caught errors, Qwen3 use, and the AI-assisted review are
-disclosed in [`AI_LOG.md`](AI_LOG.md) and [`AI_USAGE.md`](AI_USAGE.md). The V1
-empty response is preserved; no question, label, date, or result was invented.
+AI assistance and the caught Main Problem implementation errors are recorded
+in the submission-level [`AI_LOG.md`](../AI_LOG.md) and scoped
+[`AI_USAGE.md`](AI_USAGE.md); dated failures and evidence-recovery limits are
+also retained in [`NOTEBOOK.md`](NOTEBOOK.md). Qwen3 use and the AI-assisted
+exploratory review are disclosed in those records and in the grounding report.
+The V1 empty response is preserved; no question, label, date, or result was
+invented.
 
 The submission contains nine blocked core evaluations, the limited A1 negative
 threshold result, and V2 generations without a scored result. These supplements
 remain separate from the original battery. The table above gives each original
 test's remaining source, time, label, control, model, or baseline blocker.
+The assignment's admission rule is at least 45/100 overall and at least 6/10
+for Integrity; its core tests are required, and an unrun test must be listed
+with its reason. The planning totals supplied by the applicant are not earned
+marks or evidence that either threshold has been met.

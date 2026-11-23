@@ -1,0 +1,9 @@
+{
+  "forum_id": "whRAOJiyHM",
+  "title": "CARE: Towards Clinical Accountability in Multi-Modal Medical Reasoning with an Evidence-Grounded Agentic Framework",
+  "retrieved_at_utc": "2026-11-19T01:56:41.407563+00:00",
+  "requests": [],
+  "edit_count": null,
+  "status": "error",
+  "error": "HTTPError: HTTP Error 403: Forbidden"
+}

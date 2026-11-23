@@ -158,3 +158,17 @@ E2 offline validation: 44 tests passed; no scoring files changed.
   is unavailable through the current web tool. No missing model generation or
   citation record was simulated.
 
+- 2026-11-19: Attempted recovery of authoritative quality labels for the
+  frozen Main TRAIN/VALIDATION splits. Stopped short of using the three
+  apparently pre-release ICLR 2023 ratings for the Cramming candidate because
+  the local OpenReview export has no revision history binding the current
+  abstract hash to its first-public `odate`, and the frozen arXiv date is after
+  the review release. No exact-question VALIDATION review record or dated
+  later-use outcome was found in the local official exports. A single direct
+  edit-history request then failed with DNS error `[Errno 8]`; it was not
+  retried. The negative result is saved in
+  `M/data/quality_recovery_2026-11-19/OPENREVIEW_EDITS_FETCH_NEGATIVE_2026-11-19.json`.
+  Preserved the scoped findings in
+  `M/data/quality_recovery_2026-11-19/RECOVERY_AUDIT.md`; no labels were
+  imported and no model or evaluation ran.
+

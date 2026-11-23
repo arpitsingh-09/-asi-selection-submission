@@ -1,0 +1,377 @@
+{
+  "retrieval_started_utc": "2026-11-19T01:56:31.030196+00:00",
+  "api_base": "https://api2.openreview.net",
+  "queue_path": "/Users/arpit/ASI_Intern_Submission/E2/analysis/task3_subset_decision_v1/first_release_review_queue.csv",
+  "queue_sha256": "7ae79ecc2596f08d1b8edc4d99b97774cc2b960b36c17622e9592061ccd1bcce",
+  "read_only": true,
+  "records": [
+    {
+      "forum_id": "3FQV4JHPpY",
+      "title": "Expanding Reasoning Potential in Foundation Model by Learning Diverse Chains of Thought Patterns",
+      "retrieved_at_utc": "2026-11-19T01:56:31.030381+00:00",
+      "requests": [],
+      "edit_count": null,
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "rajioNWfRs",
+      "title": "TNT: Improving Chunkwise Training for Test-Time Memorization",
+      "retrieved_at_utc": "2026-11-19T01:56:32.088226+00:00",
+      "requests": [],
+      "edit_count": null,
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "vI56m4Iu4e",
+      "title": "MemGen: Weaving Generative Latent Memory for Self-Evolving Agents",
+      "retrieved_at_utc": "2026-11-19T01:56:32.804746+00:00",
+      "requests": [],
+      "edit_count": null,
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "GVVNG2EMQv",
+      "title": "The Unseen Bias: How Norm Discrepancy in Pre-Norm MLLMs Leads to  Visual  Information Loss",
+      "retrieved_at_utc": "2026-11-19T01:56:33.521761+00:00",
+      "requests": [],
+      "edit_count": null,
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "M4RKeHIAxw",
+      "title": "CoDA: Agentic Systems for Collaborative Data Visualization",
+      "retrieved_at_utc": "2026-11-19T01:56:34.137750+00:00",
+      "requests": [],
+      "edit_count": null,
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "zc1ezBrr5m",
+      "title": "TaTToo: Tool-Grounded Thinking PRM for Test-Time Scaling in Tabular Reasoning",
+      "retrieved_at_utc": "2026-11-19T01:56:34.752670+00:00",
+      "requests": [],
+      "edit_count": null,
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "Ch0MxMvNHz",
+      "title": "Multiple Token Divergence: Measuring and Steering In-Context Computation Density",
+      "retrieved_at_utc": "2026-11-19T01:56:35.467952+00:00",
+      "requests": [],
+      "edit_count": null,
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "8RV6H50OSf",
+      "title": "MoBE: Mixture-of-Basis-Experts for Compressing MoE-based LLMs",
+      "retrieved_at_utc": "2026-11-19T01:56:36.081605+00:00",
+      "requests": [],
+      "edit_count": null,
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "E4RYoWcbl2",
+      "title": "MaxCode: A Max-Reward Reinforcement Learning Framework for Automated Code Optimization",
+      "retrieved_at_utc": "2026-11-19T01:56:36.728687+00:00",
+      "requests": [],
+      "edit_count": null,
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "drOy5wi6Qq",
+      "title": "Less Is More: Clustered Cross-Covariance Control for Offline RL",
+      "retrieved_at_utc": "2026-11-19T01:56:37.413585+00:00",
+      "requests": [],
+      "edit_count": null,
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "gHPRSPxIsk",
+      "title": "How to Square Tensor Networks and Circuits Without Squaring Them",
+      "retrieved_at_utc": "2026-11-19T01:56:37.996307+00:00",
+      "requests": [],
+      "edit_count": null,
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "G4I23g5Ugh",
+      "title": "PriorGuide: Test-Time Prior Adaptation for Simulation-Based Inference",
+      "retrieved_at_utc": "2026-11-19T01:56:38.745219+00:00",
+      "requests": [],
+      "edit_count": null,
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "YrX77XRgku",
+      "title": "Diffusion and Flow-based Copulas: Forgetting and Remembering Dependencies",
+      "retrieved_at_utc": "2026-11-19T01:56:39.257853+00:00",
+      "requests": [],
+      "edit_count": null,
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "zUbBaWAM1Q",
+      "title": "Symmetry-Aware Bayesian Optimization via Max Kernels",
+      "retrieved_at_utc": "2026-11-19T01:56:39.775987+00:00",
+      "requests": [],
+      "edit_count": null,
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "whRAOJiyHM",
+      "title": "CARE: Towards Clinical Accountability in Multi-Modal Medical Reasoning with an Evidence-Grounded Agentic Framework",
+      "retrieved_at_utc": "2026-11-19T01:56:41.407563+00:00",
+      "requests": [],
+      "edit_count": null,
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "YgeeVE75TJ",
+      "title": "Temporal-Oriented Recipe for Transferring Large Vision-Language Model to Video Understanding",
+      "retrieved_at_utc": "2026-11-19T01:56:42.021081+00:00",
+      "requests": [],
+      "edit_count": null,
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "i0cjbEuezL",
+      "title": "FlowKV: Enhancing Multi-Turn Conversational Coherence in LLMs via Isolated Key-Value Cache Management",
+      "retrieved_at_utc": "2026-11-19T01:56:42.635574+00:00",
+      "requests": [],
+      "edit_count": null,
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "aJJppqAm6r",
+      "title": "True Self-Supervised Novel View Synthesis is Transferable",
+      "retrieved_at_utc": "2026-11-19T01:56:43.250858+00:00",
+      "requests": [],
+      "edit_count": null,
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "pMpCOjzwI1",
+      "title": "ThinkOmni: Lifting Textual Reasoning to Omni-modal Scenarios via Guidance Decoding",
+      "retrieved_at_utc": "2026-11-19T01:56:43.864955+00:00",
+      "requests": [],
+      "edit_count": null,
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "lXSrulux48",
+      "title": "Byzantine-Robust Federated Learning with Learnable Aggregation Weights",
+      "retrieved_at_utc": "2026-11-19T01:56:44.478643+00:00",
+      "requests": [],
+      "edit_count": null,
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "oFRbiaib5Q",
+      "title": "Automatic Image-Level Morphological Trait Annotation for Organismal Images",
+      "retrieved_at_utc": "2026-11-19T01:56:45.093082+00:00",
+      "requests": [],
+      "edit_count": null,
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "CX35pnGzht",
+      "title": "CardioBench: Do Echocardiography Foundation Models Generalize Beyond the Lab?",
+      "retrieved_at_utc": "2026-11-19T01:56:45.707654+00:00",
+      "requests": [],
+      "edit_count": null,
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "1taAXRcm21",
+      "title": "A Unification of Discrete, Gaussian, and Simplicial Diffusion",
+      "retrieved_at_utc": "2026-11-19T01:56:46.321906+00:00",
+      "requests": [],
+      "edit_count": null,
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "60RXHBGag4",
+      "title": "DBLP: Noise Bridge Consistency Distillation For Efficient And Reliable Adversarial Purification",
+      "retrieved_at_utc": "2026-11-19T01:56:46.936261+00:00",
+      "requests": [],
+      "edit_count": null,
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "BpyR6Wkl1c",
+      "title": "Control Tax: The Price of Keeping AI in Check",
+      "retrieved_at_utc": "2026-11-19T01:56:47.550646+00:00",
+      "requests": [],
+      "edit_count": null,
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "aMciux4VKg",
+      "title": "AEGIS: Authentic Edge Growth In Sparsity for Link Prediction in Edge-Sparse Bipartite Knowledge Graphs",
+      "retrieved_at_utc": "2026-11-19T01:56:48.165865+00:00",
+      "requests": [],
+      "edit_count": null,
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "DUXG9E8dEO",
+      "title": "Theoretical Analysis of Contrastive Learning under Imbalanced Data: From Training Dynamics to a Pruning Solution",
+      "retrieved_at_utc": "2026-11-19T01:56:48.984513+00:00",
+      "requests": [],
+      "edit_count": null,
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "OOebHJcqgR",
+      "title": "BotaCLIP: Contrastive Learning for Botany-Aware Representation of Earth Observation Data",
+      "retrieved_at_utc": "2026-11-19T01:56:49.802981+00:00",
+      "requests": [],
+      "edit_count": null,
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    }
+  ],
+  "errors": [
+    {
+      "forum_id": "3FQV4JHPpY",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "rajioNWfRs",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "vI56m4Iu4e",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "GVVNG2EMQv",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "M4RKeHIAxw",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "zc1ezBrr5m",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "Ch0MxMvNHz",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "8RV6H50OSf",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "E4RYoWcbl2",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "drOy5wi6Qq",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "gHPRSPxIsk",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "G4I23g5Ugh",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "YrX77XRgku",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "zUbBaWAM1Q",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "whRAOJiyHM",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "YgeeVE75TJ",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "i0cjbEuezL",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "aJJppqAm6r",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "pMpCOjzwI1",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "lXSrulux48",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "oFRbiaib5Q",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "CX35pnGzht",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "1taAXRcm21",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "60RXHBGag4",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "BpyR6Wkl1c",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "aMciux4VKg",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "DUXG9E8dEO",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "forum_id": "OOebHJcqgR",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    }
+  ],
+  "retrieval_finished_utc": "2026-11-19T01:56:50.520493+00:00",
+  "completed_records": 0
+}

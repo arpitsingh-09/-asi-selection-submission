@@ -1,0 +1,13 @@
+{
+  "scope": "calibration_only",
+  "authorize_calibration_only": true,
+  "amendment_approved": true,
+  "e6_inactive_verified": true,
+  "resource_headroom_verified": true,
+  "manifest_sha256": "a33e042bc0defaa72f658e421dc3e2ad8f0ad3fbcdf4c04b250604353d50998f",
+  "amendment_sha256": "8f182b046351ca57aa8bc34a0bd79878432e10f7018a8a5f6738ef30cc399cd3",
+  "driver_sha256": "e5e3aeaf53a9505be05eb0fec8b305a0eba54c7c684c3e4f4c1383158ae564a0",
+  "authorization_source": "User approved the supplementary amendment and driver in this conversation on 2026-11-18. Fresh check at 2026-11-18T14:40:03Z: user had previously confirmed E6 inactivity; no E6 files changed in the preceding ten minutes; latest heldout launch record says phase_completed; local Ollama endpoint 127.0.0.1:11434 refused connection. Process enumeration is restricted by the managed sandbox. Resource check at 2026-11-18T14:40:03Z: 16 GiB total memory, memory_pressure reported 59% free, and filesystem showed 328 GiB available.",
+  "e6_check_utc": "2026-11-18T14:40:03+00:00",
+  "resource_check_utc": "2026-11-18T14:40:03+00:00"
+}

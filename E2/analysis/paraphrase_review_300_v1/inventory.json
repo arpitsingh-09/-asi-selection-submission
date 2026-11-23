@@ -1,0 +1,33 @@
+{
+  "papers": 300,
+  "per_pool": {
+    "computation_language": 100,
+    "computer_vision": 100,
+    "machine_learning": 100
+  },
+  "original_17_candidate_hashes_reused": 9,
+  "revised_prior_candidates": 8,
+  "new_papers": 283,
+  "unchanged_titles": 0,
+  "unchanged_abstracts": 0,
+  "cached_candidate_vectors": 0,
+  "cached_in_original_cache_ids": [],
+  "independent_approvals_recorded_in_batch": 0,
+  "scored": 0,
+  "word_sequence_similarity_at_least_0_85": 248,
+  "word_sequence_similarity_at_least_0_95": 133,
+  "priority_counts": {
+    "compare claims and qualifiers": 44,
+    "consider deeper rewrite; close wording": 248,
+    "check methods coverage; high-level draft": 7,
+    "check revised title for extreme class imbalance": 1
+  },
+  "candidate_file_sha256": "7b55c32d12acbb449de509989b6360070d1affb5b8eae0671487794352ddecdf",
+  "review_template_sha256": "a8d0ad6715a857ff67f66c6205c97698599a16703091b53f52cd97db1994b1f3",
+  "sources": {
+    "E2/data/raw_papers.jsonl": "98036e1d99139a7fa4938362ab45f97fc12f21a91182c0ce5d22ee5be7d0c662",
+    "E2/analysis/claim_completion_v2/claims_future.jsonl": "98a4244c8389284b87f171372eafe58326ea444256226f089e429d165d3f8410",
+    "E2/analysis/blocker_recovery_v1/paraphrase_review.csv": "16f85c35267a98a1aca311a20a7f774f2d436573e64a45106f5b98f78b825980"
+  },
+  "meaning_validation": "pending independent review"
+}

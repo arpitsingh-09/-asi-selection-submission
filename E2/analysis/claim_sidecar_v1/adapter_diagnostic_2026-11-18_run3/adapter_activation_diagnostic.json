@@ -1,0 +1,181 @@
+{
+  "format": 1,
+  "run_type": "adapter_activation_diagnostic_only",
+  "status": "completed",
+  "error": null,
+  "manifest_sha256": "a33e042bc0defaa72f658e421dc3e2ad8f0ad3fbcdf4c04b250604353d50998f",
+  "amendment_path": "/Users/arpit/ASI_Intern_Submission/E2/analysis/claim_sidecar_v1/ADAPTER_ACTIVATION_DIAGNOSTIC_ADDENDUM_2026-11-18.md",
+  "amendment_sha256": "caa333d1e718be62cd93be0f739151c568acd2089cb21fa495efb28d637edef3",
+  "diagnostic_driver_path": "/Users/arpit/ASI_Intern_Submission/E2/claim_sidecar_adapter_diagnostic.py",
+  "diagnostic_driver_sha256": "2336059e6487ae1f7ad50b1a31c036caefa51ed1c6a60910a64014f56628c82a",
+  "calibration_driver_sha256": "e5e3aeaf53a9505be05eb0fec8b305a0eba54c7c684c3e4f4c1383158ae564a0",
+  "authorization_path": "/Users/arpit/ASI_Intern_Submission/E2/analysis/claim_sidecar_v1/adapter_diagnostic_authorization_2026-11-18_run3.json",
+  "authorization_sha256": "faf3f3076c64cecb3fee1b182557d8ba2121ecdb505edb3ebcb76b55ad526c78",
+  "calibration_report_path": "/Users/arpit/ASI_Intern_Submission/E2/analysis/claim_sidecar_v1/adapter_diagnostic_2026-11-18_run3/calibration_report.json",
+  "calibration_report_sha256": "1151d4c74d7e092d15b824c7b3f1fe4fc284565b4ba236a8ca4f2af164729a15",
+  "sidecar_sha256": "161f6dde297a53ff8cd688eddd01f12a35e9982ff0add77c4624d93e47e382e0",
+  "model_identity_and_hash_checks": {
+    "model_id": "specter2_base+proximity-adapter+cls-v1",
+    "base_revision": "3447645e1def9117997203454fa4495937bfbd83",
+    "adapter_revision": "2081559630a80fc5851d8f798a05ba81e9468089",
+    "model_asset_hash_checks": [
+      {
+        "path": "/Users/arpit/.cache/huggingface/hub/models--allenai--specter2_base/snapshots/3447645e1def9117997203454fa4495937bfbd83/config.json",
+        "sha256": "6d9d68ca2bfeca756fd807e7c81e8e9d3203d8a002dff19cc42b29edd48e8802",
+        "passed": true
+      },
+      {
+        "path": "/Users/arpit/.cache/huggingface/hub/models--allenai--specter2_base/snapshots/3447645e1def9117997203454fa4495937bfbd83/pytorch_model.bin",
+        "sha256": "801eda968fad1752fe846a8e572bfdc25202be85544680dda4c99f4589646ebc",
+        "passed": true
+      },
+      {
+        "path": "/Users/arpit/.cache/huggingface/hub/models--allenai--specter2_base/snapshots/3447645e1def9117997203454fa4495937bfbd83/tokenizer.json",
+        "sha256": "fcd3fffca5d8fcc0d5863406f5f491293c1e4658ed503f424a30324b70533c0d",
+        "passed": true
+      },
+      {
+        "path": "/Users/arpit/.cache/huggingface/hub/models--allenai--specter2_base/snapshots/3447645e1def9117997203454fa4495937bfbd83/tokenizer_config.json",
+        "sha256": "afea6e85bb539b2c2de8847d92c2a3ae88334c280abbbdb3baaddc5fb7195242",
+        "passed": true
+      },
+      {
+        "path": "/Users/arpit/.cache/huggingface/hub/models--allenai--specter2_base/snapshots/3447645e1def9117997203454fa4495937bfbd83/vocab.txt",
+        "sha256": "f0a650346e51ede8996710f79ba65d83fdb8da05b159f17037b74ba4e3a36c6f",
+        "passed": true
+      },
+      {
+        "path": "/Users/arpit/.cache/huggingface/hub/models--allenai--specter2_base/snapshots/3447645e1def9117997203454fa4495937bfbd83/special_tokens_map.json",
+        "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+        "passed": true
+      },
+      {
+        "path": "/Users/arpit/.cache/huggingface/hub/models--allenai--specter2/snapshots/2081559630a80fc5851d8f798a05ba81e9468089/adapter_config.json",
+        "sha256": "1065ad610a661c5169f05d81040fe14429d2cc7ecdf83ed654dca4a62aaf9a8c",
+        "passed": true
+      },
+      {
+        "path": "/Users/arpit/.cache/huggingface/hub/models--allenai--specter2/snapshots/2081559630a80fc5851d8f798a05ba81e9468089/pytorch_adapter.bin",
+        "sha256": "5b6105714f78b294daa7e2d181134df12f0acb7a4ec7c1e3c13e512c908db94a",
+        "passed": true
+      },
+      {
+        "path": "/Users/arpit/.cache/huggingface/hub/models--allenai--specter2/snapshots/2081559630a80fc5851d8f798a05ba81e9468089/README.md",
+        "sha256": "35e07453097b8a52632532d0b3024075c22b575e1e3c555bef74357cc5042479",
+        "passed": true
+      }
+    ],
+    "post_load_active_adapters": [
+      "proximity"
+    ],
+    "post_load_activation_passed": true
+  },
+  "initialization_context_count": 2,
+  "initialization_contexts": [
+    {
+      "context_index": 1,
+      "classification": "adapter_initialization"
+    },
+    {
+      "context_index": 2,
+      "classification": "adapter_initialization"
+    }
+  ],
+  "expected_forward_contexts": 7,
+  "observed_forward_contexts": 7,
+  "forward_contexts": [
+    {
+      "forward_index": 1,
+      "inputs": [
+        {
+          "kind": "parity_control",
+          "text_sha256": "0236b457dc776ab6832604d1ab6eb316dd6abb4c59ef3bf56bd1e43fbcc72d4e"
+        }
+      ],
+      "effective_active_adapters": [
+        "proximity"
+      ],
+      "passed": true
+    },
+    {
+      "forward_index": 2,
+      "inputs": [
+        {
+          "kind": "parity_control",
+          "text_sha256": "49ba555973204e42098d17fce09a5f20218336c485e62ba77c72604a0201337e"
+        }
+      ],
+      "effective_active_adapters": [
+        "proximity"
+      ],
+      "passed": true
+    },
+    {
+      "forward_index": 3,
+      "inputs": [
+        {
+          "kind": "parity_control",
+          "text_sha256": "a3f61f1c97a6e1b16c41ec10cbe0cd884364f364ff1cfde22b456af24f99e722"
+        }
+      ],
+      "effective_active_adapters": [
+        "proximity"
+      ],
+      "passed": true
+    },
+    {
+      "forward_index": 4,
+      "inputs": [
+        {
+          "kind": "claim",
+          "text_sha256": "0898df02c4eb78a67cb2b8b5d615e73fd94963f353ddd9ee6c15faac2d408fba"
+        }
+      ],
+      "effective_active_adapters": [
+        "proximity"
+      ],
+      "passed": true
+    },
+    {
+      "forward_index": 5,
+      "inputs": [
+        {
+          "kind": "claim",
+          "text_sha256": "0b38c37f6df3cf3dda2732030afc6287aacfc927172385b388fe495206b02678"
+        }
+      ],
+      "effective_active_adapters": [
+        "proximity"
+      ],
+      "passed": true
+    },
+    {
+      "forward_index": 6,
+      "inputs": [
+        {
+          "kind": "claim",
+          "text_sha256": "0c4bc6e27997c779d6eb5326880f9b50bc58ec604f46b45a38d0d0537829ed3f"
+        }
+      ],
+      "effective_active_adapters": [
+        "proximity"
+      ],
+      "passed": true
+    },
+    {
+      "forward_index": 7,
+      "inputs": [
+        {
+          "kind": "claim",
+          "text_sha256": "0cca22c3fb951b60aaa223cbc73e3fc671ffd973924f29df283ddd41a3b9780c"
+        }
+      ],
+      "effective_active_adapters": [
+        "proximity"
+      ],
+      "passed": true
+    }
+  ],
+  "all_contexts_used_proximity": true,
+  "human_accepted": false
+}

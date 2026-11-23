@@ -1,0 +1,2711 @@
+{
+  "schema": "s1-evidence-handoff-v1",
+  "reviewed_date": "2026-11-19",
+  "scope": "Original S1 evidence handoff; records only, no scoring or protocol change.",
+  "overall_status": "BLOCKED",
+  "new_source_files_found_and_copied": [
+    {
+      "source_path": "/Users/arpit/asi-selection/E1/results_v2/source_inventory.csv",
+      "destination_path": "/Users/arpit/ASI_Intern_Submission/M/data/s1_review_v3/recovered_evidence_2026-11-19/E1_source_inventory.csv",
+      "bytes": 3241,
+      "sha256": "474acb0f503f171d4fbede7686c63d24a43ab9a29e0564c958acbc7823c4a61d",
+      "copy": "byte-identical",
+      "supports": "E1 source-paper associations only; all 61 source_verification_status values are UNVERIFIED, and it is not a supplied-input manifest."
+    },
+    {
+      "source_path": "/Users/arpit/asi-selection/E1/contrast.jsonl",
+      "destination_path": "M/data/s1_review_v3/recovered_evidence_2026-11-19/E1_contrast.jsonl",
+      "bytes": 66445,
+      "sha256": "57f95f7690746d3b22670434410c4ce80894b42f0f8dc504cac58f7d9cdaedcc",
+      "copy": "byte-identical (see source_copy_manifest.json)",
+      "supports": "Preserved current E1 question records and exact current text; does not establish historical creation/availability, original supplied inputs, or controls."
+    },
+    {
+      "source_path": "Derived from the byte-identical E1_contrast.jsonl, E1_local_commit_history.tsv, annotation_manifest.jsonl, and E1_source_inventory.csv",
+      "destination_path": "M/data/s1_review_v3/recovered_evidence_2026-11-19/E1_QUESTION_PROVENANCE_INVENTORY_2026-11-19.jsonl",
+      "bytes": 251569,
+      "sha256": "60b8037b2d0d1b73f79088e31eae7da1b79ee4b4ddfa37e92c72257d7472bd0e",
+      "records": 61,
+      "copy": "derived index; not a contemporaneous source record",
+      "supports": "Per-question current text hashes, current source record hashes, pair/context bindings, and explicit missing historical/input/control fields."
+    },
+    {
+      "source_path": "/Users/arpit/asi-selection/E1/contrast.jsonl",
+      "destination_path": "/Users/arpit/ASI_Intern_Submission/M/data/s1_review_v3/recovered_evidence_2026-11-19/E1_contrast.jsonl",
+      "sha256": "57f95f7690746d3b22670434410c4ce80894b42f0f8dc504cac58f7d9cdaedcc",
+      "question_ids_covered": [
+        "h001",
+        "h002",
+        "h003",
+        "h004",
+        "h005",
+        "h006",
+        "h007",
+        "h008",
+        "h009",
+        "h010",
+        "h011",
+        "h012",
+        "h013",
+        "h014",
+        "h015",
+        "h016",
+        "h017",
+        "h018",
+        "h019",
+        "h020",
+        "h021",
+        "h022",
+        "h023",
+        "h024",
+        "h025",
+        "h026",
+        "h027",
+        "h029",
+        "h030",
+        "h031",
+        "h032",
+        "h033",
+        "h034",
+        "h035",
+        "h036",
+        "h037",
+        "h038",
+        "h039",
+        "h040",
+        "h041",
+        "h042",
+        "h043",
+        "h044",
+        "h045",
+        "h046",
+        "h047",
+        "h048",
+        "h049",
+        "h050",
+        "h051",
+        "h052",
+        "h053",
+        "h054",
+        "h055",
+        "h056",
+        "h057",
+        "h058",
+        "h059",
+        "h060",
+        "h061",
+        "h062"
+      ],
+      "supports": [
+        "current question IDs, texts and variants; per-field text hashes in derived inventory"
+      ],
+      "status": "VERIFIED",
+      "scope_limit": "Current saved snapshot only; not contemporaneous creation/sharing evidence or supplied-input/control provenance."
+    },
+    {
+      "source_path": "Derived from E1_contrast.jsonl, E1_local_commit_history.tsv, annotation_manifest.jsonl, E1_source_inventory.csv",
+      "destination_path": "/Users/arpit/ASI_Intern_Submission/M/data/s1_review_v3/recovered_evidence_2026-11-19/E1_QUESTION_PROVENANCE_INVENTORY_2026-11-19.jsonl",
+      "sha256": "60b8037b2d0d1b73f79088e31eae7da1b79ee4b4ddfa37e92c72257d7472bd0e",
+      "question_ids_covered": [
+        "h001",
+        "h002",
+        "h003",
+        "h004",
+        "h005",
+        "h006",
+        "h007",
+        "h008",
+        "h009",
+        "h010",
+        "h011",
+        "h012",
+        "h013",
+        "h014",
+        "h015",
+        "h016",
+        "h017",
+        "h018",
+        "h019",
+        "h020",
+        "h021",
+        "h022",
+        "h023",
+        "h024",
+        "h025",
+        "h026",
+        "h027",
+        "h029",
+        "h030",
+        "h031",
+        "h032",
+        "h033",
+        "h034",
+        "h035",
+        "h036",
+        "h037",
+        "h038",
+        "h039",
+        "h040",
+        "h041",
+        "h042",
+        "h043",
+        "h044",
+        "h045",
+        "h046",
+        "h047",
+        "h048",
+        "h049",
+        "h050",
+        "h051",
+        "h052",
+        "h053",
+        "h054",
+        "h055",
+        "h056",
+        "h057",
+        "h058",
+        "h059",
+        "h060",
+        "h061",
+        "h062"
+      ],
+      "supports": [
+        "exact current text and hashes; source record hashes; 122 S1 pair/context bindings; explicit null/missing history, inputs, and controls"
+      ],
+      "status": "PARTIAL",
+      "scope_limit": "Derived index, not an original contemporaneous source record."
+    }
+  ],
+  "follow_up_search": {
+    "original_e1_workspace": {
+      "path": "/Users/arpit/asi-selection/E1",
+      "finding": "Contains contrast.jsonl (61 questions with A, B, B_min, C, C_tilde, broader, narrower, author, and source_arxiv); review and model/retrieval outputs; source_inventory.csv and source_metadata.csv. C and C_tilde are question variants, not registered input-set controls. No contemporaneous question-sharing log, original input-paper/version/hash manifest, or four-condition control manifest was found.",
+      "source_inventory": "61 rows; source_id_present=True and source_id_count=1 in every row, but source_verification_status=UNVERIFIED in all 61; source_arxiv association does not establish supplied input R."
+    },
+    "accessible_backup_locations": [
+      {
+        "path": "/Users/arpit/.claude/backups",
+        "finding": "Only a Claude configuration backup was present; no E1/project record."
+      },
+      {
+        "path": "/Users/arpit/.ollama/backup",
+        "finding": "Only Ollama configuration backups were present; no E1/project record."
+      },
+      {
+        "path": "/Users/arpit/Library/FinanceBackup",
+        "finding": "No files found."
+      },
+      {
+        "path": "/Volumes and Time Machine",
+        "finding": "Only Macintosh HD was mounted; tmutil listbackups returned Operation not permitted, so Time Machine backup contents were inaccessible."
+      }
+    ],
+    "excluded_related_record": {
+      "path": "/Users/arpit/ASI_Intern_Submission/E1/source_question_review_2026-11-16.csv",
+      "sha256": "026bf0ff0a9bfb72f7117e8502f2660d49a86d711b67954c6087632a9dffe943",
+      "finding": "A dated retrospective AI-assisted abstract-alignment review; it expressly leaves question/input provenance unresolved and is not contemporaneous authorship, sharing, or input/control evidence. Not copied as qualifying evidence."
+    }
+  },
+  "follow_up_search_2026-11-19": {
+    "local_user_folders": {
+      "paths_checked": [
+        "/Users/arpit/Desktop",
+        "/Users/arpit/Documents",
+        "/Users/arpit/Downloads"
+      ],
+      "finding": "Targeted filename search found no E1/S1 question-authoring, original input, or control record. The matching exploratory_ai_reviews_provenance.json describes unrelated exploratory AI assessments, not E1 source/input/control evidence. No archive with an E1/S1-related filename was identified."
+    },
+    "local_project_archive_checked": {
+      "path": "/Users/arpit/Downloads/novelty-eval-main.zip",
+      "finding": "Archive listing contained no E1 question, input, or control records; the only match was an unrelated controlled-study image."
+    },
+    "mail_search": {
+      "queries": [
+        "E1 question creation",
+        "E1 input papers",
+        "reviewer IDs arpit_singh_revA / revB_human_eval_02",
+        "all-MiniLM-L6-v2 cutoff"
+      ],
+      "results": "No matching messages were found. No reviewer contact addresses or model-training correspondence were identified."
+    },
+    "outreach": "No messages sent: the local history identifies Arpit as E1 item-commit author, and no verified reviewer contacts or training-author email addresses were present in the searched records."
+  },
+  "external_source_records_reviewed_but_not_locally_copied": [
+    {
+      "description": "Pinned all-MiniLM-L6-v2 model card",
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/blob/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md",
+      "finding": "Names training data and development context; does not state a complete, artifact-bound training-data cutoff."
+    },
+    {
+      "description": "Hugging Face JAX/Flax Community Week announcement",
+      "url": "https://discuss.huggingface.co/t/open-to-the-community-community-week-using-jax-flax-for-nlp-cv/7104",
+      "finding": "Dates the event to July 7-14, 2021; this event window is not a verified data-snapshot cutoff."
+    },
+    {
+      "description": "MiniLM-L6-H384-uncased base-model card",
+      "url": "https://huggingface.co/nreimers/MiniLM-L6-H384-uncased",
+      "finding": "Identifies the base model family but does not provide a complete pretraining-data snapshot or cutoff."
+    }
+  ],
+  "requirements": [
+    {
+      "requirement": "Exact E1 question text, variants, item IDs, and associated paper IDs",
+      "status": "VERIFIED",
+      "evidence": [
+        {
+          "path": "/Users/arpit/asi-selection/E1/contrast.jsonl",
+          "preserved_copy": "E1_contrast.jsonl",
+          "sha256": "57f95f7690746d3b22670434410c4ce80894b42f0f8dc504cac58f7d9cdaedcc",
+          "records": 61,
+          "available_question_fields": [
+            "A",
+            "B",
+            "B_min",
+            "C",
+            "C_tilde",
+            "broader",
+            "narrower"
+          ],
+          "scope_limit": "Contains question variants, author codes, and source_arxiv associations; it is not an input-pool log."
+        },
+        {
+          "path": "/Users/arpit/ASI_Intern_Submission/M/data/s1_review_v3/annotation_manifest.jsonl",
+          "sha256": "b0a0b9c370258a681ac80e8784233005f704a967eb14d64e6d36e8a7bec2c011",
+          "records": 122,
+          "scope_limit": "Binds S1 pair text and source context to E1 records and hashes."
+        },
+        {
+          "path": "/Users/arpit/ASI_Intern_Submission/M/data/s1_review_v3/recovered_evidence_2026-11-19/E1_local_commit_history.tsv",
+          "sha256": "9ed431e6bac66deb0812c3fa3b403773257345b5fb14e827264ad5386053ac4f",
+          "records": 61,
+          "commit_details": "61 commits touch E1/contrast.jsonl. Their subjects include 60 distinct item labels; h012 appears twice, h017 is labeled '(with open TODOs)', and h054 has no matching item-labeled subject. First recorded commit is 2026-10-20T10:33:01+05:30 and last is 2026-10-21T21:11:06+05:30. Commit author/committer metadata names Arpit <arpit092005@gmail.com>.",
+          "scope_limit": "These are local Git records. Commit content and dates show repository changes, but do not independently establish the underlying question-creation instant, date posed, whether a question was already used earlier, or who had access then. The repository has no configured remote."
+        },
+        {
+          "path": "/Users/arpit/asi-selection/E1/results_v2/source_metadata.csv",
+          "preserved_copy": "E1_source_metadata.csv",
+          "sha256": "eeafdb4ee45031dc9cf9e5ae245d02179920606c795da75b33cd8f275130241c",
+          "scope_limit": "Paper metadata only; does not show that a paper version was supplied as an input."
+        },
+        {
+          "path": "/Users/arpit/asi-selection/E1/results_v2/source_inventory.csv",
+          "preserved_copy": "E1_source_inventory.csv",
+          "sha256": "474acb0f503f171d4fbede7686c63d24a43ab9a29e0564c958acbc7823c4a61d",
+          "rows": 61,
+          "scope_limit": "All source-verification statuses are UNVERIFIED; source-paper association is not supplied-input provenance."
+        }
+      ]
+    },
+    {
+      "requirement": "Contemporaneous exact question-version history bound to the saved text hashes",
+      "status": "PARTIAL",
+      "evidence_checked": [
+        "E1_contrast.jsonl and annotation_manifest.jsonl preserve current text, pair/source hashes, and source-record bindings",
+        "E1_local_commit_history.tsv contains local commit timestamps only"
+      ],
+      "external_record_needed": "Dated original question versions or authoring records that bind those versions to the 61 questions; a current snapshot and local commits are not sufficient."
+    },
+    {
+      "requirement": "Contemporaneous question creation/posing dates, availability dates, and dated exact-version history",
+      "status": "MISSING",
+      "evidence_checked": [
+        "/Users/arpit/ASI_Intern_Submission/M/data/s1_review_v3/annotation_manifest.jsonl (question_available_at and question_publication_date are null in all 122 rows)",
+        "E1_local_commit_history.tsv (61 per-item additions with local author/committer timestamps and exact commit objects)"
+      ],
+      "scope_limit": "The item commits are genuine repository records of those rows entering the local file, but do not show when each question was posed or made available to a reviewer. Their Git timestamps are not independently authenticated.",
+      "external_record_needed": "Contemporaneous dated evidence of when each question was posed and made available, linked to the 61 E1 item IDs and text hashes; and independent timestamp/record evidence if commit timestamps are offered as creation times."
+    },
+    {
+      "requirement": "Public availability of the E1 question versions",
+      "status": "MISSING",
+      "evidence_checked": [
+        "E1_local_commit_history.tsv records no configured remote or public-release event"
+      ],
+      "external_record_needed": "A dated distribution/submission record or public archive that identifies the exact question versions and when they became available. If questions were private, document the actual availability-to-reviewers event instead."
+    },
+    {
+      "requirement": "Exact original supplied input-paper IDs, versions, hashes, and availability before question posing",
+      "status": "MISSING",
+      "evidence_checked": [
+        "/Users/arpit/ASI_Intern_Submission/M/data/s1_review_v3/annotation_manifest.jsonl (original_input_ids null in all 122 rows; no original_input_versions or original_input_hashes fields)",
+        "E1_contrast.jsonl (no supplied-input-pool field)"
+      ],
+      "external_record_needed": "Original generation/submission records or manifests identifying each supplied paper version and its hash, with evidence it was available before the question was posed."
+    },
+    {
+      "requirement": "Registered original, empty, cross-instance shuffled, and independently verified same-topic decoy conditions",
+      "status": "MISSING",
+      "evidence_checked": [
+        "/Users/arpit/ASI_Intern_Submission/M/PREREG.md (definitions only)",
+        "/Users/arpit/ASI_Intern_Submission/M/data/s1_review_v3/annotation_manifest.jsonl",
+        "/Users/arpit/asi-selection/E1/contrast.jsonl"
+      ],
+      "external_record_needed": "Existing source-bound control manifests and provenance for all four conditions, including the source instance and exact versions for shuffled inputs, and an independent same-topic/unsupported decoy verification. No such records were found; do not reconstruct them as historical controls."
+    },
+    {
+      "requirement": "Completed Reviewer A and Reviewer B judgment files",
+      "status": "VERIFIED",
+      "evidence": [
+        {
+          "source_path": "/Users/arpit/Downloads/reviewer_A_completed.jsonl",
+          "preserved_copy": "reviewer_A_completed.jsonl",
+          "sha256": "97bfdf64cdc8dfe06b5e1136723e5ed53c49c50b7877dac4cd2b6333e0ca7c20",
+          "rows": 122,
+          "recorded_reviewer_id": "arpit_singh_revA",
+          "scope_limit": "Structural validation is recorded in the existing eligibility report; this does not authenticate the human reviewer."
+        },
+        {
+          "source_path": "/Users/arpit/Downloads/reviewer_B_completed.jsonl",
+          "preserved_copy": "reviewer_B_completed.jsonl",
+          "sha256": "c600f3b62d0a616ac93275f19dbe821a8f1330979263d02299547f88974c6b78",
+          "rows": 122,
+          "recorded_reviewer_id": "revB_human_eval_02",
+          "scope_limit": "Structural validation is recorded in the existing eligibility report; this does not authenticate the human reviewer."
+        }
+      ]
+    },
+    {
+      "requirement": "Reviewer A/B are genuine distinct independent humans, non-authors, and actual review timestamps",
+      "status": "UNVERIFIED",
+      "evidence_checked": [
+        "Completed JSONL files contain distinct reviewer ID strings and self-attestation fields",
+        "Existing structural validation reports 122 rows each and no judgment disagreements",
+        "E1 item commits name Arpit <arpit092005@gmail.com>; Reviewer A's ID is arpit_singh_revA, so any overlap must be directly resolved"
+      ],
+      "scope_limit": "The IDs and attestations do not authenticate persons, independence, non-authorship, non-use of AI, or truth of timestamps. Reviewer A's ID string is not proof of identity."
+    },
+    {
+      "requirement": "Signed reviewer confirmations and independent identity/independence verification",
+      "status": "MISSING",
+      "evidence_checked": [
+        "/Users/arpit/ASI_Intern_Submission/M/data/s1_review_v3/recovered_evidence_2026-11-19/reviewer_A_independence_confirmation_FORM.md (blank template; SHA-256 08a39dcbe4172433570bf23ec57b1ab9b2450f78effd7fd8781a7d3899951406)",
+        "/Users/arpit/ASI_Intern_Submission/M/data/s1_review_v3/recovered_evidence_2026-11-19/reviewer_B_independence_confirmation_FORM.md (blank template; SHA-256 8a4797436de74aa0940b2496389a0e701ebd4e6720c15f293ffb2a95b4e7c588)"
+      ],
+      "external_record_needed": "Each actual reviewer must complete and sign their form; a responsible verifier must independently check each identity, that the reviewers are distinct, that neither authored any reviewed E1 item, and the E1 author-code mapping. Forms and verifier evidence were not found in the checked evidence directory or Downloads."
+    },
+    {
+      "requirement": "Authoritative training-data cutoff for the exact pinned MiniLM checkpoint and its base model",
+      "status": "UNVERIFIED",
+      "evidence_checked": [
+        {
+          "path": "/Users/arpit/ASI_Intern_Submission/M/data/s1_review_v3/recovered_evidence_2026-11-19/S1_encoder_preparation_lock.json",
+          "sha256": "254b7f9800cbcc75d743b9acd62fa66c13c2e68bb9a6198f8ad8bbb5b2eaae04",
+          "finding": "Pins revision 1110a243fdf4706b3f48f1d95db1a4f5529b4d41 and model-file hashes; it does not establish a cutoff."
+        },
+        {
+          "path": "/Users/arpit/ASI_Intern_Submission/M/data/s1_review_v3/recovered_evidence_2026-11-19/S1_MINILM_CUTOFF_FOCUSED_REVIEW_2026-11-19.md",
+          "sha256": "acc97e58dfcf376cb2c80571852e924bed567f12146b7213f364cef636bc6ca8",
+          "finding": "Records public source findings; it is an analysis, not authoritative training provenance."
+        }
+      ],
+      "external_record_needed": "A publisher/training-author record tied to these exact weights that identifies the fine-tuning corpus snapshots and cutoff and the base-model pretraining cutoff. Model development/event or release dates are not substitutes."
+    },
+    {
+      "requirement": "Eligible prospective S1 cohort lock and four-condition prediction sources",
+      "status": "MISSING",
+      "evidence_checked": [
+        "/Users/arpit/ASI_Intern_Submission/M/data/s1_review_v3/annotation_manifest.jsonl (all 122 rows remain ineligible)",
+        "/Users/arpit/ASI_Intern_Submission/M/S1_HUMAN_REVIEW.md"
+      ],
+      "external_record_needed": "First satisfy all temporal, input/control, encoder-cutoff, and reviewer-independence requirements; then freeze the eligible cohort, encoder/threshold, and prediction sources prospectively and commit the lock before scoring."
+    },
+    {
+      "requirement": "E1 question-generation AI-use disclosure and original ChatGPT conversation",
+      "status": "PARTIAL",
+      "evidence_checked": [
+        "User report that the E1 author confirmed ChatGPT was used to generate the original 61 questions.",
+        "Original ChatGPT conversation is reported unavailable; no conversation export or contemporaneous generation log is present."
+      ],
+      "scope_limit": "Author disclosure is recorded as reported, but the missing conversation prevents inspection of prompts, outputs, and exact per-question generation/edit history."
+    }
+  ],
+  "handoff_decision": "The three S1 evidence inventories pass structural and provenance validation. The 61 question rows retain exact saved wording, local Git version references and row hashes; those Git records do not establish creation/sharing times. No original supplied-paper input records or source-bound condition records are present in the saved evidence, so verified inputs and complete four-condition sets remain 0/61. Original S1 is not eligible for locking or scoring.",
+  "coverage_validation": {
+    "validated_at": "2026-11-19",
+    "E1_current_questions": "61/61",
+    "verified_contemporaneous_question_histories": "0/61",
+    "verified_original_paper_input_histories": "0/61",
+    "questions_with_all_four_source_bound_controls": "0/61",
+    "reviewer_A_structural_rows": "122/122",
+    "reviewer_B_structural_rows": "122/122",
+    "verified_independent_reviewers": "0/2",
+    "reviewer_A_E1_author_code_AS_relationship": "UNVERIFIED",
+    "MiniLM_authoritative_cutoff": "UNVERIFIED",
+    "valid_S1_pair_bindings": "122/122",
+    "eligible_for_original_S1_lock": false,
+    "original_question_histories_verified": "0/61",
+    "original_paper_input_histories_verified": "0/61",
+    "earliest_observed_local_git_question_versions": "61/61; exact row text matches current snapshot",
+    "verified_original_question_histories": "0/61",
+    "author_reported_chatgpt_assistance": "reported for 61/61 questions; original conversation unavailable",
+    "original_question_creation_timestamps_verified": "0/61",
+    "original_question_sharing_timestamps_verified": "0/61",
+    "question_records_unchanged": true,
+    "question_history_csv_sha256_before_and_after": "2c6353e0b78da8913d501410f5e8e1d26d0ff6923dcd0c3026085e164adf36df",
+    "question_history_rows": "61/61",
+    "question_history_ids_unique": true,
+    "historical_creation_timestamps_verified": "0/61",
+    "historical_sharing_timestamps_verified": "0/61",
+    "reported_chatgpt_assistance_documented": "61/61; original conversation unavailable",
+    "question_text_and_git_references_preserved": true
+  },
+  "reviewer_identity_investigation": {
+    "reviewer_A_id": "arpit_singh_revA",
+    "E1_author_code_AS_occurrences": 29,
+    "status": "UNVERIFIED",
+    "basis": "No authoritative local mapping between code AS and a person, no signed Reviewer A form, and no independent identity verification. The ID string alone is not proof either way."
+  },
+  "cutoff_finding": {
+    "checkpoint_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "status": "UNVERIFIED",
+    "finding": "Available model documentation does not identify exact fine-tuning dataset snapshots/cutoffs and the base-model pretraining cutoff for these exact weights."
+  },
+  "evidence_artifact_register": [
+    {
+      "artifact": "Current E1 question records",
+      "source_path": "/Users/arpit/asi-selection/E1/contrast.jsonl",
+      "destination_path": "/Users/arpit/ASI_Intern_Submission/M/data/s1_review_v3/recovered_evidence_2026-11-19/E1_contrast.jsonl",
+      "sha256": "57f95f7690746d3b22670434410c4ce80894b42f0f8dc504cac58f7d9cdaedcc",
+      "question_ids_covered": [
+        "h001",
+        "h002",
+        "h003",
+        "h004",
+        "h005",
+        "h006",
+        "h007",
+        "h008",
+        "h009",
+        "h010",
+        "h011",
+        "h012",
+        "h013",
+        "h014",
+        "h015",
+        "h016",
+        "h017",
+        "h018",
+        "h019",
+        "h020",
+        "h021",
+        "h022",
+        "h023",
+        "h024",
+        "h025",
+        "h026",
+        "h027",
+        "h029",
+        "h030",
+        "h031",
+        "h032",
+        "h033",
+        "h034",
+        "h035",
+        "h036",
+        "h037",
+        "h038",
+        "h039",
+        "h040",
+        "h041",
+        "h042",
+        "h043",
+        "h044",
+        "h045",
+        "h046",
+        "h047",
+        "h048",
+        "h049",
+        "h050",
+        "h051",
+        "h052",
+        "h053",
+        "h054",
+        "h055",
+        "h056",
+        "h057",
+        "h058",
+        "h059",
+        "h060",
+        "h061",
+        "h062"
+      ],
+      "supports": [
+        "current question IDs, texts and variants; per-field text hashes in derived inventory"
+      ],
+      "status": "VERIFIED",
+      "scope_limit": "Current saved snapshot only; not contemporaneous creation/sharing evidence or supplied-input/control provenance."
+    },
+    {
+      "artifact": "E1 source metadata",
+      "source_path": "/Users/arpit/asi-selection/E1/results_v2/source_metadata.csv",
+      "destination_path": "/Users/arpit/ASI_Intern_Submission/M/data/s1_review_v3/recovered_evidence_2026-11-19/E1_source_metadata.csv",
+      "sha256": "eeafdb4ee45031dc9cf9e5ae245d02179920606c795da75b33cd8f275130241c",
+      "question_ids_covered": [
+        "h001",
+        "h002",
+        "h003",
+        "h004",
+        "h005",
+        "h006",
+        "h007",
+        "h008",
+        "h009",
+        "h010",
+        "h011",
+        "h012",
+        "h013",
+        "h014",
+        "h015",
+        "h016",
+        "h017",
+        "h018",
+        "h019",
+        "h020",
+        "h021",
+        "h022",
+        "h023",
+        "h024",
+        "h025",
+        "h026",
+        "h027",
+        "h029",
+        "h030",
+        "h031",
+        "h032",
+        "h033",
+        "h034",
+        "h035",
+        "h036",
+        "h037",
+        "h038",
+        "h039",
+        "h040",
+        "h041",
+        "h042",
+        "h043",
+        "h044",
+        "h045",
+        "h046",
+        "h047",
+        "h048",
+        "h049",
+        "h050",
+        "h051",
+        "h052",
+        "h053",
+        "h054",
+        "h055",
+        "h056",
+        "h057",
+        "h058",
+        "h059",
+        "h060",
+        "h061",
+        "h062"
+      ],
+      "supports": [
+        "associated paper IDs, titles, URLs and recorded public metadata"
+      ],
+      "status": "PARTIAL",
+      "scope_limit": "Paper association/publication metadata does not prove the paper version was supplied as an original input."
+    },
+    {
+      "artifact": "E1 source inventory",
+      "source_path": "/Users/arpit/asi-selection/E1/results_v2/source_inventory.csv",
+      "destination_path": "/Users/arpit/ASI_Intern_Submission/M/data/s1_review_v3/recovered_evidence_2026-11-19/E1_source_inventory.csv",
+      "sha256": "474acb0f503f171d4fbede7686c63d24a43ab9a29e0564c958acbc7823c4a61d",
+      "question_ids_covered": [
+        "h001",
+        "h002",
+        "h003",
+        "h004",
+        "h005",
+        "h006",
+        "h007",
+        "h008",
+        "h009",
+        "h010",
+        "h011",
+        "h012",
+        "h013",
+        "h014",
+        "h015",
+        "h016",
+        "h017",
+        "h018",
+        "h019",
+        "h020",
+        "h021",
+        "h022",
+        "h023",
+        "h024",
+        "h025",
+        "h026",
+        "h027",
+        "h029",
+        "h030",
+        "h031",
+        "h032",
+        "h033",
+        "h034",
+        "h035",
+        "h036",
+        "h037",
+        "h038",
+        "h039",
+        "h040",
+        "h041",
+        "h042",
+        "h043",
+        "h044",
+        "h045",
+        "h046",
+        "h047",
+        "h048",
+        "h049",
+        "h050",
+        "h051",
+        "h052",
+        "h053",
+        "h054",
+        "h055",
+        "h056",
+        "h057",
+        "h058",
+        "h059",
+        "h060",
+        "h061",
+        "h062"
+      ],
+      "supports": [
+        "source-arxiv associations and source verification statuses"
+      ],
+      "status": "PARTIAL",
+      "scope_limit": "All 61 source verification statuses are UNVERIFIED; not an input manifest."
+    },
+    {
+      "artifact": "E1 local commit history",
+      "source_path": "/Users/arpit/asi-selection/.git history for E1/contrast.jsonl",
+      "destination_path": "/Users/arpit/ASI_Intern_Submission/M/data/s1_review_v3/recovered_evidence_2026-11-19/E1_local_commit_history.tsv",
+      "sha256": "9ed431e6bac66deb0812c3fa3b403773257345b5fb14e827264ad5386053ac4f",
+      "question_ids_covered": [
+        "h001",
+        "h002",
+        "h003",
+        "h004",
+        "h005",
+        "h006",
+        "h007",
+        "h008",
+        "h009",
+        "h010",
+        "h011",
+        "h012",
+        "h013",
+        "h014",
+        "h015",
+        "h016",
+        "h017",
+        "h018",
+        "h019",
+        "h020",
+        "h021",
+        "h022",
+        "h023",
+        "h024",
+        "h025",
+        "h026",
+        "h027",
+        "h029",
+        "h030",
+        "h031",
+        "h032",
+        "h033",
+        "h034",
+        "h035",
+        "h036",
+        "h037",
+        "h038",
+        "h039",
+        "h040",
+        "h041",
+        "h042",
+        "h043",
+        "h044",
+        "h045",
+        "h046",
+        "h047",
+        "h048",
+        "h049",
+        "h050",
+        "h051",
+        "h052",
+        "h053",
+        "h054",
+        "h055",
+        "h056",
+        "h057",
+        "h058",
+        "h059",
+        "h060",
+        "h061",
+        "h062"
+      ],
+      "supports": [
+        "local change references and commit metadata"
+      ],
+      "status": "PARTIAL",
+      "scope_limit": "Commit dates are not question creation or sharing timestamps; no configured remote/public release event."
+    },
+    {
+      "artifact": "Per-question current provenance inventory",
+      "source_path": "Derived from E1_contrast.jsonl, E1_local_commit_history.tsv, annotation_manifest.jsonl, E1_source_inventory.csv",
+      "destination_path": "/Users/arpit/ASI_Intern_Submission/M/data/s1_review_v3/recovered_evidence_2026-11-19/E1_QUESTION_PROVENANCE_INVENTORY_2026-11-19.jsonl",
+      "sha256": "60b8037b2d0d1b73f79088e31eae7da1b79ee4b4ddfa37e92c72257d7472bd0e",
+      "question_ids_covered": [
+        "h001",
+        "h002",
+        "h003",
+        "h004",
+        "h005",
+        "h006",
+        "h007",
+        "h008",
+        "h009",
+        "h010",
+        "h011",
+        "h012",
+        "h013",
+        "h014",
+        "h015",
+        "h016",
+        "h017",
+        "h018",
+        "h019",
+        "h020",
+        "h021",
+        "h022",
+        "h023",
+        "h024",
+        "h025",
+        "h026",
+        "h027",
+        "h029",
+        "h030",
+        "h031",
+        "h032",
+        "h033",
+        "h034",
+        "h035",
+        "h036",
+        "h037",
+        "h038",
+        "h039",
+        "h040",
+        "h041",
+        "h042",
+        "h043",
+        "h044",
+        "h045",
+        "h046",
+        "h047",
+        "h048",
+        "h049",
+        "h050",
+        "h051",
+        "h052",
+        "h053",
+        "h054",
+        "h055",
+        "h056",
+        "h057",
+        "h058",
+        "h059",
+        "h060",
+        "h061",
+        "h062"
+      ],
+      "supports": [
+        "exact current text and hashes; source record hashes; 122 S1 pair/context bindings; explicit null/missing history, inputs, and controls"
+      ],
+      "status": "PARTIAL",
+      "scope_limit": "Derived index, not an original contemporaneous source record."
+    },
+    {
+      "artifact": "Reviewer A completed judgments",
+      "source_path": "/Users/arpit/Downloads/reviewer_A_completed.jsonl",
+      "destination_path": "/Users/arpit/ASI_Intern_Submission/M/data/s1_review_v3/recovered_evidence_2026-11-19/reviewer_A_completed.jsonl",
+      "sha256": "97bfdf64cdc8dfe06b5e1136723e5ed53c49c50b7877dac4cd2b6333e0ca7c20",
+      "question_ids_covered": [
+        "h001",
+        "h002",
+        "h003",
+        "h004",
+        "h005",
+        "h006",
+        "h007",
+        "h008",
+        "h009",
+        "h010",
+        "h011",
+        "h012",
+        "h013",
+        "h014",
+        "h015",
+        "h016",
+        "h017",
+        "h018",
+        "h019",
+        "h020",
+        "h021",
+        "h022",
+        "h023",
+        "h024",
+        "h025",
+        "h026",
+        "h027",
+        "h029",
+        "h030",
+        "h031",
+        "h032",
+        "h033",
+        "h034",
+        "h035",
+        "h036",
+        "h037",
+        "h038",
+        "h039",
+        "h040",
+        "h041",
+        "h042",
+        "h043",
+        "h044",
+        "h045",
+        "h046",
+        "h047",
+        "h048",
+        "h049",
+        "h050",
+        "h051",
+        "h052",
+        "h053",
+        "h054",
+        "h055",
+        "h056",
+        "h057",
+        "h058",
+        "h059",
+        "h060",
+        "h061",
+        "h062"
+      ],
+      "supports": [
+        "122 judgment rows and pair-linked question coverage"
+      ],
+      "status": "VERIFIED",
+      "scope_limit": "Structural file presence only; reviewer identity, independence, authorship status, and truthful timing remain unverified."
+    },
+    {
+      "artifact": "Reviewer B completed judgments",
+      "source_path": "/Users/arpit/Downloads/reviewer_B_completed.jsonl",
+      "destination_path": "/Users/arpit/ASI_Intern_Submission/M/data/s1_review_v3/recovered_evidence_2026-11-19/reviewer_B_completed.jsonl",
+      "sha256": "c600f3b62d0a616ac93275f19dbe821a8f1330979263d02299547f88974c6b78",
+      "question_ids_covered": [
+        "h001",
+        "h002",
+        "h003",
+        "h004",
+        "h005",
+        "h006",
+        "h007",
+        "h008",
+        "h009",
+        "h010",
+        "h011",
+        "h012",
+        "h013",
+        "h014",
+        "h015",
+        "h016",
+        "h017",
+        "h018",
+        "h019",
+        "h020",
+        "h021",
+        "h022",
+        "h023",
+        "h024",
+        "h025",
+        "h026",
+        "h027",
+        "h029",
+        "h030",
+        "h031",
+        "h032",
+        "h033",
+        "h034",
+        "h035",
+        "h036",
+        "h037",
+        "h038",
+        "h039",
+        "h040",
+        "h041",
+        "h042",
+        "h043",
+        "h044",
+        "h045",
+        "h046",
+        "h047",
+        "h048",
+        "h049",
+        "h050",
+        "h051",
+        "h052",
+        "h053",
+        "h054",
+        "h055",
+        "h056",
+        "h057",
+        "h058",
+        "h059",
+        "h060",
+        "h061",
+        "h062"
+      ],
+      "supports": [
+        "122 judgment rows and pair-linked question coverage"
+      ],
+      "status": "VERIFIED",
+      "scope_limit": "Structural file presence only; reviewer identity, independence, authorship status, and truthful timing remain unverified."
+    },
+    {
+      "artifact": "Reviewer A independence confirmation template",
+      "source_path": "/Users/arpit/ASI_Intern_Submission/M/data/s1_review_v3/recovered_evidence_2026-11-19/reviewer_A_independence_confirmation_FORM.md",
+      "destination_path": "/Users/arpit/ASI_Intern_Submission/M/data/s1_review_v3/recovered_evidence_2026-11-19/reviewer_A_independence_confirmation_FORM.md",
+      "sha256": "08a39dcbe4172433570bf23ec57b1ab9b2450f78effd7fd8781a7d3899951406",
+      "question_ids_covered": [
+        "h001",
+        "h002",
+        "h003",
+        "h004",
+        "h005",
+        "h006",
+        "h007",
+        "h008",
+        "h009",
+        "h010",
+        "h011",
+        "h012",
+        "h013",
+        "h014",
+        "h015",
+        "h016",
+        "h017",
+        "h018",
+        "h019",
+        "h020",
+        "h021",
+        "h022",
+        "h023",
+        "h024",
+        "h025",
+        "h026",
+        "h027",
+        "h029",
+        "h030",
+        "h031",
+        "h032",
+        "h033",
+        "h034",
+        "h035",
+        "h036",
+        "h037",
+        "h038",
+        "h039",
+        "h040",
+        "h041",
+        "h042",
+        "h043",
+        "h044",
+        "h045",
+        "h046",
+        "h047",
+        "h048",
+        "h049",
+        "h050",
+        "h051",
+        "h052",
+        "h053",
+        "h054",
+        "h055",
+        "h056",
+        "h057",
+        "h058",
+        "h059",
+        "h060",
+        "h061",
+        "h062"
+      ],
+      "supports": [
+        "required reviewer identity and independence attestations"
+      ],
+      "status": "MISSING",
+      "scope_limit": "Blank template; no signature or independent verification record."
+    },
+    {
+      "artifact": "Reviewer B independence confirmation template",
+      "source_path": "/Users/arpit/ASI_Intern_Submission/M/data/s1_review_v3/recovered_evidence_2026-11-19/reviewer_B_independence_confirmation_FORM.md",
+      "destination_path": "/Users/arpit/ASI_Intern_Submission/M/data/s1_review_v3/recovered_evidence_2026-11-19/reviewer_B_independence_confirmation_FORM.md",
+      "sha256": "8a4797436de74aa0940b2496389a0e701ebd4e6720c15f293ffb2a95b4e7c588",
+      "question_ids_covered": [
+        "h001",
+        "h002",
+        "h003",
+        "h004",
+        "h005",
+        "h006",
+        "h007",
+        "h008",
+        "h009",
+        "h010",
+        "h011",
+        "h012",
+        "h013",
+        "h014",
+        "h015",
+        "h016",
+        "h017",
+        "h018",
+        "h019",
+        "h020",
+        "h021",
+        "h022",
+        "h023",
+        "h024",
+        "h025",
+        "h026",
+        "h027",
+        "h029",
+        "h030",
+        "h031",
+        "h032",
+        "h033",
+        "h034",
+        "h035",
+        "h036",
+        "h037",
+        "h038",
+        "h039",
+        "h040",
+        "h041",
+        "h042",
+        "h043",
+        "h044",
+        "h045",
+        "h046",
+        "h047",
+        "h048",
+        "h049",
+        "h050",
+        "h051",
+        "h052",
+        "h053",
+        "h054",
+        "h055",
+        "h056",
+        "h057",
+        "h058",
+        "h059",
+        "h060",
+        "h061",
+        "h062"
+      ],
+      "supports": [
+        "required reviewer identity and independence attestations"
+      ],
+      "status": "MISSING",
+      "scope_limit": "Blank template; no signature or independent verification record."
+    },
+    {
+      "artifact": "MiniLM cutoff focused review",
+      "source_path": "Public model-card documentation reviewed; local findings recorded in S1_MINILM_CUTOFF_FOCUSED_REVIEW_2026-11-19.md",
+      "destination_path": "/Users/arpit/ASI_Intern_Submission/M/data/s1_review_v3/recovered_evidence_2026-11-19/S1_MINILM_CUTOFF_FOCUSED_REVIEW_2026-11-19.md",
+      "sha256": "acc97e58dfcf376cb2c80571852e924bed567f12146b7213f364cef636bc6ca8",
+      "question_ids_covered": [
+        "h001",
+        "h002",
+        "h003",
+        "h004",
+        "h005",
+        "h006",
+        "h007",
+        "h008",
+        "h009",
+        "h010",
+        "h011",
+        "h012",
+        "h013",
+        "h014",
+        "h015",
+        "h016",
+        "h017",
+        "h018",
+        "h019",
+        "h020",
+        "h021",
+        "h022",
+        "h023",
+        "h024",
+        "h025",
+        "h026",
+        "h027",
+        "h029",
+        "h030",
+        "h031",
+        "h032",
+        "h033",
+        "h034",
+        "h035",
+        "h036",
+        "h037",
+        "h038",
+        "h039",
+        "h040",
+        "h041",
+        "h042",
+        "h043",
+        "h044",
+        "h045",
+        "h046",
+        "h047",
+        "h048",
+        "h049",
+        "h050",
+        "h051",
+        "h052",
+        "h053",
+        "h054",
+        "h055",
+        "h056",
+        "h057",
+        "h058",
+        "h059",
+        "h060",
+        "h061",
+        "h062"
+      ],
+      "supports": [
+        "cutoff evidence search for exact pinned revision and base model"
+      ],
+      "status": "UNVERIFIED",
+      "scope_limit": "No authoritative fine-tuning dataset snapshots/cutoff or base-model pretraining cutoff found.",
+      "authoritative_sources_checked": [
+        "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/blob/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md",
+        "https://huggingface.co/nreimers/MiniLM-L6-H384-uncased"
+      ]
+    },
+    {
+      "artifact": "E1 question-history evidence inventory",
+      "source_path": "/Users/arpit/asi-selection/E1/contrast.jsonl",
+      "destination_path": "/Users/arpit/ASI_Intern_Submission/M/data/s1_review_v3/recovered_evidence_2026-11-19/E1_QUESTION_HISTORY.csv",
+      "sha256": "2b16e2b6f868c604308173c906cec598b8b6588bbfa6129cd21e882dcb0c85d5",
+      "question_ids_covered": [
+        "h001",
+        "h002",
+        "h003",
+        "h004",
+        "h005",
+        "h006",
+        "h007",
+        "h008",
+        "h009",
+        "h010",
+        "h011",
+        "h012",
+        "h013",
+        "h014",
+        "h015",
+        "h016",
+        "h017",
+        "h018",
+        "h019",
+        "h020",
+        "h021",
+        "h022",
+        "h023",
+        "h024",
+        "h025",
+        "h026",
+        "h027",
+        "h029",
+        "h030",
+        "h031",
+        "h032",
+        "h033",
+        "h034",
+        "h035",
+        "h036",
+        "h037",
+        "h038",
+        "h039",
+        "h040",
+        "h041",
+        "h042",
+        "h043",
+        "h044",
+        "h045",
+        "h046",
+        "h047",
+        "h048",
+        "h049",
+        "h050",
+        "h051",
+        "h052",
+        "h053",
+        "h054",
+        "h055",
+        "h056",
+        "h057",
+        "h058",
+        "h059",
+        "h060",
+        "h061",
+        "h062"
+      ],
+      "supports": [
+        "61 unique question IDs and exact preserved question wording from earliest observed local Git versions",
+        "Git commit/version references and per-record SHA-256 values",
+        "creation/sharing timestamp fields remain blank and individually UNVERIFIED"
+      ],
+      "status": "PARTIAL",
+      "scope_limit": "Local Git versions do not establish original creation or sharing timestamps.",
+      "classification": "new evidence inventory/report; not contemporaneous original records"
+    },
+    {
+      "artifact": "E1 original paper-input evidence inventory",
+      "source_path": "No original input manifest found in inspected records",
+      "destination_path": "/Users/arpit/ASI_Intern_Submission/M/data/s1_review_v3/recovered_evidence_2026-11-19/E1_PAPER_INPUTS.csv",
+      "sha256": "66291c9faaafb32f246e96230e5ba9992870f6fcd5684fcc2411c2fc8ba453d1",
+      "question_ids_covered": [
+        "h001",
+        "h002",
+        "h003",
+        "h004",
+        "h005",
+        "h006",
+        "h007",
+        "h008",
+        "h009",
+        "h010",
+        "h011",
+        "h012",
+        "h013",
+        "h014",
+        "h015",
+        "h016",
+        "h017",
+        "h018",
+        "h019",
+        "h020",
+        "h021",
+        "h022",
+        "h023",
+        "h024",
+        "h025",
+        "h026",
+        "h027",
+        "h029",
+        "h030",
+        "h031",
+        "h032",
+        "h033",
+        "h034",
+        "h035",
+        "h036",
+        "h037",
+        "h038",
+        "h039",
+        "h040",
+        "h041",
+        "h042",
+        "h043",
+        "h044",
+        "h045",
+        "h046",
+        "h047",
+        "h048",
+        "h049",
+        "h050",
+        "h051",
+        "h052",
+        "h053",
+        "h054",
+        "h055",
+        "h056",
+        "h057",
+        "h058",
+        "h059",
+        "h060",
+        "h061",
+        "h062"
+      ],
+      "supports": [
+        "per-question slots for original paper inputs"
+      ],
+      "status": "PARTIAL",
+      "scope_limit": "h001 has a retrospective author report and a hashed local PDF. Historical input provenance remains unverified for all 61.",
+      "classification": "new evidence inventory/report; not contemporaneous original records"
+    },
+    {
+      "artifact": "E1 registered S1 condition evidence inventory",
+      "source_path": "No original four-condition manifest found in inspected records",
+      "destination_path": "/Users/arpit/ASI_Intern_Submission/M/data/s1_review_v3/recovered_evidence_2026-11-19/E1_S1_CONTROLS.csv",
+      "sha256": "16285fe1507d3198d76f464b200a1a931fbe55adb7de84fd1c1a3a160c75caa9",
+      "question_ids_covered": [
+        "h001",
+        "h002",
+        "h003",
+        "h004",
+        "h005",
+        "h006",
+        "h007",
+        "h008",
+        "h009",
+        "h010",
+        "h011",
+        "h012",
+        "h013",
+        "h014",
+        "h015",
+        "h016",
+        "h017",
+        "h018",
+        "h019",
+        "h020",
+        "h021",
+        "h022",
+        "h023",
+        "h024",
+        "h025",
+        "h026",
+        "h027",
+        "h029",
+        "h030",
+        "h031",
+        "h032",
+        "h033",
+        "h034",
+        "h035",
+        "h036",
+        "h037",
+        "h038",
+        "h039",
+        "h040",
+        "h041",
+        "h042",
+        "h043",
+        "h044",
+        "h045",
+        "h046",
+        "h047",
+        "h048",
+        "h049",
+        "h050",
+        "h051",
+        "h052",
+        "h053",
+        "h054",
+        "h055",
+        "h056",
+        "h057",
+        "h058",
+        "h059",
+        "h060",
+        "h061",
+        "h062"
+      ],
+      "supports": [
+        "per-question rows for original, empty, cross-instance shuffled, and same-topic unsupported-decoy conditions"
+      ],
+      "status": "MISSING",
+      "scope_limit": "All source bindings and independent decoy verification fields remain blank.",
+      "classification": "new evidence inventory/report; not contemporaneous original records"
+    },
+    {
+      "artifact": "E1 per-question missing-evidence report",
+      "source_path": "Derived from E1_QUESTION_HISTORY.csv, E1_PAPER_INPUTS.csv, E1_S1_CONTROLS.csv, and current S1 annotation manifest",
+      "destination_path": "/Users/arpit/ASI_Intern_Submission/M/data/s1_review_v3/recovered_evidence_2026-11-19/E1_MISSING_EVIDENCE.md",
+      "sha256": "057c32939478b4a77a8b9cdd2ef641a62d94a1dffc343ef60e921e46c9aa8c6c",
+      "question_ids_covered": [
+        "h001",
+        "h002",
+        "h003",
+        "h004",
+        "h005",
+        "h006",
+        "h007",
+        "h008",
+        "h009",
+        "h010",
+        "h011",
+        "h012",
+        "h013",
+        "h014",
+        "h015",
+        "h016",
+        "h017",
+        "h018",
+        "h019",
+        "h020",
+        "h021",
+        "h022",
+        "h023",
+        "h024",
+        "h025",
+        "h026",
+        "h027",
+        "h029",
+        "h030",
+        "h031",
+        "h032",
+        "h033",
+        "h034",
+        "h035",
+        "h036",
+        "h037",
+        "h038",
+        "h039",
+        "h040",
+        "h041",
+        "h042",
+        "h043",
+        "h044",
+        "h045",
+        "h046",
+        "h047",
+        "h048",
+        "h049",
+        "h050",
+        "h051",
+        "h052",
+        "h053",
+        "h054",
+        "h055",
+        "h056",
+        "h057",
+        "h058",
+        "h059",
+        "h060",
+        "h061",
+        "h062"
+      ],
+      "supports": [
+        "question-by-question statement of unavailable original records"
+      ],
+      "status": "MISSING",
+      "scope_limit": "Inventory/report only; it does not reconstruct historical records.",
+      "classification": "new evidence inventory/report; not contemporaneous original records"
+    },
+    {
+      "artifact": "First observed E1 question Git versions",
+      "source_path": "/Users/arpit/asi-selection/.git object history for E1/contrast.jsonl",
+      "destination_path": "/Users/arpit/ASI_Intern_Submission/M/data/s1_review_v3/recovered_evidence_2026-11-19/E1_FIRST_COMMITTED_QUESTION_VERSIONS.csv",
+      "sha256": "33eaef6f19d32c714b0deac7db50f8a331dceec04e9456c5bce31c8eecccc873",
+      "question_ids_covered": [
+        "h001",
+        "h002",
+        "h003",
+        "h004",
+        "h005",
+        "h006",
+        "h007",
+        "h008",
+        "h009",
+        "h010",
+        "h011",
+        "h012",
+        "h013",
+        "h014",
+        "h015",
+        "h016",
+        "h017",
+        "h018",
+        "h019",
+        "h020",
+        "h021",
+        "h022",
+        "h023",
+        "h024",
+        "h025",
+        "h026",
+        "h027",
+        "h029",
+        "h030",
+        "h031",
+        "h032",
+        "h033",
+        "h034",
+        "h035",
+        "h036",
+        "h037",
+        "h038",
+        "h039",
+        "h040",
+        "h041",
+        "h042",
+        "h043",
+        "h044",
+        "h045",
+        "h046",
+        "h047",
+        "h048",
+        "h049",
+        "h050",
+        "h051",
+        "h052",
+        "h053",
+        "h054",
+        "h055",
+        "h056",
+        "h057",
+        "h058",
+        "h059",
+        "h060",
+        "h061",
+        "h062"
+      ],
+      "supports": [
+        "first observed local Git commit containing each exact question record",
+        "SHA-256 of each exact record byte sequence",
+        "Git author/committer timestamp metadata"
+      ],
+      "status": "PARTIAL",
+      "scope_limit": "No configured remote/public availability record was found. Commit metadata is not asserted as question creation or sharing time and is not an independently authenticated original version."
+    }
+  ],
+  "collection_package": {
+    "created_date": "2026-11-19",
+    "directory": "/Users/arpit/ASI_Intern_Submission/M/data/s1_review_v3/recovered_evidence_2026-11-19",
+    "files": [
+      "E1_QUESTION_HISTORY.csv",
+      "E1_FIRST_COMMITTED_QUESTION_VERSIONS.csv",
+      "E1_PAPER_INPUTS.csv",
+      "E1_S1_CONTROLS.csv",
+      "E1_MISSING_EVIDENCE.md",
+      "CURRENT_ATTESTATION.md",
+      "validate_e1_question_history.py"
+    ],
+    "questions_indexed": 61,
+    "earliest_observed_local_git_question_versions": "61/61",
+    "verified_original_question_versions": "0/61; local Git versions are partial evidence only",
+    "verified_original_question_timestamps": 0,
+    "verified_original_paper_input_records": 0,
+    "verified_four_condition_question_records": 0,
+    "all_four_condition_rows": 244,
+    "status": "inventories prepared; temporal, input, and control evidence remains missing",
+    "question_history_register_columns": [
+      "question_id",
+      "exact_question_text",
+      "question_version",
+      "creation_timestamp",
+      "sharing_timestamp",
+      "timestamp_timezone",
+      "original_source_path",
+      "source_sha256",
+      "timestamp_evidence_path",
+      "evidence_reference",
+      "creation_timestamp_status",
+      "sharing_timestamp_status",
+      "verification_status"
+    ]
+  },
+  "collection_aids": [
+    {
+      "path": "S1_EVIDENCE_COLLECTION_GUIDE.md",
+      "sha256": "8aacc955b2d769ae27f6b82d5ab6101d412eb32f617bda5fb1b0ce31376a0235",
+      "classification": "instructions/request template only; not source evidence"
+    },
+    {
+      "path": "E1_AUTHOR_RECORDS_REQUEST_TEMPLATE.md",
+      "sha256": "c71f1298dc04c00c4965b26e64c00a7826abc17b5a70022d0365c3ef57ad81a9",
+      "classification": "instructions/request template only; not source evidence"
+    },
+    {
+      "path": "MINILM_CUTOFF_EVIDENCE_REQUEST_TEMPLATE.md",
+      "sha256": "b9a30763549179179168eecc72cdd6a09062fe32903fce5e226d8333369ad978",
+      "classification": "instructions/request template only; not source evidence"
+    }
+  ],
+  "e1_question_generation_disclosure": {
+    "statement": "The user reports that the E1 author confirmed ChatGPT was used to generate the original 61 questions.",
+    "question_ids_covered": [
+      "h001",
+      "h002",
+      "h003",
+      "h004",
+      "h005",
+      "h006",
+      "h007",
+      "h008",
+      "h009",
+      "h010",
+      "h011",
+      "h012",
+      "h013",
+      "h014",
+      "h015",
+      "h016",
+      "h017",
+      "h018",
+      "h019",
+      "h020",
+      "h021",
+      "h022",
+      "h023",
+      "h024",
+      "h025",
+      "h026",
+      "h027",
+      "h029",
+      "h030",
+      "h031",
+      "h032",
+      "h033",
+      "h034",
+      "h035",
+      "h036",
+      "h037",
+      "h038",
+      "h039",
+      "h040",
+      "h041",
+      "h042",
+      "h043",
+      "h044",
+      "h045",
+      "h046",
+      "h047",
+      "h048",
+      "h049",
+      "h050",
+      "h051",
+      "h052",
+      "h053",
+      "h054",
+      "h055",
+      "h056",
+      "h057",
+      "h058",
+      "h059",
+      "h060",
+      "h061",
+      "h062"
+    ],
+    "original_chatgpt_conversation_available": false,
+    "conversation_status": "UNAVAILABLE",
+    "evidence_basis": "User-provided report of the E1 author disclosure; no original conversation export or contemporaneous generation log was provided.",
+    "sha256_of_conversation": "",
+    "creation_and_sharing_timestamps_established": false,
+    "status": "PARTIAL",
+    "scope_limit": "Records the reported AI-use disclosure only. It cannot verify prompts, model outputs, per-question AI contribution, edits, or historical creation/sharing times."
+  },
+  "documentation_artifacts": [
+    {
+      "path": "E1_QUESTION_HISTORY.csv",
+      "sha256": "2b16e2b6f868c604308173c906cec598b8b6588bbfa6129cd21e882dcb0c85d5",
+      "classification": "question-history register; timestamps remain unverified"
+    },
+    {
+      "path": "CURRENT_ATTESTATION.md",
+      "sha256": "90ad69feddf711d919df681898468f28f374d7d23b0c4d31eb2436571826fe73",
+      "classification": "current, user-relayed author disclosure; not contemporaneous original evidence"
+    },
+    {
+      "path": "validate_e1_question_history.py",
+      "sha256": "ec1c3d23d47f712d91d63583dbb68d902806d7cebbfadeebcda8b838003dba15",
+      "classification": "offline validation utility, not research evidence"
+    },
+    {
+      "path": "validate_s1_evidence_inventories.py",
+      "sha256": "4a3b06a34cc17ab1f6eaab57d3ce49270f554e830189fda3f202e25ac826f5e6",
+      "classification": "offline structural/provenance validator; not source evidence"
+    }
+  ],
+  "question_history_attestation": {
+    "author_chatgpt_use": "reported by user as confirmed by E1 author for the original 61 questions",
+    "original_chatgpt_conversation": "currently unavailable",
+    "coverage": "61/61 question IDs documented",
+    "original_creation_timestamps": "UNVERIFIED for 61/61",
+    "original_sharing_timestamps": "UNVERIFIED for 61/61",
+    "earliest_observed_local_git_versions": "61/61; exact text matches current E1 snapshot, but does not establish creation dates",
+    "source_record": "CURRENT_ATTESTATION.md; current account, not contemporaneous record"
+  },
+  "inventory_validation": {
+    "performed_date": "2026-11-19",
+    "validator": "validate_s1_evidence_inventories.py",
+    "result": "PASS",
+    "question_history_rows": 61,
+    "earliest_observed_git_versions": 61,
+    "verified_original_creation_timestamps": 0,
+    "verified_original_sharing_timestamps": 0,
+    "paper_input_rows": 61,
+    "paper_questions_covered": 61,
+    "verified_original_paper_input_records": 0,
+    "control_rows": 244,
+    "verified_condition_records": 0,
+    "verified_complete_four_condition_question_sets": 0,
+    "no_new_evidence_search_performed": true
+  },
+  "paper_input_documentation": {
+    "sha256": {
+      "E1_PAPER_INPUTS.csv": "66291c9faaafb32f246e96230e5ba9992870f6fcd5684fcc2411c2fc8ba453d1",
+      "CURRENT_PAPER_INPUT_ATTESTATION.md": "3157d27a082795d46971463709ee5e3c6cb2b02f33184889c2e2e7c8e66d89e7",
+      "validate_e1_paper_inputs.py": "b69fb6da4dae023e4f9f56eb496ec129cb4aa003186063bcd629b89c856026b6"
+    },
+    "questions_represented": 61,
+    "questions_with_documented_original_inputs": 0,
+    "questions_with_verified_provenance": 0,
+    "validation": "PASS",
+    "questions_with_retrospectively_documented_inputs": 1
+  },
+  "current_h001_paper_selection": {
+    "question_id": "h001",
+    "selected_by": "assistant during current evidence review",
+    "association_source": "E1_contrast.jsonl",
+    "association_source_sha256": "57f95f7690746d3b22670434410c4ce80894b42f0f8dc504cac58f7d9cdaedcc",
+    "local_pdf": "/Users/arpit/Downloads/2610.26863v1.pdf",
+    "revision": "2610.26863v1",
+    "pdf_sha256": "c865a99ad507360c7648f6e2c22f8e7ee2f895eb6efc34880674d2d093d8eeda",
+    "historical_selection_method": "Reported supplied before creation",
+    "original_supplied_input": "UNVERIFIED",
+    "author_report": "User relays E1 author confirmation that v1 was supplied before h001 creation.",
+    "attestation": "CURRENT_PAPER_INPUT_ATTESTATION.md",
+    "disposition": "CLOSED_DOCUMENTED_HISTORICALLY_UNVERIFIED"
+  },
+  "condition_coverage_check": {
+    "inventory": "E1_S1_CONTROLS.csv",
+    "sha256": "16285fe1507d3198d76f464b200a1a931fbe55adb7de84fd1c1a3a160c75caa9",
+    "conditions": {
+      "original": {
+        "question_rows": 61,
+        "verified": 0,
+        "missing": 61
+      },
+      "empty": {
+        "question_rows": 61,
+        "verified": 0,
+        "missing": 61
+      },
+      "cross_instance_shuffled": {
+        "question_rows": 61,
+        "verified": 0,
+        "missing": 61
+      },
+      "same_topic_unsupported_decoy": {
+        "question_rows": 61,
+        "verified": 0,
+        "missing": 61
+      }
+    },
+    "complete_original_sets": 0,
+    "questions": 61,
+    "protocol_clarification": {
+      "source": "M/PREREG.md lines 68-75 and M/amendments/2026-11-13-S1-independent-review.md",
+      "historical_requirement": "Recover original input references. The cited clauses do not require a historical execution log for every diagnostic condition.",
+      "decoy": "Retain original inputs and use a distinct question with independently documented same-topic judgment. A replacement paper alone does not implement this condition.",
+      "next_dependency": "Recover actual original input versions and establish question dates before binding eligible instances to controls and locking prediction sources."
+    }
+  },
+  "h002_source_association": {
+    "question_id": "h002",
+    "associated_paper_id": "2610.26847",
+    "source": "E1_contrast.jsonl",
+    "paper_title": "WeAct: Dynamic Weight Switching as Agent Actions",
+    "original_supplied_input": "UNVERIFIED",
+    "original_input_manifest": "MISSING",
+    "local_candidate_pdfs": [
+      {
+        "path": "/Users/arpit/Downloads/2610.26847v1-2.pdf",
+        "version": "2610.26847v1",
+        "sha256": "8d0895f2ef2601d82f6a8dca84265e7437bb20c10ac63f19f17db06ea5323d75"
+      }
+    ]
+  },
+  "remaining_local_pdf_associations": {
+    "source": "E1_contrast.jsonl",
+    "scope": "Matching filenames directly in Downloads with version confirmed on page one. These associations do not verify historical supply.",
+    "items": [
+      {
+        "question_id": "h002",
+        "associated_paper_id": "2610.26847",
+        "first_page_matches": [
+          {
+            "path": "/Users/arpit/Downloads/2610.26847v1-2.pdf",
+            "version": "2610.26847v1",
+            "sha256": "8d0895f2ef2601d82f6a8dca84265e7437bb20c10ac63f19f17db06ea5323d75"
+          }
+        ]
+      },
+      {
+        "question_id": "h003",
+        "associated_paper_id": "2610.26817",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h004",
+        "associated_paper_id": "2501.12948",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h005",
+        "associated_paper_id": "2609.17863",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h006",
+        "associated_paper_id": "2604.19764",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h007",
+        "associated_paper_id": "2602.17445",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h008",
+        "associated_paper_id": "2610.08680",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h009",
+        "associated_paper_id": "2608.06422",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h010",
+        "associated_paper_id": "2507.23341",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h011",
+        "associated_paper_id": "2610.20288",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h012",
+        "associated_paper_id": "2610.26974",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h013",
+        "associated_paper_id": "2610.27773",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h014",
+        "associated_paper_id": "2610.27030",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h015",
+        "associated_paper_id": "2607.13192",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h016",
+        "associated_paper_id": "2610.27280",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h017",
+        "associated_paper_id": "2610.27140",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h018",
+        "associated_paper_id": "2610.22599",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h019",
+        "associated_paper_id": "2610.27214",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h020",
+        "associated_paper_id": "2610.14238",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h021",
+        "associated_paper_id": "2602.16315",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h022",
+        "associated_paper_id": "2609.05279",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h023",
+        "associated_paper_id": "2609.36855",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h024",
+        "associated_paper_id": "2610.19712",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h025",
+        "associated_paper_id": "2604.25096",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h026",
+        "associated_paper_id": "2510.20039",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h027",
+        "associated_paper_id": "2605.29278",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h029",
+        "associated_paper_id": "2609.37631",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h030",
+        "associated_paper_id": "2606.31166",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h031",
+        "associated_paper_id": "2606.21406",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h032",
+        "associated_paper_id": "2609.35479",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h033",
+        "associated_paper_id": "2609.02811",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h034",
+        "associated_paper_id": "2606.13675",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h035",
+        "associated_paper_id": "2609.02653",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h036",
+        "associated_paper_id": "2608.22701",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h037",
+        "associated_paper_id": "2605.19881",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h038",
+        "associated_paper_id": "2608.05464",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h039",
+        "associated_paper_id": "2609.15014",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h040",
+        "associated_paper_id": "2609.10221",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h041",
+        "associated_paper_id": "2609.23525",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h042",
+        "associated_paper_id": "2609.32874",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h043",
+        "associated_paper_id": "2608.27394",
+        "first_page_matches": [
+          {
+            "path": "/Users/arpit/Downloads/2608.27394v3.pdf",
+            "version": "2608.27394v3",
+            "sha256": "16320bfcf1d631d5f2b56580843827828376e67e006e31ff3372860ac083c255"
+          }
+        ]
+      },
+      {
+        "question_id": "h044",
+        "associated_paper_id": "2608.17271",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h045",
+        "associated_paper_id": "2609.05079",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h046",
+        "associated_paper_id": "2609.33357",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h047",
+        "associated_paper_id": "2610.19159",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h048",
+        "associated_paper_id": "2606.12736",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h049",
+        "associated_paper_id": "2608.16951",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h050",
+        "associated_paper_id": "2609.09203",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h051",
+        "associated_paper_id": "2610.18449",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h052",
+        "associated_paper_id": "2610.08927",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h053",
+        "associated_paper_id": "2610.00084",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h054",
+        "associated_paper_id": "2610.21082",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h055",
+        "associated_paper_id": "2608.25286",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h056",
+        "associated_paper_id": "2610.18933",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h057",
+        "associated_paper_id": "2604.25256",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h058",
+        "associated_paper_id": "2606.13662",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h059",
+        "associated_paper_id": "2606.07591",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h060",
+        "associated_paper_id": "2607.28631",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h061",
+        "associated_paper_id": "2606.15497",
+        "first_page_matches": []
+      },
+      {
+        "question_id": "h062",
+        "associated_paper_id": "2605.08323",
+        "first_page_matches": []
+      }
+    ]
+  },
+  "e1_item_phase_sources": {
+    "repository": "/Users/arpit/asi-selection",
+    "artifacts": {
+      "E1_item_phase_notebook.md": {
+        "git_source": "3f246af51a3620e94c8ec62c32cfe603542801d5:NOTEBOOK.md",
+        "sha256": "530d432b26b9f7133039d5c1f92471729eb036b643f27474d485d6b56c28159d"
+      },
+      "E1_h001_editor_backup.txt": {
+        "git_source": "a15235855ebf4f375d6526ee1440cd631b6149ee:E1/draft_h001.txt.save",
+        "sha256": "1f085ad4b5414b0e2e3732777e4e8fd6406f59bcd7c50656f426a1abd73158a5"
+      }
+    },
+    "explicit_item_finished_entries": [
+      {
+        "line": 6,
+        "text": "- 2026-10-20: h001 finished (arXiv 2610.26863). C_type direction_flip is slightly loose (necessary -> harmful, not improve -> harm). Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "line": 7,
+        "text": "- 2026-10-20: h002 finished (arXiv 2610.26847). \"Can\" questions invert scope order (one positive example for the narrower answers the broader); prefer \"how/to what extent\" for scope items. Re-read h002 after 24h (due 2026-10-21)."
+      },
+      {
+        "line": 8,
+        "text": "- 2026-10-20: h003 finished (arXiv 2610.26817). A is a sub-question the paper answers via shadow prices, not its headline question. Broader is compound (3 outcomes) and longer than narrower (length_flipped=true). Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "line": 9,
+        "text": "- 2026-10-20: h004 finished (arXiv 2501.12948, DeepSeek-R1; Jan 2025, may be in LM training data). B_min first draft flipped meaning (without->with); fixed. C is slightly contradictory (\"pure\" RL with human labels). C_tilde Jaccard 0.292, close to the 0.3 limit. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "line": 10,
+        "text": "- 2026-10-20: h005 finished (arXiv 2609.17863). A is a sub-question (accuracy) of the paper's headline (cost-quality-latency Pareto atlas). Broader is compound over cost/quality/latency. First draft narrower was about cost (wrong goal); rewritten. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "line": 11,
+        "text": "- 2026-10-20: h006 finished (arXiv 2604.19764). C_type inquiry_change is loose: A asks how to identify activations, C asks why they emerge (topic same, answer type differs more than a pure how->why swap). Narrower first draft cited StereoSet, which I could not verify in the abstract; removed. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "line": 12,
+        "text": "- 2026-10-20: h007 finished (arXiv 2602.17445, abstract checked). A is a sub-question from the paper's observation of few-shot bias; the headline contribution is a bias-reduced evaluation protocol. First draft C (presence -> absence of cues) was a paraphrase of A, so I rewrote A and C around few-shot answer distribution vs no few-shot. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "line": 13,
+        "text": "- 2026-10-20: h008 finished (arXiv 2610.08680, abstract checked). A is a sub-question; the paper's headline asks whether models learn a transferable rule or fit distribution-specific regularities. Abstract does not say whether the breadth finding is in- or out-of-distribution; check results section. First draft B had Jaccard 0.36 with A (over the 0.3 limit); rewritten. A narrower draft dropped \"small language models\" and so was broader than A; fixed. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "line": 14,
+        "text": "- 2026-10-20: h011 finished (arXiv 2610.20288). First draft failed Jaccard on B (0.308) and C_tilde (0.571); rewritten. Narrower condition-structure clause and \"flow-matching\" and C_tilde \"interventions\" to be checked against the paper. First non-length-flipped item. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "line": 15,
+        "text": "- 2026-10-20: h012 finished (arXiv 2610.26974). inquiry_change is loose (a full answer to how could also explain why). B says \"determine\", slightly stronger than \"affect\". \"two-layer\" and \"sorting\" in narrower to be checked against the paper. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "line": 16,
+        "text": "- 2026-10-20: h012 finished (arXiv 2610.26974). Checked against a summary of the abstract: two-layer transformers, sorting, fixed-length training, weight initialization all confirmed. inquiry_change is somewhat loose but the paper answers how (two solution types) and why (rare patterns, layer-wise specialization) separately. B says \"determine\", slightly stronger than \"affect\". Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "line": 17,
+        "text": "- 2026-10-20: h013 finished (arXiv 2610.27773). Attack names, 32/255 threshold and \"standard models\" in narrower to be checked against the paper. inquiry_change is loose if the paper does not separately explain why. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "line": 18,
+        "text": "- 2026-10-20: h014 finished (arXiv 2610.27030). Narrower technical terms checked against the paper by me. Lengths nearly tied (22 vs 21). Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "line": 19,
+        "text": "- 2026-10-20: h015 finished (arXiv 2607.13192). First draft B said \"visual representation learning\", leaking vision from narrower into B; removed \"visual\". Narrower task domains to be checked against the paper. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "line": 20,
+        "text": "- 2026-10-20: h016 finished (arXiv 2610.27280, abstract checked). A is a supporting observation; the paper's headline is that value prediction, not exact state prediction, is what offline planning requires. First draft C (\"Why can reducing error decrease success\") presupposed the paper's finding and so was inquiry_change plus direction commitment; changed to a plain \"Why does\". Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "line": 22,
+        "text": "- 2026-10-20: h018 finished (arXiv 2610.22599, abstract checked: eight MLE-bench tasks, five frontier LLMs, task-dependent prediction quality). A is a sub-question; the headline is how accurately LLMs predict the impact of ML experiment ideas. First draft B_min dropped \"the type of\"; narrower said \"their own proposed\", which overreaches the abstract. Both fixed. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "line": 23,
+        "text": "- 2026-10-20: h019 finished (arXiv 2610.27214, abstract checked: EVT vs empirical CVaR, deep hedging, extreme-scenario losses). A matches the paper's main comparison. First draft B_min restructured A (dropped \"the choice of\"); replaced with a pure affect->influence swap. C_tilde names the two methods, slightly narrower than C. Narrower refers to \"the paper\" from inside the question. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "line": 24,
+        "text": "- 2026-10-20: h020 finished (arXiv 2610.14238, abstract checked: held-out generalization, data selection / reward design / curriculum learning, fixed training conditions). A is close to the paper's headline. First draft B_min dropped \"machine learning\"; replaced with a pure affect->influence swap. inquiry_change now at 10/10; no more needed. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "line": 25,
+        "text": "- 2026-10-20: h021 finished (arXiv 2602.16315, abstract checked). role_swap. A (user behavior -> recommenders) is the secondary half of the feedback loop; the paper's reported findings are mostly about recommenders -> users (my C). Consider swapping A and C so A is the paper's main direction. Broader is symmetric, so it contains both A and C. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "line": 26,
+        "text": "- 2026-10-21: h022 finished (arXiv 2609.05279). First draft B_min restructured A and kept only 72.7% of its words (under the 75% rule); replaced with a pure verb swap. B uses \"role-matched\" and \"communication effort\", details that belong in narrower. Re-read after 24h."
+      },
+      {
+        "line": 27,
+        "text": "- 2026-10-21: h023 finished (arXiv 2609.36855). First role-swap draft (C: initial accuracy decides whether messages help or harm) was the same table as A seen from the other side, so replaced with a true swap. N first dropped \"multi-agent LLM systems\" and so was not strictly narrower; fixed. Re-read after 24h."
+      },
+      {
+        "line": 28,
+        "text": "- 2026-10-21: h024 finished (arXiv 2610.19712). First draft W put recipient behavior as an input (continuity as outcome), so it did not contain A; N turned A into a raw-vs-summarized comparison and dropped words. Both rewritten. Re-read after 24h."
+      },
+      {
+        "line": 29,
+        "text": "- 2026-10-21: h025 finished (arXiv 2604.25096). The paper itself studies both directions, so C is a different question the paper also happens to address; only the roles were swapped (belief expression kept in C). Re-read after 24h."
+      },
+      {
+        "line": 30,
+        "text": "- 2026-10-21: h026 finished (arXiv 2510.20039). Pure role swap (opinions and responses trade places). Same theme as h025, so avoid more human-chatbot influence items. Re-read after 24h."
+      },
+      {
+        "line": 31,
+        "text": "- 2026-10-21: h027 finished (arXiv 2605.29278). First N draft added \"multi-turn\", which the abstract does not state, and made length_flipped depend on how hyphens are tokenised; removed. Third human-LLM influence item in a row, so switch fields next. Re-read after 24h."
+      },
+      {
+        "line": 32,
+        "text": "- 2026-10-21: h029 finished (arXiv 2609.37631, abstract checked). First N kept \"across vision, language, and code\" while restricting to ImageNet, which contradicted itself; first B said \"neural network\" instead of transformer. Re-read after 24h."
+      },
+      {
+        "line": 33,
+        "text": "- 2026-10-21: h030 finished (arXiv 2606.31166). Dropped an earlier h030 draft (ELIXIR synthetic-data paper): its A was neutral so the \"direction flip\" was really a negation, and the paper gave no clear research question. First draft of this item had B and C~ without the masked-diffusion model, which made them broader than A. Re-read after 24h."
+      },
+      {
+        "line": 34,
+        "text": "- 2026-10-20: h031 finished (arXiv 2606.21406, abstract checked: human-video priors, robot self-improvement from rollouts and failures, mobile manipulator and static arm). direction_flip improve -> impair. First draft B_min was identical to A; changed one word (improve -> enhance). C_tilde Jaccard 0.267, close to the 0.3 limit. Broader treats three data sources as joint causes. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "line": 35,
+        "text": "- 2026-10-20: h032 finished (arXiv 2609.35479, checked against a summary: hierarchical search over a small fraction of the design space, then geometry refinement to reduce task loss while maintaining task success). First draft used the undefined acronym \"HOT\"; replaced with the title's \"behavior-aware hierarchical optimization\". Dropped \"while preserving task success\" from C and C_tilde (extra condition). Narrower originally said \"four tool-use tasks reported in the study\", unconfirmed; replaced. Narrower restriction is weak (application only). goal_swap, not constraint_flip. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "line": 36,
+        "text": "- 2026-10-20: h033 finished (arXiv 2609.02811, checked against a summary of the abstract). A is a late finding, not the headline (whether open-loop prediction accuracy indicates closed-loop performance). constraint_flip combined -> isolated sensing degradation; the paper reports different results for the two, so it is a real near-miss. \"GRU-EKF\" and \"cross-track error\" to be verified in the paper. Narrower and broader tie at 22 words, so length_flipped=false. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "line": 37,
+        "text": "- 2026-10-20: h034 finished (arXiv 2606.13675, checked against a paraphrase of the abstract). Labelled goal_swap in my first draft, relabelled constraint_flip: C changes the condition (zero-shot steering vs distillation through behavioral cloning), not the outcome measured. A is the paper's own claim. Broader is a compound list of four methods and four outcomes. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "line": 38,
+        "text": "- 2026-10-21: h035 finished (arXiv 2609.02653, robotics). Clean direction flip. N may be restating A's own scope rather than narrowing it; consider restricting to one task or OOD only on re-read."
+      },
+      {
+        "line": 39,
+        "text": "- 2026-10-21: h036 finished (arXiv 2608.22701, robotics). Goal swap: generalization → interpretability. Confirm abstract mentions quadruped locomotion and uncertain dynamics on re-read."
+      },
+      {
+        "line": 40,
+        "text": "- 2026-10-21: h037 finished (arXiv 2605.19881, autonomous racing). Clean direction flip. Confirm \"cautious raceline\" is the paper's own term on re-read."
+      },
+      {
+        "line": 41,
+        "text": "- 2026-10-21: h038 finished (arXiv 2608.05464, computational neuroscience). Inquiry change: does → why. C assumes A's answer is yes; confirmed against abstract on save. Confirm \"rescaling to preserve average synaptic strength\" is the paper's wording on re-read."
+      },
+      {
+        "line": 42,
+        "text": "- 2026-10-21: h039 finished (arXiv 2609.15014). First labelled constraint_flip but C changed the benchmark domain, not a condition; relabelled goal_swap. Still need 8 constraint_flips. Constraint_flip needs \"without X\" flipped to \"with X\" or similar."
+      },
+      {
+        "line": 43,
+        "text": "- 2026-10-21: h040 finished (arXiv 2609.10221, bioinformatics). Goal swap: accuracy vs tool count. Confirm \"five frozen reasoners\" and GRPO comparison in abstract on re-read."
+      },
+      {
+        "line": 44,
+        "text": "- 2026-10-21: h041 finished (arXiv 2609.23525, speech recognition). Direction flip: improve vs degrade. Confirm LibriSpeech benchmarks and shared decoder in abstract on re-read."
+      },
+      {
+        "line": 45,
+        "text": "- 2026-10-21: h042 finished (arXiv 2609.32874, physics+ML). Direction flip. length_flipped corrected to false (N longer than W). Confirm May 2025-2026 date range in abstract on re-read."
+      },
+      {
+        "line": 46,
+        "text": "- 2026-10-21: h043 finished (arXiv 2608.27394, RATIO paper). Direction flip. First N replaced A's scope words; fixed to keep all of A. length_flipped toggled twice before correct. Prior familiarity with RATIO noted in AI_LOG.md."
+      },
+      {
+        "line": 47,
+        "text": "- 2026-10-21: h044 finished (arXiv 2608.17271, AI agents for science). Direction flip: affect vs improve. Confirm 60 tasks and 11 domains in abstract on re-read."
+      },
+      {
+        "line": 48,
+        "text": "- 2026-10-21: h045 finished (arXiv 2609.05079, AI benchmarking). Direction flip: weaknesses vs strengths. Confirm 40 blind tasks in abstract on re-read. This is one too many direction_flips; switching to constraint_flip next."
+      },
+      {
+        "line": 49,
+        "text": "- 2026-10-21: h046 finished (arXiv 2609.33357). First labelled direction_flip but C changed two things; relabelled constraint_flip (with → without trustworthy evidence). Confirm 203 tasks in abstract on re-read."
+      },
+      {
+        "line": 50,
+        "text": "- 2026-10-21: h047 finished (arXiv 2610.19159). Relabelled constraint_flip (all → some scientist-defined conditions). Confirm 135 submissions in abstract on re-read."
+      }
+    ],
+    "interpretation": "Notebook dates document author-reported completion at day resolution. Sharing events, supplied versions and availability before posing remain unverified.",
+    "dated_item_entries": [
+      {
+        "question_id": "h001",
+        "reported_day": "2026-10-20",
+        "source_line": 6,
+        "entry": "finished (arXiv 2610.26863). C_type direction_flip is slightly loose (necessary -> harmful, not improve -> harm). Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "question_id": "h002",
+        "reported_day": "2026-10-20",
+        "source_line": 7,
+        "entry": "finished (arXiv 2610.26847). \"Can\" questions invert scope order (one positive example for the narrower answers the broader); prefer \"how/to what extent\" for scope items. Re-read h002 after 24h (due 2026-10-21)."
+      },
+      {
+        "question_id": "h003",
+        "reported_day": "2026-10-20",
+        "source_line": 8,
+        "entry": "finished (arXiv 2610.26817). A is a sub-question the paper answers via shadow prices, not its headline question. Broader is compound (3 outcomes) and longer than narrower (length_flipped=true). Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "question_id": "h004",
+        "reported_day": "2026-10-20",
+        "source_line": 9,
+        "entry": "finished (arXiv 2501.12948, DeepSeek-R1; Jan 2025, may be in LM training data). B_min first draft flipped meaning (without->with); fixed. C is slightly contradictory (\"pure\" RL with human labels). C_tilde Jaccard 0.292, close to the 0.3 limit. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "question_id": "h005",
+        "reported_day": "2026-10-20",
+        "source_line": 10,
+        "entry": "finished (arXiv 2609.17863). A is a sub-question (accuracy) of the paper's headline (cost-quality-latency Pareto atlas). Broader is compound over cost/quality/latency. First draft narrower was about cost (wrong goal); rewritten. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "question_id": "h006",
+        "reported_day": "2026-10-20",
+        "source_line": 11,
+        "entry": "finished (arXiv 2604.19764). C_type inquiry_change is loose: A asks how to identify activations, C asks why they emerge (topic same, answer type differs more than a pure how->why swap). Narrower first draft cited StereoSet, which I could not verify in the abstract; removed. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "question_id": "h007",
+        "reported_day": "2026-10-20",
+        "source_line": 12,
+        "entry": "finished (arXiv 2602.17445, abstract checked). A is a sub-question from the paper's observation of few-shot bias; the headline contribution is a bias-reduced evaluation protocol. First draft C (presence -> absence of cues) was a paraphrase of A, so I rewrote A and C around few-shot answer distribution vs no few-shot. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "question_id": "h008",
+        "reported_day": "2026-10-20",
+        "source_line": 13,
+        "entry": "finished (arXiv 2610.08680, abstract checked). A is a sub-question; the paper's headline asks whether models learn a transferable rule or fit distribution-specific regularities. Abstract does not say whether the breadth finding is in- or out-of-distribution; check results section. First draft B had Jaccard 0.36 with A (over the 0.3 limit); rewritten. A narrower draft dropped \"small language models\" and so was broader than A; fixed. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "question_id": "h011",
+        "reported_day": "2026-10-20",
+        "source_line": 14,
+        "entry": "finished (arXiv 2610.20288). First draft failed Jaccard on B (0.308) and C_tilde (0.571); rewritten. Narrower condition-structure clause and \"flow-matching\" and C_tilde \"interventions\" to be checked against the paper. First non-length-flipped item. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "question_id": "h012",
+        "reported_day": "2026-10-20",
+        "source_line": 15,
+        "entry": "finished (arXiv 2610.26974). inquiry_change is loose (a full answer to how could also explain why). B says \"determine\", slightly stronger than \"affect\". \"two-layer\" and \"sorting\" in narrower to be checked against the paper. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "question_id": "h012",
+        "reported_day": "2026-10-20",
+        "source_line": 16,
+        "entry": "finished (arXiv 2610.26974). Checked against a summary of the abstract: two-layer transformers, sorting, fixed-length training, weight initialization all confirmed. inquiry_change is somewhat loose but the paper answers how (two solution types) and why (rare patterns, layer-wise specialization) separately. B says \"determine\", slightly stronger than \"affect\". Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "question_id": "h013",
+        "reported_day": "2026-10-20",
+        "source_line": 17,
+        "entry": "finished (arXiv 2610.27773). Attack names, 32/255 threshold and \"standard models\" in narrower to be checked against the paper. inquiry_change is loose if the paper does not separately explain why. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "question_id": "h014",
+        "reported_day": "2026-10-20",
+        "source_line": 18,
+        "entry": "finished (arXiv 2610.27030). Narrower technical terms checked against the paper by me. Lengths nearly tied (22 vs 21). Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "question_id": "h015",
+        "reported_day": "2026-10-20",
+        "source_line": 19,
+        "entry": "finished (arXiv 2607.13192). First draft B said \"visual representation learning\", leaking vision from narrower into B; removed \"visual\". Narrower task domains to be checked against the paper. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "question_id": "h016",
+        "reported_day": "2026-10-20",
+        "source_line": 20,
+        "entry": "finished (arXiv 2610.27280, abstract checked). A is a supporting observation; the paper's headline is that value prediction, not exact state prediction, is what offline planning requires. First draft C (\"Why can reducing error decrease success\") presupposed the paper's finding and so was inquiry_change plus direction commitment; changed to a plain \"Why does\". Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "question_id": "h017",
+        "reported_day": "2026-10-20",
+        "source_line": 21,
+        "entry": "saved (arXiv 2610.27140). Not yet checked against the abstract: \"one-second\", \"decision junctions\", \"alternation cohort\". TODO on re-read: (1) broader may not contain A (behavioral patterns vs choice of movement perspective); (2) B is vaguer than A (drops rat identity, learning progress, short trajectories); (3) C drops \"from short trajectories\", unlike A. B_min was fixed to keep that phrase. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "question_id": "h018",
+        "reported_day": "2026-10-20",
+        "source_line": 22,
+        "entry": "finished (arXiv 2610.22599, abstract checked: eight MLE-bench tasks, five frontier LLMs, task-dependent prediction quality). A is a sub-question; the headline is how accurately LLMs predict the impact of ML experiment ideas. First draft B_min dropped \"the type of\"; narrower said \"their own proposed\", which overreaches the abstract. Both fixed. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "question_id": "h019",
+        "reported_day": "2026-10-20",
+        "source_line": 23,
+        "entry": "finished (arXiv 2610.27214, abstract checked: EVT vs empirical CVaR, deep hedging, extreme-scenario losses). A matches the paper's main comparison. First draft B_min restructured A (dropped \"the choice of\"); replaced with a pure affect->influence swap. C_tilde names the two methods, slightly narrower than C. Narrower refers to \"the paper\" from inside the question. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "question_id": "h020",
+        "reported_day": "2026-10-20",
+        "source_line": 24,
+        "entry": "finished (arXiv 2610.14238, abstract checked: held-out generalization, data selection / reward design / curriculum learning, fixed training conditions). A is close to the paper's headline. First draft B_min dropped \"machine learning\"; replaced with a pure affect->influence swap. inquiry_change now at 10/10; no more needed. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "question_id": "h021",
+        "reported_day": "2026-10-20",
+        "source_line": 25,
+        "entry": "finished (arXiv 2602.16315, abstract checked). role_swap. A (user behavior -> recommenders) is the secondary half of the feedback loop; the paper's reported findings are mostly about recommenders -> users (my C). Consider swapping A and C so A is the paper's main direction. Broader is symmetric, so it contains both A and C. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "question_id": "h022",
+        "reported_day": "2026-10-21",
+        "source_line": 26,
+        "entry": "finished (arXiv 2609.05279). First draft B_min restructured A and kept only 72.7% of its words (under the 75% rule); replaced with a pure verb swap. B uses \"role-matched\" and \"communication effort\", details that belong in narrower. Re-read after 24h."
+      },
+      {
+        "question_id": "h023",
+        "reported_day": "2026-10-21",
+        "source_line": 27,
+        "entry": "finished (arXiv 2609.36855). First role-swap draft (C: initial accuracy decides whether messages help or harm) was the same table as A seen from the other side, so replaced with a true swap. N first dropped \"multi-agent LLM systems\" and so was not strictly narrower; fixed. Re-read after 24h."
+      },
+      {
+        "question_id": "h024",
+        "reported_day": "2026-10-21",
+        "source_line": 28,
+        "entry": "finished (arXiv 2610.19712). First draft W put recipient behavior as an input (continuity as outcome), so it did not contain A; N turned A into a raw-vs-summarized comparison and dropped words. Both rewritten. Re-read after 24h."
+      },
+      {
+        "question_id": "h025",
+        "reported_day": "2026-10-21",
+        "source_line": 29,
+        "entry": "finished (arXiv 2604.25096). The paper itself studies both directions, so C is a different question the paper also happens to address; only the roles were swapped (belief expression kept in C). Re-read after 24h."
+      },
+      {
+        "question_id": "h026",
+        "reported_day": "2026-10-21",
+        "source_line": 30,
+        "entry": "finished (arXiv 2510.20039). Pure role swap (opinions and responses trade places). Same theme as h025, so avoid more human-chatbot influence items. Re-read after 24h."
+      },
+      {
+        "question_id": "h027",
+        "reported_day": "2026-10-21",
+        "source_line": 31,
+        "entry": "finished (arXiv 2605.29278). First N draft added \"multi-turn\", which the abstract does not state, and made length_flipped depend on how hyphens are tokenised; removed. Third human-LLM influence item in a row, so switch fields next. Re-read after 24h."
+      },
+      {
+        "question_id": "h029",
+        "reported_day": "2026-10-21",
+        "source_line": 32,
+        "entry": "finished (arXiv 2609.37631, abstract checked). First N kept \"across vision, language, and code\" while restricting to ImageNet, which contradicted itself; first B said \"neural network\" instead of transformer. Re-read after 24h."
+      },
+      {
+        "question_id": "h030",
+        "reported_day": "2026-10-21",
+        "source_line": 33,
+        "entry": "finished (arXiv 2606.31166). Dropped an earlier h030 draft (ELIXIR synthetic-data paper): its A was neutral so the \"direction flip\" was really a negation, and the paper gave no clear research question. First draft of this item had B and C~ without the masked-diffusion model, which made them broader than A. Re-read after 24h."
+      },
+      {
+        "question_id": "h031",
+        "reported_day": "2026-10-20",
+        "source_line": 34,
+        "entry": "finished (arXiv 2606.21406, abstract checked: human-video priors, robot self-improvement from rollouts and failures, mobile manipulator and static arm). direction_flip improve -> impair. First draft B_min was identical to A; changed one word (improve -> enhance). C_tilde Jaccard 0.267, close to the 0.3 limit. Broader treats three data sources as joint causes. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "question_id": "h032",
+        "reported_day": "2026-10-20",
+        "source_line": 35,
+        "entry": "finished (arXiv 2609.35479, checked against a summary: hierarchical search over a small fraction of the design space, then geometry refinement to reduce task loss while maintaining task success). First draft used the undefined acronym \"HOT\"; replaced with the title's \"behavior-aware hierarchical optimization\". Dropped \"while preserving task success\" from C and C_tilde (extra condition). Narrower originally said \"four tool-use tasks reported in the study\", unconfirmed; replaced. Narrower restriction is weak (application only). goal_swap, not constraint_flip. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "question_id": "h033",
+        "reported_day": "2026-10-20",
+        "source_line": 36,
+        "entry": "finished (arXiv 2609.02811, checked against a summary of the abstract). A is a late finding, not the headline (whether open-loop prediction accuracy indicates closed-loop performance). constraint_flip combined -> isolated sensing degradation; the paper reports different results for the two, so it is a real near-miss. \"GRU-EKF\" and \"cross-track error\" to be verified in the paper. Narrower and broader tie at 22 words, so length_flipped=false. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "question_id": "h034",
+        "reported_day": "2026-10-20",
+        "source_line": 37,
+        "entry": "finished (arXiv 2606.13675, checked against a paraphrase of the abstract). Labelled goal_swap in my first draft, relabelled constraint_flip: C changes the condition (zero-shot steering vs distillation through behavioral cloning), not the outcome measured. A is the paper's own claim. Broader is a compound list of four methods and four outcomes. Re-read after 24h (due 2026-10-21)."
+      },
+      {
+        "question_id": "h035",
+        "reported_day": "2026-10-21",
+        "source_line": 38,
+        "entry": "finished (arXiv 2609.02653, robotics). Clean direction flip. N may be restating A's own scope rather than narrowing it; consider restricting to one task or OOD only on re-read."
+      },
+      {
+        "question_id": "h036",
+        "reported_day": "2026-10-21",
+        "source_line": 39,
+        "entry": "finished (arXiv 2608.22701, robotics). Goal swap: generalization → interpretability. Confirm abstract mentions quadruped locomotion and uncertain dynamics on re-read."
+      },
+      {
+        "question_id": "h037",
+        "reported_day": "2026-10-21",
+        "source_line": 40,
+        "entry": "finished (arXiv 2605.19881, autonomous racing). Clean direction flip. Confirm \"cautious raceline\" is the paper's own term on re-read."
+      },
+      {
+        "question_id": "h038",
+        "reported_day": "2026-10-21",
+        "source_line": 41,
+        "entry": "finished (arXiv 2608.05464, computational neuroscience). Inquiry change: does → why. C assumes A's answer is yes; confirmed against abstract on save. Confirm \"rescaling to preserve average synaptic strength\" is the paper's wording on re-read."
+      },
+      {
+        "question_id": "h039",
+        "reported_day": "2026-10-21",
+        "source_line": 42,
+        "entry": "finished (arXiv 2609.15014). First labelled constraint_flip but C changed the benchmark domain, not a condition; relabelled goal_swap. Still need 8 constraint_flips. Constraint_flip needs \"without X\" flipped to \"with X\" or similar."
+      },
+      {
+        "question_id": "h040",
+        "reported_day": "2026-10-21",
+        "source_line": 43,
+        "entry": "finished (arXiv 2609.10221, bioinformatics). Goal swap: accuracy vs tool count. Confirm \"five frozen reasoners\" and GRPO comparison in abstract on re-read."
+      },
+      {
+        "question_id": "h041",
+        "reported_day": "2026-10-21",
+        "source_line": 44,
+        "entry": "finished (arXiv 2609.23525, speech recognition). Direction flip: improve vs degrade. Confirm LibriSpeech benchmarks and shared decoder in abstract on re-read."
+      },
+      {
+        "question_id": "h042",
+        "reported_day": "2026-10-21",
+        "source_line": 45,
+        "entry": "finished (arXiv 2609.32874, physics+ML). Direction flip. length_flipped corrected to false (N longer than W). Confirm May 2025-2026 date range in abstract on re-read."
+      },
+      {
+        "question_id": "h043",
+        "reported_day": "2026-10-21",
+        "source_line": 46,
+        "entry": "finished (arXiv 2608.27394, RATIO paper). Direction flip. First N replaced A's scope words; fixed to keep all of A. length_flipped toggled twice before correct. Prior familiarity with RATIO noted in AI_LOG.md."
+      },
+      {
+        "question_id": "h044",
+        "reported_day": "2026-10-21",
+        "source_line": 47,
+        "entry": "finished (arXiv 2608.17271, AI agents for science). Direction flip: affect vs improve. Confirm 60 tasks and 11 domains in abstract on re-read."
+      },
+      {
+        "question_id": "h045",
+        "reported_day": "2026-10-21",
+        "source_line": 48,
+        "entry": "finished (arXiv 2609.05079, AI benchmarking). Direction flip: weaknesses vs strengths. Confirm 40 blind tasks in abstract on re-read. This is one too many direction_flips; switching to constraint_flip next."
+      },
+      {
+        "question_id": "h046",
+        "reported_day": "2026-10-21",
+        "source_line": 49,
+        "entry": "finished (arXiv 2609.33357). First labelled direction_flip but C changed two things; relabelled constraint_flip (with → without trustworthy evidence). Confirm 203 tasks in abstract on re-read."
+      },
+      {
+        "question_id": "h047",
+        "reported_day": "2026-10-21",
+        "source_line": 50,
+        "entry": "finished (arXiv 2610.19159). Relabelled constraint_flip (all → some scientist-defined conditions). Confirm 135 submissions in abstract on re-read."
+      },
+      {
+        "question_id": "h048",
+        "reported_day": "2026-10-21",
+        "source_line": 51,
+        "entry": "drafted (arXiv 2606.12736). Proposed constraint_flip: well-specified scientific tasks → open-ended scientific tasks. Verify the source's benchmark details, confirm exact token counts and Jaccard scores, and review the contrast before finalizing."
+      },
+      {
+        "question_id": "h049",
+        "reported_day": "2026-10-21",
+        "source_line": 52,
+        "entry": "candidate (arXiv 2608.16951, The Little Scientist). Proposed constraint_flip: Scientist-agent search with versus without the Kuhn agent. A–B Jaccard = 0.033; A–C_tilde Jaccard = 0.000. N = 19 tokens; W = 18 tokens; length_flipped=false. B_min changes \"escape\" to \"overcome\". Verify the counterfactual framing and source grounding before finalizing."
+      },
+      {
+        "question_id": "h050",
+        "reported_day": "2026-10-21",
+        "source_line": 53,
+        "entry": "drafted (arXiv 2609.09203, OpenDiscoveryTrace). Proposed constraint_flip: frontier models with comparable versus substantially different success rates. A–B Jaccard = 0.097; A–C_tilde Jaccard = 0.250. N = 19 tokens; W = 23 tokens; length_flipped=true. Source reports similar success rates but substantially different error patterns; the C condition is counterfactual and requires review."
+      },
+      {
+        "question_id": "h051",
+        "reported_day": "2026-10-21",
+        "source_line": 54,
+        "entry": "drafted (arXiv 2610.18449, Autonomous Science Bench). Proposed goal_swap: discovery gate evaluating promising tested candidates versus learning gate evaluating predictions on held-out candidates. A–B Jaccard = 0.273; A–C_tilde Jaccard = 0.167. N = 17 tokens; W = 22 tokens; length_flipped=true. Source describes six budgeted campaigns and separate discovery and learning gates. Run the checker and review before finalizing."
+      },
+      {
+        "question_id": "h052",
+        "reported_day": "2026-10-21",
+        "source_line": 55,
+        "entry": "drafted (arXiv 2610.08927, Can AI Agents Make Open-Ended Scientific Discovery? Evidence from Station). Proposed constraint_flip: rediscovery with supervisor and periodic meta-reflection versus the condition in which both mechanisms are absent. The source reports 62.7% average rediscovery of criteria, compared with 15.4% for Codex Multiagent-v2 and 14.4%-20.6% for AI Scientist-v2. Verify overlap scores, token counts, and the exact ablation conditions before finalizing."
+      },
+      {
+        "question_id": "h053",
+        "reported_day": "2026-10-21",
+        "source_line": 56,
+        "entry": "drafted (arXiv 2610.00084, Scientific Agents: Evaluating Profession-Specific System Prompts on Scientific Tasks). Proposed direction_flip: whether profession-specific prompts improve scientific-benchmark accuracy. Source reports an average accuracy difference of -0.6 percentage points versus a minimal baseline, with no consistent improvement. A–B Jaccard = 0.000; A–C_tilde Jaccard = 0.048. N = 16 tokens; W = 21 tokens; length_flipped=true. Review the narrower restriction and run the checker before finalizing."
+      },
+      {
+        "question_id": "h055",
+        "reported_day": "2026-10-21",
+        "source_line": 57,
+        "entry": "drafted (arXiv 2608.25286, BixBench3: Benchmarking AI Agents on Research-Study-Scale Computational Biology Tasks). Proposed constraint_flip contrasts computational-biology analysis on small datasets. Review the source, semantic validity, token counts, and Jaccard similarities; run the checker before finalizing."
+      },
+      {
+        "question_id": "h056",
+        "reported_day": "2026-10-21",
+        "source_line": 58,
+        "entry": "drafted (arXiv 2610.18933, The Agentic Scientist: Orchestrating Coding Agents for Automated Scientific (Co-)Discovery). Proposed constraint_flip contrasts reliable autonomous discovery with and without cross-agent orchestration. The paper describes a meta-controller coordinating parallel research agents and rubric-based verification; its ablation results suggest orchestration is important for reliable scientific autonomy. Review semantic validity, token counts, Jaccard similarities, and the exact counterfactual before finalizing."
+      },
+      {
+        "question_id": "h057",
+        "reported_day": "2026-10-21",
+        "source_line": 59,
+        "entry": "drafted (arXiv 2604.25256, AutoResearchBench: Benchmarking AI Agents on Complex Scientific Literature Discovery). Proposed goal_swap contrasts locating a specified target paper in Deep Research with collecting all qualifying papers in Wide Research. The paper reports 9.39% accuracy on Deep Research and 9.31% IoU on Wide Research for the strongest reported models. Verify semantic validity, exact token counts, Jaccard similarities, and length_flipped using the assignment's prescribed rules before finalizing."
+      },
+      {
+        "question_id": "h058",
+        "reported_day": "2026-10-21",
+        "source_line": 60,
+        "entry": "drafted (arXiv 2606.13662, EurekAgent: Agent Environment Engineering is All You Need For Autonomous Scientific Discovery). Proposed direction_flip: whether environment engineering supports or hinders autonomous scientific discovery in metric-driven tasks. The paper examines permissions, artifact management, budget management, and human-in-the-loop supervision as environment-design dimensions. Verify the contrast, Jaccard similarities, token counts, and length_flipped against the assignment's rules before finalizing."
+      },
+      {
+        "question_id": "h059",
+        "reported_day": "2026-10-21",
+        "source_line": 61,
+        "entry": "drafted (arXiv 2606.07591, ResearchClawBench: A Benchmark for End-to-End Autonomous Scientific Research). Proposed constraint_flip contrasts evaluating autonomous scientific research with target papers hidden versus revealed. The benchmark covers 40 tasks across 10 scientific domains and identifies experimental-protocol mismatch, evidence mismatch, and missing scientific contributions as important failure modes. Under whitespace tokenization with punctuation stripped from token boundaries, A–B Jaccard = 0.143 and A–C_tilde Jaccard = 0.240. Narrower = 23 tokens; broader = 31 tokens; length_flipped=true. Review semantic validity and checker output before finalizing."
+      },
+      {
+        "question_id": "h060",
+        "reported_day": "2026-10-21",
+        "source_line": 62,
+        "entry": "drafted (arXiv 2607.28631, Can AI Evaluate AI Scientists? A Benchmarking Study of Autonomous Research Generation Systems Using Automated Multi-Model Review). Proposed constraint_flip compares evaluation reliability using multiple LLM reviewers versus a single reviewer. The paper evaluates originality, scientific rigor, clarity, and significance using GPT-5.4, Gemini, and Claude. Gemini and Claude show strong agreement, while GPT-5.4 shows weaker agreement with the other evaluation signals. Verify the contrast, token counts, Jaccard similarities, and length_flipped against the assignment's rules before finalizing."
+      },
+      {
+        "question_id": "h061",
+        "reported_day": "2026-10-21",
+        "source_line": 63,
+        "entry": "drafted (arXiv 2606.15497, Towards End-to-End Automation of AI Research). Proposed constraint_flip contrasts research using human-provided code templates with research in a template-free setting. Review semantic validity, token counts, Jaccard similarities, and length_flipped against the assignment rules."
+      },
+      {
+        "question_id": "h062",
+        "reported_day": "2026-10-21",
+        "source_line": 64,
+        "entry": "drafted (arXiv 2605.08323, The Reciprocity Gradient). Proposed role_swap item examines the relationship between an agent's actions and opponents' reputations, then reverses the focus to reputation feedback on the agent's future rewards. The source describes actions and signals changing third-party reputations, with reputation effects feeding back into future rewards. Verify the role_swap classification, semantic validity, token counts, and length_flipped before finalizing."
+      }
+    ]
+  },
+  "git_condition_mapping": {
+    "artifacts": {
+      "S1_GIT_CONDITION_MAPPING.jsonl": "14cb457d5cf1c0feacdcb9e09cd8dca03c4a8ad07ae23d9c3035a9820fb65ddb",
+      "build_s1_git_mapping.py": "27363cbad08c574e02d270afc775eb92537c32970beda72e12ab0fea380f5b38"
+    },
+    "verified_git_records": 61,
+    "blocked_condition_slots": 244,
+    "eligible_questions": 0,
+    "scope": "Git version dates and associated arXiv IDs only. Notebook line references use the preserved E1_item_phase_notebook.md. Empty input list describes the registered condition only."
+  }
+}

@@ -1,0 +1,4 @@
+benchmark_forum,earlier_forum,archive,line,shared_distinct_8grams,fraction_of_shorter,earlier_abstract_sha256
+Wf0tGnQOIh,z1td6fBKpG,/Users/arpit/Downloads/iclr_task3_baseline/data/iclr_2025/papers.jsonl,190,133,0.816,2eec28debc801a60318001bd42b5cb10c253b07893bd06ccc477e9d258b8f490
+pEtQaGUZVB,bSSFERgkFn,/Users/arpit/Downloads/iclr_task3_baseline/data/iclr_2025/papers.jsonl,4580,23,0.25,a40748b11acd7114c5020afdf45fdffed921c8b47e45923e4a3e35aefc4dfaff
+pUEAy4Ibjh,G2AMCTTpCc,/Users/arpit/Downloads/iclr_task3_baseline/data/iclr_2025/papers.jsonl,8664,110,1.0,bcf3d41fc1404421ddd08087189df5134bd103655ddd7ff263bda0b6dc1c7b0f

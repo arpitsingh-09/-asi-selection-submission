@@ -1,0 +1,27 @@
+{
+  "schema": "M-openreview-edit-fetch-attempt-v1",
+  "attempt_date_utc": "2026-11-19",
+  "request_url": "https://api2.openreview.net/notes/edits?note.id=gUL6zYN4Uaf&sort=tcdate%3Aasc&limit=100",
+  "note_id": "gUL6zYN4Uaf",
+  "status": "FAILED_DNS",
+  "exception": "urllib.error.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+  "http_status": null,
+  "response_bytes": 0,
+  "response_saved": false,
+  "retries": 0,
+  "other_note_edit_requests_made": false,
+  "interpretation": "The OpenReview API hostname did not resolve from the local environment. No paper or review edit history was retrieved. The request was not retried.",
+  "validation_review_records": "No exact-version public review records linked to the two frozen validation questions were present in the inspected local ICLR 2022-2025 exports or the existing targeted response cache.",
+  "indexed_search_followup": {
+    "attempt_date_utc": "2026-11-19",
+    "queries": [
+      "gUL6zYN4Uaf revisions OpenReview",
+      "VpEkt6zLidI OpenReview review",
+      "O8d9Km8oLKg OpenReview review",
+      "2501.00457 Official_Review site:openreview.net",
+      "2412.20895 OpenReview forum or PDF"
+    ],
+    "status": "NO_EXACT_MATCH",
+    "returned_exact_review_or_revision_records": false
+  }
+}

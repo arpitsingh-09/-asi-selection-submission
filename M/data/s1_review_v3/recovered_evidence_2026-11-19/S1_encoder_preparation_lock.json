@@ -1,0 +1,22 @@
+{
+  "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "model_files": {
+    "config.json": "953f9c0d463486b10a6871cc2fd59f223b2c70184f49815e7efbcab5d8908b41",
+    "modules.json": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf",
+    "model.safetensors": "53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db",
+    "tokenizer.json": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037",
+    "tokenizer_config.json": "acb92769e8195aabd29b7b2137a9e6d6e25c476a4f15aa4355c233426c61576b",
+    "1_Pooling/config.json": "4be450dde3b0273bb9787637cfbd28fe04a7ba6ab9d36ac48e92b11e350ffc23",
+    "sentence_bert_config.json": "fc1993fde0a95c24ec6c022539d41cf6e2f7c9721e5415d6fb6897472a9cd4b7"
+  },
+  "committed_files": {
+    "M/s1_encoder.py": "922be70db9efe4f2275964b1c30749adfa09a36cd6869dbd535babb23daa6f94",
+    "M/s1_review.py": "4bec0d390dfb15aef54c80286ab8067c7c874d0b9c592993995a83a43d8e211b",
+    "M/s1_metrics.py": "e9e86003f39fb717f62a120b702443455346f197794b12fe5487b15ee6bbcb25",
+    "M/amendments/2026-11-13-S1-independent-review.md": "b7a4f2120114571ebd837cfd5a18648b6963b1617057cfbf8db6fd33ef39a8a9",
+    "M/data/s1_review_v3/embedding_requests.json": "40aec41fcd9b362a17f59718dc359531389680962e8417b208924816cbe7dfd6",
+    "M/data/s1_review_v3/annotation_manifest.jsonl": "b0a0b9c370258a681ac80e8784233005f704a967eb14d64e6d36e8a7bec2c011"
+  },
+  "request_sha256": "40aec41fcd9b362a17f59718dc359531389680962e8417b208924816cbe7dfd6",
+  "purpose": "Bounded label-free B-Q vectors only; no real scoring authorization"
+}

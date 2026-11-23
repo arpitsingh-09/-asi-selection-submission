@@ -1,0 +1,171 @@
+{
+  "format": 1,
+  "run_type": "supplementary_calibration_only",
+  "run_id": "15919100-bebf-4228-a740-12fb05c23419",
+  "invocation": {
+    "entrypoint": "adapter_diagnostic.run",
+    "claim_count": 4,
+    "parity_control_count": 3,
+    "batch_size": 1,
+    "device": "cpu",
+    "dtype": "float32",
+    "output_dir": "/Users/arpit/ASI_Intern_Submission/E2/analysis/claim_sidecar_v1/adapter_diagnostic_2026-11-18_run3"
+  },
+  "exit_status": 0,
+  "started_at_utc": "2026-11-18T15:32:37.486122+00:00",
+  "ended_at_utc": "2026-11-18T15:32:39.102841+00:00",
+  "wall_clock_source": "datetime.now(timezone.utc)",
+  "manifest_sha256": "a33e042bc0defaa72f658e421dc3e2ad8f0ad3fbcdf4c04b250604353d50998f",
+  "amendment_path": "/Users/arpit/ASI_Intern_Submission/E2/analysis/claim_sidecar_v1/ADAPTER_ACTIVATION_DIAGNOSTIC_ADDENDUM_2026-11-18.md",
+  "amendment_sha256": "caa333d1e718be62cd93be0f739151c568acd2089cb21fa495efb28d637edef3",
+  "calibration_driver_path": "/Users/arpit/ASI_Intern_Submission/E2/claim_sidecar_calibration_only.py",
+  "calibration_driver_sha256": "e5e3aeaf53a9505be05eb0fec8b305a0eba54c7c684c3e4f4c1383158ae564a0",
+  "model_key": "85d28c921a5d7ab3bddaefbc4c10581ac90d3415b4c2df0990485d604fcdd1d2",
+  "model_id": "specter2_base+proximity-adapter+cls-v1",
+  "base_revision": "3447645e1def9117997203454fa4495937bfbd83",
+  "adapter_revision": "2081559630a80fc5851d8f798a05ba81e9468089",
+  "representation": {
+    "dimension": 768,
+    "dtype": "float32",
+    "normalization": "unit_L2",
+    "device": "cpu",
+    "max_length": 512,
+    "batch_size": 1
+  },
+  "python_version": "3.12.13",
+  "numpy_version": "2.0.2",
+  "torch_version": "2.8.0",
+  "transformers_version": "4.57.6",
+  "adapters_version": "1.3.0",
+  "platform": "macOS-26.5.1-arm64-arm-64bit",
+  "process_id": 40856,
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "timing_source": "time.monotonic_ns",
+  "elapsed_seconds": 1.6167095,
+  "phase_seconds": {
+    "model_load": 1.449062875,
+    "parity": 0.06832875,
+    "four_claim_batch": 0.056539542
+  },
+  "peak_rss_source": "resource.getrusage(RUSAGE_SELF).ru_maxrss",
+  "process_peak_rss_bytes": 778240000,
+  "peak_rss_unit_rule": "Darwin ru_maxrss bytes; other supported Unix platforms converted from KiB",
+  "new_vectors_generated": 4,
+  "persisted_vectors": 0,
+  "claim_request_sha256": [
+    "0898df02c4eb78a67cb2b8b5d615e73fd94963f353ddd9ee6c15faac2d408fba",
+    "0b38c37f6df3cf3dda2732030afc6287aacfc927172385b388fe495206b02678",
+    "0c4bc6e27997c779d6eb5326880f9b50bc58ec604f46b45a38d0d0537829ed3f",
+    "0cca22c3fb951b60aaa223cbc73e3fc671ffd973924f29df283ddd41a3b9780c"
+  ],
+  "parity_controls": [
+    {
+      "text_sha256": "0236b457dc776ab6832604d1ab6eb316dd6abb4c59ef3bf56bd1e43fbcc72d4e",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "text_sha256": "49ba555973204e42098d17fce09a5f20218336c485e62ba77c72604a0201337e",
+      "max_absolute_difference": 1.1920928955078125e-07,
+      "passed": true
+    },
+    {
+      "text_sha256": "a3f61f1c97a6e1b16c41ec10cbe0cd884364f364ff1cfde22b456af24f99e722",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    }
+  ],
+  "claim_vector_comparisons": [
+    {
+      "text_sha256": "0898df02c4eb78a67cb2b8b5d615e73fd94963f353ddd9ee6c15faac2d408fba",
+      "saved_vector_sha256": "b58f3665e00cfc5e54408c18b2e19aaacca493272b63fcccdf047452125bd89b",
+      "recomputed_vector_sha256": "b58f3665e00cfc5e54408c18b2e19aaacca493272b63fcccdf047452125bd89b",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "text_sha256": "0b38c37f6df3cf3dda2732030afc6287aacfc927172385b388fe495206b02678",
+      "saved_vector_sha256": "2aed405bd06085b4cbc24c21835e5a8f8c2031fe9005409fa97bfdcb0a63f595",
+      "recomputed_vector_sha256": "a27bee499a16515ae9f36f63c4dbf503d4a70e280751019784ed9672bbc6e907",
+      "max_absolute_difference": 5.774199962615967e-08,
+      "passed": true
+    },
+    {
+      "text_sha256": "0c4bc6e27997c779d6eb5326880f9b50bc58ec604f46b45a38d0d0537829ed3f",
+      "saved_vector_sha256": "673b7b6a35209a274bf0a5e3fcb74bb35a16a3666e8c5c3ea96845beac41aff0",
+      "recomputed_vector_sha256": "673b7b6a35209a274bf0a5e3fcb74bb35a16a3666e8c5c3ea96845beac41aff0",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "text_sha256": "0cca22c3fb951b60aaa223cbc73e3fc671ffd973924f29df283ddd41a3b9780c",
+      "saved_vector_sha256": "4b683676baab7486c7d162e657e2d26822938408d85fd27b94ba1ce30c3d465c",
+      "recomputed_vector_sha256": "04e1b6e982048fb99764c9d23304122ea84faf74c7a51a8cd02c37b096cfbc3f",
+      "max_absolute_difference": 5.960464477539063e-08,
+      "passed": true
+    }
+  ],
+  "sidecar_before": {
+    "sqlite_sha256": "161f6dde297a53ff8cd688eddd01f12a35e9982ff0add77c4624d93e47e382e0",
+    "row_count": 4,
+    "rows": [
+      {
+        "text_sha256": "0898df02c4eb78a67cb2b8b5d615e73fd94963f353ddd9ee6c15faac2d408fba",
+        "vector_sha256": "b58f3665e00cfc5e54408c18b2e19aaacca493272b63fcccdf047452125bd89b",
+        "vector_bytes": 3072
+      },
+      {
+        "text_sha256": "0b38c37f6df3cf3dda2732030afc6287aacfc927172385b388fe495206b02678",
+        "vector_sha256": "2aed405bd06085b4cbc24c21835e5a8f8c2031fe9005409fa97bfdcb0a63f595",
+        "vector_bytes": 3072
+      },
+      {
+        "text_sha256": "0c4bc6e27997c779d6eb5326880f9b50bc58ec604f46b45a38d0d0537829ed3f",
+        "vector_sha256": "673b7b6a35209a274bf0a5e3fcb74bb35a16a3666e8c5c3ea96845beac41aff0",
+        "vector_bytes": 3072
+      },
+      {
+        "text_sha256": "0cca22c3fb951b60aaa223cbc73e3fc671ffd973924f29df283ddd41a3b9780c",
+        "vector_sha256": "4b683676baab7486c7d162e657e2d26822938408d85fd27b94ba1ce30c3d465c",
+        "vector_bytes": 3072
+      }
+    ]
+  },
+  "sidecar_after": {
+    "sqlite_sha256": "161f6dde297a53ff8cd688eddd01f12a35e9982ff0add77c4624d93e47e382e0",
+    "row_count": 4,
+    "rows": [
+      {
+        "text_sha256": "0898df02c4eb78a67cb2b8b5d615e73fd94963f353ddd9ee6c15faac2d408fba",
+        "vector_sha256": "b58f3665e00cfc5e54408c18b2e19aaacca493272b63fcccdf047452125bd89b",
+        "vector_bytes": 3072
+      },
+      {
+        "text_sha256": "0b38c37f6df3cf3dda2732030afc6287aacfc927172385b388fe495206b02678",
+        "vector_sha256": "2aed405bd06085b4cbc24c21835e5a8f8c2031fe9005409fa97bfdcb0a63f595",
+        "vector_bytes": 3072
+      },
+      {
+        "text_sha256": "0c4bc6e27997c779d6eb5326880f9b50bc58ec604f46b45a38d0d0537829ed3f",
+        "vector_sha256": "673b7b6a35209a274bf0a5e3fcb74bb35a16a3666e8c5c3ea96845beac41aff0",
+        "vector_bytes": 3072
+      },
+      {
+        "text_sha256": "0cca22c3fb951b60aaa223cbc73e3fc671ffd973924f29df283ddd41a3b9780c",
+        "vector_sha256": "4b683676baab7486c7d162e657e2d26822938408d85fd27b94ba1ce30c3d465c",
+        "vector_bytes": 3072
+      }
+    ]
+  },
+  "original_cache_sha256_before": "a1d42a472f7ecda6935beb67ad595fb6a39e2fdcbbd022259a4f0e8230ac8289",
+  "original_cache_sha256_after": "a1d42a472f7ecda6935beb67ad595fb6a39e2fdcbbd022259a4f0e8230ac8289",
+  "technical_checks_passed": true,
+  "human_accepted": false,
+  "output_directory": "/Users/arpit/ASI_Intern_Submission/E2/analysis/claim_sidecar_v1/adapter_diagnostic_2026-11-18_run3"
+}

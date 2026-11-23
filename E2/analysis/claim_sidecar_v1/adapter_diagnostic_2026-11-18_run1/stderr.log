@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/Users/arpit/ASI_Intern_Submission/E2/claim_sidecar_calibration_only.py", line 219, in _execute
+    encoder = sidecar.cpu_factory(inv)
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/arpit/ASI_Intern_Submission/E2/claim_sidecar_adapter_diagnostic.py", line 215, in tracked_factory
+    encoder = original_instrumented_factory(inventory)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/arpit/ASI_Intern_Submission/E2/claim_sidecar_adapter_diagnostic.py", line 151, in factory
+    encoder = batched_cpu_encoder({'model_inventory': inventory})
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/arpit/ASI_Intern_Submission/E2/task3_execution.py", line 103, in batched_cpu_encoder
+    os.nice(15)
+PermissionError: [Errno 1] Operation not permitted

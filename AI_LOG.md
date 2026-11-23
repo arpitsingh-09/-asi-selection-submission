@@ -251,6 +251,29 @@ E6 and Ollama preserved. No push. See E2/TASK3_EXECUTION.md.
   rendered-page count. No report correction was supported by the inspected
   evidence.
 - No inference, scoring, training, protocol change, or experiment was run.
+
+## 2026-11-19 — Main quality-label source recovery
+
+- Codex compared the frozen-v2 TRAIN/VALIDATION question passages with the
+  local ICLR 2022–2025 OpenReview paper and review exports, checked linked
+  note IDs and record hashes, and consulted official OpenReview and ICLR
+  release documentation plus the IJCAI proceedings PDF for one validation
+  paper. Direct OpenReview API/revision pages were not accessible through the
+  available web tool.
+- A same-author ICLR `ADAPT` record initially looked like a possible source
+  for a frozen validation item. Comparing its abstract with the frozen
+  question showed it was not an exact version match; it was excluded. Exact
+  title hits that resolved to DBLP/other-venue records were likewise not
+  treated as reviews. This prevented a false paper/review join.
+- One Cramming TRAIN paper had three current review-note values unchanged
+  before ICLR's official public-release event, plus one note modified after
+  release. The paper note's current `tmdate` is years after its `odate`, and
+  the export lacks revision history, so none was imported as an eligible
+  label. No exact VALIDATION question/review link or dated later-use outcome
+  was recovered. The separate audit is
+  `M/data/quality_recovery_2026-11-19/RECOVERY_AUDIT.md`.
+- No frozen file, existing label/result, or authorization was changed. No
+  model fitting, prediction, inference, scoring, or heldout access occurred.
 # 2026-11-18 — Submission-folder consolidation and scope record
 
 - OpenAI Codex inspected the existing `/Users/arpit/asi-selection-submission`
@@ -291,4 +314,39 @@ E6 and Ollama preserved. No push. See E2/TASK3_EXECUTION.md.
   generation ran. It also tried the official Semantic Scholar API/citation
   endpoint through the web tool; documentation was searchable but direct API
   and paper pages were inaccessible. No citation records were inferred.
+
+## 2026-11-19 — OpenReview edit-history retrieval attempt
+
+- Codex made one direct HTTPS request for the public edit history of the
+  Cramming OpenReview paper note. The local network returned DNS resolution
+  error `[Errno 8]`; the negative result was saved in
+  `M/data/quality_recovery_2026-11-19/OPENREVIEW_EDITS_FETCH_NEGATIVE_2026-11-19.json`.
+  No retry was made and no edit history or review data was fabricated.
+- Codex also ran a focused indexed search for the paper/review note IDs and
+  frozen validation arXiv IDs; it returned no exact OpenReview revision or
+  review records. Same-author or related-paper hits were not treated as
+  matches.
+
+## 2026-11-19 — Main Problem AI-use disclosure and error record
+
+- Main Problem implementation and documentation received Codex assistance,
+  including the shared representation, readout interfaces, temporal checks,
+  baselines, validation logic, and report preparation. The scoped record is
+  `M/AI_USAGE.md`; this entry incorporates its disclosure into the submission-
+  level AI log.
+- The caught implementation errors were: (1) an availability default could
+  place a future paper's availability before its publication and make a valid
+  future exclusion raise; availability now defaults no earlier than publication;
+  (2) future answer annotations were hidden only at the groundedness readout
+  instead of being removed from the represented snapshot. The latter has direct
+  synthetic regression coverage in
+  `M/tests/test_space.py::test_future_answer_annotation_is_removed_not_just_hidden_by_head`.
+  `M/tests/test_space.py::test_late_arrival_not_backdated_and_versions_immutable`
+  covers related late-arrival behavior, but there is no dedicated regression
+  test for the exact earlier-arrival crash.
+- The last recorded M software suite was 92 passing tests. It was not rerun for
+  this disclosure. These tests are software checks, not scientific results.
+- No new inference, scoring, experiment, or human judgment was performed while
+  adding this entry. Existing supplementary findings and all blocked core tests
+  remain classified as in `M/FINAL_REPORT.md`; no result or review was created.
 

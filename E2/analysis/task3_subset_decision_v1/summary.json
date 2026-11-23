@@ -1,0 +1,33 @@
+{
+  "cutoff_policy": "weights_existence_bound",
+  "bound": "2024-12-31T23:59:59.999999Z",
+  "decision_maker": "Codex, delegated by user",
+  "original_n": 299,
+  "confirmed_pre_bound": 6,
+  "withheld_unresolved": 293,
+  "verified_eligible": 0,
+  "titles_queried": 295,
+  "queries_returning_links": 291,
+  "queries_with_exact_normalized_title": 173,
+  "auroc": null,
+  "quality_baseline_comparison": null,
+  "input_sha256": {
+    "E2/analysis/recovered_inputs_v1/benchmark_inputs.jsonl": "5a93effb0066be6046387e7fd7a37c030a2ef7bf908e6fd18f20300cddde3968",
+    "E2/analysis/blocker_recovery_v1/task3_subset_proposal.md": "f49c8218d64be9642853916c5a1f6e652c09737d53a430666025867c8ae5652c",
+    "E2/analysis/blocker_recovery_v1/publication_evidence.md": "a56a97c95f323b741c4cbde172e57547de1edf14624e754c4a4ab3fc3459252f",
+    "E2/analysis/task3_subset_decision_v1/DECISION.md": "a8e088c9b2fd9aa8439fe4ec8dc7714c3c92d0d7b7b4d35a76b5f0d0a72ba9a3",
+    "E2/analysis/task3_subset_decision_v1/search_leads.jsonl": "12c64d88ff3f0160230b1e0d7ec6f864ab74d6a4d5ff837488ec711489eb61e8",
+    "E2/analysis/task3_subset_decision_v1/cohort_disposition.csv": "9dc1c2b0c1904e66a3f55cf2cecb96e9f62683166de2b5a2840a503bf44d7157",
+    "E2/analysis/task3_subset_decision_v1/arxiv_version_screen.jsonl": "524e7a01ffad21a743b8fb030a41ff7f7763bef6513c880daa572f66aa22b26e",
+    "E2/analysis/task3_subset_decision_v1/first_release_review_queue.csv": "7ae79ecc2596f08d1b8edc4d99b97774cc2b960b36c17622e9592061ccd1bcce",
+    "E2/analysis/task3_subset_decision_v1/additional_exclusions.json": "9f99742372845e62cdbfed06afde203f00b51f3057186e2acd693b3c673962e2",
+    "E2/analysis/task3_subset_decision_v1/VERSION_NOTES.md": "77dea256c80fb5e8929498aed7cd0ce92a08706f3b6ef8e62b8963c51b784a6e"
+  },
+  "arxiv_v1_screen": {
+    "display_differs_or_incomplete": 60,
+    "extract_unavailable": 81,
+    "normalized_display_matches": 28,
+    "visible_prefix_only": 2
+  },
+  "priority_queue_count": 28
+}

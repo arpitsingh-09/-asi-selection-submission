@@ -1,0 +1,9 @@
+{
+  "forum_id": "CX35pnGzht",
+  "title": "CardioBench: Do Echocardiography Foundation Models Generalize Beyond the Lab?",
+  "retrieved_at_utc": "2026-11-19T01:56:45.707654+00:00",
+  "requests": [],
+  "edit_count": null,
+  "status": "error",
+  "error": "HTTPError: HTTP Error 403: Forbidden"
+}

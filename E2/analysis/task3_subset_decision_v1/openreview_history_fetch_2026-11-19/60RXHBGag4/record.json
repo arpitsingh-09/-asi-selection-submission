@@ -1,0 +1,9 @@
+{
+  "forum_id": "60RXHBGag4",
+  "title": "DBLP: Noise Bridge Consistency Distillation For Efficient And Reliable Adversarial Purification",
+  "retrieved_at_utc": "2026-11-19T01:56:46.936261+00:00",
+  "requests": [],
+  "edit_count": null,
+  "status": "error",
+  "error": "HTTPError: HTTP Error 403: Forbidden"
+}

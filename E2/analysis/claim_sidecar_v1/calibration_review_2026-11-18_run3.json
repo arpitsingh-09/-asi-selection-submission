@@ -1,0 +1,41 @@
+{
+  "format": 1,
+  "manifest_sha256": "a33e042bc0defaa72f658e421dc3e2ad8f0ad3fbcdf4c04b250604353d50998f",
+  "accepted": true,
+  "review_source": "User replied \u201capproved do\u201d after the run3 findings were presented and after being asked to review the reports and record the disposition if acceptable. The user authorized this acceptance record; the assistant performed the mechanical checks listed in technical_checks.",
+  "reviewer": "User (approval supplied in this conversation)",
+  "reviewed_at_utc": "2026-11-18T15:40:23.833754+00:00",
+  "decision": "accept_calibration_evidence",
+  "review_scope": "Run3 supplementary calibration evidence for the four already-saved claim vectors only; this does not authorize the remaining 89 vectors or scoring.",
+  "calibration_report_path": "/Users/arpit/ASI_Intern_Submission/E2/analysis/claim_sidecar_v1/adapter_diagnostic_2026-11-18_run3/calibration_report.json",
+  "calibration_report_sha256": "1151d4c74d7e092d15b824c7b3f1fe4fc284565b4ba236a8ca4f2af164729a15",
+  "adapter_diagnostic_path": "/Users/arpit/ASI_Intern_Submission/E2/analysis/claim_sidecar_v1/adapter_diagnostic_2026-11-18_run3/adapter_activation_diagnostic.json",
+  "adapter_diagnostic_sha256": "c5eeb88496a23bfd94b24ab1f24d8f7354fbffacbf0bf238ceeeee5ff4050c74",
+  "technical_checks": {
+    "diagnostic_completed": true,
+    "manifest_matches": true,
+    "diagnostic_report_hash_bound": true,
+    "post_load_adapter_proximity": true,
+    "all_encoding_forwards_proximity": true,
+    "all_model_adapter_asset_hashes_pass": true,
+    "three_parity_controls_pass": true,
+    "four_saved_vector_comparisons_pass": true,
+    "positive_timing_and_peak_rss": true,
+    "sidecar_unchanged_and_four_rows": true,
+    "original_cache_unchanged": true,
+    "no_vectors_persisted": true
+  },
+  "adapter_activation": {
+    "post_load_active_adapters": [
+      "proximity"
+    ],
+    "encoding_forward_count": 7,
+    "all_encoding_forwards_used_proximity": true,
+    "initialization_context_count": 2
+  },
+  "parity_tolerances": {
+    "atol": 1e-05,
+    "rtol": 0.0001
+  },
+  "persisted_vectors": 0
+}

@@ -1,0 +1,59 @@
+{
+  "created_at_local": "2026-11-19T18:16:21+05:30",
+  "items": [
+    {
+      "source_absolute_path": "/Users/arpit/Downloads/reviewer_A_completed.jsonl",
+      "destination_relative_path": "M/data/s1_review_v3/recovered_evidence_2026-11-19/reviewer_A_completed.jsonl",
+      "bytes": 314982,
+      "sha256": "97bfdf64cdc8dfe06b5e1136723e5ed53c49c50b7877dac4cd2b6333e0ca7c20",
+      "copy_verification": "byte-identical"
+    },
+    {
+      "source_absolute_path": "/Users/arpit/Downloads/reviewer_B_completed.jsonl",
+      "destination_relative_path": "M/data/s1_review_v3/recovered_evidence_2026-11-19/reviewer_B_completed.jsonl",
+      "bytes": 312558,
+      "sha256": "c600f3b62d0a616ac93275f19dbe821a8f1330979263d02299547f88974c6b78",
+      "copy_verification": "byte-identical"
+    },
+    {
+      "source_absolute_path": "/Users/arpit/asi-selection/E1/contrast.jsonl",
+      "destination_relative_path": "M/data/s1_review_v3/recovered_evidence_2026-11-19/E1_contrast.jsonl",
+      "bytes": 66445,
+      "sha256": "57f95f7690746d3b22670434410c4ce80894b42f0f8dc504cac58f7d9cdaedcc",
+      "copy_verification": "byte-identical"
+    },
+    {
+      "source_absolute_path": "/Users/arpit/asi-selection/E1/results_v2/source_metadata.csv",
+      "destination_relative_path": "M/data/s1_review_v3/recovered_evidence_2026-11-19/E1_source_metadata.csv",
+      "bytes": 111369,
+      "sha256": "eeafdb4ee45031dc9cf9e5ae245d02179920606c795da75b33cd8f275130241c",
+      "copy_verification": "byte-identical"
+    },
+    {
+      "source_absolute_path": "/Users/arpit/ASI_Intern_Submission/M/amendments/S1_encoder_preparation_lock.json",
+      "destination_relative_path": "M/data/s1_review_v3/recovered_evidence_2026-11-19/S1_encoder_preparation_lock.json",
+      "bytes": 1570,
+      "sha256": "254b7f9800cbcc75d743b9acd62fa66c13c2e68bb9a6198f8ad8bbb5b2eaae04",
+      "copy_verification": "byte-identical"
+    },
+    {
+      "source_absolute_path": "/Users/arpit/asi-selection/.git history for E1/contrast.jsonl",
+      "destination_relative_path": "M/data/s1_review_v3/recovered_evidence_2026-11-19/E1_local_commit_history.tsv",
+      "records": 61,
+      "source_git_head": "a1dececb3929909bfc92de0e8b2b1defd3070917",
+      "git_remote_urls": "none configured",
+      "copy_verification": "commit metadata exported read-only; not a public availability record"
+    }
+  ],
+  "follow_up_copies": [
+    {
+      "copied_at_utc": "2026-11-19T14:14:24Z",
+      "source_absolute_path": "/Users/arpit/asi-selection/E1/results_v2/source_inventory.csv",
+      "destination_relative_path": "M/data/s1_review_v3/recovered_evidence_2026-11-19/E1_source_inventory.csv",
+      "bytes": 3241,
+      "sha256": "474acb0f503f171d4fbede7686c63d24a43ab9a29e0564c958acbc7823c4a61d",
+      "copy_verification": "byte-identical",
+      "scope_limit": "Source-paper association inventory only; statuses are UNVERIFIED and this is not an original supplied-input manifest."
+    }
+  ]
+}
